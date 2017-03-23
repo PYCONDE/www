@@ -8128,6 +8128,30 @@ img.mfp-img {
 .twitter-stream .section-heading h2 {
     color:#fff;
 }
+.twitter-stream .section-heading h2 {
+    color:#fff;
+}
+
+/* ------------------ CODE OF CONDUCT------------------ */
+.conduct {
+  text-align: left;
+    /*padding-bottom: 0;*/
+  /*padding: 40px 0;*/
+  background-color: #00aeef;
+}
+
+.conduct .section-heading {
+    margin-bottom: 10px;
+}
+.conduct .section-heading h2 {
+    color:#fff;
+}
+.conduct h3 {
+    color:#fff;
+}
+.conduct {
+    color:#fff;
+}
 
 @media screen and (max-width: 480px) {
   .twitter-stream {
@@ -8285,7 +8309,7 @@ img.mfp-img {
   color: #fafafa;
 }
 
-#conduct ul{
+#conduct ul, #about ul{
     list-style-type: square;
     margin-left: 20px;
 }
