@@ -47,9 +47,8 @@
     "MUSEUM_2_3": {
         "speaker": "Meili Triantafyllidi",
         "tags": [
-            "PyData",
-            "Data Science",
-            "Web"
+            "Web",
+            "API"
         ],
         "title": "Playing with Google ML APIs and websockets",
         "slug": "playing-with-google-ml-apis-and-websockets"
