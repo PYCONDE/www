@@ -1,45 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title type="text">PyCon.DE 2017 &amp; PyData Karlsruhe</title>
-  <id>urn:uuid:53af2a09-01da-33dc-9af3-6578c6b0f005</id>
-  <updated>2018-03-13T00:00:00Z</updated>
+  <id>urn:uuid:9587eef3-f6ed-3c66-8654-ac8dc40baf0b</id>
+  <updated>2018-05-03T00:00:00Z</updated>
   <link href="http://de.pycon.org/" />
   <link href="http://de.pycon.org/feed.xml" rel="self" />
   <author>
     <name></name>
   </author>
   <generator uri="https://github.com/ajdavis/lektor-atom" version="0.2">Lektor Atom Plugin</generator>
-  <entry xml:base="http://de.pycon.org/blog/pyconde-and-pydata-karlsruhe-2018/">
-    <title type="text">PyCon.DE &amp; PyData Karlsruhe 2018</title>
-    <id>urn:uuid:f97f1869-7c71-3c10-a93c-0b956d7cc7c4</id>
-    <updated>2018-03-13T00:00:00Z</updated>
-    <link href="http://de.pycon.org/blog/pyconde-and-pydata-karlsruhe-2018/" />
-    <author>
-      <name>Peter Hoffmann</name>
-    </author>
-    <content type="html">&lt;p&gt;After as successful PyCon.DE 2017 in Karlsruhe the conference PyCon.DE 2018 will be held again at the Center for Art and Media in Karlsruhe. We expect 400 participants. The conference will last 3 days and include about 60 talks, tutorials and hands on sessions.&lt;/p&gt;
-&lt;p&gt;Python is a programming language which has found application and friends in many areas. Due to its popularity in science, Python has experienced a meteoric rise in the data science community over the past few years. At the conference, we expect a broad and interesting mix of Pythonistas. Karlsruhe as a city and a decisive IT region in the south-west of Germany and the ZKM as a venue represent a perfect match for the conference.&lt;/p&gt;
-&lt;p&gt;If you are interested to support the conference see &lt;a href=&quot;https://de.pycon.org/sponsoring/&quot;&gt;https://de.pycon.org/sponsoring/&lt;/a&gt; for sponsoring options.&lt;/p&gt;
-</content>
-  </entry>
-  <entry xml:base="http://de.pycon.org/blog/registration-desk-getting-your-badge/">
-    <title type="text">Registration Desk: Getting your Badge</title>
-    <id>urn:uuid:75335e39-ee5c-3a04-8719-beb2935cc8c0</id>
-    <updated>2017-10-23T00:00:00Z</updated>
-    <link href="http://de.pycon.org/blog/registration-desk-getting-your-badge/" />
-    <author>
-      <name>Peter Hoffmann</name>
-    </author>
-    <content type="html">&lt;p&gt;Early registration and handout of the badges will be already open on Tuesday from 16:00-18:00. So if you are already in Karlsruhe just drop by and get your badge. If you like, you can also help a with the conference setup.&lt;/p&gt;
-&lt;p&gt;On Wednesday the registration will be opened at 8:00. There will be 5 lanes to get your badge. The badges will be ordered by LAST NAME.  Badge-Distribution: 5 buckets: A-E, F-J, K-N, O-S, T-Z&lt;/p&gt;
-&lt;p&gt;Badges are printed for all tickets purchased and assigned by Friday 20.10.2017 Changes made later will not show on the badges.
-In case you cannot find a name and badge, just go to the desk manager and we'll take care of it.&lt;/p&gt;
-</content>
-  </entry>
   <entry xml:base="http://de.pycon.org/blog/fin-aid/">
     <title type="text">Fin Aid</title>
-    <id>urn:uuid:028f35ef-e54b-33b5-a1d5-90f1712e6777</id>
-    <updated>2017-09-12T00:00:00Z</updated>
+    <id>urn:uuid:af3053c3-db13-3dec-97dc-8ba131c1beed</id>
+    <updated>2018-05-03T00:00:00Z</updated>
     <link href="http://de.pycon.org/blog/fin-aid/" />
     <author>
       <name>Peter Hoffmann</name>
@@ -50,18 +23,18 @@ In case you cannot find a name and badge, just go to the desk manager and we'll 
 &lt;p&gt;Ticket: A student or standard ticket for the conference (including access to talks, trainings, sprints, lunch and coffee breaks refreshment) with a speaker discount.&lt;/p&gt;
 &lt;p&gt;Travel costs:  We will cover the travel costs pro rata, depending on what you are applying for.&lt;/p&gt;
 &lt;p&gt;Accommodation: We can cover the accommodation costs in an appropriate reasonable ho(s)tel price range.&lt;/p&gt;
-&lt;p&gt;Note: The social event is NOT included in the PyCon.DE 2017 conference tickets. You will have to purchase separate tickets if you want to attend the social event.&lt;/p&gt;
+&lt;p&gt;Note: The social event is NOT included in the PyCon.DE 2018 conference tickets. You will have to purchase separate tickets if you want to attend the social event.&lt;/p&gt;
 &lt;h2&gt;Grant Eligibility&lt;/h2&gt;
 &lt;p&gt;Our grants are open to all people in need of financial aid. We will specifically take into account the following criteria in the selection process:&lt;/p&gt;
 &lt;p&gt;Contributors: Accepted speakers/trainers of PyCon.DE  and all who contribute to PyCon.DE and/or Python community projects.&lt;/p&gt;
 &lt;p&gt;Economic factors: We want everybody to have a chance to come to PyCon.DE, regardless of economic situation or income level.&lt;/p&gt;
 &lt;p&gt;Diversity: We seek the most diverse and inclusive event possible.&lt;/p&gt;
 &lt;h2&gt;How to apply&lt;/h2&gt;
-&lt;p&gt;Please fill in the &lt;a href=&quot;https://www.surveymonkey.de/r/QP2V9FJ&quot;&gt;PyCon.DE Diversity Scholarship Application Form&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Please fill in the &lt;a href=&quot;https://goo.gl/forms/vOXDTiSRGaXfYGx93&quot;&gt;PyCon.DE Diversity Scholarship Application Form&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Timeline&lt;/h2&gt;
 &lt;p&gt;The financial aid committee is planning one decision round.&lt;/p&gt;
-&lt;p&gt;The deadline for submitting the applications is &lt;em&gt;2017-10-01&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Applicants will be notified by e-mail around &lt;em&gt;2017-10-10&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The deadline for submitting the applications is &lt;em&gt;2018-07-15&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Applicants will be notified by e-mail around &lt;em&gt;2017-08-01&lt;/em&gt;.&lt;/p&gt;
 &lt;h2&gt;Refund management&lt;/h2&gt;
 &lt;p&gt;Free ticket: The individual coupons will be generated for a free ticket.&lt;/p&gt;
 &lt;p&gt;Accommodation / Travel grant: All grants involving reimbursements will be done by money transfer after the conference. Please email your receipts (invoice, plane/bus/train ticket or other approval email) to info@pycon.de and bring your passport or ID card, when requesting the reimbursement.&lt;/p&gt;
@@ -71,49 +44,22 @@ In case you cannot find a name and badge, just go to the desk manager and we'll 
 &lt;p&gt;See you at PyCon.DE in Karlsruhe!&lt;/p&gt;
 </content>
   </entry>
-  <entry xml:base="http://de.pycon.org/blog/data-science-meetup/">
-    <title type="text">PyCon.DE Data Science Meetup</title>
-    <id>urn:uuid:d7c29040-7dca-3cf2-8c9d-8e30cd1e2724</id>
-    <updated>2017-09-02T00:00:00Z</updated>
-    <link href="http://de.pycon.org/blog/data-science-meetup/" />
+  <entry xml:base="http://de.pycon.org/blog/pyconde-and-pydata-karlsruhe-2018/">
+    <title type="text">PyCon.DE &amp; PyData Karlsruhe 2018</title>
+    <id>urn:uuid:de9bedcd-c982-3288-8633-37d05a9c548b</id>
+    <updated>2018-03-13T00:00:00Z</updated>
+    <link href="http://de.pycon.org/blog/pyconde-and-pydata-karlsruhe-2018/" />
     <author>
       <name>Peter Hoffmann</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.inovex.de/de/&quot;&gt;Inovex&lt;/a&gt; is known for their great &lt;a href=&quot;https://www.meetup.com/de-DE/inovex-karlsruhe/&quot;&gt;meetups&lt;/a&gt; in Karlsruhe. 
-We are very happy that they joined &lt;a href=&quot;http://pycon.de&quot;&gt;PyCon.DE&lt;/a&gt; as a &lt;a href=&quot;http://pycon.de/sponsoring/&quot;&gt;Meetup Sponsor&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;There will be a data science meetup at the evening of the first conference day (wednesday 25.10.2017) with the following speakers:&lt;/p&gt;
-&lt;h3&gt;Florian Schild (boot.ai)&lt;/h3&gt;
-&lt;p&gt;Florian Schild is an Artificial Intelligence expert. He was an officer in the
-Air Force, researcher for the Ministry of Defense, worked in established
-companies and young start-ups – including Shop.co from Düsseldorf where he
-build up the AI-Technology. In his talk, he shows how artificial intelligence
-can be applied in companies. He provides valuable impulses, such as the
-conceptualization of AI products and strategies, the development of agile AI
-teams and the automation of business processes. With his company boot.AI
-Florian prepares companies for the new digital age so called artificial
-intelligence.&lt;/p&gt;
-&lt;h3&gt;Marcel Kurovski (inovex)&lt;/h3&gt;
-&lt;p&gt;“People buying X also bought Y”, “Discover Weekly”, “Top 10 for You” -
-personalization of online services by recommendations surrounds everyone in
-daily life. To personalize content Amazon, Spotify, Netflix and many more use
-Recommender Systems and Machine Learning. This development comes along with
-another remarkable trend around learning machines: Deep Learning. Almost daily
-we hear about the tremendous progress that makes humans obsolete in more and
-more domains: skin cancer detection, No-Limit-Hold'em Heads-Up Poker, or speech
-recognition (No, not yet another Alpha-Go example).&lt;/p&gt;
-&lt;p&gt;During his master thesis at inovex Marcel Kurovski studied the application of
-Deep Learning for Recommender Systems. He investigated interesting approaches
-in this emerging research area. In addition, he developed a system for vehicle
-recommendation in TensorFlow based on data from a large German online market
-that extends Google’s Wide and Deep Learning approach. In his talk Marcel will
-share his insights and those of other big players with you. He will also share
-his impressions from the very recent ACM RecSys Conference 2017 in Como which
-is the leading conference for recommender systems.&lt;/p&gt;
+    <content type="html">&lt;p&gt;After as successful PyCon.DE 2017 in Karlsruhe the conference PyCon.DE 2018 will be held again at the Center for Art and Media in Karlsruhe. We expect 400 participants. The conference will last 3 days and include about 60 talks, tutorials and hands on sessions.&lt;/p&gt;
+&lt;p&gt;Python is a programming language which has found application and friends in many areas. Due to its popularity in science, Python has experienced a meteoric rise in the data science community over the past few years. At the conference, we expect a broad and interesting mix of Pythonistas. Karlsruhe as a city and a decisive IT region in the south-west of Germany and the ZKM as a venue represent a perfect match for the conference.&lt;/p&gt;
+&lt;p&gt;If you are interested to support the conference see &lt;a href=&quot;https://de.pycon.org/sponsoring/&quot;&gt;https://de.pycon.org/sponsoring/&lt;/a&gt; for sponsoring options.&lt;/p&gt;
 </content>
   </entry>
   <entry xml:base="http://de.pycon.org/blog/pycon-zkm-open-codes/">
     <title type="text">PyCon.DE @ ZKM Open Codes Exhibition</title>
-    <id>urn:uuid:0a8229c3-797e-35ed-a93c-76c05352da30</id>
+    <id>urn:uuid:1c984d7b-9cda-3e90-b993-334e9cb99822</id>
     <updated>2017-09-01T00:00:00Z</updated>
     <link href="http://de.pycon.org/blog/pycon-zkm-open-codes/" />
     <author>

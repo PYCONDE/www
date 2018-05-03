@@ -24,13 +24,20 @@ body:
             enthusiasts at the conference. This conference is an excellent opportunity to present
             your company, organization and products or services to a friendly and interested audience.</p>
 
-            <p>See our <a href="../files/pycon_de_2018_karlsruhe_sponsoring_de.pdf">Sponsoring Flyer</a> (<a href="../files/pycon_de_2018_karlsruhe_sponsoring_en.pdf">en</a>) for more information. If you are interested please contact
+            <p></p>
+            <h3>Sponsoring Options for PyConDE 2018</h3>
+            <p>See our <a href="../files/pycon_de_2018_karlsruhe_sponsoring_de.pdf">Sponsoring Flyer</a> (<a href="../files/pycon_de_2018_karlsruhe_sponsoring_en.pdf">en</a>) for more information. <br>
+            If you are interested please contact
                 <a href="mailto:info@pycon.de">info@pycon.de </a>.
             </p>
             </div>
             <div class="row">
               <div class="col-md-4 sponsor">
                 <p><a href="http://daimler.com"><img src="../files/daimler-logo.png" alt="daimler"></a></p>
+                <h3>Gold Sponsor</h3>
+              </div>
+              <div class="col-md-4 sponsor">
+                <p><a href="http://yelp.de"><img src="../files/yelp-logo.png" alt="yelp"></a></p>
                 <h3>Gold Sponsor</h3>
               </div>
               <div class="col-md-4 sponsor">

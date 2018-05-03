@@ -10,7 +10,7 @@ body:
         <div id="slidecaption" class="slide-caption">
             <div class="hero-text">
                 <h2 class="hero-heading">PyCon.DE 2018 &amp; PyData Karlsruhe</h2>
-                <h2 class="hero-heading">October 25&ndash;28</h2>
+                <h3 class="hero-heading">October 25&ndash;28</h3>
                 <p>
                 is the traditional meeting point for people who work and play with Python.
                 <br>
@@ -35,27 +35,28 @@ body:
                 <h2 class="hero-heading">October 24&ndash;26</h2>
             </div>
             <div class="row">
-                <div class="col-md-2">
+                <div class="col-md-3">
                     <img src="files/logo.png" class="logo" style="margin-bottom:15px">
                 </div>
-                <div class="col-lg-10">
+                <div class="col-lg-9">
                 <p>PyCon.DE is where Pythonistas in Germany can meet to
                 learn about new and upcoming Python libraries, tools,
                 software and data science. We welcome Python enthusiasts,
                 programmers and data scientists from around the world
                 to join us in Karlsruhe this year.</p>
+
+                <p><b>The Call for Papers is now open:</p><p><a href="https://pretalx.com/pyconde18-pydata-ka/" target="blank" >Submit a talk here.</p></a></b></h3>
+
             </div>
-            </div>
-            <div class="row">
-            <img src="files/pyconde2017.jpg">
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6">
-           <p> We expect 400 participants for PyCon.DE 2018 Karlsruhe.
+
+            <div class="col-lg-9">
+           <p> We expect more than 500 participants for PyCon.DE 2018 Karlsruhe.
            The conference will last 3 days and include about 60 talks, tutorials
            and hands on sessions.
-           Python is a programming language which has found application and
+           The Python programming language has found application and
            friends in many areas. Due to its popularity in science, Python
            has experienced a meteoric rise in the data science community
            over the past few years. At the conference, we expect a broad
@@ -81,12 +82,13 @@ body:
             into the <a href="https://www.cyberforum.de">cyberforum</a> IT company network and is part of a "software cluster"
             recognized and sponsored by the federal government.</p>
             </p>
-               <a href="http://pydata.org"><img src="files/pydata-logo.png" class="logo"></a>
-            <p>The conference will include a <a href="http://pydata.org">PyData</a> track:</p>
+        <a href="http://pydata.org"><img style="max-width:200px" src="files/pydata-logo.png" class="logo"></a>
+        <p>The conference will include a <a href="http://pydata.org">PyData</a> track:</p>
                 <blockquote>PyData brings together both users and developers of data analysis tools to share ideas and learn from each other. The goals are to provide data science enthusiasts, across various domains, a place to discuss how best to apply languages and tools to the challenges of data management, processing, analytics, and visualization. </blockquote>
+
         </div>
-        <div class="col-lg-6">
-            <a class="twitter-timeline" data-height="1000" href="https://twitter.com/PyConDE?ref_src=twsrc%5Etfw">Tweets by PyConDE</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <div class="col-lg-3">
+             <a class="twitter-timeline" data-height="1000" href="https://twitter.com/PyConDE?ref_src=twsrc%5Etfw">Tweets by PyConDE</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
 
         </div>
@@ -158,6 +160,11 @@ body:
                 </div>
             </div>
         </div>
+          <div class="row">
+            <div class="row">
+            <img class="bigpic" src="files/pyconde2017.jpg">
+            </div>
+            </div>
     </div>
 </div>
 <!-- END ABOUT -->
