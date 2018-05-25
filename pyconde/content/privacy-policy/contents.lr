@@ -1,0 +1,6 @@
+_model: redirect
+---
+target: https://ti.to/pycon-de/pycon-de-pydata-2018/smallprint
+label: Privacy Policy
+---
+_discoverable: no
