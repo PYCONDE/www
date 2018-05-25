@@ -1,29 +1,7 @@
-title: Welcome to pyconde!
+title: Welcome to PyConDE & P!
 ---
 body:
 
-
-<!-- HERO UNIT -->
-<div id="hero-unit" class="hero-unit">
-    <!--
-    <div class="hero-content text-center">
-        <div id="slidecaption" class="slide-caption">
-            <div class="hero-text">
-                <h2 class="hero-heading">PyCon.DE 2018 &amp; PyData Karlsruhe</h2>
-                <h3 class="hero-heading">October 25&ndash;28</h3>
-                <p>
-                is the traditional meeting point for people who work and play with Python.
-                <br>
-                Hosted in Germany and held in the English language, the conference welcomes all Python professionals and enthusiasts whether near or far.
-                <br>
-                We hope you will join us this year to learn, share ideas and meet new friends.
-                </p>
-            </div>
-        </div>
-       -->
-    </div>
-</div>
-<!-- END HERO UNIT -->
 <!-- MAIN CONTENT -->
 <div id="main-content" class="main-content">
 <!-- ABOUT -->
@@ -32,23 +10,27 @@ body:
         <div class="section-heading">
             <div class="row">
             <h2 class="hero-heading">PyCon.DE 2018 &amp; PyData Karlsruhe</h2>
-                <h2 class="hero-heading">October 24&ndash;26</h2>
+                <h3 class="hero-heading">October 24&ndash;28 2018</h3>
             </div>
+            <div class="row" style="height: 20px"></div>
             <div class="row">
                 <div class="col-md-3">
                     <img src="files/logo.png" class="logo" style="margin-bottom:15px">
                 </div>
                 <div class="col-lg-9">
-                <p>PyCon.DE is where Pythonistas in Germany can meet to
+                <h3 class="align-bottom" style="text-align: left;vertical-align: middle;">PyCon.DE is where Pythonistas in Germany can meet to
                 learn about new and upcoming Python libraries, tools,
-                software and data science. We welcome Python enthusiasts,
+                software and data science. </h3>
+                <h3 class="align-bottom" style="text-align: left;vertical-align: middle;">We welcome Python enthusiasts,
                 programmers and data scientists from around the world
-                to join us in Karlsruhe this year.</p>
-
-                <p><b>The Call for Papers is now open:</p><p><a href="https://pretalx.com/pyconde18-pydata-ka/" target="blank" >Submit a talk here.</p></a></b></h3>
+                to join us in Karlsruhe this year.</h3>
+                <h3 class="align-bottom" style="text-align: left;vertical-align: middle;">Talks, Trainings & Posters: Wed 24 - Fri 26<br>Sprints: Sat 27 - Sun 28</h3>
+                </div>
 
             </div>
-            </div>
+            <div class="col align-self-center alert alert-info" role="alert" style="text-align: center;vertical-align: middle;"><h3>The Call for Papers is now open: <a href="https://pretalx.com/pyconde18-pydata-ka/" target="blank" >Submit a talk here.</p></a></h3></div>
+            <div class="col align-self-center alert alert-info" role="alert" style="text-align: center;vertical-align: middle;"><h3>Ticket Sales will open Monday May 28 12:00 CEST: <a href="/tickets" >Get your ticket</p></a></h3></div>
+
         </div>
         <div class="row">
 
@@ -93,28 +75,7 @@ body:
 
         </div>
 
-        <div class="section-heading">
-            <h2><a href="https://www.instagram.com/pycon.de/">Instagram Feed</a></h2>
-        </div>
-        <div class="row">
-           <div class="col-lg-12">
-               <script type="text/javascript" src="assets/js//instafeed.min.js"></script>
-               <script type="text/javascript">
-    var feed = new Instafeed({
-        get: 'user',
-        userId: '6239881609',
-        clientId: '13f70f9f67bb43c38dccfbbf3810caae',
-        accessToken: '6239881609.13f70f9.12ff5cb6f3974ca4956c29b964828a69',
-        resolution: 'low_resolution',
-        limit: 9
-    });
-    feed.run();
-</script>
-            <center>
-            <div id="instafeed"></div>
-            </center>
-           </div>
-        </div>
+
 
             <hr/>
         <div class="section-content">
@@ -160,11 +121,55 @@ body:
                 </div>
             </div>
         </div>
-          <div class="row">
-            <div class="row">
-            <img class="bigpic" src="files/pyconde2017.jpg">
+        <div class="container alert alert-dark">
+            <div class="section-heading">
+                <h3>Social Media</h3>
             </div>
+            <div id="tweet"></div>
+            <div class="row ">
+              <div class="col-lg-4 ">
+                  <h3 style="color: white">@pyconde</h3>
+                <div class="twitter-icon">
+                    <p><a href="https://twitter.com/pyconde" data-toggle="tooltip" data-placement="left"
+                        title="Follow us on Twitter"><i class="fa fa-twitter"></i></a><br>
+                    <a href="https://twitter.com/search?q=%23PyConDE">#PyConDE</a>
+                    </p>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                  <h3 style="color: white">pyconde group</h3>
+                  <p>General announcements in the <a href="https://t.me/pyconde">PyCon.DE telegram group</a>.</p>
+              </div>
+              <div class="col-lg-4">
+                  <h3 style="color: white">pyconde allhands group</h3>
+                  <p>Want to help organizing the PyCon.DE 2018 &amp; PyData Karlsruhe, then joint the <a href="https://t.me/joinchat/AXbpxQslQ4IJkNkVaYTOWw">PyCon.DE allhands telegram group</a>.</p>
+              </div>
             </div>
+    </div>
+
+    <div class="section-heading">
+            <h2><a href="https://www.instagram.com/pycon.de/">Instagram Feed</a></h2>
+        </div>
+        <div class="row">
+           <div class="col-lg-12">
+               <script type="text/javascript" src="assets/js//instafeed.min.js"></script>
+               <script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'user',
+        userId: '6239881609',
+        clientId: '13f70f9f67bb43c38dccfbbf3810caae',
+        accessToken: '6239881609.13f70f9.12ff5cb6f3974ca4956c29b964828a69',
+        resolution: 'low_resolution',
+        limit: 9
+    });
+    feed.run();
+</script>
+            <center>
+            <div id="instafeed"></div>
+            </center>
+           </div>
+        </div>
+
     </div>
 </div>
 <!-- END ABOUT -->
