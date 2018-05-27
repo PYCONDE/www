@@ -29,7 +29,7 @@ body:
                 </div>
 
             </div>
-            <div class="col align-self-center alert alert-info" role="alert" style="text-align: center;vertical-align: middle;"><h3>The Call for Papers is now open: <a href="https://pretalx.com/pyconde18-pydata-ka/" target="blank" >submit a talk here.</p></a></h3></div>
+            <div class="col align-self-center alert alert-info" role="alert" style="text-align: center;vertical-align: middle;"><h3>The Call for Papers is until Sun May 27 23:59:59 CEST: <a href="https://pretalx.com/pyconde18-pydata-ka/" target="blank" >submit a talk here.</p></a></h3></div>
             <div class="col align-self-center alert alert-info" role="alert" style="text-align: center;vertical-align: middle;"><h3>Ticket sales will open Monday May 28 12:00 CEST: <a href="/tickets" >get your ticket</p></a></h3></div>
 
         </div>
