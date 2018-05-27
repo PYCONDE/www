@@ -30,16 +30,21 @@ body:
                     <li>catering for three days</li>
                     <li>gift bag and T-Shirt</li>
                 </ul>
-               </div>
-                   <div class="col-lg-4">
                 <h3>Social Event</h3>
                 <p>There will be a social event on Thursday again, The social event requires an extra ticket.</p>
                </div>
+
 
               <div class="col-lg-4">
                 <h3 id="pycondesprint">Sprint</h3>
                 <p>The weekend (27&ndash;28 Oct 2018) after the conference there will be 2 days of <a href="../schedule/sprint/">Python Development Sprints</a></p>
                 <p>The access to the development sprints is free to all conference participants. We provide the infrastructure (space, network) - you provide the brainpower. If you want to organize a sprint add it to the <a href="https://github.com/PYCONDE/sprints/blob/master/SprintOverview.md">sprints overview page</a>.</p>
+               </div>
+
+               <div class="col-lg-4">
+<h3 id="pycondesprint">Financial Support</h3>
+                <p>To foster diversity and to make PyConDE accessible for any pocket-size, we do have a financial support program, <a href="https://de.pycon.org/blog/fin-aid/">more details here.</a>
+</p>
                </div>
             </div>
         </div>
