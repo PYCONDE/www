@@ -1,4 +1,4 @@
-PyCon.DE & PyData Karlsruhe 2017
+PyCon.DE & PyData Karlsruhe 2017 & 2018
 ================================
 
 
