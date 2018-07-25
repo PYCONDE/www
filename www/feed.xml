@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title type="text">PyCon.DE 2017 &amp; PyData Karlsruhe</title>
-  <id>urn:uuid:9587eef3-f6ed-3c66-8654-ac8dc40baf0b</id>
-  <updated>2018-05-24T00:00:00Z</updated>
+  <id>urn:uuid:53af2a09-01da-33dc-9af3-6578c6b0f005</id>
+  <updated>2018-07-25T15:23:12.516989Z</updated>
   <link href="http://de.pycon.org/" />
   <link href="http://de.pycon.org/feed.xml" rel="self" />
   <author>
@@ -11,7 +11,7 @@
   <generator uri="https://github.com/ajdavis/lektor-atom" version="0.2">Lektor Atom Plugin</generator>
   <entry xml:base="http://de.pycon.org/blog/ticket-pricing-2018/">
     <title type="text">Tickets</title>
-    <id>urn:uuid:bc58fb99-1faf-382e-9c1f-7c3022d21914</id>
+    <id>urn:uuid:a13c1af1-915f-32ca-8413-51f9d2fa519b</id>
     <updated>2018-05-24T00:00:00Z</updated>
     <link href="http://de.pycon.org/blog/ticket-pricing-2018/" />
     <author>
@@ -46,7 +46,7 @@
   </entry>
   <entry xml:base="http://de.pycon.org/blog/fin-aid/">
     <title type="text">Fin Aid</title>
-    <id>urn:uuid:af3053c3-db13-3dec-97dc-8ba131c1beed</id>
+    <id>urn:uuid:028f35ef-e54b-33b5-a1d5-90f1712e6777</id>
     <updated>2018-05-03T00:00:00Z</updated>
     <link href="http://de.pycon.org/blog/fin-aid/" />
     <author>
@@ -81,7 +81,7 @@
   </entry>
   <entry xml:base="http://de.pycon.org/blog/pyconde-and-pydata-karlsruhe-2018/">
     <title type="text">PyCon.DE &amp; PyData Karlsruhe 2018</title>
-    <id>urn:uuid:de9bedcd-c982-3288-8633-37d05a9c548b</id>
+    <id>urn:uuid:f97f1869-7c71-3c10-a93c-0b956d7cc7c4</id>
     <updated>2018-03-13T00:00:00Z</updated>
     <link href="http://de.pycon.org/blog/pyconde-and-pydata-karlsruhe-2018/" />
     <author>
@@ -94,7 +94,7 @@
   </entry>
   <entry xml:base="http://de.pycon.org/blog/pycon-zkm-open-codes/">
     <title type="text">PyCon.DE @ ZKM Open Codes Exhibition</title>
-    <id>urn:uuid:1c984d7b-9cda-3e90-b993-334e9cb99822</id>
+    <id>urn:uuid:0a8229c3-797e-35ed-a93c-76c05352da30</id>
     <updated>2017-09-01T00:00:00Z</updated>
     <link href="http://de.pycon.org/blog/pycon-zkm-open-codes/" />
     <author>
@@ -116,6 +116,20 @@ To understand the world that sustains us&lt;/p&gt;
 &lt;p&gt;From the binary code (Leibniz) to Morse code, from cosmic code to the genetic code, we live in a world of codes. This exhibition, a collection of artworks and scientific works gives you the opportunity to get an insight into this world and to better understand it. The exhibition will be a mix of a laboratory and a lounge, a »Club Mediterranée«, and a learning environment.&lt;/p&gt;
 &lt;p&gt;We would like to test new and perhaps unusual education and learning formats with our visitors, and create new approaches to knowledge in a relaxed atmosphere that stimulates learning. Programming, learning with bots and other new technologies should no longer pose a limit to education. Everyone should have the chance to understand what lies behind today’s digital world. Whether with free entry to events, snacks and drinks at the museum or natural work in the museum field – the exhibition will change the approach to museum installations as an educational policy experiment in the area of »Audience Development«. The museum will, in the true sense of the word, be well worth a visit.&lt;/p&gt;
 &lt;p&gt;Artworks and scientific works based on digital as well as on analog codes are presented in the exhibition. The works visualize and explain the complex dynamics of code, and the way in which they are increasingly shaping the way we live and perceive the world.&lt;/p&gt;
+</content>
+  </entry>
+  <entry xml:base="http://de.pycon.org/blog/pyconde-and-pydata-karlsruhe-2018-keynote-wes-mckinney/">
+    <title type="text">PyCon.DE &amp; PyData Karlsruhe 2018 Keynote: Wes McKinney</title>
+    <id>urn:uuid:658007c7-e467-3024-9339-4082a61c863b</id>
+    <updated>2018-07-25T15:23:12.516989Z</updated>
+    <link href="http://de.pycon.org/blog/pyconde-and-pydata-karlsruhe-2018-keynote-wes-mckinney/" />
+    <author>
+      <name>Peter Hoffmann</name>
+    </author>
+    <content type="html">&lt;p&gt;We are very happy to confirm Wes McKinney as a keynote speaker for PyCon.DE 2018 &amp; PyData Karlsruhe.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../files/keynote-wes.jpeg&quot; alt=&quot;Wes McKinney Keynote PyCon.DE&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Wes McKinney has been creating fast, easy-to-use data wrangling and statistical computing tools, mostly in the Python programming language, since 2007. 
+He is best known for creating the pandas project and writing the book Python for Data Analysis. He is a PMC member of the Apache Arrow and Parquet  projects in The Apache SoftwareFoundation.&lt;/p&gt;
 </content>
   </entry>
 </feed>
