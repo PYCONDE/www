@@ -104,15 +104,6 @@ body:
               <p>Founder kjamistan, Author of O'Reilly book "Data Wrangling with Python" </p>
            </div>
         <div class="row">
-          <div class="col-md-4 profile">
-              <h2>Martin Stamenov</h2>
-              <div class="twitter-icon">
-                 <a href="https://twitter.com/Mstamenov94" data-toggle="tooltip" data-placement="left"
-                     title="Martin Stamenov"><i class="fa fa-twitter"></i></a>
-              </div>
-              <h3>Sprints</h3>
-              <p>Student KIT</p>
-              </div>
            </div>
           </div>
         </div>
