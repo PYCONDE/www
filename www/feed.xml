@@ -2,13 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title type="text">PyCon.DE 2017 &amp; PyData Karlsruhe</title>
   <id>urn:uuid:53af2a09-01da-33dc-9af3-6578c6b0f005</id>
-  <updated>2018-08-20T00:00:00Z</updated>
+  <updated>2018-08-30T00:00:00Z</updated>
   <link href="http://de.pycon.org/" />
   <link href="http://de.pycon.org/feed.xml" rel="self" />
   <author>
     <name></name>
   </author>
   <generator uri="https://github.com/ajdavis/lektor-atom" version="0.2">Lektor Atom Plugin</generator>
+  <entry xml:base="http://de.pycon.org/blog/pyconde-and-pydata-karlsruhe-2018-keynote-emmanuelle-ouillart/">
+    <title type="text">PyCon.DE &amp; PyData Karlsruhe 2018 Keynote: Emmanuelle Gouillart</title>
+    <id>urn:uuid:ea9ec9bc-6f5c-3e46-8e92-3f45a7dc297f</id>
+    <updated>2018-08-30T00:00:00Z</updated>
+    <link href="http://de.pycon.org/blog/pyconde-and-pydata-karlsruhe-2018-keynote-emmanuelle-ouillart/" />
+    <author>
+      <name>Peter Hoffmann</name>
+    </author>
+    <content type="html">&lt;p&gt;We are very happy to confirm Emmanuelle Gouillart as a keynote speaker for PyCon.DE 2018 &amp; PyData Karlsruhe.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../files/keynote-emma.png&quot; alt=&quot;Emmanuelle Gouillart PyCon.DE&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Emmanuelle is a researcher and geek, enthusiastic about physics and glass science, Scientific Python and image processing, travels and graphic arts as well as a #skimage developer.&lt;/p&gt;
+</content>
+  </entry>
   <entry xml:base="http://de.pycon.org/blog/pyladies-x-micropython-pyconde/">
     <title type="text">PyLadies X Micropython @ PyConDE</title>
     <id>urn:uuid:7bb21017-1e58-36bb-ad6d-4f69f81eaed1</id>
