@@ -3,5 +3,5 @@ submissions.json
 schedule.xlsx
 speakers_accepted.json
 www/.lektor/
-
+.vscode/
 .idea
