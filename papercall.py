@@ -36,26 +36,7 @@ def enrich(entry):
     return entry
 
 
-# data = json.load(open("submissions.json"))
-data = json.load(open(os.path.join(TALKS_INFO_PATH, "speakers_accepted.json")))
-data = list(filter(lambda entry: entry["state"] == "accepted", data))
-data = list(map(enrich, data))
-data.sort(key=lambda entry: entry["title"])
 
-
-# for d in data:
-#     if d['slug'] == 'an-introduction-to-pymc3':
-#         d['name'] = 'Adrian Seyboldt'
-#     elif d['slug'] == 'getting-scikit-learn-to-run-on-top-of-pandas':
-#         d['name'] = 'Ami Tavory'
-#     elif d['slug'] == 'metaclasses-when-to-use-and-when-not-to-use':
-#         d['description'] = d['description'].replace("# Description", "")
-#     elif d['name'] == "Jens Nie":
-#         d['name'] = "Jens Nie,Andre Lengwenus"
-#     elif d['name'] == "Ines Dorian Gütt":
-#         d['name'] = "Ines Dorian Gütt,Marie Dedikova"
-#     elif d['name'] == "Thomas Reifenberger":
-#         d['name'] = "Thomas Reifenberger,Martin Foertsch"
 
 
 def get_talk(speaker):
@@ -154,14 +135,6 @@ def gen():
         dump(entry, kind='talks')
 
 
-def bada():
-    tpl = """#PyConDE Talk @{twitter}:
-{title}
-
-https://de.pycon.org/schedule/talks/{slug}/"""
-    for entry in data:
-        print(tpl.format(**entry))
-        print("\n---\n\n")
 
 
 def parse(s):
@@ -219,8 +192,35 @@ def gen_schedule_databag():
     json.dump(tutorials, open("pyconde/databags/tutorials.json", "w"), indent=4)
 
 
-    import click
-    
+import click
+
+def gen_schedule_talks(data):
+    tpl = """_model: talk 
+---
+code: {}
+"""
+    for e in data.values():
+        dirname = "pyconde/content/schedule/talks/{}".format(e["slug"])
+        if not os.path.isdir(dirname):
+            os.makedirs(dirname)
+        with open(os.path.join(dirname, "contents.lr"), "w") as f:
+            f.write(tpl.format(e["slot_code"]))
+import hashlib
+def gen_gravatar(email):
+    h = hashlib.md5(email.encode("utf-8")).hexdigest()
+    return "https://www.gravatar.com/avatar/{}".format(h)
+
+
+def fix_data():
+    data = json.load(open("pyconde/databags/talks.json"))
+    for talk in data.values():
+        for speaker in talk["the_speakers"]:
+            speaker["gravatar"] = gen_gravatar(speaker["email"])
+            if "homepage" in speaker and not speaker["homepage"].strip().startswith("http:"):
+                speaker["homepage"] = "http://{}".format(speaker["homepage"].strip())
+    json.dump(data, open("pyconde/databags/talks.json", "w"), indent=4)
+
+
 @click.command()
 @click.option('--schedule_dir', envvar="SCHEDULE_DIR", default="", help='The directory with the schedule and the speaker json')
 def cli(schedule_dir):
@@ -232,6 +232,11 @@ def cli(schedule_dir):
     #gen()
     # bada()
     #gen_schedule_databag()
+
+    #data = json.load(open("pyconde/databags/talks.json"))
+    #gen_schedule_talks(data)
+
+    fix_data()
 
 if __name__ == '__main__':
     cli()

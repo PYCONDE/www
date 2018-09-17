@@ -14,28 +14,24 @@
             <!-- place this where you want the widget to appear -->
             <div class="row blog-content">
             <h1>{{bag("talks")[this.code]["title"]}}</h1>
-                {{bag("talks")[this.code]["abstract"]}}
-
-
-
-
-                            <h1>Lift your Speed Limits with Cython</h1>
-            <p></p>
-            <div class="avatar">
-            <img src="https://secure.gravatar.com/avatar/8b97b5aad24c30e4a1357b38cc39aeaa?s=500" alt="">
-            <strong><a href="http://consulting.behnel.de">Stefan Behnel</a></strong><p></p>
-            <p>Stefan has been using Python since the beginning of the century and is probably best known as core developer of <a href="http://cython.org">Cython</a> and <a href="http://lxml.de">lxml</a>. He spends his time joyfully writing Python and Cython code and teaching people like you how to make the best out of these tools.
-            </p>
-            </div>
-            <p></p>
-            <h2>Abstract</h2>
-            <p><em>Tags:</em> compilation optimisation cython performance</p>
-            <p>Think you can benefit from making your Python application run faster? Then come along and learn how to tune your code with Cython.</p>
+            <p>{{bag("talks")[this.code]["abstract"]}}</p>
+            {% if bag("talks")[this.code]["domains"]%}
+            <p><em>Tags:</em> {{bag("talks")[this.code]["domains"]}}</p>
+            {%endif%}
+            <h2>Speaker</h2>
+            {%for speaker in bag("talks")[this.code]["the_speakers"] %}
+                <div class="avatar">
+                <img src="{{speaker['gravatar']}}?s=500" alt="">
+                <!--<strong><a href="{{speaker['homepage']}}"></a>{{speaker['name']}}</a></strong>-->
+                <strong>{{speaker['name']}}</strong>
+                {% if speaker['@twitter'] %}
+                (<a href="http://twitter.com/{{speaker['@twitter']}}">{{speaker['@twitter']}}</a>)
+                {%endif%}
+                <p>{{speaker['biography']|markdown}}</p>
+                </div>
+            {%endfor%}
             <h2>Description</h2>
-            <p><a href="http://cython.org">Cython</a> is not just a Python compiler or a native code wrapping tool, but also a programming language in its own right that mixes Python with C and C++. The fact that you can simply drop Python code into it and compile it gives a very low entry level into performance optimisation by statically compiling your critical code and then tuning it into fast C to make it run faster.</p>
-            <p>In this talk, I will show a few use cases where the compilation of regular Python code leads to faster execution, and present ways how to make the code run much faster.</p>
-            
-
+            <p>{{bag("talks")[this.code]["description"]|markdown}}</p>
             </div>
         </div>
     </div>
