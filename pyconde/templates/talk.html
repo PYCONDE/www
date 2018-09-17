@@ -27,7 +27,9 @@
                 {% if speaker['@twitter'] %}
                 (<a href="http://twitter.com/{{speaker['@twitter']}}">{{speaker['@twitter']}}</a>)
                 {%endif%}
+                {% if speaker['biography'] %}
                 <p>{{speaker['biography']|markdown}}</p>
+                {%endif%}
                 </div>
             {%endfor%}
             <h2>Description</h2>
