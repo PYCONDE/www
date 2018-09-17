@@ -2,7 +2,13 @@
 {% block title %}{{bag("talks")[this.code]["title"]}}{% endblock %}
 
 
-{% block head_extra%}{% endblock %}
+{% block head_extra%}
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@pyconde" />
+<meta name="twitter:title" content="{{bag('talks')[this.code]['title']|escape}}" />
+<meta name="twitter:description" content="{{bag('talks')[this.code]['abstract']|escape}}" />
+<meta name="twitter:image" content="https://de.pycon.org/files/logo.png" />
+{% endblock %}
 
 {% block body %}
 <!-- MAIN CONTENT -->
