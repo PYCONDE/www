@@ -24,6 +24,9 @@
             {% if bag("talks")[this.code]["domains"]%}
             <p><em>Tags:</em> {{bag("talks")[this.code]["domains"]}}</p>
             {%endif%}
+            <p>
+            Scheduled on <a href="/schedule/#{{this.code}}">{{bag("talks")[this.code]["slot_date"]}}</a> in room {{bag("talks")[this.code]["room"]}}
+            </p>
             <h2>Speaker</h2>
             {%for speaker in bag("talks")[this.code]["the_speakers"] %}
                 <div class="avatar">
