@@ -12,7 +12,7 @@
 
 {% macro talk(key) -%}
   {%if key in bag("talks")%}
-    <b><a href="talks/{{bag("talks")[key]["slug"]}}/">{{bag("talks")[key]["title"]}}</a></b> {%if bag("talks")[key]["tutorial"] %}(Tutorial){%endif%}</br>
+    <b><a href="talks/{{bag("talks")[key]["slug"]}}/">{{bag("talks")[key]["title"]}}</a></b> {%if bag("talks")[key]["tutorial"] %}(Tutorial){%endif%}<br>
     <i>{{bag("talks")[key]["speakers"]}}</i><br>
     <span class="tags">{{bag("talks")[key]["domains"]}}</span>
   {%endif %}
