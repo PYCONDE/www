@@ -6,6 +6,8 @@ import re
 from unicodedata import normalize
 import os
 from openpyxl import load_workbook
+import click
+
 
 TALKS_INFO_PATH = '../pycon/talks/'
 
@@ -217,14 +219,19 @@ def gen_schedule_databag():
     json.dump(tutorials, open("pyconde/databags/tutorials.json", "w"), indent=4)
 
 
-def main(args=None):
-    if args is None:
-        args = sys.argv
-    gen()
+    import click
+    
+@click.command()
+@click.option('--schedule_dir', envvar="SCHEDULE_DIR", default="", help='The directory with the schedule and the speaker json')
+def cli(schedule_dir):
+    """Simple program that greets NAME for a total of COUNT times."""
+
+    xsl_file = os.path.join(schedule_dir, "pyconde18-pydata-ka-schedule.xlsx")
+    json_file = os.path.join(schedule_dir, "pyconde18-pydata-ka-all_submissions.json")
+
+    #gen()
     # bada()
-    gen_schedule_databag()
+    #gen_schedule_databag()
 
-
-if __name__ == "__main__":
-    # make sure TALKS_INFO_PATH is set to a relative path
-    main()
+if __name__ == '__main__':
+    cli()
