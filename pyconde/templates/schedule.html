@@ -1,14 +1,5 @@
 {% extends "layout.html" %}
 {% block title %}{{ this.title }}{% endblock %}
-{% block body %}
-  {{ this.body}}
-
-{% macro talk2(key) -%}
-  <b><a href="talks/{{bag("talks")[key]["slug"]}}/">{{bag("talks")[key]["title"]}}</a></b></br>
-  <i>{{bag("talks")[key]["speaker"]}}</i><br>
-  {{bag("talks")[key]["tags"]|join(", ")}}
-{%- endmacro %}
-
 
 {% macro talk(key) -%}
   {%if key in bag("talks")%}
@@ -17,6 +8,11 @@
     <span class="tags">{{bag("talks")[key]["domains"]}}</span>
   {%endif %}
 {%- endmacro %}
+
+
+{% block body %}
+  {{ this.body}}
+
 
 <!-- MAIN CONTENT -->
 <div id="main-content" class="main-content">
