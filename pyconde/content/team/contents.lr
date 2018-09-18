@@ -66,24 +66,24 @@ body:
               <p>Full Data Alchemist. EuroPython Organizer/Board Member </p>
           </div>
           <div class="col-md-4 profile">
-              <h2>Jan Karstens</h2>
+              <h2>Melanie Thalmann</h2>
               <div class="twitter-icon">
-                 <a href="https://twitter.com/BYAnalytics_en" data-toggle="tooltip" data-placement="left"
-                     title="Jan Karstens"><i class="fa fa-twitter"></i></a>
+                 <a href="https://twitter.com/thal_mel" data-toggle="tooltip" data-placement="left"
+                     title="Melanie Thalmann"><i class="fa fa-twitter"></i></a>
               </div>
-              <h3>Sponsoring</h3>
-              <p>CTO, Blue Yonder GmbH</p>
+              <h3>Orga</h3>
+              <p>Analystin, Königsweg GmbH</p>
           </div>
         </div>
         <div class="row">
           <div class="col-md-4 profile">
-              <h2>Anna Zinßer</h2>
+              <h2>Natalie Beyer</h2>
               <div class="twitter-icon">
-                 <a href="http://ungleich-anders.de" data-toggle="tooltip" data-placement="left"
-                     title="Anna Zinßer"><i class="fa fa-twitter"></i></a>
+                 <a href="https://twitter.com/natalie_lavrio" data-toggle="tooltip" data-placement="left"
+                     title="Natalie Beyer"><i class="fa fa-twitter"></i></a>
               </div>
-              <h3>Media</h3>
-              <p>UX Designerin ungleich-anders</p>
+              <h3>Orga</h3>
+              <p>Data Scientist, Lavrio.solutions</p>
           </div>
           <div class="col-md-4 profile">
               <h2>Miroslav Šedivý</h2>
@@ -104,6 +104,25 @@ body:
               <p>Founder kjamistan, Author of O'Reilly book "Data Wrangling with Python" </p>
            </div>
         <div class="row">
+          <div class="col-md-4 profile">
+              <h2>Jan Karstens</h2>
+              <div class="twitter-icon">
+                 <a href="https://twitter.com/BYAnalytics_en" data-toggle="tooltip" data-placement="left"
+                     title="Jan Karstens"><i class="fa fa-twitter"></i></a>
+              </div>
+              <h3>Sponsoring</h3>
+              <p>CTO, Blue Yonder GmbH</p>
+          </div>
+        <div class="row">
+          <div class="col-md-4 profile">
+              <h2>Anna Zinßer</h2>
+              <div class="twitter-icon">
+                 <a href="http://ungleich-anders.de" data-toggle="tooltip" data-placement="left"
+                     title="Anna Zinßer"><i class="fa fa-twitter"></i></a>
+              </div>
+              <h3>Media</h3>
+              <p>UX Designerin ungleich-anders</p>
+          </div>
            </div>
           </div>
         </div>
