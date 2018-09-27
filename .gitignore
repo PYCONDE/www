@@ -5,3 +5,4 @@ speakers_accepted.json
 www/.lektor/
 .vscode/
 .idea
+.envrc
