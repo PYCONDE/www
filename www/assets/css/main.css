@@ -8598,3 +8598,6 @@ img.mfp-img {
 }
 
 .tags{color: gray}
+
+.tutorial{background-color: #d9edf7}
+.tutorial:hover{background-color: #bce8f1 !important}
