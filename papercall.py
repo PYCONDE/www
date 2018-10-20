@@ -156,6 +156,15 @@ def load_schedule(filename=None):
     return talk_list
 
 
+def drop_sensitive_speaker_infromation(data):
+    for talk in data.values():
+        for speaker in talk.get("the_speakers", []):
+            for k in list(speaker.keys()):
+                if not k in ["name", "biography", "homepage", "@twitter"]:
+                    del speaker[k]
+    return data
+
+
 def write_databag(data):
     json.dump(data, open("pyconde/databags/talks.json", "w"), indent=4)
     return data
@@ -185,6 +194,7 @@ def cli(schedule_dir):
         partial(load_talks_metadata, filename=json_file),
         fix_data,
         partial(merge_schedule, schedule=load_schedule(xsl_file)),
+        drop_sensitive_speaker_infromation,
         write_databag,
         gen_schedule_talks,
     )
