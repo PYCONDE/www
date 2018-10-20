@@ -6,3 +6,4 @@ www/.lektor/
 .vscode/
 .idea
 .envrc
+__pycache__/
