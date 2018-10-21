@@ -2,13 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title type="text">PyCon.DE 2017 &amp; PyData Karlsruhe</title>
   <id>urn:uuid:53af2a09-01da-33dc-9af3-6578c6b0f005</id>
-  <updated>2018-10-20T00:00:00Z</updated>
+  <updated>2018-10-21T00:00:00Z</updated>
   <link href="http://de.pycon.org/" />
   <link href="http://de.pycon.org/feed.xml" rel="self" />
   <author>
     <name></name>
   </author>
   <generator uri="https://github.com/ajdavis/lektor-atom" version="0.2">Lektor Atom Plugin</generator>
+  <entry xml:base="http://de.pycon.org/blog/guided-tours-for-open-codes-exhibition/">
+    <title type="text">Guided Tours for Open Codes Exhibition</title>
+    <id>urn:uuid:8978af32-5b85-30ce-b405-082cad902c9a</id>
+    <updated>2018-10-21T00:00:00Z</updated>
+    <link href="http://de.pycon.org/blog/guided-tours-for-open-codes-exhibition/" />
+    <author>
+      <name>Peter Hoffmann</name>
+    </author>
+    <content type="html">&lt;p&gt;Like last year there is an exhibition in the &lt;a href=&quot;https://zkm.de&quot;&gt;ZKM&lt;/a&gt; in parallel to the conference. For all participants of the pycon.de the admission is free of charge.&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;The exhibition project &lt;a href=&quot;https://zkm.de/en/exhibition/2017/10/open-codes&quot;&gt;Open Codes&lt;/a&gt; enters its second round! While the first phase »Open Codes. Living in Digital Worlds« presented many varied examples of codes, from Morse code to genetic code, the second phase »Open Codes. The World as a Field of Data« focuses on a world that is increasingly driven by data.&lt;/p&gt;
+&lt;p&gt;»The second edition of Open Codes will show you this new world of fields of data in an abundance of examples. It opens to us a new horizon for humankind: transhumanism built on artificial intelligence.« Peter Weibel, artistic-scientific director of the ZKM and curator of the exhibition and keynote speaker at the pycon.de&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;We have organised guided tours for the exhibition:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Thursday 10:30 &lt;/li&gt;
+&lt;li&gt;Thursday  15:00&lt;/li&gt;
+&lt;li&gt;Friday 10:30&lt;/li&gt;
+&lt;li&gt;Friday 15:00&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The tours will start at the entrance of the museum and each tour is limited to 15 persons.&lt;/p&gt;
+</content>
+  </entry>
   <entry xml:base="http://de.pycon.org/blog/registration-desk-getting-your-badge/">
     <title type="text">Registration Desk: Getting your Badge</title>
     <id>urn:uuid:75335e39-ee5c-3a04-8719-beb2935cc8c0</id>
