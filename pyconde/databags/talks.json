@@ -580,6 +580,34 @@
         "room": "lecture",
         "slug": "achieving-resilient-code-with-integration-tests"
     },
+    "wed-16:00-openhub": {
+        "code": "8WXEH8",
+        "title": "Build a modern data infrastructure",
+        "state": "confirmed",
+        "abstract": "### Data is the new oil \ud83d\udee2\ufe0f\r\n\r\nSo you want to build a data driven company or create machine learnings models, but guess what?\r\nYou need a proper data infrastructure to support it!\r\n\r\nDuring this workshop you will learn how to create one using OSS tools and the best practices that could fit both batch and stream processing.",
+        "description": "During this tutorial you will learn how to create a scalable and reliable data infrastructure using OSS libraries.\r\n\r\nGiven the limited amount of time we will focus mainly on the batch side but some useful insights will be shared about stream processing and OLAP.\r\n\r\nThe first part will introduce the main concepts while the second will be focused on *building stuff*.\r\n\r\n### Tutorial outline\r\n\r\n#### First part\r\n\r\n- Why bother?\r\n- Unified data warehouse\r\n- Stream VS Batch (Fast VS Slow data)\r\n- Kafka? I'd rather use Redis\r\n- Short term storage VS Long term storage\r\n- Airflow\r\n\r\n#### Second part\r\n\r\n- Build a Python consumer\r\n- Use Airflow to move things around\r\n- Use Airflow to train machine learning models\r\n- What's next?\r\n\r\n### Tools that we are going to use\r\n\r\n- Redis streams\r\n- Scylla\r\n- Airflow\r\n- Docker\r\n- Pandas and Parquet\r\n- Python \u2764\ufe0f\r\n\r\n### Prerequisites\r\n\r\n- If I say `clone this repo locally and download these docker images` you don't freak out\r\n- A good knowledge of Python",
+        "duration": "01:30",
+        "speakers": "Christian Barra",
+        "submission_type": "Workshop",
+        "pyskill": "expert",
+        "domains": "Big Data, Data Science, DevOps, Infrastructure, Jupyter, Web",
+        "domain": "some",
+        "tweet": "Build a modern data infrastructure using microservices, Airflow and Docker",
+        "the_speakers": [
+            {
+                "name": "Christian Barra",
+                "biography": "I do Python, conferences and often play with data.",
+                "homepage": "http://chrisbarra.xyz",
+                "@twitter": "@christianbarra"
+            }
+        ],
+        "popularity": null,
+        "slot_time": "wed-16:00",
+        "slot_date": "wednesday 16:00",
+        "slot_code": "wed-16:00-openhub",
+        "room": "openhub",
+        "slug": "build-a-modern-data-infrastructure"
+    },
     "wed-16:35-cubus": {
         "code": "A9HL7W",
         "title": "Binder - lowering the bar to sharing interactive software",
