@@ -300,6 +300,34 @@
         "room": "media",
         "slug": "performance-evaluation-of-gans-in-a-semi-supervised-ocr-use-case"
     },
+    "wed-14:00-lounge": {
+        "code": "QFNS3Z",
+        "title": "Scalable Scientific Computing using Dask",
+        "state": "confirmed",
+        "abstract": "Pandas and NumPy are great tools to dive through data, do analysis and train machine learning models. They provide intuitive APIs and superb performance. Sadly they are both restricted to the main memory of a single machine and mostly also to a single CPU. Dask is a flexible tools for parallelizing NumPy and Pandas code on a single machine or a cluster.",
+        "description": "Pandas and NumPy are great tools to dive through data, do analysis and train machine learning models. They provide intuitive APIs and superb performance. Sadly they are both restricted to the main memory of a single machine and mostly also to a single CPU. Once our code reaches these boundaries, we can utilize Dask to scale our code to multiple CPUs or even across a cluster.\r\n\r\nDask provides high-level Array, Bag, and DataFrame implementations that mimic the NumPy, lists, and Pandas APIs but operate in parallel on data that doesn't need to fit into main memory. In the low level, Dask provides dynamic task schedulers that execute task graphs in parallel. These execution engines power the high-level collections mentioned above but can also power custom, user-defined workloads.\r\n\r\nIn the workshop, we want to show how to turn typical Pandas and NumPy code into parallel/distributed code using dask.array and dask.dataframe. We will highlight things that can easily be transformed into dask code and other things that need a bit more thought. In addition, we will show the utilities that Dask provides us to inspect the execution graphs and the behaviour of our distributed code.",
+        "duration": "01:30",
+        "speakers": "Uwe L. Korn",
+        "submission_type": "Workshop",
+        "pyskill": "professional",
+        "domains": "Algorithms, Big Data, Data Science, Parallel Programming, Python",
+        "domain": "some",
+        "tweet": "Parallelize Pandas and NumPy code using Dask/distributed",
+        "the_speakers": [
+            {
+                "name": "Uwe L. Korn",
+                "biography": "Uwe Korn is a Senior Data Scientist at the German RetailTec company Blue Yonder. His expertise is on building scalable architectures for machine learning services. Nowadays he focuses on the data engineering infrastructure that is needed to provide the building blocks to bring machine learning models into production. As part of his work to provide an efficient data interchange he became a core committer to the Apache Parquet and Apache Arrow projects.",
+                "homepage": "http://https://uwekorn.com/",
+                "@twitter": "@xhochy"
+            }
+        ],
+        "popularity": null,
+        "slot_time": "wed-14:00",
+        "slot_date": "wednesday 14:00",
+        "slot_code": "wed-14:00-lounge",
+        "room": "lounge",
+        "slug": "scalable-scientific-computing-using-dask"
+    },
     "wed-14:00-lecture": {
         "code": "7ZNCP8",
         "title": "Cython to speed up your Python code",
@@ -551,34 +579,6 @@
         "slot_code": "wed-16:00-lecture",
         "room": "lecture",
         "slug": "achieving-resilient-code-with-integration-tests"
-    },
-    "wed-16:00-openhub": {
-        "code": "8WXEH8",
-        "title": "Build a modern data infrastructure",
-        "state": "confirmed",
-        "abstract": "### Data is the new oil \ud83d\udee2\ufe0f\r\n\r\nSo you want to build a data driven company or create machine learnings models, but guess what?\r\nYou need a proper data infrastructure to support it!\r\n\r\nDuring this workshop you will learn how to create one using OSS tools and the best practices that could fit both batch and stream processing.",
-        "description": "During this tutorial you will learn how to create a scalable and reliable data infrastructure using OSS libraries.\r\n\r\nGiven the limited amount of time we will focus mainly on the batch side but some useful insights will be shared about stream processing and OLAP.\r\n\r\nThe first part will introduce the main concepts while the second will be focused on *building stuff*.\r\n\r\n### Tutorial outline\r\n\r\n#### First part\r\n\r\n- Why bother?\r\n- Unified data warehouse\r\n- Stream VS Batch (Fast VS Slow data)\r\n- Kafka? I'd rather use Redis\r\n- Short term storage VS Long term storage\r\n- Airflow\r\n\r\n#### Second part\r\n\r\n- Build a Python consumer\r\n- Use Airflow to move things around\r\n- Use Airflow to train machine learning models\r\n- What's next?\r\n\r\n### Tools that we are going to use\r\n\r\n- Redis streams\r\n- Scylla\r\n- Airflow\r\n- Docker\r\n- Pandas and Parquet\r\n- Python \u2764\ufe0f\r\n\r\n### Prerequisites\r\n\r\n- If I say `clone this repo locally and download these docker images` you don't freak out\r\n- A good knowledge of Python",
-        "duration": "01:30",
-        "speakers": "Christian Barra",
-        "submission_type": "Workshop",
-        "pyskill": "expert",
-        "domains": "Big Data, Data Science, DevOps, Infrastructure, Jupyter, Web",
-        "domain": "some",
-        "tweet": "Build a modern data infrastructure using microservices, Airflow and Docker",
-        "the_speakers": [
-            {
-                "name": "Christian Barra",
-                "biography": "I do Python, conferences and often play with data.",
-                "homepage": "http://chrisbarra.xyz",
-                "@twitter": "@christianbarra"
-            }
-        ],
-        "popularity": null,
-        "slot_time": "wed-16:00",
-        "slot_date": "wednesday 16:00",
-        "slot_code": "wed-16:00-openhub",
-        "room": "openhub",
-        "slug": "build-a-modern-data-infrastructure"
     },
     "wed-16:35-cubus": {
         "code": "A9HL7W",
@@ -911,24 +911,24 @@
         "slug": "bonobo-airflow-and-grafana-to-visualize-your-business"
     },
     "thu-10:30-openhub": {
-        "code": "NZJGSH",
-        "title": "Write your Own Decorators",
+        "code": "YKNWUB",
+        "title": "Designing RESTful APIs",
         "state": "confirmed",
-        "abstract": "Decorators are really useful. Using them is simple. Writing your own is bit more involved. Learn in this hands-on workshop how to write decorators for many different purposes. The emphasis is on best practices and practical examples.",
-        "description": "Writing a function that takes a function and returns new, modified function requires solid knowledge how Python functions and closures work. This  hands-on workshop takes  you step-by-step through the process of writing decorators. Learn how to apply best practices from the start.\r\n\r\nYou will learn the important principles that you need to fully understand how and why a decorator works the way it does. But this training does not end there. It provides many practical examples that can be used as blueprints for your own decorators.\r\n\r\nI have been teaching this material as part of my professional Python trainer career for many years. Therefore, I know the main stumbling blocks that many participants encounter  and have refined the material and my training method accordingly.",
+        "abstract": "APIs are all around. Everyone talks about RESTful APIs, but what does \u201cRESTful\u201d really mean?\r\n\r\nThis hands-on workshop takes you though everything that you need to know to design great RESTful APIs.",
+        "description": "During the workshop, the participants will understand the key concepts behind RESTful APIs, critically examine some of the popular APIs, design an API from scratch and see how APIs evolve. We\u2019ll also take couple of popular APIs, rip them apart and design a better version of them. \r\n\r\nBy the end of this course, you\u2019ll have good understanding of RESTful APIs and start judging every API that you encounter.",
         "duration": "01:30",
-        "speakers": "Mike M\u00fcller",
+        "speakers": "Anand Chitipothu",
         "submission_type": "Workshop",
         "pyskill": "expert",
-        "domains": "Algorithms, Programming, Python",
+        "domains": "Python, Web",
         "domain": "expert",
-        "tweet": "Learn how to write good decorators from the expert",
+        "tweet": "APIs are all around. Everyone talks about RESTful APIs, but what does \u201cRESTful\u201d really mean?",
         "the_speakers": [
             {
-                "name": "Mike M\u00fcller",
-                "biography": "Mike M\u00fcller has been using Python as his primary programming language since 1999. He is a Python trainer and the CEO at Python Academy (www.python-academy.com).\r\n\r\nHe teaches a wide variety of Python topics including \"Introduction to Python\", \"Python for Scientists and Engineers\", \"Advanced Python\" as well as \"Optimization and Extensions of Python Programs\".\r\n\r\nHe is Python Software Verband chairman, a PSF fellow, a PSF community service award holder, and User Group co-founder. He chaired EuroSciPy 2008/2009, PyCon.DE 2011/2012 and EuroPython 2014. He is an organizer of current PyCon.DE and EuroSciPy conferences.",
-                "homepage": "http://https://www.python-academy.com",
-                "@twitter": "@pyacademy"
+                "name": "Anand Chitipothu",
+                "biography": "Anand has been crafting beautiful software since a decade and half. He\u2019s now building a data science platform, rorodata, which he recently co-founded. He regularly conducts advanced programming courses through Pipal Academy. He is co-author of web.py, a micro web framework in Python. He has worked at Strand Life Sciences and Internet Archive.",
+                "homepage": "http://https://anandology.com/",
+                "@twitter": "anandology"
             }
         ],
         "popularity": null,
@@ -936,7 +936,7 @@
         "slot_date": "thursday 10:30",
         "slot_code": "thu-10:30-openhub",
         "room": "openhub",
-        "slug": "write-your-own-decorators"
+        "slug": "designing-restful-apis"
     },
     "thu-11:20-cubus": {
         "code": "S3AXGV",
@@ -1427,10 +1427,10 @@
             }
         ],
         "popularity": 3,
-        "slot_time": "thu-15:25",
-        "slot_date": "thursday 15:25",
-        "slot_code": "thu-15:25-cubus",
-        "room": "cubus",
+        "slot_time": "fri-10:30",
+        "slot_date": "friday 10:30",
+        "slot_code": "fri-10:30-media",
+        "room": "media",
         "slug": "stretchy-nosql-database-behind-rest-api"
     },
     "thu-15:25-media": {
@@ -1565,34 +1565,6 @@
         "room": "media",
         "slug": "how-to-teach-space-invaders-to-your-computer"
     },
-    "thu-16:00-lounge": {
-        "code": "YKNWUB",
-        "title": "Designing RESTful APIs",
-        "state": "confirmed",
-        "abstract": "APIs are all around. Everyone talks about RESTful APIs, but what does \u201cRESTful\u201d really mean?\r\n\r\nThis hands-on workshop takes you though everything that you need to know to design great RESTful APIs.",
-        "description": "During the workshop, the participants will understand the key concepts behind RESTful APIs, critically examine some of the popular APIs, design an API from scratch and see how APIs evolve. We\u2019ll also take couple of popular APIs, rip them apart and design a better version of them. \r\n\r\nBy the end of this course, you\u2019ll have good understanding of RESTful APIs and start judging every API that you encounter.",
-        "duration": "01:30",
-        "speakers": "Anand Chitipothu",
-        "submission_type": "Workshop",
-        "pyskill": "expert",
-        "domains": "Python, Web",
-        "domain": "expert",
-        "tweet": "APIs are all around. Everyone talks about RESTful APIs, but what does \u201cRESTful\u201d really mean?",
-        "the_speakers": [
-            {
-                "name": "Anand Chitipothu",
-                "biography": "Anand has been crafting beautiful software since a decade and half. He\u2019s now building a data science platform, rorodata, which he recently co-founded. He regularly conducts advanced programming courses through Pipal Academy. He is co-author of web.py, a micro web framework in Python. He has worked at Strand Life Sciences and Internet Archive.",
-                "homepage": "http://https://anandology.com/",
-                "@twitter": "anandology"
-            }
-        ],
-        "popularity": null,
-        "slot_time": "thu-16:00",
-        "slot_date": "thursday 16:00",
-        "slot_code": "thu-16:00-lounge",
-        "room": "lounge",
-        "slug": "designing-restful-apis"
-    },
     "thu-16:00-lecture": {
         "code": "78ANWT",
         "title": "Creating an inclusive corporate culture",
@@ -1678,24 +1650,24 @@
         "slug": "driving-simulation-and-data-analysis-of-magnetic-nanostructures-through-jupyter-notebook"
     },
     "thu-16:35-lecture": {
-        "code": "HJSKTN",
-        "title": "bericht - incremental HTML to PDF converter from scratch",
-        "state": "accepted",
-        "abstract": "bericht is a pure python library to incrementally gernerate PDF documents from html/css source files. It is ideal for super large documents since it renders and streams a PDF page-by-page.",
-        "description": "The project bericht was started because of frustration about reportlab and tries to make things \"the right way\" for the beginning.\r\nSo we're focused on tests and speed and a clear code base, so it might have a chance to evolve over time and eventually will become the \"default PDF\" library for Python. At least that's the dream ;)\r\n\r\nbericht is in early stage but already used in production, so far it can be really useful for data driven reports like for example proposals, invoices and such.\r\nIt has already advanced table support, so f.e. it doesn't just die if you have a single table cell which exceeds a single page.\r\n\r\ncheckout https://github.com/systori/bericht",
+        "code": "FVLSNE",
+        "title": "Designing better drugs with machine learning",
+        "state": "confirmed",
+        "abstract": "We will show how we use our scikit-learn based toolkit cream to build and validate predictive models for important properties in drug design, such as optimization of biochemical/cellular activity and ADME properties.",
+        "description": "Developing safe and efficacious drugs is a multi-parameter optimization process. A good drug needs besides affinity to the receptor or protein target also good ADME (Absorption, Distribution, Metabolism, and Excretion) properties to be successful. Machine learning models are used to assess compound ideas early-on in the design process and give guidance what to synthesize next. We will present our scikit-learn based toolkit cream to build and validate predictive models. Results from validation studies using existing data as well as prospective prediction results will be shared. Special focus will be placed on how confidence in predictions can be increased using cross-validation procedures and by consideration of the domain of applicability of the predictions.",
         "duration": "00:30",
-        "speakers": "Marius R\u00e4sener",
+        "speakers": "Daniel Kuhn",
         "submission_type": "Talk",
-        "pyskill": "basic",
-        "domains": "Business & Start-Ups, Visualisation",
-        "domain": "some",
-        "tweet": "bericht - your incremental html to pdf converter in python",
+        "pyskill": "expert",
+        "domains": "Artificial Intelligence, Deep Learning & Artificial Intelligence, Data Science, Jupyter, Machine Learning, Science",
+        "domain": "expert",
+        "tweet": "How machine learning can help to design better drugs in pharmaceutical research",
         "the_speakers": [
             {
-                "name": "Marius R\u00e4sener",
-                "biography": "nerdismn before the disovery of the spoken word",
-                "homepage": "http://not yet available ... https://github.com/systori",
-                "@twitter": "@raesener"
+                "name": "Daniel Kuhn",
+                "biography": "Daniel Kuhn is computational chemist and discovery project leader at Merck in Darmstadt, Germany. After studying pharmacy in Marburg he obtained his PhD from Philipps-University, Marburg in computational chemistry working with Gerhard Klebe on the classification of protein binding sites. In 2004 he joined Boehringer Ingelheim in Vienna as computational chemist working in oncology research. In 2010 he joined Merck as principal scientist contributing to projects in early and late drug discovery stages. He is also leading a lead optimization project towards preclinical development. His research interests include protein kinase drug discovery, structure-based design and machine learning approaches to hit identification and lead-optimization.",
+                "homepage": "http://https://www.merckgroup.com/en",
+                "@twitter": ""
             }
         ],
         "popularity": 3,
@@ -1703,7 +1675,7 @@
         "slot_date": "thursday 16:35",
         "slot_code": "thu-16:35-lecture",
         "room": "lecture",
-        "slug": "bericht-incremental-html-to-pdf-converter-from-scratch"
+        "slug": "designing-better-drugs-with-machine-learning"
     },
     "thu-17:10-cubus": {
         "code": "LJEWML",
@@ -1818,32 +1790,58 @@
         "slug": "build-text-classification-models-cbow-and-skip-gram-with-fasttext-in-python"
     },
     "fri-10:30-media": {
-        "code": "TK7KCG",
-        "title": "Tickling not too thick ticks!",
+        "code": "GFFGSG",
+        "title": "Stretchy - NoSQL Database behind REST API",
         "state": "confirmed",
-        "abstract": "Is it possible to take advantage of the cryptocurrencies hype to do market-neutral trading , that is: making money without risks?\r\n\r\nWhat about the low liquidity of the market? What challenges lie there?\r\n\r\nIn this talk we'll look at all the building blocks, showing how asyncio and websockets work, and what logic can be used to spot arbitrage between exchanges.",
-        "description": "In the talk I'll start by explaining how asyncio works.\r\n\r\nI'll then move into websockets to then explain how market-neutral trading can be achieved.\r\n\r\nI'll show the code snippets to write the logic to spot arbitrage opportunities and introduce TimescaleDB, an open source extension for PostgreSQL that is made with time series in mind.\r\n\r\nWe end with a demo of the Dockerized product!",
-        "duration": "00:45",
-        "speakers": "Giovanni Lanzani",
+        "abstract": "A dynamic REST API database. Think of \"elasticsearch\", but brutally simple.",
+        "description": "Stretchy is built as a microservice that provides a simple and intuitive REST API with a NoSQL database as backend. No need for database migrations or upfront schema design. The basic CRUD (create, read, update, delete) operations are available for getting data in and out from the database.\r\n\r\nStretchy is free and open source software built with Python 3, using Flask web framework. It currently uses MongoDB as its backend database. Since it is interfaced through the REST API however, Stretchy is technology agnostic and developers can create bindings to other databases, including SQL databases.\r\n\r\nThis presentation reviews the reasons for creating Stretchy, its current applications, an short tutorial on how to use it, and tips on how to deploy it.",
+        "duration": "00:15",
+        "speakers": "Artur Scholz",
         "submission_type": "Talk",
-        "pyskill": "expert",
-        "domains": "DevOps, Parallel Programming",
-        "domain": "some",
-        "tweet": "Market neutral crypto-trading with asyncio and Postgres!",
+        "pyskill": "basic",
+        "domains": "Big Data, Data Science, Web",
+        "domain": "not required",
+        "tweet": "A dynamic REST API database. Think of \"elasticsearch\", but brutally simple",
         "the_speakers": [
             {
-                "name": "Giovanni Lanzani",
-                "biography": "Giovanni arrived at GoDataDriven because the firm, although small at that time, made him an offer he couldn't refuse, stealing him from the Software Quality department of KPMG. A theoretical Physicist by trade (he claims he once received the title Doctor from Leiden University for his outstanding research in that field), he is now active as senior shoe designer.\r\n\r\nHe was once offered the Chief Science position at the Nutella R&D department, but as he realised that the answer to all Nutella R&D projects was \"Make more Nutella\", he politely passed on the opportunity.\r\n\r\nIn his spare time he wonders what spare time looked like before he had five kids, reads, travels, smokes the pipe, and makes limoncello.",
-                "homepage": "http://www.lanzani.nl",
-                "@twitter": "@gglanzani"
+                "name": "Artur Scholz",
+                "biography": "My interest is in Space, Programming, CubeSats, Open Source, and Standardization. My mission is to combine those to enable truly open space exploration to all humanity."
             }
         ],
-        "popularity": 4,
+        "popularity": 3,
         "slot_time": "fri-10:30",
         "slot_date": "friday 10:30",
         "slot_code": "fri-10:30-media",
         "room": "media",
-        "slug": "tickling-not-too-thick-ticks"
+        "slug": "stretchy-nosql-database-behind-rest-api"
+    },
+    "fri-10:30-lounge": {
+        "code": "NZJGSH",
+        "title": "Write your Own Decorators",
+        "state": "confirmed",
+        "abstract": "Decorators are really useful. Using them is simple. Writing your own is bit more involved. Learn in this hands-on workshop how to write decorators for many different purposes. The emphasis is on best practices and practical examples.",
+        "description": "Writing a function that takes a function and returns new, modified function requires solid knowledge how Python functions and closures work. This  hands-on workshop takes  you step-by-step through the process of writing decorators. Learn how to apply best practices from the start.\r\n\r\nYou will learn the important principles that you need to fully understand how and why a decorator works the way it does. But this training does not end there. It provides many practical examples that can be used as blueprints for your own decorators.\r\n\r\nI have been teaching this material as part of my professional Python trainer career for many years. Therefore, I know the main stumbling blocks that many participants encounter  and have refined the material and my training method accordingly.",
+        "duration": "01:30",
+        "speakers": "Mike M\u00fcller",
+        "submission_type": "Workshop",
+        "pyskill": "expert",
+        "domains": "Algorithms, Programming, Python",
+        "domain": "expert",
+        "tweet": "Learn how to write good decorators from the expert",
+        "the_speakers": [
+            {
+                "name": "Mike M\u00fcller",
+                "biography": "Mike M\u00fcller has been using Python as his primary programming language since 1999. He is a Python trainer and the CEO at Python Academy (www.python-academy.com).\r\n\r\nHe teaches a wide variety of Python topics including \"Introduction to Python\", \"Python for Scientists and Engineers\", \"Advanced Python\" as well as \"Optimization and Extensions of Python Programs\".\r\n\r\nHe is Python Software Verband chairman, a PSF fellow, a PSF community service award holder, and User Group co-founder. He chaired EuroSciPy 2008/2009, PyCon.DE 2011/2012 and EuroPython 2014. He is an organizer of current PyCon.DE and EuroSciPy conferences.",
+                "homepage": "http://https://www.python-academy.com",
+                "@twitter": "@pyacademy"
+            }
+        ],
+        "popularity": null,
+        "slot_time": "fri-10:30",
+        "slot_date": "friday 10:30",
+        "slot_code": "fri-10:30-lounge",
+        "room": "lounge",
+        "slug": "write-your-own-decorators"
     },
     "fri-10:30-lecture": {
         "code": "QU7PLA",
@@ -1873,24 +1871,28 @@
         "slug": "building-your-own-conversational-ai-with-open-source-tools"
     },
     "fri-10:30-openhub": {
-        "code": "QFNS3Z",
-        "title": "Scalable Scientific Computing using Dask",
+        "code": "C9H7FH",
+        "title": "How to develop your project from an idea to architecture design in 50 minutes",
         "state": "confirmed",
-        "abstract": "Pandas and NumPy are great tools to dive through data, do analysis and train machine learning models. They provide intuitive APIs and superb performance. Sadly they are both restricted to the main memory of a single machine and mostly also to a single CPU. Dask is a flexible tools for parallelizing NumPy and Pandas code on a single machine or a cluster.",
-        "description": "Pandas and NumPy are great tools to dive through data, do analysis and train machine learning models. They provide intuitive APIs and superb performance. Sadly they are both restricted to the main memory of a single machine and mostly also to a single CPU. Once our code reaches these boundaries, we can utilize Dask to scale our code to multiple CPUs or even across a cluster.\r\n\r\nDask provides high-level Array, Bag, and DataFrame implementations that mimic the NumPy, lists, and Pandas APIs but operate in parallel on data that doesn't need to fit into main memory. In the low level, Dask provides dynamic task schedulers that execute task graphs in parallel. These execution engines power the high-level collections mentioned above but can also power custom, user-defined workloads.\r\n\r\nIn the workshop, we want to show how to turn typical Pandas and NumPy code into parallel/distributed code using dask.array and dask.dataframe. We will highlight things that can easily be transformed into dask code and other things that need a bit more thought. In addition, we will show the utilities that Dask provides us to inspect the execution graphs and the behaviour of our distributed code.",
+        "abstract": "Have a fresh idea that needs to be shaped? This tutorial will show how to start with a raw idea, visualize it, and then use the object-oriented approach to design the architecture.",
+        "description": "Have you ever asked yourself:\u2028- how and where to start developing a new project from the scratch,\u2028- how to choose main components of a new software or how to develop a new feature,\u2028- how to decide whether your project needs refactoring\u00a0\u2028- how to avoid repeating the same issues?\u2028This talk will answer all these questions.\r\nYou will learn:\u2028- how to develop the idea from scratch,\u2028- how to develop and visualize the idea, create basic visual design without any specific knowledge,\u2028- hot to use principles of Object Oriented Analysis and Design,\u00a0\u2028- how to develop and show amazing architecture design.\r\nYou will learn to better understand where and how to start, analyze and decouple the system, create a clean, clear and extendable architecture.",
         "duration": "01:30",
-        "speakers": "Uwe L. Korn",
+        "speakers": "Anastasiia Tymoshchuk, Elena Volovicheva",
         "submission_type": "Workshop",
-        "pyskill": "professional",
-        "domains": "Algorithms, Big Data, Data Science, Parallel Programming, Python",
+        "pyskill": "basic",
+        "domains": "Programming",
         "domain": "some",
-        "tweet": "Parallelize Pandas and NumPy code using Dask/distributed",
+        "tweet": "How to develop your project from an idea to architecture design in 50 minutes",
         "the_speakers": [
             {
-                "name": "Uwe L. Korn",
-                "biography": "Uwe Korn is a Senior Data Scientist at the German RetailTec company Blue Yonder. His expertise is on building scalable architectures for machine learning services. Nowadays he focuses on the data engineering infrastructure that is needed to provide the building blocks to bring machine learning models into production. As part of his work to provide an efficient data interchange he became a core committer to the Apache Parquet and Apache Arrow projects.",
-                "homepage": "http://https://uwekorn.com/",
-                "@twitter": "@xhochy"
+                "name": "Elena Volovicheva",
+                "biography": "Elena Volovicheva is a Digital Designer from Ukraine, currently working in Berlin for a company named Fonpit. Through the years of hands-on experience\u00a0she made her way from an artist to digital designer, she tried herself as an entrepreneur, events host and teacher. \r\n\r\nShe believes that principles of design are reflected in the most natural aspects of our daily lives and that the design techniques should be applied also in the work of non-designers to create harmony in their workflow and vision."
+            },
+            {
+                "name": "Anastasiia Tymoshchuk",
+                "biography": "Anastasiia originally came from Ukraine, working in Berlin since April 2016. Her first Python project was - to create automation testing framework from scratch for LG Smart TV (using Python 2.7 and Django).\r\nWorking in the development for almost of 7 years (around 5 years in Python), including experience in e-commerce as well as game development. Every day she is dealing with lots of challenges when she has to consider software or library to start with, starting from the question how to build architecture and finishing with a deployment. She has also a great experience in the design and development of the project from scratch to production.  \r\n\r\nElena is a Digital Designer from Ukraine, currently working in Berlin for a company named Fonpit. Through the years of hands-on experience\u00a0she made her way from an artist to digital designer, she tried herself as an entrepreneur, events host and teacher.   \r\nShe believes that principles of design are reflected in the most natural aspects of our daily lives and that the design techniques should be applied also in the work of non-designers to create harmony in their workflow and vision.",
+                "homepage": "http://atymo.me/",
+                "@twitter": ""
             }
         ],
         "popularity": null,
@@ -1898,7 +1900,7 @@
         "slot_date": "friday 10:30",
         "slot_code": "fri-10:30-openhub",
         "room": "openhub",
-        "slug": "scalable-scientific-computing-using-dask"
+        "slug": "how-to-develop-your-project-from-an-idea-to-architecture-design-in-50-minutes"
     },
     "fri-11:20-cubus": {
         "code": "8DL88C",
@@ -1959,32 +1961,32 @@
         "slug": "enabling-the-chip-technologies-of-tomorrow-how-python-helps-us"
     },
     "fri-11:20-lecture": {
-        "code": "3EV7WB",
-        "title": "Python Decorators: Gift or Poison?",
+        "code": "TTBMDL",
+        "title": "Strongly typed datasets in a weakly typed world",
         "state": "confirmed",
-        "abstract": "The talk will explain basics of Python Decorators, will show lots of examples and use cases, as well as for a beginner, as for an experienced developer.",
-        "description": "Why would you ever need to use decorators in Python?\r\nHave you ever had the task when you need to use one function in few places and you really wanted to avoid of code duplicating? For example to add some logging into functions or timers, etc. Decorators in Python are super powerful with these tasks, but at the same time they are super complicated, sometimes even magical. When I started learning Python, Decorators were really like a magic: how to use them, how are they working, lots of questions. The goal is to make the things easier and clear to answer a question: to use or not to use Decorators in your project.",
+        "abstract": "Strongly typed Parquet Datasets / Hive Tables are often used to exchange and preserve data in a Pandas-driven environment, where types are rather unstable. This results in multiple issues and these as well as potential solutions will be presented, together with an RFC directed to the community.",
+        "description": "We at Blue Yonder use Pandas quite a lot during our daily data science and engineering work. This choice, together with Python as an underlying programming language gives us flexibility, a feature-rich interface, and access to a large community and ecosystem. When it comes to preserving the data and exchanging it with different software stacks, we rely on Parquet Datasets / Hive Tables. During the write process, there is a shift from a rather weakly typed world to a strongly typed one. For example, Pandas may convert integers to floats for many operations without asking, but parquet files and the schema information stored alongside them dictate very precise types. The type situation may get even more \"colorful\", when datasets are written by multiple code versions or different software solutions over time. This then results in important questions regarding type compatibility.\r\n\r\nThis talk will first represent an overview on types at different layers (like NumPy, Pandas, Arrow and Parquet) and the transition between this layers. The second part of the talk will present examples of type compatibility we have seen and why+how we think they should be handled. At the end there will be a Q+A, which can be seen as the start of a potentially longer RFC process to align different software stacks (like Hive and Dask) to handle types in a similar way.",
         "duration": "00:30",
-        "speakers": "Anastasiia Tymoshchuk",
+        "speakers": "Marco Neumann",
         "submission_type": "Talk",
         "pyskill": "expert",
-        "domains": "Python",
-        "domain": "not required",
-        "tweet": "Are Decorators in Python a gift or a poison?",
+        "domains": "Algorithms, Big Data, Data Science, Parallel Programming",
+        "domain": "expert",
+        "tweet": "Problems+solutions for strongly typed Parquet Datasets / Hive Tables in rather weakly typed Pandas environment",
         "the_speakers": [
             {
-                "name": "Anastasiia Tymoshchuk",
-                "biography": "Anastasiia originally came from Ukraine, working in Berlin since April 2016. Her first Python project was - to create automation testing framework from scratch for LG Smart TV (using Python 2.7 and Django).\r\nWorking in the development for almost of 7 years (around 5 years in Python), including experience in e-commerce as well as game development. Every day she is dealing with lots of challenges when she has to consider software or library to start with, starting from the question how to build architecture and finishing with a deployment. She has also a great experience in the design and development of the project from scratch to production.  \r\n\r\nElena is a Digital Designer from Ukraine, currently working in Berlin for a company named Fonpit. Through the years of hands-on experience\u00a0she made her way from an artist to digital designer, she tried herself as an entrepreneur, events host and teacher.   \r\nShe believes that principles of design are reflected in the most natural aspects of our daily lives and that the design techniques should be applied also in the work of non-designers to create harmony in their workflow and vision.",
-                "homepage": "http://atymo.me/",
-                "@twitter": ""
+                "name": "Marco Neumann",
+                "biography": "Studied computer science at KIT (Karlsruhe, Germany), worked as a Tech Student at CERN, now a Data Scientist at Blue Yonder (Hamburg, Germany). Loves to travel and to exchange all kind of ideas.",
+                "homepage": "http://https://www.blue-yonder.com/",
+                "@twitter": "@crepererum"
             }
         ],
-        "popularity": 3,
+        "popularity": 4,
         "slot_time": "fri-11:20",
         "slot_date": "friday 11:20",
         "slot_code": "fri-11:20-lecture",
         "room": "lecture",
-        "slug": "python-decorators-gift-or-poison"
+        "slug": "strongly-typed-datasets-in-a-weakly-typed-world"
     },
     "fri-11:55-cubus": {
         "code": "TTULUU",
@@ -2103,32 +2105,32 @@
         "slug": "from-exploration-to-deployment-combining-pytorch-and-tensorflow-for-deep-learning"
     },
     "fri-14:00-media": {
-        "code": "MCHYUU",
-        "title": "Bayesian Inference with PyMC3",
-        "state": "canceled",
-        "abstract": "What's Bayesian inference? Why use Monte Carlo (MC)? How can I use PyMC3 for this?",
-        "description": "_Bayesian inference_ is becoming more and more popular these days, as using bayesian inference, we can infer not only single values as point estimates, but estimate whole distributions. These estimated distributions (the _posterior_) are much more useful than an estimated mean, as follow-up calculations are much more accurate.\r\n\r\nWith PyMC3, the python data-science toolstack has a powerful and approachable library to obtain such _posterior_ distributions. This talk gives an introduction quickly outlining the basics of bayesian inference, but also walking through one- or two practical examples.",
-        "duration": "00:45",
-        "speakers": "Holger Peters",
+        "code": "3EV7WB",
+        "title": "Python Decorators: Gift or Poison?",
+        "state": "confirmed",
+        "abstract": "The talk will explain basics of Python Decorators, will show lots of examples and use cases, as well as for a beginner, as for an experienced developer.",
+        "description": "Why would you ever need to use decorators in Python?\r\nHave you ever had the task when you need to use one function in few places and you really wanted to avoid of code duplicating? For example to add some logging into functions or timers, etc. Decorators in Python are super powerful with these tasks, but at the same time they are super complicated, sometimes even magical. When I started learning Python, Decorators were really like a magic: how to use them, how are they working, lots of questions. The goal is to make the things easier and clear to answer a question: to use or not to use Decorators in your project.",
+        "duration": "00:30",
+        "speakers": "Anastasiia Tymoshchuk",
         "submission_type": "Talk",
-        "pyskill": "basic",
-        "domains": "Artificial Intelligence, Algorithms, Data Science, Machine Learning",
-        "domain": "some",
-        "tweet": "pymc3 intro",
+        "pyskill": "expert",
+        "domains": "Python",
+        "domain": "not required",
+        "tweet": "Are Decorators in Python a gift or a poison?",
         "the_speakers": [
             {
-                "name": "Holger Peters",
-                "biography": "Software Engineer and Data-Sciencist who once graduated from a physics program.",
-                "@twitter": "data_hope",
-                "homepage": "http://www.holger-peters.de"
+                "name": "Anastasiia Tymoshchuk",
+                "biography": "Anastasiia originally came from Ukraine, working in Berlin since April 2016. Her first Python project was - to create automation testing framework from scratch for LG Smart TV (using Python 2.7 and Django).\r\nWorking in the development for almost of 7 years (around 5 years in Python), including experience in e-commerce as well as game development. Every day she is dealing with lots of challenges when she has to consider software or library to start with, starting from the question how to build architecture and finishing with a deployment. She has also a great experience in the design and development of the project from scratch to production.  \r\n\r\nElena is a Digital Designer from Ukraine, currently working in Berlin for a company named Fonpit. Through the years of hands-on experience\u00a0she made her way from an artist to digital designer, she tried herself as an entrepreneur, events host and teacher.   \r\nShe believes that principles of design are reflected in the most natural aspects of our daily lives and that the design techniques should be applied also in the work of non-designers to create harmony in their workflow and vision.",
+                "homepage": "http://atymo.me/",
+                "@twitter": ""
             }
         ],
-        "popularity": 4,
+        "popularity": 3,
         "slot_time": "fri-14:00",
         "slot_date": "friday 14:00",
         "slot_code": "fri-14:00-media",
         "room": "media",
-        "slug": "bayesian-inference-with-pymc3"
+        "slug": "python-decorators-gift-or-poison"
     },
     "fri-14:00-lecture": {
         "code": "N8MZV8",
@@ -2156,93 +2158,5 @@
         "slot_code": "fri-14:00-lecture",
         "room": "lecture",
         "slug": "concurrency-in-python-concepts-frameworks-and-best-practices"
-    },
-    "fri-14:00-openhub": {
-        "code": "C9H7FH",
-        "title": "How to develop your project from an idea to architecture design in 50 minutes",
-        "state": "confirmed",
-        "abstract": "Have a fresh idea that needs to be shaped? This tutorial will show how to start with a raw idea, visualize it, and then use the object-oriented approach to design the architecture.",
-        "description": "Have you ever asked yourself:\u2028- how and where to start developing a new project from the scratch,\u2028- how to choose main components of a new software or how to develop a new feature,\u2028- how to decide whether your project needs refactoring\u00a0\u2028- how to avoid repeating the same issues?\u2028This talk will answer all these questions.\r\nYou will learn:\u2028- how to develop the idea from scratch,\u2028- how to develop and visualize the idea, create basic visual design without any specific knowledge,\u2028- hot to use principles of Object Oriented Analysis and Design,\u00a0\u2028- how to develop and show amazing architecture design.\r\nYou will learn to better understand where and how to start, analyze and decouple the system, create a clean, clear and extendable architecture.",
-        "duration": "01:30",
-        "speakers": "Anastasiia Tymoshchuk, Elena Volovicheva",
-        "submission_type": "Workshop",
-        "pyskill": "basic",
-        "domains": "Programming",
-        "domain": "some",
-        "tweet": "How to develop your project from an idea to architecture design in 50 minutes",
-        "the_speakers": [
-            {
-                "name": "Elena Volovicheva",
-                "biography": "Elena Volovicheva is a Digital Designer from Ukraine, currently working in Berlin for a company named Fonpit. Through the years of hands-on experience\u00a0she made her way from an artist to digital designer, she tried herself as an entrepreneur, events host and teacher. \r\n\r\nShe believes that principles of design are reflected in the most natural aspects of our daily lives and that the design techniques should be applied also in the work of non-designers to create harmony in their workflow and vision."
-            },
-            {
-                "name": "Anastasiia Tymoshchuk",
-                "biography": "Anastasiia originally came from Ukraine, working in Berlin since April 2016. Her first Python project was - to create automation testing framework from scratch for LG Smart TV (using Python 2.7 and Django).\r\nWorking in the development for almost of 7 years (around 5 years in Python), including experience in e-commerce as well as game development. Every day she is dealing with lots of challenges when she has to consider software or library to start with, starting from the question how to build architecture and finishing with a deployment. She has also a great experience in the design and development of the project from scratch to production.  \r\n\r\nElena is a Digital Designer from Ukraine, currently working in Berlin for a company named Fonpit. Through the years of hands-on experience\u00a0she made her way from an artist to digital designer, she tried herself as an entrepreneur, events host and teacher.   \r\nShe believes that principles of design are reflected in the most natural aspects of our daily lives and that the design techniques should be applied also in the work of non-designers to create harmony in their workflow and vision.",
-                "homepage": "http://atymo.me/",
-                "@twitter": ""
-            }
-        ],
-        "popularity": null,
-        "slot_time": "fri-14:00",
-        "slot_date": "friday 14:00",
-        "slot_code": "fri-14:00-openhub",
-        "room": "openhub",
-        "slug": "how-to-develop-your-project-from-an-idea-to-architecture-design-in-50-minutes"
-    },
-    "fri-14:50-cubus": {
-        "code": "TTBMDL",
-        "title": "Strongly typed datasets in a weakly typed world",
-        "state": "confirmed",
-        "abstract": "Strongly typed Parquet Datasets / Hive Tables are often used to exchange and preserve data in a Pandas-driven environment, where types are rather unstable. This results in multiple issues and these as well as potential solutions will be presented, together with an RFC directed to the community.",
-        "description": "We at Blue Yonder use Pandas quite a lot during our daily data science and engineering work. This choice, together with Python as an underlying programming language gives us flexibility, a feature-rich interface, and access to a large community and ecosystem. When it comes to preserving the data and exchanging it with different software stacks, we rely on Parquet Datasets / Hive Tables. During the write process, there is a shift from a rather weakly typed world to a strongly typed one. For example, Pandas may convert integers to floats for many operations without asking, but parquet files and the schema information stored alongside them dictate very precise types. The type situation may get even more \"colorful\", when datasets are written by multiple code versions or different software solutions over time. This then results in important questions regarding type compatibility.\r\n\r\nThis talk will first represent an overview on types at different layers (like NumPy, Pandas, Arrow and Parquet) and the transition between this layers. The second part of the talk will present examples of type compatibility we have seen and why+how we think they should be handled. At the end there will be a Q+A, which can be seen as the start of a potentially longer RFC process to align different software stacks (like Hive and Dask) to handle types in a similar way.",
-        "duration": "00:30",
-        "speakers": "Marco Neumann",
-        "submission_type": "Talk",
-        "pyskill": "expert",
-        "domains": "Algorithms, Big Data, Data Science, Parallel Programming",
-        "domain": "expert",
-        "tweet": "Problems+solutions for strongly typed Parquet Datasets / Hive Tables in rather weakly typed Pandas environment",
-        "the_speakers": [
-            {
-                "name": "Marco Neumann",
-                "biography": "Studied computer science at KIT (Karlsruhe, Germany), worked as a Tech Student at CERN, now a Data Scientist at Blue Yonder (Hamburg, Germany). Loves to travel and to exchange all kind of ideas.",
-                "homepage": "http://https://www.blue-yonder.com/",
-                "@twitter": "@crepererum"
-            }
-        ],
-        "popularity": 4,
-        "slot_time": "fri-14:50",
-        "slot_date": "friday 14:50",
-        "slot_code": "fri-14:50-cubus",
-        "room": "cubus",
-        "slug": "strongly-typed-datasets-in-a-weakly-typed-world"
-    },
-    "fri-14:50-media": {
-        "code": "FVLSNE",
-        "title": "Designing better drugs with machine learning",
-        "state": "confirmed",
-        "abstract": "We will show how we use our scikit-learn based toolkit cream to build and validate predictive models for important properties in drug design, such as optimization of biochemical/cellular activity and ADME properties.",
-        "description": "Developing safe and efficacious drugs is a multi-parameter optimization process. A good drug needs besides affinity to the receptor or protein target also good ADME (Absorption, Distribution, Metabolism, and Excretion) properties to be successful. Machine learning models are used to assess compound ideas early-on in the design process and give guidance what to synthesize next. We will present our scikit-learn based toolkit cream to build and validate predictive models. Results from validation studies using existing data as well as prospective prediction results will be shared. Special focus will be placed on how confidence in predictions can be increased using cross-validation procedures and by consideration of the domain of applicability of the predictions.",
-        "duration": "00:30",
-        "speakers": "Daniel Kuhn",
-        "submission_type": "Talk",
-        "pyskill": "expert",
-        "domains": "Artificial Intelligence, Deep Learning & Artificial Intelligence, Data Science, Jupyter, Machine Learning, Science",
-        "domain": "expert",
-        "tweet": "How machine learning can help to design better drugs in pharmaceutical research",
-        "the_speakers": [
-            {
-                "name": "Daniel Kuhn",
-                "biography": "Daniel Kuhn is computational chemist and discovery project leader at Merck in Darmstadt, Germany. After studying pharmacy in Marburg he obtained his PhD from Philipps-University, Marburg in computational chemistry working with Gerhard Klebe on the classification of protein binding sites. In 2004 he joined Boehringer Ingelheim in Vienna as computational chemist working in oncology research. In 2010 he joined Merck as principal scientist contributing to projects in early and late drug discovery stages. He is also leading a lead optimization project towards preclinical development. His research interests include protein kinase drug discovery, structure-based design and machine learning approaches to hit identification and lead-optimization.",
-                "homepage": "http://https://www.merckgroup.com/en",
-                "@twitter": ""
-            }
-        ],
-        "popularity": 3,
-        "slot_time": "fri-14:50",
-        "slot_date": "friday 14:50",
-        "slot_code": "fri-14:50-media",
-        "room": "media",
-        "slug": "designing-better-drugs-with-machine-learning"
     }
 }

@@ -134,7 +134,7 @@ def load_schedule(filename=None):
 
     wb = load_workbook(filename)
     sheet = wb["Sheet1"]
-    sheet["G9"].value = "8WXEH8 {}".format(sheet["G9"].value)
+    #sheet["G9"].value = "8WXEH8 {}".format(sheet["G9"].value)
     talk_list = []
     for row in rows:
         for room, room_name in rooms.items():
@@ -144,6 +144,7 @@ def load_schedule(filename=None):
             if talk is None or talk.strip() == "" or "<<< available >>>" in talk:
                 continue
             talk_identifier = get_talk_identifier(talk)
+            print(talk_identifier)
             talk_list.append(
                 {
                     "slot_time": slot_time,
