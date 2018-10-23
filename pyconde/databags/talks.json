@@ -497,32 +497,32 @@
         "slug": "case-study-in-travel-business-understanding-agent-connections-using-networkx"
     },
     "wed-16:00-media": {
-        "code": "LRM8PG",
-        "title": "What's new in Python 3.7?",
+        "code": "7BJQJB",
+        "title": "A Day Has Only 24\u00b11 Hours: import pytz",
         "state": "confirmed",
-        "abstract": "Scheduled for release in mid-June after the conference, Python 3.7 is shaping up to be a feature-packed release! This talk will cover all the new features of note that will be making their debut in Python 3.7.",
-        "description": "Scheduled for release in mid-June after the conference, Python 3.7 is shaping up to be a feature-packed release! \r\nThis talk will cover all the new features of Python 3.7, including the Data Classes and the Context Variables for the asynchronous programming with asyncio.",
+        "abstract": "Handle easily all those timezone issues your system knows about. Fear those it doesn't.",
+        "description": "On the last Sunday of October \u201cwe get one more hour of sleep\u201d but may spend much more time debugging code dealing with the timezones, daylight saving time shifts and datetime stuff in general.\r\n\r\nWe'll look at a few pitfalls you may encounter when working with datetimes in Python. We'll discover the `pytz` module and explain why `pytz.all_timezones` contains over 500 individual timezones. We'll also find the reason why `pytz` is not part of the standard Python, why it gets updated so often and why even that won't solve all your problems.",
         "duration": "00:30",
-        "speakers": "Stephane Wirtel",
+        "speakers": "Miroslav \u0160ediv\u00fd",
         "submission_type": "Talk",
-        "pyskill": "expert",
-        "domains": "Community, Django, DevOps",
-        "domain": "expert",
-        "tweet": "What's new in Python 3.7?",
+        "pyskill": "basic",
+        "domains": "Data Science, Science",
+        "domain": "some",
+        "tweet": "A day has only 24\u00b11 hours: import pytz and handle easily all those timezone issues your system knows about. Fear those it doesn't.",
         "the_speakers": [
             {
-                "name": "Stephane Wirtel",
-                "biography": "Contributor of CPython, Stephane is a member of the EuroPython team since 2015, he likes to improve his skills with best practices, TDD, CI, etc.... Python developer since 2001 and member of the PSF, EuroPython and AFPy, he is also a freelancer in the wonderful Python world.",
-                "homepage": "http://",
-                "@twitter": "@matrixise"
+                "name": "Miroslav \u0160ediv\u00fd",
+                "biography": "Using Python to make the sun shine and the wind blow. hjkl juggler and languages enthusiast. Living in the Europe/Berlin timezone, saving text files as UTF-8, typing on a standard US keyboard layout with a Compose key.",
+                "@twitter": "@eumiro",
+                "homepage": "http://"
             }
         ],
-        "popularity": 5,
+        "popularity": 4,
         "slot_time": "wed-16:00",
         "slot_date": "wednesday 16:00",
         "slot_code": "wed-16:00-media",
         "room": "media",
-        "slug": "what-s-new-in-python-3-7"
+        "slug": "a-day-has-only-241-hours-import-pytz"
     },
     "wed-16:00-lounge": {
         "code": "SFSLZG",
@@ -1160,32 +1160,32 @@
         "slug": "measuring-the-hay-in-the-haystack-quantifying-hidden-variables-using-bayesian-inference"
     },
     "thu-11:55-lecture": {
-        "code": "7BJQJB",
-        "title": "A Day Has Only 24\u00b11 Hours: import pytz",
+        "code": "LRM8PG",
+        "title": "What's new in Python 3.7?",
         "state": "confirmed",
-        "abstract": "Handle easily all those timezone issues your system knows about. Fear those it doesn't.",
-        "description": "On the last Sunday of October \u201cwe get one more hour of sleep\u201d but may spend much more time debugging code dealing with the timezones, daylight saving time shifts and datetime stuff in general.\r\n\r\nWe'll look at a few pitfalls you may encounter when working with datetimes in Python. We'll discover the `pytz` module and explain why `pytz.all_timezones` contains over 500 individual timezones. We'll also find the reason why `pytz` is not part of the standard Python, why it gets updated so often and why even that won't solve all your problems.",
+        "abstract": "Scheduled for release in mid-June after the conference, Python 3.7 is shaping up to be a feature-packed release! This talk will cover all the new features of note that will be making their debut in Python 3.7.",
+        "description": "Scheduled for release in mid-June after the conference, Python 3.7 is shaping up to be a feature-packed release! \r\nThis talk will cover all the new features of Python 3.7, including the Data Classes and the Context Variables for the asynchronous programming with asyncio.",
         "duration": "00:30",
-        "speakers": "Miroslav \u0160ediv\u00fd",
+        "speakers": "Stephane Wirtel",
         "submission_type": "Talk",
-        "pyskill": "basic",
-        "domains": "Data Science, Science",
-        "domain": "some",
-        "tweet": "A day has only 24\u00b11 hours: import pytz and handle easily all those timezone issues your system knows about. Fear those it doesn't.",
+        "pyskill": "expert",
+        "domains": "Community, Django, DevOps",
+        "domain": "expert",
+        "tweet": "What's new in Python 3.7?",
         "the_speakers": [
             {
-                "name": "Miroslav \u0160ediv\u00fd",
-                "biography": "Using Python to make the sun shine and the wind blow. hjkl juggler and languages enthusiast. Living in the Europe/Berlin timezone, saving text files as UTF-8, typing on a standard US keyboard layout with a Compose key.",
-                "@twitter": "@eumiro",
-                "homepage": "http://"
+                "name": "Stephane Wirtel",
+                "biography": "Contributor of CPython, Stephane is a member of the EuroPython team since 2015, he likes to improve his skills with best practices, TDD, CI, etc.... Python developer since 2001 and member of the PSF, EuroPython and AFPy, he is also a freelancer in the wonderful Python world.",
+                "homepage": "http://",
+                "@twitter": "@matrixise"
             }
         ],
-        "popularity": 4,
+        "popularity": 5,
         "slot_time": "thu-11:55",
         "slot_date": "thursday 11:55",
         "slot_code": "thu-11:55-lecture",
         "room": "lecture",
-        "slug": "a-day-has-only-241-hours-import-pytz"
+        "slug": "what-s-new-in-python-3-7"
     },
     "thu-14:00-cubus": {
         "code": "KCTMMV",
