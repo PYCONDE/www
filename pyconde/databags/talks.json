@@ -350,9 +350,9 @@
             }
         ],
         "popularity": 3,
-        "slot_time": "wed-14:00",
-        "slot_date": "wednesday 14:00",
-        "slot_code": "wed-14:00-lecture",
+        "slot_time": "fri-14:00",
+        "slot_date": "friday 14:00",
+        "slot_code": "fri-14:00-lecture",
         "room": "lecture",
         "slug": "cython-to-speed-up-your-python-code"
     },
@@ -1461,8 +1461,8 @@
         "code": "XGUAE3",
         "title": "How to make your (digital) Communication strong & future ready",
         "state": "confirmed",
-        "abstract": "Startups and small companies need a smart communication strategy.",
-        "description": "Your business is all set up and ready. You want to enter the market with a new product or service. How to make your (digital) Communication strong & future ready.",
+        "abstract": "Your business is all set up and ready. You want to enter the market with a new product or service. As digital communication evolves, brands and companies are constantly facing new challenges. The ways of providing information and interacting become more and more multi-layered and complex. A well-defined communicative base can serve as a corrective that prevents technology from becoming self-serving.",
+        "description": "Your business is all set up and ready. You want to enter the market with a new product or service. As digital communication evolves, brands and companies are constantly facing new challenges. The ways of providing information and interacting become more and more multi-layered and complex. A well-defined communicative base can serve as a corrective that prevents technology from becoming self-serving.",
         "duration": "00:15",
         "speakers": "Simon Daubermann",
         "submission_type": "Talk",
@@ -1473,7 +1473,7 @@
         "the_speakers": [
             {
                 "name": "Simon Daubermann",
-                "biography": "Simon Daubermann"
+                "biography": "Simon Daubermann\u2019s interest in digital matters initially motivated him to pursue information technology. His early passion for form, design, typography and communication led him to aspire to a creative career. He is founder of the award-winning design studio DAUBERMANN \u2013 working with a holistic approach in the areas of Corporate / Brand Identity, Design and Communication."
             }
         ],
         "popularity": 5,
@@ -1900,7 +1900,7 @@
         "title": "How to develop your project from an idea to architecture design in 50 minutes",
         "state": "confirmed",
         "abstract": "Have a fresh idea that needs to be shaped? This tutorial will show how to start with a raw idea, visualize it, and then use the object-oriented approach to design the architecture.",
-        "description": "Have you ever asked yourself:\u2028- how and where to start developing a new project from the scratch,\u2028- how to choose main components of a new software or how to develop a new feature,\u2028- how to decide whether your project needs refactoring\u00a0\u2028- how to avoid repeating the same issues?\u2028This talk will answer all these questions.\r\nYou will learn:\u2028- how to develop the idea from scratch,\u2028- how to develop and visualize the idea, create basic visual design without any specific knowledge,\u2028- hot to use principles of Object Oriented Analysis and Design,\u00a0\u2028- how to develop and show amazing architecture design.\r\nYou will learn to better understand where and how to start, analyze and decouple the system, create a clean, clear and extendable architecture.",
+        "description": "Have you ever asked yourself:\u2028- how and where to start developing a new project from the scratch,\u2028- how to choose main components of a new software or how to develop a new feature,\u2028- how to decide whether your project needs refactoring \u2028- how to avoid repeating the same issues?\u2028This talk will answer all these questions.\r\nYou will learn:\u2028- how to develop the idea from scratch,\u2028- how to develop and visualize the idea, create basic visual design without any specific knowledge,\u2028- hot to use principles of Object Oriented Analysis and Design, \u2028- how to develop and show amazing architecture design.\r\nYou will learn to better understand where and how to start, analyze and decouple the system, create a clean, clear and extendable architecture.",
         "duration": "01:30",
         "speakers": "Anastasiia Tymoshchuk, Elena Volovicheva",
         "submission_type": "Workshop",
@@ -1911,11 +1911,11 @@
         "the_speakers": [
             {
                 "name": "Elena Volovicheva",
-                "biography": "Elena Volovicheva is a Digital Designer from Ukraine, currently working in Berlin for a company named Fonpit. Through the years of hands-on experience\u00a0she made her way from an artist to digital designer, she tried herself as an entrepreneur, events host and teacher. \r\n\r\nShe believes that principles of design are reflected in the most natural aspects of our daily lives and that the design techniques should be applied also in the work of non-designers to create harmony in their workflow and vision."
+                "biography": "Elena Volovicheva is a Digital Designer from Ukraine, currently working in Berlin for a company named Fonpit. Through the years of hands-on experience she made her way from an artist to digital designer, she tried herself as an entrepreneur, events host and teacher. \r\n\r\nShe believes that principles of design are reflected in the most natural aspects of our daily lives and that the design techniques should be applied also in the work of non-designers to create harmony in their workflow and vision."
             },
             {
                 "name": "Anastasiia Tymoshchuk",
-                "biography": "Anastasiia originally came from Ukraine, working in Berlin since April 2016. Her first Python project was - to create automation testing framework from scratch for LG Smart TV (using Python 2.7 and Django).\r\nWorking in the development for almost of 7 years (around 5 years in Python), including experience in e-commerce as well as game development. Every day she is dealing with lots of challenges when she has to consider software or library to start with, starting from the question how to build architecture and finishing with a deployment. She has also a great experience in the design and development of the project from scratch to production.  \r\n\r\nElena is a Digital Designer from Ukraine, currently working in Berlin for a company named Fonpit. Through the years of hands-on experience\u00a0she made her way from an artist to digital designer, she tried herself as an entrepreneur, events host and teacher.   \r\nShe believes that principles of design are reflected in the most natural aspects of our daily lives and that the design techniques should be applied also in the work of non-designers to create harmony in their workflow and vision.",
+                "biography": "Anastasiia originally came from Ukraine, working in Berlin since April 2016. Her first Python project was - to create automation testing framework from scratch for LG Smart TV (using Python 2.7 and Django).\r\nWorking in the development for almost of 7 years (around 5 years in Python), including experience in e-commerce as well as game development. Every day she is dealing with lots of challenges when she has to consider software or library to start with, starting from the question how to build architecture and finishing with a deployment. She has also a great experience in the design and development of the project from scratch to production.  \r\n\r\nElena is a Digital Designer from Ukraine, currently working in Berlin for a company named Fonpit. Through the years of hands-on experience she made her way from an artist to digital designer, she tried herself as an entrepreneur, events host and teacher.   \r\nShe believes that principles of design are reflected in the most natural aspects of our daily lives and that the design techniques should be applied also in the work of non-designers to create harmony in their workflow and vision.",
                 "homepage": "http://atymo.me/",
                 "@twitter": ""
             }
@@ -2145,7 +2145,7 @@
         "the_speakers": [
             {
                 "name": "Anastasiia Tymoshchuk",
-                "biography": "Anastasiia originally came from Ukraine, working in Berlin since April 2016. Her first Python project was - to create automation testing framework from scratch for LG Smart TV (using Python 2.7 and Django).\r\nWorking in the development for almost of 7 years (around 5 years in Python), including experience in e-commerce as well as game development. Every day she is dealing with lots of challenges when she has to consider software or library to start with, starting from the question how to build architecture and finishing with a deployment. She has also a great experience in the design and development of the project from scratch to production.  \r\n\r\nElena is a Digital Designer from Ukraine, currently working in Berlin for a company named Fonpit. Through the years of hands-on experience\u00a0she made her way from an artist to digital designer, she tried herself as an entrepreneur, events host and teacher.   \r\nShe believes that principles of design are reflected in the most natural aspects of our daily lives and that the design techniques should be applied also in the work of non-designers to create harmony in their workflow and vision.",
+                "biography": "Anastasiia originally came from Ukraine, working in Berlin since April 2016. Her first Python project was - to create automation testing framework from scratch for LG Smart TV (using Python 2.7 and Django).\r\nWorking in the development for almost of 7 years (around 5 years in Python), including experience in e-commerce as well as game development. Every day she is dealing with lots of challenges when she has to consider software or library to start with, starting from the question how to build architecture and finishing with a deployment. She has also a great experience in the design and development of the project from scratch to production.  \r\n\r\nElena is a Digital Designer from Ukraine, currently working in Berlin for a company named Fonpit. Through the years of hands-on experience she made her way from an artist to digital designer, she tried herself as an entrepreneur, events host and teacher.   \r\nShe believes that principles of design are reflected in the most natural aspects of our daily lives and that the design techniques should be applied also in the work of non-designers to create harmony in their workflow and vision.",
                 "homepage": "http://atymo.me/",
                 "@twitter": ""
             }
@@ -2156,5 +2156,59 @@
         "slot_code": "fri-14:00-media",
         "room": "media",
         "slug": "python-decorators-gift-or-poison"
+    },
+    "fri-14:00-lounge": {
+        "code": "HKLSO",
+        "title": "3D Graphics in Python with Ratcave and Pyglet",
+        "state": "confirmed",
+        "abstract": "Python has some great graphics packages!  in this talk, I'll introduce the fundamentals of 3D graphics and demonstrate how to load 3D models, created in Blender3D, into an OpenGL window using Pyglet and the Ratcave extension.",
+        "description": "Python has some great graphics packages!  in this talk, I'll introduce the fundamentals of 3D graphics and demonstrate how to load 3D models, created in Blender3D, into an OpenGL window using Pyglet and the Ratcave extension.",
+        "duration": "00:45",
+        "speakers": "Nicholas A. Del Grosso",
+        "submission_type": "Talk",
+        "pyskill": "basic",
+        "domains": "Visualisation",
+        "domain": "some",
+        "tweet": "Bokeh: plotting interactive charts using python",
+        "the_speakers": [
+            {
+                "name": "Nicholas A. Del Grosso",
+                "biography": "Nicholas A. Del Grosso, LMU Munich, Germany"
+            }
+        ],
+        "popularity": 4,
+        "slot_time": "fri-14:00",
+        "slot_date": "friday 14:00",
+        "slot_code": "fri-14:00-lounge",
+        "room": "lounge",
+        "slug": "3d-graphics-in-python-with-ratcave-and-pyglet"
+    },
+    "fri-14:00-lecture": {
+        "code": "7ZNCP8",
+        "title": "Cython to speed up your Python code",
+        "state": "confirmed",
+        "abstract": "Come and learn how to speed up and optimise your Python code with the Cython compiler.",
+        "description": "[Cython](http://cython.org) is not only a very fast and comfortable way to talk to native code and libraries, it is also a widely used tool for speeding up Python code. The Cython compiler translates Python code to C or C++ code, and applies many static optimisations that make Python code run visibly faster than in the interpreter. But even better, it supports static type annotations that allow direct use of C/C++ data types and functions, which the compiler uses to convert and optimise the code into fast, native C. The tight integration of all three languages, Python, C and C++, makes it possible to freely mix Python features like generators and comprehensions with C/C++ features like native data types, pointer arithmetic or manually tuned memory management in the same code.\r\n\r\nThis talk by a core developer introduces the Cython compiler by interactive code examples, and shows how you can use it to speed up your real-world Python code. You will learn how you can profile a Python module and use Cython to compile and optimise it into a fast binary extension module. All of that, without losing the ability to run it through common development tools like code checkers or coverage test tools.",
+        "duration": "00:45",
+        "speakers": "Stefan Behnel",
+        "submission_type": "Talk",
+        "pyskill": "basic",
+        "domains": "Big Data, Infrastructure, Jupyter, Parallel Programming",
+        "domain": "some",
+        "tweet": "Stefan Behnel is show-casing Cython for speeding up Python code.",
+        "the_speakers": [
+            {
+                "name": "Stefan Behnel",
+                "biography": "Stefan is a long-time Python user and core developer of the well-known OSS projects Cython and lxml. He works on big data pipelines at TrustYou, encourages people to use Python and talk about it, and gives lectures and trainings on Cython programming and High-Performance Computing.",
+                "homepage": "http://https://www.trustyou.com",
+                "@twitter": ""
+            }
+        ],
+        "popularity": 3,
+        "slot_time": "fri-14:00",
+        "slot_date": "friday 14:00",
+        "slot_code": "fri-14:00-lecture",
+        "room": "lecture",
+        "slug": "cython-to-speed-up-your-python-code"
     }
 }
