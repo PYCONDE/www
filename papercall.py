@@ -164,11 +164,20 @@ def drop_sensitive_speaker_infromation(data):
                     del speaker[k]
     return data
 
+def load_videos(filename):
+    d = {}
+    for video in json.load(open(filename)):
+        d[video["code"]] = video
+    return d
 
 def write_databag(data):
     json.dump(data, open("pyconde/databags/talks.json", "w"), indent=4)
     return data
 
+def merge_video(data, videos):
+    for talk in data.values():
+        talk["video"] = videos.get(talk["code"], None)
+    return data
 
 def pipe(*tasks):
     data = None
@@ -189,12 +198,14 @@ def cli(schedule_dir):
 
     xsl_file = os.path.join(schedule_dir, "pyconde18-pydata-ka-schedule.xlsx")
     json_file = os.path.join(schedule_dir, "pyconde18-pydata-ka-all_submissions.json")
+    video_file = os.path.join(schedule_dir, "videos/video_schedule_mapping.json")
 
     data = pipe(
         partial(load_talks_metadata, filename=json_file),
         fix_data,
         partial(merge_schedule, schedule=load_schedule(xsl_file)),
         drop_sensitive_speaker_infromation,
+        partial(merge_video, videos=load_videos(video_file)),
         write_databag,
         gen_schedule_talks,
     )

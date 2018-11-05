@@ -25,7 +25,15 @@
         "slot_date": "wednesday 11:30",
         "slot_code": "wed-11:30-cubus",
         "room": "cubus",
-        "slug": "your-first-nlp-project-peaks-and-pitfalls-of-unstructured-data"
+        "slug": "your-first-nlp-project-peaks-and-pitfalls-of-unstructured-data",
+        "video": {
+            "code": "3HXB7K",
+            "title": "Your first NLP project: peaks and pitfalls of unstructured data",
+            "speakers": "Anna Widiger",
+            "video_title": "PyCon.DE 2018: Your First NLP Project: Peaks And Pitfalls Of Unstructured Data - Anna Widiger",
+            "video_id": "bf2hISLgK84",
+            "video_url": "https://www.youtube.com/watch?v=bf2hISLgK84"
+        }
     },
     "wed-11:30-media": {
         "code": "YGB9LX",
@@ -53,7 +61,8 @@
         "slot_date": "wednesday 11:30",
         "slot_code": "wed-11:30-media",
         "room": "media",
-        "slug": "modern-asynchronous-programming"
+        "slug": "modern-asynchronous-programming",
+        "video": null
     },
     "wed-11:30-lounge": {
         "code": "PGWRFX",
@@ -80,7 +89,15 @@
         "slot_date": "wednesday 11:30",
         "slot_code": "wed-11:30-lounge",
         "room": "lounge",
-        "slug": "reticulate-r-interface-to-python"
+        "slug": "reticulate-r-interface-to-python",
+        "video": {
+            "code": "PGWRFX",
+            "title": "reticulate: R interface to Python",
+            "speakers": "Jens Bruno Wittek",
+            "video_title": "PyCon.DE 2018: Reticulate: R Interface To Python - Jens Bruno Wittek",
+            "video_id": "EJxQSa9lwfM",
+            "video_url": "https://www.youtube.com/watch?v=EJxQSa9lwfM"
+        }
     },
     "wed-11:30-lecture": {
         "code": "KF3BUL",
@@ -108,7 +125,15 @@
         "slot_date": "wednesday 11:30",
         "slot_code": "wed-11:30-lecture",
         "room": "lecture",
-        "slug": "introduction-and-practical-experience-about-quantum-computing-using-the-python-libraries-from-ibm-and-google"
+        "slug": "introduction-and-practical-experience-about-quantum-computing-using-the-python-libraries-from-ibm-and-google",
+        "video": {
+            "code": "KF3BUL",
+            "title": "Introduction and practical experience about Quantum Computing using the Python libraries from IBM and Google",
+            "speakers": "Dr. Andreas Riegg",
+            "video_title": "PyCon.DE 2018: Introduction And Practical Experience About Quantum Computing - Dr. Andreas Riegg",
+            "video_id": "dDPSmTGVvZE",
+            "video_url": "https://www.youtube.com/watch?v=dDPSmTGVvZE"
+        }
     },
     "wed-11:30-openhub": {
         "code": "BQSZ3X",
@@ -136,7 +161,8 @@
         "slot_date": "wednesday 11:30",
         "slot_code": "wed-11:30-openhub",
         "room": "openhub",
-        "slug": "pandas-io-tools-reading-and-writing-dataframes-as-files-and-databases"
+        "slug": "pandas-io-tools-reading-and-writing-dataframes-as-files-and-databases",
+        "video": null
     },
     "wed-12:20-cubus": {
         "code": "TMW9U3",
@@ -164,7 +190,15 @@
         "slot_date": "wednesday 12:20",
         "slot_code": "wed-12:20-cubus",
         "room": "cubus",
-        "slug": "germany-s-next-topic-model"
+        "slug": "germany-s-next-topic-model",
+        "video": {
+            "code": "TMW9U3",
+            "title": "Germany's next topic model",
+            "speakers": "Thomas Mayer",
+            "video_title": "PyCon.DE 2018: Germany's Next Topic Model - Thomas Mayer",
+            "video_id": "sI7VpFNiy_I",
+            "video_url": "https://www.youtube.com/watch?v=sI7VpFNiy_I"
+        }
     },
     "wed-12:20-media": {
         "code": "EVT9PV",
@@ -192,7 +226,15 @@
         "slot_date": "wednesday 12:20",
         "slot_code": "wed-12:20-media",
         "room": "media",
-        "slug": "developing-ecommerce-platform-with-django-oscar"
+        "slug": "developing-ecommerce-platform-with-django-oscar",
+        "video": {
+            "code": "EVT9PV",
+            "title": "Developing ecommerce platform with Django Oscar",
+            "speakers": "Alexander Gaevsky",
+            "video_title": "PyCon.DE 2018: Developing Ecommerce Platform With Django Oscar - Alexander Gaevsky",
+            "video_id": "7b8r1eioNPY",
+            "video_url": "https://www.youtube.com/watch?v=7b8r1eioNPY"
+        }
     },
     "wed-12:20-lounge": {
         "code": "NTCBZX",
@@ -226,7 +268,15 @@
         "slot_date": "wednesday 12:20",
         "slot_code": "wed-12:20-lounge",
         "room": "lounge",
-        "slug": "iot-using-python-on-linux-lessons-learned"
+        "slug": "iot-using-python-on-linux-lessons-learned",
+        "video": {
+            "code": "NTCBZX",
+            "title": "IoT using Python on Linux: Lessons Learned",
+            "speakers": "Thomas Keppler, Matthias Schmidt",
+            "video_title": "PyCon.DE 2018: IoT Using Python On Linux: Lessons Learned - Thomas Keppler and Matthias Schmidt",
+            "video_id": "M4cmKMxvYKE",
+            "video_url": "https://www.youtube.com/watch?v=M4cmKMxvYKE"
+        }
     },
     "wed-12:20-lecture": {
         "code": "NC7Z3X",
@@ -254,7 +304,15 @@
         "slot_date": "wednesday 12:20",
         "slot_code": "wed-12:20-lecture",
         "room": "lecture",
-        "slug": "karabo-a-control-framework-fueled-by-python-asyncio"
+        "slug": "karabo-a-control-framework-fueled-by-python-asyncio",
+        "video": {
+            "code": "NC7Z3X",
+            "title": "Karabo - A control framework fueled by Python asyncio",
+            "speakers": "Dennis G\u00f6ries",
+            "video_title": "",
+            "video_id": "",
+            "video_url": ""
+        }
     },
     "wed-14:00-cubus": {
         "code": "L8NSBN",
@@ -270,7 +328,15 @@
         "slot_date": "wednesday 14:00",
         "slot_code": "wed-14:00-cubus",
         "room": "cubus",
-        "slug": "from-wittgenstein-to-tensorflow-the-role-of-domain-specific-languages-and-language-design-in-machine-learning"
+        "slug": "from-wittgenstein-to-tensorflow-the-role-of-domain-specific-languages-and-language-design-in-machine-learning",
+        "video": {
+            "code": "L8NSBN",
+            "title": "From Wittgenstein to TensorFlow: The role of Domain Specific Languages and Language Design in Machine Learning",
+            "speakers": "Mattia Ferrini",
+            "video_title": "PyCon.DE 2018: The Role Of Domain Specific Languages And Language Design In ML - Mattia Ferrini",
+            "video_id": "omcObOxAEdU",
+            "video_url": "https://www.youtube.com/watch?v=omcObOxAEdU"
+        }
     },
     "wed-14:00-media": {
         "code": "SVALYW",
@@ -298,7 +364,15 @@
         "slot_date": "wednesday 14:00",
         "slot_code": "wed-14:00-media",
         "room": "media",
-        "slug": "performance-evaluation-of-gans-in-a-semi-supervised-ocr-use-case"
+        "slug": "performance-evaluation-of-gans-in-a-semi-supervised-ocr-use-case",
+        "video": {
+            "code": "SVALYW",
+            "title": "Performance evaluation of GANs in a semi-supervised OCR use case",
+            "speakers": "Florian Wilhelm",
+            "video_title": "PyCon.DE 2018: Performance Evaluation Of GANs In A Semi-supervised OCR Use Case - Florian Wilhelm",
+            "video_id": "XniwzOCWi2c",
+            "video_url": "https://www.youtube.com/watch?v=XniwzOCWi2c"
+        }
     },
     "wed-14:00-lounge": {
         "code": "QFNS3Z",
@@ -326,7 +400,8 @@
         "slot_date": "wednesday 14:00",
         "slot_code": "wed-14:00-lounge",
         "room": "lounge",
-        "slug": "scalable-scientific-computing-using-dask"
+        "slug": "scalable-scientific-computing-using-dask",
+        "video": null
     },
     "wed-14:00-lecture": {
         "code": "7ZNCP8",
@@ -354,7 +429,15 @@
         "slot_date": "friday 14:00",
         "slot_code": "fri-14:00-lecture",
         "room": "lecture",
-        "slug": "cython-to-speed-up-your-python-code"
+        "slug": "cython-to-speed-up-your-python-code",
+        "video": {
+            "code": "7ZNCP8",
+            "title": "Cython to speed up your Python code",
+            "speakers": "Stefan Behnel",
+            "video_title": "PyCon.DE 2018: Cython to speed up your Python code - Stefan Behnel",
+            "video_id": "zx0wMxuh-wk",
+            "video_url": "https://www.youtube.com/watch?v=zx0wMxuh-wk"
+        }
     },
     "wed-14:00-openhub": {
         "code": "VBC9GK",
@@ -382,7 +465,8 @@
         "slot_date": "wednesday 14:00",
         "slot_code": "wed-14:00-openhub",
         "room": "openhub",
-        "slug": "finance-sales-and-business-development-for-start-ups"
+        "slug": "finance-sales-and-business-development-for-start-ups",
+        "video": null
     },
     "wed-14:50-cubus": {
         "code": "TEDNFL",
@@ -410,7 +494,15 @@
         "slot_date": "wednesday 14:50",
         "slot_code": "wed-14:50-cubus",
         "room": "cubus",
-        "slug": "experiences-from-applying-convolutional-neural-networks-for-classifying-2d-sensor-data"
+        "slug": "experiences-from-applying-convolutional-neural-networks-for-classifying-2d-sensor-data",
+        "video": {
+            "code": "TEDNFL",
+            "title": "Experiences from applying Convolutional Neural Networks for classifying 2D sensor data",
+            "speakers": "Matthias Peussner",
+            "video_title": "PyCon.DE 2018: Applying CNNs For Classifying 2D Sensor Data - Matthias Peussner",
+            "video_id": "Td1iaz_ZouA",
+            "video_url": "https://www.youtube.com/watch?v=Td1iaz_ZouA"
+        }
     },
     "wed-14:50-media": {
         "code": "EQA7TS",
@@ -438,7 +530,15 @@
         "slot_date": "wednesday 14:50",
         "slot_code": "wed-14:50-media",
         "room": "media",
-        "slug": "active-learning-building-semi-supervised-classifiers-when-labeled-data-is-not-available"
+        "slug": "active-learning-building-semi-supervised-classifiers-when-labeled-data-is-not-available",
+        "video": {
+            "code": "EQA7TS",
+            "title": "Active Learning - Building Semi-supervised Classifiers when Labeled Data is not Available",
+            "speakers": "Dr. Hendrik Niemeyer",
+            "video_title": "PyCon.DE 2018: Building Semi-supervised Classifiers When Labeled Data Is Unavailable - H. Niemeyer",
+            "video_id": "0efyjq5rWS4",
+            "video_url": "https://www.youtube.com/watch?v=0efyjq5rWS4"
+        }
     },
     "wed-14:50-lecture": {
         "code": "KPY88U",
@@ -466,7 +566,15 @@
         "slot_date": "wednesday 14:50",
         "slot_code": "wed-14:50-lecture",
         "room": "lecture",
-        "slug": "selinon-dynamic-distributed-task-flows"
+        "slug": "selinon-dynamic-distributed-task-flows",
+        "video": {
+            "code": "KPY88U",
+            "title": "Selinon - dynamic distributed task flows",
+            "speakers": "Fridol\u00edn Pokorn\u00fd",
+            "video_title": "PyCon.DE 2018: Selinon - Dynamic Distributed Task Flows - Fridol\u00edn Pokorn\u00fd",
+            "video_id": "UDr9Lp_0rp0",
+            "video_url": "https://www.youtube.com/watch?v=UDr9Lp_0rp0"
+        }
     },
     "wed-16:00-cubus": {
         "code": "F8NLRH",
@@ -494,7 +602,15 @@
         "slot_date": "wednesday 16:00",
         "slot_code": "wed-16:00-cubus",
         "room": "cubus",
-        "slug": "case-study-in-travel-business-understanding-agent-connections-using-networkx"
+        "slug": "case-study-in-travel-business-understanding-agent-connections-using-networkx",
+        "video": {
+            "code": "F8NLRH",
+            "title": "Case Study in Travel Business - Understanding agent connections using NetworkX",
+            "speakers": "Cheuk Ting Ho",
+            "video_title": "PyCon.DE 2018: Understanding Agent Connections Using NetworkX - Cheuk Ting Ho",
+            "video_id": "h_nYy9XEPvY",
+            "video_url": "https://www.youtube.com/watch?v=h_nYy9XEPvY"
+        }
     },
     "wed-16:00-media": {
         "code": "7BJQJB",
@@ -522,7 +638,15 @@
         "slot_date": "wednesday 16:00",
         "slot_code": "wed-16:00-media",
         "room": "media",
-        "slug": "a-day-has-only-241-hours-import-pytz"
+        "slug": "a-day-has-only-241-hours-import-pytz",
+        "video": {
+            "code": "7BJQJB",
+            "title": "A Day Has Only 24\u00b11 Hours: import pytz",
+            "speakers": "Miroslav \u0160ediv\u00fd",
+            "video_title": "PyCon.DE 2018: A Day Has Only 24\u00b11 Hours: Import Pytz - Miroslav \u0160ediv\u00fd",
+            "video_id": "IRGKlwkio0Y",
+            "video_url": "https://www.youtube.com/watch?v=IRGKlwkio0Y"
+        }
     },
     "wed-16:00-lounge": {
         "code": "SFSLZG",
@@ -550,7 +674,15 @@
         "slot_date": "wednesday 16:00",
         "slot_code": "wed-16:00-lounge",
         "room": "lounge",
-        "slug": "script-library-or-executable-you-can-have-it-all"
+        "slug": "script-library-or-executable-you-can-have-it-all",
+        "video": {
+            "code": "SFSLZG",
+            "title": "Script, Library, or Executable: You can have it all!",
+            "speakers": "Luke Lee",
+            "video_title": "PyCon.DE 2018: Script, Library, Or Executable: You Can Have It All! - Luke Lee",
+            "video_id": "7jpM1Iw3OKk",
+            "video_url": "https://www.youtube.com/watch?v=7jpM1Iw3OKk"
+        }
     },
     "wed-16:00-lecture": {
         "code": "V3UZWL",
@@ -578,7 +710,15 @@
         "slot_date": "wednesday 16:00",
         "slot_code": "wed-16:00-lecture",
         "room": "lecture",
-        "slug": "achieving-resilient-code-with-integration-tests"
+        "slug": "achieving-resilient-code-with-integration-tests",
+        "video": {
+            "code": "V3UZWL",
+            "title": "Achieving Resilient Code with Integration Tests",
+            "speakers": "Alexandre Figura",
+            "video_title": "PyCon.DE 2018: Achieving Resilient Code With Integration Tests - Alexandre Figura",
+            "video_id": "qRJ5qhblXV8",
+            "video_url": "https://www.youtube.com/watch?v=qRJ5qhblXV8"
+        }
     },
     "wed-16:00-openhub": {
         "code": "8WXEH8",
@@ -606,7 +746,8 @@
         "slot_date": "wednesday 16:00",
         "slot_code": "wed-16:00-openhub",
         "room": "openhub",
-        "slug": "build-a-modern-data-infrastructure"
+        "slug": "build-a-modern-data-infrastructure",
+        "video": null
     },
     "wed-16:35-cubus": {
         "code": "A9HL7W",
@@ -634,7 +775,15 @@
         "slot_date": "wednesday 16:35",
         "slot_code": "wed-16:35-cubus",
         "room": "cubus",
-        "slug": "binder-lowering-the-bar-to-sharing-interactive-software"
+        "slug": "binder-lowering-the-bar-to-sharing-interactive-software",
+        "video": {
+            "code": "A9HL7W",
+            "title": "Binder - lowering the bar to sharing interactive software",
+            "speakers": "Tim Head",
+            "video_title": "PyCon.DE 2018: Binder - Lowering The Bar To Sharing Interactive Software - Tim Head",
+            "video_id": "TQY_fVPEWTw",
+            "video_url": "https://www.youtube.com/watch?v=TQY_fVPEWTw"
+        }
     },
     "wed-16:35-media": {
         "code": "YMMKKW",
@@ -662,7 +811,15 @@
         "slot_date": "wednesday 16:35",
         "slot_code": "wed-16:35-media",
         "room": "media",
-        "slug": "python-dependency-management"
+        "slug": "python-dependency-management",
+        "video": {
+            "code": "YMMKKW",
+            "title": "Python Dependency Management",
+            "speakers": "Patrick Muehlbauer",
+            "video_title": "PyCon.DE 2018: Python Dependency Management - Patrick Muehlbauer",
+            "video_id": "pA4XriRWVxQ",
+            "video_url": "https://www.youtube.com/watch?v=pA4XriRWVxQ"
+        }
     },
     "wed-16:35-lounge": {
         "code": "US3HQJ",
@@ -690,7 +847,15 @@
         "slot_date": "wednesday 16:35",
         "slot_code": "wed-16:35-lounge",
         "room": "lounge",
-        "slug": "productionizing-your-ml-code-seamlessly"
+        "slug": "productionizing-your-ml-code-seamlessly",
+        "video": {
+            "code": "US3HQJ",
+            "title": "Productionizing your ML code seamlessly",
+            "speakers": "Lauris Jullien",
+            "video_title": "PyCon.DE 2018: Productionizing Your ML Code Seamlessly - Lauris Jullien",
+            "video_id": "M0A8GaT5qns",
+            "video_url": "https://www.youtube.com/watch?v=M0A8GaT5qns"
+        }
     },
     "wed-16:35-lecture": {
         "code": "M8KBBJ",
@@ -718,7 +883,15 @@
         "slot_date": "wednesday 16:35",
         "slot_code": "wed-16:35-lecture",
         "room": "lecture",
-        "slug": "testing-in-python-the-big-picture"
+        "slug": "testing-in-python-the-big-picture",
+        "video": {
+            "code": "M8KBBJ",
+            "title": "Testing in Python - The Big Picture",
+            "speakers": "Niklas Meinzer",
+            "video_title": "PyCon.DE 2018: Testing In Python - The Big Picture - Niklas Meinzer",
+            "video_id": "8JtLzYdXba0",
+            "video_url": "https://www.youtube.com/watch?v=8JtLzYdXba0"
+        }
     },
     "wed-17:10-cubus": {
         "code": "HSVZUS",
@@ -746,7 +919,15 @@
         "slot_date": "wednesday 17:10",
         "slot_code": "wed-17:10-cubus",
         "room": "cubus",
-        "slug": "pyccel-a-fortran-static-compiler-for-scientific-high-performance-computing"
+        "slug": "pyccel-a-fortran-static-compiler-for-scientific-high-performance-computing",
+        "video": {
+            "code": "HSVZUS",
+            "title": "Pyccel, a Fortran static compiler for scientific High-Performance Computing",
+            "speakers": "Dr. Ing. Ratnani Ahmed",
+            "video_title": "PyCon.DE 2018: Pyccel, A Fortran Static Compiler For Scientific HP Computing - Ratnani Ahmed",
+            "video_id": "79FhJgy27bU",
+            "video_url": "https://www.youtube.com/watch?v=79FhJgy27bU"
+        }
     },
     "wed-17:10-media": {
         "code": "PA9FZK",
@@ -774,7 +955,15 @@
         "slot_date": "wednesday 17:10",
         "slot_code": "wed-17:10-media",
         "room": "media",
-        "slug": "distributed-hyperparameter-search-with-sklearn-and-kubernetes"
+        "slug": "distributed-hyperparameter-search-with-sklearn-and-kubernetes",
+        "video": {
+            "code": "PA9FZK",
+            "title": "Distributed Hyperparameter search with sklearn and kubernetes",
+            "speakers": "Jakob Karalus",
+            "video_title": "PyCon.DE 2018: Distributed Hyperparameter Search With Sklearn And Kubernetes - Jakob Karalus",
+            "video_id": "blUc9w3QLuA",
+            "video_url": "https://www.youtube.com/watch?v=blUc9w3QLuA"
+        }
     },
     "wed-17:10-lounge": {
         "code": "XX8KJD",
@@ -802,7 +991,15 @@
         "slot_date": "wednesday 17:10",
         "slot_code": "wed-17:10-lounge",
         "room": "lounge",
-        "slug": "how-type-annotations-make-your-code-better"
+        "slug": "how-type-annotations-make-your-code-better",
+        "video": {
+            "code": "XX8KJD",
+            "title": "How type annotations make your code better",
+            "speakers": "Igor Davydenko",
+            "video_title": "PyCon.DE 2018: How Type Annotations Make Your Code Better - Igor Davydenko",
+            "video_id": "hHxZkdDA-l0",
+            "video_url": "https://www.youtube.com/watch?v=hHxZkdDA-l0"
+        }
     },
     "wed-17:10-lecture": {
         "code": "3RMPDC",
@@ -830,7 +1027,15 @@
         "slot_date": "wednesday 17:10",
         "slot_code": "wed-17:10-lecture",
         "room": "lecture",
-        "slug": "about-going-open-source"
+        "slug": "about-going-open-source",
+        "video": {
+            "code": "3RMPDC",
+            "title": "About going Open-Source",
+            "speakers": "Tim",
+            "video_title": "PyCon.DE 2018: About Going Open-Source - Tim",
+            "video_id": "A_UtST302Og",
+            "video_url": "https://www.youtube.com/watch?v=A_UtST302Og"
+        }
     },
     "thu-10:30-cubus": {
         "code": "HBNNF8",
@@ -858,7 +1063,15 @@
         "slot_date": "thursday 10:30",
         "slot_code": "thu-10:30-cubus",
         "room": "cubus",
-        "slug": "big-data-systems-performance-the-little-shop-of-horrors"
+        "slug": "big-data-systems-performance-the-little-shop-of-horrors",
+        "video": {
+            "code": "HBNNF8",
+            "title": "Big Data Systems Performance: The Little Shop of Horrors",
+            "speakers": "Jens Dittrich",
+            "video_title": "PyCon.DE 2018: Big Data Systems Performance: The Little Shop Of Horrors - Jens Dittrich",
+            "video_id": "FLTC2N3xrug",
+            "video_url": "https://www.youtube.com/watch?v=FLTC2N3xrug"
+        }
     },
     "thu-10:30-media": {
         "code": "DPYMZZ",
@@ -880,7 +1093,15 @@
         "slot_date": "thursday 10:30",
         "slot_code": "thu-10:30-media",
         "room": "media",
-        "slug": "deep-learning-with-pytorch-for-more-fun-and-profit-part-ii"
+        "slug": "deep-learning-with-pytorch-for-more-fun-and-profit-part-ii",
+        "video": {
+            "code": "DPYMZZ",
+            "title": "Deep Learning with PyTorch for more Fun and Profit (Part II)",
+            "speakers": "Alexander CS Hendorf",
+            "video_title": "PyCon.DE 2018: Deep Learning With PyTorch For More Fun And Profit (Part II) - Alexander CS Hendorf",
+            "video_id": "yB1rUfPILFY",
+            "video_url": "https://www.youtube.com/watch?v=yB1rUfPILFY"
+        }
     },
     "thu-10:30-lounge": {
         "code": "RR9WTS",
@@ -908,7 +1129,15 @@
         "slot_date": "thursday 10:30",
         "slot_code": "thu-10:30-lounge",
         "room": "lounge",
-        "slug": "machine-learning-as-a-service-how-to-deploy-ml-models-as-apis-without-going-nuts"
+        "slug": "machine-learning-as-a-service-how-to-deploy-ml-models-as-apis-without-going-nuts",
+        "video": {
+            "code": "RR9WTS",
+            "title": "Machine Learning as a Service: How to deploy ML Models as APIs without going nuts",
+            "speakers": "Anand Chitipothu",
+            "video_title": "PyCon.DE 2018: How To Deploy ML Models As APIs Without Going Nuts - Anand Chitipothu",
+            "video_id": "zud6CTR1NLk",
+            "video_url": "https://www.youtube.com/watch?v=zud6CTR1NLk"
+        }
     },
     "thu-10:30-lecture": {
         "code": "NJUTQM",
@@ -936,7 +1165,15 @@
         "slot_date": "thursday 10:30",
         "slot_code": "thu-10:30-lecture",
         "room": "lecture",
-        "slug": "bonobo-airflow-and-grafana-to-visualize-your-business"
+        "slug": "bonobo-airflow-and-grafana-to-visualize-your-business",
+        "video": {
+            "code": "NJUTQM",
+            "title": "Bonobo, Airflow and Grafana to visualize your business",
+            "speakers": "Romain Dorgueil",
+            "video_title": "PyCon.DE 2018: Bonobo, Airflow And Grafana To Visualize Your Business - Romain Dorgueil",
+            "video_id": "UUrk1K45Euw",
+            "video_url": "https://www.youtube.com/watch?v=UUrk1K45Euw"
+        }
     },
     "thu-10:30-openhub": {
         "code": "9P7C3X",
@@ -964,7 +1201,8 @@
         "slot_date": "thursday 10:30",
         "slot_code": "thu-10:30-openhub",
         "room": "openhub",
-        "slug": "understanding-neural-networks-by-playing-games"
+        "slug": "understanding-neural-networks-by-playing-games",
+        "video": null
     },
     "thu-11:20-cubus": {
         "code": "S3AXGV",
@@ -992,7 +1230,15 @@
         "slot_date": "thursday 11:20",
         "slot_code": "thu-11:20-cubus",
         "room": "cubus",
-        "slug": "zodb-the-graph-database-for-pythondevelopers"
+        "slug": "zodb-the-graph-database-for-pythondevelopers",
+        "video": {
+            "code": "S3AXGV",
+            "title": "ZODB: The Graph Database for PythonDevelopers",
+            "speakers": "Christopher Lozinski",
+            "video_title": "PyCon.DE 2018: ZODB: The Graph Database For PythonDevelopers - Christopher Lozinski",
+            "video_id": "tcYyiqbUdKI",
+            "video_url": "https://www.youtube.com/watch?v=tcYyiqbUdKI"
+        }
     },
     "thu-11:20-media": {
         "code": "TUMAN8",
@@ -1020,7 +1266,15 @@
         "slot_date": "thursday 11:20",
         "slot_code": "thu-11:20-media",
         "room": "media",
-        "slug": "reproducibility-and-selection-bias-in-machine-learning"
+        "slug": "reproducibility-and-selection-bias-in-machine-learning",
+        "video": {
+            "code": "TUMAN8",
+            "title": "Reproducibility, and Selection Bias in Machine Learning",
+            "speakers": "Valerio Maggio",
+            "video_title": "PyCon.DE 2018: Reproducibility, And Selection Bias In Machine Learning - Valerio Maggio",
+            "video_id": "MOBs6MNepDk",
+            "video_url": "https://www.youtube.com/watch?v=MOBs6MNepDk"
+        }
     },
     "thu-11:20-lounge": {
         "code": "WSMVVU",
@@ -1048,7 +1302,15 @@
         "slot_date": "thursday 11:20",
         "slot_code": "thu-11:20-lounge",
         "room": "lounge",
-        "slug": "satellite-image-segmentation-photovoltaic-potential-estimation"
+        "slug": "satellite-image-segmentation-photovoltaic-potential-estimation",
+        "video": {
+            "code": "WSMVVU",
+            "title": "Satellite Image Segmentation Photovoltaic Potential Estimation",
+            "speakers": "Johannes Oos",
+            "video_title": "PyCon.DE 2018: Satellite Image Segmentation Photovoltaic Potential Estimation - Johannes Oos",
+            "video_id": "SoJuk08u0DI",
+            "video_url": "https://www.youtube.com/watch?v=SoJuk08u0DI"
+        }
     },
     "thu-11:20-lecture": {
         "code": "ASWMKL",
@@ -1075,7 +1337,15 @@
         "slot_date": "thursday 11:20",
         "slot_code": "thu-11:20-lecture",
         "room": "lecture",
-        "slug": "python-with-and-without-pants"
+        "slug": "python-with-and-without-pants",
+        "video": {
+            "code": "ASWMKL",
+            "title": "Python with and without Pants",
+            "speakers": "Stephan Erb",
+            "video_title": "PyCon.DE 2018: Python With And Without Pants - Stephan Erb",
+            "video_id": "6T8MjdWmVaQ",
+            "video_url": "https://www.youtube.com/watch?v=6T8MjdWmVaQ"
+        }
     },
     "thu-11:55-cubus": {
         "code": "8Y7JHD",
@@ -1101,7 +1371,15 @@
         "slot_date": "thursday 11:55",
         "slot_code": "thu-11:55-cubus",
         "room": "cubus",
-        "slug": "interactive-visualization-of-traffic-data-using-bokeh"
+        "slug": "interactive-visualization-of-traffic-data-using-bokeh",
+        "video": {
+            "code": "8Y7JHD",
+            "title": "Interactive Visualization of Traffic Data using Bokeh",
+            "speakers": "Dr. Patrik Hlobil",
+            "video_title": "PyCon.DE 2018: Interactive Visualization Of Traffic Data Using Bokeh - Dr. Patrik Hlobil",
+            "video_id": "GOE__moR0eo",
+            "video_url": "https://www.youtube.com/watch?v=GOE__moR0eo"
+        }
     },
     "thu-11:55-media": {
         "code": "EZC8FK",
@@ -1129,7 +1407,15 @@
         "slot_date": "thursday 11:55",
         "slot_code": "thu-11:55-media",
         "room": "media",
-        "slug": "data-science-complexity-and-solutions-in-real-industrial-projects"
+        "slug": "data-science-complexity-and-solutions-in-real-industrial-projects",
+        "video": {
+            "code": "EZC8FK",
+            "title": "Data science complexity and solutions in real industrial projects",
+            "speakers": "Artur Miller",
+            "video_title": "PyCon.DE 2018: Data Science Complexity And Solutions In Real Industrial Projects - Artur Miller",
+            "video_id": "bmtGr0LSb_Y",
+            "video_url": "https://www.youtube.com/watch?v=bmtGr0LSb_Y"
+        }
     },
     "thu-11:55-lounge": {
         "code": "NP9PRT",
@@ -1157,7 +1443,15 @@
         "slot_date": "thursday 11:55",
         "slot_code": "thu-11:55-lounge",
         "room": "lounge",
-        "slug": "measuring-the-hay-in-the-haystack-quantifying-hidden-variables-using-bayesian-inference"
+        "slug": "measuring-the-hay-in-the-haystack-quantifying-hidden-variables-using-bayesian-inference",
+        "video": {
+            "code": "NP9PRT",
+            "title": "Measuring the hay in the haystack: quantifying hidden variables using Bayesian Inference",
+            "speakers": "Omer Yuksel",
+            "video_title": "PyCon.DE 2018: Quantifying Hidden Variables Using Bayesian Inference - Omer Yuksel",
+            "video_id": "HAGDgA6WAQg",
+            "video_url": "https://www.youtube.com/watch?v=HAGDgA6WAQg"
+        }
     },
     "thu-11:55-lecture": {
         "code": "LRM8PG",
@@ -1185,7 +1479,15 @@
         "slot_date": "thursday 11:55",
         "slot_code": "thu-11:55-lecture",
         "room": "lecture",
-        "slug": "what-s-new-in-python-3-7"
+        "slug": "what-s-new-in-python-3-7",
+        "video": {
+            "code": "LRM8PG",
+            "title": "What's new in Python 3.7?",
+            "speakers": "Stephane Wirtel",
+            "video_title": "PyCon.DE 2018: What's New In Python 3.7? - Stephane Wirtel",
+            "video_id": "hnjX858YhFk",
+            "video_url": "https://www.youtube.com/watch?v=hnjX858YhFk"
+        }
     },
     "thu-14:00-cubus": {
         "code": "KCTMMV",
@@ -1207,7 +1509,15 @@
         "slot_date": "thursday 14:00",
         "slot_code": "thu-14:00-cubus",
         "room": "cubus",
-        "slug": "advanced-analytics-today-from-open-source-integration-to-the-operationalization-of-the-analytic-lifecycle"
+        "slug": "advanced-analytics-today-from-open-source-integration-to-the-operationalization-of-the-analytic-lifecycle",
+        "video": {
+            "code": "KCTMMV",
+            "title": "Advanced Analytics Today",
+            "speakers": "Martin Sch\u00fctz",
+            "video_title": "PyCon.DE 2018: Advanced Analytics Today - Martin Sch\u00fctz",
+            "video_id": "SXaZYSZk6Bg",
+            "video_url": "https://www.youtube.com/watch?v=SXaZYSZk6Bg"
+        }
     },
     "thu-14:00-media": {
         "code": "Z7FXM3",
@@ -1229,7 +1539,15 @@
         "slot_date": "thursday 14:00",
         "slot_code": "thu-14:00-media",
         "room": "media",
-        "slug": "pytorch-as-a-scientific-computing-library-past-present-and-future"
+        "slug": "pytorch-as-a-scientific-computing-library-past-present-and-future",
+        "video": {
+            "code": "Z7FXM3",
+            "title": "PyTorch as a scientific computing library: past, present and future",
+            "speakers": "Adam Paszke",
+            "video_title": "PyCon.DE 2018: PyTorch As A Scientific Computing Library: Past, Present And Future - Adam Paszke",
+            "video_id": "0Y4kY6PnYfM",
+            "video_url": "https://www.youtube.com/watch?v=0Y4kY6PnYfM"
+        }
     },
     "thu-14:00-lounge": {
         "code": "C9VEMT",
@@ -1257,7 +1575,15 @@
         "slot_date": "thursday 14:00",
         "slot_code": "thu-14:00-lounge",
         "room": "lounge",
-        "slug": "beyond-jupyter-notebooks-building-your-own-data-science-platform-with-python-docker"
+        "slug": "beyond-jupyter-notebooks-building-your-own-data-science-platform-with-python-docker",
+        "video": {
+            "code": "C9VEMT",
+            "title": "Beyond Jupyter Notebooks - Building your own Data Science platform with Python & Docker",
+            "speakers": "Joshua G\u00f6rner",
+            "video_title": "PyCon.DE 2018: Building Your Own Data Science Platform With Python & Docker - Joshua G\u00f6rner",
+            "video_id": "xU2KUE68yFE",
+            "video_url": "https://www.youtube.com/watch?v=xU2KUE68yFE"
+        }
     },
     "thu-14:00-lecture": {
         "code": "VJ7SY7",
@@ -1285,7 +1611,15 @@
         "slot_date": "thursday 14:00",
         "slot_code": "thu-14:00-lecture",
         "room": "lecture",
-        "slug": "python-on-the-blockchain-triumphs-and-tribulations-in-a-crypto-startup"
+        "slug": "python-on-the-blockchain-triumphs-and-tribulations-in-a-crypto-startup",
+        "video": {
+            "code": "VJ7SY7",
+            "title": "Python on the blockchain: Triumphs and tribulations in a crypto startup",
+            "speakers": "Daniel and Lorb",
+            "video_title": "PyCon.DE 2018: Python On The Blockchain: The Ups And Downs In A Crypto Startup - Daniel And Lorb",
+            "video_id": "6y75iiTzRPc",
+            "video_url": "https://www.youtube.com/watch?v=6y75iiTzRPc"
+        }
     },
     "thu-14:00-openhub": {
         "code": "YKNWUB",
@@ -1313,7 +1647,8 @@
         "slot_date": "thursday 14:00",
         "slot_code": "thu-14:00-openhub",
         "room": "openhub",
-        "slug": "designing-restful-apis"
+        "slug": "designing-restful-apis",
+        "video": null
     },
     "thu-14:50-cubus": {
         "code": "JPCMQV",
@@ -1341,7 +1676,15 @@
         "slot_date": "thursday 14:50",
         "slot_code": "thu-14:50-cubus",
         "room": "cubus",
-        "slug": "processing-geodata-using-python"
+        "slug": "processing-geodata-using-python",
+        "video": {
+            "code": "JPCMQV",
+            "title": "Processing Geodata using Python",
+            "speakers": "Martin Christen",
+            "video_title": "PyCon.DE 2018: Processing Geodata Using Python - Martin Christen",
+            "video_id": "49QwoR2aG74",
+            "video_url": "https://www.youtube.com/watch?v=49QwoR2aG74"
+        }
     },
     "thu-14:50-media": {
         "code": "PSG873",
@@ -1369,7 +1712,15 @@
         "slot_date": "thursday 14:50",
         "slot_code": "thu-14:50-media",
         "room": "media",
-        "slug": "fulfilling-apache-arrow-s-promises-pandas-on-jvm-memory-without-a-copy"
+        "slug": "fulfilling-apache-arrow-s-promises-pandas-on-jvm-memory-without-a-copy",
+        "video": {
+            "code": "PSG873",
+            "title": "Fulfilling Apache Arrow's Promises: Pandas on JVM memory without a copy",
+            "speakers": "Uwe L. Korn",
+            "video_title": "PyCon.DE 2018: Fulfilling Apache Arrow's Promises: Pandas On JVM Memory Without A Copy - Uwe L. Korn",
+            "video_id": "xW7IOaQvDsU",
+            "video_url": "https://www.youtube.com/watch?v=xW7IOaQvDsU"
+        }
     },
     "thu-14:50-lounge": {
         "code": "SP8TP9",
@@ -1397,7 +1748,15 @@
         "slot_date": "thursday 14:50",
         "slot_code": "thu-14:50-lounge",
         "room": "lounge",
-        "slug": "introduction-to-docker-for-pythonistas"
+        "slug": "introduction-to-docker-for-pythonistas",
+        "video": {
+            "code": "SP8TP9",
+            "title": "Introduction to Docker for Pythonistas",
+            "speakers": "Jan Wagner",
+            "video_title": "PyCon.DE 2018: Introduction To Docker For Pythonistas - Jan Wagner",
+            "video_id": "Fqq6F68SQFY",
+            "video_url": "https://www.youtube.com/watch?v=Fqq6F68SQFY"
+        }
     },
     "thu-14:50-lecture": {
         "code": "PYBGWL",
@@ -1429,7 +1788,15 @@
         "slot_date": "thursday 14:50",
         "slot_code": "thu-14:50-lecture",
         "room": "lecture",
-        "slug": "data-science-meets-data-protection-keeping-your-data-secure-while-learning-from-it"
+        "slug": "data-science-meets-data-protection-keeping-your-data-secure-while-learning-from-it",
+        "video": {
+            "code": "PYBGWL",
+            "title": "Data Science meets Data Protection: Keeping your data secure while learning from it.",
+            "speakers": "Andreas Dewes, Katharine Jarmul",
+            "video_title": "PyCon.DE 2018: Keeping Your Data Secure While Learning From It - Andreas Dewes and Katharine Jarmul",
+            "video_id": "i-embbaJX_A",
+            "video_url": "https://www.youtube.com/watch?v=i-embbaJX_A"
+        }
     },
     "thu-15:25-cubus": {
         "code": "GFFGSG",
@@ -1455,7 +1822,15 @@
         "slot_date": "thursday 15:25",
         "slot_code": "thu-15:25-cubus",
         "room": "cubus",
-        "slug": "stretchy-nosql-database-behind-rest-api"
+        "slug": "stretchy-nosql-database-behind-rest-api",
+        "video": {
+            "code": "GFFGSG",
+            "title": "Stretchy - NoSQL Database behind REST API",
+            "speakers": "Artur Scholz",
+            "video_title": "PyCon.DE 2018: Stretchy - NoSQL Database Behind REST API - Artur Scholz",
+            "video_id": "FzXejIzMQ30",
+            "video_url": "https://www.youtube.com/watch?v=FzXejIzMQ30"
+        }
     },
     "thu-15:25-media": {
         "code": "XGUAE3",
@@ -1481,7 +1856,15 @@
         "slot_date": "thursday 15:25",
         "slot_code": "thu-15:25-media",
         "room": "media",
-        "slug": "how-to-make-your-digital-communication-strong-future-ready"
+        "slug": "how-to-make-your-digital-communication-strong-future-ready",
+        "video": {
+            "code": "XGUAE3",
+            "title": "How to make your (digital) Communication strong & future ready",
+            "speakers": "Simon Daubermann",
+            "video_title": "PyCon.DE 2018: How To Make Your (Digital) Communication Strong & Future Ready - Simon Daubermann",
+            "video_id": "3L0qCrAV3gM",
+            "video_url": "https://www.youtube.com/watch?v=3L0qCrAV3gM"
+        }
     },
     "thu-15:25-lounge": {
         "code": "K7VAR3",
@@ -1509,7 +1892,15 @@
         "slot_date": "thursday 15:25",
         "slot_code": "thu-15:25-lounge",
         "room": "lounge",
-        "slug": "python-birdies-codegolfing-for-better-understanding-and-fun"
+        "slug": "python-birdies-codegolfing-for-better-understanding-and-fun",
+        "video": {
+            "code": "K7VAR3",
+            "title": "Python Birdies: Codegolfing for better understanding (and fun)",
+            "speakers": "Jonathan Oberl\u00e4nder",
+            "video_title": "PyCon.DE 2018: Python Birdies: Codegolfing For Better Understanding (And Fun) - Jonathan Oberl\u00e4nder",
+            "video_id": "DPKSSxtVXuY",
+            "video_url": "https://www.youtube.com/watch?v=DPKSSxtVXuY"
+        }
     },
     "thu-15:25-lecture": {
         "code": "J9NSJE",
@@ -1531,7 +1922,15 @@
         "slot_date": "thursday 15:25",
         "slot_code": "thu-15:25-lecture",
         "room": "lecture",
-        "slug": "put-your-data-on-a-map"
+        "slug": "put-your-data-on-a-map",
+        "video": {
+            "code": "J9NSJE",
+            "title": "Put your data on a map",
+            "speakers": "Alex Vykaliuk",
+            "video_title": "PyCon.DE 2018: Put Your Data On A Map - Alex Vykaliuk",
+            "video_id": "CdgI-TUv5z0",
+            "video_url": "https://www.youtube.com/watch?v=CdgI-TUv5z0"
+        }
     },
     "thu-16:00-cubus": {
         "code": "XDLE7M",
@@ -1559,7 +1958,15 @@
         "slot_date": "thursday 16:00",
         "slot_code": "thu-16:00-cubus",
         "room": "cubus",
-        "slug": "observe-all-your-applications"
+        "slug": "observe-all-your-applications",
+        "video": {
+            "code": "XDLE7M",
+            "title": "Observe all your applications",
+            "speakers": "Christoph Heer",
+            "video_title": "PyCon.DE 2018: Observe All Your Applications - Christoph Heer",
+            "video_id": "F6-nvgnlr9Y",
+            "video_url": "https://www.youtube.com/watch?v=F6-nvgnlr9Y"
+        }
     },
     "thu-16:00-media": {
         "code": "3ZBCVR",
@@ -1587,7 +1994,15 @@
         "slot_date": "thursday 16:00",
         "slot_code": "thu-16:00-media",
         "room": "media",
-        "slug": "how-to-teach-space-invaders-to-your-computer"
+        "slug": "how-to-teach-space-invaders-to-your-computer",
+        "video": {
+            "code": "3ZBCVR",
+            "title": "How to teach space invaders to your computer",
+            "speakers": "David W\u00f6lfle",
+            "video_title": "PyCon.DE 2018: How To Teach Space Invaders To Your Computer - David W\u00f6lfle",
+            "video_id": "2KfyvrEn8p8",
+            "video_url": "https://www.youtube.com/watch?v=2KfyvrEn8p8"
+        }
     },
     "thu-16:00-lecture": {
         "code": "78ANWT",
@@ -1615,7 +2030,15 @@
         "slot_date": "thursday 16:00",
         "slot_code": "thu-16:00-lecture",
         "room": "lecture",
-        "slug": "creating-an-inclusive-corporate-culture"
+        "slug": "creating-an-inclusive-corporate-culture",
+        "video": {
+            "code": "78ANWT",
+            "title": "Creating an inclusive corporate culture",
+            "speakers": "Yenny Cheung",
+            "video_title": "PyCon.DE 2018: Creating An Inclusive Corporate Culture - Yenny Cheung",
+            "video_id": "nwyiiB1NK3w",
+            "video_url": "https://www.youtube.com/watch?v=nwyiiB1NK3w"
+        }
     },
     "thu-16:35-cubus": {
         "code": "HDMT9B",
@@ -1643,7 +2066,15 @@
         "slot_date": "thursday 16:35",
         "slot_code": "thu-16:35-cubus",
         "room": "cubus",
-        "slug": "solving-data-science-problems-using-a-jupyter-notebook-and-sap-hana-s-in-database-machine-learning-libraries"
+        "slug": "solving-data-science-problems-using-a-jupyter-notebook-and-sap-hana-s-in-database-machine-learning-libraries",
+        "video": {
+            "code": "HDMT9B",
+            "title": "Solving Data Science Problems using a Jupyter Notebook and SAP HANA's in-database Machine Learning Libraries",
+            "speakers": "Dr Frank Gottfried",
+            "video_title": "PyCon.DE 2018: Solving Data Science Probs With A Jupyter Notebook And SAP HANA's Libs - F. Gottfried",
+            "video_id": "iHCxCgjbmW8",
+            "video_url": "https://www.youtube.com/watch?v=iHCxCgjbmW8"
+        }
     },
     "thu-16:35-media": {
         "code": "3N7DNH",
@@ -1671,7 +2102,15 @@
         "slot_date": "thursday 16:35",
         "slot_code": "thu-16:35-media",
         "room": "media",
-        "slug": "driving-simulation-and-data-analysis-of-magnetic-nanostructures-through-jupyter-notebook"
+        "slug": "driving-simulation-and-data-analysis-of-magnetic-nanostructures-through-jupyter-notebook",
+        "video": {
+            "code": "3N7DNH",
+            "title": "Driving simulation and data analysis of magnetic nanostructures through Jupyter Notebook",
+            "speakers": "Hans Fangohr",
+            "video_title": "PyCon.DE 2018: Driving Sim And DA Of Magnetic Nanostructures Through Jupyter Notebook - Hans Fangohr",
+            "video_id": "ZrpJ_H0LCOA",
+            "video_url": "https://www.youtube.com/watch?v=ZrpJ_H0LCOA"
+        }
     },
     "thu-16:35-lecture": {
         "code": "FVLSNE",
@@ -1699,7 +2138,15 @@
         "slot_date": "thursday 16:35",
         "slot_code": "thu-16:35-lecture",
         "room": "lecture",
-        "slug": "designing-better-drugs-with-machine-learning"
+        "slug": "designing-better-drugs-with-machine-learning",
+        "video": {
+            "code": "FVLSNE",
+            "title": "Designing better drugs with machine learning",
+            "speakers": "Daniel Kuhn",
+            "video_title": "DO NOT RELEASE YET PyCon.DE 2018: Designing Better Drugs With Machine Learning - Daniel Kuhn",
+            "video_id": "z2ao_i_liYM",
+            "video_url": "https://www.youtube.com/watch?v=z2ao_i_liYM"
+        }
     },
     "thu-17:10-cubus": {
         "code": "LJEWML",
@@ -1727,7 +2174,15 @@
         "slot_date": "thursday 17:10",
         "slot_code": "thu-17:10-cubus",
         "room": "cubus",
-        "slug": "microservices-from-the-trenches-how-we-delivery-fancy-sofas-across-europe"
+        "slug": "microservices-from-the-trenches-how-we-delivery-fancy-sofas-across-europe",
+        "video": {
+            "code": "LJEWML",
+            "title": "Microservices from the trenches: how we delivery fancy sofas across Europe",
+            "speakers": "Christian Barra",
+            "video_title": "PyCon.DE 2018: Microservices From The Trenches: How We Deliver Sofas Across Europe - Christian Barra",
+            "video_id": "9hu95HDngO0",
+            "video_url": "https://www.youtube.com/watch?v=9hu95HDngO0"
+        }
     },
     "thu-17:10-media": {
         "code": "HW3RYU",
@@ -1755,7 +2210,15 @@
         "slot_date": "thursday 17:10",
         "slot_code": "thu-17:10-media",
         "room": "media",
-        "slug": "cloud-chat-bot-for-lazy-people"
+        "slug": "cloud-chat-bot-for-lazy-people",
+        "video": {
+            "code": "HW3RYU",
+            "title": "Cloud chat bot for lazy people",
+            "speakers": "Bj\u00f6rn Meier",
+            "video_title": "PyCon.DE 2018: Cloud Chat Bot For Lazy People - Bj\u00f6rn Meier",
+            "video_id": "oLCy7UrD-gU",
+            "video_url": "https://www.youtube.com/watch?v=oLCy7UrD-gU"
+        }
     },
     "thu-17:10-lecture": {
         "code": "YV9WJ3",
@@ -1783,7 +2246,15 @@
         "slot_date": "thursday 17:10",
         "slot_code": "thu-17:10-lecture",
         "room": "lecture",
-        "slug": "where-the-heck-is-my-memory"
+        "slug": "where-the-heck-is-my-memory",
+        "video": {
+            "code": "YV9WJ3",
+            "title": "Where the heck is my memory?",
+            "speakers": "Florian Jetter",
+            "video_title": "PyCon.DE 2018: Where The Heck Is My Memory? - Florian Jetter",
+            "video_id": "C-1XWTgFo5g",
+            "video_url": "https://www.youtube.com/watch?v=C-1XWTgFo5g"
+        }
     },
     "fri-10:30-cubus": {
         "code": "GJ9AWL",
@@ -1811,7 +2282,15 @@
         "slot_date": "friday 10:30",
         "slot_code": "fri-10:30-cubus",
         "room": "cubus",
-        "slug": "build-text-classification-models-cbow-and-skip-gram-with-fasttext-in-python"
+        "slug": "build-text-classification-models-cbow-and-skip-gram-with-fasttext-in-python",
+        "video": {
+            "code": "GJ9AWL",
+            "title": "Build text classification models ( CBOW and Skip-gram) with FastText in python",
+            "speakers": "Kajal Puri",
+            "video_title": "PyCon.DE 2018: Build Text Classification Models With FastText In Python - Kajal Puri",
+            "video_id": "Za_0tVI1YSQ",
+            "video_url": "https://www.youtube.com/watch?v=Za_0tVI1YSQ"
+        }
     },
     "fri-10:30-media": {
         "code": "QU7PLA",
@@ -1838,7 +2317,15 @@
         "slot_date": "friday 10:30",
         "slot_code": "fri-10:30-media",
         "room": "media",
-        "slug": "building-your-own-conversational-ai-with-open-source-tools"
+        "slug": "building-your-own-conversational-ai-with-open-source-tools",
+        "video": {
+            "code": "QU7PLA",
+            "title": "Building your own conversational AI with open source tools",
+            "speakers": "Justina Petraityt\u0117",
+            "video_title": "PyCon.DE 2018: Building Your Own Conversational AI With Open Source Tools - Justina Petraityt\u0117",
+            "video_id": "vVco861PUJo",
+            "video_url": "https://www.youtube.com/watch?v=vVco861PUJo"
+        }
     },
     "fri-10:30-lounge": {
         "code": "NZJGSH",
@@ -1866,7 +2353,8 @@
         "slot_date": "friday 10:30",
         "slot_code": "fri-10:30-lounge",
         "room": "lounge",
-        "slug": "write-your-own-decorators"
+        "slug": "write-your-own-decorators",
+        "video": null
     },
     "fri-10:30-lecture": {
         "code": "N8MZV8",
@@ -1893,7 +2381,15 @@
         "slot_date": "friday 10:30",
         "slot_code": "fri-10:30-lecture",
         "room": "lecture",
-        "slug": "concurrency-in-python-concepts-frameworks-and-best-practices"
+        "slug": "concurrency-in-python-concepts-frameworks-and-best-practices",
+        "video": {
+            "code": "N8MZV8",
+            "title": "Concurrency in Python - concepts, frameworks and best practices",
+            "speakers": "Stefan Schwarzer",
+            "video_title": "PyCon.DE 2018: Concurrency In Python Concepts, Frameworks And Best Practices - Stefan Schwarzer",
+            "video_id": "Do7JtnPh1Mg",
+            "video_url": "https://www.youtube.com/watch?v=Do7JtnPh1Mg"
+        }
     },
     "fri-10:30-openhub": {
         "code": "C9H7FH",
@@ -1925,7 +2421,8 @@
         "slot_date": "friday 10:30",
         "slot_code": "fri-10:30-openhub",
         "room": "openhub",
-        "slug": "how-to-develop-your-project-from-an-idea-to-architecture-design-in-50-minutes"
+        "slug": "how-to-develop-your-project-from-an-idea-to-architecture-design-in-50-minutes",
+        "video": null
     },
     "fri-11:20-cubus": {
         "code": "8DL88C",
@@ -1957,7 +2454,15 @@
         "slot_date": "friday 11:20",
         "slot_code": "fri-11:20-cubus",
         "room": "cubus",
-        "slug": "suggestions-from-python-and-solr"
+        "slug": "suggestions-from-python-and-solr",
+        "video": {
+            "code": "8DL88C",
+            "title": "Suggestions from Python and Solr",
+            "speakers": "Jonathan Oberl\u00e4nder, Patrick Schemitz",
+            "video_title": "PyCon.DE 2018: Suggestions From Python And Solr - Jonathan Oberl\u00e4nder and Patrick Schemitz",
+            "video_id": "Z17JLncewyo",
+            "video_url": "https://www.youtube.com/watch?v=Z17JLncewyo"
+        }
     },
     "fri-11:20-media": {
         "code": "EC3UJW",
@@ -1983,7 +2488,15 @@
         "slot_date": "friday 11:20",
         "slot_code": "fri-11:20-media",
         "room": "media",
-        "slug": "enabling-the-chip-technologies-of-tomorrow-how-python-helps-us"
+        "slug": "enabling-the-chip-technologies-of-tomorrow-how-python-helps-us",
+        "video": {
+            "code": "EC3UJW",
+            "title": "Enabling the chip technologies of tomorrow \u2013 how Python helps us",
+            "speakers": "Tim Hoffmann",
+            "video_title": "PyCon.DE 2018: Enabling The Chip Technologies Of Tomorrow: How Python Helps Us - Tim Hoffmann",
+            "video_id": "XWmJlTIJ7OA",
+            "video_url": "https://www.youtube.com/watch?v=XWmJlTIJ7OA"
+        }
     },
     "fri-11:20-lecture": {
         "code": "TTBMDL",
@@ -2011,7 +2524,15 @@
         "slot_date": "friday 11:20",
         "slot_code": "fri-11:20-lecture",
         "room": "lecture",
-        "slug": "strongly-typed-datasets-in-a-weakly-typed-world"
+        "slug": "strongly-typed-datasets-in-a-weakly-typed-world",
+        "video": {
+            "code": "TTBMDL",
+            "title": "Strongly typed datasets in a weakly typed world",
+            "speakers": "Marco Neumann",
+            "video_title": "PyCon.DE 2018: Strongly Typed Datasets In A Weakly Typed World - Marco Neumann",
+            "video_id": "wtpQTWROPc0",
+            "video_url": "https://www.youtube.com/watch?v=wtpQTWROPc0"
+        }
     },
     "fri-11:55-cubus": {
         "code": "TTULUU",
@@ -2043,7 +2564,15 @@
         "slot_date": "friday 11:55",
         "slot_code": "fri-11:55-cubus",
         "room": "cubus",
-        "slug": "satellite-data-is-for-everyone-insights-into-modern-remote-sensing-research-with-open-data-and-python"
+        "slug": "satellite-data-is-for-everyone-insights-into-modern-remote-sensing-research-with-open-data-and-python",
+        "video": {
+            "code": "TTULUU",
+            "title": "Satellite data is for everyone: insights into modern remote sensing research with open data and Python",
+            "speakers": "Felix M. Riese, Jens Leitloff",
+            "video_title": "PyCon.DE 2018: Insights Into Modern Remote Sensing Research - Felix M. Riese and Jens Leitloff",
+            "video_id": "tKRoMcBeWjQ",
+            "video_url": "https://www.youtube.com/watch?v=tKRoMcBeWjQ"
+        }
     },
     "fri-11:55-media": {
         "code": "3D3BDP",
@@ -2071,7 +2600,15 @@
         "slot_date": "friday 11:55",
         "slot_code": "fri-11:55-media",
         "room": "media",
-        "slug": "grammar-of-graphics-in-python"
+        "slug": "grammar-of-graphics-in-python",
+        "video": {
+            "code": "3D3BDP",
+            "title": "Grammar of Graphics in Python",
+            "speakers": "Malte Harder",
+            "video_title": "PyCon.DE 2018: Grammar Of Graphics In Python - Malte Harder",
+            "video_id": "SNaWwk_HzK0",
+            "video_url": "https://www.youtube.com/watch?v=SNaWwk_HzK0"
+        }
     },
     "fri-11:55-lecture": {
         "code": "ELAHUR",
@@ -2099,7 +2636,15 @@
         "slot_date": "friday 11:55",
         "slot_code": "fri-11:55-lecture",
         "room": "lecture",
-        "slug": "prototyping-to-tested-code"
+        "slug": "prototyping-to-tested-code",
+        "video": {
+            "code": "ELAHUR",
+            "title": "Prototyping to tested code",
+            "speakers": "Christopher Prohm",
+            "video_title": "PyCon.DE 2018: Prototyping To Tested Code - Christopher Prohm",
+            "video_id": "8fg7AkvG-Oc",
+            "video_url": "https://www.youtube.com/watch?v=8fg7AkvG-Oc"
+        }
     },
     "fri-14:00-cubus": {
         "code": "WESP9T",
@@ -2127,7 +2672,15 @@
         "slot_date": "friday 14:00",
         "slot_code": "fri-14:00-cubus",
         "room": "cubus",
-        "slug": "from-exploration-to-deployment-combining-pytorch-and-tensorflow-for-deep-learning"
+        "slug": "from-exploration-to-deployment-combining-pytorch-and-tensorflow-for-deep-learning",
+        "video": {
+            "code": "WESP9T",
+            "title": "From exploration to deployment - combining PyTorch and TensorFlow for Deep Learning",
+            "speakers": "Marcel Kurovski",
+            "video_title": "PyCon.DE 2018: Combining PyTorch And TensorFlow For Deep Learning - Marcel Kurovski",
+            "video_id": "vO3LB_-dQOM",
+            "video_url": "https://www.youtube.com/watch?v=vO3LB_-dQOM"
+        }
     },
     "fri-14:00-media": {
         "code": "3EV7WB",
@@ -2155,7 +2708,15 @@
         "slot_date": "friday 14:00",
         "slot_code": "fri-14:00-media",
         "room": "media",
-        "slug": "python-decorators-gift-or-poison"
+        "slug": "python-decorators-gift-or-poison",
+        "video": {
+            "code": "3EV7WB",
+            "title": "Python Decorators: Gift or Poison?",
+            "speakers": "Anastasiia Tymoshchuk",
+            "video_title": "PyCon.DE 2018: Python Decorators: Gift Or Poison? - Anastasiia Tymoshchuk",
+            "video_id": "VEexfP68LJs",
+            "video_url": "https://www.youtube.com/watch?v=VEexfP68LJs"
+        }
     },
     "fri-14:00-lounge": {
         "code": "HKLSO",
@@ -2181,7 +2742,15 @@
         "slot_date": "friday 14:00",
         "slot_code": "fri-14:00-lounge",
         "room": "lounge",
-        "slug": "3d-graphics-in-python-with-ratcave-and-pyglet"
+        "slug": "3d-graphics-in-python-with-ratcave-and-pyglet",
+        "video": {
+            "code": "HKLSO",
+            "title": "3D Graphics in Python with Ratcave and Pyglet",
+            "speakers": "Nicholas A. Del Grosso",
+            "video_title": "PyCon.DE 2018: 3D Graphics in Python with Ratcave and Pyglet - Nicholas A. Del Grosso",
+            "video_id": "Sl2SZEFWh_E",
+            "video_url": "https://www.youtube.com/watch?v=Sl2SZEFWh_E"
+        }
     },
     "fri-14:00-lecture": {
         "code": "7ZNCP8",
@@ -2209,6 +2778,14 @@
         "slot_date": "friday 14:00",
         "slot_code": "fri-14:00-lecture",
         "room": "lecture",
-        "slug": "cython-to-speed-up-your-python-code"
+        "slug": "cython-to-speed-up-your-python-code",
+        "video": {
+            "code": "7ZNCP8",
+            "title": "Cython to speed up your Python code",
+            "speakers": "Stefan Behnel",
+            "video_title": "PyCon.DE 2018: Cython to speed up your Python code - Stefan Behnel",
+            "video_id": "zx0wMxuh-wk",
+            "video_url": "https://www.youtube.com/watch?v=zx0wMxuh-wk"
+        }
     }
 }

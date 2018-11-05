@@ -30,8 +30,6 @@
             <h2>Speaker</h2>
             {%for speaker in bag("talks")[this.code]["the_speakers"] %}
                 <div class="avatar">
-                <img src="{{speaker['gravatar']}}?s=500" alt="">
-                <!--<strong><a href="{{speaker['homepage']}}"></a>{{speaker['name']}}</a></strong>-->
                 <strong>{{speaker['name']}}</strong>
                 {% if speaker['@twitter'] %}
                 (<a href="http://twitter.com/{{speaker['@twitter']}}">{{speaker['@twitter']}}</a>)
@@ -43,6 +41,9 @@
             {%endfor%}
             <h2>Description</h2>
             <p>{{bag("talks")[this.code]["description"]|markdown}}</p>
+            {% if bag("talks")[this.code]["video"] %}
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/{{bag("talks")[this.code]["video"]["video_id"]}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            {%endif%}
             </div>
         </div>
     </div>

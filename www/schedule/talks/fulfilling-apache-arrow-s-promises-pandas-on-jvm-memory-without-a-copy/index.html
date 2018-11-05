@@ -139,8 +139,6 @@
             <h2>Speaker</h2>
             
                 <div class="avatar">
-                <img src="?s=500" alt="">
-                <!--<strong><a href="http://https://uwekorn.com/"></a>Uwe L. Korn</a></strong>-->
                 <strong>Uwe L. Korn</strong>
                 
                 (<a href="http://twitter.com/@xhochy">@xhochy</a>)
@@ -157,6 +155,9 @@
 <p>To show the real-world benefits of this, we take the example of a data pipeline that pulls data from a relational store, transforms it and then passes it into a machine learning model. A typical setup nowadays most likely involves a data lake that is queried with a JVM based query engine. The machine learning model is then normally implemented in Python using popular frameworks like CatBoost or Tensorflow.</p>
 <p>While sometimes these query engines provide Python clients, their performance is normally not optimized for large results sets. In the case of a machine learning model, we will do some feature transformations and possibly aggregations with the query engine but feed as many rows as possible into the model. This will lead then to result sets that have above a million rows. In contrast to the Python clients, these engines often come with efficient JDBC drivers that can cope with result sets of this size but then the conversion from Java objects to Python objects in the JVM bridge will slow things down again. In our example, we will show how to use Arrow to retrieve a large result in the JVM and then pass it on to Python without running into these bottlenecks.</p>
 </p>
+            
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/xW7IOaQvDsU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
             </div>
         </div>
     </div>
