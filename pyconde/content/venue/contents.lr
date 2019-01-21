@@ -1,83 +1,35 @@
-_model: page
----
-title: Conference Venue ZKM - Karlsruhe
+title: Venue
 ---
 body:
 
-<!-- MAIN CONTENT -->
-<div id="main-content" class="main-content">
-
-    <!-- VENUE -->
-    <div id="venue" class="section about">
-        <div class="container">
-            <div class="section-heading">
-                <h2>Conference Venue: ZKM - center for art and media</h2>
-            </div>
-            <div class="section-content">
+<div class="site-content" id="content">
+        <div class="content-area" id="primary">
+          <main class="site-main" id="main">
+            <section class="section section--fit">
+              <div class="container">
                 <div class="row">
-                <p>
-                    The ZKM | Center for Art and the Media is a unique cultural institution, extending the original vision and purpose of the museum. It is a home to various art, media and genres -- a house of ragmatized arts, painting, photography and sculpture as well as the time-based arts such as film, video, media art, music, dance, theater and performance. As a museum, the ZKM was founded in 1989 with the mission to continue classical arts in the digital age. Because of this, it's sometimes referred to as the "electronic or digital Bauhaus" - an expression traced back to Heinrich Klotz. The ZKM also accommodates institutes and laboratories for scientific research, development and production. In addition to the museum's classical guiding principle&mdash;to preserve and encourage works of art&mdash;the ZKM also undertakes support measures for the creation of new works of art by supporting guest artists and employee programs. <a href="http://zkm.de/ueber-uns">#</a>
-                </p>
-                </div>
-                <div class="row" style="margin-bottom: 30px; margin-top: 15px">
-                    <div class="col-lg-6">
-                        <img src="../files/pyconde2017.jpg" width="100%">
+                  <div class="col-12 col-xl-10 offset-xl-1">
+                    <div class="venue">
+                      <div class="map map--fullwidth">
+                        <div class="google-map" data-key="AIzaSyDqFMk0whDS45FD3CMfrzo2xghUqcXkDew" data-location="{&quot;lat&quot;:52.5171006,&quot;lng&quot;:13.449026}" data-address="" data-marker="true" data-icon="{&quot;url&quot;:&quot;/static/media/map-marker--primary.svg&quot;,&quot;size&quot;:{&quot;width&quot;:96,&quot;height&quot;:96}}" data-theme="silver" data-zoom="16" style="height: 480px"></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12 col-lg-6">
+                          <div class="in-view">
+                            <h1 class="in-view__child in-view__child--fadein">Kosmos</h1>
+                            <p class="sub-head dashed in-view__child in-view__child--fadein">
+                               Karl-Marx-Allee 131a<br>Berlin, 10243</p>
+                            <p class="indent in-view__child in-view__child--fadein">
+                            The KOSMOS was opened in 1961 as a prestige project of the GDR, as the most modern film theatre in the country.</p>
+                            <p class="indent padding-top in-view__child in-view__child--fadein"><a class="btn btn--primary btn--round" href="https://www.kosmos-berlin.de/">Check the venue</a></p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <div class="col-lg-6">
-                        <img src="../files/zkm-main-stage.jpg" width="100%">
-                    </div>
+                  </div>
                 </div>
-            </div>
-            <div class="section-heading">
-                <hr/>
-                <p><a href="http://zkm.de">ZKM - center for art and media</a> Lorenzstraße 19, 76135 Karlsruhe.</p>
-                <hr/>
-            </div>
-
-            <div class="section-content">
-                <div class="row" style="height: 500px">
-
-    <iframe allowfullscreen="" frameborder="0" height="100%" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCb61EwAzxlXSo8ByGdLhvkU1PD4o0qN84&amp;q=place_id:ChIJgUX_e18Gl0cR9Ay6NYHP7pg" style="border:0" width="100%" class="scrolloff"></iframe>
-                </div>
-            </div>
+              </div>
+            </section>
+          </main>
         </div>
-    </div>
-    <!-- END VENUE -->
-
-
-
-
-<div id="karlsruhe" class="section karlsruhe">
-        <div class="container">
-            <div class="section-heading">
-                <h2>Come to Karlsruhe</h2>
-            </div>
-            <div class="section-content">
-
-            <div class="row">
-                <h3>By plane</h3>
-                <p>There are three airports to consider when coming to Karlsruhe: FKB, STR and FRA.</p>
-                <p><b>FKB - Karlsruhe Baden-Baden / Baden Airpark</b> is a smaller regional airport near the Rhine river at the French border usually served by low-cost airlines. Take the bus 234 to Rastatt and then a regional train or light rail to Karlsruhe. Travel time around one hour. Taking a bus via Baden-Baden is currently not recommended (see the "By train" section below).</p>
-                <p><b>STR - Stuttgart Airport</b> is an international airport near Stuttgart. Take the light rail S2 or S3 to the Stuttgart Hauptbahnhof (main station) and then any train to Karlsruhe. Travel time at least 90 minutes plus the delay between connections.</p>
-                <p><b>FRA - Frankfurt Airport</b> (not the "Frankfurt-Hahn"!) is the largest airport near Frankfurt am Main. There are fast trains from the airport to Karlsruhe with or without change in Mannheim every hour and will take an hour of travel time.</p>
-
-                <h3>By train</h3>
-                <p>Karlsruhe is connected by fast trains and a few night trains with most German and a few European cities. Check <a href="http://www.bahn.de">bahn.de</a> for more information and live schedules.</p>
-
-                <h3>By bus</h3>
-                <p>There is an unspectacular bus station (or a bunch of bus stops) served by long-distance coach services just behind the main station. Cross the main station in order to get to the trams and/or walk to the venue/hotel/city.</p>
-
-                <h3>By car</h3>
-                <p>Plenty of autobahns around the city, not all of them without speed limit though. Like in most German cities, cars need a green low emission sticker on their windshields in order to get to the city center (including the venue).</p>
-            </div>
-
-            <div class="row">
-
-                <h2>Accommodation</h2>
-
-                <p>Coming from another city or even another country and don't know where to stay? The Tourist Information Bureau of Karlsruhe offers an online reservation system for hotels in the neighborhoods of the venue during the PyCon.DE.</p>
-            </div>
-            </div>
-        </div>
-    </div>
-</div>
+      </div>

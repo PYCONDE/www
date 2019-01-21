@@ -1,181 +1,733 @@
-title: Welcome to PyConDE & P!
+title: Welcome to PyCon DE & PyData Berlin 2019!
 ---
 body:
 
-<!-- MAIN CONTENT -->
-<div id="main-content" class="main-content">
-<!-- ABOUT -->
-<div id="about" class="section about">
-    <div class="container">
-        <div class="section-heading">
-            <div class="row">
-            <h2 class="hero-heading">PyCon.DE 2018 &amp; PyData Karlsruhe</h2>
-                <h3 class="hero-heading">October 24&ndash;28 2018</h3>
+   <div class="site-content" id="content">
+      <div class="content-area" id="primary">
+        <main class="site-main" id="main">
+          <section class="section section--first" id="home">
+            <div class="paper paper--150 paper--patterns in-view" data-elements="PAPER_06">
+              <script>
+                var PAPER_06 = [
+                  {
+                    type: 'raster',
+                    src: '/static/media/stock/shape--11.png',
+                    rotate: 0,
+                    mobile: {
+                      x: 100,
+                      y: -300,
+                      scale: 0.3
+                    },
+                    desktop: {
+                      x: 100,
+                      y: -400,
+                      scale: 0.4
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/static/media/stock/shape--14.png',
+                    rotate: 0,
+                    mobile: {
+                      x: -100,
+                      y: -350,
+                      scale: 0.1
+                    },
+                    desktop: {
+                      x: -445,
+                      y: -455,
+                      scale: 0.15
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/static/media/stock/shape--14.png',
+                    rotate: 0,
+                    mobile: {
+                      x: 300,
+                      y: -100,
+                      scale: 0.3
+                    },
+                    desktop: {
+                      x: 400,
+                      y: 50,
+                      scale: 0.4
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/static/media/stock/shape--13.png',
+                    rotate: 0,
+                    mobile: {
+                      x: -105,
+                      y: -360,
+                      scale: 0.2
+                    },
+                    desktop: {
+                      x: -450,
+                      y: -460,
+                      scale: 0.3
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/static/media/stock/shape--08.png',
+                    rotate: 0,
+                    mobile: {
+                      x: 255,
+                      y: -400,
+                      scale: 0.3
+                    },
+                    desktop: {
+                      x: 500,
+                      y: -500,
+                      scale: 0.4
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/static/media/stock/shape--13.png',
+                    rotate: 0,
+                    mobile: {
+                      x: 95,
+                      y: -310,
+                      scale: 0.3
+                    },
+                    desktop: {
+                      x: 90,
+                      y: -410,
+                      scale: 0.4
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/static/media/stock/shape--08.png',
+                    rotate: 190,
+                    mobile: {
+                      x: 295,
+                      y: -100,
+                      scale: 0.15
+                    },
+                    desktop: {
+                      x: 390,
+                      y: 30,
+                      scale: 0.2
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/static/media/stock/shape--09.png',
+                    rotate: 0,
+                    mobile: {
+                      x: -150,
+                      y: 100,
+                      scale: 0.1
+                    },
+                    desktop: {
+                      x: -450,
+                      y: 150,
+                      scale: 0.15
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/static/media/stock/shape--10.png',
+                    rotate: 0,
+                    mobile: {
+                      x: -145,
+                      y: 105,
+                      scale: 0.3
+                    },
+                    desktop: {
+                      x: -445,
+                      y: 155,
+                      scale: 0.4
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/static/media/stock/shape--11.png',
+                    rotate: 0,
+                    mobile: {
+                      x: -220,
+                      y: -170,
+                      scale: 0.2
+                    },
+                    desktop: {
+                      x: -600,
+                      y: -155,
+                      scale: 0.25
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/static/media/stock/shape--14.png',
+                    rotate: 0,
+                    mobile: {
+                      x: 120,
+                      y: 220,
+                      scale: 0.15
+                    },
+                    desktop: {
+                      x: 100,
+                      y: 250,
+                      scale: 0.2
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/static/media/stock/shape--12.png',
+                    rotate: 0,
+                    mobile: {
+                      x: -220,
+                      y: -170,
+                      scale: 0.35
+                    },
+                    desktop: {
+                      x: -600,
+                      y: -155,
+                      scale: 0.4
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/static/media/stock/shape--09.png',
+                    rotate: 0,
+                    mobile: {
+                      x: -70,
+                      y: 250,
+                      scale: 0.2
+                    },
+                    desktop: {
+                      x: -300,
+                      y: 320,
+                      scale: 0.25
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/static/media/stock/shape--15.png',
+                    rotate: 0,
+                    mobile: {
+                      x: 120,
+                      y: 220,
+                      scale: 0.35
+                    },
+                    desktop: {
+                      x: 100,
+                      y: 250,
+                      scale: 0.4
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/static/media/stock/shape--07.png',
+                    blendMode: 'multiply',
+                    rotate: 30,
+                    mobile: {
+                      x: -80,
+                      y: 140,
+                      scale: 0.3
+                    },
+                    desktop: {
+                      x: -80,
+                      y: 140,
+                      scale: 0.3
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/static/media/stock/shape--06.png',
+                    blendMode: 'multiply',
+                    rotate: 90,
+                    mobile: {
+                      x: -250,
+                      y: -350,
+                      scale: 0.3
+                    },
+                    desktop: {
+                      x: -250,
+                      y: -450,
+                      scale: 0.3
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/static/media/stock/shape--07.png',
+                    blendMode: 'multiply',
+                    rotate: 90,
+                    mobile: {
+                      x: -220,
+                      y: -170,
+                      scale: 0.4
+                    },
+                    desktop: {
+                      x: 420,
+                      y: -170,
+                      scale: 0.4
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/static/media/stock/shape--07.png',
+                    blendMode: 'multiply',
+                    rotate: 230,
+                    mobile: {
+                      x: -200,
+                      y: -50,
+                      scale: 0.4
+                    },
+                    desktop: {
+                      x: -380,
+                      y: 180,
+                      scale: 0.4
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/static/media/stock/shape--07.png',
+                    blendMode: 'multiply',
+                    rotate: 180,
+                    mobile: {
+                      x: -50,
+                      y: -290,
+                      scale: 0.3
+                    },
+                    desktop: {
+                      x: -520,
+                      y: -290,
+                      scale: 0.3
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/static/media/stock/shape--06.png',
+                    blendMode: 'multiply',
+                    rotate: 180,
+                    mobile: {
+                      x: 50,
+                      y: -200,
+                      scale: 0.4
+                    },
+                    desktop: {
+                      x: 300,
+                      y: -200,
+                      scale: 0.4
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/static/media/stock/shape--06.png',
+                    blendMode: 'multiply',
+                    rotate: 90,
+                    mobile: {
+                      x: 100,
+                      y: -100,
+                      scale: 0.3
+                    },
+                    desktop: {
+                      x: 500,
+                      y: -100,
+                      scale: 0.3
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/static/media/stock/shape--06.png',
+                    blendMode: 'multiply',
+                    rotate: 130,
+                    mobile: {
+                      x: -140,
+                      y: -330,
+                      scale: 0.3
+                    },
+                    desktop: {
+                      x: -120,
+                      y: -350,
+                      scale: 0.4
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/static/media/stock/shape--06.png',
+                    blendMode: 'multiply',
+                    rotate: -40,
+                    mobile: {
+                      x: 180,
+                      y: -250,
+                      scale: 0.4
+                    },
+                    desktop: {
+                      x: 220,
+                      y: -450,
+                      scale: 0.5
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/static/media/stock/shape--06.png',
+                    blendMode: 'multiply',
+                    rotate: 45,
+                    mobile: {
+                      x: -200,
+                      y: 200,
+                      scale: 0.4
+                    },
+                    desktop: {
+                      x: -200,
+                      y: 200,
+                      scale: 0.4
+                    }
+                  },
+                  {
+                    type: 'raster',
+                    src: '/static/media/stock/shape--06.png',
+                    blendMode: 'multiply',
+                    rotate: 180,
+                    mobile: {
+                      x: 150,
+                      y: 50,
+                      scale: 0.3
+                    },
+                    desktop: {
+                      x: 150,
+                      y: 50,
+                      scale: 0.3
+                    }
+                  },
+                ];
+              </script>
+              <canvas class="in-view__child in-view__child--fadein" data-paper-resize="true" data-paper-keepalive="true"></canvas>
             </div>
-            <div class="row" style="height: 20px"></div>
-            <hr/>
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="files/logo.png" class="logo" style="margin-bottom:15px">
-                </div>
-                <div class="col-lg-9">
-                <h3 class="align-bottom" style="text-align: left;vertical-align: middle;">PyCon.DE is where Pythonistas in Germany can meet to
-                learn about new and upcoming Python libraries, tools,
-                software and data science. </h3>
-                <h3 class="align-bottom" style="text-align: left;vertical-align: middle;">We welcome Python enthusiasts,
-                programmers and data scientists from around the world
-                to join us in Karlsruhe this year.</h3>
-                <h3 class="align-bottom" style="text-align: left;vertical-align: middle;">Talks, Trainings & Posters: Wed October 24 - Fri October 26 <br>Sprints: Sat October 27 - Sun October 28</h3>
-                </div>
-
-            </div>
-            <div class="col align-self-center alert alert-info" role="alert" style="text-align: center;vertical-align: middle;">
-                <h3>We need your support:<br> <a href="https://signup.zone/ydH8iwG8x7pbCMDgt"">Help us on-site and get a volunteer T-Shirt.</p></a></h3>
-            </div>
-        </div>
-        <hr/>
-        <div class="row">
-
-            <div class="col-lg-9">
-           <p> We expect more than 500 participants for PyCon.DE 2018 Karlsruhe.
-           The conference will last 3 days and include about 60 talks, tutorials
-           and hands on sessions.
-           The Python programming language has found application and
-           friends in many areas. Due to its popularity in science, Python
-           has experienced a meteoric rise in the data science community
-           over the past few years. At the conference, we expect a broad
-           and interesting mix of Pythonistas including roles such as:
-           </p>
-           <ul>
-               <li>Software Developer</li>
-               <li>Data Scientist</li>
-               <li>System Administrator</li>
-               <li>Academic Scientist</li>
-               <li>Technology Enthusiast</li>
-           </ul>
-           <p>PyCon.DE 2018 will be held at the <a href="./venue/">Center for Art and
-               Media</a> in Karlsruhe. Karlsruhe as a city and a decisive IT region
-            in the south-west of Germany and the ZKM as a venue represent a
-            perfect match for the conference.</p>
-            <p>In Germany and across Europe, Karlsruhe occupies top positions in research,
-            technology and innovation. The region has a well-known reputation among universities
-            and research institutes. The <a href="http://kit.edu">Karlsruhe Institute of Technology</a> is a national
-            collaboration between the national research center Karlsruhe and the local university
-            and sets the standard worldwide for innovating technologies. In the city and region, approximately 3,600 IT
-            companies with more than 36,000 jobs exist and continue to grow and thrive. The industry is integrated
-            into the <a href="https://www.cyberforum.de">cyberforum</a> IT company network and is part of a "software cluster"
-            recognized and sponsored by the federal government.</p>
-            </p>
-        <a href="http://pydata.org"><img style="max-width:200px" src="files/pydata-logo.png" class="logo"></a>
-        <p>The conference will include a <a href="http://pydata.org">PyData</a> track:</p>
-                <blockquote>PyData brings together both users and developers of data analysis tools to share ideas and learn from each other. The goals are to provide data science enthusiasts, across various domains, a place to discuss how best to apply languages and tools to the challenges of data management, processing, analytics, and visualization. </blockquote>
-
-        </div>
-        <div class="col-lg-3">
-             <a class="twitter-timeline" data-height="1000" href="https://twitter.com/PyConDE?ref_src=twsrc%5Etfw">Tweets by PyConDE</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
-
-        </div>
-
-
-
-            <hr/>
-
-        <div class="container alert alert-dark">
-            <div class="section-heading">
-                <h3>Stay in Touch</h3>
-            </div>
-            <div id="tweet"></div>
-            <div class="row ">
-              <div class="col-lg-4 ">
-                  <h3>Twitter @PyConDE</h3>
-                <div class="twitter-icon">
-                    <p>Follow us on for the latest updates!<a href="https://twitter.com/pyconde" data-toggle="tooltip" data-placement="left"
-                        title="Follow us on Twitter"><i class="fa fa-twitter"></i></a><br>
-                    <a href="https://twitter.com/search?q=%23PyConDE">#PyConDE</a>
-                    </p>
+            <div class="container">
+              <div class="row in-view">
+                <div class="col-12 col-xl-10 offset-xl-1 text-center text-lg-left">
+                  <h5 class="in-view__child in-view__child--fadein">
+                    <span>PyCon DE & PyData Berlin // October 9 - 13 2019</span>
+                  </h5>
+                  <h1 class="display-one in-view__child in-view__child--fadein">
+                    <span>when Python</span>
+                    <br>
+                    <span>meets Berlin</span>
+                  </h1>
                 </div>
               </div>
-              <div class="col-lg-4">
-                  <h3>Telegram</h3>
-                  <p>General announcements in the<br> <a href="https://t.me/pyconde">PyCon.DE telegram group</a>.</p>
-              </div>
-              <div class="col-lg-4">
-                  <h3>Allhands Group</h3>
-                  <p>Want to help organizing the PyCon.DE 2018 &amp; PyData Karlsruhe, then joint the <br><a href="https://t.me/joinchat/AXbpxRJMZqLvTeM8tGsp6Q">PyCon.DE allhands telegram group</a>.</p>
+            </div>
+          </section>
+          <!--
+          <section class="section" id="speakers">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 col-xl-10 offset-xl-1">
+                  <div class="board board--right">
+                    <div class="row align-items-end">
+                      <div class="col-12 col-md-6 order-md-2">
+                        <div class="member__image poster poster--square in-view">
+                          <figure>
+                            <img class="lazyload--el lazyload in-view__child" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                              data-src="/static/media/stock/placeholder-445x445.jpg" alt="" width="445" height="445">
+                            <div class="poster--cover in-view in-view__child"></div>
+                          </figure>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6 order-md-1">
+                        <div class="board__copy in-view">
+                          <h2 class="in-view__child in-view__child--fadein">Leia
+                            <br>Organa</h2>
+                          <p class="sub-head dashed in-view__child in-view__child--fadein">
+                            General of the Resistance
+                            <br>Republic Senator of Alderaan</p>
+                          <p class="indent in-view__child in-view__child--fadein">Leia will show how to implement complex machine learning models and deploy them on any platform.</p>
+                          <p class="board__copy--links indent in-view__child in-view__child--fadein">
+                            <span class="sub-head dashed dashed--reverse dashed--hover in-view__child">
+                              <a href="#">
+                                <span class="sr-only">Follow us on linkedin</span>
+                                <i class="fa fa-lg fa-linkedin-square"></i>
+                              </a>
+                              <a href="#">
+                                <span class="sr-only">Follow us on facebook</span>
+                                <i class="fa fa-lg fa-facebook-square"></i>
+                              </a>
+                              <a href="#">
+                                <span class="sr-only">Follow us on twitter</span>
+                                <i class="fa fa-lg fa-twitter-square"></i>
+                              </a>
+                            </span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="board board--left">
+                    <div class="row align-items-end">
+                      <div class="col-12 col-md-6">
+                        <div class="member__image poster poster--square in-view">
+                          <figure>
+                            <img class="lazyload--el lazyload in-view__child" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                              data-src="/static/media/stock/placeholder-445x445.jpg" alt="" width="445" height="445">
+                            <div class="poster--cover in-view in-view__child" data-offset="90%"></div>
+                          </figure>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6">
+                        <div class="board__copy in-view">
+                          <h2 class="in-view__child in-view__child--fadein">Anakin
+                            <br>Skywalker</h2>
+                          <p class="sub-head dashed in-view__child in-view__child--fadein">Supreme Commander
+                            <br>of the Imperial Forces</p>
+                          <p class="indent in-view__child in-view__child--fadein">Anakin will show demos you can try at home, and share educational resources you can use to learn
+                            more.</p>
+                          <p class="board__copy--links indent in-view__child in-view__child--fadein">
+                            <span class="sub-head dashed dashed--reverse dashed--hover in-view__child">
+                              <a href="#">
+                                <span class="sr-only">Follow us on linkedin</span>
+                                <i class="fa fa-lg fa-linkedin-square"></i>
+                              </a>
+                              <a href="#">
+                                <span class="sr-only">Follow us on facebook</span>
+                                <i class="fa fa-lg fa-facebook-square"></i>
+                              </a>
+                              <a href="#">
+                                <span class="sr-only">Follow us on twitter</span>
+                                <i class="fa fa-lg fa-twitter-square"></i>
+                              </a>
+                            </span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
+          </section>
+          -->
+          <section class="section" id="widecard">
+            <div class="container">
+              <div class="row in-view">
+                <div class="col-12 col-xl-10 offset-xl-1">
+                  <div class="reveal reveal--left reveal--darken reveal--secondary">
+                    <h3 class="in-view__child in-view__child--fadein">Main conference
+                      <br>3 days of talks and workshops</h3>
+                    <div class="reveal__copy indent">
+                      <p class="in-view__child in-view__child--fadein">More than 100 sessions dedicated to PyData (artificial intelligence, machine learning, ethics...)
+                      and Python topics (programming, DevOps, Web, Django...).</p>
+                      <div class="row">
+                        <div class="col-12 col-md-4 in-view__child in-view__child--fadein">
+                          <h6>Venue: Kosmos</h6>
+                          <a class="sub-head dashed dashed--reverse in-view__child" href="#">9 October</a>
+                        </div>
+                        <div class="col-12 col-md-4 in-view__child in-view__child--fadein">
+                          <h6>Venue: Kosmos</h6>
+                          <a class="sub-head dashed dashed--reverse in-view__child" href="#">10 October</a>
+                        </div>
+                        <div class="col-12 col-md-4 in-view__child in-view__child--fadein">
+                          <h6>Venue: Kosmos</h6>
+                          <a class="sub-head dashed dashed--reverse in-view__child" href="#">11 October</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+                    <section class="section padding-top">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 col-xl-10 offset-xl-1">
+                    <div class="reveal reveal--right in-view">
+                      <h3 class="in-view__child in-view__child--fadein">Sprints<br>Contribute to Open Source</h3>
+                      <div class="reveal__copy indent">
+                        <p class="in-view__child in-view__child--fadein">Sprints are an informal part of the conference, where all are welcome to exchange ideas, hack on exciting projects, and create lasting connections.</p>
+                        <div class="row">
+                          <div class="col-12 col-md-6 in-view__child in-view__child--fadein">
+                            <h6>Venue: TBD</h6><a class="sub-head dashed dashed--reverse in-view__child" href="#">12 October</a>
+                          </div>
+                          <div class="col-12 col-md-6 in-view__child in-view__child--fadein">
+                            <h6>Venue: TBD</h6><a class="sub-head dashed dashed--reverse in-view__child" href="#">13 October</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!--
+          <section class="section" id="gallery">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 col-xl-10 offset-xl-1">
+                  <div class="in-view">
+                    <h3 class="in-view__child in-view__child--fadein">Masonry
+                      <br>Gallery.</h3>
+                  </div>
+                  <div class="margin-top padding-top">
+                    <div class="masonry indexed-list row">
+                      <div class="masonry-item indexed-list__item col-12 col-md-6 col-lg-4">
+                        <div class="indexed-list__in-view">
+                          <div class="poster poster--horizontal in-view">
+                            <figure>
+                              <img class="lazyload--el lazyload in-view__child" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                data-src="/static/media/stock/placeholder-700x480.jpg" alt="" width="700" height="480">
+                              <div class="poster--cover in-view in-view__child"></div>
+                            </figure>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="masonry-item indexed-list__item col-12 col-md-6 col-lg-4">
+                        <div class="indexed-list__in-view">
+                          <div class="poster in-view">
+                            <figure>
+                              <img class="lazyload--el lazyload in-view__child" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                data-src="/static/media/stock/placeholder-445x600.jpg" alt="" width="445" height="600">
+                              <div class="poster--cover in-view in-view__child"></div>
+                            </figure>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="masonry-item indexed-list__item col-12 col-md-6 col-lg-4">
+                        <div class="indexed-list__in-view">
+                          <div class="poster poster--horizontal in-view">
+                            <figure>
+                              <img class="lazyload--el lazyload in-view__child" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                data-src="/static/media/stock/placeholder-700x480.jpg" alt="" width="700" height="480">
+                              <div class="poster--cover in-view in-view__child"></div>
+                            </figure>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="masonry-item indexed-list__item col-12 col-md-6 col-lg-4">
+                        <div class="indexed-list__in-view">
+                          <div class="poster in-view">
+                            <figure>
+                              <img class="lazyload--el lazyload in-view__child" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                data-src="/static/media/stock/placeholder-445x600.jpg" alt="" width="445" height="600">
+                              <div class="poster--cover in-view in-view__child"></div>
+                            </figure>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="masonry-item indexed-list__item col-12 col-md-6 col-lg-4">
+                        <div class="indexed-list__in-view">
+                          <div class="poster poster--horizontal in-view">
+                            <figure>
+                              <img class="lazyload--el lazyload in-view__child" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                data-src="/static/media/stock/placeholder-700x480.jpg" alt="" width="700" height="480">
+                              <div class="poster--cover in-view in-view__child"></div>
+                            </figure>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="masonry-item indexed-list__item col-12 col-md-6 col-lg-4">
+                        <div class="indexed-list__in-view">
+                          <div class="poster in-view">
+                            <figure>
+                              <img class="lazyload--el lazyload in-view__child" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                data-src="/static/media/stock/placeholder-445x600.jpg" alt="" width="445" height="600">
+                              <div class="poster--cover in-view in-view__child"></div>
+                            </figure>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          -->
+          <section class="section" id="registration">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 col-xl-10 offset-xl-1 text-center">
+                <!--
+                  <h5>
+                    <span>10% Sale offer for early birds</span>
+                  </h5>
+                  -->
+                  <h2 class="margin-top">
+                    <span>More than 700
+                      <span class="color--secondary">Pythonistas </span>
+                      <br class="hidden-sm-down">for a 5-days <span class="color--secondary">unique experience</span></span>
+                  </h2>
+                  <!--
+                  <p class="padding-top margin-top in-view" data-offset="90%">
+                    <span class="d-inline-block in-view__child in-view__child--scalein">
+                      <a class="btn btn--primary" href="https://ti.to/pycon-de/pyconde-pydata-2019">Get tickets now</a>
+                    </span>
+                  </p>
+                  -->
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--
+          <section class="section" id="sponsors">
+            <div class="container in-view">
+              <div class="row">
+                <div class="col-12 col-xl-10 offset-xl-1">
+                  <h3 class="in-view__child in-view__child--fadein">Feature
+                    <br>Sponsors.</h3>
+                </div>
+              </div>
+              <div class="row padding-top margin-top">
+                <div class="col-4 col-sm-2 offset-xl-1 in-view__child in-view__child--fadein">
+                  <div class="company">
+                    <figure>
+                      <img class="lazyload--el lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        data-src="/static/media/stock/placeholder-company-01-light.svg" alt="" width="160" height="168">
+                    </figure>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-2 in-view__child in-view__child--fadein">
+                  <div class="company">
+                    <figure>
+                      <img class="lazyload--el lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        data-src="/static/media/stock/placeholder-company-02-light.svg" alt="" width="160" height="168">
+                    </figure>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-2 in-view__child in-view__child--fadein">
+                  <div class="company">
+                    <figure>
+                      <img class="lazyload--el lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        data-src="/static/media/stock/placeholder-company-03-light.svg" alt="" width="160" height="168">
+                    </figure>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-2 in-view__child in-view__child--fadein">
+                  <div class="company">
+                    <figure>
+                      <img class="lazyload--el lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        data-src="/static/media/stock/placeholder-company-04-light.svg" alt="" width="160" height="168">
+                    </figure>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-2 in-view__child in-view__child--fadein">
+                  <div class="company">
+                    <figure>
+                      <img class="lazyload--el lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        data-src="/static/media/stock/placeholder-company-05-light.svg" alt="" width="160" height="168">
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          -->
+
+          <section id="cta">
+            <div class="cta cta--darken cta--secondary in-view" data-offset="90%">
+              <div class="cta__copy text-center">
+                <div class="d-inline-block margin-top margin-bottom in-view__child in-view__child--scalein">
+                  <a class="btn" href="https://ti.to/pycon-de/pyconde-pydata-2019">Get your tickets today</a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
     </div>
-<hr/>
-    <div class="section-content">
-            <div class="row">
-                <div class="col-lg-4">
-                    <h3>Python Programming Language</h3>
-                    <p>
-                    <a href="https://python.org">Python</a> is a widely
-                    used high-level programming language for
-                    general-purpose programming, created by Guido van
-                    Rossum and first released in 1991. An interpreted
-                    language, Python has a design philosophy which
-                    emphasizes code readability (notably using whitespace
-                    indentation to delimit code blocks rather than curly
-                    braces or keywords), and a syntax which allows
-                    programmers to express concepts in fewer lines of code
-                    than possible in other languages.
-                    </p>
-                </div>
-                <div class="col-lg-4">
-                    <h3>Python Software Verband e.V.</h3>
-                    <p>
-                    The <a href="https://python-verband.org">Python Software Verband e.V.</a> represents the
-                    Interests of users of the open-source programming language Python in Germany,
-                    Austria and German-speaking Switzerland.
-                    </p>
-                </div>
-                <div class="col-lg-4">
-
-                    <h3>PyCon.DE previous editions</h3>
-
-              <p>The story of PyCon.DE goes back to 2011.</p>
-              <ul>
-                <li><a href="https://2017.de.pycon.org/" target="_blank">PyCon.DE 2017</a> in Karlsruhe</li>
-                <li><a href="https://www.pymunich.com" target="_blank">PyConWeb 2017</a> in Munich</li>
-                <li><a href="http://www.pymunich.com/pyconde2016/" target="_blank">PyCon.DE 2016</a> in Munich</li>
-                <li><a href="https://ep2014.europython.eu/de/conference/satellite-events/pyconde/" target="_blank">PyCon.DE 2014</a> satellite at EuroPython 2014 in Berlin</li>
-                <li><a href="https://2013.de.pycon.org/" target="_blank">PyCon.DE 2013</a> in Cologne</li>
-                <li><a href="https://2012.de.pycon.org/" target="_blank">PyCon.DE 2012</a> in Leipzig</li>
-                <li><a href="https://2011.de.pycon.org/" target="_blank">PyCon.DE 2011</a> in Leipzig</li>
-              </ul>
-
-                </div>
-            </div>
-        </div>
-
-    <div class="section-heading">
-            <h2><a href="https://www.instagram.com/pycon.de/">Instagram Feed</a></h2>
-        </div>
-        <div class="row">
-           <div class="col-lg-12">
-               <script type="text/javascript" src="assets/js//instafeed.min.js"></script>
-               <script type="text/javascript">
-    var feed = new Instafeed({
-        get: 'user',
-        userId: '6239881609',
-        clientId: '13f70f9f67bb43c38dccfbbf3810caae',
-        accessToken: '6239881609.13f70f9.12ff5cb6f3974ca4956c29b964828a69',
-        resolution: 'low_resolution',
-        limit: 9
-    });
-    feed.run();
-</script>
-            <center>
-            <div id="instafeed"></div>
-            </center>
-           </div>
-        </div>
-
-    </div>
-</div>
-<!-- END ABOUT -->
-</div>
-<!-- END MAIN CONTENT -->    

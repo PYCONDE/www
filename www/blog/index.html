@@ -1,515 +1,500 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]>
-<html class="ie ie6" lang="en" class="no-js"> <![endif]-->
-<!--[if IE 7 ]>
-<html class="ie ie7" lang="en" class="no-js"> <![endif]-->
-<!--[if IE 8 ]>
-<html class="ie ie8" lang="en" class="no-js"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="en" class="no-js"> <!--<![endif]-->
+<html class="no-js" lang="en-US">
+
 <head>
-    <meta charset="utf-8">
-    <title>PyCon.DE 2018 </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="PyCon.DE 2018 Karlsruhe - is the traditional meeting point for people who work and play with Python. Hosted in Germany and held in the English language, the conference welcomes Python professionals and enthusiasts from Central Europe and around the world.">
-    <meta name="author" content="PyCon.DE">
-    <meta name="google-site-verification" content="0ofirBPv5gp7EmRztqLq_d_l_lXbS0NkSMsowDLDMmk" />
-
-     <!-- ================= Twitter ================== -->
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@pyconde" />
-        <meta name="twitter:creator" content="@pyconde" />
-        <meta name="twitter:image" content="http://pycon.de/assets/img/og-Preview.jpg" />
-
-        <!-- ================= Open Graph ================== -->
-        <meta property="og:url" content="http://pycon.de" />
-        <meta property="og:title" content="PyConDE & PyData Karlsruhe" />
-        <meta property="og:description" content="German Python & PyData conference. October 24-28, Karlsruhe Germany. PyCon.DE is where Pythonistas in Germany can meet to learn about new and upcoming Python libraries, tools, software and data science. " />
-        <meta property="og:image" content="../assets/img/og-Preview.jpg?h=559f8056" />
-        <meta property="og:type" content="article" />
-
-
-    <!-- Styles -->
-    <link href="../assets/css/bootstrap.css?h=bc7d127a" rel="stylesheet">
-    <link href="../assets/css/main.css?h=80bb6102" rel="stylesheet">
-
-    <!-- Google Fonts -->
-    <link href='//fonts.googleapis.com/css?family=Dosis:300,400,500,600,700' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:400italic,300,400,700' rel='stylesheet'
-          type='text/css'>
-
-    <!-- IE 9 Fallback-->
-    <!--[if IE 9]>
-    <link href="" rel="stylesheet">
-    <![endif]-->
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements and IE Fallback-->
-    <!--[if lt IE 9]>
-    <script src=""></script>
-    <![endif]-->
-
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png?h=15ea1e3b">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png?h=88450737">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png?h=92748be5">
-    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png?h=9375b3f7">
-    <link rel="shortcut icon" href="../assets/ico/favicon.ico?h=80408e57">
-
-<!-- place this in your head tag -->
-<script src='https://js.tito.io/v1' async></script>
-
-
-<!-- for basic styles include a link to our stylesheet. -->
-<!-- fancy something more adventurous? Copy it and roll your own! -->
-<link rel="stylesheet" type="text/css" href='https://css.tito.io/v1.1' />
-<link rel="alternate" title="Atom Feed for PyConDE 2018" type="application/atom+xml" href="/feed.xml">
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="profile" href="http://gmpg.org/xfn/11">
+  <script>(function (html) { html.className = html.className.replace(/\bno-js\b/, 'js') })(document.documentElement)</script>
+  <title>PyCon DE & PyData Berlin 2019 | Blog</title>
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link rel="dns-prefetch" href="//s.w.org">
+  <link rel="icon" href="/static/favicons/favicon-neon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla:400,700i,700|Poppins:700">
+  <link rel="stylesheet" href="/static/css/font-awesome.css" type="text/css" media="all">
+  <link rel="stylesheet" href="/static/style.css" type="text/css" media="all">
+  <link rel="stylesheet" href="/static/scheme-neon.css" type="text/css" media="all">
+  <link rel="stylesheet" href="/static/style-custom.css" type="text/css" media="all">
 </head>
-<body id="top" class="fullscreen-image-background">
 
-<!-- NAVBAR -->
-<div class="navbar navbar-fixed-top navbar-light">
-    <div class="container">
-        <div class="navbar-header">
-
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
-                <span class="sr-only">Menu</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-
-            <a href="../"><img  class="navbar-brand" alt="" data-toggle="collapse" data-target="#main-nav"></a>
-        </div>
-        <nav class="navbar-collapse collapse" id="main-nav" role="navigation">
-            <ul class="nav navbar-nav navbar-right">
-
-  
-
-
-  <li class="active"><a href="../blog/">NEWS</a></li>
-
-  <li><a href="../tickets/">TICKETS</a></li>
-
-  <li><a href="../schedule/">SCHEDULE</a></li>
-
-  <li><a href="../venue/">VENUE</a></li>
-
-  <li><a href="../code-of-conduct/">CODE OF CONDUCT</a></li>
-
-  <li><a href="../sponsoring/">SPONSORING</a></li>
-
-  <li><a href="../team/">TEAM</a></li>
-
-  <li><a href="../privacy-policy/">PRIVACY POLICY</a></li>
-
-
-            </ul>
-        </nav>
-    </div>
-</div>
-<!-- END NAVBAR -->
-
-<!-- BODY CONTENT -->
-
-
-
-<!-- MAIN CONTENT -->
-<div id="main-content" class="main-content">
-    <div class="container alert alert-dark">
-			<div class="section-heading">
-				<h3>
-					Stay in Touch
-				</h3>
-			</div>
-			<div id="tweet"></div>
-			<div class="row">
-				<div class="col-lg-4">
-					<h3>
-						Twitter @PyConDE
-					</h3>
-					<div class="twitter-icon">
-						<p>
-							Follow us on for the latest updates!<a href="https://twitter.com/pyconde" data-toggle="tooltip" data-placement="left" title="Follow us on Twitter"></a><br>
-							<a href="https://twitter.com/search?q=%23PyConDE">#PyConDE</a>
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<h3>
-						Telegram
-					</h3>
-					<p>
-						General announcements in the<br>
-						<a href="https://t.me/pyconde">PyCon.DE telegram group</a>.
-					</p>
-				</div>
-				<div class="col-lg-4">
-					<h3>
-						Allhands Group
-					</h3>
-					<p>
-						Want to help organizing the PyCon.DE 2018 &amp; PyData Karlsruhe, then joint the<br>
-						<a href="https://t.me/joinchat/AXbpxRJMZqLvTeM8tGsp6Q">PyCon.DE allhands telegram group</a>.
-					</p>
-				</div>
-			</div>
-		</div>
-
-
-    <div class="section">
+<body class="home">
+  <div class="site" id="page">
+    <header class="site-header" id="masthead">
+      <div class="site-header__wrap">
         <div class="container">
-            <div class="section-heading">
-                <h2>Blog <a href="http://de.pycon.org/feed.xml"><img src="../assets/img/feed.png" height="45px" width="45px"></a></h2>
+          <div class="row in-view">
+            <div class="col-12 col-xl-10 offset-xl-1">
+              <div class="site-header__elements">
+                <div class="site-header__mobile hidden-lg-up">
+                  <button class="site-header__mobile--trigger side-menu-trigger">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                  </button>
+                </div>
+                <!--
+                <div class="site-header__branding">
+                  <div class="site-branding">
+                    <a href="/">
+                      <img src="/static/media/logo-neon.svg" alt="" width="232" height="144">
+                    </a>
+                  </div>
+                </div>
+                -->
+                <div class="site-header__nav hidden-md-down">
+                  <div class="site-header__menu">
+                    <nav class="main-navigation" aria-label="Site Menu" role="navigation">
+                      <div class="menu-top-menu-container">
+                        <ul class="menu" id="top-menu">
+                          <!--
+                          <li class="menu-item-has-children">
+                            <a href="#">Program</a>
+                            <ul class="sub-menu">
+                              <li>
+                                <a href="home-portfolio.html">
+                                  <span>Home &mdash; Portfolio</span>
+                                  <span class="sub-head-2">With vector patterns</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="index.html">
+                                  <span>Home &mdash; Gooey</span>
+                                  <span class="sub-head-2">With vector patterns</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="home-red.html">
+                                  <span>
+                                    Home &mdash;
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 24">
+                                      <rect width="30" height="24" fill="none" />
+                                      <path d="M7,10.9a9.48,9.48,0,0,1,.4-3A9.65,9.65,0,0,1,8.6,5.4a10,10,0,0,1,.9-1l.2.8A5.8,5.8,0,0,0,8.5,7.3a8.29,8.29,0,0,0-.4,3.2V11a13.76,13.76,0,0,0,.6,3.8,3.83,3.83,0,0,0,1.1,1.9l-.2.8a3.26,3.26,0,0,1-1.1-1.2A10,10,0,0,1,7,10.9Zm6.6-2h-.5a1,1,0,0,0-1.1.9v4.8H10.9V7.9h1v.6a1.34,1.34,0,0,1,1.3-.8c.1,0,.4,0,.4.1ZM17,14.7a2,2,0,0,1-1.9-.8,3.52,3.52,0,0,1-.7-2.1v-.9A4.27,4.27,0,0,1,15,8.5a2.27,2.27,0,0,1,1.8-.9,2,2,0,0,1,1.8.8,3.59,3.59,0,0,1,.6,2.2v.8H15.6v.1c0,.8.1,1.2.4,1.5s.6.5,1.1.5a2.48,2.48,0,0,0,.9-.1,1.2,1.2,0,0,0,.8-.4l.5.6A3,3,0,0,1,17,14.7Zm-.1-5.9a1,1,0,0,0-1,.5,2.12,2.12,0,0,0-.4,1.4h2.6v-.1a2,2,0,0,0-.4-1.4C17.6,8.9,17.3,8.8,16.9,8.8Zm3.3,2.1a4.27,4.27,0,0,1,.6-2.4,1.94,1.94,0,0,1,1.6-.8,1.9,1.9,0,0,1,1.5.8V5.2H25v9.4H24v-.8a2.06,2.06,0,0,1-1.6.9,1.82,1.82,0,0,1-1.6-.8,3.52,3.52,0,0,1-.6-2.3Zm1.2.7a2.36,2.36,0,0,0,.4,1.6,1.37,1.37,0,0,0,2.3-.3V9.6a1.21,1.21,0,0,0-1.2-.8c-.5,0-.9.1-1.1.5a2.54,2.54,0,0,0-.4,1.6Zm7.6-.5A9.88,9.88,0,0,1,27.8,16a5.71,5.71,0,0,1-1.4,1.6l-.2-.8a5.07,5.07,0,0,0,1.2-2.2,11.59,11.59,0,0,0,.5-3.4V11a10.7,10.7,0,0,0-.7-4.1,4.35,4.35,0,0,0-1-1.6l.2-.8A2.69,2.69,0,0,1,27.6,6,8.5,8.5,0,0,1,29,11.1Z"
+                                        fill="#ff6565" />
+                                    </svg>
+                                  </span>
+                                  <span class="sub-head-2">With raster patterns</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="home-slider.html">
+                                  <span>Home &mdash; Slider</span>
+                                  <span class="sub-head-2">With full page slider</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="home-dark.html">
+                                  <span>Home &mdash; Dark</span>
+                                  <span class="sub-head-2">With raster patterns</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="home-elegant.html">
+                                  <span>Home &mdash; Elegant</span>
+                                  <span class="sub-head-2">With vector patterns</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="home-countdown.html">
+                                  <span>Home &mdash; Countdown</span>
+                                  <span class="sub-head-2">With Countdown timer</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </li>
+                          -->
+                          
+                          <li><a href="/">Home</a></li>
+                          
+                          <li><a href="/blog/">Blog</a></li>
+                          
+                          <li><a href="/code-of-conduct/">Code of Conduct</a></li>
+                          
+                          <li><a href="/team/">Team</a></li>
+                          
+                          <li><a href="/venue/">Venue</a></li>
+                          
+                        </ul>
+                      </div>
+                    </nav>
+                  </div>
+                </div>
+                <div class="site-header__cta hidden-sm-down">
+                  <a class="btn btn--secondary" href="https://ti.to/pycon-de/pyconde-pydata-2019">Buy ticket</a>
+                </div>
+              </div>
             </div>
-            <div class="section-content">
-            <!-- place this where you want the widget to appear -->
-            <div class="row blog-content">
-  
-    
-  <div class="blog-post">
-  
-    <h2><a href="../blog/guided-tours-for-open-codes-exhibition/">Guided Tours for Open Codes Exhibition</a></h2>
-  
-  <p class="meta">
-    written by
-    
-      <a href="https://twitter.com/peterhoffmann">Peter Hoffmann</a>
-    
-    on 2018-10-21
-  </p>
-  <p>Like last year there is an exhibition in the <a href="https://zkm.de">ZKM</a> in parallel to the conference. For all participants of the pycon.de the admission is free of charge.</p>
-<blockquote><p>The exhibition project <a href="https://zkm.de/en/exhibition/2017/10/open-codes">Open Codes</a> enters its second round! While the first phase »Open Codes. Living in Digital Worlds« presented many varied examples of codes, from Morse code to genetic code, the second phase »Open Codes. The World as a Field of Data« focuses on a world that is increasingly driven by data.</p>
-<p>»The second edition of Open Codes will show you this new world of fields of data in an abundance of examples. It opens to us a new horizon for humankind: transhumanism built on artificial intelligence.« Peter Weibel, artistic-scientific director of the ZKM and curator of the exhibition and keynote speaker at the pycon.de</p>
-</blockquote>
-<p>We have organised guided tours for the exhibition:</p>
-<ul>
-<li>Thursday 10:30 </li>
-<li>Thursday  15:00</li>
-<li>Friday 10:30</li>
-<li>Friday 15:00</li>
-</ul>
-<p>The tours will start at the entrance of the museum and each tour is limited to 15 persons.</p>
-
-  </div>
-
-    <hr>
-  
-    
-  <div class="blog-post">
-  
-    <h2><a href="../blog/registration-desk-getting-your-badge/">Registration Desk: Getting your Badge</a></h2>
-  
-  <p class="meta">
-    written by
-    
-      <a href="https://twitter.com/peterhoffmann">Peter Hoffmann</a>
-    
-    on 2018-10-20
-  </p>
-  <p>Early registration and handout of the badges will be already open on Tuesday from 15:00-18:00. So if you are already in Karlsruhe just drop by and get your badge. If you like, you can also help a with the conference setup.</p>
-<p>On Wednesday the registration will be opened at 8:30. There will be 5 lanes to get your badge. The badges will be ordered by FIRST NAME. Badge-Distribution: 5 buckets: A-C, D-I, J-L, M-Q, R-Z</p>
-<p>Badges are printed for all tickets purchased and assigned by Friday 20.10.2018. Changes made later will not show on the badges. In case you cannot find a name and badge, just go to the desk manager and we'll take care of it.</p>
-
-  </div>
-
-    <hr>
-  
-    
-  <div class="blog-post">
-  
-    <h2><a href="../blog/pyconde-and-pydata-karlsruhe-2018-keynote-emmanuelle-ouillart/">PyCon.DE &amp; PyData Karlsruhe 2018 Keynote: Emmanuelle Gouillart</a></h2>
-  
-  <p class="meta">
-    written by
-    
-      <a href="https://twitter.com/peterhoffmann">Peter Hoffmann</a>
-    
-    on 2018-08-30
-  </p>
-  <p>We are very happy to confirm Emmanuelle Gouillart as a keynote speaker for PyCon.DE 2018 & PyData Karlsruhe.</p>
-<p><img src="../files/keynote-emma.png" alt="Emmanuelle Gouillart PyCon.DE"></p>
-<p>Emmanuelle is a researcher and geek, enthusiastic about physics and glass science, Scientific Python and image processing, travels and graphic arts as well as a #skimage developer.</p>
-
-  </div>
-
-    <hr>
-  
-    
-  <div class="blog-post">
-  
-    <h2><a href="../blog/pyladies-x-micropython-pyconde/">PyLadies X Micropython @ PyConDE</a></h2>
-  
-  <p class="meta">
-    written by
-    
-      <a href="https://twitter.com/peterhoffmann">Peter Hoffmann</a>
-    
-    on 2018-08-20
-  </p>
-  <p>As part of PyCon DE 18 PyLadies and MicroPython will be running a
-beginner friendly full day hands-on workshop on MicroPython and the
-Internet of Things. We welcome anyone with existing programming knowledge or who is code curious to <a href="https://www.meetup.com/de-DE/PyData-Suedwest/events/253574767/">join us</a>.</p>
-<p><img src="../files/micropython.jpeg" alt="MicroPython"></p>
-<p>You received a PyBoard last year during PyCon DE but did not really do something with it until today? We want to change this! So bring your board along or any other MicroPython related hardware.</p>
-<p>If you have existing hardware feel free to bring it along, you can
-also purchase hardware here (<a href="https://store.micropython.org/product/PYBLITEv1.0-ACH">https://store.micropython.org/product/PYBLITEv1.0-ACH</a>) or on the day. We will also have units you can work with without having to purchase them. Lunch will be provided and at the end of the day we will run a presentation of what has been produced (optional).</p>
-<p>Please note buying the hardware does not automatically sign you up for this workshop. MicroPython is an Open Source project that funds itself solely through selling hardware. If you like to support this – please consider buying the hardware.</p>
-<h2>Pyladies</h2>
-<p>is an international mentorship group for women with mission to
-promote, educate, and advance a diverse Python community and provide a friendly support network with a bridge to the larger Python world.</p>
-<h2>MicroPython</h2>
-<p>is a lean and efficient implementation of Python 3 that includes a
-small subset of the Python standard library and is optimised to run on
-microcontrollers and in constrained environments. The MicroPython
-Pyboard is a compact electronic circuit board that runs MicroPython on
-the bare metal, giving you a low-level Python operating system that
-can be used to control all kinds of electronic projects. The pyboard
-is the official MicroPython microcontroller board with full support
-for software features.</p>
-<p>Learn more here: <a href="http://micropython.org">http://micropython.org</a></p>
-<h2>Gender policy</h2>
-<p>We believe knowledge is for all and at the same time our events aim
-primarily to empower women tech community. We request non female
-attendees to be aware of these situation and make their presence
-discrete. Eg. by coming with a female plus one to ensure gender
-balance, avoiding to be heard more than the rest of the attendees in
-discussions and question sections.</p>
-<h2>Photography / video consent</h2>
-<p>We take photos and videos during the event to use for documentation
-and in social media such as here in Photo albums, Facebook, Twitter,
-etc. By coming to the meetup, you willingly give consent to take
-photos and videos of you. If you do not want to give your consent,
-please let us know at check-in.</p>
-<h2>Contact</h2>
-<p>Interested in speaking at one of our events? Have a good idea for a Meetup? Get in touch with us at berlinpyladies@gmail.com</p>
-<p>For help or questions before the event please join the PyLadies slack
-and go to the channel #pyladies-micropython</p>
-<p>Invite: <a href="https://pyladies-berlin.herokuapp.com/">https://pyladies-berlin.herokuapp.com/</a></p>
-<p>Slack: <a href="https://pyladies-berlin.slack.com">https://pyladies-berlin.slack.com</a></p>
-
-  </div>
-
-    <hr>
-  
-    
-  <div class="blog-post">
-  
-    <h2><a href="../blog/pyconde-and-pydata-karlsruhe-2018-keynote-wes-mckinney/">PyCon.DE &amp; PyData Karlsruhe 2018 Keynote: Wes McKinney</a></h2>
-  
-  <p class="meta">
-    written by
-    
-      <a href="https://twitter.com/peterhoffmann">Peter Hoffmann</a>
-    
-    on 2018-07-25
-  </p>
-  <p>We are very happy to confirm Wes McKinney as a keynote speaker for PyCon.DE 2018 & PyData Karlsruhe.</p>
-<p><img src="../files/keynote-wes.jpeg" alt="Wes McKinney Keynote PyCon.DE"></p>
-<p>Wes McKinney has been creating fast, easy-to-use data wrangling and statistical computing tools, mostly in the Python programming language, since 2007. 
-He is best known for creating the pandas project and writing the book Python for Data Analysis. He is a PMC member of the Apache Arrow and Parquet  projects in The Apache SoftwareFoundation.</p>
-
-  </div>
-
-    <hr>
-  
-    
-  <div class="blog-post">
-  
-    <h2><a href="../blog/ticket-pricing-2018/">Tickets</a></h2>
-  
-  <p class="meta">
-    written by
-    
-      <a href="https://twitter.com/hendorf">Alexander Hendorf</a>
-    
-    on 2018-05-24
-  </p>
-  <p><strong>Good news</strong>: the ticket prices for PyConDE & Pydata Karlsruhe will remain the same as last year.</p>
-<h2><strong>Ticket sales will open on Monday May 28 12:00 CEST</strong></h2>
-<h3>Regular ticket</h3>
-<p>prices remain the same as last year:</p>
-<ul>
-<li>Business Ticket 380 EUR</li>
-<li>Hobbyist Ticket 285 EUR</li>
-<li>Student Ticket 170 EUR</li>
-</ul>
-<h3>Early Bird</h3>
-<p>There is be a limited amount of early bird tickets with a reduced price on a first come first serve basis:</p>
-<ul>
-<li>Business Early Bird 285 EUR</li>
-<li>Hobbyist Early Bird 215 EUR</li>
-<li>Student Early Bird 125 EUR</li>
-</ul>
-<h3>Late Bird</h3>
-<p>In early October we will switch to late bird pricing (in case there are any ticket left then ;))</p>
-<ul>
-<li>Business Late Bird 480 EUR</li>
-<li>Hobbyist Late Bird 330 EUR</li>
-<li>Student Late Bird 220 EUR</li>
-</ul>
-<p>We do advise to buy tickets before October 1, it's easiser to organise for us.</p>
-<p>As last year, contributors will  receive a ticket at any time at Early Bird rate.</p>
-
-  </div>
-
-    <hr>
-  
-    
-  <div class="blog-post">
-  
-    <h2><a href="../blog/fin-aid/">Fin Aid</a></h2>
-  
-  <p class="meta">
-    written by
-    
-      <a href="https://twitter.com/peterhoffmann">Peter Hoffmann</a>
-    
-    on 2018-05-03
-  </p>
-  <p>As part of our commitment to the Python community, we are pleased to announce that we offer special grants for people in need of a financial aid to attend <a href="http://de.pycon.org">PyCon.DE</a>. Please follow the instructions below to apply for a grant.</p>
-<p>Financial aid is sponsored by <em><a href="https://www.python.org/psf/">Python Software Foundation (PSF)</a></em> and <em><a href="http://www.europython-society.org">EuroPython Society (EPS)</a></em>.</p>
-<p>We offer financial aid conference grants for up to 400€ per participant, which can cover:</p>
-<p>Ticket: A student or standard ticket for the conference (including access to talks, trainings, sprints, lunch and coffee breaks refreshment) with a speaker discount.</p>
-<p>Travel costs:  We will cover the travel costs pro rata, depending on what you are applying for.</p>
-<p>Accommodation: We can cover the accommodation costs in an appropriate reasonable ho(s)tel price range.</p>
-<p>Note: The social event is NOT included in the PyCon.DE 2018 conference tickets. You will have to purchase separate tickets if you want to attend the social event.</p>
-<h2>Grant Eligibility</h2>
-<p>Our grants are open to all people in need of financial aid. We will specifically take into account the following criteria in the selection process:</p>
-<p>Contributors: Accepted speakers/trainers of PyCon.DE  and all who contribute to PyCon.DE and/or Python community projects.</p>
-<p>Economic factors: We want everybody to have a chance to come to PyCon.DE, regardless of economic situation or income level.</p>
-<p>Diversity: We seek the most diverse and inclusive event possible.</p>
-<h2>How to apply</h2>
-<p>Please fill in the <a href="https://goo.gl/forms/vOXDTiSRGaXfYGx93">PyCon.DE Diversity Scholarship Application Form</a>.</p>
-<h2>Timeline</h2>
-<p>The financial aid committee is planning one decision round.</p>
-<p>The deadline for submitting the applications is <em>2018-07-15</em>.</p>
-<p>Applicants will be notified by e-mail around <em>2017-08-01</em>.</p>
-<h2>Refund management</h2>
-<p>Free ticket: The individual coupons will be generated for a free ticket.</p>
-<p>Accommodation / Travel grant: All grants involving reimbursements will be done by money transfer after the conference. Please email your receipts (invoice, plane/bus/train ticket or other approval email) to info@pycon.de and bring your passport or ID card, when requesting the reimbursement.</p>
-<p>The financial aid grants will only be made available to registered attendees actually attending the conference. Transfers to other people are not possible.</p>
-<p>If you find that you cannot attend the conference for some reason, please send an email to info@pycon.de informing us, so that we can allocate the funds to someone else.</p>
-<p>Thank you.</p>
-<p>See you at PyCon.DE in Karlsruhe!</p>
-
-  </div>
-
-    <hr>
-  
-    
-  <div class="blog-post">
-  
-    <h2><a href="../blog/pyconde-and-pydata-karlsruhe-2018/">PyCon.DE &amp; PyData Karlsruhe 2018</a></h2>
-  
-  <p class="meta">
-    written by
-    
-      <a href="https://twitter.com/peterhoffmann">Peter Hoffmann</a>
-    
-    on 2018-03-13
-  </p>
-  <p>After as successful PyCon.DE 2017 in Karlsruhe the conference PyCon.DE 2018 will be held again at the Center for Art and Media in Karlsruhe. We expect 400 participants. The conference will last 3 days and include about 60 talks, tutorials and hands on sessions.</p>
-<p>Python is a programming language which has found application and friends in many areas. Due to its popularity in science, Python has experienced a meteoric rise in the data science community over the past few years. At the conference, we expect a broad and interesting mix of Pythonistas. Karlsruhe as a city and a decisive IT region in the south-west of Germany and the ZKM as a venue represent a perfect match for the conference.</p>
-<p>If you are interested to support the conference see <a href="https://de.pycon.org/sponsoring/">https://de.pycon.org/sponsoring/</a> for sponsoring options.</p>
-
-  </div>
-
-    <hr>
-  
-    
-  <div class="blog-post">
-  
-    <h2><a href="../blog/pycon-zkm-open-codes/">PyCon.DE @ ZKM Open Codes Exhibition</a></h2>
-  
-  <p class="meta">
-    written by
-    
-      <a href="https://twitter.com/peterhoffmann">Peter Hoffmann</a>
-    
-    on 2017-09-01
-  </p>
-  <p>The <a href="http://pycon.de">PyCon.DE Karlsruhe</a> becomes a partner of the <a href="http://zkm.de">ZKM</a> - Open Codes exhibition:</p>
-<ul>
-<li>The hands-on tutorials take place within the exhibition.</li>
-<li>Every PyCon.DE participant gets free access to the museum.</li>
-<li>We will organize guided tours through the Open Codes exhibition.</li>
-<li>Access to the film presentation <a href="http://zkm.de/en/event/2017/10/all-watched-over-by-machines-of-loving-grace">All Watched over by Machines of Loving Grace</a> within the Open Codes exhibition on thursday 26.10.2017.</li>
-</ul>
-<h2>Open Codes</h2>
-<p>With the <a href="http://zkm.de/en/event/2017/10/open-codes">Open Codes. Living in Digital Worlds</a> exhibition (Fri, 20.10.2017 – Sun, 05.08.2018), the ZKM | Karlsruhe is once again addressing the subject of digitalization and the recording of the world through the binary code.</p>
-<p>To understand the world we inhabit
-To understand the world we live in
-To understand the world that sustains us</p>
-<p>Today we live in a globalized world that is controlled and created by digital codes. From communication to transportation (of people, goods, and messages), everything is guided by codes that use electromagnetic waves and computers. Mathematics and mechanics have created a new tool-based world, erected by engineers, physicists, and programmers.</p>
-<p>From the binary code (Leibniz) to Morse code, from cosmic code to the genetic code, we live in a world of codes. This exhibition, a collection of artworks and scientific works gives you the opportunity to get an insight into this world and to better understand it. The exhibition will be a mix of a laboratory and a lounge, a »Club Mediterranée«, and a learning environment.</p>
-<p>We would like to test new and perhaps unusual education and learning formats with our visitors, and create new approaches to knowledge in a relaxed atmosphere that stimulates learning. Programming, learning with bots and other new technologies should no longer pose a limit to education. Everyone should have the chance to understand what lies behind today’s digital world. Whether with free entry to events, snacks and drinks at the museum or natural work in the museum field – the exhibition will change the approach to museum installations as an educational policy experiment in the area of »Audience Development«. The museum will, in the true sense of the word, be well worth a visit.</p>
-<p>Artworks and scientific works based on digital as well as on analog codes are presented in the exhibition. The works visualize and explain the complex dynamics of code, and the way in which they are increasingly shaping the way we live and perceive the world.</p>
-
-  </div>
-
-    <hr>
-  
-
-  
-  <div class="pagination">
-    
-      <span class="disabled">&laquo; Previous</span>
-    
-    | 1 |
-    
-      <span class="disabled">Next &raquo;</span>
-    
-  </div>
-
-
-            </div>
+          </div>
         </div>
-    </div>
-</div>
-</div>
-<!-- END MAIN CONTENT -->
+      </div>
+    </header>
     
 
-<!-- END BODY CONTENT -->
-
-<!-- FOOTER -->
-<footer id="footer" class="section ">
+  <section class="section section--singular background-color--code-background">
     <div class="container">
-        <p class="copyright pull-left">&copy; 2018 | PyCON DE 2018 | <a
-                href="mailto:info@pycon.de">info@pycon.de </a>
-            <br/>
-            <span class="small">Legal notice: This website is run by <a href="https://python-verband.org">Python Software Verband e.V.</a>, Forsterstraße 29, 06112 Halle (Saale)</span>
-        </p>
-        <ul class="list-inline pull-right social-icon">
-            <li><a href="https://github.com/pysv" data-toggle="tooltip" data-placement="top" title="Github"><i
-                    class="fa fa-github"></i></a></li>
-        </ul>
-        <ul class="list-inline pull-right social-icon">
-            <li><a href="https://twitter.com/pyconde" data-toggle="tooltip" data-placement="top" title="Twitter"><i
-                    class="fa fa-twitter"></i></a></li>
-        </ul>
+      <div class="row in-view">
+        <div class="col-12 col-xl-10 offset-xl-1">
+          <header class="page-header in-view__child in-view__child--fadein">
+            <h1 class="page-title">Blog &amp; News</h1>
+            <h5 class="page-subtitle">
+              <span>Pythonic news from the organisers.</span>
+            </h5>
+          </header>
+          <div class="masonry indexed-list row">
+              
+
+            <article class="masonry-item indexed-list__item col-12 col-md-6 col-lg-4">
+              <div class="indexed-list__wrap indexed-list__in-view">
+                <div class="indexed-list__wrap__copy">
+                  <span class="indexed-list__wrap__info sub-head-2">
+                    <span>Jan 9, 2019 by Organisers</span>
+                  </span>
+                  <h2 class="indexed-list__wrap__title">
+                    <a href="/blog/pyconde-pydata-berlin-2019/">PyConDE &amp; PyData Berlin 2019</a>
+                  </h2>
+                  <p class="indexed-list__wrap__link">
+                    <a href="/blog/pyconde-pydata-berlin-2019/">Read more</a>
+                  </p>
+                </div>
+              </div>
+            </article>
+
+              
+
+          </div>
+        </div>
+      </div>
     </div>
-</footer>
-<!-- END FOOTER -->
+  </section>
 
-<div class="back-to-top">
-    <a href="index.html#top"><i class="fa fa-chevron-up"></i></a>
-</div>
 
-<!-- JAVASCRIPT -->
-<script src="../assets/js/jquery-2.1.0.min.js?h=7e40e55d"></script>
-<script src="../assets/js/bootstrap.min.js?h=5814e91b"></script>
-<script src="../assets/js/jquery.scrollTo-1.4.3.1-min.js?h=2b7bb6c2"></script>
-<script src="../assets/js/jquery.localscroll-1.2.7-min.js?h=7b6589a6"></script>
-<script src="../assets/js/jquery.easing.min.js?h=c08b816a"></script>
-<script src="../assets/js/jquery.parallax-1.1.3.js?h=673006df"></script>
-<script src="../assets/js/google-map.js?h=752c1fc0"></script>
-<script src="../assets/js/imagesloaded.pkgd.js?h=fe505d9e"></script>
-<script src="../assets/js/jquery.isotope.js?h=cdde97ee"></script>
-<script src="../assets/js/wow.js?h=2d558fee"></script>
-<script src="../assets/js/jquery.flexslider-min.js?h=4e07d04e"></script>
-<script src="../assets/js/jquery.magnific-popup.min.js?h=9a45cea8"></script>
-<script src="../assets/js/loop.js?h=07df16a4"></script>
+    <footer class="site-footer" id="colophon" role="contentinfo">
+      <div class="widget-area" role="complementary">
+        <div class="container">
+
+          <div class="row in-view">
+            <div class="col-12 col-md-4 col-xl-2 offset-xl-1">
+              <div class="widget">
+                <!--
+                <div class="widget_socials">
+                  <div class="site-branding">
+                    <a href="index.html">
+                      <img src="/static/media/logo-neon.svg" alt="" width="232" height="144">
+                    </a>
+                  </div>
+                </div>
+                -->
+              </div>
+            </div>
+            <div class="col-12 col-md-4 col-xl-2">
+              <div class="widget">
+                <h2 class="widget-title">Contact</h2>
+                <div class="widget_nav_menu">
+                  <ul>
+                    <li>
+                      <a href="mailto:info@pycon.de">info@pycon.de</a>
+                    </li>
+                    <li>
+                      <a href="page.html">Be a sponsor</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 offset-md-4 col-xl-2 offset-xl-0">
+              <div class="widget">
+                <h2 class="widget-title">Follow us</h2>
+                <div class="widget_nav_menu">
+                  <ul>
+                    <li>
+                      <a href="https://twitter.com/pyconde" target="_blank">Twitter</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 col-xl-2">
+              <div class="widget">
+                <h2 class="widget-title">Legal terms</h2>
+                <div class="widget_nav_menu">
+                  <ul>
+                        
+                        <li><a href="/privacy-policy/">Terms &amp; Privacy Policy</a></li>
+                          
+                        <li><a href="/code-of-conduct/">Code of Conduct</a></li>
+                          
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="site-info">
+        <div class="container">
+          <div class="row in-view">
+            <div class="col-12 col-md-6 col-xl-5 offset-xl-1">
+              <span class="sub-head">
+                Build with
+                <i class="fa fa-heart color--secondary"></i> in Berlin</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="go-up" id="up">
+      <a class="go-up__btn" href="#page">
+        <span class="btn btn--primary btn--circle">
+          <i class="fa fa-chevron-up"></i>
+        </span>
+      </a>
+    </div>
+    <div class="site-sidenav" id="sidenav">
+      <div class="site-sidenav__overlay side-menu-swipeable"></div>
+      <div class="site-sidenav__elements side-menu-swipeable">
+        <!--
+        <div class="site-sidenav__branding">
+          <div class="site-branding">
+            <a href="index.html">
+              <img src="/static/media/logo-neon.svg" alt="" width="232" height="144">
+            </a>
+          </div>
+        </div>
+      -->
+        <div class="site-sidenav__nav">
+          <div class="site-sidenav__menu">
+            <nav class="sidenav-navigation" aria-label="Site Mobile Menu" role="navigation">
+              <div class="menu-sidenav-menu-container">
+                <ul class="menu" id="sidenav-menu">
+                   <!--
+                  <li class="menu-item-has-children">
+                    <a href="#">Program</a>
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="home-portfolio.html">Home &mdash; Portfolio</a>
+                      </li>
+                      <li>
+                        <a href="index.html">Home &mdash; Gooey</a>
+                      </li>
+                      <li>
+                        <a href="home-red.html">Home &mdash; Red</a>
+                      </li>
+                      <li>
+                        <a href="home-slider.html">Home &mdash; Slider</a>
+                      </li>
+                      <li>
+                        <a href="home-dark.html">Home &mdash; Dark</a>
+                      </li>
+                      <li>
+                        <a href="home-elegant.html">Home &mdash; Elegant</a>
+                      </li>
+                      <li>
+                        <a href="home-countdown.html">Home &mdash; Countdown</a>
+                      </li>
+                    </ul>
+                  </li>
+                  -->
+                  <li>
+                    <a href="venue.html">Venue</a>
+                  </li>
+                  <li class="menu-item-has-children">
+                    <a href="#">Pages</a>
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="about.html">About</a>
+                      </li>
+                      <li>
+                        <a href="services-one.html">Services &mdash; one</a>
+                      </li>
+                      <li>
+                        <a href="services-two.html">Services &mdash; two</a>
+                      </li>
+                      <li>
+                        <a href="speakers.html">Speakers</a>
+                      </li>
+                      <li>
+                        <a href="sponsors.html">Sponsors</a>
+                      </li>
+                      <li>
+                        <a href="schedule.html">Schedule</a>
+                      </li>
+                      <li>
+                        <a href="contact-us.html">Contact us</a>
+                      </li>
+                      <li>
+                        <a href="get-in-touch.html">Get in touch</a>
+                      </li>
+                      <li>
+                        <a href="careers.html">Careers</a>
+                      </li>
+                      <li>
+                        <a href="workshops.html">Workshops</a>
+                      </li>
+                      <li>
+                        <a href="venue.html">Venue</a>
+                      </li>
+                      <li>
+                        <a href="coming-soon.html">Coming Soon</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-item-has-children">
+                    <a href="#">Elements</a>
+                    <ul class="sub-menu">
+                      <li class="menu-item-has-children">
+                        <a href="#">Interactive</a>
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="interactive-speakers.html">Speakers</a>
+                          </li>
+                          <li>
+                            <a href="interactive-speakers-masonry.html">Speakers &mdash; Masonry</a>
+                          </li>
+                          <li>
+                            <a href="interactive-speakers-grid.html">Speakers &mdash; Grid</a>
+                          </li>
+                          <li>
+                            <a href="interactive-team-two-columns.html">Team &mdash; Two Columns</a>
+                          </li>
+                          <li>
+                            <a href="interactive-team-three-columns.html">Team &mdash; Three Columns</a>
+                          </li>
+                          <li>
+                            <a href="interactive-instructors.html">Instructors</a>
+                          </li>
+                          <li>
+                            <a href="interactive-call-to-action.html">Call to Action</a>
+                          </li>
+                          <li>
+                            <a href="interactive-features.html">Features</a>
+                          </li>
+                          <li>
+                            <a href="interactive-wildcard.html">Wildcard</a>
+                          </li>
+                          <li>
+                            <a href="interactive-schedule.html">Schedule</a>
+                          </li>
+                          <li>
+                            <a href="interactive-video-button.html">Video Button</a>
+                          </li>
+                          <li>
+                            <a href="interactive-testimonials.html">Testimonials</a>
+                          </li>
+                          <li>
+                            <a href="interactive-posts-list.html">Posts List</a>
+                          </li>
+                          <li>
+                            <a href="interactive-mailchimp.html">Mailchimp</a>
+                          </li>
+                          <li>
+                            <a href="interactive-links.html">Links</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item-has-children">
+                        <a href="#">Services</a>
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="services-list.html">Services &mdash; List</a>
+                          </li>
+                          <li>
+                            <a href="services-text.html">Services &mdash; Text</a>
+                          </li>
+                          <li>
+                            <a href="services-icon.html">Services &mdash; Icon</a>
+                          </li>
+                          <li>
+                            <a href="services-image.html">Services &mdash; Image</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item-has-children">
+                        <a href="#">Layouts</a>
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="layouts-accordion.html">Accordion</a>
+                          </li>
+                          <li>
+                            <a href="layouts-tabs.html">Tabs</a>
+                          </li>
+                          <li>
+                            <a href="layouts-buttons.html">Buttons</a>
+                          </li>
+                          <li>
+                            <a href="layouts-contact-form.html">Contact Form</a>
+                          </li>
+                          <li>
+                            <a href="layouts-sponsors.html">Sponsors (clients)</a>
+                          </li>
+                          <li>
+                            <a href="layouts-image-gallery.html">Image Gallery</a>
+                          </li>
+                          <li>
+                            <a href="layouts-carousel.html">Carousel</a>
+                          </li>
+                          <li>
+                            <a href="layouts-google-map.html">Google Map</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item-has-children">
+                        <a href="#">Infographics</a>
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="infographics-countdown.html">Countdown</a>
+                          </li>
+                          <li>
+                            <a href="infographics-pricing.html">Pricing Tables</a>
+                          </li>
+                          <li>
+                            <a href="/infographics-progress-bars">Progress Bars</a>
+                          </li>
+                          <li>
+                            <a href="/infographics-icon-lists">Icon Lists</a>
+                          </li>
+                          <li>
+                            <a href="infographics-alerts.html">Alerts</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item-has-children">
+                        <a href="#">Typography</a>
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="typography-headings.html">Headings</a>
+                          </li>
+                          <li>
+                            <a href="typography-columns.html">Columns</a>
+                          </li>
+                          <li>
+                            <a href="typography-blockquote.html">Blockquote</a>
+                          </li>
+                          <li>
+                            <a href="typography-dropcaps.html">Dropcaps</a>
+                          </li>
+                          <li>
+                            <a href="typography-highlights.html">Hightlights</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="blog.html">Blog</a>
+                  </li>
+                  <li>
+                    <a href="404.html">404</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div class="site-sidenav__cat hidden-md-up">
+          <a class="btn btn--secondary" href="https://ti.to/pycon-de/pyconde-pydata-2019">Buy ticket</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="application/javascript" src="/static/js/lib.js"></script>
+  <script defer async type="application/javascript" src="/static/js/app.js"></script>
 </body>
+
 </html>

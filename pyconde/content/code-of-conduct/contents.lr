@@ -1,109 +1,91 @@
-_model: page
----
 title: Code of Conduct
 ---
 body:
 
-<!-- MAIN CONTENT -->
-<div id="main-content" class="main-content">
+<div class="site-content" id="content">
+      <div class="content-area" id="primary">
+        <main class="site-main" id="main">
+          <section class="section section--singular">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 col-xl-10 offset-xl-1">
+                  <header class="page-header text-center">
+                    <h1 class="page-title">Code of Conduct</h1>
+                  </header>
+                  <div class="single-content">
 
-    <!--CODE OF CONDUCT-->
+                  <p>Python is a diverse community who maintains a reputation as a friendly, welcoming, inspiring and dynamic group. We’d like to keep it that way, which is why we ask all attendees, organizers and sponsors to follow this code of conduct (CoC).
+                  </p>
 
-<div id="conduct" class="section">
-    <div class="container">
-        <div class="section-heading">
-            <h2>Code of Conduct</h2>
-        </div>
-                <div class="row">
-                    <div class="col-lg-12">
+                  <p>If you have questions regarding this CoC, please contact the PyCon DE & PyData Berlin CoC WG. Your questions will only be seen by the members of the CoC workgroup and treated confidentially.
+                  </p>
 
-<p>
-Python is a diverse community who maintains a reputation as a friendly, welcoming, inspiring and dynamic group. We’d like to keep it that way, which is why we ask all attendees, organizers and sponsors to follow this code of conduct (CoC).
-</p><p>
+                    <h3>Be nice to each other</h3>
+                    <p>We trust that attendees will treat each other in a way that reflects the widely held view that diversity and friendliness are strengths of our community to be celebrated and fostered.</p>
+                    <p>Furthermore, we believe attendees have a right to:</p>
 
-If you have questions regarding this CoC, please contact the PyCon.DE CoC WG. Your questions will only be seen by the members of the CoC workgroup and treated confidentially.
-</p>
+                    <blockquote>
+                      <p>be treated with courtesy, dignity and respect</p>
+                    </blockquote>
+                    <blockquote>
+                      <p>be free from any form of discrimination, victimization, harassment or bullying</p>
+                    </blockquote>
+                    <blockquote>
+                      <p>enjoy an environment free from unwelcome behavior, inappropriate language and unsuitable imagery</p>
+                    </blockquote>
 
-</div>
-</div>
-                <div class="row">
-                    <div class="col-lg-4">
-<h3>
-Be nice to each other
-</h3>
-<p>
-We trust that attendees will treat each other in a way that reflects the widely held view that diversity and friendliness are strengths of our community to be celebrated and fostered.
-</p><p>
+                      <h3>Solving problems</h3>
+                    <p>We trust that attendees will treat each other in a way that reflects the widely held view that diversity and friendliness are strengths of our community to be celebrated and fostered.</p>
+                    <p>Furthermore, we believe attendees have a right to:</p>
 
-Furthermore, we believe attendees have a right to:
-</p>
-<ul>
-    <li>
-be treated with courtesy, dignity and respect;
-    </li>
-    <li>
-be free from any form of discrimination, victimization, harassment or bullying;
-    </li>
-    <li>
-enjoy an environment free from unwelcome behavior, inappropriate language and unsuitable imagery.
-    </li>
-</ul>
-</div>
-                    <div class="col-lg-4">
+                    <blockquote>
+                      <p>be treated with courtesy, dignity and respect</p>
+                    </blockquote>
+                    <blockquote>
+                      <p>be free from any form of discrimination, victimization, harassment or bullying</p>
+                    </blockquote>
+                    <blockquote>
+                      <p>enjoy an environment free from unwelcome behavior, inappropriate language and unsuitable imagery</p>
+                    </blockquote>
 
-<h3>Solving problems</h3>
-<p>
-If problems covered by this code of conduct arise, please contact one of PyCon.DE CoC contacts listed below or any other PyCon.DE organizer directly and in private. Any complaint will remain confidential, be taken seriously, investigated, and dealt with appropriately.
-</p>
-<p>
-The PyCon.DE organizers reserve the right to carry out any of the following actions relating to a complaint:
-</p>
-<ul>
-    <li>
-The person concerned may be told to stop/modify his/her behavior appropriately and a warning will be issued.
-    </li>
-    <li>
-The person concerned may be warned that enforcement action may be taken if the behavior continues.
-    </li>
-    <li>
-The person concerned may be asked to leave the venue immediately and/or may be prohibited from continuing to attend PyCon.DE (without refund).
-    </li>
-    <li>
-The incident may be reported to the local authorities.
-    </li>
-</ul>
-</div>
+                      <h3>Solving problems</h3>
+                    <p>If problems covered by this code of conduct arise, please contact one of PyCon DE & PyData Berlin CoC contacts listed below or any other PyCon DE & PyData Berlin organizer directly and in private. Any complaint will remain confidential, be taken seriously, investigated, and dealt with appropriately.</p>
 
-                    <div class="col-lg-4">
+                    <blockquote>
+                      <p>The person concerned may be told to stop/modify his/her behavior appropriately and a warning will be issued</p>
+                    </blockquote>
+                    <blockquote>
+                      <p>The person concerned may be warned that enforcement action may be taken if the behavior continues</p>
+                    </blockquote>
+                    <blockquote>
+                      <p>The person concerned may be asked to leave the venue immediately and/or may be prohibited from continuing to attend PyCon DE & PyData Berlin (without refund)</p>
+                    </blockquote>
+                    <blockquote>
+                      <p>The incident may be reported to the local authorities</p>
+                    </blockquote>
 
-<h3>Be professional and don’t spam</h3>
-<p>
-We consider Python a great setting to showcase the work of the community and would like to encourage networking and business related discussions, as well as keep the conference presentations meaningful and interesting for everyone.
-</p>
-<p>
-We therefore:
-</p>
-<ul>
-    <li>only allow company marketing or recruiting related activities at the conference in accordance with our sponsor agreements;</li>
-    <li>request presentations - outside the official recruiting sessions - to focus on Python related topics, not on recruitment.</li>
-</ul>
+                    <h3>Be professional and don’t spam</h3>
+                    <p>We consider Python a great setting to showcase the work of the community and would like to encourage networking and business related discussions, as well as keep the conference presentations meaningful and interesting for everyone.</p>
+
+                    <p>We therefore:</p>
 
 
-<p>
-The PyCon.DE Organizers will be happy to answer any questions related to marketing or recruiting activities.
-</p>
-</div>
-</div>
-                <div class="row">
-                    <div class="col-lg-12">
+                    <blockquote>
+                      <p>only allow company marketing or recruiting related activities at the conference in accordance with our sponsor agreements</p>
+                    </blockquote>
+                    <blockquote>
+                      <p>request presentations - outside the official recruiting sessions - to focus on Python related topics, not on recruitment</p>
+                    </blockquote>
 
+                    <p>The PyCon DE & PyData Berlin Organizers will be happy to answer any questions related to marketing or recruiting activities.</p>
 
-The Code of Conduct is based on the EuroPython 2016 Code of Conduct and released under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">creative commons license</a>.
+                    <p>The Code of Conduct is based on the EuroPython 2016 Code of Conduct and released under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">creative commons license</a>.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
 
-</div>
+        </main>
+      </div>
     </div>
-
-    </div>
-</div>
-    <!-- END CODE OF CONDUCT-->
-</div>

@@ -1,262 +1,549 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]>
-<html class="ie ie6" lang="en" class="no-js"> <![endif]-->
-<!--[if IE 7 ]>
-<html class="ie ie7" lang="en" class="no-js"> <![endif]-->
-<!--[if IE 8 ]>
-<html class="ie ie8" lang="en" class="no-js"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="en" class="no-js"> <!--<![endif]-->
+<html class="no-js" lang="en-US">
+
 <head>
-    <meta charset="utf-8">
-    <title>PyCon.DE 2018 Code of Conduct</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="PyCon.DE 2018 Karlsruhe - is the traditional meeting point for people who work and play with Python. Hosted in Germany and held in the English language, the conference welcomes Python professionals and enthusiasts from Central Europe and around the world.">
-    <meta name="author" content="PyCon.DE">
-    <meta name="google-site-verification" content="0ofirBPv5gp7EmRztqLq_d_l_lXbS0NkSMsowDLDMmk" />
-
-     <!-- ================= Twitter ================== -->
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@pyconde" />
-        <meta name="twitter:creator" content="@pyconde" />
-        <meta name="twitter:image" content="http://pycon.de/assets/img/og-Preview.jpg" />
-
-        <!-- ================= Open Graph ================== -->
-        <meta property="og:url" content="http://pycon.de" />
-        <meta property="og:title" content="PyConDE & PyData Karlsruhe" />
-        <meta property="og:description" content="German Python & PyData conference. October 24-28, Karlsruhe Germany. PyCon.DE is where Pythonistas in Germany can meet to learn about new and upcoming Python libraries, tools, software and data science. " />
-        <meta property="og:image" content="../assets/img/og-Preview.jpg?h=559f8056" />
-        <meta property="og:type" content="article" />
-
-
-    <!-- Styles -->
-    <link href="../assets/css/bootstrap.css?h=bc7d127a" rel="stylesheet">
-    <link href="../assets/css/main.css?h=80bb6102" rel="stylesheet">
-
-    <!-- Google Fonts -->
-    <link href='//fonts.googleapis.com/css?family=Dosis:300,400,500,600,700' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:400italic,300,400,700' rel='stylesheet'
-          type='text/css'>
-
-    <!-- IE 9 Fallback-->
-    <!--[if IE 9]>
-    <link href="" rel="stylesheet">
-    <![endif]-->
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements and IE Fallback-->
-    <!--[if lt IE 9]>
-    <script src=""></script>
-    <![endif]-->
-
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png?h=15ea1e3b">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png?h=88450737">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png?h=92748be5">
-    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png?h=9375b3f7">
-    <link rel="shortcut icon" href="../assets/ico/favicon.ico?h=80408e57">
-
-<!-- place this in your head tag -->
-<script src='https://js.tito.io/v1' async></script>
-
-
-<!-- for basic styles include a link to our stylesheet. -->
-<!-- fancy something more adventurous? Copy it and roll your own! -->
-<link rel="stylesheet" type="text/css" href='https://css.tito.io/v1.1' />
-<link rel="alternate" title="Atom Feed for PyConDE 2018" type="application/atom+xml" href="/feed.xml">
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="profile" href="http://gmpg.org/xfn/11">
+  <script>(function (html) { html.className = html.className.replace(/\bno-js\b/, 'js') })(document.documentElement)</script>
+  <title>PyCon DE & PyData Berlin 2019 | Code of Conduct</title>
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link rel="dns-prefetch" href="//s.w.org">
+  <link rel="icon" href="/static/favicons/favicon-neon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla:400,700i,700|Poppins:700">
+  <link rel="stylesheet" href="/static/css/font-awesome.css" type="text/css" media="all">
+  <link rel="stylesheet" href="/static/style.css" type="text/css" media="all">
+  <link rel="stylesheet" href="/static/scheme-neon.css" type="text/css" media="all">
+  <link rel="stylesheet" href="/static/style-custom.css" type="text/css" media="all">
 </head>
-<body id="top" class="fullscreen-image-background">
 
-<!-- NAVBAR -->
-<div class="navbar navbar-fixed-top navbar-light">
-    <div class="container">
-        <div class="navbar-header">
-
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
-                <span class="sr-only">Menu</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-
-            <a href="../"><img  class="navbar-brand" alt="" data-toggle="collapse" data-target="#main-nav"></a>
+<body class="home">
+  <div class="site" id="page">
+    <header class="site-header" id="masthead">
+      <div class="site-header__wrap">
+        <div class="container">
+          <div class="row in-view">
+            <div class="col-12 col-xl-10 offset-xl-1">
+              <div class="site-header__elements">
+                <div class="site-header__mobile hidden-lg-up">
+                  <button class="site-header__mobile--trigger side-menu-trigger">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                  </button>
+                </div>
+                <!--
+                <div class="site-header__branding">
+                  <div class="site-branding">
+                    <a href="/">
+                      <img src="/static/media/logo-neon.svg" alt="" width="232" height="144">
+                    </a>
+                  </div>
+                </div>
+                -->
+                <div class="site-header__nav hidden-md-down">
+                  <div class="site-header__menu">
+                    <nav class="main-navigation" aria-label="Site Menu" role="navigation">
+                      <div class="menu-top-menu-container">
+                        <ul class="menu" id="top-menu">
+                          <!--
+                          <li class="menu-item-has-children">
+                            <a href="#">Program</a>
+                            <ul class="sub-menu">
+                              <li>
+                                <a href="home-portfolio.html">
+                                  <span>Home &mdash; Portfolio</span>
+                                  <span class="sub-head-2">With vector patterns</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="index.html">
+                                  <span>Home &mdash; Gooey</span>
+                                  <span class="sub-head-2">With vector patterns</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="home-red.html">
+                                  <span>
+                                    Home &mdash;
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 24">
+                                      <rect width="30" height="24" fill="none" />
+                                      <path d="M7,10.9a9.48,9.48,0,0,1,.4-3A9.65,9.65,0,0,1,8.6,5.4a10,10,0,0,1,.9-1l.2.8A5.8,5.8,0,0,0,8.5,7.3a8.29,8.29,0,0,0-.4,3.2V11a13.76,13.76,0,0,0,.6,3.8,3.83,3.83,0,0,0,1.1,1.9l-.2.8a3.26,3.26,0,0,1-1.1-1.2A10,10,0,0,1,7,10.9Zm6.6-2h-.5a1,1,0,0,0-1.1.9v4.8H10.9V7.9h1v.6a1.34,1.34,0,0,1,1.3-.8c.1,0,.4,0,.4.1ZM17,14.7a2,2,0,0,1-1.9-.8,3.52,3.52,0,0,1-.7-2.1v-.9A4.27,4.27,0,0,1,15,8.5a2.27,2.27,0,0,1,1.8-.9,2,2,0,0,1,1.8.8,3.59,3.59,0,0,1,.6,2.2v.8H15.6v.1c0,.8.1,1.2.4,1.5s.6.5,1.1.5a2.48,2.48,0,0,0,.9-.1,1.2,1.2,0,0,0,.8-.4l.5.6A3,3,0,0,1,17,14.7Zm-.1-5.9a1,1,0,0,0-1,.5,2.12,2.12,0,0,0-.4,1.4h2.6v-.1a2,2,0,0,0-.4-1.4C17.6,8.9,17.3,8.8,16.9,8.8Zm3.3,2.1a4.27,4.27,0,0,1,.6-2.4,1.94,1.94,0,0,1,1.6-.8,1.9,1.9,0,0,1,1.5.8V5.2H25v9.4H24v-.8a2.06,2.06,0,0,1-1.6.9,1.82,1.82,0,0,1-1.6-.8,3.52,3.52,0,0,1-.6-2.3Zm1.2.7a2.36,2.36,0,0,0,.4,1.6,1.37,1.37,0,0,0,2.3-.3V9.6a1.21,1.21,0,0,0-1.2-.8c-.5,0-.9.1-1.1.5a2.54,2.54,0,0,0-.4,1.6Zm7.6-.5A9.88,9.88,0,0,1,27.8,16a5.71,5.71,0,0,1-1.4,1.6l-.2-.8a5.07,5.07,0,0,0,1.2-2.2,11.59,11.59,0,0,0,.5-3.4V11a10.7,10.7,0,0,0-.7-4.1,4.35,4.35,0,0,0-1-1.6l.2-.8A2.69,2.69,0,0,1,27.6,6,8.5,8.5,0,0,1,29,11.1Z"
+                                        fill="#ff6565" />
+                                    </svg>
+                                  </span>
+                                  <span class="sub-head-2">With raster patterns</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="home-slider.html">
+                                  <span>Home &mdash; Slider</span>
+                                  <span class="sub-head-2">With full page slider</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="home-dark.html">
+                                  <span>Home &mdash; Dark</span>
+                                  <span class="sub-head-2">With raster patterns</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="home-elegant.html">
+                                  <span>Home &mdash; Elegant</span>
+                                  <span class="sub-head-2">With vector patterns</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="home-countdown.html">
+                                  <span>Home &mdash; Countdown</span>
+                                  <span class="sub-head-2">With Countdown timer</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </li>
+                          -->
+                          
+                          <li><a href="/">Home</a></li>
+                          
+                          <li><a href="/blog/">Blog</a></li>
+                          
+                          <li><a href="/code-of-conduct/">Code of Conduct</a></li>
+                          
+                          <li><a href="/team/">Team</a></li>
+                          
+                          <li><a href="/venue/">Venue</a></li>
+                          
+                        </ul>
+                      </div>
+                    </nav>
+                  </div>
+                </div>
+                <div class="site-header__cta hidden-sm-down">
+                  <a class="btn btn--secondary" href="https://ti.to/pycon-de/pyconde-pydata-2019">Buy ticket</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <nav class="navbar-collapse collapse" id="main-nav" role="navigation">
-            <ul class="nav navbar-nav navbar-right">
+      </div>
+    </header>
+    
+  <div class="site-content" id="content">
+      <div class="content-area" id="primary">
+        <main class="site-main" id="main">
+          <section class="section section--singular">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 col-xl-10 offset-xl-1">
+                  <header class="page-header text-center">
+                    <h1 class="page-title">Code of Conduct</h1>
+                  </header>
+                  <div class="single-content">
 
-  
+                  <p>Python is a diverse community who maintains a reputation as a friendly, welcoming, inspiring and dynamic group. We’d like to keep it that way, which is why we ask all attendees, organizers and sponsors to follow this code of conduct (CoC).
+                  </p>
+
+                  <p>If you have questions regarding this CoC, please contact the PyCon DE & PyData Berlin CoC WG. Your questions will only be seen by the members of the CoC workgroup and treated confidentially.
+                  </p>
+
+                    <h3>Be nice to each other</h3>
+                    <p>We trust that attendees will treat each other in a way that reflects the widely held view that diversity and friendliness are strengths of our community to be celebrated and fostered.</p>
+                    <p>Furthermore, we believe attendees have a right to:</p>
+
+                    <blockquote>
+                      <p>be treated with courtesy, dignity and respect</p>
+                    </blockquote>
+                    <blockquote>
+                      <p>be free from any form of discrimination, victimization, harassment or bullying</p>
+                    </blockquote>
+                    <blockquote>
+                      <p>enjoy an environment free from unwelcome behavior, inappropriate language and unsuitable imagery</p>
+                    </blockquote>
+
+                      <h3>Solving problems</h3>
+                    <p>We trust that attendees will treat each other in a way that reflects the widely held view that diversity and friendliness are strengths of our community to be celebrated and fostered.</p>
+                    <p>Furthermore, we believe attendees have a right to:</p>
+
+                    <blockquote>
+                      <p>be treated with courtesy, dignity and respect</p>
+                    </blockquote>
+                    <blockquote>
+                      <p>be free from any form of discrimination, victimization, harassment or bullying</p>
+                    </blockquote>
+                    <blockquote>
+                      <p>enjoy an environment free from unwelcome behavior, inappropriate language and unsuitable imagery</p>
+                    </blockquote>
+
+                      <h3>Solving problems</h3>
+                    <p>If problems covered by this code of conduct arise, please contact one of PyCon DE & PyData Berlin CoC contacts listed below or any other PyCon DE & PyData Berlin organizer directly and in private. Any complaint will remain confidential, be taken seriously, investigated, and dealt with appropriately.</p>
+
+                    <blockquote>
+                      <p>The person concerned may be told to stop/modify his/her behavior appropriately and a warning will be issued</p>
+                    </blockquote>
+                    <blockquote>
+                      <p>The person concerned may be warned that enforcement action may be taken if the behavior continues</p>
+                    </blockquote>
+                    <blockquote>
+                      <p>The person concerned may be asked to leave the venue immediately and/or may be prohibited from continuing to attend PyCon DE & PyData Berlin (without refund)</p>
+                    </blockquote>
+                    <blockquote>
+                      <p>The incident may be reported to the local authorities</p>
+                    </blockquote>
+
+                    <h3>Be professional and don’t spam</h3>
+                    <p>We consider Python a great setting to showcase the work of the community and would like to encourage networking and business related discussions, as well as keep the conference presentations meaningful and interesting for everyone.</p>
+
+                    <p>We therefore:</p>
 
 
-  <li><a href="../blog/">NEWS</a></li>
+                    <blockquote>
+                      <p>only allow company marketing or recruiting related activities at the conference in accordance with our sponsor agreements</p>
+                    </blockquote>
+                    <blockquote>
+                      <p>request presentations - outside the official recruiting sessions - to focus on Python related topics, not on recruitment</p>
+                    </blockquote>
 
-  <li><a href="../tickets/">TICKETS</a></li>
+                    <p>The PyCon DE & PyData Berlin Organizers will be happy to answer any questions related to marketing or recruiting activities.</p>
 
-  <li><a href="../schedule/">SCHEDULE</a></li>
+                    <p>The Code of Conduct is based on the EuroPython 2016 Code of Conduct and released under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">creative commons license</a>.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
 
-  <li><a href="../venue/">VENUE</a></li>
-
-  <li class="active"><a href="../code-of-conduct/">CODE OF CONDUCT</a></li>
-
-  <li><a href="../sponsoring/">SPONSORING</a></li>
-
-  <li><a href="../team/">TEAM</a></li>
-
-  <li><a href="../privacy-policy/">PRIVACY POLICY</a></li>
-
-
-            </ul>
-        </nav>
+        </main>
+      </div>
     </div>
-</div>
-<!-- END NAVBAR -->
 
-<!-- BODY CONTENT -->
+    <footer class="site-footer" id="colophon" role="contentinfo">
+      <div class="widget-area" role="complementary">
+        <div class="container">
 
-
-
-  <!-- MAIN CONTENT -->
-<div id="main-content" class="main-content">
-
-    <!--CODE OF CONDUCT-->
-
-<div id="conduct" class="section">
-    <div class="container">
-        <div class="section-heading">
-            <h2>Code of Conduct</h2>
+          <div class="row in-view">
+            <div class="col-12 col-md-4 col-xl-2 offset-xl-1">
+              <div class="widget">
+                <!--
+                <div class="widget_socials">
+                  <div class="site-branding">
+                    <a href="index.html">
+                      <img src="/static/media/logo-neon.svg" alt="" width="232" height="144">
+                    </a>
+                  </div>
+                </div>
+                -->
+              </div>
+            </div>
+            <div class="col-12 col-md-4 col-xl-2">
+              <div class="widget">
+                <h2 class="widget-title">Contact</h2>
+                <div class="widget_nav_menu">
+                  <ul>
+                    <li>
+                      <a href="mailto:info@pycon.de">info@pycon.de</a>
+                    </li>
+                    <li>
+                      <a href="page.html">Be a sponsor</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 offset-md-4 col-xl-2 offset-xl-0">
+              <div class="widget">
+                <h2 class="widget-title">Follow us</h2>
+                <div class="widget_nav_menu">
+                  <ul>
+                    <li>
+                      <a href="https://twitter.com/pyconde" target="_blank">Twitter</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 col-xl-2">
+              <div class="widget">
+                <h2 class="widget-title">Legal terms</h2>
+                <div class="widget_nav_menu">
+                  <ul>
+                        
+                        <li><a href="/privacy-policy/">Terms &amp; Privacy Policy</a></li>
+                          
+                        <li><a href="/code-of-conduct/">Code of Conduct</a></li>
+                          
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-                <div class="row">
-                    <div class="col-lg-12">
-
-<p>
-Python is a diverse community who maintains a reputation as a friendly, welcoming, inspiring and dynamic group. We’d like to keep it that way, which is why we ask all attendees, organizers and sponsors to follow this code of conduct (CoC).
-</p><p>
-
-If you have questions regarding this CoC, please contact the PyCon.DE CoC WG. Your questions will only be seen by the members of the CoC workgroup and treated confidentially.
-</p>
-
-</div>
-</div>
-                <div class="row">
-                    <div class="col-lg-4">
-<h3>
-Be nice to each other
-</h3>
-<p>
-We trust that attendees will treat each other in a way that reflects the widely held view that diversity and friendliness are strengths of our community to be celebrated and fostered.
-</p><p>
-
-Furthermore, we believe attendees have a right to:
-</p>
-<ul>
-    <li>
-be treated with courtesy, dignity and respect;
-    </li>
-    <li>
-be free from any form of discrimination, victimization, harassment or bullying;
-    </li>
-    <li>
-enjoy an environment free from unwelcome behavior, inappropriate language and unsuitable imagery.
-    </li>
-</ul>
-</div>
-                    <div class="col-lg-4">
-
-<h3>Solving problems</h3>
-<p>
-If problems covered by this code of conduct arise, please contact one of PyCon.DE CoC contacts listed below or any other PyCon.DE organizer directly and in private. Any complaint will remain confidential, be taken seriously, investigated, and dealt with appropriately.
-</p>
-<p>
-The PyCon.DE organizers reserve the right to carry out any of the following actions relating to a complaint:
-</p>
-<ul>
-    <li>
-The person concerned may be told to stop/modify his/her behavior appropriately and a warning will be issued.
-    </li>
-    <li>
-The person concerned may be warned that enforcement action may be taken if the behavior continues.
-    </li>
-    <li>
-The person concerned may be asked to leave the venue immediately and/or may be prohibited from continuing to attend PyCon.DE (without refund).
-    </li>
-    <li>
-The incident may be reported to the local authorities.
-    </li>
-</ul>
-</div>
-
-                    <div class="col-lg-4">
-
-<h3>Be professional and don’t spam</h3>
-<p>
-We consider Python a great setting to showcase the work of the community and would like to encourage networking and business related discussions, as well as keep the conference presentations meaningful and interesting for everyone.
-</p>
-<p>
-We therefore:
-</p>
-<ul>
-    <li>only allow company marketing or recruiting related activities at the conference in accordance with our sponsor agreements;</li>
-    <li>request presentations - outside the official recruiting sessions - to focus on Python related topics, not on recruitment.</li>
-</ul>
-
-
-<p>
-The PyCon.DE Organizers will be happy to answer any questions related to marketing or recruiting activities.
-</p>
-</div>
-</div>
-                <div class="row">
-                    <div class="col-lg-12">
-
-
-The Code of Conduct is based on the EuroPython 2016 Code of Conduct and released under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">creative commons license</a>.
-
-</div>
+      </div>
+      <div class="site-info">
+        <div class="container">
+          <div class="row in-view">
+            <div class="col-12 col-md-6 col-xl-5 offset-xl-1">
+              <span class="sub-head">
+                Build with
+                <i class="fa fa-heart color--secondary"></i> in Berlin</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="go-up" id="up">
+      <a class="go-up__btn" href="#page">
+        <span class="btn btn--primary btn--circle">
+          <i class="fa fa-chevron-up"></i>
+        </span>
+      </a>
     </div>
-
+    <div class="site-sidenav" id="sidenav">
+      <div class="site-sidenav__overlay side-menu-swipeable"></div>
+      <div class="site-sidenav__elements side-menu-swipeable">
+        <!--
+        <div class="site-sidenav__branding">
+          <div class="site-branding">
+            <a href="index.html">
+              <img src="/static/media/logo-neon.svg" alt="" width="232" height="144">
+            </a>
+          </div>
+        </div>
+      -->
+        <div class="site-sidenav__nav">
+          <div class="site-sidenav__menu">
+            <nav class="sidenav-navigation" aria-label="Site Mobile Menu" role="navigation">
+              <div class="menu-sidenav-menu-container">
+                <ul class="menu" id="sidenav-menu">
+                   <!--
+                  <li class="menu-item-has-children">
+                    <a href="#">Program</a>
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="home-portfolio.html">Home &mdash; Portfolio</a>
+                      </li>
+                      <li>
+                        <a href="index.html">Home &mdash; Gooey</a>
+                      </li>
+                      <li>
+                        <a href="home-red.html">Home &mdash; Red</a>
+                      </li>
+                      <li>
+                        <a href="home-slider.html">Home &mdash; Slider</a>
+                      </li>
+                      <li>
+                        <a href="home-dark.html">Home &mdash; Dark</a>
+                      </li>
+                      <li>
+                        <a href="home-elegant.html">Home &mdash; Elegant</a>
+                      </li>
+                      <li>
+                        <a href="home-countdown.html">Home &mdash; Countdown</a>
+                      </li>
+                    </ul>
+                  </li>
+                  -->
+                  <li>
+                    <a href="venue.html">Venue</a>
+                  </li>
+                  <li class="menu-item-has-children">
+                    <a href="#">Pages</a>
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="about.html">About</a>
+                      </li>
+                      <li>
+                        <a href="services-one.html">Services &mdash; one</a>
+                      </li>
+                      <li>
+                        <a href="services-two.html">Services &mdash; two</a>
+                      </li>
+                      <li>
+                        <a href="speakers.html">Speakers</a>
+                      </li>
+                      <li>
+                        <a href="sponsors.html">Sponsors</a>
+                      </li>
+                      <li>
+                        <a href="schedule.html">Schedule</a>
+                      </li>
+                      <li>
+                        <a href="contact-us.html">Contact us</a>
+                      </li>
+                      <li>
+                        <a href="get-in-touch.html">Get in touch</a>
+                      </li>
+                      <li>
+                        <a href="careers.html">Careers</a>
+                      </li>
+                      <li>
+                        <a href="workshops.html">Workshops</a>
+                      </li>
+                      <li>
+                        <a href="venue.html">Venue</a>
+                      </li>
+                      <li>
+                        <a href="coming-soon.html">Coming Soon</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-item-has-children">
+                    <a href="#">Elements</a>
+                    <ul class="sub-menu">
+                      <li class="menu-item-has-children">
+                        <a href="#">Interactive</a>
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="interactive-speakers.html">Speakers</a>
+                          </li>
+                          <li>
+                            <a href="interactive-speakers-masonry.html">Speakers &mdash; Masonry</a>
+                          </li>
+                          <li>
+                            <a href="interactive-speakers-grid.html">Speakers &mdash; Grid</a>
+                          </li>
+                          <li>
+                            <a href="interactive-team-two-columns.html">Team &mdash; Two Columns</a>
+                          </li>
+                          <li>
+                            <a href="interactive-team-three-columns.html">Team &mdash; Three Columns</a>
+                          </li>
+                          <li>
+                            <a href="interactive-instructors.html">Instructors</a>
+                          </li>
+                          <li>
+                            <a href="interactive-call-to-action.html">Call to Action</a>
+                          </li>
+                          <li>
+                            <a href="interactive-features.html">Features</a>
+                          </li>
+                          <li>
+                            <a href="interactive-wildcard.html">Wildcard</a>
+                          </li>
+                          <li>
+                            <a href="interactive-schedule.html">Schedule</a>
+                          </li>
+                          <li>
+                            <a href="interactive-video-button.html">Video Button</a>
+                          </li>
+                          <li>
+                            <a href="interactive-testimonials.html">Testimonials</a>
+                          </li>
+                          <li>
+                            <a href="interactive-posts-list.html">Posts List</a>
+                          </li>
+                          <li>
+                            <a href="interactive-mailchimp.html">Mailchimp</a>
+                          </li>
+                          <li>
+                            <a href="interactive-links.html">Links</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item-has-children">
+                        <a href="#">Services</a>
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="services-list.html">Services &mdash; List</a>
+                          </li>
+                          <li>
+                            <a href="services-text.html">Services &mdash; Text</a>
+                          </li>
+                          <li>
+                            <a href="services-icon.html">Services &mdash; Icon</a>
+                          </li>
+                          <li>
+                            <a href="services-image.html">Services &mdash; Image</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item-has-children">
+                        <a href="#">Layouts</a>
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="layouts-accordion.html">Accordion</a>
+                          </li>
+                          <li>
+                            <a href="layouts-tabs.html">Tabs</a>
+                          </li>
+                          <li>
+                            <a href="layouts-buttons.html">Buttons</a>
+                          </li>
+                          <li>
+                            <a href="layouts-contact-form.html">Contact Form</a>
+                          </li>
+                          <li>
+                            <a href="layouts-sponsors.html">Sponsors (clients)</a>
+                          </li>
+                          <li>
+                            <a href="layouts-image-gallery.html">Image Gallery</a>
+                          </li>
+                          <li>
+                            <a href="layouts-carousel.html">Carousel</a>
+                          </li>
+                          <li>
+                            <a href="layouts-google-map.html">Google Map</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item-has-children">
+                        <a href="#">Infographics</a>
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="infographics-countdown.html">Countdown</a>
+                          </li>
+                          <li>
+                            <a href="infographics-pricing.html">Pricing Tables</a>
+                          </li>
+                          <li>
+                            <a href="/infographics-progress-bars">Progress Bars</a>
+                          </li>
+                          <li>
+                            <a href="/infographics-icon-lists">Icon Lists</a>
+                          </li>
+                          <li>
+                            <a href="infographics-alerts.html">Alerts</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item-has-children">
+                        <a href="#">Typography</a>
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="typography-headings.html">Headings</a>
+                          </li>
+                          <li>
+                            <a href="typography-columns.html">Columns</a>
+                          </li>
+                          <li>
+                            <a href="typography-blockquote.html">Blockquote</a>
+                          </li>
+                          <li>
+                            <a href="typography-dropcaps.html">Dropcaps</a>
+                          </li>
+                          <li>
+                            <a href="typography-highlights.html">Hightlights</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="blog.html">Blog</a>
+                  </li>
+                  <li>
+                    <a href="404.html">404</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div class="site-sidenav__cat hidden-md-up">
+          <a class="btn btn--secondary" href="https://ti.to/pycon-de/pyconde-pydata-2019">Buy ticket</a>
+        </div>
+      </div>
     </div>
-</div>
-    <!-- END CODE OF CONDUCT-->
-</div>
-
-<!-- END BODY CONTENT -->
-
-<!-- FOOTER -->
-<footer id="footer" class="section ">
-    <div class="container">
-        <p class="copyright pull-left">&copy; 2018 | PyCON DE 2018 | <a
-                href="mailto:info@pycon.de">info@pycon.de </a>
-            <br/>
-            <span class="small">Legal notice: This website is run by <a href="https://python-verband.org">Python Software Verband e.V.</a>, Forsterstraße 29, 06112 Halle (Saale)</span>
-        </p>
-        <ul class="list-inline pull-right social-icon">
-            <li><a href="https://github.com/pysv" data-toggle="tooltip" data-placement="top" title="Github"><i
-                    class="fa fa-github"></i></a></li>
-        </ul>
-        <ul class="list-inline pull-right social-icon">
-            <li><a href="https://twitter.com/pyconde" data-toggle="tooltip" data-placement="top" title="Twitter"><i
-                    class="fa fa-twitter"></i></a></li>
-        </ul>
-    </div>
-</footer>
-<!-- END FOOTER -->
-
-<div class="back-to-top">
-    <a href="index.html#top"><i class="fa fa-chevron-up"></i></a>
-</div>
-
-<!-- JAVASCRIPT -->
-<script src="../assets/js/jquery-2.1.0.min.js?h=7e40e55d"></script>
-<script src="../assets/js/bootstrap.min.js?h=5814e91b"></script>
-<script src="../assets/js/jquery.scrollTo-1.4.3.1-min.js?h=2b7bb6c2"></script>
-<script src="../assets/js/jquery.localscroll-1.2.7-min.js?h=7b6589a6"></script>
-<script src="../assets/js/jquery.easing.min.js?h=c08b816a"></script>
-<script src="../assets/js/jquery.parallax-1.1.3.js?h=673006df"></script>
-<script src="../assets/js/google-map.js?h=752c1fc0"></script>
-<script src="../assets/js/imagesloaded.pkgd.js?h=fe505d9e"></script>
-<script src="../assets/js/jquery.isotope.js?h=cdde97ee"></script>
-<script src="../assets/js/wow.js?h=2d558fee"></script>
-<script src="../assets/js/jquery.flexslider-min.js?h=4e07d04e"></script>
-<script src="../assets/js/jquery.magnific-popup.min.js?h=9a45cea8"></script>
-<script src="../assets/js/loop.js?h=07df16a4"></script>
+  </div>
+  <script type="application/javascript" src="/static/js/lib.js"></script>
+  <script defer async type="application/javascript" src="/static/js/app.js"></script>
 </body>
+
 </html>
