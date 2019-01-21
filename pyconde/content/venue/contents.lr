@@ -5,24 +5,32 @@ body:
 <div class="site-content" id="content">
         <div class="content-area" id="primary">
           <main class="site-main" id="main">
-            <section class="section section--fit">
+            <section class="section section--singular">
               <div class="container">
                 <div class="row">
                   <div class="col-12 col-xl-10 offset-xl-1">
-                    <div class="venue">
-                      <div class="map map--fullwidth">
-                        <div class="google-map" data-key="AIzaSyDqFMk0whDS45FD3CMfrzo2xghUqcXkDew" data-location="{&quot;lat&quot;:52.5171006,&quot;lng&quot;:13.449026}" data-address="" data-marker="true" data-icon="{&quot;url&quot;:&quot;/static/media/map-marker--primary.svg&quot;,&quot;size&quot;:{&quot;width&quot;:96,&quot;height&quot;:96}}" data-theme="silver" data-zoom="16" style="height: 480px"></div>
-                      </div>
-                      <div class="row">
-                        <div class="col-12 col-lg-6">
-                          <div class="in-view">
-                            <h1 class="in-view__child in-view__child--fadein">Kosmos</h1>
+                    <header class="page-header">
+                      <h1 class="page-title">Kosmos</h1>
+                    </header>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="section padding-top-0">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 col-xl-10 offset-xl-1">
+                    <div class="service-image service-image--wide">
+                      <div class="row align-items-center">
+                        <div class="service-image__thumb col-12 col-lg-6">
+                          <figure class="lazyload--el lazyload" data-bg="/static/media/venue/kosmos.png"></figure>
+                        </div>
+                        <div class="service-image__copy col-12 col-lg-6 in-view">
                             <p class="sub-head dashed in-view__child in-view__child--fadein">
                                Karl-Marx-Allee 131a<br>Berlin, 10243</p>
                             <p class="indent in-view__child in-view__child--fadein">
                             The KOSMOS was opened in 1961 as a prestige project of the GDR, as the most modern film theatre in the country.</p>
                             <p class="indent padding-top in-view__child in-view__child--fadein"><a class="btn btn--primary btn--round" href="https://www.kosmos-berlin.de/">Check the venue</a></p>
-                          </div>
                         </div>
                       </div>
                     </div>
@@ -30,6 +38,8 @@ body:
                 </div>
               </div>
             </section>
+
+
           </main>
         </div>
       </div>
