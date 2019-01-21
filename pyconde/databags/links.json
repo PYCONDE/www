@@ -1,0 +1,16 @@
+{
+
+    "product": {
+        "/": "Home",
+        "/blog/": "Blog",
+        "/code-of-conduct/": "Code of Conduct",
+        "/team/": "Team",
+        "/venue/": "Venue"
+    },
+
+    "legal": {
+        "/privacy-policy/": "Terms & Privacy Policy",
+        "/code-of-conduct/": "Code of Conduct"
+    }
+
+}

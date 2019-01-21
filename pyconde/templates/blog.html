@@ -3,69 +3,42 @@
 {% from "macros/pagination.html" import render_pagination %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-<!-- MAIN CONTENT -->
-<div id="main-content" class="main-content">
-    <div class="container alert alert-dark">
-			<div class="section-heading">
-				<h3>
-					Stay in Touch
-				</h3>
-			</div>
-			<div id="tweet"></div>
-			<div class="row">
-				<div class="col-lg-4">
-					<h3>
-						Twitter @PyConDE
-					</h3>
-					<div class="twitter-icon">
-						<p>
-							Follow us on for the latest updates!<a href="https://twitter.com/pyconde" data-toggle="tooltip" data-placement="left" title="Follow us on Twitter"></a><br>
-							<a href="https://twitter.com/search?q=%23PyConDE">#PyConDE</a>
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<h3>
-						Telegram
-					</h3>
-					<p>
-						General announcements in the<br>
-						<a href="https://t.me/pyconde">PyCon.DE telegram group</a>.
-					</p>
-				</div>
-				<div class="col-lg-4">
-					<h3>
-						Allhands Group
-					</h3>
-					<p>
-						Want to help organizing the PyCon.DE 2018 &amp; PyData Karlsruhe, then joint the<br>
-						<a href="https://t.me/joinchat/AXbpxRJMZqLvTeM8tGsp6Q">PyCon.DE allhands telegram group</a>.
-					</p>
-				</div>
-			</div>
-		</div>
 
+  <section class="section section--singular background-color--code-background">
+    <div class="container">
+      <div class="row in-view">
+        <div class="col-12 col-xl-10 offset-xl-1">
+          <header class="page-header in-view__child in-view__child--fadein">
+            <h1 class="page-title">Blog &amp; News</h1>
+            <h5 class="page-subtitle">
+              <span>Pythonic news from the organisers.</span>
+            </h5>
+          </header>
+          <div class="masonry indexed-list row">
+              {% for post in this.pagination.items %}
 
-    <div class="section">
-        <div class="container">
-            <div class="section-heading">
-                <h2>Blog <a href="http://de.pycon.org/feed.xml"><img src="../assets/img/feed.png" height="45px" width="45px"></a></h2>
-            </div>
-            <div class="section-content">
-            <!-- place this where you want the widget to appear -->
-            <div class="row blog-content">
-  {% for child in this.pagination.items %}
-    {{ render_blog_post(child, from_index=true) }}
-    <hr>
-  {% endfor %}
+            <article class="masonry-item indexed-list__item col-12 col-md-6 col-lg-4">
+              <div class="indexed-list__wrap indexed-list__in-view">
+                <div class="indexed-list__wrap__copy">
+                  <span class="indexed-list__wrap__info sub-head-2">
+                    <span>{{ post.pub_date|dateformat }} by {{ post.author }}</span>
+                  </span>
+                  <h2 class="indexed-list__wrap__title">
+                    <a href="{{ post|url }}">{{ post.title }}</a>
+                  </h2>
+                  <p class="indexed-list__wrap__link">
+                    <a href="{{ post|url }}">Read more</a>
+                  </p>
+                </div>
+              </div>
+            </article>
 
-  {{ render_pagination(this.pagination) }}
+              {% endfor %}
 
-            </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-</div>
-<!-- END MAIN CONTENT -->
-    
+  </section>
+
 {% endblock %}

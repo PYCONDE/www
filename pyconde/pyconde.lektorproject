@@ -1,6 +1,0 @@
-[project]
-name = pyconde
-url = http://de.pycon.org/
-
-[packages]
-lektor-atom = 0.2

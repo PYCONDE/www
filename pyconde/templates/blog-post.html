@@ -2,20 +2,28 @@
 {% from "macros/blog.html" import render_blog_post %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-<!-- MAIN CONTENT -->
-<div id="main-content" class="main-content">
-
-    <div class="section">
-        <div class="container">
-            <div class="section-content">
-            <!-- place this where you want the widget to appear -->
-            <div class="row blog-content">
-                {{ render_blog_post(this) }}
-
+<div class="site-content" id="content">
+    <div class="content-area" id="primary">
+      <main class="site-main" id="main">
+        <section class="section section--singular">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-xl-10 offset-xl-1">
+                <header class="page-header text-center">
+                  <h1 class="page-title">{{ this.title }}</h1>
+                  <span class="sub-head-2">
+                    <span>{{ this.pub_date|dateformat }} by {{ this.author }}</span>
+                  </span>
+                </header>
+                <div class="single-content">
+                    {{ this.body }}
+                </div>
+              </div>
             </div>
-        </div>
-    </div>
-</div>
-<!-- END MAIN CONTENT -->
+          </div>
+        </section>
 
+      </main>
+    </div>
+  </div>
 {% endblock %}
