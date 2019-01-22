@@ -24,6 +24,9 @@
    <meta name="twitter:site" content="@pyconde">
    <meta name="twitter:title" content="{{ this.title }}">
    <meta name="twitter:description" content="{{ this.description }}">
+   {% if this.twitter_image %}
+   <meta name="twitter:image" content="{{ url_to(this.twitter_image, external=true) }}">
+   {% endif %}
 </head>
 
 <body class="home">
