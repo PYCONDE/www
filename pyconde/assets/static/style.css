@@ -2813,7 +2813,7 @@ a.dashed {
 }
 
 .reveal--secondary:before {
-  background-color: #ff00bf;
+  background-color: #1ccad8;
 }
 
 .reveal__background {
@@ -3191,7 +3191,7 @@ p.clipcard__title {
 }
 
 .alert--secondary {
-  background-color: #ff00bf;
+  background-color: #1ccad8;
 }
 
 .alert a {
@@ -3996,7 +3996,7 @@ p.clipcard__title {
 }
 
 .cta--secondary:before {
-  background-color: #ff00bf;
+  background-color: #1ccad8;
 }
 
 .cta__background {
@@ -4707,7 +4707,7 @@ p.clipcard__title {
   left: -10px;
   top: 50%;
   margin-top: -2px;
-  border: 2px solid #ff00bf;
+  border: 2px solid #1ccad8;
   border-radius: 2px;
   -webkit-transition: 0.6s opacity, -webkit-transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: 0.6s opacity, -webkit-transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -5244,7 +5244,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #ff00bf;
+  color: #1ccad8;
   outline: 0;
 }
 
@@ -5368,7 +5368,7 @@ mark {
 
 ins {
   color: #fff;
-  background: #ff00bf;
+  background: #1ccad8;
 }
 
 big {
@@ -5551,7 +5551,7 @@ div.mce_inline_error {
 
 .btn--secondary, .btn--secondary:hover, .btn--secondary:focus, .btn--secondary:active {
   color: #fff;
-  background-color: #ff00bf;
+  background-color: #1ccad8;
 }
 
 .btn--large {
@@ -5984,11 +5984,11 @@ div.mce_inline_error {
 }
 
 .color--secondary {
-  color: #ff00bf;
+  color: #1ccad8;
 }
 
 .background-color--secondary {
-  background-color: #ff00bf;
+  background-color: #1ccad8;
 }
 
 .color--tertiary {
@@ -6008,11 +6008,11 @@ div.mce_inline_error {
 }
 
 .color--link-hover {
-  color: #ff00bf;
+  color: #1ccad8;
 }
 
 .background-color--link-hover {
-  background-color: #ff00bf;
+  background-color: #1ccad8;
 }
 
 .color--code {
