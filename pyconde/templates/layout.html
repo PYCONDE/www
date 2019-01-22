@@ -259,7 +259,6 @@
                       </li>
                     </ul>
                   </li>
-                  -->
                   <li>
                     <a href="venue.html">Venue</a>
                   </li>
@@ -451,6 +450,10 @@
                   <li>
                     <a href="404.html">404</a>
                   </li>
+                -->
+                {% for path, title in bag('links')['product'].items() %}
+                <li><a href="{{ path|url }}">{{ title }}</a></li>
+                {% endfor %}
                 </ul>
               </div>
             </nav>
