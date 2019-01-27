@@ -42,13 +42,13 @@ body:
                       <div class="col-12 col-lg-4">
                         <div class="speaker-neat">
                           <div class="member__image poster poster--square in-view">
-                            <figure><img class="lazyload--el lazyload in-view__child" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/static/media/stock/placeholder-445x445.jpg" alt="" width="445" height="445">
+                            <figure><img class="lazyload--el lazyload in-view__child" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/static/media/team/adrin.jpg" alt="" width="445" height="445">
                               <div class="poster--cover in-view in-view__child"></div>
                             </figure>
                           </div>
                           <div class="speaker-neat__copy in-view">
                             <h5 class="in-view__child in-view__child--fadein">Adrin Jalali</h5>
-                            <p class="speaker-neat__links in-view__child in-view__child--fadein"><span class="sub-head dashed dashed--reverse dashed--hover in-view__child"><a href="#"><i class="fa fa-lg fa-linkedin-square"></i></a><a href="#"><i class="fa fa-lg fa-twitter-square"></i></a></span></p>
+                            <p class="speaker-neat__links in-view__child in-view__child--fadein"><span class="sub-head dashed dashed--reverse dashed--hover in-view__child"><a href="https://github.com/adrinjalali"><i class="fa fa-lg fa-github-square"></i></a></span></p>
                           </div>
                         </div>
                       </div>
