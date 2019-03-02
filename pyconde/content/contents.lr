@@ -410,6 +410,9 @@ body:
                     <br>
                     <span>meets Berlin</span>
                   </h1>
+                  <h5 class="in-view__child in-view__child--fadein">
+                    <span><a href="/blog/pyconde-pydata-berlin-2019/">Ticket sales and Call for Proposals will open on 29th April</a></span>
+                  </h5>
                 </div>
               </div>
             </div>
