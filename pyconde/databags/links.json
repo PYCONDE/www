@@ -3,6 +3,7 @@
     "product": {
         "/": "Home",
         "/blog/": "Blog",
+        "/frequently-asked-questions/": "FAQ",
         "/code-of-conduct/": "Code of Conduct",
         "/team/": "Team",
         "/venue/": "Venue"
