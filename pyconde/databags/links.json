@@ -10,6 +10,7 @@
     },
 
     "legal": {
+        "/impressum/": "Impressum",
         "/privacy-policy/": "Terms & Privacy Policy",
         "/code-of-conduct/": "Code of Conduct"
     }
