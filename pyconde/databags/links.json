@@ -3,10 +3,10 @@
     "product": {
         "/": "Home",
         "/blog/": "Blog",
-        "/sponsors": "Sponsors",
         "/frequently-asked-questions/": "FAQ",
         "/code-of-conduct/": "Code of Conduct",
         "/team/": "Team",
+        "/sponsors": "Sponsors",
         "/venue/": "Venue"
     },
 
