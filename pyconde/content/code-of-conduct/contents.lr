@@ -2,172 +2,203 @@ title: Code of Conduct
 ---
 body:
 
-<div class="site-content" id="content">
-      <div class="content-area" id="primary">
-        <main class="site-main" id="main">
-          <section class="section section--singular">
-            <div class="container">
-              <div class="row">
-                <div class="col-12 col-xl-10 offset-xl-1">
-                  <header class="page-header text-center">
-                    <h1 class="page-title">Code of Conduct</h1>
-                  </header>
-                  <div class="single-content">
+<main class="site-main" id="main">
+  <section class="section section--singular">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-xl-10 offset-xl-1">
+          <header class="page-header text-center">
+            <h1 class="page-title">Code of Conduct</h1>
+          </header>
+          <div class="single-content">
 
-                  <p>Python is a diverse community who maintains a reputation as a friendly, welcoming, inspiring and dynamic group. We’d like to keep it that way, which is why we ask all attendees, organizers and sponsors to follow this code of conduct (CoC).
-                  </p>
+            <p>Python is a diverse community who maintains a reputation as a friendly, welcoming, inspiring and
+              dynamic group. We’d like to keep it that way, which is why we ask all attendees, organizers and
+              sponsors to follow this code of conduct (CoC).
+            </p>
 
-                  <p>If you have questions regarding this Code of Conduct, please contact the CoC team (coc@pycon.de). Your questions will only be seen by the members of the CoC workgroup and treated confidentially.
-                  </p>
+            <p>If you have questions regarding this Code of Conduct, please contact the CoC team (coc@pycon.de).
+              Your questions will only be seen by the members of the CoC workgroup and treated confidentially.
+            </p>
 
-                    <h3>Standards for Behavior</h3>
-                    <p>All communication should be appropriate for a professional audience including people of many different backgrounds.
+            <h3>Standards for Behavior</h3>
+            <p>All communication should be appropriate for a professional audience including people of many
+              different backgrounds.
 
-                    <br />
-                    <br />
-                    Please always be kind and courteous. There’s never a need to be mean or rude or disrespectful. Thank you for helping make this a welcoming, friendly community for all.
+              <br />
+              <br />
+              Please always be kind and courteous. There’s never a need to be mean or rude or disrespectful. Thank
+              you for helping make this a welcoming, friendly community for all.
 
-                    <br />
-                    <br />
+              <br />
+              <br />
 
-                    We strive to:
+              We strive to:
 
-                    <ul>
-                      <li>
-                      Be empathetic, welcoming, friendly, and patient. We remember that every PyConDE & PyData Berlin 2019 is crafted by human beings who deserve to be treated with kindness and empathy. We work together to resolve conflict and assume good intentions. We may all experience some frustration from time to time, but we do not allow frustration to turn into a personal attack. A community where people feel uncomfortable or threatened is not a productive one.
-                      </li>
-                      <li>
-                      Be collaborative. Our work depends on the participation of many people, and in turn others depend on our work. Open source communities depend on effective and friendly collaboration to achieve their goals.
-                      </li>
-                      <li>
-                      Be inquisitive. Nobody knows everything! Asking questions early avoids many problems later, so we encourage questions, although we may direct them to the appropriate forum. We will try hard to be responsive and helpful.
-                      </li>
-                      <li>
-                      Be careful in the words that we choose. We are careful and respectful in our communication and we take responsibility for our own speech. Be kind to others. Do not insult or put down other members of the community.</p>
-                      </li>
-                    </ul>
+              <ul>
+                <li>
+                  Be empathetic, welcoming, friendly, and patient. We remember that every PyConDE & PyData Berlin
+                  2019 is crafted by human beings who deserve to be treated with kindness and empathy. We work
+                  together to resolve conflict and assume good intentions. We may all experience some frustration
+                  from time to time, but we do not allow frustration to turn into a personal attack. A community
+                  where people feel uncomfortable or threatened is not a productive one.
+                </li>
+                <li>
+                  Be collaborative. Our work depends on the participation of many people, and in turn others depend
+                  on our work. Open source communities depend on effective and friendly collaboration to achieve
+                  their goals.
+                </li>
+                <li>
+                  Be inquisitive. Nobody knows everything! Asking questions early avoids many problems later, so we
+                  encourage questions, although we may direct them to the appropriate forum. We will try hard to be
+                  responsive and helpful.
+                </li>
+                <li>
+                  Be careful in the words that we choose. We are careful and respectful in our communication and we
+                  take responsibility for our own speech. Be kind to others. Do not insult or put down other members
+                  of the community.</p>
+            </li>
+            </ul>
 
-                  <h3>Unacceptable Behavior</h3>
-                  <p>We are committed to making participation in this community a harassment-free experience.
+            <h3>Unacceptable Behavior</h3>
+            <p>We are committed to making participation in this community a harassment-free experience.
 
-                  <br />
-                  <br />
-                  We will not accept harassment or other exclusionary behaviors, such as:
-<ul>
-<li>
-    The use of sexualized language or imagery
-    </li>
-    <li>
-    Excessive profanity (please avoid curse words; people differ greatly in their sensitivity to swearing)
-    </li>
-    <li>
-    Posting sexually explicit or violent material
-    </li>
-    <li>
-    Violent or intimidating threats or language directed against another person
-    </li>
-    <li>
-    Inappropriate physical contact and/or unwelcome sexual attention or sexual comments
-    </li>
-    <li>
-    Sexist, racist, or otherwise discriminatory jokes and language
-    </li>
-    <li>
-    Trolling or insulting and derogatory comments
-    </li>
-    <li>
-    Written or verbal comments which have the effect of excluding people on the basis of membership in a specific group, including level of experience, gender, gender identity and expression, sexual orientation, disability, neurotype, personal appearance, body size, race, ethnicity, age, religion, or nationality
-    Public or private harassment
-    </li>
-    <li>
-    Sharing private content, such as emails sent privately or non-publicly, or direct message history, without the sender’s consent
-    </li>
-    <li>
-    Continuing to initiate interaction (such as photography, recording, messaging, or conversation) with someone after being asked to stop
-    </li>
-    <li>
-    Sustained disruption of talks, events, or communications, such as heckling of a speaker
-    </li>
-    <li>
-    Publishing (or threatening to post) other people’s personally identifying information (“doxing”), such as physical or electronic addresses, without explicit permission
-    </li>
-    <li>
-    Other unethical or unprofessional conduct
-    </li>
-    <li>
-    Advocating for, or encouraging, any of the above behaviors
-    </li>
-    </ul>
-    </p>
+              <br />
+              <br />
+              We will not accept harassment or other exclusionary behaviors, such as:
+              <ul>
+                <li>
+                  The use of sexualized language or imagery
+                </li>
+                <li>
+                  Excessive profanity (please avoid curse words; people differ greatly in their sensitivity to
+                  swearing)
+                </li>
+                <li>
+                  Posting sexually explicit or violent material
+                </li>
+                <li>
+                  Violent or intimidating threats or language directed against another person
+                </li>
+                <li>
+                  Inappropriate physical contact and/or unwelcome sexual attention or sexual comments
+                </li>
+                <li>
+                  Sexist, racist, or otherwise discriminatory jokes and language
+                </li>
+                <li>
+                  Trolling or insulting and derogatory comments
+                </li>
+                <li>
+                  Written or verbal comments which have the effect of excluding people on the basis of membership in
+                  a specific group, including level of experience, gender, gender identity and expression, sexual
+                  orientation, disability, neurotype, personal appearance, body size, race, ethnicity, age,
+                  religion, or nationality
+                  Public or private harassment
+                </li>
+                <li>
+                  Sharing private content, such as emails sent privately or non-publicly, or direct message history,
+                  without the sender’s consent
+                </li>
+                <li>
+                  Continuing to initiate interaction (such as photography, recording, messaging, or conversation)
+                  with someone after being asked to stop
+                </li>
+                <li>
+                  Sustained disruption of talks, events, or communications, such as heckling of a speaker
+                </li>
+                <li>
+                  Publishing (or threatening to post) other people’s personally identifying information (“doxing”),
+                  such as physical or electronic addresses, without explicit permission
+                </li>
+                <li>
+                  Other unethical or unprofessional conduct
+                </li>
+                <li>
+                  Advocating for, or encouraging, any of the above behaviors
+                </li>
+              </ul>
+            </p>
 
-    <h3>Reporting Guidelines</h3>
-    <p>If you believe someone is violating the code of conduct, please report this in a timely manner.
+            <h3>Reporting Guidelines</h3>
+            <p>If you believe someone is violating the code of conduct, please report this in a timely manner.
 
-    <br />
-    <br />
+              <br />
+              <br />
 
-    Code of conduct violations reduce the value of the community for everyone.
+              Code of conduct violations reduce the value of the community for everyone.
 
-    <br />
-    <br />
+              <br />
+              <br />
 
-    PyCon DE & PyData Berlin CoC team takes reports of misconduct very seriously and is committed to preserving and maintaining the welcoming nature of our community.
+              PyCon DE & PyData Berlin CoC team takes reports of misconduct very seriously and is committed to
+              preserving and maintaining the welcoming nature of our community.
 
-    <br />
-    <br />
+              <br />
+              <br />
 
-    All reports will be kept confidential.
+              All reports will be kept confidential.
 
-    <br />
-    <br />
+              <br />
+              <br />
 
-    In some cases we may determine that a public statement will need to be made. If that’s the case, the identities of all involved parties and reporters will remain confidential unless those individuals instruct us otherwise.
+              In some cases we may determine that a public statement will need to be made. If that’s the case, the
+              identities of all involved parties and reporters will remain confidential unless those individuals
+              instruct us otherwise.
 
-    <br />
-    <br />
+              <br />
+              <br />
 
-    All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The PyConDE & PyData Berlin 2019 team commits to maintaining confidentiality with regard to the reporter of an incident.
+              All complaints will be reviewed and investigated and will result in a response that is deemed
+              necessary and appropriate to the circumstances. The PyConDE & PyData Berlin 2019 team commits to
+              maintaining confidentiality with regard to the reporter of an incident.
 
-    <br />
-    <br />
+              <br />
+              <br />
 
-    For possibly unintentional breaches of the code of conduct, you may want to respond to the person and point out this code of conduct (either in public or in private, whatever is most appropriate).
+              For possibly unintentional breaches of the code of conduct, you may want to respond to the person and
+              point out this code of conduct (either in public or in private, whatever is most appropriate).
 
-    <br />
-    <br />
+              <br />
+              <br />
 
-    If you would prefer not to do that, please report the issue to Conference staff directly.
+              If you would prefer not to do that, please report the issue to Conference staff directly.
 
-    <br />
-    <br />
+              <br />
+              <br />
 
-    Take care of each other. Alert PyConDE & PyData Berlin 2019 if you notice a dangerous situation, someone in distress, or violations of this code of conduct, even if they seem inconsequential.</p>
+              Take care of each other. Alert PyConDE & PyData Berlin 2019 if you notice a dangerous situation,
+              someone in distress, or violations of this code of conduct, even if they seem inconsequential.</p>
 
-    <h3>How to Submit a Report</h3>
-    <p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff.
+            <h3>How to Submit a Report</h3>
+            <p>If you are being harassed, notice that someone else is being harassed, or have any other concerns,
+              please contact a member of conference staff.
 
-    <br />
-    <br />
+              <br />
+              <br />
 
-    Conference staff will be wearing "Organisers" t-shirts and you can email the committee, in confidence, at coc@pycon.de.
+              Conference staff will be wearing "Organisers" t-shirts and you can email the committee, in confidence,
+              at coc@pycon.de.
 
-    <br />
-    <br />
+              <br />
+              <br />
 
-    Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference.
+              Conference staff will be happy to help participants contact hotel/venue security or local law
+              enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the
+              duration of the conference.
 
-    <br />
-    <br />
+              <br />
+              <br />
 
-    We value your attendance.</p>
+              We value your attendance.</p>
 
-                    <p>The Code of Conduct is based on the <a href="https://numfocus.org/code-of-conduct">NumFOCUS Code of Coduct</a> and released under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">creative commons license</a>.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-        </main>
+            <p>The Code of Conduct is based on the <a href="https://numfocus.org/code-of-conduct">NumFOCUS Code of
+                Coduct</a> and released under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">creative
+                commons license</a>.</p>
+          </div>
+        </div>
       </div>
     </div>
+  </section>
+
+</main>

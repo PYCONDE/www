@@ -1,0 +1,69 @@
+{
+    "types": [
+        {
+            "name": "Platinum sponsors",
+            "sponsors": [
+                {
+                    "name": "Deloitte",
+                    "description": "Deloitte provides audit, risk advisory, tax, financial advisory and consulting services to public and private clients spanning multiple industries; legal advisory services in Germany are provided by Deloitte Legal. With a globally connected network of member firms in more than 150 countries, Deloitte brings world-class capabilities and high-quality service to clients, delivering the insights they need to address their most complex business challenges.",
+                    "logo": "/static/media/sponsors/deloitte.png"
+                }
+            ]
+        },
+        {
+            "name": "Gold sponsors",
+            "sponsors": [
+                {
+                    "name": "Yelp",
+                    "description": "Yelp is a website and mobile app that makes it easy for users to connect with awesome local businesses. Founded in 2004, Yelp has taken root in countries across the globe as the leading local guide for real word-of-mouth on everything from boutiques and mechanics to restaurants and dentists.",
+                    "logo": "/static/media/sponsors/yelp.jpg"
+                },
+                {
+                    "name": "Idealo",
+                    "description": "Idealo is a Berlin success story: in 2000 we started out with the mission of helping consumers make the best purchasing decisions. Today, with 1.5 million visits per day, 50,000 shops and more than 330 million product offers, we are one of the most popular German e-commerce websites and one of the leading European shopping and comparison platforms.",
+                    "logo": "/static/media/sponsors/idealo.png"
+                },
+                {
+                    "name": "Rosen",
+                    "description": "ROSEN is a leading privately owned company that was established in 1981. Over the last 37 years, ROSEN has grown rapidly and is today a worldwide technology group that operates in more than 120 countries with over 3100 employees.",
+                    "logo": "/static/media/sponsors/rosen.png"
+                }
+            ]
+        },
+        {
+            "name": "Silver sponsors",
+            "sponsors": [
+                {
+                    "name": "Solute",
+                    "description": "Smart online shopping is the mission of solute GmbH with its core brands billiger.de and shopping.de. Online shopping has been the passion of its 180 employees for 15 years. The innovative company also puts its know-how into its four own brands.",
+                    "logo": "/static/media/sponsors/solute.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Community & Financial Aid Sponsors",
+            "sponsors": [
+                {
+                    "name": "Königsweg",
+                    "description": "Königsweg supports corporate and public clients in achieving better transformation results. Leveraging a broad network of subject matter experts, Königsweg consultants connect different business divisions and turn them into an integrated unit through future-proof technology.",
+                    "logo": "/static/media/sponsors/konigsweg.png"
+                },
+                {
+                    "name": "EuroPython Society",
+                    "description": "The EuroPython Society (EPS) is a Swedish non-profit organization which organizes EuroPython conferences, supports the Python community in Europe and holds the rights to the EuroPython conference series and trademarks.",
+                    "logo": "/static/media/sponsors/eps.png"
+                },
+                {
+                    "name": "PyLadies Berlin",
+                    "description": "We are PyLadies Berlin, a group of girls and women coding in this lovely city. We are eager to develop and advance our knowlegde in the world of programming and you are invited to learn with us! PyLadies aims to provide a friendly support network for women and a bridge to the larger Python world.",
+                    "logo": "/static/media/sponsors/pyladies_berlin.svg"
+                },
+                {
+                    "name": "Python Software Foundation",
+                    "description": "The mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers.",
+                    "logo": "/static/media/sponsors/psf.png"
+                }
+            ]
+        }
+    ]
+}

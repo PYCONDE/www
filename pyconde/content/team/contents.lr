@@ -2,191 +2,274 @@ title: Team
 ---
 body:
 
-<div class="site-content" id="content">
-<div class="content-area" id="primary">
 <main class="site-main" id="main">
-<section class="section section--singular">
-<div class="container">
-<div class="row">
-<div class="col-12 col-xl-10 offset-xl-1">
-<header class="page-header">
-<h1 class="page-title">Meet &mdash; the Team</h1>
-</header>
-<div class="row">
-<div class="col-12 col-lg-4">
-<div class="speaker-neat">
-<div class="member__image poster poster--square in-view">
-<figure><img class="lazyload--el lazyload in-view__child" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/static/media/team/christian.jpeg" alt="" width="445" height="445">
-<div class="poster--cover in-view in-view__child"></div>
-</figure>
-</div>
-<div class="speaker-neat__copy in-view">
-<h5 class="in-view__child in-view__child--fadein">Christian Barra</h5>
-<p class="speaker-neat__links in-view__child in-view__child--fadein"><span class="sub-head dashed dashed--reverse dashed--hover in-view__child"><a href="https://www.linkedin.com/in/christianbarra/"><i class="fa fa-lg fa-linkedin-square"></i></a><a href="https://twitter.com/christianbarra"><i class="fa fa-lg fa-twitter-square"></i></a></span></p>
-</div>
-</div>
-</div>
-<div class="col-12 col-lg-4">
-<div class="speaker-neat">
-<div class="member__image poster poster--square in-view">
-<figure><img class="lazyload--el lazyload in-view__child" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/static/media/team/shinitski.jpg" alt="" width="445" height="445">
-<div class="poster--cover in-view in-view__child"></div>
-</figure>
-</div>
-<div class="speaker-neat__copy in-view">
-<h5 class="in-view__child in-view__child--fadein">Noa Shinitski</h5>
-<p class="speaker-neat__links in-view__child in-view__child--fadein"><span class="sub-head dashed dashed--reverse dashed--hover in-view__child"><a href="#"><i class="fa fa-lg fa-linkedin-square"></i></a><a href="#"><i class="fa fa-lg fa-twitter-square"></i></a></span></p>
-</div>
-</div>
-</div>
-<div class="col-12 col-lg-4">
-<div class="speaker-neat">
-<div class="member__image poster poster--square in-view">
-<figure><img class="lazyload--el lazyload in-view__child" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/static/media/team/adrin.jpg" alt="" width="445" height="445">
-<div class="poster--cover in-view in-view__child"></div>
-</figure>
-</div>
-<div class="speaker-neat__copy in-view">
-<h5 class="in-view__child in-view__child--fadein">Adrin Jalali</h5>
-<p class="speaker-neat__links in-view__child in-view__child--fadein"><span class="sub-head dashed dashed--reverse dashed--hover in-view__child"><a href="https://github.com/adrinjalali"><i class="fa fa-lg fa-github-square"></i></a></span></p>
-</div>
-</div>
-</div>
-<div class="col-12 col-lg-4">
-<div class="speaker-neat">
-<div class="member__image poster poster--square in-view">
-<figure><img class="lazyload--el lazyload in-view__child" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/static/media/team/hendorf.png" alt="" width="445" height="445">
-<div class="poster--cover in-view in-view__child"></div>
-</figure>
-</div>
-<div class="speaker-neat__copy in-view">
-<h5 class="in-view__child in-view__child--fadein">Alexander Hendorf</h5>
-<p class="speaker-neat__links in-view__child in-view__child--fadein"><span class="sub-head dashed dashed--reverse dashed--hover in-view__child"><a href="https://www.linkedin.com/in/hendorf"><i class="fa fa-lg fa-linkedin-square"></i></a><a href="https://twitter.com/hendorf"><i class="fa fa-lg fa-twitter-square"></i></a></span></p>
-</div>
-</div>
-</div>
-<div class="col-12 col-lg-4">
-<div class="speaker-neat">
-<div class="member__image poster poster--square in-view">
-<figure><img class="lazyload--el lazyload in-view__child" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/static/media/stock/placeholder-445x445.jpg" alt="" width="445" height="445">
-<div class="poster--cover in-view in-view__child"></div>
-</figure>
-</div>
-<div class="speaker-neat__copy in-view">
-<h5 class="in-view__child in-view__child--fadein">Aditya Jayasuriya</h5>
-<p class="speaker-neat__links in-view__child in-view__child--fadein"><span class="sub-head dashed dashed--reverse dashed--hover in-view__child"><a href="#"><i class="fa fa-lg fa-linkedin-square"></i></a><a href="#"><i class="fa fa-lg fa-twitter-square"></i></a></span></p>
-</div>
-</div>
-</div>
-<div class="col-12 col-lg-4">
-<div class="speaker-neat">
-<div class="member__image poster poster--square in-view">
-<figure><img class="lazyload--el lazyload in-view__child" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/static/media/team/melanie.jpg" alt="" width="445" height="445">
-<div class="poster--cover in-view in-view__child"></div>
-</figure>
-</div>
-<div class="speaker-neat__copy in-view">
-<h5 class="in-view__child in-view__child--fadein">Melanie Thalmann</h5>
-<p class="speaker-neat__links in-view__child in-view__child--fadein"><span class="sub-head dashed dashed--reverse dashed--hover in-view__child"><a href="https://www.linkedin.com/in/melanie-thalmann-155346115/"><i class="fa fa-lg fa-linkedin-square"></i></a><a href="https://twitter.com/thal_mel"><i class="fa fa-lg fa-twitter-square"></i></a></span></p>
-</div>
-</div>
-</div>
-<div class="col-12 col-lg-4">
-<div class="speaker-neat">
-<div class="member__image poster poster--square in-view">
-<figure><img class="lazyload--el lazyload in-view__child" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/static/media/team/valentina.jpg" alt="" width="445" height="445">
-<div class="poster--cover in-view in-view__child"></div>
-</figure>
-</div>
-<div class="speaker-neat__copy in-view">
-<h5 class="in-view__child in-view__child--fadein">Valentina Scipione</h5>
-<p class="speaker-neat__links in-view__child in-view__child--fadein"><span class="sub-head dashed dashed--reverse dashed--hover in-view__child"><a href="https://www.linkedin.com/in/valentinascipione/"><i class="fa fa-lg fa-linkedin-square"></i></a><a href="https://twitter.com/v_scipione"><i class="fa fa-lg fa-twitter-square"></i></a></span></p>
-</div>
-</div>
-</div>
-<div class="col-12 col-lg-4">
-<div class="speaker-neat">
-<div class="member__image poster poster--square in-view">
-<figure><img class="lazyload--el lazyload in-view__child" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/static/media/team/daniel.jpg" alt="" width="445" height="445">
-<div class="poster--cover in-view in-view__child"></div>
-</figure>
-</div>
-<div class="speaker-neat__copy in-view">
-<h5 class="in-view__child in-view__child--fadein">Daniel Ringler</h5>
-<p class="speaker-neat__links in-view__child in-view__child--fadein"><span class="sub-head dashed dashed--reverse dashed--hover in-view__child"><a href="https://www.linkedin.com/in/daniel-ringler/"><i class="fa fa-lg fa-linkedin-square"></i></a><a href="https://twitter.com/Ringelpeter"><i class="fa fa-lg fa-twitter-square"></i></a></span></p>
-</div>
-</div>
-</div>
-<div class="col-12 col-lg-4">
-<div class="speaker-neat">
-<div class="member__image poster poster--square in-view">
-<figure><img class="lazyload--el lazyload in-view__child" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/static/media/stock/placeholder-445x445.jpg" alt="" width="445" height="445">
-<div class="poster--cover in-view in-view__child"></div>
-</figure>
-</div>
-<div class="speaker-neat__copy in-view">
-<h5 class="in-view__child in-view__child--fadein">Lea Helmers</h5>
-<p class="speaker-neat__links in-view__child in-view__child--fadein"><span class="sub-head dashed dashed--reverse dashed--hover in-view__child"><a href="#"><i class="fa fa-lg fa-linkedin-square"></i></a><a href="#"><i class="fa fa-lg fa-twitter-square"></i></a></span></p>
-</div>
-</div>
-</div>
-<div class="col-12 col-lg-4">
-<div class="speaker-neat">
-<div class="member__image poster poster--square in-view">
-<figure><img class="lazyload--el lazyload in-view__child" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/static/media/team/mike.jpg" alt="" width="445" height="445">
-<div class="poster--cover in-view in-view__child"></div>
-</figure>
-</div>
-<div class="speaker-neat__copy in-view">
-<h5 class="in-view__child in-view__child--fadein">Mike Müller</h5>
-<p class="speaker-neat__links in-view__child in-view__child--fadein"><span class="sub-head dashed dashed--reverse dashed--hover in-view__child"><a href="https://www.linkedin.com/in/mike-m%C3%BCller-1937695/"><i class="fa fa-lg fa-linkedin-square"></i></a></span></p>
-</div>
-</div>
-</div>
-<div class="col-12 col-lg-4">
-<div class="speaker-neat">
-<div class="member__image poster poster--square in-view">
-<figure><img class="lazyload--el lazyload in-view__child" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/static/media/team/miroslav.jpg" alt="" width="445" height="445">
-<div class="poster--cover in-view in-view__child"></div>
-</figure>
-</div>
-<div class="speaker-neat__copy in-view">
-<h5 class="in-view__child in-view__child--fadein">Miroslav Šedivý</h5>
-<p class="speaker-neat__links in-view__child in-view__child--fadein"><span class="sub-head dashed dashed--reverse dashed--hover in-view__child"><a href="https://www.linkedin.com/in/%C5%A1ediv%C3%BD/"><i class="fa fa-lg fa-linkedin-square"></i></a><a href="https://twitter.com/eumiro"><i class="fa fa-lg fa-twitter-square"></i></a></span></p>
-</div>
-</div>
-</div>
-<div class="col-12 col-lg-4">
-<div class="speaker-neat">
-<div class="member__image poster poster--square in-view">
-<figure><img class="lazyload--el lazyload in-view__child" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/static/media/team/sebastian.jpg" alt="" width="445" height="445">
-<div class="poster--cover in-view in-view__child"></div>
-</figure>
-</div>
-<div class="speaker-neat__copy in-view">
-<h5 class="in-view__child in-view__child--fadein">Sebastian Neubauer</h5>
-<p class="speaker-neat__links in-view__child in-view__child--fadein"><span class="sub-head dashed dashed--reverse dashed--hover in-view__child"><a href="https://www.linkedin.com/in/sebastian-neubauer-16626a79/"><i class="fa fa-lg fa-linkedin-square"></i></a><a href="https://twitter.com/sebineubauer"><i class="fa fa-lg fa-twitter-square"></i></a></span></p>
-</div>
-</div>
-</div>
-<div class="col-12 col-lg-4">
-<div class="speaker-neat">
-<div class="member__image poster poster--square in-view">
-<figure><img class="lazyload--el lazyload in-view__child" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/static/media/team/peter.jpg" alt="" width="445" height="445">
-<div class="poster--cover in-view in-view__child"></div>
-</figure>
-</div>
-<div class="speaker-neat__copy in-view">
-<h5 class="in-view__child in-view__child--fadein">Peter Hoffmann</h5>
-<p class="speaker-neat__links in-view__child in-view__child--fadein"><span class="sub-head dashed dashed--reverse dashed--hover in-view__child"><a href="https://www.linkedin.com/in/hoffmannpeter/"><i class="fa fa-lg fa-linkedin-square"></i></a><a href="https://twitter.com/peterhoffmann"><i class="fa fa-lg fa-twitter-square"></i></a></span></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
+    <section class="section section--singular">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-xl-10 offset-xl-1">
+                    <header class="page-header">
+                        <h1 class="page-title">Meet &mdash; the Team</h1>
+                    </header>
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <div class="speaker-neat">
+                                <div class="member__image poster poster--square in-view">
+                                    <figure><img class="lazyload--el lazyload in-view__child"
+                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                            data-src="/static/media/team/christian.jpeg" alt="" width="445"
+                                            height="445">
+                                        <div class="poster--cover in-view in-view__child"></div>
+                                    </figure>
+                                </div>
+                                <div class="speaker-neat__copy in-view">
+                                    <h5 class="in-view__child in-view__child--fadein">Christian Barra</h5>
+                                    <p class="speaker-neat__links in-view__child in-view__child--fadein"><span
+                                            class="sub-head dashed dashed--reverse dashed--hover in-view__child"><a
+                                                href="https://www.linkedin.com/in/christianbarra/"><i
+                                                    class="fa fa-lg fa-linkedin-square"></i></a><a
+                                                href="https://twitter.com/christianbarra"><i
+                                                    class="fa fa-lg fa-twitter-square"></i></a></span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="speaker-neat">
+                                <div class="member__image poster poster--square in-view">
+                                    <figure><img class="lazyload--el lazyload in-view__child"
+                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                            data-src="/static/media/team/shinitski.jpg" alt="" width="445" height="445">
+                                        <div class="poster--cover in-view in-view__child"></div>
+                                    </figure>
+                                </div>
+                                <div class="speaker-neat__copy in-view">
+                                    <h5 class="in-view__child in-view__child--fadein">Noa Shinitski</h5>
+                                    <p class="speaker-neat__links in-view__child in-view__child--fadein"><span
+                                            class="sub-head dashed dashed--reverse dashed--hover in-view__child"><a
+                                                href="#"><i class="fa fa-lg fa-linkedin-square"></i></a><a href="#"><i
+                                                    class="fa fa-lg fa-twitter-square"></i></a></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="speaker-neat">
+                                <div class="member__image poster poster--square in-view">
+                                    <figure><img class="lazyload--el lazyload in-view__child"
+                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                            data-src="/static/media/team/adrin.jpg" alt="" width="445" height="445">
+                                        <div class="poster--cover in-view in-view__child"></div>
+                                    </figure>
+                                </div>
+                                <div class="speaker-neat__copy in-view">
+                                    <h5 class="in-view__child in-view__child--fadein">Adrin Jalali</h5>
+                                    <p class="speaker-neat__links in-view__child in-view__child--fadein"><span
+                                            class="sub-head dashed dashed--reverse dashed--hover in-view__child"><a
+                                                href="https://github.com/adrinjalali"><i
+                                                    class="fa fa-lg fa-github-square"></i></a></span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="speaker-neat">
+                                <div class="member__image poster poster--square in-view">
+                                    <figure><img class="lazyload--el lazyload in-view__child"
+                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                            data-src="/static/media/team/hendorf.png" alt="" width="445" height="445">
+                                        <div class="poster--cover in-view in-view__child"></div>
+                                    </figure>
+                                </div>
+                                <div class="speaker-neat__copy in-view">
+                                    <h5 class="in-view__child in-view__child--fadein">Alexander Hendorf</h5>
+                                    <p class="speaker-neat__links in-view__child in-view__child--fadein"><span
+                                            class="sub-head dashed dashed--reverse dashed--hover in-view__child"><a
+                                                href="https://www.linkedin.com/in/hendorf"><i
+                                                    class="fa fa-lg fa-linkedin-square"></i></a><a
+                                                href="https://twitter.com/hendorf"><i
+                                                    class="fa fa-lg fa-twitter-square"></i></a></span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="speaker-neat">
+                                <div class="member__image poster poster--square in-view">
+                                    <figure><img class="lazyload--el lazyload in-view__child"
+                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                            data-src="/static/media/stock/placeholder-445x445.jpg" alt="" width="445"
+                                            height="445">
+                                        <div class="poster--cover in-view in-view__child"></div>
+                                    </figure>
+                                </div>
+                                <div class="speaker-neat__copy in-view">
+                                    <h5 class="in-view__child in-view__child--fadein">Aditya Jayasuriya</h5>
+                                    <p class="speaker-neat__links in-view__child in-view__child--fadein"><span
+                                            class="sub-head dashed dashed--reverse dashed--hover in-view__child"><a
+                                                href="#"><i class="fa fa-lg fa-linkedin-square"></i></a><a href="#"><i
+                                                    class="fa fa-lg fa-twitter-square"></i></a></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="speaker-neat">
+                                <div class="member__image poster poster--square in-view">
+                                    <figure><img class="lazyload--el lazyload in-view__child"
+                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                            data-src="/static/media/team/melanie.jpg" alt="" width="445" height="445">
+                                        <div class="poster--cover in-view in-view__child"></div>
+                                    </figure>
+                                </div>
+                                <div class="speaker-neat__copy in-view">
+                                    <h5 class="in-view__child in-view__child--fadein">Melanie Thalmann</h5>
+                                    <p class="speaker-neat__links in-view__child in-view__child--fadein"><span
+                                            class="sub-head dashed dashed--reverse dashed--hover in-view__child"><a
+                                                href="https://www.linkedin.com/in/melanie-thalmann-155346115/"><i
+                                                    class="fa fa-lg fa-linkedin-square"></i></a><a
+                                                href="https://twitter.com/thal_mel"><i
+                                                    class="fa fa-lg fa-twitter-square"></i></a></span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="speaker-neat">
+                                <div class="member__image poster poster--square in-view">
+                                    <figure><img class="lazyload--el lazyload in-view__child"
+                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                            data-src="/static/media/team/valentina.jpg" alt="" width="445" height="445">
+                                        <div class="poster--cover in-view in-view__child"></div>
+                                    </figure>
+                                </div>
+                                <div class="speaker-neat__copy in-view">
+                                    <h5 class="in-view__child in-view__child--fadein">Valentina Scipione</h5>
+                                    <p class="speaker-neat__links in-view__child in-view__child--fadein"><span
+                                            class="sub-head dashed dashed--reverse dashed--hover in-view__child"><a
+                                                href="https://www.linkedin.com/in/valentinascipione/"><i
+                                                    class="fa fa-lg fa-linkedin-square"></i></a><a
+                                                href="https://twitter.com/v_scipione"><i
+                                                    class="fa fa-lg fa-twitter-square"></i></a></span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="speaker-neat">
+                                <div class="member__image poster poster--square in-view">
+                                    <figure><img class="lazyload--el lazyload in-view__child"
+                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                            data-src="/static/media/team/daniel.jpg" alt="" width="445" height="445">
+                                        <div class="poster--cover in-view in-view__child"></div>
+                                    </figure>
+                                </div>
+                                <div class="speaker-neat__copy in-view">
+                                    <h5 class="in-view__child in-view__child--fadein">Daniel Ringler</h5>
+                                    <p class="speaker-neat__links in-view__child in-view__child--fadein"><span
+                                            class="sub-head dashed dashed--reverse dashed--hover in-view__child"><a
+                                                href="https://www.linkedin.com/in/daniel-ringler/"><i
+                                                    class="fa fa-lg fa-linkedin-square"></i></a><a
+                                                href="https://twitter.com/Ringelpeter"><i
+                                                    class="fa fa-lg fa-twitter-square"></i></a></span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="speaker-neat">
+                                <div class="member__image poster poster--square in-view">
+                                    <figure><img class="lazyload--el lazyload in-view__child"
+                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                            data-src="/static/media/stock/placeholder-445x445.jpg" alt="" width="445"
+                                            height="445">
+                                        <div class="poster--cover in-view in-view__child"></div>
+                                    </figure>
+                                </div>
+                                <div class="speaker-neat__copy in-view">
+                                    <h5 class="in-view__child in-view__child--fadein">Lea Helmers</h5>
+                                    <p class="speaker-neat__links in-view__child in-view__child--fadein"><span
+                                            class="sub-head dashed dashed--reverse dashed--hover in-view__child"><a
+                                                href="#"><i class="fa fa-lg fa-linkedin-square"></i></a><a href="#"><i
+                                                    class="fa fa-lg fa-twitter-square"></i></a></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="speaker-neat">
+                                <div class="member__image poster poster--square in-view">
+                                    <figure><img class="lazyload--el lazyload in-view__child"
+                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                            data-src="/static/media/team/mike.jpg" alt="" width="445" height="445">
+                                        <div class="poster--cover in-view in-view__child"></div>
+                                    </figure>
+                                </div>
+                                <div class="speaker-neat__copy in-view">
+                                    <h5 class="in-view__child in-view__child--fadein">Mike Müller</h5>
+                                    <p class="speaker-neat__links in-view__child in-view__child--fadein"><span
+                                            class="sub-head dashed dashed--reverse dashed--hover in-view__child"><a
+                                                href="https://www.linkedin.com/in/mike-m%C3%BCller-1937695/"><i
+                                                    class="fa fa-lg fa-linkedin-square"></i></a></span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="speaker-neat">
+                                <div class="member__image poster poster--square in-view">
+                                    <figure><img class="lazyload--el lazyload in-view__child"
+                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                            data-src="/static/media/team/miroslav.jpg" alt="" width="445" height="445">
+                                        <div class="poster--cover in-view in-view__child"></div>
+                                    </figure>
+                                </div>
+                                <div class="speaker-neat__copy in-view">
+                                    <h5 class="in-view__child in-view__child--fadein">Miroslav Šedivý</h5>
+                                    <p class="speaker-neat__links in-view__child in-view__child--fadein"><span
+                                            class="sub-head dashed dashed--reverse dashed--hover in-view__child"><a
+                                                href="https://www.linkedin.com/in/%C5%A1ediv%C3%BD/"><i
+                                                    class="fa fa-lg fa-linkedin-square"></i></a><a
+                                                href="https://twitter.com/eumiro"><i
+                                                    class="fa fa-lg fa-twitter-square"></i></a></span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="speaker-neat">
+                                <div class="member__image poster poster--square in-view">
+                                    <figure><img class="lazyload--el lazyload in-view__child"
+                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                            data-src="/static/media/team/sebastian.jpg" alt="" width="445" height="445">
+                                        <div class="poster--cover in-view in-view__child"></div>
+                                    </figure>
+                                </div>
+                                <div class="speaker-neat__copy in-view">
+                                    <h5 class="in-view__child in-view__child--fadein">Sebastian Neubauer</h5>
+                                    <p class="speaker-neat__links in-view__child in-view__child--fadein"><span
+                                            class="sub-head dashed dashed--reverse dashed--hover in-view__child"><a
+                                                href="https://www.linkedin.com/in/sebastian-neubauer-16626a79/"><i
+                                                    class="fa fa-lg fa-linkedin-square"></i></a><a
+                                                href="https://twitter.com/sebineubauer"><i
+                                                    class="fa fa-lg fa-twitter-square"></i></a></span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="speaker-neat">
+                                <div class="member__image poster poster--square in-view">
+                                    <figure><img class="lazyload--el lazyload in-view__child"
+                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                            data-src="/static/media/team/peter.jpg" alt="" width="445" height="445">
+                                        <div class="poster--cover in-view in-view__child"></div>
+                                    </figure>
+                                </div>
+                                <div class="speaker-neat__copy in-view">
+                                    <h5 class="in-view__child in-view__child--fadein">Peter Hoffmann</h5>
+                                    <p class="speaker-neat__links in-view__child in-view__child--fadein"><span
+                                            class="sub-head dashed dashed--reverse dashed--hover in-view__child"><a
+                                                href="https://www.linkedin.com/in/hoffmannpeter/"><i
+                                                    class="fa fa-lg fa-linkedin-square"></i></a><a
+                                                href="https://twitter.com/peterhoffmann"><i
+                                                    class="fa fa-lg fa-twitter-square"></i></a></span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
-</div>
-</div>
