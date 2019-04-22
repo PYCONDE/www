@@ -1,19 +1,44 @@
 {
+    "product": [
+        {
+            "name": "Home",
+            "path": "/"
+        },
+        {
+            "name": "Blog",
+            "path": "/"
+        },
 
-    "product": {
-        "/": "Home",
-        "/blog/": "Blog",
-        "/frequently-asked-questions/": "FAQ",
-        "/code-of-conduct/": "Code of Conduct",
-        "/team/": "Team",
-        "/sponsors": "Sponsors",
-        "/venue/": "Venue"
-    },
+        {
+            "name": "Team",
+            "path": "/team"
+        },
 
+        {
+            "name": "Sponsors",
+            "path": "/sponsors"
+        },
+        {
+            "name": "Info",
+            "submenu": [
+                {
+                    "name": "Venue",
+                    "path": "/venue"
+                },
+                {
+                    "name": "FAQ",
+                    "path": "/frequently-asked-questions/"
+                }
+            ]
+        },
+        {
+            "name": "Code of Conduct",
+            "path": "/code-of-conduct/"
+        }
+    ],
     "legal": {
         "/impressum/": "Impressum",
         "/privacy-policy/": "Terms & Privacy Policy",
         "/code-of-conduct/": "Code of Conduct"
     }
-
 }
