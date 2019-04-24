@@ -5,10 +5,6 @@
       "path": "/"
     },
     {
-      "name": "Call for Proposals",
-      "path": "/call-for-proposals"
-    },
-    {
       "name": "Blog",
       "path": "/blog"
     },
