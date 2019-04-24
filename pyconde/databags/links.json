@@ -1,44 +1,46 @@
 {
-    "product": [
+  "product": [
+    {
+      "name": "Home",
+      "path": "/"
+    },
+    {
+      "name": "Call for Proposals",
+      "path": "/call-for-proposals"
+    },
+    {
+      "name": "Blog",
+      "path": "/blog"
+    },
+    {
+      "name": "Sponsors",
+      "path": "/sponsors"
+    },
+    {
+      "name": "Info",
+      "submenu": [
         {
-            "name": "Home",
-            "path": "/"
+          "name": "Venue",
+          "path": "/venue"
         },
         {
-            "name": "Blog",
-            "path": "/"
-        },
-
-        {
-            "name": "Team",
-            "path": "/team"
-        },
-
-        {
-            "name": "Sponsors",
-            "path": "/sponsors"
+          "name": "Team",
+          "path": "/team"
         },
         {
-            "name": "Info",
-            "submenu": [
-                {
-                    "name": "Venue",
-                    "path": "/venue"
-                },
-                {
-                    "name": "FAQ",
-                    "path": "/frequently-asked-questions/"
-                }
-            ]
-        },
-        {
-            "name": "Code of Conduct",
-            "path": "/code-of-conduct/"
+          "name": "FAQ",
+          "path": "/frequently-asked-questions/"
         }
-    ],
-    "legal": {
-        "/impressum/": "Impressum",
-        "/privacy-policy/": "Terms & Privacy Policy",
-        "/code-of-conduct/": "Code of Conduct"
+      ]
+    },
+    {
+      "name": "Code of Conduct",
+      "path": "/code-of-conduct/"
     }
+  ],
+  "legal": {
+    "/impressum/": "Impressum",
+    "/privacy-policy/": "Terms & Privacy Policy",
+    "/code-of-conduct/": "Code of Conduct"
+  }
 }
