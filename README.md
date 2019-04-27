@@ -1,4 +1,4 @@
-PyCon.DE & PyData Karlsruhe 2017 & 2018
+PyCon.DE & PyData Berlin 2019 Website
 ================================
 
 
@@ -17,6 +17,10 @@ Build Static Site
     
     cd pyconde
     lektor build --output-path ../www
+    
+The local website is run on    
+[http://localhost:5000](http://localhost:5000)
+
 
 Add Atom Plugin
 
