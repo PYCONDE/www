@@ -1,0 +1,147 @@
+title: PyConDE & PyData Berlin 2019 Call for Speakers
+---
+pub_date: 2019-04-29
+---
+author: Organisers
+---
+description: PyConDE & PyData Berlin 2019 team up for one big conference in Berlin Oct 9-11, more read our blog post for more…
+---
+twitter_image: /static/media/twitter/PyConDEPyDataSquare.jpg
+---
+body:
+
+![PyConDE & PyData Berlin 2019](/static/media/PyConDEPyDataBER-1800-transparent.png)
+
+Important Dates
+- 29 April call for speakers opens
+- 26 May call for speakers closes
+- 23 June acceptance notices go out
+- 7 July program is published
+
+We're excited to announce that this conference is a joint effort and a collaboration between PyConDE and PyData Berlin,
+hence there will be dedicated tracks for each area.
+
+Please go to our [Pretalx website](https://pretalx.com/pyconde-pydata-berlin-2019/cfp) to submit your proposals.
+You will need to setup an account there (can be deleted by you anytime), you can edit your proposals until the CfP closes.
+
+PyConDE brings together developers, programmers, DevOps, scientists and others from the Python community to discuss applications techniques, updates to the language, further Open Source development and talk community.
+
+PyData brings together analysts, scientists, developers, engineers, enthusiasts and others from the data science community to discuss applications of new tools and techniques within data science. Our talks often include data management, analytics, visualization as well as new machine learning approaches including statistical and neural network approaches.
+
+
+#### Layout
+The conference will feature seven tracks (5 talks, 2 tutorials) having more than 100 sessions:
+- Two talk tracks dedicated exclusively to PyData topics as Artificial Intelligence, Machine Learning, and Ethics
+- Two talk tracks for Python topics as programming, DevOps, Web, Django.
+- Plenary for keynotes as well as PyData and PyConDE sessions.
+- Two workshop tracks PyData/Python each.
+
+#### Topics
+We welcome presentations focusing on a variety of topics all around Python and Data (incl. languages as R, Julia, Scala and Rust). (See a detailed list of languages and frameworks included, but not limited to the keywords below.)
+To see the presenatation of previous events, please look at our past conference videos on YouTube at [PyData](https://www.youtube.com/user/PyDataTV/), [PyConDE](https://www.youtube.com/pyconde).
+
+#### Formats
+Presentation content can be at a novice, intermediate or advanced level. Talks will run 30-45 minutes and hands-on tutorials will run 90 minutes.
+
+Accepted speakers receive a free ticket to attend the conference. Travel expenses will not be paid; but we do have a diversity travel program and encourage speakers with diverse backgrounds to apply for travel funding.
+
+#### Your Submission
+In our experience, attendees pay close attention to proposal abstracts when deciding which talks to attend during the conference. The submitted abstract will be published as is in the conference program (you can edit the submission later).
+
+We encourage you to include details about the theory and/or practice that you will discuss. Specifically, if the system you've built uses open source tools, please mention the libraries in the proposal and make it clear whether you will be presenting a case-study of their use or if you will discuss details of their design.
+
+In general conference attendees, as well as the review committee, should be able to answer these questions based on your submission:
+- What problem is your talk addressing (are you talking about a well known problem or have you found something new during a project)
+- Why is the problem relevant to the audience
+- What is(are) your solution(s) to the problem, or are you simply pointing out the fact there is an issue we should be aware of (this is also extremely useful)
+- What are the main takeaways from your talk. For tutorial submission this is extremely important, please specify what people will have learned at the end of the tutorial session.
+
+You can check out the following submissions from the last year’s conference as a reference for some good examples.
+- [Irina Vidal Migallon](https://pydata.org/berlin2017/schedule/presentation/43/)
+- [Matti Lyra](https://pydata.org/berlin2017/schedule/presentation/54/)
+- [Trent McConaghy](https://pydata.org/berlin2017/schedule/presentation/28/)
+- more ...
+
+#### Diversity & First-Time Speakers
+If you are interested in presenting a talk or tutorial, we encourage your submission(s). We especially encourage first-time speakers and submissions by underrepresented members of the community. Towards that goal, there is a Mentorship program available to local and remote attendees and speakers. The program aims to help first-time and diverse speakers and attendees by pairing them with mentors who may offer advice and feedback on talk ideas or questions about the conference. Interested in learning more? Please check our Diversity Program page, where you can also apply to be a mentor or mentee.
+
+#### Diversity Travel Sponsorship
+As a volunteer-run and non-profit supported conference, we cannot offer travel sponsorship for speakers. However, as part of our diversity program, we do have a limited number of travel scholarships for attendees and speakers. You can learn more about the scholarship on our Diversity Program page, where you can also apply for a scholarship.
+If you or your company is interested in helping increase diversity at PyConDE & PyData Berlin, we encourage you to reach out at info@pycon.de as we have several sponsorship opportunities available (https://de.pycon.org/sponsors/).
+
+#### Submission Process
+Please go to our [Pretalx website](https://pretalx.com/pyconde-pydata-berlin-2019/cfp) to submit your proposals.
+After you submit a talk proposal, the conference committee will review the proposals and communicate any needed feedback or improvements. We aim to include many first-time speakers, and therefore will attempt to communicate and iteratively help you improve the abstracts. Closer to the CfP close date, the mentorship program will run a workshop for improving your submissions, and closer to the conference date, we will try to find the best mentors for your abstract to help you improve your talk.
+
+Keywords:
+- Algorithms
+- APIs
+- Astronomy
+- Augmented Reality
+- Best Practice
+- Big Data
+- Blockchain
+- Business & Start-Ups
+- Coding / Code-Review
+- Community
+- Computer Vision
+- Data Engineering
+- Data Mining / Scraping
+- Data Visualization
+- Databases and ETL
+- Development Methods
+- Devops: Pipelines, Deployment, Scalability
+- Django
+- Ethics of Machine Learning (Privacy, Fairness, …)
+- Functional Programming
+- GIS / Geo-Analytics
+- Hardware
+- Julia
+- Jupyter / Notebooks
+- Massive data
+- Makers
+- Microcontrollers
+- Natural Language Processing
+- Networks
+- Neural Networks / Deep Learning
+- New libraries
+- Packaging
+- Parallel Programming / Async
+- Philosophy
+- Python - CPython new features
+- Python - PyPy, Cython, Anaconda
+- Predictive Modelling
+- Python fundamentals
+- Python in Social Sciences
+- R
+- Reproducible Science
+- Robotics
+- Rust
+- Science
+- Security
+- Simulations
+- Spark/Hadoop
+- Statistics in ML
+- Survey
+- Theory
+- Theory of machine learning
+- Transparency in ML / Interpretable Models
+- Unsupervised ML
+- Use Cases
+- 3D Priniting
+
+#### Non-profit
+PyConDE and PyData are both volunteer-run conferences. They supports open source development by donating all proceeds to Python Verband e.V. and NumFOCUS, a non-profit organization that supports the development of open-source tools, such as Numpy, IPython, Jupyter, and many others.
+
+#### Open Source
+As a reminder, PyConDE and PyData presentations are intended to share knowledge and experience. To this end, we encourage the code and/or data that your talk relies on to be open-source. Ideally, the audience would have access to the necessary tools to reproduce the results of the talk. Also, we welcome talks focused on your own practical application of tools and concepts either at work or in your free time, but discourage sales oriented proposals whose sole aim is to sell a product.
+
+**Conference is under the [Code of Conduct](https://de.pycon.org/code-of-conduct/)**
+
+##### [NumFocus](https://numfocus.org/)
+The mission of the US 501(c)3 public charity is to promote sustainable high-level programming languages, open code development, and reproducible scientific research.
+
+##### [Python Software Verband](https://python-verband.org/)
+Is a public charity supporting and furthering the Python language in Germany.
+
+Meet and engage with Python developers and enthusiasts at the conference. This conference is an excellent opportunity to present your company, organization and products or services to a friendly and interested audience.
