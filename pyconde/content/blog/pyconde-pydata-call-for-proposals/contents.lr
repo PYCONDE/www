@@ -1,10 +1,10 @@
-title: PyConDE & PyData Berlin 2019 Call for Speakers
+title: PyConDE & PyData Berlin 2019 Call for Proposals
 ---
 pub_date: 2019-04-29
 ---
 author: Organisers
 ---
-description: PyConDE & PyData Berlin 2019 team up for one big conference in Berlin Oct 9-11, more read our blog post for more…
+description: Call for Speakers for PyConDE & PyData Berlin 2019 October 9-11 in Berlin Germany
 ---
 twitter_image: /static/media/twitter/PyConDEPyDataSquare.jpg
 ---
@@ -12,14 +12,14 @@ body:
 
 ![PyConDE & PyData Berlin 2019](/static/media/PyConDEPyDataBER-1800-transparent.png)
 
-Important Dates
+We're excited to announce that this conference is a joint effort and a collaboration between PyConDE and PyData Berlin,
+hence there will be dedicated tracks for each area.
+
+#### Important Dates
 - 29 April call for speakers opens
 - 26 May call for speakers closes
 - 23 June acceptance notices go out
 - 7 July program is published
-
-We're excited to announce that this conference is a joint effort and a collaboration between PyConDE and PyData Berlin,
-hence there will be dedicated tracks for each area.
 
 Please go to our [Pretalx website](https://pretalx.com/pyconde-pydata-berlin-2019/cfp) to submit your proposals.
 You will need to setup an account there (can be deleted by you anytime), you can edit your proposals until the CfP closes.
@@ -28,6 +28,9 @@ PyConDE brings together developers, programmers, DevOps, scientists and others f
 
 PyData brings together analysts, scientists, developers, engineers, enthusiasts and others from the data science community to discuss applications of new tools and techniques within data science. Our talks often include data management, analytics, visualization as well as new machine learning approaches including statistical and neural network approaches.
 
+
+##### Please [submit your proposal](https://pretalx.com/pyconde-pydata-berlin-2019/cfp) until
+> Sunday May 26 23:59:59 CEST
 
 #### Layout
 The conference will feature seven tracks (5 talks, 2 tutorials) having more than 100 sessions:
