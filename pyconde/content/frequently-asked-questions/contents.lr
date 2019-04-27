@@ -106,16 +106,6 @@ body:
               complimentary ticket per talk and additional speakers will have to purchase a ticket.
             </p>
 
-            <h4>Do I have to print my poster?</h4>
-            <p>Yes. We are not offering poster printing service, only the panels to attach them to.</p>
-
-            <h4>What size should be the posters?</h4>
-            <p>Posters should be portrait DIN A0 sized: 84.1cm wide x 118.9cm high.</p>
-
-            <h4>Where will be the poster session?</h4>
-            <p>The area of the poster session will be the exhibition hall, so there will be more people around doing
-              other things.</p>
-
             <h4>I have submitted a talk, but would like to make some edits.</h4>
             <p>
               Please feel free to make reasonable edits and improvements to your description any time. Regardless,
@@ -123,7 +113,7 @@ body:
 
             <h4>Are speakers invited to the conference?</h4>
             <p>
-              Speakers will be provided a complimentary ticket for all the conference but we do not cover any travel
+              Accepeted speakers will be provided a complimentary ticket for all the conference but we do not cover any travel
               or accommodation costs.</p>
 
             <h4>What about internet during my talk?</h4>
@@ -137,31 +127,41 @@ body:
 
             <h4>What is the right ticket to buy?</h4>
             <p>Company and freelancers must buy company tickets. Simple rule: If you do make any money from using
-              Python in a business fashion buy a company ticket.
+              Python in a business fashion: buy a company ticket.
               Reduced tickets are available for students, post-docs, academic researchers, hobbyists, enthusiasts
               and people just learning the language.
             </p>
 
             <h4>Why do I need to apply for a reduced ticket?</h4>
-            <p>Unfortunately we had to see a lot of misuse of companies buying reduced ticket prices taking them
-              away from the people we do want to support by offering discounted tickets.
+            <p>Unfortunately we have to seen a lot of 'mistakes' in nthe past, i.e. companies buying reduced ticket taking them
+              away from the people we do want to support by offering discounted tickets. Therefore we may at any time switch to reviewing reduced tickets.
+              Please do buy responsibly.
             </p>
             <h4>What about student tickets?</h4>
             <p>Students have to present a valid student ID at the conference. If you are a student or will be a
               student while the conference is running you are eligible for one student ticket. In case you are a
               student now but won't be a student in October we cannot offer you a student ticket.
             </p>
+
             <h4>I'm on a budget and cannot afford a ticket.</h4>
             <p>Please have a look at our financial aid and scholarship program. The program will open April 29 and
               close June 30. Please check back our website for more details.
             </p>
-            <p>Is it possible to purchase a student or regular ticket as a company?
-              No.</p>
+
+            <h4>Is it possible to purchase Individual tickets as a company?</h4><p>
+            No</p>
+
+            <h4>Is it possible to purchase Student tickets as a company?</h4><p>
+            Yes, the attendee must present a valid student ID to enter the conference.</p>
 
             <h4>Can I pay ticket by invoice?</h4>
-            <p>No, we offer purchase via the via the website only this will require a credit card.</p>
+            <p>No, purchase via the website only, requires a credit card.</p>
 
-            Can I order tickets via purchase orders?</h4>
+            <h4>Where can I find the invoice?</h4>
+            <p>Once the purchase is finished you will receive <b>two emails</b> from Tito,
+            one contains the link to your invoice, you can add/edit the invoicing address as well.</p>
+
+            <h4>Can I order tickets via purchase orders?</h4>
             <p>No, tickets are sold exclusively via the website. If you like to see more service consider sponsoring
               the conference.
             </p>
@@ -171,22 +171,22 @@ body:
             </p>
 
             <h4>Do you offer discounts for purchasing multiple tickets at once?</h4>
-            <p>No.</p>
+            <p>No, we do not offer discounts.</p>
 
             <h4>When are you going to start selling the tickets?</h4>
             <p>Ticket sales will open April 29 12:00 CEST. There will be a limited amount of early bird tickets
               available, once these are sold out regular tickets will become available.
             </p>
 
-            <h4>What will be the tickets' price?</h4>
-            <p>Regular tickets will be approximately be around 450€, discounted tickets for students 200€, 350€ for
-              personal. This is a preliminary estimate for budgeting purposes only. We will announce final prices by
-              April 29.
+            <h4>How much are the tickets?</h4>
+            <p>Ticket prices can be <a href="blog/pyconde-pydata-berlin-2019-tickets/">found here</a> or<br/>
+            <a href="https://ti.to/pycon-de/pyconde-pydata-2019/" target="_blank">purchased here</a>.
             </p>
 
             <h4>Are tickets refundable?</h4>
-            <p>Yes, tickets are fully refundable until August 30. No refunds after August 30 but you may re-assign
-              the ticket to someone else if you cannot make it or donate it to the financial aid programme.
+            <p>Yes, tickets are refundable until August 30. No refunds after August 30 - but you may re-assign
+              the ticket to someone else if you cannot make it or donate it to the financial aid programme.<br/>
+              Please send an email to info@pycon.de to request a refund, refunds will be credited to the credit card used for purchase only.
             </p>
 
             <h3 id="sponsoring">Sponsoring</h3>
