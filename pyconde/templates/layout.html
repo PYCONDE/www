@@ -20,12 +20,15 @@
   <link rel="stylesheet" href="{{ '/static/style-custom.css'|url }}" type="text/css" media="all">
 
   <!-- Twitter Card data -->
+
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@pyconde">
   <meta name="twitter:title" content="{{ this.title }}">
   <meta name="twitter:description" content="{{ this.description }}">
   {% if this.twitter_image %}
-  <meta name="twitter:image" content="{{ url_to(this.twitter_image, external=true) }}">
+  <meta name="twitter:image" content="https://de.pycon.org{{ this.twitter_image }}">
+  {%  else %}
+  <meta name="twitter:image" content="https://de.pycon.org/static/media/twitter/PyConDEPyDataSquare.jpg">
   {% endif %}
 </head>
 
