@@ -5,6 +5,10 @@
       "path": "/"
     },
     {
+      "name": "Call for Proposals",
+      "path": "/call-for-proposals"
+    },
+    {
       "name": "Blog",
       "path": "/blog"
     },
@@ -15,6 +19,10 @@
     {
       "name": "Info",
       "submenu": [
+        {
+          "name": "Financial Aid",
+          "path": "/financial-aid"
+        },
         {
           "name": "Venue",
           "path": "/venue"
