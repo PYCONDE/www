@@ -92,7 +92,7 @@ body:
 
             <h4>How can I speak at the conference?</h4>
             <p>
-              Please submit your proposal via the CfP form. The CfP will open be from April 29 to May 26.
+              Please submit your proposal via the CfP form. The CfP will open be from April 29 12:00 CEST to May 26 23:59 CEST.
             </p>
 
             <h4>When will I get notified?</h4>
@@ -167,7 +167,7 @@ body:
             </p>
 
             <h4>I sent you a purchase order but never got an answer.</h4>
-            <p>Sorry for this, but we do not accept purchase orders for tickets.
+            <p>Sorry for this, but we do not accept purchase orders for tickets, please buy via the website.
             </p>
 
             <h4>Do you offer discounts for purchasing multiple tickets at once?</h4>
@@ -184,9 +184,25 @@ body:
             </p>
 
             <h4>Are tickets refundable?</h4>
-            <p>Yes, tickets are refundable until August 30. No refunds after August 30 - but you may re-assign
+            <p>Yes, tickets are refundable until August 30. No refunds after August 30. You may re-assign
               the ticket to someone else if you cannot make it or donate it to the financial aid programme.<br/>
               Please send an email to info@pycon.de to request a refund, refunds will be credited to the credit card used for purchase only.
+            </p>
+
+            <h4>How can I change information on my badge?</h4>
+            <p>We will use the information you provide via Tito for the conference badges. <br/>
+            To change information you may only do this via Tito (just follow the links in the emails with your ticket). <br/>This includes
+            <ul>
+            <li>attendee's name</li>
+            <li>company name</li>
+            </ul>
+            If you buy multiple tickets, please make sure the people you purchase the tickets for will enter all information timely. This includes
+            <ul>
+            <li>dietary restrictions</li>
+            <li>T-Shirt size</li>
+            <li>agreement to Code of Conduct</li>
+            </ul>
+            Conference badges will be printed upfront, please make sure all information is in place by <b>September 27</b>.<br/>Any changes after this date won't reflect on the badges.
             </p>
 
             <h3 id="sponsoring">Sponsoring</h3>
