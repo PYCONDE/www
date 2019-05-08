@@ -27,7 +27,13 @@
                     "name": "Rosen",
                     "description": "ROSEN is a leading privately owned company that was established in 1981. Over the last 37 years, ROSEN has grown rapidly and is today a worldwide technology group that operates in more than 120 countries with over 3100 employees.",
                     "logo": "/static/media/sponsors/rosen.png"
+                },
+                {
+                    "name": "Shopify",
+                    "description": "We’re not just an ecommerce software, Shopify isthe best ecommerce platform that has everything you need to sell online, on social media, or in person. Shopify is the leading multi-channel commerce platform. Merchants use Shopify to design, set up, and manage their stores across multiple sales channels, including mobile, web, social media, marketplaces, brick-and-mortar locations, and pop-up shops.",
+                    "logo": "/static/media/sponsors/shopify.png"
                 }
+
             ]
         },
         {
