@@ -34,11 +34,15 @@
                     "logo": "/static/media/sponsors/shopify.png"
                 },
                 {
-                    "name": "Zalando",
+                    "name": "Zaland",
                     "description": "Zalando is Europe’s leading online platform for fashion, connecting customers, brands and partners across 17 markets. We drive digital solutions for fashion, logistics, advertising and research, bringing head-to-toe fashion to more than 23 million active customers through diverse skill-sets, interests and languages our teams choose to use.",
                     "logo": "/static/media/sponsors/zalando.png"
+                },
+                {
+                    "name": "MyTaxi",
+                    "description": "mytaxi was founded in June 2009 and was the world’s first taxi app that established a direct connection between a passenger and a taxi driver. Within 2019, mytaxi will rebrand to FREE NOW. We have three tech hubs: Barcelona, Hamburg, and Berlin. Our daily business is solving large-scale, highly complex technical problems – and we love it.",
+                    "logo": "/static/media/sponsors/mytaxi.png"
                 }
-
             ]
         },
         {
