@@ -47,6 +47,11 @@
                     "name": "Königsweg",
                     "description": "Königsweg supports corporate and public clients in achieving better transformation results. Leveraging a broad network of subject matter experts, Königsweg consultants connect different business divisions and turn them into an integrated unit through future-proof technology.",
                     "logo": "/static/media/sponsors/konigsweg.png"
+                },
+                {
+                    "name": "infarm",
+                    "description": "Our groundbreaking farming technology is what happens when passionate agriculture, food and tech experts collaborate. We farm everywhere — in supermarkets, restaurants, bars and warehouses — cutting out the millions of miles often between food and fork. This localised approach means that our crops are fresher, rich with nutrients and bursting with unique flavour.",
+                    "logo": "/static/media/sponsors/infarm.png"
                 }
             ]
         },
