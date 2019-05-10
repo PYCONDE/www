@@ -42,6 +42,11 @@
                     "name": "MyTaxi",
                     "description": "mytaxi was founded in June 2009 and was the world’s first taxi app that established a direct connection between a passenger and a taxi driver. Within 2019, mytaxi will rebrand to FREE NOW. We have three tech hubs: Barcelona, Hamburg, and Berlin. Our daily business is solving large-scale, highly complex technical problems – and we love it.",
                     "logo": "/static/media/sponsors/mytaxi.png"
+                },
+                {
+                    "name": "Königsweg",
+                    "description": "Königsweg supports corporate and public clients in achieving better transformation results. Leveraging a broad network of subject matter experts, Königsweg consultants connect different business divisions and turn them into an integrated unit through future-proof technology.",
+                    "logo": "/static/media/sponsors/konigsweg.png"
                 }
             ]
         },
@@ -58,11 +63,6 @@
         {
             "name": "Community & Financial Aid Sponsors",
             "sponsors": [
-                {
-                    "name": "Königsweg",
-                    "description": "Königsweg supports corporate and public clients in achieving better transformation results. Leveraging a broad network of subject matter experts, Königsweg consultants connect different business divisions and turn them into an integrated unit through future-proof technology.",
-                    "logo": "/static/media/sponsors/konigsweg.png"
-                },
                 {
                     "name": "EuroPython Society",
                     "description": "The EuroPython Society (EPS) is a Swedish non-profit organization which organizes EuroPython conferences, supports the Python community in Europe and holds the rights to the EuroPython conference series and trademarks.",
