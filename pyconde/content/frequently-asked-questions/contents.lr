@@ -16,7 +16,8 @@ body:
 *   [Tickets](#tickets)
 *   [Sponsoring](#sponsoring)
 
-### General
+<h3 id="general">General</h3>
+
 
 #### Who's behind this conference?
 
@@ -49,7 +50,7 @@ You can book a childcare slot [here](https://ti.to/pycon-de/pyconde-pydata-2019)
 
 Remember that slots are limited and are provided on first-come-first-served basis.
 
-### Program
+<h3 id="program">Program</h3>
 
 As this year our two conference PyConDE and PyData Berlin join up we will have more tracks as before. We are looking into a ca. 50/50 distribution of the sessions.
 
@@ -69,7 +70,7 @@ We plan to offer a training / workshop day as well, likely they will happen on S
 
 A lightning talk (LT) is a short presentation of maximum five minutes. To sign up for a lightning talk please put your name and topic on the whiteboard next to the registration desk. Signing up is first-come-first-serve basis. The queue is reset every day in the morning. You may talk about / present about (almost) everything except: no promotion for products or companies, no call for 'we are hiring' (but you may name your employer). Conference announcements are limited to one minute only. One LT per day per speaker only. Any speaker not having given a LT at the conference is ahead of anyone who has given a LT already.
 
-### Call for Proposals / Speaking at the conference
+<h3 id="speaking">Call for Proposals / Speaking at the conference</h3>
 
 #### How can I speak at the conference?
 
@@ -107,7 +108,7 @@ Accepeted speakers will be provided a complimentary ticket for all the conferenc
 
 There will be no guaranteed internet for the talks, try to avoid making your presentation depend on internet connections. Use internet at your own risk. Though we try our best briefing the providers - conference WiFi performance performance might not meet everyone's' expectations.
 
-### Tickets
+<h3 id="tickets">Tickets</h3>
 
 #### What is the right ticket to buy?
 
@@ -198,7 +199,17 @@ If you buy multiple tickets, please make sure the people you purchase the ticket
 Conference badges will be printed upfront, please make sure all information is in place by **September 27**.
 Any changes after this date won't reflect on the badges.
 
-### Sponsoring
+
+#### Do you offer any day-tickets?
+
+No.
+
+#### Are badges transferable?
+
+No, all badges are valid for the person it was assigned to only.
+
+
+<h3 id="sponsoring">Sponsoring</h3>
 
 #### Do you have extra discount codes for sponsors?
 

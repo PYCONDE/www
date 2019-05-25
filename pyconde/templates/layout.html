@@ -49,7 +49,7 @@
                 <div class="site-header__branding">
                   <div class="site-branding">
                     <a href="/">
-                      <img src="{{ '/static/media/PyConDE_PyDataBer_circle_trans_500.png'|url }}" alt="" width="232" height="144">
+                      <img src="{{ '/static/media/PyConDE_PyDataBer_circle_trans_500.png'|url }}" alt="Home" width="232" height="144">
                     </a>
                   </div>
                 </div>
@@ -173,7 +173,7 @@
             <div class="col-12 col-md-6 col-xl-5 offset-xl-1">
               <span class="sub-head">
                 Build with
-                <i class="fa fa-heart color--secondary"></i> in Berlin</span>
+                <i class="fa fa-heart color--secondary"></i> in Germany</span>
             </div>
             <div class="col-12 col-md-6 col-xl-5 offset-xl-1">
               <span class="sub-head">
@@ -209,23 +209,18 @@
 
                     {% for item in bag('links')['product'] %}
 
-                    {% if "submenu" in item %}
-                    <li class="menu-item-has-children">
-                        <a href="#">{{ item.name }}</a>
-                        <ul class="sub-menu">
-                          {% for sub_item in item.submenu %}
-                          <li><a href="{{ sub_item.path|url }}"><span>{{ sub_item.name }}</span></a></li>
+                          {% if "submenu" not in item %}
+                          <li><a href="{{ item.path|url }}">{{ item.name }}</a></li>
+
+                          {% else %}
+
+                                {% for sub_item in item.submenu %}
+                                <li><a href="{{ sub_item.path|url }}"><span>{{ sub_item.name }}</span></a></li>
+                                {% endfor %}
+
+                          {% endif %}
+
                           {% endfor %}
-                        </ul>
-                      </li>
-
-                    {% else %}
-                    <li><a href="{{ item.path|url }}">{{ item.title }}</a></li>
-
-                    {% endif %}
-
-
-                    {% endfor %}
 
                 </ul>
               </div>

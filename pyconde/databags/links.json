@@ -1,10 +1,6 @@
 {
   "product": [
     {
-      "name": "Home",
-      "path": "/"
-    },
-    {
       "name": "Call for Proposals",
       "path": "/call-for-proposals"
     },
