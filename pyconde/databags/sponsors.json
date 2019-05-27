@@ -57,6 +57,11 @@
                     "name": "infarm",
                     "description": "Our groundbreaking farming technology is what happens when passionate agriculture, food and tech experts collaborate. We farm everywhere — in supermarkets, restaurants, bars and warehouses — cutting out the millions of miles often between food and fork. This localised approach means that our crops are fresher, rich with nutrients and bursting with unique flavour.",
                     "logo": "/static/media/sponsors/infarm.png"
+                },
+                {
+                    "name": "stackfuel",
+                    "description": "StackFuel is Germany's first provider of interactive online courses in data science and analytics for professionals. We offer a hands-on programming experierence combined with real world business cases and industry data sets. Enhance your career and become a data professional.",
+                    "logo": "/static/media/sponsors/stackfuel.png"
                 }
             ]
         },
