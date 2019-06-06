@@ -62,6 +62,11 @@
                     "name": "StackFuel",
                     "description": "StackFuel is Germany's first provider of interactive online courses in data science and analytics for professionals. We offer a hands-on programming experierence combined with real world business cases and industry data sets. Enhance your career and become a data professional.",
                     "logo": "/static/media/sponsors/stackfuel.png"
+                },
+                {
+                    "name": "BlueYonder a jda. company",
+                    "description": "Blue Yonder, a JDA company, is a leading provider of artificial intelligence (AI) and machine learning (ML) solutions that enable retailers, consumer products and other companies to intelligently transform their operations and make more profitable, automated business decisions that deliver higher profits and optimized customer experiences.",
+                    "logo": "/static/media/sponsors/blueyonder.eps"
                 }
             ]
         },
