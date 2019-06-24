@@ -1,8 +1,8 @@
 {
   "product": [
     {
-      "name": "Call for Proposals",
-      "path": "/call-for-proposals"
+      "name": "Talk Voting",
+      "path": "/blog/pyconde-pydata-user-voting/"
     },
     {
       "name": "Financial Aid",
@@ -22,6 +22,10 @@
         {
           "name": "Venue",
           "path": "/venue"
+        },
+        {
+          "name": "Call for Proposals",
+          "path": "/call-for-proposals"
         },
         {
           "name": "Team",
