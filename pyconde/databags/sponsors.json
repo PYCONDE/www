@@ -77,6 +77,11 @@
                     "name": "Solute",
                     "description": "Smart online shopping is the mission of solute GmbH with its core brands billiger.de and shopping.de. Online shopping has been the passion of its 180 employees for 15 years. The innovative company also puts its know-how into its four own brands.",
                     "logo": "/static/media/sponsors/solute.jpg"
+                },
+                {
+                    "name": "The Qt Company",
+                    "description": "Qt is used by major global companies and developers worldwide, and the technology enables its customers to deliver exceptional user experiences and advance their digital transformation initiatives.",
+                    "logo": "/static/media/sponsors/qt_logo.png"
                 }
             ]
         },
