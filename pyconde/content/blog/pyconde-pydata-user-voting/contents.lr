@@ -1,0 +1,83 @@
+title: PyConDE & PyData Berlin 2019  User Voting on Submissions
+---
+pub_date: 2019-06-22
+---
+author: Organisers
+---
+description: User voting for PyConDE & PyData Berlin 2019 October 9-11 in Berlin Germany
+---
+twitter_image: /static/media/twitter/PyConDEPyDataSquare.jpg
+---
+body:
+
+![PyConDE & PyData Berlin 2019](/static/media/PyConDEPyDataBER-1800-transparent.png)
+
+We are happy to announce the first ever user voting for a PyConDE and PyData conference.
+It's important for us to see what the community is interested to see at the conference.
+
+The voting is open until July 7.
+
+### Guiding Principles
+We want to provide a user voting
+- open to the community
+- gives the community a voice in making the conference program
+- unbiased, speaker names are not displayed on the voting site
+- robust against fraud as setting up multiple identies for voting reasons
+- crowdsource work to leift workload from organisers contributing their free time
+
+### Who Can Participate?
+To cast votes one requires an email address we know , i.e. has been used for:
+ - attending one of the past conferences PyData Berlin 2018, PyConDE 2018/17/16
+ - submitting a talk in 2019
+ - registering for interest on the ticket page
+
+ If you can't rememeber the email address you used or are new to the community,
+ we need to set you up, please sign up [via this Google form](https://forms.gle/8Z1cFbzLMqamJFDr8).
+ We'll reach out once we have reviewed your application, this may at least take 24 hours.
+
+
+### How to Login in to the Voting Page
+- Go to [https://voting.pycon.de](https://voting.pycon.de)
+- First time only:
+    - "click here to login"
+    - Enter the email address you have used before (see "Who can participate" above)
+    - Your email address will now be validated, in case it's know the system send you an email with a magic link
+    - Check your inbox (and spam) for the email with the magic link
+
+To re-visit the page:go to [https://voting.pycon.de](https://voting.pycon.de).
+You should be logged in automatically, otherwise please use the link from the email again or have the system send you a new magic link by re-entering you email address.
+
+
+### How Talk Voting Works
+The voting system allows only for positive votes, i.e. there is no way of downvoting proposals by giving them a bad rating.
+The system keeps track of your previous votes and you may change them anytime until the end of the voting.
+Votes are automatically saved once you hit the button.
+
+You may vote:
+- Must See
+- Want to See
+- Maybe
+- Not Interested
+- No vote
+
+If you have any additional comments, please add them in the text field and click on 'submit comment'.
+
+You may also filter for formats or talks you have not voted or voted for so far.
+
+
+### Talk Selection
+The voting is supposed to have a huge impact on the selection though the final talk selection is up to the program commitee.
+We believe a good conference is made of popular talks as well as new or niche topics - all by and for our diverse community.
+
+
+#### Important Dates (updated)
+- 29 April call for speakers opens
+- 9 June call for speakers closes (after two weeks extention)
+- 23 June launch of user voting (beta)
+- 7 July last day of of user voting
+- 21 July acceptance notices go out
+- 29 July program is published
+
+
+### Data Protection
+No email adresses have been stored online for protection. Emails are validated against a hashes only.

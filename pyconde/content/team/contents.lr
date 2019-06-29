@@ -176,7 +176,7 @@ body:
                                 <div class="member__image poster poster--square in-view">
                                     <figure><img class="lazyload--el lazyload in-view__child"
                                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                            data-src="/static/media/stock/placeholder-445x445.jpg" alt="" width="445"
+                                            data-src="/static/media/team/lea.jpg" alt="" width="445"
                                             height="445">
                                         <div class="poster--cover in-view in-view__child"></div>
                                     </figure>
@@ -249,6 +249,7 @@ body:
                                 </div>
                             </div>
                         </div>
+                    <!--
                         <div class="col-12 col-lg-4">
                             <div class="speaker-neat">
                                 <div class="member__image poster poster--square in-view">
@@ -269,6 +270,7 @@ body:
                                 </div>
                             </div>
                         </div>
+                    -->
                     </div>
                 </div>
             </div>

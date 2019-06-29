@@ -2,7 +2,7 @@ title: Frequently Asked Questions
 ---
 _template: page-md.html
 ---
-description: Frequenty Asked Questions for PyConDE & PyData Berlin 2019 October 9-11 in Berlin Germany
+description: Frequently Asked Questions for PyConDE & PyData Berlin 2019 October 9th-11th in Berlin Germany
 ---
 twitter_image: /static/media/twitter/PyConDEPyDataSquare.jpg
 ---
@@ -16,7 +16,8 @@ body:
 *   [Tickets](#tickets)
 *   [Sponsoring](#sponsoring)
 
-### General
+<h3 id="general">General</h3>
+
 
 #### Who's behind this conference?
 
@@ -32,11 +33,11 @@ The conference is all in English.
 
 #### When will the conference open / close?
 
-We expect to open the conference registration on Wednesday October 9 at 8:00.
+We expect to open the conference registration on Wednesday October 9th at 8:00.
 The conference will start at 9:30.
 The conference will close around 17:30 each day on Wednesday, Thursday and Friday.
 
-Sprint on Saturday and Sunday will be open 9:00 -  18:00 (tbc.).
+Sprint on Saturday and Sunday will be open 9:00 - 18:00 (tbc.).
 
 #### Visa - I need a visa to go to Germany. Could you please write me an invitation letter?
 
@@ -49,17 +50,17 @@ You can book a childcare slot [here](https://ti.to/pycon-de/pyconde-pydata-2019)
 
 Remember that slots are limited and are provided on first-come-first-served basis.
 
-### Program
+<h3 id="program">Program</h3>
 
 As this year our two conferences PyConDE and PyData Berlin join up we will have more tracks than before. We are looking into a ca. 50/50 distribution of the sessions.
 
 #### How will the program look like?
 
-As almost all Python and PyData conferences this event is run and organised by volunteers contributing free time and supported by community sponsors contributing work time of their employees. Any conference profits will go back to the community and Open Source via the Python Softwareverband e. V. and NumFocus.
+As almost all Python and PyData conferences, this event is run and organised by volunteers contributing free time and supported by community sponsors contributing work time of their employees. Any conference profits will go back to the community and Open Source via the Python Softwareverband e. V. and NumFocus.
 
 #### What can I do to support?
 
-The layout of the conference will be: All three days will feature at least five tracks with talks whereby two tracks will be dedicated to PyData only, two tracks will be dedicated to non-data heavy topics as Programming, Web, DevOps
+The layout of the conference will be: All three days will feature at least five tracks with talks whereby two tracks will be dedicated to PyData only, two tracks will be dedicated to non-data heavy topics as Programming, Web or DevOps
 
 #### What about trainings?
 
@@ -69,21 +70,33 @@ We plan to offer a training / workshop day as well, likely they will happen on S
 
 A lightning talk (LT) is a short presentation of maximum five minutes. To sign up for a lightning talk please put your name and topic on the whiteboard next to the registration desk. Signing up is first-come-first-serve basis. The queue is reset every day in the morning. You may talk about / present about (almost) everything except: no promotion for products or companies, no call for 'we are hiring' (but you may name your employer). Conference announcements are limited to one minute only. One LT per day per speaker only. Any speaker not having given a LT at the conference is ahead of anyone who has given a LT already.
 
-### Call for Proposals / Speaking at the conference
+<h3 id="speaking">Call for Proposals / Speaking at the conference</h3>
 
 #### How can I speak at the conference?
 
-Please submit your proposal via the CfP form. The CfP will open be from April 29 12:00 CEST to May 26 23:59 CEST.
+Please submit your proposal via the CfP form. The CfP will open be from April 29th 12:00 CEST to May 26th 23:59 CEST.
 
 #### When will I get notified?
 
-A first program draft is expected by June 23, speakers will get notified upfront.
+A first program draft is expected by June 23rd, speakers will get notified upfront.
+
+#### How can I edit my speaker profile?
+
+Go to the [CfP page](https://pretalx.com/pyconde-pydata-berlin-2019/cfp). Log in (upper right or bottom).
+Once logged in there is a dropdown menu at the upper right, select _My profile_.
+Being logged in [https://pretalx.com/pyconde-pydata-berlin-2019/me/](https://pretalx.com/pyconde-pydata-berlin-2019/me/) will work also.
+
+#### How can I edit my proposals?
+
+Go to the [CfP page](https://pretalx.com/pyconde-pydata-berlin-2019/cfp). Log in (upper right or bottom).
+Once logged in there is a dropdown menu at the upper right, select _My submissions_.
+Being logged in [https://pretalx.com/pyconde-pydata-berlin-2019/me/submissions/](https://pretalx.com/pyconde-pydata-berlin-2019/me/submissions/) will work also.
 
 #### Can I add another speaker to my proposal?
 
 Yes you can add another speaker to your proposal via Pretalx but please note there is only one complimentary ticket per talk and additional speakers will have to purchase a ticket.
 
-#### I have submitted a talk, but would like to make some edits.
+#### I have submitted a talk, but would like to make some edits after the CfP.
 
 Please feel free to make reasonable edits and improvements to your description any time. Regardless, your talk must not become a different one. Changes are monitored.
 
@@ -95,7 +108,7 @@ Accepted speakers will be provided a complimentary ticket for all the conference
 
 There will be no guaranteed internet for the talks, try to avoid making your presentation depend on internet connections. Use internet at your own risk. Though we try our best briefing the providers - conference WiFi performance might not meet everyone's expectations.
 
-### Tickets
+<h3 id="tickets">Tickets</h3>
 
 #### What is the right ticket to buy?
 
@@ -111,7 +124,7 @@ Students have to present a valid student ID at the conference. If you are a stud
 
 #### I'm on a budget and cannot afford a ticket.
 
-Please have a look at our financial aid and scholarship program. The program will open April 29 and close June 30\. Please check back our website for more details.
+Please have a look at our financial aid and scholarship program. The program will open April 29th and close June 23rd\. Please check back our website for more details.
 
 #### Is it possible to purchase Individual tickets as a company?
 
@@ -125,11 +138,11 @@ Yes, the attendee must present a valid student ID to enter the conference.
 
 As academic researcher one can buy an Individual ticket,
 Please note the Individual tickets for logistic reasons will not show any affiliation on the badge.
-If this important for you, business ticket is the way to go.
+If this is important to you, business ticket is the way to go.
 
 #### Can I pay ticket by invoice?
 
-No, purchase via the website only, requires a credit card.
+No, purchase via the website only, which requires a credit card.
 
 #### Where can I find the invoice?
 
@@ -149,16 +162,23 @@ No, we do not offer discounts.
 
 #### When are you going to start selling the tickets?
 
-Ticket sales will open April 29 12:00 CEST. There will be a limited amount of early bird tickets available, once these are sold out regular tickets will become available.
+Ticket sales will open April 29th 12:00 CEST. There will be a limited amount of early bird tickets available, once these are sold out regular tickets will become available.
 
 #### How much are the tickets?
 
 Ticket prices can be [found here](blog/pyconde-pydata-berlin-2019-tickets/) or
 [purchased here](https://ti.to/pycon-de/pyconde-pydata-2019/).
 
+#### Ticket prices VAT
+
+All ticket prices include 19% VAT. [European regulations](https://ep2016.europython.eu/admin/cms/page/edit-plugin/240/#) define that
+conferences are taxable in the country where the conference takes place, so the EU VAT reverse charging mechanism cannot be applied.
+However companies can easily apply for a VAT refund.
+
+
 #### Are tickets refundable?
 
-Yes, tickets are refundable until August 30\. No refunds after August 30\. You may re-assign the ticket to someone else if you cannot make it or donate it to the financial aid programme.
+Yes, tickets are refundable until August 30th\. No refunds after August 30th\. You may re-assign the ticket to someone else if you cannot make it or donate it to the financial aid programme.
 Please send an email to info@pycon.de to request a refund, refunds will be credited to the credit card used for purchase only.
 
 #### How can I change information on my badge?
@@ -176,10 +196,20 @@ If you buy multiple tickets, please make sure the people you purchase the ticket
 *   T-Shirt size
 *   agreement to Code of Conduct
 
-Conference badges will be printed upfront, please make sure all information is in place by **September 27**.
+Conference badges will be printed upfront, please make sure all information is in place by **September 27th**.
 Any changes after this date won't reflect on the badges.
 
-### Sponsoring
+
+#### Do you offer any day-tickets?
+
+No.
+
+#### Are badges transferable?
+
+No, all badges are valid for the person it was assigned to only.
+
+
+<h3 id="sponsoring">Sponsoring</h3>
 
 #### Do you have extra discount codes for sponsors?
 
@@ -189,6 +219,12 @@ No, we don't offer any extra discount codes. We will assign you the tickets incl
 
 Yes, but it must fit the space mentioned on the invoice.
 
+#### How many tickets are in the sponsoring packages included and how many employees are allowed to come for the sponsoring table - additionally?
+
+We don’t offer additional free tickets for employees at the sponsoring table.
+Depending on the sponsoring package, if you have three tickets available for example, you can do with it whatever you want.
+Give one to employees for the sponsoring table and two for the conference or however it fits for your company best.
+
 #### Do the sponsors get any visibility during the sprint days?
 
 A banner showing their names or something, or is the sponsorship purely for the 3 conference days? - Purely for the 3 days on the conference.
@@ -196,6 +232,10 @@ A banner showing their names or something, or is the sponsorship purely for the 
 #### Are the sponsor tickets valid for the sprint days?
 
 Yes, like the normal tickets.
+
+#### Sponsoring package prices VAT
+
+All sponsoring package prices are net plus statutory VAT in the amount valid at the time.
 
 #### Where to send the Merchandise as a Sponsor?
 

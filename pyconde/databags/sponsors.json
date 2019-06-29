@@ -6,7 +6,12 @@
                 {
                     "name": "Deloitte",
                     "description": "Deloitte provides audit, risk advisory, tax, financial advisory and consulting services to public and private clients spanning multiple industries; legal advisory services in Germany are provided by Deloitte Legal. With a globally connected network of member firms in more than 150 countries, Deloitte brings world-class capabilities and high-quality service to clients, delivering the insights they need to address their most complex business challenges.",
-                    "logo": "/static/media/sponsors/deloitte.png"
+                    "logo": "/static/media/sponsors/deloitte.jpg"
+                },
+                {
+                    "name": "JetBrains",
+                    "description": "JetBrains delivers intelligent software solutions that make developers more productive by simplifying their challenging tasks, automating the routine, and helping them adopt the best development practices. PyCharm is the Python IDE for Professional Developers by JetBrains providing a complete set of tools for productive Python, Web and scientific development, available in three editions. The free and open-source PyCharm Community Edition is perfect for pure Python coding.",
+                    "logo": "/static/media/sponsors/jetbrains.svg"
                 }
             ]
         },
@@ -27,6 +32,41 @@
                     "name": "Rosen",
                     "description": "ROSEN is a leading privately owned company that was established in 1981. Over the last 37 years, ROSEN has grown rapidly and is today a worldwide technology group that operates in more than 120 countries with over 3100 employees.",
                     "logo": "/static/media/sponsors/rosen.png"
+                },
+                {
+                    "name": "Shopify",
+                    "description": "We’re not just an ecommerce software, Shopify isthe best ecommerce platform that has everything you need to sell online, on social media, or in person. Shopify is the leading multi-channel commerce platform. Merchants use Shopify to design, set up, and manage their stores across multiple sales channels, including mobile, web, social media, marketplaces, brick-and-mortar locations, and pop-up shops.",
+                    "logo": "/static/media/sponsors/shopify.png"
+                },
+                {
+                    "name": "Zalando",
+                    "description": "Zalando is Europe’s leading online platform for fashion, connecting customers, brands and partners across 17 markets. We drive digital solutions for fashion, logistics, advertising and research, bringing head-to-toe fashion to more than 23 million active customers through diverse skill-sets, interests and languages our teams choose to use.",
+                    "logo": "/static/media/sponsors/zalando.png"
+                },
+                {
+                    "name": "MyTaxi",
+                    "description": "mytaxi was founded in June 2009 and was the world’s first taxi app that established a direct connection between a passenger and a taxi driver. Within 2019, mytaxi will rebrand to FREE NOW. We have three tech hubs: Barcelona, Hamburg, and Berlin. Our daily business is solving large-scale, highly complex technical problems – and we love it.",
+                    "logo": "/static/media/sponsors/mytaxi.png"
+                },
+                {
+                    "name": "Königsweg",
+                    "description": "Königsweg supports corporate and public clients in achieving better transformation results. Leveraging a broad network of subject matter experts, Königsweg consultants connect different business divisions and turn them into an integrated unit through future-proof technology.",
+                    "logo": "/static/media/sponsors/konigsweg.png"
+                },
+                {
+                    "name": "infarm",
+                    "description": "Our groundbreaking farming technology is what happens when passionate agriculture, food and tech experts collaborate. We farm everywhere — in supermarkets, restaurants, bars and warehouses — cutting out the millions of miles often between food and fork. This localised approach means that our crops are fresher, rich with nutrients and bursting with unique flavour.",
+                    "logo": "/static/media/sponsors/infarm.png"
+                },
+                {
+                    "name": "StackFuel",
+                    "description": "StackFuel is Germany's first provider of interactive online courses in data science and analytics for professionals. We offer a hands-on programming experierence combined with real world business cases and industry data sets. Enhance your career and become a data professional.",
+                    "logo": "/static/media/sponsors/stackfuel.png"
+                },
+                {
+                    "name": "BlueYonder a jda. company",
+                    "description": "Blue Yonder, a JDA company, is a leading provider of artificial intelligence (AI) and machine learning (ML) solutions that enable retailers, consumer products and other companies to intelligently transform their operations and make more profitable, automated business decisions that deliver higher profits and optimized customer experiences.",
+                    "logo": "/static/media/sponsors/blueyonder.png"
                 }
             ]
         },
@@ -37,17 +77,17 @@
                     "name": "Solute",
                     "description": "Smart online shopping is the mission of solute GmbH with its core brands billiger.de and shopping.de. Online shopping has been the passion of its 180 employees for 15 years. The innovative company also puts its know-how into its four own brands.",
                     "logo": "/static/media/sponsors/solute.jpg"
+                },
+                {
+                    "name": "The Qt Company",
+                    "description": "Qt is used by major global companies and developers worldwide, and the technology enables its customers to deliver exceptional user experiences and advance their digital transformation initiatives.",
+                    "logo": "/static/media/sponsors/qt_logo.png"
                 }
             ]
         },
         {
             "name": "Community & Financial Aid Sponsors",
             "sponsors": [
-                {
-                    "name": "Königsweg",
-                    "description": "Königsweg supports corporate and public clients in achieving better transformation results. Leveraging a broad network of subject matter experts, Königsweg consultants connect different business divisions and turn them into an integrated unit through future-proof technology.",
-                    "logo": "/static/media/sponsors/konigsweg.png"
-                },
                 {
                     "name": "EuroPython Society",
                     "description": "The EuroPython Society (EPS) is a Swedish non-profit organization which organizes EuroPython conferences, supports the Python community in Europe and holds the rights to the EuroPython conference series and trademarks.",
