@@ -82,6 +82,11 @@
                     "name": "The Qt Company",
                     "description": "Qt is used by major global companies and developers worldwide, and the technology enables its customers to deliver exceptional user experiences and advance their digital transformation initiatives.",
                     "logo": "/static/media/sponsors/qt_logo.png"
+                },
+                {
+                    "name": "Novatec Consulting",
+                    "description": "As an independent IT specialist, we have been leading our customers into the digital future for more than 20 years – with more than 220 employees at nine locations in Europe.",
+                    "logo": "/static/media/sponsors/novatec.jpg"
                 }
             ]
         },
