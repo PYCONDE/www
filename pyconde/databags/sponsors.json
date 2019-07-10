@@ -6,7 +6,7 @@
                 {
                     "name": "Deloitte",
                     "description": "Deloitte provides audit, risk advisory, tax, financial advisory and consulting services to public and private clients spanning multiple industries; legal advisory services in Germany are provided by Deloitte Legal. With a globally connected network of member firms in more than 150 countries, Deloitte brings world-class capabilities and high-quality service to clients, delivering the insights they need to address their most complex business challenges.",
-                    "logo": "/static/media/sponsors/deloitte.jpg"
+                    "logo": "/static/media/sponsors/deloitte.png"
                 },
                 {
                     "name": "JetBrains",
@@ -44,9 +44,9 @@
                     "logo": "/static/media/sponsors/zalando.png"
                 },
                 {
-                    "name": "MyTaxi",
-                    "description": "mytaxi was founded in June 2009 and was the world’s first taxi app that established a direct connection between a passenger and a taxi driver. Within 2019, mytaxi will rebrand to FREE NOW. We have three tech hubs: Barcelona, Hamburg, and Berlin. Our daily business is solving large-scale, highly complex technical problems – and we love it.",
-                    "logo": "/static/media/sponsors/mytaxi.png"
+                    "name": "FREE NOW",
+                    "description": "FREE NOW was founded in June 2009 and was the world’s first taxi app that established a direct connection between a passenger and a taxi driver. We have three tech hubs: Barcelona, Hamburg, and Berlin. Our daily business is solving large-scale, highly complex technical problems – and we love it.",
+                    "logo": "/static/media/sponsors/free_now.png"
                 },
                 {
                     "name": "Königsweg",
