@@ -6,7 +6,7 @@
                 {
                     "name": "Deloitte",
                     "description": "Deloitte provides audit, risk advisory, tax, financial advisory and consulting services to public and private clients spanning multiple industries; legal advisory services in Germany are provided by Deloitte Legal. With a globally connected network of member firms in more than 150 countries, Deloitte brings world-class capabilities and high-quality service to clients, delivering the insights they need to address their most complex business challenges.",
-                    "logo": "/static/media/sponsors/deloitte.png"
+                    "logo": "/static/media/sponsors/deloitte-logo.png"
                 },
                 {
                     "name": "JetBrains",
@@ -72,6 +72,11 @@
                     "name": "eBay Tech Berlin",
                     "description": "eBay Tech includes software developers, testers, data engineers & scientists as well as site operations teams from eBay Germany, eBay Kleinanzeigen, mobile.de and MOTOR-TALK. We build leading online platforms using the latest technologies and methods. We have three offices in the greater Berlin metropolitan area.",
                     "logo": "/static/media/sponsors/logo_ebay_final-hoch.png"
+                },
+                {
+                    "name": "Flying Circus",
+                    "description": "For more than 20 years we have been involved with digitalization projects and are responsible for hosting and operating business critical applications. Constant change and growing complexity are the biggest challenges: no project is the same and nobody can predict all possible requirements. Thus we do not rely on ready-made plans but on our experience, practical solutions and close cooperation.",
+                    "logo": "/static/media/sponsors/flying-circus.png"
                 }
             ]
         },
