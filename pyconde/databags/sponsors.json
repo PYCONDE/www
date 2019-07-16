@@ -6,7 +6,7 @@
                 {
                     "name": "Deloitte",
                     "description": "Deloitte provides audit, risk advisory, tax, financial advisory and consulting services to public and private clients spanning multiple industries; legal advisory services in Germany are provided by Deloitte Legal. With a globally connected network of member firms in more than 150 countries, Deloitte brings world-class capabilities and high-quality service to clients, delivering the insights they need to address their most complex business challenges.",
-                    "logo": "/static/media/sponsors/deloitte.jpg"
+                    "logo": "/static/media/sponsors/deloitte-logo.png"
                 },
                 {
                     "name": "JetBrains",
@@ -44,9 +44,9 @@
                     "logo": "/static/media/sponsors/zalando.png"
                 },
                 {
-                    "name": "MyTaxi",
-                    "description": "mytaxi was founded in June 2009 and was the world’s first taxi app that established a direct connection between a passenger and a taxi driver. Within 2019, mytaxi will rebrand to FREE NOW. We have three tech hubs: Barcelona, Hamburg, and Berlin. Our daily business is solving large-scale, highly complex technical problems – and we love it.",
-                    "logo": "/static/media/sponsors/mytaxi.png"
+                    "name": "FREE NOW",
+                    "description": "FREE NOW was founded in June 2009 and was the world’s first taxi app that established a direct connection between a passenger and a taxi driver. We have three tech hubs: Barcelona, Hamburg, and Berlin. Our daily business is solving large-scale, highly complex technical problems – and we love it.",
+                    "logo": "/static/media/sponsors/free_now.png"
                 },
                 {
                     "name": "Königsweg",
@@ -67,6 +67,16 @@
                     "name": "BlueYonder a jda. company",
                     "description": "Blue Yonder, a JDA company, is a leading provider of artificial intelligence (AI) and machine learning (ML) solutions that enable retailers, consumer products and other companies to intelligently transform their operations and make more profitable, automated business decisions that deliver higher profits and optimized customer experiences.",
                     "logo": "/static/media/sponsors/blueyonder.png"
+                },
+                {
+                    "name": "eBay Tech Berlin",
+                    "description": "eBay Tech includes software developers, testers, data engineers & scientists as well as site operations teams from eBay Germany, eBay Kleinanzeigen, mobile.de and MOTOR-TALK. We build leading online platforms using the latest technologies and methods. We have three offices in the greater Berlin metropolitan area.",
+                    "logo": "/static/media/sponsors/logo_ebay_final-hoch.png"
+                },
+                {
+                    "name": "Flying Circus",
+                    "description": "For more than 20 years we have been involved with digitalization projects and are responsible for hosting and operating business critical applications. Constant change and growing complexity are the biggest challenges: no project is the same and nobody can predict all possible requirements. Thus we do not rely on ready-made plans but on our experience, practical solutions and close cooperation.",
+                    "logo": "/static/media/sponsors/flying-circus.png"
                 }
             ]
         },
@@ -77,6 +87,16 @@
                     "name": "Solute",
                     "description": "Smart online shopping is the mission of solute GmbH with its core brands billiger.de and shopping.de. Online shopping has been the passion of its 180 employees for 15 years. The innovative company also puts its know-how into its four own brands.",
                     "logo": "/static/media/sponsors/solute.jpg"
+                },
+                {
+                    "name": "The Qt Company",
+                    "description": "Qt is used by major global companies and developers worldwide, and the technology enables its customers to deliver exceptional user experiences and advance their digital transformation initiatives.",
+                    "logo": "/static/media/sponsors/qt_logo.png"
+                },
+                {
+                    "name": "Novatec Consulting",
+                    "description": "As an independent IT specialist, we have been leading our customers into the digital future for more than 20 years – with more than 220 employees at nine locations in Europe.",
+                    "logo": "/static/media/sponsors/novatec.jpg"
                 }
             ]
         },
