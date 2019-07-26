@@ -162,6 +162,12 @@ If this is important to you, business ticket is the way to go.
 
 No, purchase via the website only, which requires a credit card.
 
+#### The credit card is not working, are there alternative payment methods?
+
+No, we do not offer alternative payment methods. We use [Stripe](https://stripe.com) for processing all credit card payments. Stripe is a well established payment provider.   
+If your credit card is not working, please do contact your bank.  
+If you do not have a credit card, consider asking a friend with a credit card to help you out. 
+
 #### Where can I find the invoice?
 
 Once the purchase is finished you will receive **two emails** from Tito, one contains the link to your invoice, you can add/edit the invoicing address as well.
