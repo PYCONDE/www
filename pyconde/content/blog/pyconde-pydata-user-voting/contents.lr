@@ -47,6 +47,8 @@ To cast votes one requires an email address we know , i.e. has been used for:
 To re-visit the page:go to [https://voting.pycon.de](https://voting.pycon.de).
 You should be logged in automatically, otherwise please use the link from the email again or have the system send you a new magic link by re-entering you email address.
 
+Please note it may take a few minutes until you receive the eamil, though it's sent instantly, mail providers seems to hold it back a bi
+
 
 ### How Talk Voting Works
 The voting system allows only for positive votes, i.e. there is no way of downvoting proposals by giving them a bad rating.
@@ -75,8 +77,8 @@ We believe a good conference is made of popular talks as well as new or niche to
 - 9 June call for speakers closes (after two weeks extention)
 - 23 June launch of user voting (beta)
 - 7 July last day of of user voting
-- 21 July acceptance notices go out
-- 29 July program is published
+- 2 August acceptance notices go out
+- 7 August program is published
 
 
 ### Data Protection

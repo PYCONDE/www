@@ -25,19 +25,51 @@ As almost all Python and PyData conferences this event is run and organised by v
 
 #### What can I do to support?
 
-Lighten our communication load: read our update emails (check your spam), be proactive and try to find answers by googling or via our community channels as the open Telegram group.
+Lighten our communication load:
+ - read our update emails (check your spam),
+ - be proactive and try to find answers by googling or via our community channels as:
+   - the open [Telegram group](https://t.me/pyconde)
+   - [Twitter](https://twitter.com/pyconde)
+   - check [Important Dates](#important-dates) for updates
+
+Once tickets are sold out,  
+**please do refrain from sending emails to help desk if there was "something we could do", we can not.   
+Thanks for your kind understanding. :)**
+
+<h4 id="important-dates">Important Dates</h4>
+
+- 29 April call for speakers opens
+- 9 June call for speakers closes (after two weeks extention)
+- 23 June launch of user voting (beta)  [updated]
+- 7 July last day of of user voting  [updated]
+- 2 August acceptance notices go out  [updated]
+- 7 August program is published [updated]
+- 30 Jun End of scholarship programme
+- 31 Aug Switch to late bird tickets
 
 #### What's the conference language?
 
 The conference is all in English.
 
-#### When will the conference open / close?
+<h4 id="opening-times">When will the conference open / close?</h4>
 
-We expect to open the conference registration on Wednesday October 9th at 8:00.
-The conference will start at 9:30.
-The conference will close around 17:30 each day on Wednesday, Thursday and Friday.
+**Wednesday October 9**  
+08:00 Registration - please keep in mind the first day will be very busy due to registration. **Please do arrive early!**  
+10:30 Conference opening  
+18:30 Conference end  
 
-Sprint on Saturday and Sunday will be open 9:00 - 18:00 (tbc.).
+**Thursday October 10**  
+08:30 Doors open  
+09:00 Conference start  
+18:30 Conference end  
+
+**Friday October 11**  
+08:30 Doors open  
+09:00 Conference start  
+16:45 Conference end  
+
+**Sprints**  
+Saturday and Sunday will be open 9:00 - 18:00 (tbc.).
 
 #### Visa - I need a visa to go to Germany. Could you please write me an invitation letter?
 
@@ -78,7 +110,8 @@ Please submit your proposal via the CfP form. The CfP will open be from April 29
 
 #### When will I get notified?
 
-A first program draft is expected by June 23rd, speakers will get notified upfront.
+Due to the volume of submissions received the review process will take longer than originally expected.
+Please see here [Important Dates](#important-dates) for updates
 
 #### How can I edit my speaker profile?
 
@@ -144,6 +177,12 @@ If this is important to you, business ticket is the way to go.
 
 No, purchase via the website only, which requires a credit card.
 
+#### The credit card is not working, are there alternative payment methods?
+
+No, we do not offer alternative payment methods. We use [Stripe](https://stripe.com) for processing all credit card payments. Stripe is a well established payment provider.   
+If your credit card is not working, please do contact your bank.  
+If you do not have a credit card, consider asking a friend with a credit card to help you out. 
+
 #### Where can I find the invoice?
 
 Once the purchase is finished you will receive **two emails** from Tito, one contains the link to your invoice, you can add/edit the invoicing address as well.
@@ -180,6 +219,12 @@ However companies can easily apply for a VAT refund.
 
 Yes, tickets are refundable until August 30th\. No refunds after August 30th\. You may re-assign the ticket to someone else if you cannot make it or donate it to the financial aid programme.
 Please send an email to info@pycon.de to request a refund, refunds will be credited to the credit card used for purchase only.
+
+#### Tickets are sold out.
+
+Once the conference is sold out, you may sign up for a ticket waiting list on the ticket page. Please sign up only **once**.  
+If tickets become available due to cancellations received we will offer these tickets for sale to people on the waiting list.  
+These offers are only valid for a few hours and are FIFO (first come-first served) - watch your inboxes!
 
 #### How can I change information on my badge?
 
