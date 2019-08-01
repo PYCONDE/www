@@ -1,6 +1,16 @@
 {
     "types": [
         {
+            "name": "Diamond sponsors",
+            "sponsors": [
+                {
+                    "name": "Anaconda",
+                    "description": "With more than 15 million users, Anaconda is the world’s most popular data science platform and the foundation of modern machine learning. Our flagship product, Anaconda Enterprise, delivers data science and machine learning at speed and scale, unleashing the full potential of our customers’ data science and machine learning initiatives.",
+                    "logo": "/static/media/sponsors/anaconda.jpg"
+                }
+            ]
+        },
+        {
             "name": "Platinum sponsors",
             "sponsors": [
                 {
