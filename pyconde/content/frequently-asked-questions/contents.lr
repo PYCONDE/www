@@ -131,29 +131,57 @@ Yes you can add another speaker to your proposal via Pretalx but please note the
 
 #### I have submitted a talk, but would like to make some edits after the CfP.
 
-Please feel free to make reasonable edits and improvements to your description any time. Regardless, your talk must not become a different one. Changes are monitored.
+Please feel free to make reasonable edits and improvements to your description any time. Regardless, your talk must not become a different one. Changes are monitored. Please note during review the talks are non-editable, once accepted you may edit again. See "How can I edit my proposals?" above.
 
 #### Are speakers invited to the conference?
 
 Accepted speakers will be provided a complimentary ticket for all the conference but we do not cover any travel or accommodation costs.
 
+####  What if I have purchased a ticket and get a free speaker ticket later?
+
+Please see "Are tickets refundable?" - if your talk was selected after that deadline we are happy to refund anyway .
+
 #### What about internet during my talk?
 
 There will be no guaranteed internet for the talks, try to avoid making your presentation depend on internet connections. Use internet at your own risk. Though we try our best briefing the providers - conference WiFi performance might not meet everyone's expectations.
+
+<h3 id="open-talk-options">Other Options to Present About a Topic</h3>
+
+#### Lightning Talks
+
+A lightning talk (LT) is a short presentation which must not be longer than five minutes.
+You may talk about / present (almost) everything with certain boundaries:
+ - no promotion for products of companies, no call for 'we are hiring' (but you may name your employer).
+ - conference announcements are limited to one minute only
+ - one LT per person per conference policy: everyone who has not given a LT at this year's conference, yet, is ahead of you in the queue
+ - keep it short, the shorter the presentations, the more people can give a lightning talk
+
+To sign up for a lightning talk, please put your name and topic on the whiteboard close to the registration desk.
+Signing up is on a first-come-first-served basis. The queue is reset every day in the morning.
+
+#### Open Space
+
+A space for participant-driven conference sessions. Open Space is an opportunity to engage in learning, listening, and discussions around topics that interest you.
+We have six 30 minute sessions avaiable this year, please come to the registration desk to sign up.
+Please note: Open Space is meant to be an interactive format, i.e. not a replacement to give prepared presentations.
+
+You may talk about / discuss / present (almost) everything with certain boundaries:
+ - no promotion for products of companies, no call for 'we are hiring' (but you may name your employer).
+ - one Open Space per person per conference policy: everyone who has not organised an Open Space at this year's conference, yet, is ahead of you in the queue
+ - reach out to the organisers so we can help you to make your Open Space session more visible.
+
+
 
 <h3 id="tickets">Tickets</h3>
 
 #### What is the right ticket to buy?
 
-Company and freelancers must buy company tickets. Simple rule: If you do make any money from using Python in a business fashion: buy a company ticket. Reduced tickets are available for students, post-docs, academic researchers, hobbyists, enthusiasts and people just learning the language.
-
-#### Why do I need to apply for a reduced ticket?
-
-Unfortunately, we have seen a lot of 'mistakes' in the past, i.e. companies buying reduced ticket taking them away from the people we do want to support by offering discounted tickets. Therefore we may at any time switch to reviewing reduced tickets. Please do buy responsibly.
+Companies and freelancers must buy company tickets. No exceptions.
+Reduced tickets are available for students, post-docs, academic researchers, hobbyists, enthusiasts and people just learning the language.
 
 #### What about student tickets?
 
-Students have to present a valid student ID at the conference. If you are a student or will be a student while the conference is running you are eligible for one student ticket. In case you are a student now but won't be a student in October we cannot offer you a student ticket.
+Students must present a valid student ID at the conference. If you are a student or will be a student while the conference is running you are eligible for one student ticket. In case you are a student now but won't be a student in October we cannot offer you a student ticket. 
 
 #### I'm on a budget and cannot afford a ticket.
 
@@ -213,7 +241,6 @@ Ticket prices can be [found here](blog/pyconde-pydata-berlin-2019-tickets/) or
 All ticket prices include 19% VAT. [European regulations](https://ep2016.europython.eu/admin/cms/page/edit-plugin/240/#) define that
 conferences are taxable in the country where the conference takes place, so the EU VAT reverse charging mechanism cannot be applied.
 However companies can easily apply for a VAT refund.
-
 
 #### Are tickets refundable?
 

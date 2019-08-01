@@ -8,3 +8,4 @@ www/.lektor/
 .idea
 .envrc
 __pycache__/
+config.py
