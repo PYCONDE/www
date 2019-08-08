@@ -5,12 +5,16 @@
       "path": "/program"
     },
     {
-      "name": "Sprints",
-      "path": "/sprints/"
+      "name": "FAQ",
+      "path": "/frequently-asked-questions/"
     },
     {
       "name": "Blog",
       "path": "/blog"
+    },
+    {
+      "name": "Sprints",
+      "path": "/sprints/"
     },
     {
       "name": "Sponsors",
@@ -19,10 +23,6 @@
     {
       "name": "Info",
       "submenu": [
-        {
-          "name": "FAQ",
-          "path": "/frequently-asked-questions/"
-        },
         {
           "name": "Venue",
           "path": "/venue"
