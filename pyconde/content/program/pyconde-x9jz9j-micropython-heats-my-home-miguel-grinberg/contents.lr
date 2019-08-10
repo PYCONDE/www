@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/X9JZ9J.jpg
 ---
 speakers: Miguel Grinberg
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Microcontrollers • Makers • APIs
 ---
@@ -25,6 +25,8 @@ Miguel Grinberg wrote his first line of code in 1983 and hasn't stopped coding s
 affiliation: 
 ---
 track: PyConDE
+---
+meta_title: MicroPython Heats My Home @miguelgrinberg #PyConDE #PyDataBerlin
 ---
 body: In 2018 I moved to Ireland from the United States, and the house I rented was very cold, in spite of having a modern Internet-enabled heating controller. In this talk I want to tell you how I "debugged" the problem and how I then improved the heating using a couple of microcontrollers running MicroPython, all without making any modifications to this house I do not own.
 

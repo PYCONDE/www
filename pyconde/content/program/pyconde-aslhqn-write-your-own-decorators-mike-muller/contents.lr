@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/ASLHQN.jpg
 ---
 speakers: Mike Müller
 ---
-submission_type: Tutorial - 90 Min.
+submission_type: Tutorial
 ---
 domains: Algorithms
 ---
@@ -31,6 +31,8 @@ He is the chairman of the Python Software Verband e.V., a PSF fellow, a PSF comm
 affiliation: Python Academy
 ---
 track: PyConDE
+---
+meta_title: Write your Own Decorators @pyacademy #PyConDE #PyDataBerlin
 ---
 body: Writing a function that takes a function and returns new, modified function requires solid knowledge how Python functions and closures work. This  hands-on workshop takes  you step-by-step through the process of writing decorators. Learn how to apply best practices from the start.
 

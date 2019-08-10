@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/SXSE8D.jpg
 ---
 speakers: Jacek Kołodziej
 ---
-submission_type: Talk - 45 Min.
+submission_type: Talk
 ---
 domains: Use Cases
 ---
@@ -29,6 +29,8 @@ Affiliation: Growbots
 affiliation: Growbots
 ---
 track: PyConDE
+---
+meta_title: Event-Sourced Story @unit03 #PyConDE #PyDataBerlin
 ---
 body: Popularity of event sourcing among Python developers seems to be moderate but growing. It can be seen as an enterprise architectural pattern, not worth considering in "smaller" applications.
 

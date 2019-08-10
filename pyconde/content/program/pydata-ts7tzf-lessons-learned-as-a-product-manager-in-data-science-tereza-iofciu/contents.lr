@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/TS7TZF.jpg
 ---
 speakers: Tereza Iofciu
 ---
-submission_type: Talk - 45 Min.
+submission_type: Talk
 ---
 domains: Business & Start-Ups • Data Science • Machine Learning
 ---
@@ -29,6 +29,8 @@ In her free time she draws dinosaurs under the label tiyepyep
 affiliation: mytaxi
 ---
 track: PyData
+---
+meta_title: Lessons Learned as a Product Manager in Data Science @terezaif #PyConDE #PyDataBerlin
 ---
 body: From answering simple data questions, building cool visualisations, to building machine learning solutions and bringing them to production, these are all skills expected from data science teams. 
 

@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/PPGWXL.jpg
 ---
 speakers: Alessia Marcolini
 ---
-submission_type: Talk - 45 Min.
+submission_type: Talk
 ---
 domains: Artificial Intelligence • Data Science • Machine Learning
 ---
@@ -27,6 +27,8 @@ Enthusiastic and curious ICT student at University of Trento, with a passion for
 affiliation: Fondazione Bruno Kessler
 ---
 track: PyData
+---
+meta_title: Version Control for Data Science @viperale #PyConDE #PyDataBerlin
 ---
 body: *Data* is the key differentiator between a Machine Learning project and a traditional software project: even if everything else stays stable, changing the data your models are trained upon makes a huge difference.
 

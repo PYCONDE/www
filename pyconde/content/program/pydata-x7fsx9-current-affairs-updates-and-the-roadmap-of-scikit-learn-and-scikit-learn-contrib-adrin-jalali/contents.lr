@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/X7FSX9.jpg
 ---
 speakers: Adrin Jalali
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Artificial Intelligence • Community • Code-Review • Machine Learning
 ---
@@ -27,6 +27,8 @@ I did computer science in Iran, then bioinformatics in Canada and then Germany. 
 affiliation: Anaconda Inc.
 ---
 track: PyData
+---
+meta_title: Current affairs, updates, and the roadmap of scikit-learn and scikit-learn-contrib  #PyConDE #PyDataBerlin
 ---
 body: [Scikit-learn](https://scikit-learn.org/stable/) a package used by many machine learning students, enthusiasts, and data scientists, has over 35000 stars, 17000 forks, 1200 open issues, and 700 open pull requests.
 

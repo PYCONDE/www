@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/WJGCNV.jpg
 ---
 speakers: daniel rios
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Community • Microcontrollers • Makers
 ---
@@ -27,6 +27,8 @@ I came to programming late in life, and have been programming in Python since 20
 affiliation: Jonas und der Wolf
 ---
 track: PyConDE
+---
+meta_title: Optimizing Input: Building your own customized keyboard @misterrios #PyConDE #PyDataBerlin
 ---
 body: As computer users, we spend copious amounts of time in front of screens, but, as writers and editors of text, we tend to ignore or overlook the way we most directly interact with our development environments, the keyboard.
 

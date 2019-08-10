@@ -15,22 +15,24 @@
 
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="dns-prefetch" href="//s.w.org">
-    <link rel="icon" href="{{ '/static/favicons/favicon-neon.png'|url }}" type="image/x-icon">
+    <link rel="icon" href="{{ '/static/favicons/favicon-neon.png'|asseturl }}" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla:400,700i,700|Poppins:700">
-    <link rel="stylesheet" href="{{ '/static/css/font-awesome.css'|url }}" type="text/css" media="all">
-    <link rel="stylesheet" href="{{ '/static/style.css'|url }}" type="text/css" media="all">
-    <link rel="stylesheet" href="{{ '/static/style-custom.css'|url }}" type="text/css" media="all">
+    <link rel="stylesheet" href="{{ '/static/css/font-awesome.css'|asseturl }}" type="text/css" media="all">
+    <link rel="stylesheet" href="{{ '/static/style.css'|asseturl }}" type="text/css" media="all">
+    <link rel="stylesheet" href="{{ '/static/style-custom.css'|asseturl }}" type="text/css" media="all">
 
     <!-- Twitter Card data -->
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@pyconde">
-    <meta name="twitter:title" content="{{ this.title }}">
+    <meta name="twitter:title" content="{{ this.meta_title }}">
     <meta name="twitter:description" content="{{ this.description }}">
     {% if this.twitter_image %}
-        <meta name="twitter:image" content="{{ this.twitter_image }}|url ">
+        {% set turl = this.twitter_image %}
+        <meta name="twitter:image" content="{{ site.config.PROJECT.url }}{{ turl|asseturl }}">
     {% else %}
-        <meta name="twitter:image" content="{{ '/static/media/twitter/PyConDEPyDataSquare.jpg'|url }}">
+        {% set turl = site.get('/static/media/twitter/PyConDEPyData.jpg') %}
+        <meta name="twitter:image" content="{{ turl }}">
     {% endif %}
 </head>
 

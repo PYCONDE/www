@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/UMWRYD.jpg
 ---
 speakers: Andreas Hantsch
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Deep Learning • Machine Learning • Science
 ---
@@ -27,6 +27,8 @@ Affiliation: CLOUD&HEAT Technologies GmbH
 affiliation: CLOUD&HEAT Technologies GmbH
 ---
 track: PyData
+---
+meta_title: Machine learning with little data - from digital twin to predictive maintenance @ndrsh2 #PyConDE #PyDataBerlin
 ---
 body: New hardware systems usually lack of measurement data for machine learning applications, especially for fault detection and predictive maintenance. However, simulation techniques are commonly employed for speeding up the development process but are rarely utilised afterwards.
 

@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/F3TCZN.jpg
 ---
 speakers: David Schmudde
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Data Science • IDEs/ Jupyter
 ---
@@ -29,6 +29,8 @@ He's always ready to discuss big ideas - find him at http://schmud.de.
 affiliation: Nextjournal
 ---
 track: PyConDE
+---
+meta_title: Dr. Schmood's Notebook of Python Calisthenics and Orthodontia https://twitter.com/dschmudde #PyConDE #PyDataBerlin
 ---
 body: "Programs should be written for people to read, and only incidentally for machines to execute." - Abelson and Sussman, *Structure and Interpretation of Computer Programs*
 

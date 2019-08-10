@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/CEYMMK.jpg
 ---
 speakers: Eran Friedman
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Infrastructure • Robotics
 ---
@@ -28,6 +28,8 @@ Since then, I've worked as a software engineer in different roles with vast expe
 affiliation: CommonSense Robotics
 ---
 track: PyConDE
+---
+meta_title: Boosting simulation performance with Python  #PyConDE #PyDataBerlin
 ---
 body: Our product uses a fleet of real (not virtual) robots to perform different tasks in a fulfillment warehouse. Simulation is an essential tool in this kind of product: it allows to perform regression tests and test new features without the need for real and expensive hardware, to compare the impact of different implementations and optimizations, to inject failures, and more.
 

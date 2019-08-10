@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/NC8VVA.jpg
 ---
 speakers: Tania Vasilikioti
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Data Science • Visualisation
 ---
@@ -29,6 +29,8 @@ Tania is a Data Scientist at Babbel in Berlin and fights daily for the best way 
 affiliation: Babbel
 ---
 track: PyData
+---
+meta_title: Making the complex simple in data viz @tvasi #PyConDE #PyDataBerlin
 ---
 body: When building a data visualization in Python from scratch, we quickly stumble across multiple questions: "What type of plot to use?" "How to scale the axes?" "How many dimensions?" "Should I use colors?" In trying to answer these, we can easily get lost in multiple exploratory trips to Stack Overflow, documentation pages, example galleries, and tutorials, often resulting in code that utilizes three different libraries, is more than 50 lines long, and leaves us with a feeling that our graphic's language is lacking structure.
 

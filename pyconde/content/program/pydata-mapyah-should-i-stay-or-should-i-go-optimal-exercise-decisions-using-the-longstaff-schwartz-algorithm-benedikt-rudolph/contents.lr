@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/MAPYAH.jpg
 ---
 speakers: Benedikt Rudolph
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Algorithms • Business & Start-Ups • Data Science • Science • Statistics
 ---
@@ -27,6 +27,8 @@ I studied Mathematical Finance at Technical University of Munich. After graduati
 affiliation: Lucht Probst Associates
 ---
 track: PyData
+---
+meta_title: Should I stay or should I go? Optimal exercise decisions using the Longstaff-Schwartz algorithm  #PyConDE #PyDataBerlin
 ---
 body: A common problem in mathematical finance is the evaluation of exercise options (enter or cancel rights) in financial contracts. A typical example is an American equity option that allows the investor at any given day to buy (or sell) a stock at a fixed price. The owner has to decide every day whether to exercise the option or to hold it and exercise later. Another example is a corporate bond that can be canceled by the issuer at several dates before its maturity. More general, a situation where a company or an investor can opt in or opt out of a business or contract can be framed as an exercise option.
 

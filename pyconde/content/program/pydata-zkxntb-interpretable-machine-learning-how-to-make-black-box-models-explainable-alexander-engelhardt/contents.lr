@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/ZKXNTB.jpg
 ---
 speakers: Alexander Engelhardt
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Data Science • Machine Learning
 ---
@@ -29,6 +29,8 @@ Caught the entrepreneurial bug. Now experimenting with product-based business an
 affiliation: Engelhardt Data Science GmbH
 ---
 track: PyData
+---
+meta_title: Interpretable Machine Learning: How to make black box models explainable @eng_elhardt #PyConDE #PyDataBerlin
 ---
 body: We all love linear regression for its interpretability: Increase square
 meters by 1, that leads to rent going up by 8 euros. A human can easily

@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/FAYUEK.jpg
 ---
 speakers: Pedro Saleiro
 ---
-submission_type: Tutorial - 90 Min.
+submission_type: Tutorial
 ---
 domains: Data Science • Machine Learning
 ---
@@ -27,6 +27,8 @@ Pedro Saleiro is a post-doc at the University of Chicago working with Rayid Ghan
 affiliation: University of Chicago
 ---
 track: PyData
+---
+meta_title: Fair and equitable decision-making with AI: a practical guide & hands-on tutorial using Aequitas  #PyConDE #PyDataBerlin
 ---
 body: Recent work has raised concerns on the risk of unintended bias in AI systems being used nowadays that can affect individuals unfairly based on race, gender or religion, among other possible characteristics.
 While a lot of bias metrics and fairness definitions have been proposed in recent years, there is no consensus on which metric/definition should be used and there are very few available resources

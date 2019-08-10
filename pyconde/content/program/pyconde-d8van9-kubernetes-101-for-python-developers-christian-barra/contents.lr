@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/D8VAN9.jpg
 ---
 speakers: Christian Barra
 ---
-submission_type: Tutorial - 90 Min.
+submission_type: Tutorial
 ---
 domains: DevOps • Infrastructure • Web • APIs • Use Cases
 ---
@@ -31,6 +31,8 @@ I am an active member of the tech community in Berlin, organizer of PyCon DE and
 affiliation: Infarm
 ---
 track: PyConDE
+---
+meta_title: Kubernetes 101 for Python Developers @christianbarra #PyConDE #PyDataBerlin
 ---
 body: Do you find easier to build a 3894 pieces IKEA’s furniture than using K8s?
 

@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/QHNEFT.jpg
 ---
 speakers: Stefan Maier
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Algorithms • Data Science • Machine Learning • Statistics
 ---
@@ -36,6 +36,8 @@ _2003 - 2009_ Studies of Physics, University of Ulm and University of New Mexico
 affiliation: Blue Yonder, a JDA company
 ---
 track: PyData
+---
+meta_title: Embrace uncertainty! Why to go beyond point estimators for valuable ML applications  #PyConDE #PyDataBerlin
 ---
 body: The uncertainty of predictions from ML models is often just regarded as a bad thing - as a sign of model deficiencies, too little data, or lacking input features. In this talk, I will argue why knowing this uncertainty can be valuable. This especially applies if your ML model is used to minimize some kind of cost - either implicitly by a human or explicitly by an optimization algorithm.
 

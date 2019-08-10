@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/AEAT3E.jpg
 ---
 speakers: Dr. Tania Allard
 ---
-submission_type: Talk - 45 Min.
+submission_type: Talk
 ---
 domains: Algorithms • Big Data • Data Science • DevOps • Machine Learning
 ---
@@ -28,6 +28,8 @@ She is passionate about mentoring, open source, and its community and is involve
 affiliation: Microsoft
 ---
 track: PyData
+---
+meta_title: Practical DevOps for the busy data scientist @ixek #PyConDE #PyDataBerlin
 ---
 body: I will provide a number of machine learning examples and use cases focusing on logging, debugging, diagnosis, automated testing, integration and delivery. In brief, this talk will lead you to step by step on how to use  Azure Devops to automate the deployment of your data applications along with Kubernetes and Docker containers to a production environment.
 

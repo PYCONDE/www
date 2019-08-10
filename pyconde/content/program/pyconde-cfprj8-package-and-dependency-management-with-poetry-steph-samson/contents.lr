@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/CFPRJ8.jpg
 ---
 speakers: Steph Samson
 ---
-submission_type: Tutorial - 90 Min.
+submission_type: Tutorial
 ---
 domains: DevOps • Infrastructure • Use Cases
 ---
@@ -27,6 +27,8 @@ Steph is a software developer by trade and a computational linguist by training.
 affiliation: Mercedes-Benz.io
 ---
 track: PyConDE
+---
+meta_title: Package and Dependency Management with Poetry  #PyConDE #PyDataBerlin
 ---
 body: Managing a Python project can be overwhelming -- one can need anything from just a requirements.txt file to an array of other files: setup.py, setup.cfg, MANIFEST.in. The question for the new or unfamiliar developer can become, when to use what and why?
 

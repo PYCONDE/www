@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/SGPLXB.jpg
 ---
 speakers: Mariana Capinel
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Natural Language Processing
 ---
@@ -25,6 +25,8 @@ Data scientist with background in Linguistics.
 affiliation: diconium
 ---
 track: PyData
+---
+meta_title: Where Linguistics meets Natural Language Processing  #PyConDE #PyDataBerlin
 ---
 body: For someone working with **Natural Language Processing/Understanding** (NLP/NLU), I see a lot of value in incorporating a formal understanding of how languages are structured, beyond just being able to speak/understand them. In this talk I will give you a simple explanation of the basic concepts and their connection with the NLP/NLU world.
 

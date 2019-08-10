@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/FXUYQ9.jpg
 ---
 speakers: Yetunde Dada
 ---
-submission_type: Talk - 45 Min.
+submission_type: Talk
 ---
 domains: Data Science • DevOps • Machine Learning • Data Engineering
 ---
@@ -27,6 +27,8 @@ Yetunde Dada is a Product Manager at QuantumBlack. She works with an incredible 
 affiliation: QuantumBlack
 ---
 track: PyData
+---
+meta_title: Production-level data pipelines that make everyone happy using Kedro @yetudada #PyConDE #PyDataBerlin
 ---
 body: ### Objective
 This talk will tell a story of how changing business objectives are driving interest in production-level code; what software principles data engineers and data scientists should consider applying to their code to make it easier to deploy into the production environment; and, how they can use an open source Python library, called [Kedro](https://github.com/quantumblacklabs/kedro), to simplify their workflow using our Spaceflights example. 

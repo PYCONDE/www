@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+{% from "macros/categories.html" import render_session_list %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+
+
+    <section class="section section--singular">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 col-xl-10 offset-xl-1">
+                    <header class="page-header">
+                      <h1 class="page-title">Sessions' List</h1>
+                        <h5 class="page-subtitle">
+                            <span>More than 112 sessions await you.</span>
+                            <span>The schedule will be released soon.</span>
+                        </h5>
+                    </header>
+                    <div class="row">
+                      <div class="col-12 col-xl-10 offset-xl-1">
+                        <div class="blog-list in-view in-view--in">
+                            {% for post in this.pagination.items %}
+
+                                <div class="blog-list__post in-view__child in-view__child--fadein in-view__child--in">
+                                    <h5 class="blog-list__title">
+                                        <a href="{{ post|url }}">{{ post.title }}</a>
+                                    </h5>
+                                    <span class="blog-list__info sub-head">{{ post.speakers }}</span>
+                                    <span class="blog-list__info sub-head">| {{ post.submission_type }} - {{ post.track }}</span>
+                                    <p>{{ post.description }}</p>
+                                    <p class="blog-list__link text-xl-right">
+                                        <a class="sub-head dashed dashed--reverse--md in-view__child in-view__child--in" href="{{ post|url }}">Read more</a>
+                                    </p>
+                                </div>
+
+                            {% endfor %}
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+{% endblock %}

@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/WDAANU.jpg
 ---
 speakers: Vincent Warmerdam
 ---
-submission_type: Talk - 45 Min.
+submission_type: Talk
 ---
 domains: Artificial Intelligence • Algorithms • Data Science • IDEs/ Jupyter • Machine Learning • Statistics
 ---
@@ -31,6 +31,8 @@ Vincent solves data problems. AskHimAnything[tm].
 affiliation: GoDataDriven
 ---
 track: PyData
+---
+meta_title: Gaussian Progress @fishnets88 #PyConDE #PyDataBerlin
 ---
 body: When you're a machine learning professional you might feel like you need to learn *so* many algorithms that it can be hard to keep up. It can be very demotivating. This talk is not about downplaying this feeling but it is about demonstrating a lovely hack; understanding a mother algorithm. 
 

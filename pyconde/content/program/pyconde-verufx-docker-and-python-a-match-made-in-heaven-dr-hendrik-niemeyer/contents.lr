@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/VERUFX.jpg
 ---
 speakers: Dr. Hendrik Niemeyer
 ---
-submission_type: Talk - 45 Min.
+submission_type: Talk
 ---
 domains: Big Data • DevOps • Infrastructure
 ---
@@ -29,6 +29,8 @@ interested in containerization and cluster computing for data intensive applicat
 affiliation: ROSEN Technology and Research Center GmbH
 ---
 track: PyConDE
+---
+meta_title: Docker and Python - A Match made in Heaven @hniemeye #PyConDE #PyDataBerlin
 ---
 body: Docker provides tooling for building,
 running and communication between Linux containers. Containers are a lightweight 

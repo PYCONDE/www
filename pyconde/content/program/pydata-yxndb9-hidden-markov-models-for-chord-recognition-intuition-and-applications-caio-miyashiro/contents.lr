@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/YXNDB9.jpg
 ---
 speakers: Caio Miyashiro
 ---
-submission_type: Tutorial - 90 Min.
+submission_type: Tutorial
 ---
 domains: Algorithms • Data Science • Machine Learning • Statistics
 ---
@@ -27,6 +27,8 @@ Working as a Data Scientist @ Mytaxi, I've been trying to improve how people mov
 affiliation: Mytaxi
 ---
 track: PyData
+---
+meta_title: Hidden Markov Models for Chord Recognition - Intuition and Applications https://twitter.com/CaioMiyashiro #PyConDE #PyDataBerlin
 ---
 body: In machine learning, traditional mathematical models are still a good choice when dealing with small to medium datasets. However, the theory behind some of them is still hidden under heavy mathematical jargon, making it difficult for a broader application of them in science and in business.   
 

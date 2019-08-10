@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/WURZX8.jpg
 ---
 speakers: Dan Fritchman
 ---
-submission_type: Talk - 45 Min.
+submission_type: Talk
 ---
 domains: Microcontrollers • Parallel Programming • Science • Makers
 ---
@@ -27,6 +27,8 @@ Dan Fritchman is the founder of San Francisco, Ca based HW21, an early-stage com
 affiliation: HW21
 ---
 track: PyConDE
+---
+meta_title: Chips Made From Python @dan_fritchman #PyConDE #PyDataBerlin
 ---
 body: Chip design does not often tend to be thought of as *programming*, although a complex system-on-chip (SoC) is generally crafted through thousands or millions of lines of code. 
 

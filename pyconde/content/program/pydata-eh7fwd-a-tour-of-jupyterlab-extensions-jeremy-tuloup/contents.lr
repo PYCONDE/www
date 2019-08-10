@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/EH7FWD.jpg
 ---
 speakers: Jeremy Tuloup
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Community • Data Science • IDEs/ Jupyter • Visualisation
 ---
@@ -31,6 +31,8 @@ Prior to joining QuantStack, he worked at Ubisoft and Wooga on game engine and d
 affiliation: QuantStack
 ---
 track: PyData
+---
+meta_title: A Tour of JupyterLab Extensions @jtpio #PyConDE #PyDataBerlin
 ---
 body: This presentation is an extended (and updated!) version of the [lightning talk given at the PyData Berlin Meetup (December 2018)](https://github.com/jtpio/10-minutes-10-jlab-extensions).
 

@@ -398,6 +398,8 @@ affiliation: {affiliation}
 ---
 track: {track}
 ---
+meta_title: {meta_title}
+---
 body: {body}
 
 """
@@ -421,6 +423,9 @@ body: {body}
                 biography.append(' • '. join(social))
         biography = '\n\n'.join(biography)
 
+        speaker_twitters = ' '.join([x.get('@twitter') for x in submission['speakers'] if x.get('@twitter')])
+        meta_title = f"{submission['title']} {speaker_twitters} #PyConDE #PyDataBerlin"
+
         domains = f"{' • '.join(submission['domains'].split(', '))}"
         expertise = f"Python Knowledge {submission['python_skill']} • Domain Expertise: {submission['domain_expertise']}"
 
@@ -436,11 +441,12 @@ body: {body}
                 domains=domains,
                 track=submission['track'],
                 expertise=expertise,
-                submission_type=submission['submission_type'],
+                submission_type=submission['submission_type'].split(' ')[0],
                 speakers=', '.join([x['name'] for x in submission['speakers']]),
                 biography=biography,
                 affiliation=', '.join([x['affiliation'] for x in submission['speakers']]),
                 twitter_image=f"/static/media/twitter/{submission['code']}.jpg",
+                meta_title=meta_title,
             ))
         # break
     # TODO redirect renames to new dir

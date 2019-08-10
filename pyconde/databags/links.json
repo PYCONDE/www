@@ -2,7 +2,12 @@
   "product": [
     {
       "name": "Program",
-      "path": "/program"
+      "submenu": [
+        {
+          "name": "All Sessions",
+          "path": "/program"
+        }
+      ]
     },
     {
       "name": "FAQ",

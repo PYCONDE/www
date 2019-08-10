@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/WRPFUC.jpg
 ---
 speakers: Peter Kairouz
 ---
-submission_type: Tutorial - 90 Min.
+submission_type: Tutorial
 ---
 domains: Artificial Intelligence • Deep Learning • Data Science • Machine Learning • Data Engineering
 ---
@@ -27,6 +27,8 @@ Peter Kairouz is a researcher interested in machine learning, security, and priv
 affiliation: Google
 ---
 track: PyData
+---
+meta_title: Decentralized and Privacy-Preserving ML via TensorFlow Federated  #PyConDE #PyDataBerlin
 ---
 body: In this tutorial, authors of TensorFlow Federated will introduce the key concepts behind federated learning, an approach to machine learning that allows a shared global model to be trained across many participating clients that keep their training data locally. By eliminating the need to collect data at a central location, yet still enabling each participant to benefit from the collective knowledge of all participants in the network, it lets you build intelligent applications that leverage insights from data that might be too costly, sensitive, or impractical to collect.
 

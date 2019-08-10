@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/QE3UUQ.jpg
 ---
 speakers: Daniel Ringler
 ---
-submission_type: Talk - 45 Min.
+submission_type: Talk
 ---
 domains: Data Science • Visualisation
 ---
@@ -27,6 +27,8 @@ PyData Organizer and Data Scientist working in Berlin
 affiliation: Ancud IT
 ---
 track: PyData
+---
+meta_title: How to choose better colors for your data visualizations https://twitter.com/Ringelpeter #PyConDE #PyDataBerlin
 ---
 body: With Python libraries such as matplotlib, seaborn, bokeh, plotly, altair,  hvplot etc. it is easier than ever to create nice and colorful charts to visualize your data. Many people never change the basic configuration of the libraries because they do not know better (or worse: they do not care). This is why almost all charts look the same. 
 Colors are an important tool to quickly transfer the message of your charts to the viewer. In order to make it easy for the people to understand your charts and your data, it is important to think about how to use colors in data visualization (usually the standard colors are not the colors that should be used!).

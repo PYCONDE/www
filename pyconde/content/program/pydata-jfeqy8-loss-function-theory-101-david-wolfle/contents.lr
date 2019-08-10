@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/JFEQY8.jpg
 ---
 speakers: David Wölfle
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Artificial Intelligence • Algorithms • Deep Learning • Data Science • Machine Learning • Statistics
 ---
@@ -31,6 +31,8 @@ Besides these duties, David likes to give talks about renewable energy and machi
 affiliation: FZI Research Center for Information Technology
 ---
 track: PyData
+---
+meta_title: Loss Function Theory 101  #PyConDE #PyDataBerlin
 ---
 body: Well, you probably know that mean squared error is a good default choice for training machine learning models on regression tasks while cross entropy is commonly recommended for classification. (No worries if not, you will be able to understand the talk nevertheless.) But, do you also know why this is the case? Why these loss functions can be used for machine learning at all, and when you should consider an alternative? No? Great! This talk is for you. 
 

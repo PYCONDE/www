@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/SGVKVS.jpg
 ---
 speakers: Dmitry Nazarov
 ---
-submission_type: Talk - 45 Min.
+submission_type: Talk
 ---
 domains: Web • Use Cases
 ---
@@ -29,6 +29,8 @@ In love with web, startups and producing tech events. [learn.python.ru](learn.py
 affiliation: DataArt
 ---
 track: PyConDE
+---
+meta_title: Fresh New Pythonic Database: EdgeDB (And Why It's the Future) @nazarov_tech #PyConDE #PyDataBerlin
 ---
 body: Why need for a new database, when there's already so many? Excellent question!
 

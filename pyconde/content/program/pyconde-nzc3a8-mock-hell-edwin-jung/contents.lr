@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/NZC3A8.jpg
 ---
 speakers: Edwin Jung
 ---
-submission_type: Talk - 45 Min.
+submission_type: Talk
 ---
 domains: Code-Review • Web • Data Engineering
 ---
@@ -29,6 +29,8 @@ His interests in include software engineer and architecture, software modulariza
 affiliation: Quid
 ---
 track: PyConDE
+---
+meta_title: Mock Hell ejjcatx #PyConDE #PyDataBerlin
 ---
 body: Mocking in Python is tricky.  Most widely available materials on Python mocks serve as a basic operator’s manual for the library, but scarcely address the code smells and technical debt that mocks may create. 
 

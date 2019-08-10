@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/R7PELL.jpg
 ---
 speakers: Dom Weldon
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Data Science • Visualisation • Web
 ---
@@ -29,6 +29,8 @@ Dom came to decisionLab from his PhD studies in Computational Geography at King'
 affiliation: decisionLab
 ---
 track: PyData
+---
+meta_title: Dash: Interactive Data Visualization Web Apps with no Javascript @DomWeldon #PyConDE #PyDataBerlin
 ---
 body: Your data science or machine learning project probably won't just produce a written report. Instead, projects are increasingly expected to produce interactive tools to allow end-users to explore data and results with rich, interactive visualizations. Inevitably, this will be done in a web browser, meaning you'll need to add a quantitatively trained web developer to your team, or have your data scientists spend time learning HTML, Javascript and CSS. Dash, a project by the team that makes Plotly, solves some of these problems by allowing data scientists to build rich and interactive websites in pure python, with minimal knowledge of HTML and absolutely no Javascript.
 

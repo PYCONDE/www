@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/PC38WB.jpg
 ---
 speakers: Tobias Sterbak
 ---
-submission_type: Tutorial - 90 Min.
+submission_type: Tutorial
 ---
 domains: Data Science • Infrastructure • Machine Learning • Data Engineering
 ---
@@ -29,6 +29,8 @@ You can find me on Twitter @tobias_sterbak and blogging on https://www.depends-o
 affiliation: Freelancer @ depends-on-the-defintion
 ---
 track: PyData
+---
+meta_title: Managing the end-to-end machine learning lifecycle with MLFlow @tobias_sterbak #PyConDE #PyDataBerlin
 ---
 body: __Please make sure to check out the installation instructions and data before participating.__ There might be no sufficient internet connection at the venue.
 

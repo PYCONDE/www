@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/TNHATE.jpg
 ---
 speakers: Daniel Heinze
 ---
-submission_type: Tutorial - 90 Min.
+submission_type: Tutorial
 ---
 domains: Computer Vision • Deep Learning • DevOps • IDEs/ Jupyter
 ---
@@ -25,6 +25,8 @@ Daniel is a Data Engineer at Microsoft, working with customers to create service
 affiliation: Microsoft
 ---
 track: PyData
+---
+meta_title: Build a Machine Learning pipeline with Jupyter Notebooks and Azure  #PyConDE #PyDataBerlin
 ---
 body: With increasing focus on Machine Learning systems in almost every business it is important, to build a great pipeline to train, test and deploy your models. In this session we will show a way to do that with Jupyter Notebooks and Azure
 

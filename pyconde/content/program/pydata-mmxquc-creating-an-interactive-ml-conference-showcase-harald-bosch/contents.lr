@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/MMXQUC.jpg
 ---
 speakers: Harald Bosch
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Artificial Intelligence • Computer Vision • Deep Learning • IDEs/ Jupyter • Machine Learning
 ---
@@ -27,6 +27,8 @@ Dr. Harald Bosch is a senior consultant at Novatec Consulting GmbH where he is c
 affiliation: Novatec Consulting GmbH
 ---
 track: PyData
+---
+meta_title: Creating an Interactive ML Conference Showcase  #PyConDE #PyDataBerlin
 ---
 body: If you want to showcase novel technologies, it is best to have interactive demonstrations to explore their characteristics in a playful environment. In this session we will build such a demonstrator for machine-learning-based computer vision in a Jupyter notebook. The goal is to be able to learn new image classes quickly and with minimal training examples for the sake of demonstrating the technology in situations like trade fairs or conference exhibitions. This will not achieve production ready results but is a compact and viable example.
 

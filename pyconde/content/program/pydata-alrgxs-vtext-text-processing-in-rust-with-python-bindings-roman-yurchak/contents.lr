@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/ALRGXS.jpg
 ---
 speakers: Roman Yurchak
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Natural Language Processing
 ---
@@ -26,6 +26,8 @@ as an independent consultant for data science related projects. He is also a  sc
 affiliation: 
 ---
 track: PyData
+---
+meta_title: vtext: text processing in Rust with Python bindings @RomanYurchak #PyConDE #PyDataBerlin
 ---
 body: Scientific Python has historically relied on compiled extensions for performance critical parts of the code. In this talk, we outline how to write Rust extensions for Python using [rust-numpy](https://github.com/rust-numpy/rust-numpy),
 project. Advantages and limitations of this approach as compared to Cython or wrapping Fortran, C or C++ are also discussed.

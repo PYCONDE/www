@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/7QRAWK.jpg
 ---
 speakers: Christine Spindler
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Microcontrollers
 ---
@@ -28,6 +28,8 @@ Besides giving talks about MicroPython Christine teamed up with the amazing pyla
 affiliation: George Robotics Ltd.
 ---
 track: PyConDE
+---
+meta_title: How MicroPython went into space @micropython #PyConDE #PyDataBerlin
 ---
 body: On Board Control Procedures – OBCPs are procedures, or scripts, that can be dynamically uploaded and executed on board a spacecraft even after it has been launched. They can be used to change or extend the functionality of a spacecraft during its mission. Using MicroPython as an OBCP engine would give operators the ability to write such control scripts in Python, allowing them to write expressive and concise code using a familiar language.
 

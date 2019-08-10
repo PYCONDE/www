@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/WQMPSW.jpg
 ---
 speakers: Florian Wilhelm
 ---
-submission_type: Talk - 45 Min.
+submission_type: Talk
 ---
 domains: Artificial Intelligence • Deep Learning • Data Science • Machine Learning • Science
 ---
@@ -27,6 +27,8 @@ Dr. Florian Wilhelm is a data scientist at inovex in Cologne, Germany, where he 
 affiliation: inovex
 ---
 track: PyData
+---
+meta_title: Are you sure about that?! Uncertainty Quantification in AI @FlorianWilhelm #PyConDE #PyDataBerlin
 ---
 body: With the advent of Deep Learning (DL), the field of AI made a giant leap forward and it is nowadays applied in many industrial use-cases. Especially critical systems like autonomous driving, require that DL methods not only produce a prediction but also state the certainty about the prediction in order to assess risks and failure. 
 

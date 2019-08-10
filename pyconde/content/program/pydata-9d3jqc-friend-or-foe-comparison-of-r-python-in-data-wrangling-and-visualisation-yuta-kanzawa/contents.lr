@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/9D3JQC.jpg
 ---
 speakers: Yuta Kanzawa
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Big Data • Deep Learning • Data Science • Machine Learning • Visualisation • Statistics
 ---
@@ -27,6 +27,8 @@ Data Scientist at Janssen Pharmaceutical (Johnson & Johnson) in Tokyo. I have mo
 affiliation: Janssen Pharmaceutical K.K. (Tokyo, Johnson & Johnson)
 ---
 track: PyData
+---
+meta_title: Friend or Foe: Comparison of R & Python in Data Wrangling and Visualisation @yutakanzawa #PyConDE #PyDataBerlin
 ---
 body: R and Python have differences as many as simiralities. Through their comparisons, we can understand both languages better and use them effectively. I will take a look at some examples from de facto standard packages such as tidyverse and pandas for data munging tasks, and ggplot2 and matplotlib (and seaborn) for data visualisation.
 

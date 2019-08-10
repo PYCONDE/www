@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/7X799R.jpg
 ---
 speakers: Nicholas Herriot
 ---
-submission_type: Talk - 45 Min.
+submission_type: Talk
 ---
 domains: Augmented Reality • Networks • Microcontrollers • Visualisation
 ---
@@ -27,6 +27,8 @@ Hi, I'm an open source advocate and typically work on technologies around web an
 affiliation: Samsung Research Istitute - London
 ---
 track: PyConDE
+---
+meta_title: Using Micropython to develop an IoT multimode sensor platform with an Augmented Reality UI @nicholasherriot #PyConDE #PyDataBerlin
 ---
 body: ## Who is this for ##
 Anyone with a curious mind and interested in how to marry the physical world and IoT with the virtual. This talk is pitched at intermediate, but for beginners extensive documentation and a github repo will be available to read and learn from.

@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/JQAUEC.jpg
 ---
 speakers: Gina Häußge
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Web • 3D Priniting • Makers
 ---
@@ -27,6 +27,8 @@ Passionate code monkey since early child hood, software architect by trade. Got 
 affiliation: OctoPrint
 ---
 track: PyConDE
+---
+meta_title: Driving 3D Printers with Python: Lessons Learned @foosel #PyConDE #PyDataBerlin
 ---
 body: With OctoPrint I've created an open source web interface for consumer 3D printers that allows to control all aspects of the printer and ongoing print job and is extensible by plugins. OctoPrint's server side is written in Python and installed by end users on their own devices. In this talk I want to give a short overview of its architecture, provide some insight into the various challenges of developing and maintaining such a piece of end user facing software in Python and how I tackled them.
 

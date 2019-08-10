@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/FQMFKX.jpg
 ---
 speakers: Paloma
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Business & Start-Ups • Community • Web
 ---
@@ -27,6 +27,8 @@ Multifaceted performances around the art field include education, multimedia dev
 affiliation: autonomous| part os PyLadies Berlin
 ---
 track: PyConDE
+---
+meta_title: From body and code <programming in times of acceptance> @pcultural #PyConDE #PyDataBerlin
 ---
 body: Have you being hearing about **"diversity"** but not sure why is it important or what it actually mean? Do you support "diversity" but are not sure on how your **day by day actions** proposes a real **change**?
 

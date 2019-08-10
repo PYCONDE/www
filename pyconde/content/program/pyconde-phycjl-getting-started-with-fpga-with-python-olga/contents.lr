@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/PHYCJL.jpg
 ---
 speakers: Olga
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Microcontrollers
 ---
@@ -28,6 +28,8 @@ Work with Python for 5+ years. Have extensive QA experience.
 affiliation: L1NDA
 ---
 track: PyConDE
+---
+meta_title: Getting started with FPGA with Python  #PyConDE #PyDataBerlin
 ---
 body: FPGA is becoming more and more popular in many fields such as IOT, video processing. It also used to make computations for machine learning and trading technologies more effective. 
 Unfortunately for newbies to this technology, it is quite complicated and usually requires using specific languages: Verilog and/or VHDL. But with frameworks such as myVDL and PYNQ Python developers also can explore these opportunities. 

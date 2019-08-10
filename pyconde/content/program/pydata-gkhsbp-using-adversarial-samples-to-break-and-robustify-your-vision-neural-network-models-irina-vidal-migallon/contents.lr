@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/GKHSBP.jpg
 ---
 speakers: Irina Vidal Migallón
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Artificial Intelligence • Computer Vision • Deep Learning • Machine Learning
 ---
@@ -27,6 +27,8 @@ Irina is an Electrical Engineer & Biomedical Engineer who specialised in Machine
 affiliation: Siemens Mobility GmbH
 ---
 track: PyData
+---
+meta_title: Using adversarial samples to break and robustify your Vision Neural Network Models @not_vim #PyConDE #PyDataBerlin
 ---
 body: Industrial Computer Vision systems rely on Neural Networks - also in production. If we should poke our code until it breaks, why would deep learning models get a free pass? We'll see different ways in which to poke our models and improve them, from the practitioner's point of view, who has access to the model.
 

@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/NFH83Z.jpg
 ---
 speakers: Samuele Maci
 ---
-submission_type: Talk - 45 Min.
+submission_type: Talk
 ---
 domains: Networks
 ---
@@ -30,6 +30,8 @@ In his free time, he loves cooking and drinking coffee.
 affiliation: Yelp
 ---
 track: PyConDE
+---
+meta_title: What if I tell you that your specs are broken @macisamuele #PyConDE #PyDataBerlin
 ---
 body: If you have ever written an App in 2019, the probability that you are communicating over HTTP(S) is pretty high. After some practice, implementing a new endpoint starts to be a trivial task; no major complexities and turns out to be really repetitive.
 

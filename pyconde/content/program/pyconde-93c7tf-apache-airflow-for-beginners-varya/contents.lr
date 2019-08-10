@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/93C7TF.jpg
 ---
 speakers: Varya
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Infrastructure • Data Engineering
 ---
@@ -25,6 +25,8 @@ My name is Varya. I have a background in biology & statistics and moved to softw
 affiliation: Zalando
 ---
 track: PyConDE
+---
+meta_title: 🌈Apache Airflow for beginners  #PyConDE #PyDataBerlin
 ---
 body: Apache Airflow is an open source project that allows you programmatically create, schedule and monitor sequences of tasks. It earned its good reputation over the past years and became the industry standard for building data pipelines. However, for a beginner, it may be tricky to understand whether Airflow can solve some of their problems. In this talk, I will show you what problems can be solved using Airflow, what are the key components and how to use it on a simple example.
 

@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/XTD7TE.jpg
 ---
 speakers: Oliver Bestwalter
 ---
-submission_type: Talk - 45 Min.
+submission_type: Talk
 ---
 domains: Algorithms • Code-Review • APIs • Use Cases
 ---
@@ -29,6 +29,8 @@ Oliver fell in love with open source in the 1990s and with Python in 2006. He cr
 affiliation: Avira
 ---
 track: PyConDE
+---
+meta_title: Abridged metaprogramming classics - this episode: pytest @obestwalter #PyConDE #PyDataBerlin
 ---
 body: We will make a tour through the  [pytest](https://pypi.org/project/pytest/) core features and see how a lot of them are implemented using metaprogramming techniques like introspection/reflection, AST manipulation and other clever uses of Pythons Data and execution mod.
 

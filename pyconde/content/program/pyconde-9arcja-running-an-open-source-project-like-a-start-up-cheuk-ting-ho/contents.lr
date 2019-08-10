@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/9ARCJA.jpg
 ---
 speakers: Cheuk Ting Ho
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Business & Start-Ups • Community • Data Science • Machine Learning
 ---
@@ -25,6 +25,8 @@ Cheuk constantly contributes to the community by giving AI and deep learning wor
 affiliation: 
 ---
 track: PyConDE
+---
+meta_title: Running An Open Source Project Like A Start Up @cheukting_ho #PyConDE #PyDataBerlin
 ---
 body: In this talk, I will share my journey of starting an open source project.
 

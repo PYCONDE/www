@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/LWALGX.jpg
 ---
 speakers: Hari Kishore Sirivella
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Django • DevOps • Infrastructure
 ---
@@ -25,6 +25,8 @@ My name is Hari Kishore Sirivella. I have good experience with different vertica
 affiliation: OpenTable Inc.
 ---
 track: PyConDE
+---
+meta_title: Monitoring infrastructure and application using Django, Sensu and Celery.  #PyConDE #PyDataBerlin
 ---
 body: I will be talking about how we SREs at Opentable Inc, tries to solve the good old monitoring problem - sensu with puppet, using Django, Sensu and Celery.
 

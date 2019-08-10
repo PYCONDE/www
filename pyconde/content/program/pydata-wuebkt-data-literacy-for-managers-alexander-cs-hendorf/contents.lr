@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/WUEBKT.jpg
 ---
 speakers: Alexander CS Hendorf
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Artificial Intelligence • Business & Start-Ups • Data Science • Machine Learning • Use Cases
 ---
@@ -28,6 +28,8 @@ Being a partner at [Königsweg](https://www.koenigsweg.com/index_ger.html) - a b
 affiliation: KÖNIGSWEG
 ---
 track: PyData
+---
+meta_title: Data Literacy for Managers https://twitter.com/hendorf #PyConDE #PyDataBerlin
 ---
 body: Artificial intelligence promises great value. The technology is mostly understood only by few, yet still unexplainable even for experts. In this talk I'll present how to narrow the hype down to real value explainable to everyone in your organisation - without the math.
 

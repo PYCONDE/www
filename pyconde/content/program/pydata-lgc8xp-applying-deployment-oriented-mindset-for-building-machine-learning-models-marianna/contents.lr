@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/LGC8XP.jpg
 ---
 speakers: Marianna
 ---
-submission_type: Talk - 45 Min.
+submission_type: Talk
 ---
 domains: Data Science • Machine Learning
 ---
@@ -28,6 +28,8 @@ Currently in the process of writing a series of articles focused on ML models de
 affiliation: SynergyOne
 ---
 track: PyData
+---
+meta_title: Applying deployment oriented mindset for building Machine Learning models @dark_matter88_ #PyConDE #PyDataBerlin
 ---
 body: Developing a complicated ensemble model with hundreds of features fetched from a bunch of different sources? Give me two! Showing great metrics to the stakeholders and already discussing how it will hit a home run in production? Why not! And then getting stuck for months trying to deploy the model and fighting with data inconsistency and bugs? Sounds familiar?
 This talk will focus on providing guidelines on how to build your model development process keeping in mind the deployment phase to come later on.

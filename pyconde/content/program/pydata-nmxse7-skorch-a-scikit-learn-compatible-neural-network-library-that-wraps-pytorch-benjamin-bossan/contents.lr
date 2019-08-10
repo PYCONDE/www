@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/NMXSE7.jpg
 ---
 speakers: Benjamin Bossan
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Deep Learning • Data Science • Machine Learning
 ---
@@ -27,6 +27,8 @@ Data Scientist at NewYorker
 affiliation: NewYorker
 ---
 track: PyData
+---
+meta_title: skorch: A scikit-learn compatible neural network library that wraps pytorch  #PyConDE #PyDataBerlin
 ---
 body: [Scikit-learn](https://scikit-learn.org/stable/) is the most widely used general purpose machine learning library in Python. It has a very nice API and many tools are built around it, but its support for neural networks is very limited.
 

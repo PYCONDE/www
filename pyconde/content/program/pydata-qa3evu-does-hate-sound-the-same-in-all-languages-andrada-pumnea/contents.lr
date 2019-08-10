@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/QA3EVU.jpg
 ---
 speakers: Andrada Pumnea
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Deep Learning • Data Science • Natural Language Processing • Data Mining / Scraping
 ---
@@ -29,6 +29,8 @@ I believe in leveraging data science for social good. I am actively working on O
 affiliation: Futurice GmbH
 ---
 track: PyData
+---
+meta_title: Does hate sound the same in all languages? @alucardna #PyConDE #PyDataBerlin
 ---
 body: 7th of October 2018 marked a historical day for Romania: the referendum aiming to define the family as exclusively heterosexual, inherently limiting any future attempt to legalise same-sex marriage, failed. Nonetheless, amid the public debate on this topic, social media (especially Facebook) sparked with hate speech against the LGBT community, with no consistent action to moderate it. 
 

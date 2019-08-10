@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/3JUWNC.jpg
 ---
 speakers: Raphael Pierzina
 ---
-submission_type: Talk - 45 Min.
+submission_type: Talk
 ---
 domains: DevOps • Web • Data Engineering
 ---
@@ -29,6 +29,8 @@ https://raphael.codes/
 affiliation: Mozilla
 ---
 track: PyConDE
+---
+meta_title: Introduction to automated testing with pytest hackebrot #PyConDE #PyDataBerlin
 ---
 body: This talk aims to give an introduction into automated testing in Python with [pytest], a popular testing framework developed and maintained by a thriving community of volunteers. After looking into how to develop automated tests with pytest, we'll dive into writing plugins for pytest and explore ideas for potential test suite customizations, that help you and your team manage a growing test suite.
 

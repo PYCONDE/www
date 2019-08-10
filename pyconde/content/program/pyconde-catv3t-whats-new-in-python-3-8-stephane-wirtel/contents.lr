@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/CATV3T.jpg
 ---
 speakers: Stéphane Wirtel
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Community
 ---
@@ -27,6 +27,8 @@ CPython Core Dev
 affiliation: Mgx.io
 ---
 track: PyConDE
+---
+meta_title: What’s new in Python 3.8? @matrixise #PyConDE #PyDataBerlin
 ---
 body: Python 3.8 will be released in few months and you want to know the new features of this version, I will explain you the new points, the new audit book or the f-string {=} and the other changes of this new version.
 

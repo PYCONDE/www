@@ -1,3 +1,5 @@
-_model: session-list
+_model: sessions
 ---
-title: Session List
+title: Sessions' List
+---
+_discoverable: yes

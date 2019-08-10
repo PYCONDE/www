@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/7XCL3Z.jpg
 ---
 speakers: Andrea Spichtinger
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Algorithms • Data Science • Machine Learning
 ---
@@ -29,6 +29,8 @@ In 2018, I started a part-time PhD in Data Science to deepen my knowledge in Mac
 affiliation: Syskron GmbH
 ---
 track: PyData
+---
+meta_title: Time Series Anomaly Detection for Bottling Machine Maintenance  #PyConDE #PyDataBerlin
 ---
 body: To reduce unplanned downtime, bottling plants replace mechanically wearing parts on fixed time schedules, ideally prior to failure. This lack of failure cases makes development of data-driven maintenance plans difficult. Anomaly detection is thus a promising alternative path towards predictive maintenance for these systems.
 

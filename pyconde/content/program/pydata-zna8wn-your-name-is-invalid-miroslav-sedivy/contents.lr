@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/ZNA8WN.jpg
 ---
 speakers: Miroslav Šedivý
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Algorithms • Community • Natural Language Processing • Web • Data Mining / Scraping • Use Cases
 ---
@@ -27,6 +27,8 @@ Born in Czechoslovakia, studied in France, working in Germany. Using Python to g
 affiliation: solute GmbH
 ---
 track: PyData
+---
+meta_title: Your Name Is Invalid! @eumiro #PyConDE #PyDataBerlin
 ---
 body: People have names. Most people do. People have first names and last names. Many people do. People have any sorts of names that often don't fit fixed fields in the forms. These names may contain letters, accented letters, and other characters, that may cause problems to your code depending on the encoding you use. They may look differently in uppercase and lowercase, or may not be case foldable at all. Searching and sorting these names may be tricky too. And if you design an application, web form, and/or database dealing with personal names, you'll have to take that into account.
 

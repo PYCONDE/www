@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/MF9DAV.jpg
 ---
 speakers: Sarah Diot-Girard
 ---
-submission_type: Talk - 45 Min.
+submission_type: Talk
 ---
 domains: Artificial Intelligence • Data Science • Natural Language Processing • Machine Learning
 ---
@@ -27,6 +27,8 @@ Sarah Diot-Girard is working as a Machine Learning engineer since 2012 and she e
 affiliation: PeopleDoc
 ---
 track: PyData
+---
+meta_title: Privacy-preserving Machine Learning for text processing  #PyConDE #PyDataBerlin
 ---
 body: Data privacy is probably one of the most important challenges we are facing in Data Science. Applications are collecting more and more personal data and it is paramount to ensure anonymity. Privacy cannot be solved just by removing personal identifiers, and concepts such as k-anonymity have been developed to help with structured data. 
 But what if you are working with unstructured text data? Things can get even trickier... 

@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/XJLSWG.jpg
 ---
 speakers: Ingo Stegmaier
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Community • Use Cases
 ---
@@ -41,6 +41,8 @@ Hugo Damian von Schönborn Gymnasium, Bruchsal, Germany, A-Level
 affiliation: Königsweg GmbH
 ---
 track: PyConDE
+---
+meta_title: Developers vs. Enterprise  #PyConDE #PyDataBerlin
 ---
 body: This 30-minute talk will give you an overview about project management, success factors and specialties within enterprises. This will be a guide how you promote internal projects and bring them to success within a highly "political" environment.
 

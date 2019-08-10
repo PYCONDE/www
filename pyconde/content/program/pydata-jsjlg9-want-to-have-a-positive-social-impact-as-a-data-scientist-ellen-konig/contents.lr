@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/JSJLG9.jpg
 ---
 speakers: Ellen König
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Community • Data Science
 ---
@@ -27,6 +27,8 @@ Ellen is currently establishing data science at the sister startups Humanitec an
 affiliation: Humanitec
 ---
 track: PyData
+---
+meta_title: Want to have a positive social impact as a data scientist? @ellen_koenig #PyConDE #PyDataBerlin
 ---
 body: As a community, we know we can contribute more than just doctoring startup growth numbers or optimizing ad clicks. But how?
 

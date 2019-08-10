@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/PMDFA3.jpg
 ---
 speakers: Avaré Stewart, Stefan Thomas
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Artificial Intelligence • Data Science • Natural Language Processing • Machine Learning • Data Engineering
 ---
@@ -36,6 +36,8 @@ None
 affiliation: EOS DID (Otto Group), 
 ---
 track: PyData
+---
+meta_title: Transforming a Legacy System into a Bias-Mitigating AI Solution for Debt Repayment @AvareStewart #PyConDE #PyDataBerlin
 ---
 body: Motivation: Legacy rule-based expert systems still exist today, because they work well at solving a specific problem and deliver economic value for a business based on combined knowledge of human experts in the problem domain.
 

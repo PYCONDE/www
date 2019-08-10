@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/Q88ZUW.jpg
 ---
 speakers: Samet Atdag
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Business & Start-Ups • Big Data • Infrastructure • Web • Data Engineering
 ---
@@ -29,6 +29,8 @@ I'm the organizer of Python Istanbul user group. With more than 8000 members, Py
 affiliation: Prisync
 ---
 track: PyConDE
+---
+meta_title: What we learned from scraping 1 billion webpages every month @sam3t #PyConDE #PyDataBerlin
 ---
 body: As Prisync, we crawl a large portion of the web every day for 6 years. First we approach the problem with a naive aspect, but we learned our lesson via experience. Developers create workarounds and hacks all over the time. But doing so has –most probably, unexpected– consequences. Some of the glitches we experiences so far: 
 

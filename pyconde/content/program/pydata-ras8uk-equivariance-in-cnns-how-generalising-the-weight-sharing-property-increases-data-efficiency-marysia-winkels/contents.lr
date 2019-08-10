@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/RAS8UK.jpg
 ---
 speakers: Marysia Winkels
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Artificial Intelligence • Algorithms • Computer Vision • Deep Learning • Data Science • Machine Learning • Science
 ---
@@ -29,6 +29,8 @@ She is also happily co-chair of the organisation of PyData Amsterdam!
 affiliation: Aidence
 ---
 track: PyData
+---
+meta_title: Equivariance in CNNs: how generalising the weight-sharing property increases data-efficiency  #PyConDE #PyDataBerlin
 ---
 body: Convolutional neural networks have become the methodology of choice for image related tasks, but why exactly is that? 
 

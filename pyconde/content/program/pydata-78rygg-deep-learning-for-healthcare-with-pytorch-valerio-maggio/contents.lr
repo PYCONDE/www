@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/78RYGG.jpg
 ---
 speakers: Valerio Maggio
 ---
-submission_type: Tutorial - 90 Min.
+submission_type: Tutorial
 ---
 domains: Artificial Intelligence • Deep Learning • Machine Learning • Science
 ---
@@ -32,6 +32,8 @@ Python Conferences (i.e. EuroPython, PyCon/PyData Italy, EuroSciPy).
 affiliation: Fondazione Bruno Kessler / University of Bristol
 ---
 track: PyData
+---
+meta_title: Deep Learning for Healthcare with PyTorch @leriomaggio #PyConDE #PyDataBerlin
 ---
 body: This tutorial provides a general introduction to the PyTorch Deep Learning framework with specific focus 
 on Deep Learning applications for Precision Medicine and Computational Biology.

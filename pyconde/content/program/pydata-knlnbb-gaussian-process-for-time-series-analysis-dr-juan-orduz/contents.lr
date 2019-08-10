@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/KNLNBB.jpg
 ---
 speakers: Dr. Juan Orduz
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Algorithms • Data Science • Machine Learning • Statistics
 ---
@@ -25,6 +25,8 @@ I have a PhD in Mathematics from Humboldt Universität zu Berlin as a member of 
 affiliation: 
 ---
 track: PyData
+---
+meta_title: Gaussian Process for Time Series Analysis @juanitorduz #PyConDE #PyDataBerlin
 ---
 body: A Gaussian process can be seen as a generalization of the
 Gaussian probability distribution in the setting of function spaces.

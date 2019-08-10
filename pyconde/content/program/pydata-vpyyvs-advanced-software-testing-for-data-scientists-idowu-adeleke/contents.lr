@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/VPYYVS.jpg
 ---
 speakers: Idowu Adeleke
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Big Data • Data Science
 ---
@@ -25,6 +25,8 @@ I am a software engineer at Andela with years of experience working as a machine
 affiliation: Andela
 ---
 track: PyData
+---
+meta_title: Advanced Software Testing for Data Scientists  #PyConDE #PyDataBerlin
 ---
 body: So you are in the middle of a project to develop a new machine learning algorithm which will be a core part of your product. Cool! But how do you know that your algorithm really works?
 

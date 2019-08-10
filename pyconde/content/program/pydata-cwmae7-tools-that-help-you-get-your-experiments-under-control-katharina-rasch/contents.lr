@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/CWMAE7.jpg
 ---
 speakers: Katharina Rasch
 ---
-submission_type: Talk - 45 Min.
+submission_type: Talk
 ---
 domains: Artificial Intelligence • Data Science • DevOps • Infrastructure
 ---
@@ -25,6 +25,8 @@ Katharina Rasch is a computer scientist with a PhD from KTH Stockholm. From 2014
 affiliation: 
 ---
 track: PyData
+---
+meta_title: Tools that help you get your experiments under control @krasch_io #PyConDE #PyDataBerlin
 ---
 body: As a data scientist I often feel envious of the tooling available to software engineers. Tools for build automatisation, continuous integration, code review, etc help software engineers follow established best practices. In contrast, many of us data scientists have taken to building our own tools for things like managing experiments, for tracking data, for enabling reproducibility. Of course, writing such tools is **hard** and takes a lot of effort. 
 

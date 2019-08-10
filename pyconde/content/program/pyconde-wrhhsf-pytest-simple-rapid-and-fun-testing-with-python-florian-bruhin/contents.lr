@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/WRHHSF.jpg
 ---
 speakers: Florian Bruhin
 ---
-submission_type: Tutorial - 90 Min.
+submission_type: Tutorial
 ---
 domains: Infrastructure
 ---
@@ -29,6 +29,8 @@ workshops about pytest at various conferences and companies.
 affiliation: 
 ---
 track: PyConDE
+---
+meta_title: pytest - simple, rapid and fun testing with Python @the_compiler #PyConDE #PyDataBerlin
 ---
 body: The pytest tool presents a rapid and simple way to write tests for your Python
 code. This training gives an introduction with exercises to some

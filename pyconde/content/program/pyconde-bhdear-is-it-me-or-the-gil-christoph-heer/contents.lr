@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/BHDEAR.jpg
 ---
 speakers: Christoph Heer
 ---
-submission_type: Talk - 45 Min.
+submission_type: Talk
 ---
 domains: Infrastructure • Parallel Programming • Visualisation
 ---
@@ -27,6 +27,8 @@ I’m an Infrastructure Engineer in the team behind SAP’s huge test infrastruc
 affiliation: SAP SE
 ---
 track: PyConDE
+---
+meta_title: Is it me, or the GIL? @christophheer #PyConDE #PyDataBerlin
 ---
 body: Python's Global Interpreter Lock is a friend and rival at the same time. We, as developers, can focus on the design and implementation of applications without the hassle of memory management. On the other side, we complain about the GIL as the limiting factor of performance sensitive applications. Therefore, it is common to refactor parts of systems when the system doesn't perform or scale enough anymore. The refactoring often includes the switch of the used concurrency paradigms like replacing multithreading with multiprocessing or asyncio. Another option is moving logic of CPU-bound workload into C extensions or a full rewrite in a "GIL-free" language. But how do you know that the GIL is the actual performance bottleneck?
 

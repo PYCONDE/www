@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/SUC9VW.jpg
 ---
 speakers: Stefan Schwarzer
 ---
-submission_type: Talk - 45 Min.
+submission_type: Talk
 ---
 domains: Code-Review
 ---
@@ -27,6 +27,8 @@ Stefan has been using Python professionally for more than 15 years, the last 10+
 affiliation: SSchwarzer.com
 ---
 track: PyConDE
+---
+meta_title: Commenting code — beyond common wisdom  #PyConDE #PyDataBerlin
 ---
 body: I'm convinced that good code comments are very important for
 software maintainability.

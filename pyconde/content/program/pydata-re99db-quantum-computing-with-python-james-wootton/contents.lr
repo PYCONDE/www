@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/RE99DB.jpg
 ---
 speakers: James Wootton
 ---
-submission_type: Tutorial - 90 Min.
+submission_type: Tutorial
 ---
 domains: Algorithms • Infrastructure • Science • APIs
 ---
@@ -29,6 +29,8 @@ I was previously a researcher at the University of Basel, and have lectured ther
 affiliation: IBM Research
 ---
 track: PyData
+---
+meta_title: Quantum computing with Python @decodoku #PyConDE #PyDataBerlin
 ---
 body: One area in which Python has gained a great deal of ground in recent years is quantum computing. Though quantum computers represent a fundamentally new form of hardware, and will require very different software to be written, the design of algorithms and handling of inputs and outputs will all be done via conventional programming. There are now a handful of frameworks being built to meet this need, and all but one are based on Python.
 

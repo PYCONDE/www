@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/8N37P9.jpg
 ---
 speakers: Tilman Krokotsch
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Artificial Intelligence • Deep Learning • Data Science • Machine Learning
 ---
@@ -27,6 +27,8 @@ Coming from a computer science background I am doing research in data driven met
 affiliation: IAV GmbH
 ---
 track: PyData
+---
+meta_title: Hide Code, Minimize Dependencies, Boost Performance - The PyTorch JIT  #PyConDE #PyDataBerlin
 ---
 body: During the last few years, PyTorch emerged as one of the most popular frameworks for deep learning research. Through its "define-by-run" paradigm and pythonesque design it encourages clean, object-oriented code and enables easy debugging by the standard Python debugger.
 

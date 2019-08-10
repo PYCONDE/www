@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/RJCW8U.jpg
 ---
 speakers: Martin Christen
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Big Data • Computer Vision • Deep Learning • Data Science • Machine Learning • Visualisation
 ---
@@ -28,6 +28,8 @@ Martin Christen is very active in the Python community. He teaches various Pytho
 affiliation: FHNW - University of Applied Sciences and Arts Northwestern Switzerland
 ---
 track: PyData
+---
+meta_title: Detecting and Analyzing Solar Panels in Switzerland using Aerial Imagery @MartinChristen #PyConDE #PyDataBerlin
 ---
 body: The renewable energy statistics estimate the production of solar power and solar heat. To validate these statistics, the existing installations are to be identified and quantified fully automatically using deep learning algorithms from aerial photographs. Thanks to these methods, the current and future potential for use in Switzerland can be determined more precisely. Above all, this will also allow the status of implementation of the Energy Strategy 2050 of Switzerland to be determined.
 To train the model various solar panels have been collected using crowd sourcing. A Flask-based Web-Service was created to collect data.

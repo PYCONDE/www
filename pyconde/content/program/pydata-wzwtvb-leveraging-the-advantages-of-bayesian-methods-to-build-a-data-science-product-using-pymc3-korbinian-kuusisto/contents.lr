@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/WZWTVB.jpg
 ---
 speakers: Korbinian Kuusisto
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Algorithms • Business & Start-Ups • Data Science • Machine Learning • Science • Statistics
 ---
@@ -27,6 +27,8 @@ Korbinian is a Data Scientist at Dalia Research, a Berlin-based market research 
 affiliation: Dalia Research
 ---
 track: PyData
+---
+meta_title: Leveraging the advantages of Bayesian Methods to build a data science product using PyMC3 https://twitter.com/kuusisto_k #PyConDE #PyDataBerlin
 ---
 body: Bayesian frameworks offer powerful theoretical advantages: they can take advantage of prior information and provide a better sense of uncertainty. 
 

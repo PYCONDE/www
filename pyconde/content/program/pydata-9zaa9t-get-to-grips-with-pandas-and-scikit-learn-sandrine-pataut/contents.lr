@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/9ZAA9T.jpg
 ---
 speakers: Sandrine Pataut
 ---
-submission_type: Tutorial - 90 Min.
+submission_type: Tutorial
 ---
 domains: Algorithms • Data Science • Machine Learning
 ---
@@ -31,6 +31,8 @@ Tags: Machine Learning, Basketball, Python, Cooking, Numpy, Badminton, Family, P
 affiliation: QBE Insurance
 ---
 track: PyData
+---
+meta_title: Get to grips with pandas and scikit-learn @SPataut #PyConDE #PyDataBerlin
 ---
 body: We hear a lot about Machine Learning, but it’s just one part of a bigger process. Before applying any algorithm to a data set, discovery and preparation are needed. This hands-on workshop will cover an end-to-end classification project, from importing the data to evaluating a model performance. After this tutorial, you will have completed a step by step Machine Learning workflow.
 

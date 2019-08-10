@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/FTVNPK.jpg
 ---
 speakers: Tin Marković
 ---
-submission_type: Talk - 45 Min.
+submission_type: Talk
 ---
 domains: Business & Start-Ups • Community • Code-Review
 ---
@@ -34,6 +34,8 @@ As a dedicated professional, Tin is more than eager to meet and converse with fe
 affiliation: Kiwi.com
 ---
 track: PyConDE
+---
+meta_title: Refactoring in Python: Design Patterns and Approaches  #PyConDE #PyDataBerlin
 ---
 body: Python makes wonderful code accessible at our fingertips, but it also allows us to take a lot of liberty. When you start, code is beautiful and makes sense. With each step you walk on, you find more and more hacks showing up. Eventually, the brilliant codebase you've started with can not be seen under the mud.
 

@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/9LZBX9.jpg
 ---
 speakers: Chiin-Rui Tan, Dare Imam-Lawal
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Artificial Intelligence • Algorithms • Data Science • Machine Learning • Web • Data Mining / Scraping • Use Cases
 ---
@@ -48,6 +48,8 @@ Hailing from the city of Lagos, Nigeria, Dare is a budding social entrepreneur a
 affiliation: Rho Zeta AI, Rho Zeta AI
 ---
 track: PyData
+---
+meta_title: Python-Powered OSINT! Modernising Open Source Intelligence for Investigating Disinformation @AnalyticsPanda #PyConDE #PyDataBerlin
 ---
 body: **What is OSINT? And who cares?**            
 

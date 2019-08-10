@@ -10,7 +10,7 @@ twitter_image: /static/media/twitter/NH9UEY.jpg
 ---
 speakers: Dustin Ingram
 ---
-submission_type: Talk - 30 Min.
+submission_type: Talk
 ---
 domains: Science
 ---
@@ -27,6 +27,8 @@ Dustin is a Developer Advocate at Google, focused on supporting the Python commu
 affiliation: Google
 ---
 track: PyConDE
+---
+meta_title: Static Typing in Python @di_codes #PyConDE #PyDataBerlin
 ---
 body: Python is well-known as a programming language without static types. This means that you don't need to say what a given variable will hold, or whether your function will return a string or an integer (or sometimes one, and sometimes another!). This has historically made Python a very flexible and beginner-friendly language.
 
