@@ -1,2 +1,10 @@
 /* Custom styles
    ========================================================================== */
+
+.session_list_title {
+    margin: 0 0 12px;
+}
+
+.session_list_speaker {
+    margin: 0 0 12px;
+}

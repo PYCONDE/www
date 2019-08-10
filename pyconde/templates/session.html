@@ -7,9 +7,11 @@
       <div class="row">
         <div class="col-12 col-xl-10 offset-xl-1">
           <header class="page-header text-center">
-            <h1 class="page-title">{{ this.title }}</h1>
+            <h2 class="page-title">{{ this.title }}</h2>
             <h6>{{ this.domains }}</h6>
-            <h5>{{ this.submission_type }} • {{ this.track }}</h5>
+              {% set category = this.track.lower() %}
+              {% set submission_type = this.submission_type.lower() %}
+            <h5><a href="/program/categories/{{ submission_type }}">{{ this.submission_type }}</a> • <a href="/program/categories/{{ category }}">{{ this.track }}</a></h5>
             <h3 class="page-title">{{ this.speakers }}</h3>
             <h6>{{ this.expertise }}</h6>
           </header>

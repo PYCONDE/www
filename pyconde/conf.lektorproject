@@ -3,4 +3,4 @@ name = PyCon DE & PyData Berlin 2019
 url = https://de.pycon.org
 url_style = absolute
 
-twitter_image = https://de.pycon.org/static/media/twitter/PyConDEPyData.jpg
+twitter_card = /static/media/twitter/PyConDEPyData.jpg

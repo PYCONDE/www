@@ -6,6 +6,22 @@
         {
           "name": "All Sessions",
           "path": "/program"
+        },
+        {
+          "name": "PyData Berlin Sessions",
+          "path": "/program/categories/pydata"
+        },
+        {
+          "name": "PyConDE Sessions",
+          "path": "/program/categories/pyconde"
+        },
+        {
+          "name": "Talks",
+          "path": "/program/categories/talk"
+        },
+        {
+          "name": "Tutorials",
+          "path": "/program/categories/tutorial"
         }
       ]
     },

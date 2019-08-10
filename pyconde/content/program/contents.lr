@@ -1,11 +1,8 @@
 _model: sessions
 ---
-title: Sessions' List
----
 _discoverable: yes
 ---
-twitter_image: /static/media/twitter/PyConDEPyData.jpg
+title: Session List
 ---
-description: All sessions for the PyConDE & PyData Berlin 2019 conference
+description: All sessions of the PyConDE & PyData Berlin 2019 conference
 ---
-title: Session list

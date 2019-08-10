@@ -418,7 +418,7 @@ body: {body}
             if x.get('@twitter'):
                 social.append(f"[Twitter](https://twitter.com/{x['@twitter'].replace('@', '')})")
             if x.get('github'):
-                social.append(f"[Gthub]({x['github']})")
+                social.append(f"[Github]({x['github']})")
             if x.get('homepage'):
                 social.append(f"[Homepage]({x['homepage']})")
             if social:

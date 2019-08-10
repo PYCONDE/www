@@ -1,16 +1,30 @@
 {% macro render_category_nav() %}
-  <ul>
-  {% for category in site.query('/program-categories') %}
-    <li><a href="{{ category|url }}">{{ category.name }}</a></li>
-  {% endfor %}
-  </ul>
+    <div class="margin-top">
+        {% for category in site.query('/program-categories') %}
+            <a href="{{ category|url }}"> <span class="btn btn--primary">{{ category.name }}</span></a>
+            <span>&nbsp; &nbsp; &nbsp; &nbsp;</span>
+        {% endfor %}
+    </div>
 {% endmacro %}
 
-{% macro render_project_list(projects) %}
-    <p>{{ projects }}</p>
-  <ul>
-  {% for project in projects %}
-    <li><a href="{{ project|url }}">{{ project.name }}</a></li>
-  {% endfor %}
-  </ul>
+
+
+{% macro render_project_list(sessions) %}
+
+    {% for session in sessions %}
+
+        <div class="blog-list__post in-view__child in-view__child--fadein in-view__child--in">
+            <span class="blog-list__info sub-head">{{ session.track }} | {{ session.submission_type }} </span>
+            <h5 class="blog-list__title session_list_title">
+                <a href="{{ session|url }}">{{ session.title }}</a>
+            </h5>
+            <h6 class="session_list_speaker">{{ session.speakers }}</h6>
+            <span class="blog-list__info sub-head">{{ session.domains }}</span>
+            <span class="blog-list__info sub-head">{{ session.expertise }}</span>
+            <p>{{ session.description }}</p>
+            <p class="blog-list__link text-xl-right">
+                <a class="sub-head dashed dashed--reverse--md in-view__child in-view__child--in" href="{{ session|url }}">Read more</a>
+            </p>
+        </div>
+    {% endfor %}
 {% endmacro %}

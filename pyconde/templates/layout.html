@@ -25,13 +25,13 @@
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@pyconde">
-    <meta name="twitter:title" content="{{ this.meta_title }}">
+    <meta name="twitter:title" content="{%  if this.meta_title %}{{ this.meta_title }}{% else %}{{ this.title }}{% endif %}">
     <meta name="twitter:description" content="{{ this.description }}">
     {% if this.twitter_image %}
         {% set turl = this.twitter_image %}
         <meta name="twitter:image" content="{{ site.config.PROJECT.url }}{{ turl|asseturl }}">
     {% else %}
-        <meta name="twitter:image" content="{{ site.config.PROJECT.twitter_image|asseturl }}">
+        <meta name="twitter:image" content="{{ site.config.PROJECT.url }}{{ site.config.PROJECT.twitter_card|asseturl }}">
     {% endif %}
 </head>
 
