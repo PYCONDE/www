@@ -12,7 +12,7 @@ speakers: Tin Marković
 ---
 submission_type: Talk
 ---
-domains: Business & Start-Ups • Community • Code-Review
+domains: Business & Start-Ups, Community, Code-Review
 ---
 biography: #### Tin Marković
 
@@ -35,9 +35,13 @@ affiliation: Kiwi.com
 ---
 track: PyConDE
 ---
+python_skill: Python Skill Level basic
+---
+domain_expertise: Domain Expertise none
+---
 meta_title: Refactoring in Python: Design Patterns and Approaches  #PyConDE #PyDataBerlin
 ---
-categories: pyconde, business-start-ups, community, code-review, talk
+categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, business-start-ups, community, code-review
 ---
 body: Python makes wonderful code accessible at our fingertips, but it also allows us to take a lot of liberty. When you start, code is beautiful and makes sense. With each step you walk on, you find more and more hacks showing up. Eventually, the brilliant codebase you've started with can not be seen under the mud.
 

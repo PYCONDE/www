@@ -12,7 +12,7 @@ speakers: Andreas Hantsch
 ---
 submission_type: Talk
 ---
-domains: Deep Learning • Machine Learning • Science
+domains: Deep Learning, Machine Learning, Science
 ---
 biography: #### Andreas Hantsch
 
@@ -28,9 +28,13 @@ affiliation: CLOUD&HEAT Technologies GmbH
 ---
 track: PyData
 ---
+python_skill: Python Skill Level basic
+---
+domain_expertise: Domain Expertise some
+---
 meta_title: Machine learning with little data - from digital twin to predictive maintenance @ndrsh2 #PyConDE #PyDataBerlin
 ---
-categories: pydata, deep-learning, machine-learning, science, talk
+categories: pydata, python-skill-level-basic, domain-expertise-some, talk, deep-learning, machine-learning, science
 ---
 body: New hardware systems usually lack of measurement data for machine learning applications, especially for fault detection and predictive maintenance. However, simulation techniques are commonly employed for speeding up the development process but are rarely utilised afterwards.
 

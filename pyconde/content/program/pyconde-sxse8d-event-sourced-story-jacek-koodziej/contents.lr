@@ -30,9 +30,13 @@ affiliation: Growbots
 ---
 track: PyConDE
 ---
+python_skill: Python Skill Level none
+---
+domain_expertise: Domain Expertise none
+---
 meta_title: Event-Sourced Story @unit03 #PyConDE #PyDataBerlin
 ---
-categories: pyconde, use-cases, talk
+categories: pyconde, python-skill-level-none, domain-expertise-none, talk, use-cases
 ---
 body: Popularity of event sourcing among Python developers seems to be moderate but growing. It can be seen as an enterprise architectural pattern, not worth considering in "smaller" applications.
 

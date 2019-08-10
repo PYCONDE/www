@@ -28,9 +28,13 @@ affiliation: SSchwarzer.com
 ---
 track: PyConDE
 ---
+python_skill: Python Skill Level none
+---
+domain_expertise: Domain Expertise none
+---
 meta_title: Commenting code — beyond common wisdom  #PyConDE #PyDataBerlin
 ---
-categories: pyconde, code-review, talk
+categories: pyconde, python-skill-level-none, domain-expertise-none, talk, code-review
 ---
 body: I'm convinced that good code comments are very important for
 software maintainability.

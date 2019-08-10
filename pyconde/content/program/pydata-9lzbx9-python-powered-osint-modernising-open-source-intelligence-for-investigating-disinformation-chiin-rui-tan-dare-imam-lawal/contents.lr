@@ -12,7 +12,7 @@ speakers: Chiin-Rui Tan, Dare Imam-Lawal
 ---
 submission_type: Talk
 ---
-domains: Artificial Intelligence • Algorithms • Data Science • Machine Learning • Web • Data Mining / Scraping • Use Cases
+domains: Artificial Intelligence, Algorithms, Data Science, Machine Learning, Web, Data Mining / Scraping, Use Cases
 ---
 biography: #### Chiin-Rui Tan
 
@@ -49,9 +49,13 @@ affiliation: Rho Zeta AI, Rho Zeta AI
 ---
 track: PyData
 ---
+python_skill: Python Skill Level basic
+---
+domain_expertise: Domain Expertise none
+---
 meta_title: Python-Powered OSINT! Modernising Open Source Intelligence for Investigating Disinformation @AnalyticsPanda #PyConDE #PyDataBerlin
 ---
-categories: pydata, artificial-intelligence, algorithms, data-science, machine-learning, web, data-mining-scraping, use-cases, talk
+categories: pydata, python-skill-level-basic, domain-expertise-none, talk, artificial-intelligence, algorithms, data-science, machine-learning, web, data-mining-scraping, use-cases
 ---
 body: **What is OSINT? And who cares?**            
 

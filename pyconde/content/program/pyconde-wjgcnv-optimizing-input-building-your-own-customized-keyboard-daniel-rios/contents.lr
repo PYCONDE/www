@@ -12,7 +12,7 @@ speakers: daniel rios
 ---
 submission_type: Talk
 ---
-domains: Community • Microcontrollers • Makers
+domains: Community, Microcontrollers, Makers
 ---
 biography: #### daniel rios
 
@@ -28,9 +28,13 @@ affiliation: Jonas und der Wolf
 ---
 track: PyConDE
 ---
+python_skill: Python Skill Level none
+---
+domain_expertise: Domain Expertise none
+---
 meta_title: Optimizing Input: Building your own customized keyboard @misterrios #PyConDE #PyDataBerlin
 ---
-categories: pyconde, community, microcontrollers, makers, talk
+categories: pyconde, python-skill-level-none, domain-expertise-none, talk, community, microcontrollers, makers
 ---
 body: As computer users, we spend copious amounts of time in front of screens, but, as writers and editors of text, we tend to ignore or overlook the way we most directly interact with our development environments, the keyboard.
 

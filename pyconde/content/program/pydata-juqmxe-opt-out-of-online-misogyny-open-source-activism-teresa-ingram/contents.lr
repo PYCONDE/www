@@ -12,7 +12,7 @@ speakers: Teresa Ingram
 ---
 submission_type: Talk
 ---
-domains: Community • Natural Language Processing • Machine Learning
+domains: Community, Natural Language Processing, Machine Learning
 ---
 biography: #### Teresa Ingram
 
@@ -24,9 +24,13 @@ affiliation:
 ---
 track: PyData
 ---
+python_skill: Python Skill Level none
+---
+domain_expertise: Domain Expertise none
+---
 meta_title: Opt Out of Online Misogyny – Open Source Activism  #PyConDE #PyDataBerlin
 ---
-categories: pydata, community, natural-language-processing, machine-learning, talk
+categories: pydata, python-skill-level-none, domain-expertise-none, talk, community, natural-language-processing, machine-learning
 ---
 body: Although cyber violence and online abuse is experienced by all genders, the abuse experienced by female identifying people is often misogynistic in nature. Online threats of violence against these people are often sexualized and include specific references to their bodies, often including rape threats. This pushes them offline, negatively affecting their mental health, social well-being, political representation and economic potential.
 

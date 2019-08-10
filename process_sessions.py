@@ -3,6 +3,7 @@ import json
 import os
 import re
 import codecs
+import shutil
 from datetime import timedelta
 from functools import partial
 from unicodedata import normalize
@@ -376,6 +377,7 @@ def generate_session_pages():
     session_path = Path('pyconde/content/program/')
     session_path.mkdir(exist_ok=True)
     in_place_submissions = [x.name for x in session_path.glob('*')]
+    in_place_submissions.remove('contents.lr')  # only dirs
     tpl = """_model: session 
 ---
 code: {code}
@@ -398,6 +400,10 @@ affiliation: {affiliation}
 ---
 track: {track}
 ---
+python_skill: {python_skill}
+---
+domain_expertise: {domain_expertise}
+---
 meta_title: {meta_title}
 ---
 categories: {categories_list}
@@ -405,8 +411,17 @@ categories: {categories_list}
 body: {body}
 
 """
-
+    all_categories = {}  # collect categories automatically add newly discovered ones
     for submission in cleaned_submissions:
+
+        # filter keynotes or other types
+        if 'Talk' in submission['submission_type']:
+            pass
+        elif 'Tutorial' in submission['submission_type']:
+            pass
+        else:
+            continue
+
         biography = []
         for x in submission['speakers']:
             biography.append(f"#### {x.get('name')}")
@@ -428,11 +443,16 @@ body: {body}
         speaker_twitters = ' '.join([x.get('@twitter') for x in submission['speakers'] if x.get('@twitter')])
         meta_title = f"{submission['title']} {speaker_twitters} #PyConDE #PyDataBerlin"
 
-        domains = f"{' • '.join(submission['domains'].split(', '))}"
-        expertise = f"Python Knowledge {submission['python_skill']} • Domain Expertise: {submission['domain_expertise']}"
+        # easier to handle on website as full text
+        python_skill = f"Python Skill Level {submission['python_skill']}"
+        domain_expertise = f"Domain Expertise {submission['domain_expertise']}"
 
-        categories = [submission['track']] + submission['domains'].split(', ') + [submission['submission_type'].split(' ')[0]]
-        categories_list = ', '.join([slugify(x) for x in categories])
+        domains = submission['domains']
+
+        categories = [submission['track'], python_skill, domain_expertise] + [submission['submission_type'].split(' ')[0]] + domains.split(', ')
+        slugified_categories = [slugify(x) for x in categories]
+        categories_list = ', '.join(slugified_categories)
+        all_categories.update({slugify(x): x for x in categories})
 
         slug = slugify(f"{submission['track']}-{submission['code']}-{submission['title']}-{' '.join([x.get('name') for x in submission['speakers']])}")
         dirname = session_path / slug
@@ -451,7 +471,6 @@ body: {body}
                 body=submission['description'],
                 domains=domains,
                 track=submission['track'],
-                expertise=expertise,
                 submission_type=submission['submission_type'].split(' ')[0],
                 speakers=', '.join([x['name'] for x in submission['speakers']]),
                 biography=biography,
@@ -460,9 +479,25 @@ body: {body}
                 meta_title=meta_title,
                 categories=categories,
                 categories_list=categories_list,
+                python_skill=python_skill,
+                domain_expertise=domain_expertise,
             ))
-        if in_place_submissions:  # leftover dirs
-            raise NotImplementedError("handling of redirects not implemneted, yet")
+    if in_place_submissions:  # leftover dirs
+        for zombie in in_place_submissions:
+            zpath = Path('pyconde/content/program/') / zombie
+            shutil.rmtree(zpath)
+
+    for category in all_categories:
+        cpath = Path('pyconde/content/program-categories') / category
+        if not cpath.exists():
+            cpath.mkdir()
+            with open(cpath / 'contents.lr', 'w') as f:
+                f.write("""name: {0}
+---
+title: {0} Session List
+---
+description: All {0} sessions at the PyConDE & Pydata Berlin 2019 conference
+---""".format(all_categories[category]))
 
 
 if __name__ == "__main__":

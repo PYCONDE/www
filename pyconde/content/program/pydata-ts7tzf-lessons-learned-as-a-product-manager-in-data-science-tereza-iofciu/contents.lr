@@ -12,7 +12,7 @@ speakers: Tereza Iofciu
 ---
 submission_type: Talk
 ---
-domains: Business & Start-Ups • Data Science • Machine Learning
+domains: Business & Start-Ups, Data Science, Machine Learning
 ---
 biography: #### Tereza Iofciu
 
@@ -30,9 +30,13 @@ affiliation: mytaxi
 ---
 track: PyData
 ---
+python_skill: Python Skill Level expert
+---
+domain_expertise: Domain Expertise expert
+---
 meta_title: Lessons Learned as a Product Manager in Data Science @terezaif #PyConDE #PyDataBerlin
 ---
-categories: pydata, business-start-ups, data-science, machine-learning, talk
+categories: pydata, python-skill-level-expert, domain-expertise-expert, talk, business-start-ups, data-science, machine-learning
 ---
 body: From answering simple data questions, building cool visualisations, to building machine learning solutions and bringing them to production, these are all skills expected from data science teams. 
 

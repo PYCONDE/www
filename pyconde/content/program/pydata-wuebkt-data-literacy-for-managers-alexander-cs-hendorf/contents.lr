@@ -12,7 +12,7 @@ speakers: Alexander CS Hendorf
 ---
 submission_type: Talk
 ---
-domains: Artificial Intelligence • Business & Start-Ups • Data Science • Machine Learning • Use Cases
+domains: Artificial Intelligence, Business & Start-Ups, Data Science, Machine Learning, Use Cases
 ---
 biography: #### Alexander CS Hendorf
 
@@ -29,9 +29,13 @@ affiliation: KÖNIGSWEG
 ---
 track: PyData
 ---
+python_skill: Python Skill Level none
+---
+domain_expertise: Domain Expertise none
+---
 meta_title: Data Literacy for Managers https://twitter.com/hendorf #PyConDE #PyDataBerlin
 ---
-categories: pydata, artificial-intelligence, business-start-ups, data-science, machine-learning, use-cases, talk
+categories: pydata, python-skill-level-none, domain-expertise-none, talk, artificial-intelligence, business-start-ups, data-science, machine-learning, use-cases
 ---
 body: Artificial intelligence promises great value. The technology is mostly understood only by few, yet still unexplainable even for experts. In this talk I'll present how to narrow the hype down to real value explainable to everyone in your organisation - without the math.
 

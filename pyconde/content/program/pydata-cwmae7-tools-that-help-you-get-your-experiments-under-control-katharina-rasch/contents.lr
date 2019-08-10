@@ -12,7 +12,7 @@ speakers: Katharina Rasch
 ---
 submission_type: Talk
 ---
-domains: Artificial Intelligence • Data Science • DevOps • Infrastructure
+domains: Artificial Intelligence, Data Science, DevOps, Infrastructure
 ---
 biography: #### Katharina Rasch
 
@@ -26,9 +26,13 @@ affiliation:
 ---
 track: PyData
 ---
+python_skill: Python Skill Level none
+---
+domain_expertise: Domain Expertise some
+---
 meta_title: Tools that help you get your experiments under control @krasch_io #PyConDE #PyDataBerlin
 ---
-categories: pydata, artificial-intelligence, data-science, devops, infrastructure, talk
+categories: pydata, python-skill-level-none, domain-expertise-some, talk, artificial-intelligence, data-science, devops, infrastructure
 ---
 body: As a data scientist I often feel envious of the tooling available to software engineers. Tools for build automatisation, continuous integration, code review, etc help software engineers follow established best practices. In contrast, many of us data scientists have taken to building our own tools for things like managing experiments, for tracking data, for enabling reproducibility. Of course, writing such tools is **hard** and takes a lot of effort. 
 

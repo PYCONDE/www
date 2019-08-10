@@ -12,7 +12,7 @@ speakers: Cheuk Ting Ho
 ---
 submission_type: Talk
 ---
-domains: Business & Start-Ups • Community • Data Science • Machine Learning
+domains: Business & Start-Ups, Community, Data Science, Machine Learning
 ---
 biography: #### Cheuk Ting Ho
 
@@ -26,9 +26,13 @@ affiliation:
 ---
 track: PyConDE
 ---
+python_skill: Python Skill Level basic
+---
+domain_expertise: Domain Expertise none
+---
 meta_title: Running An Open Source Project Like A Start Up @cheukting_ho #PyConDE #PyDataBerlin
 ---
-categories: pyconde, business-start-ups, community, data-science, machine-learning, talk
+categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, business-start-ups, community, data-science, machine-learning
 ---
 body: In this talk, I will share my journey of starting an open source project.
 

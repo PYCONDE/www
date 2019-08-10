@@ -12,7 +12,7 @@ speakers: Simon Danisch
 ---
 submission_type: Talk
 ---
-domains: Data Science • Infrastructure • IDEs/ Jupyter • Parallel Programming
+domains: Data Science, Infrastructure, IDEs/ Jupyter, Parallel Programming
 ---
 biography: #### Simon Danisch
 
@@ -28,9 +28,13 @@ affiliation: Nextjournal
 ---
 track: PyData
 ---
+python_skill: Python Skill Level basic
+---
+domain_expertise: Domain Expertise expert
+---
 meta_title: Julia for Python @SimonDanisch #PyConDE #PyDataBerlin
 ---
-categories: pydata, data-science, infrastructure, ides-jupyter, parallel-programming, talk
+categories: pydata, python-skill-level-basic, domain-expertise-expert, talk, data-science, infrastructure, ides-jupyter, parallel-programming
 ---
 body: You have performance problems with your Python code but are sick of rewriting it in Cython/C/C++? Julia might just be the language to solve your problems. 
 It's ease of use rivals that of Python, but it runs as fast as C. It has a powerful, optional type system, which is great for writing high level and generic code.

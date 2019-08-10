@@ -12,7 +12,7 @@ speakers: Korbinian Kuusisto
 ---
 submission_type: Talk
 ---
-domains: Algorithms • Business & Start-Ups • Data Science • Machine Learning • Science • Statistics
+domains: Algorithms, Business & Start-Ups, Data Science, Machine Learning, Science, Statistics
 ---
 biography: #### Korbinian Kuusisto
 
@@ -28,9 +28,13 @@ affiliation: Dalia Research
 ---
 track: PyData
 ---
+python_skill: Python Skill Level basic
+---
+domain_expertise: Domain Expertise expert
+---
 meta_title: Leveraging the advantages of Bayesian Methods to build a data science product using PyMC3 https://twitter.com/kuusisto_k #PyConDE #PyDataBerlin
 ---
-categories: pydata, algorithms, business-start-ups, data-science, machine-learning, science, statistics, talk
+categories: pydata, python-skill-level-basic, domain-expertise-expert, talk, algorithms, business-start-ups, data-science, machine-learning, science, statistics
 ---
 body: Bayesian frameworks offer powerful theoretical advantages: they can take advantage of prior information and provide a better sense of uncertainty. 
 

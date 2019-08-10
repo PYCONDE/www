@@ -12,7 +12,7 @@ speakers: Dominik Henter, Jéssica Lins
 ---
 submission_type: Tutorial
 ---
-domains: Infrastructure • Networks • Parallel Programming
+domains: Infrastructure, Networks, Parallel Programming
 ---
 biography: #### Dominik Henter
 
@@ -34,9 +34,13 @@ affiliation: Ecosia,
 ---
 track: PyConDE
 ---
+python_skill: Python Skill Level basic
+---
+domain_expertise: Domain Expertise none
+---
 meta_title: Parallel programming for python developers – Let’s Go(lang)  #PyConDE #PyDataBerlin
 ---
-categories: pyconde, infrastructure, networks, parallel-programming, tutorial
+categories: pyconde, python-skill-level-basic, domain-expertise-none, tutorial, infrastructure, networks, parallel-programming
 ---
 body: After years of python programming I started at a company that was using Google’s C/C++ alternative Go (aka Golang) for its core product. While I definitely missed some of Python’s neat features and amazing standard library, I was very impressed by one thing in Go: its approach to parallelism. That is why in this workshop I want to give an example of how to build a highly parallel service in Go, from the perspective of someone that knows what it means to leave Python’s niceness behind.
 

@@ -8,12 +8,19 @@
         <div class="col-12 col-xl-10 offset-xl-1">
           <header class="page-header text-center">
             <h2 class="page-title">{{ this.title }}</h2>
-            <h6>{{ this.domains }}</h6>
+            <h6>{% for domain in this.domains.split(', ') %}
+                {%  if loop.index0 != 0 %} • {% endif %}
+                {% set domain_slug = domain.lower().replace(' ', '-').replace('/', '-') %}
+                <a href="/program/categories/{{ domain_slug }}">{{ domain }}</a>
+                {% endfor %}
+            </h6>
               {% set category = this.track.lower() %}
               {% set submission_type = this.submission_type.lower() %}
+              {% set domain_expertise = this.domain_expertise.lower().replace(' ', '-') %}
+              {% set python_skill = this.python_skill.lower().replace(' ', '-') %}
             <h5><a href="/program/categories/{{ submission_type }}">{{ this.submission_type }}</a> • <a href="/program/categories/{{ category }}">{{ this.track }}</a></h5>
+              <h6><a href="/program/categories/{{ domain_expertise }}">{{ this.domain_expertise }}</a> • <a href="/program/categories/{{ python_skill }}">{{ this.python_skill }}</a></h6>
             <h3 class="page-title">{{ this.speakers }}</h3>
-            <h6>{{ this.expertise }}</h6>
           </header>
           <div class="single-content">
             {{ this.body }}

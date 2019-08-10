@@ -12,7 +12,7 @@ speakers: Idowu Adeleke
 ---
 submission_type: Talk
 ---
-domains: Big Data • Data Science
+domains: Big Data, Data Science
 ---
 biography: #### Idowu Adeleke
 
@@ -26,9 +26,13 @@ affiliation: Andela
 ---
 track: PyData
 ---
+python_skill: Python Skill Level guru
+---
+domain_expertise: Domain Expertise expert
+---
 meta_title: Advanced Software Testing for Data Scientists  #PyConDE #PyDataBerlin
 ---
-categories: pydata, big-data, data-science, talk
+categories: pydata, python-skill-level-guru, domain-expertise-expert, talk, big-data, data-science
 ---
 body: So you are in the middle of a project to develop a new machine learning algorithm which will be a core part of your product. Cool! But how do you know that your algorithm really works?
 

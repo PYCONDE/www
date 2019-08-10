@@ -12,7 +12,7 @@ speakers: Paloma
 ---
 submission_type: Talk
 ---
-domains: Business & Start-Ups • Community • Web
+domains: Business & Start-Ups, Community, Web
 ---
 biography: #### Paloma
 
@@ -28,9 +28,13 @@ affiliation: autonomous| part os PyLadies Berlin
 ---
 track: PyConDE
 ---
+python_skill: Python Skill Level none
+---
+domain_expertise: Domain Expertise none
+---
 meta_title: From body and code <programming in times of acceptance> @pcultural #PyConDE #PyDataBerlin
 ---
-categories: pyconde, business-start-ups, community, web, talk
+categories: pyconde, python-skill-level-none, domain-expertise-none, talk, business-start-ups, community, web
 ---
 body: Have you being hearing about **"diversity"** but not sure why is it important or what it actually mean? Do you support "diversity" but are not sure on how your **day by day actions** proposes a real **change**?
 

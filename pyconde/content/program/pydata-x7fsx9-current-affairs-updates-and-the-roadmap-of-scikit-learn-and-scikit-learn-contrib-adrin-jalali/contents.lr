@@ -12,7 +12,7 @@ speakers: Adrin Jalali
 ---
 submission_type: Talk
 ---
-domains: Artificial Intelligence • Community • Code-Review • Machine Learning
+domains: Artificial Intelligence, Community, Code-Review, Machine Learning
 ---
 biography: #### Adrin Jalali
 
@@ -28,9 +28,13 @@ affiliation: Anaconda Inc.
 ---
 track: PyData
 ---
+python_skill: Python Skill Level expert
+---
+domain_expertise: Domain Expertise expert
+---
 meta_title: Current affairs, updates, and the roadmap of scikit-learn and scikit-learn-contrib  #PyConDE #PyDataBerlin
 ---
-categories: pydata, artificial-intelligence, community, code-review, machine-learning, talk
+categories: pydata, python-skill-level-expert, domain-expertise-expert, talk, artificial-intelligence, community, code-review, machine-learning
 ---
 body: [Scikit-learn](https://scikit-learn.org/stable/) a package used by many machine learning students, enthusiasts, and data scientists, has over 35000 stars, 17000 forks, 1200 open issues, and 700 open pull requests.
 

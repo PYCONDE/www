@@ -12,7 +12,7 @@ speakers: Luciano Ramalho
 ---
 submission_type: Talk
 ---
-domains: Algorithms • Code-Review
+domains: Algorithms, Code-Review
 ---
 biography: #### Luciano Ramalho
 
@@ -28,9 +28,13 @@ affiliation: ThoughtWorks
 ---
 track: PyConDE
 ---
+python_skill: Python Skill Level basic
+---
+domain_expertise: Domain Expertise none
+---
 meta_title: Beyond Paradigms: a new key to grok Python & other languages @ramalhoorg #PyConDE #PyDataBerlin
 ---
-categories: pyconde, algorithms, code-review, talk
+categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, algorithms, code-review
 ---
 body: Java is object oriented and Haskell is functional. How about Python? Is it really OO with free-standing functions and weak encapsulation? Python has lambdas and closures, but is it functional? Are these useful questions?
 

@@ -30,9 +30,13 @@ affiliation:
 ---
 track: PyConDE
 ---
+python_skill: Python Skill Level basic
+---
+domain_expertise: Domain Expertise none
+---
 meta_title: pytest - simple, rapid and fun testing with Python @the_compiler #PyConDE #PyDataBerlin
 ---
-categories: pyconde, infrastructure, tutorial
+categories: pyconde, python-skill-level-basic, domain-expertise-none, tutorial, infrastructure
 ---
 body: The pytest tool presents a rapid and simple way to write tests for your Python
 code. This training gives an introduction with exercises to some

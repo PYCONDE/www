@@ -26,9 +26,13 @@ affiliation: diconium
 ---
 track: PyData
 ---
+python_skill: Python Skill Level none
+---
+domain_expertise: Domain Expertise none
+---
 meta_title: Where Linguistics meets Natural Language Processing  #PyConDE #PyDataBerlin
 ---
-categories: pydata, natural-language-processing, talk
+categories: pydata, python-skill-level-none, domain-expertise-none, talk, natural-language-processing
 ---
 body: For someone working with **Natural Language Processing/Understanding** (NLP/NLU), I see a lot of value in incorporating a formal understanding of how languages are structured, beyond just being able to speak/understand them. In this talk I will give you a simple explanation of the basic concepts and their connection with the NLP/NLU world.
 

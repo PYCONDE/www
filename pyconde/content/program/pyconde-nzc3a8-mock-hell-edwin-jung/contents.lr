@@ -12,7 +12,7 @@ speakers: Edwin Jung
 ---
 submission_type: Talk
 ---
-domains: Code-Review • Web • Data Engineering
+domains: Code-Review, Web, Data Engineering
 ---
 biography: #### Edwin Jung
 
@@ -30,9 +30,13 @@ affiliation: Quid
 ---
 track: PyConDE
 ---
+python_skill: Python Skill Level basic
+---
+domain_expertise: Domain Expertise none
+---
 meta_title: Mock Hell ejjcatx #PyConDE #PyDataBerlin
 ---
-categories: pyconde, code-review, web, data-engineering, talk
+categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, code-review, web, data-engineering
 ---
 body: Mocking in Python is tricky.  Most widely available materials on Python mocks serve as a basic operator’s manual for the library, but scarcely address the code smells and technical debt that mocks may create. 
 

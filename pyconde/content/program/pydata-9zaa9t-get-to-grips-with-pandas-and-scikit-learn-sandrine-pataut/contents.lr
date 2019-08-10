@@ -12,7 +12,7 @@ speakers: Sandrine Pataut
 ---
 submission_type: Tutorial
 ---
-domains: Algorithms • Data Science • Machine Learning
+domains: Algorithms, Data Science, Machine Learning
 ---
 biography: #### Sandrine Pataut
 
@@ -32,9 +32,13 @@ affiliation: QBE Insurance
 ---
 track: PyData
 ---
+python_skill: Python Skill Level basic
+---
+domain_expertise: Domain Expertise none
+---
 meta_title: Get to grips with pandas and scikit-learn @SPataut #PyConDE #PyDataBerlin
 ---
-categories: pydata, algorithms, data-science, machine-learning, tutorial
+categories: pydata, python-skill-level-basic, domain-expertise-none, tutorial, algorithms, data-science, machine-learning
 ---
 body: We hear a lot about Machine Learning, but it’s just one part of a bigger process. Before applying any algorithm to a data set, discovery and preparation are needed. This hands-on workshop will cover an end-to-end classification project, from importing the data to evaluating a model performance. After this tutorial, you will have completed a step by step Machine Learning workflow.
 

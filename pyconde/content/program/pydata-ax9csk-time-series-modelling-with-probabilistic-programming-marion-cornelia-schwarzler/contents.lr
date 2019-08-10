@@ -12,7 +12,7 @@ speakers: Marion Cornelia Schwärzler
 ---
 submission_type: Talk
 ---
-domains: Data Science • Statistics
+domains: Data Science, Statistics
 ---
 biography: #### Marion Cornelia Schwärzler
 
@@ -28,9 +28,13 @@ affiliation: Deloitte Analytics Institute
 ---
 track: PyData
 ---
+python_skill: Python Skill Level expert
+---
+domain_expertise: Domain Expertise expert
+---
 meta_title: Time series modelling with probabilistic programming  #PyConDE #PyDataBerlin
 ---
-categories: pydata, data-science, statistics, talk
+categories: pydata, python-skill-level-expert, domain-expertise-expert, talk, data-science, statistics
 ---
 body: We cannot address every time-series problem with standard tools, especially in the case of extrapolation, where even the applicability of many standard machine-learning tools is not obvious. We will describe a problem we recently encountered in time-series extrapolation, where the underlying time-series were (i) non-stationary, (ii) subject to secular shocks ,(iii) short, and (iv) sometimes only indirectly visible. The challenge was to extrapolate the next nine points for each instance.
 

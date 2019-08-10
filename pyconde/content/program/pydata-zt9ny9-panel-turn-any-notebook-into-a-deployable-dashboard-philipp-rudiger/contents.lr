@@ -12,7 +12,7 @@ speakers: Philipp Rudiger
 ---
 submission_type: Talk
 ---
-domains: Data Science • IDEs/ Jupyter • Visualisation
+domains: Data Science, IDEs/ Jupyter, Visualisation
 ---
 biography: #### Philipp Rudiger
 
@@ -28,9 +28,13 @@ affiliation: Anaconda Inc.
 ---
 track: PyData
 ---
+python_skill: Python Skill Level expert
+---
+domain_expertise: Domain Expertise expert
+---
 meta_title: Panel: Turn any notebook into a deployable dashboard @philippjfr #PyConDE #PyDataBerlin
 ---
-categories: pydata, data-science, ides-jupyter, visualisation, talk
+categories: pydata, python-skill-level-expert, domain-expertise-expert, talk, data-science, ides-jupyter, visualisation
 ---
 body: Over the last decade Jupyter notebooks have become an incredibly powerful tool for performing analyses and visualizing data. Once an analysis is done it often has to be shared with a wider audience, either within an organization or with the wider public, but this step often requires an entirely different set of tools and skillset. [Panel](http://panel.pyviz.org) is a new, open-source Python library built to easily wrap the outputs of an analysis, combine them with widgets and then lay them out as an interactive app or dashboard. This enables faster iteration cycles within organizations and ensures users without in-depth familiarity with web programming can develop and deploy complex dashboards with minimal code. 
 

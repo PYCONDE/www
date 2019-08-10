@@ -12,7 +12,7 @@ speakers: Dan Fritchman
 ---
 submission_type: Talk
 ---
-domains: Microcontrollers • Parallel Programming • Science • Makers
+domains: Microcontrollers, Parallel Programming, Science, Makers
 ---
 biography: #### Dan Fritchman
 
@@ -28,9 +28,13 @@ affiliation: HW21
 ---
 track: PyConDE
 ---
+python_skill: Python Skill Level guru
+---
+domain_expertise: Domain Expertise guru
+---
 meta_title: Chips Made From Python @dan_fritchman #PyConDE #PyDataBerlin
 ---
-categories: pyconde, microcontrollers, parallel-programming, science, makers, talk
+categories: pyconde, python-skill-level-guru, domain-expertise-guru, talk, microcontrollers, parallel-programming, science, makers
 ---
 body: Chip design does not often tend to be thought of as *programming*, although a complex system-on-chip (SoC) is generally crafted through thousands or millions of lines of code. 
 

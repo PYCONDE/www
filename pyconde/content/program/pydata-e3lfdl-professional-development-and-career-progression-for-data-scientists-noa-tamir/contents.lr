@@ -12,7 +12,7 @@ speakers: Noa Tamir
 ---
 submission_type: Talk
 ---
-domains: Business & Start-Ups • Community • Data Science
+domains: Business & Start-Ups, Community, Data Science
 ---
 biography: #### Noa Tamir
 
@@ -30,9 +30,13 @@ affiliation: AUTO1 Group
 ---
 track: PyData
 ---
+python_skill: Python Skill Level none
+---
+domain_expertise: Domain Expertise none
+---
 meta_title: Professional Development and Career Progression for Data Scientists @noatamir #PyConDE #PyDataBerlin
 ---
-categories: pydata, business-start-ups, community, data-science, talk
+categories: pydata, python-skill-level-none, domain-expertise-none, talk, business-start-ups, community, data-science
 ---
 body: Let's go beyond the Venn diagram memes and delve into the scope of technical, leadership, and soft skills current data scientists can develop and grow as they shape their careers. Find out how you can pursue your passion and specialize, and what to do if you are into leadership, but can not see yourself becoming a manger. I will share a framework that helps break down what data science can mean, across companies and experience levels, into what it means to you and your career. In addition, I will provide examples for resources you can utilize to learn on the job, and off the job, and how to manage your learning while managing your workload.
 
