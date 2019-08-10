@@ -1,6 +1,7 @@
 import json
 from pprint import pprint
 import tweepy
+from config import consumer_key, consumer_secret, access_token, access_token_secret
 
 speakersf = "_private/speakers.json"
 submissionsf = "_private/submissions.json"
@@ -11,24 +12,24 @@ with open(speakersf, "r") as f:
 with open(submissionsf, "r") as f:
     all_submissions = json.load(f)
 
-speakers_of_accepted_submissions = [x for x in all_submissions if x['state'] in ("accepted", "confirmed")]
+all_speakers = {x['code']: x for x in all_speakers}
+accepted_submissions = [x for x in all_submissions if x['state'] in ("accepted", "confirmed")]
+accepted_speakers = []
+_ = [[accepted_speakers.extend([y['code'] for y in x['speakers']]) for x in accepted_submissions]]
+accepted_speakers = set(accepted_speakers)
 
 
-def cleanhandle(pers):
-    if "/" in pers.get('@twitter'):
-        return pers.get('@twitter').lower().strip().split('/')[-1]
+def cleanhandle(handle):
+    if "/" in handle:
+        return handle.lower().strip().split('/')[-1]
     else:
-        return pers.get('twitter').lower().strip().replace('@', '')
+        return handle.lower().strip().replace('@', '')
 
 
-handles = {cleanhandle(pers) for pers in data if pers.get('twitter') and pers.get('status', '') == 'accepted'}
+handles = set([cleanhandle(all_speakers[code]['@twitter']) for code in accepted_speakers
+           if all_speakers.get(code, {}).get('@twitter')])
 # pprint(handles)
 print(len(handles))
-
-consumer_key = "JNQs10WBnjPJUdNGzUW3YS5Qp"
-consumer_secret = "Tydo9iCitovqcwX7sc6LTYCQBQyRQidwTdQhX6ZxFJiS7lk5IL"
-access_token = "15324940-NbhYfPgM5QLtfpsQgN9aZwiuZ3D4jCU7iXMYkLLgo"
-access_token_secret = "Xgy424MFZrnbwMS2Ug725lQKF2KTVMc9uUaIHdWwEWDZ0"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
