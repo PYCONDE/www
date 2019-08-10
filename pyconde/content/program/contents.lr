@@ -1,27 +1,3 @@
-title: Conference Program
+_model: session-list
 ---
-_template: page-md.html
----
-description: Programme for PyConDE & PyData Berlin 2019.
----
-twitter_image: /static/media/twitter/PyConDEPyDataSquare.jpg
----
-body:
-
- ![PyConDE & PyData Berlin 2019](/static/media/PyConDEPyDataBER-1800-transparent.png)
-
-
-#### Main Conference (Wed Oct 9 - Fri Oct 11)
-
-venue: Kosmos
-
-##### The full list sessions can be <a href="https://pretalx.com/pyconde-pydata-berlin-2019/sneak/" target="_blank">found here</a>.
-
-###### We plan to publish the schedule on Wednesday, August 14
-
-
-#### Sprints (Sat Oct 12 - Sun Oct 13)
-plese visit the [Sprints page](https://github.com/PYCONDE/www/issues/59)
-
-
-
+title: Session List
