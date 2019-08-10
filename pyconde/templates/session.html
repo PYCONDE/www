@@ -19,7 +19,7 @@
               {% set domain_expertise = this.domain_expertise.lower().replace(' ', '-') %}
               {% set python_skill = this.python_skill.lower().replace(' ', '-') %}
             <h5><a href="/program/categories/{{ submission_type }}">{{ this.submission_type }}</a> • <a href="/program/categories/{{ category }}">{{ this.track }}</a></h5>
-              <h6><a href="/program/categories/{{ domain_expertise }}">{{ this.domain_expertise }}</a> • <a href="/program/categories/{{ python_skill }}">{{ this.python_skill }}</a></h6>
+              <h6>Prerequisites: <a href="/program/categories/{{ domain_expertise }}">{{ this.domain_expertise }}</a> • <a href="/program/categories/{{ python_skill }}">{{ this.python_skill }}</a></h6>
             <h3 class="page-title">{{ this.speakers }}</h3>
           </header>
           <div class="single-content">

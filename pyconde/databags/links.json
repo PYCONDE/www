@@ -22,6 +22,10 @@
         {
           "name": "Tutorials",
           "path": "/program/categories/tutorial"
+        },
+        {
+          "name": "Schedule",
+          "path": "/program-schedule"
         }
       ]
     },
