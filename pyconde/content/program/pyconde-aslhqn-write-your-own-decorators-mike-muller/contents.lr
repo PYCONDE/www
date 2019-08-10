@@ -1,0 +1,38 @@
+_model: session 
+---
+code: ASLHQN
+---
+title: Write your Own Decorators
+---
+description: Learn how to write useful decorators in a hands-on tutorial.
+---
+twitter_image: /static/media/twitter/ASLHQN.jpg
+---
+speakers: Mike Müller
+---
+submission_type: Tutorial - 90 Min.
+---
+domains: Algorithms
+---
+biography: #### Mike Müller
+
+Affiliation: Python Academy
+
+
+
+Mike Müller has been using Python as his primary programming language since 1999. He is a Python trainer and the CEO at Python Academy (www.python-academy.com).
+
+He teaches a wide variety of Python topics including "Introduction to Python", "Python for Scientists and Engineers", "Advanced Python" as well as "Optimization and Extensions of Python Programs".
+
+He is the chairman of the Python Software Verband e.V., a PSF fellow, a PSF community service award holder, User Group co-founder. He chaired EuroSciPy 2008 and 2009, PyCon DE 2011 and 2012 as well as EuroPython 2014 in Berlin, Germany.
+
+[Twitter](https://twitter.com/pyacademy) • [Homepage](https://www.python-academy.com)
+---
+affiliation: Python Academy
+---
+track: PyConDE
+---
+body: Writing a function that takes a function and returns new, modified function requires solid knowledge how Python functions and closures work. This  hands-on workshop takes  you step-by-step through the process of writing decorators. Learn how to apply best practices from the start.
+
+You will learn the important principles that you need to fully understand how and why a decorator works the way it does. But this training does not end there. It provides many practical examples that can be used as blueprints for your own decorators.
+

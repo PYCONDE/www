@@ -1,0 +1,34 @@
+_model: session 
+---
+code: MF9DAV
+---
+title: Privacy-preserving Machine Learning for text processing
+---
+description: Data privacy can be tricky when doing Natural Language Processing, join us to explore the different strategies you can use to keep your user data safer!
+---
+twitter_image: /static/media/twitter/MF9DAV.jpg
+---
+speakers: Sarah Diot-Girard
+---
+submission_type: Talk - 45 Min.
+---
+domains: Artificial Intelligence • Data Science • Natural Language Processing • Machine Learning
+---
+biography: #### Sarah Diot-Girard
+
+Affiliation: PeopleDoc
+
+
+
+Sarah Diot-Girard is working as a Machine Learning engineer since 2012 and she enjoys finding solutions to engineering problems using Data Science. She is particularly interested in practical issues, both ethical and technical, coming from applying ML into real life. In the past, she gave talks about data privacy and algorithmic fairness, but she also promotes a DataOps culture.
+
+[Gthub](https://github.com/SdgJlbl/)
+---
+affiliation: PeopleDoc
+---
+track: PyData
+---
+body: Data privacy is probably one of the most important challenges we are facing in Data Science. Applications are collecting more and more personal data and it is paramount to ensure anonymity. Privacy cannot be solved just by removing personal identifiers, and concepts such as k-anonymity have been developed to help with structured data. 
+But what if you are working with unstructured text data? Things can get even trickier... 
+This talk aims at presenting a few tips and tricks to ensure privacy when working with text, as well as identifying still open research questions. No silver bullet here, but hopefully a step in the right direction.
+

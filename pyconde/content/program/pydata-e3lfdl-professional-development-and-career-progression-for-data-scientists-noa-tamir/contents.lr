@@ -1,0 +1,34 @@
+_model: session 
+---
+code: E3LFDL
+---
+title: Professional Development and Career Progression for Data Scientists
+---
+description: How to level up your skills and develop your your career by making the most of on the job opportunities, as well as open source contributions
+---
+twitter_image: /static/media/twitter/E3LFDL.jpg
+---
+speakers: Noa Tamir
+---
+submission_type: Talk - 30 Min.
+---
+domains: Business & Start-Ups • Community • Data Science
+---
+biography: #### Noa Tamir
+
+Affiliation: AUTO1 Group
+
+
+
+I am the Director of Data Science at AUTO1 Group. Previously, I worked as Data Science Manager at Babbel, and as a Senior Data Scientist at King. My background in physics, economics, design and management has given me a strong foundation to answer interesting questions using data, analytical techniques and visualisations. 
+
+In addition, I'm the co-organiser of R-Ladies and Women in Machine Learning and Data Science Berlin meetups, and of the satRday Berlin 2019 conference. As a member of Forwards, The R Foundation's taskforce on women and other under-represented groups, I contribute to strengthing's R's community and making R conferences welcoming and inclusive.
+
+[Twitter](https://twitter.com/noatamir) • [Gthub](github.com/noatamir) • [Homepage](noatamir.com)
+---
+affiliation: AUTO1 Group
+---
+track: PyData
+---
+body: Let's go beyond the Venn diagram memes and delve into the scope of technical, leadership, and soft skills current data scientists can develop and grow as they shape their careers. Find out how you can pursue your passion and specialize, and what to do if you are into leadership, but can not see yourself becoming a manger. I will share a framework that helps break down what data science can mean, across companies and experience levels, into what it means to you and your career. In addition, I will provide examples for resources you can utilize to learn on the job, and off the job, and how to manage your learning while managing your workload.
+

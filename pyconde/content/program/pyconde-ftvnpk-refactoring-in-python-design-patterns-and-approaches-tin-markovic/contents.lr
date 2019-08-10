@@ -1,0 +1,48 @@
+_model: session 
+---
+code: FTVNPK
+---
+title: Refactoring in Python: Design Patterns and Approaches
+---
+description: Refactoring can be easier: Clean up your codebase, using modern tooling, gradual code changes and smart policy.
+---
+twitter_image: /static/media/twitter/FTVNPK.jpg
+---
+speakers: Tin Marković
+---
+submission_type: Talk - 45 Min.
+---
+domains: Business & Start-Ups • Community • Code-Review
+---
+biography: #### Tin Marković
+
+Affiliation: Kiwi.com
+
+
+
+Tin Marković is a software engineer working in Python, and a team lead in Kiwi.com, a full stack developer with strong software architecture bend. Specialized for designing systems, rather than components - he tries to spread knowledge of code as product, rather than ideal. 
+
+After undergoing higher education in Bosnia and Herzegovina, and Croatia - Tin has interned in Slovakia and Croatia as a Computer Science and Engineering master level graduate. 
+Professionally, he has worked with Python specialized ExtensionEngine (and in extension edX), then for Kiwi.com
+
+Becoming a team lead at Kiwi.com, Tin has managed to encounter challenges that come from interlocking dozens of systems, with complex logic that the travel industry presents.
+
+As a dedicated professional, Tin is more than eager to meet and converse with fellow attendees and speakers - looking to build long-lasting contacts and potential for fruitful cooperation.
+
+[Homepage](https://tinthe.dev)
+---
+affiliation: Kiwi.com
+---
+track: PyConDE
+---
+body: Python makes wonderful code accessible at our fingertips, but it also allows us to take a lot of liberty. When you start, code is beautiful and makes sense. With each step you walk on, you find more and more hacks showing up. Eventually, the brilliant codebase you've started with can not be seen under the mud.
+
+Not every code-base can be rewritten, not everything can be redone from scratch. Cool libraries often take a lot of liberty with code structure and make cross-integration difficult, if not impossible. Tests sound ideal, but in practice, they're just so hard to make right. Why is this, and how to change it?
+
+The talk will tackle the problems in three parts: 
+- The Easy Wins: What to do to instantly increase the code quality in your organisation. How? Why isn't it enough?
+- Patterns and Antipatterns: How to identify code that "smells", how to replace it? How to integrate into old code, better?
+- The Philosophy: What approach to set down for the future? Why to care? How to write replace-able code. How to prevent history from repeating.
+
+The talk will close with audience discussion and experiences, questions and proposals - building a collection of some on-premise tips and tricks.
+

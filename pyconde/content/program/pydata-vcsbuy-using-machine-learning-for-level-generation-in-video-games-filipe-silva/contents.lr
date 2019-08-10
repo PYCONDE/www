@@ -1,0 +1,37 @@
+_model: session 
+---
+code: VCSBUY
+---
+title: Using machine learning for Level Generation in video-games
+---
+description: Using machine learning models for level generation in video-games
+---
+twitter_image: /static/media/twitter/VCSBUY.jpg
+---
+speakers: Filipe Silva
+---
+submission_type: Tutorial - 90 Min.
+---
+domains: Data Science • Machine Learning
+---
+biography: #### Filipe Silva
+
+Affiliation: MyTaxi
+
+
+
+Data Scientist at Mytaxi. Before I was working as a Machine Learning Engineer in a startup working in Computer Vision, Machine Learning and Fraud Detection. 
+Master’s degree in Electrical and Computers Engineering with a focus in Automation.
+I love cooking and music :)
+
+[Twitter](https://twitter.com/Filipedls) • [Gthub](https://github.com/Filipedls)
+---
+affiliation: MyTaxi
+---
+track: PyData
+---
+body: In some video-games, the level and environment generation uses random variables that are usually sampled from uniformed distributions. Or in some cases, these variables are even manually programmed.
+The different game experiences, like levels of difficulty, are usually achieved by truncating these distributions to increase the chances of obtaining a sample that translates in a particular game experience, for example, a harder game. In simple games, this is done commonly by just increasing the speed of the game, without changing the way these variable are sampled.
+
+All of these variables have an impact on the way the game is going to develop for the player. The goal of this tutorial is to instead of sampling these level variables from a uniform distribution, use machine learning models trained on data from past games. By selecting different game situations to train our model we can archive different game experiences, such as different difficulty, game styles or even adapted to a player’s style.
+

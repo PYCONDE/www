@@ -1,0 +1,33 @@
+_model: session 
+---
+code: TNHATE
+---
+title: Build a Machine Learning pipeline with Jupyter Notebooks and Azure
+---
+description: Build a Machine Learning pipeline with Jupyter Notebooks and Azure
+---
+twitter_image: /static/media/twitter/TNHATE.jpg
+---
+speakers: Daniel Heinze
+---
+submission_type: Tutorial - 90 Min.
+---
+domains: Computer Vision • Deep Learning • DevOps • IDEs/ Jupyter
+---
+biography: #### Daniel Heinze
+
+Affiliation: Microsoft
+
+
+
+Daniel is a Data Engineer at Microsoft, working with customers to create services that get insights from data and take that to improve the system through Machine Learning.
+---
+affiliation: Microsoft
+---
+track: PyData
+---
+body: With increasing focus on Machine Learning systems in almost every business it is important, to build a great pipeline to train, test and deploy your models. In this session we will show a way to do that with Jupyter Notebooks and Azure
+
+With increasing focus on Machine Learning systems in almost every business area, it is important to build a great pipeline to train, test and deploy your models. In this session we will show a way to do that with Jupyter Notebooks and Azure.
+The session will cover topics from the creation a CNN in Pytorch to automatically training the model on different machines and using the produced model in ONNX format to make predictions on new data through a web API.
+

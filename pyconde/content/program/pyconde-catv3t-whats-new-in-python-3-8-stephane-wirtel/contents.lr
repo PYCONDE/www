@@ -1,0 +1,32 @@
+_model: session 
+---
+code: CATV3T
+---
+title: What’s new in Python 3.8?
+---
+description: What’s new in Python 3.8? Learn the new features of this new version
+---
+twitter_image: /static/media/twitter/CATV3T.jpg
+---
+speakers: Stéphane Wirtel
+---
+submission_type: Talk - 30 Min.
+---
+domains: Community
+---
+biography: #### Stéphane Wirtel
+
+Affiliation: Mgx.io
+
+
+
+CPython Core Dev
+
+[Twitter](https://twitter.com/matrixise) • [Gthub](matrixise) • [Homepage](http://wirtel.be)
+---
+affiliation: Mgx.io
+---
+track: PyConDE
+---
+body: Python 3.8 will be released in few months and you want to know the new features of this version, I will explain you the new points, the new audit book or the f-string {=} and the other changes of this new version.
+

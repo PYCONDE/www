@@ -1,0 +1,38 @@
+_model: session 
+---
+code: R7PELL
+---
+title: Dash: Interactive Data Visualization Web Apps with no Javascript
+---
+description: Interactive webpages with no JS? What could possibly go wrong?
+---
+twitter_image: /static/media/twitter/R7PELL.jpg
+---
+speakers: Dom Weldon
+---
+submission_type: Talk - 30 Min.
+---
+domains: Data Science • Visualisation • Web
+---
+biography: #### Dom Weldon
+
+Affiliation: decisionLab
+
+
+
+Dom Weldon is a Senior Software Engineer at decisionLab, a London-based mathematical modelling consultancy with expertise in machine learning, simulation, optimization and visualization. Dom's team specialize in taking models from data scientists and turning them into production ready tools. Current clients include the Royal Navy, Siemens and various UK public bodies.
+
+Dom came to decisionLab from his PhD studies in Computational Geography at King's College London, his initial degree was in Natural Sciences at the University of Cambridge, and holds a master's in the historical and cultural geography of the Cold War United States. Outside of work, Dom is interested in languages and travelling, and holds a voluntary statutory appointment on a board monitoring the welfare and dignity of prisoners in a challenging North London jail.
+
+[Twitter](https://twitter.com/DomWeldon)
+---
+affiliation: decisionLab
+---
+track: PyData
+---
+body: Your data science or machine learning project probably won't just produce a written report. Instead, projects are increasingly expected to produce interactive tools to allow end-users to explore data and results with rich, interactive visualizations. Inevitably, this will be done in a web browser, meaning you'll need to add a quantitatively trained web developer to your team, or have your data scientists spend time learning HTML, Javascript and CSS. Dash, a project by the team that makes Plotly, solves some of these problems by allowing data scientists to build rich and interactive websites in pure python, with minimal knowledge of HTML and absolutely no Javascript.
+
+At decisionLab, a London-based data science consultancy producing decision tools, we've embraced Dash to produce proof-of-concept models for our projects in alpha. Although we're not officially connected to the plotly/Dash project, by using the library daily across many projects, we've learned many lessons and what we feel are best practises we'd like to share, and hear feedback on!
+
+This talk will give an overview of Dash, how it works and what it can be used for, before outlining some of the common problems that emerge when data scientists are let loose to produce web applications, and web developers have to work with the pydata ecosystem. The talk also covers effective working practises to start producing cool interactive statistical web applications, fast. We'll also identify some of the pitfalls of Dash, and how and when to make the decision to stop using Dash and start building a proper web application.
+

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="profile" href="http://gmpg.org/xfn/11">
+  <script>(function (html) { html.className = html.className.replace(/\bno-js\b/, 'js') })(document.documentElement)</script>
+  <title>PyConDE & PyData Berlin 2019 | Thinking functionally: Introduction to FP in Python</title>
+  <meta name="description"
+    content="PyConDE & PyData Berlin 2019. October 9-13, Berlin Germany. Where Pythonistas in Germany can meet to learn about new and upcoming Python libraries, tools, software and data science.">
+
+
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link rel="dns-prefetch" href="//s.w.org">
+  <link rel="icon" href="/static/favicons/favicon-neon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla:400,700i,700|Poppins:700">
+  <link rel="stylesheet" href="/static/css/font-awesome.css" type="text/css" media="all">
+  <link rel="stylesheet" href="/static/style.css" type="text/css" media="all">
+  <link rel="stylesheet" href="/static/style-custom.css" type="text/css" media="all">
+
+  <!-- Twitter Card data -->
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@pyconde">
+  <meta name="twitter:title" content="Thinking functionally: Introduction to FP in Python">
+  <meta name="twitter:description" content="What is functional programming and how can you do it in Python!">
+  
+  <meta name="twitter:image" content="/static/media/twitter/WJ9SXR.jpg">
+  
+</head>
+
+<body class="home blog has-header-background">
+  <div class="site" id="page">
+    <header class="site-header" id="masthead">
+      <div class="site-header__wrap">
+        <div class="container">
+          <div class="row in-view">
+            <div class="col-12 col-xl-10 offset-xl-1">
+              <div class="site-header__elements">
+                <div class="site-header__mobile hidden-lg-up">
+                  <button class="site-header__mobile--trigger side-menu-trigger">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                  </button>
+                </div>
+
+                <div class="site-header__branding">
+                  <div class="site-branding">
+                    <a href="/">
+                      <img src="/static/media/PyConDE_PyDataBer_circle_trans_500.png" alt="Home" width="232" height="144">
+                    </a>
+                  </div>
+                </div>
+
+                <div class="site-header__nav hidden-md-down">
+                  <div class="site-header__menu">
+                    <nav class="main-navigation" aria-label="Site Menu" role="navigation">
+                      <div class="menu-top-menu-container">
+                        <ul class="menu" id="top-menu">
+
+                          
+
+
+                          
+                          <li><a href="/program/">Program</a></li>
+
+
+                          
+
+
+                          
+
+
+                          
+                          <li><a href="/frequently-asked-questions/">FAQ</a></li>
+
+
+                          
+
+
+                          
+
+
+                          
+                          <li><a href="/blog/">Blog</a></li>
+
+
+                          
+
+
+                          
+
+
+                          
+                          <li><a href="/sprints/">Sprints</a></li>
+
+
+                          
+
+
+                          
+
+
+                          
+                          <li><a href="/sponsors/">Sponsors</a></li>
+
+
+                          
+
+
+                          
+
+
+                          
+                          <li class="menu-item-has-children">
+                              <a href="#">Info</a>
+                              <ul class="sub-menu">
+                                
+                                <li><a href="/venue/"><span>Venue</span></a></li>
+                                
+                                <li><a href="/call-for-proposals/"><span>Call for Proposals</span></a></li>
+                                
+                                <li><a href="/financial-aid/"><span>Financial Aid</span></a></li>
+                                
+                                <li><a href="/team/"><span>Team</span></a></li>
+                                
+                              </ul>
+                            </li>
+
+
+                          
+
+
+                          
+
+
+                          
+                          <li><a href="/code-of-conduct/">Code of Conduct</a></li>
+
+
+                          
+
+
+                          
+
+
+                        </ul>
+                      </div>
+                    </nav>
+                  </div>
+                </div>
+                <div class="site-header__cta hidden-sm-down">
+                  <a class="btn btn--secondary" target="_blank" href="https://ti.to/pycon-de/pyconde-pydata-2019">Buy
+                    ticket</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="site-content" id="content">
+      <div class="content-area" id="primary">
+        
+<main class="site-main" id="main">
+  <section class="section section--singular">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-xl-10 offset-xl-1">
+          <header class="page-header text-center">
+            <h1 class="page-title">Thinking functionally: Introduction to FP in Python</h1>
+            <h6><p>Algorithms • Community • Web</p>
+</h6>
+            <h5>Talk - 30 Min. • PyConDE</h5>
+            <h3 class="page-title"><p>Alisha Aneja</p>
+</h3>
+            <h6></h6>
+          </header>
+          <div class="single-content">
+            <p>Python is an imperative language like Java or C++. An imperative language is based on ‘commands’, in the form of instructions and statements and are executed. These commands will have an effect. Functional languages like Haskell, OCaml revolve around the concept of ‘pure functions’. A pure function is expressed as a mathematical expression only. You can evaluate the expression and there will be no side effects, for example, no I/O operations, no global state changes, no database interactions. The output is only dependent on its inputs. Hence, it is based on ‘equational reasoning’. So if you were to call a pure function with the same inputs a million times, you would get the same result every single time. Since there are no side effects, there is immutable data. The data once initialized remains same throughout the lifetime of the code, which makes ‘parallel programming’ easier. Due to this immutability of data, the value of an expression is the same anywhere it might occur in the program – as long as the required variables are defined. This is termed as ‘Referential Transparency’. It means that the value of an expression is the same anywhere it might occur in the program – as long as the required variables are defined. You never need to track the value of state variables or remember any updates. This enables usage of ‘memoization’ – you basically ‘remember’ the outputs of expensive functions with some common arguments in a sort of lookup table. This reduces the computational complexity at the expense of memory. 
+Although Python is not a functional programming language, but it has features suitable for writing a functional program. The three popular higher order functions are map(), reduce(), filter(). reduce() has now been moved to functools module, a part of the standard library. Next comes the lambda function, which has its roots in the Lambda Calculus. They are small anonymous functions not necessarily bound to a name at runtime. As far as recursion is concerned, any imperative code can be converted into a recursive function. The functions, operator and itertools module groups a number of functions (like iter()) related to iterators and their use/combination. Generator expressions to some extent do lazy evaluation, i.e. return an iterator that computes the values as necessary, not needing to materialize all the values at once. Yield expression is an example of this.</p>
+
+          </div>
+          <div class="single-content">
+            <h4>Alisha Aneja</h4>
+<p>Affiliation: CSIRO Data61</p>
+<p>I completed Master of Science (Computer Science) last year from University of Melbourne and now work as a Software Engineer at CSIRO Data61. I am a Pythonista since last 4 years and use it for my personal and academic projects. For more information, this is my LinkedIn profile: <a href="https://www.linkedin.com/in/alisha-aneja-509252128/">https://www.linkedin.com/in/alisha-aneja-509252128/</a>, Twitter: <a href="https://twitter.com/alisha_aneja17">https://twitter.com/alisha_aneja17</a>, Blog: <a href="https://alisha17.github.io/">https://alisha17.github.io/</a></p>
+<p><a href="https://twitter.com/alisha_aneja17">Twitter</a> • <a href="/program/pyconde-wj9sxr-thinking-functionally-introduction-to-fp-in-python-alisha-aneja/alisha17.github.io">Homepage</a></p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+      </div>
+    </div>
+    <footer class="site-footer" id="colophon" role="contentinfo">
+      <div class="widget-area" role="complementary">
+        <div class="container">
+
+          <div class="row in-view">
+            <div class="col-12 col-md-4 col-xl-2 offset-xl-1">
+              <div class="widget">
+                <div class="widget_socials">
+                  <div class="site-branding">
+                    <a href="index.html">
+                      <img src="/static/media/PyConDE_PyDataBer_circle_trans_500.png" alt="" width="232" height="144">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 col-xl-2">
+              <div class="widget">
+                <h2 class="widget-title">Contact</h2>
+                <div class="widget_nav_menu">
+                  <ul>
+                    <li>
+
+                    </li>
+                    <li>
+                      <a href="mailto:info@pycon.de">info@pycon.de</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 offset-md-4 col-xl-2 offset-xl-0">
+              <div class="widget">
+                <h2 class="widget-title">Follow us</h2>
+                <div class="widget_nav_menu">
+                  <ul>
+                    <li>
+                      <a href="https://twitter.com/pyconde" target="_blank">Twitter</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 col-xl-2">
+              <div class="widget">
+                <h2 class="widget-title">Legal terms</h2>
+                <div class="widget_nav_menu">
+                  <ul>
+                    
+                    <li><a href="/impressum/">Impressum</a></li>
+                    
+                    <li><a href="/privacy-policy/">Terms &amp; Privacy Policy</a></li>
+                    
+                    <li><a href="/code-of-conduct/">Code of Conduct</a></li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="site-info">
+        <div class="container">
+          <div class="row in-view">
+            <div class="col-12 col-md-6 col-xl-5 offset-xl-1">
+              <span class="sub-head">
+                Build with
+                <i class="fa fa-heart color--secondary"></i> in Germany</span>
+            </div>
+            <div class="col-12 col-md-6 col-xl-5 offset-xl-1">
+              <span class="sub-head">
+                This website is run by <a href="https://python-verband.org">PySV e.V.</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="go-up" id="up">
+      <a class="go-up__btn" href="#page">
+        <span class="btn btn--primary btn--circle">
+          <i class="fa fa-chevron-up"></i>
+        </span>
+      </a>
+    </div>
+    <div class="site-sidenav" id="sidenav">
+      <div class="site-sidenav__overlay side-menu-swipeable"></div>
+      <div class="site-sidenav__elements side-menu-swipeable">
+        <div class="site-sidenav__branding">
+          <div class="site-branding">
+            <a href="index.html">
+              <img src="/static/media/PyConDE_PyDataBer_circle_trans_500.png" alt="" width="232" height="144">
+            </a>
+          </div>
+        </div>
+        <div class="site-sidenav__nav">
+          <div class="site-sidenav__menu">
+            <nav class="sidenav-navigation" aria-label="Site Mobile Menu" role="navigation">
+              <div class="menu-sidenav-menu-container">
+                <ul class="menu" id="sidenav-menu">
+
+                    
+
+                          
+                          <li><a href="/program/">Program</a></li>
+
+                          
+
+                          
+
+                          
+                          <li><a href="/frequently-asked-questions/">FAQ</a></li>
+
+                          
+
+                          
+
+                          
+                          <li><a href="/blog/">Blog</a></li>
+
+                          
+
+                          
+
+                          
+                          <li><a href="/sprints/">Sprints</a></li>
+
+                          
+
+                          
+
+                          
+                          <li><a href="/sponsors/">Sponsors</a></li>
+
+                          
+
+                          
+
+                          
+
+                                
+                                <li><a href="/venue/"><span>Venue</span></a></li>
+                                
+                                <li><a href="/call-for-proposals/"><span>Call for Proposals</span></a></li>
+                                
+                                <li><a href="/financial-aid/"><span>Financial Aid</span></a></li>
+                                
+                                <li><a href="/team/"><span>Team</span></a></li>
+                                
+
+                          
+
+                          
+
+                          
+                          <li><a href="/code-of-conduct/">Code of Conduct</a></li>
+
+                          
+
+                          
+
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div class="site-sidenav__cat hidden-md-up">
+          <a class="btn btn--secondary" target="_blank" href="https://ti.to/pycon-de/pyconde-pydata-2019">Buy ticket</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="application/javascript" src="/static/js/lib.js"></script>
+  <script defer async type="application/javascript" src="/static/js/app.js"></script>
+</body>
+
+</html>

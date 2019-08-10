@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="profile" href="http://gmpg.org/xfn/11">
+  <script>(function (html) { html.className = html.className.replace(/\bno-js\b/, 'js') })(document.documentElement)</script>
+  <title>PyConDE & PyData Berlin 2019 | Boosting simulation performance with Python</title>
+  <meta name="description"
+    content="PyConDE & PyData Berlin 2019. October 9-13, Berlin Germany. Where Pythonistas in Germany can meet to learn about new and upcoming Python libraries, tools, software and data science.">
+
+
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link rel="dns-prefetch" href="//s.w.org">
+  <link rel="icon" href="/static/favicons/favicon-neon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla:400,700i,700|Poppins:700">
+  <link rel="stylesheet" href="/static/css/font-awesome.css" type="text/css" media="all">
+  <link rel="stylesheet" href="/static/style.css" type="text/css" media="all">
+  <link rel="stylesheet" href="/static/style-custom.css" type="text/css" media="all">
+
+  <!-- Twitter Card data -->
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@pyconde">
+  <meta name="twitter:title" content="Boosting simulation performance with Python">
+  <meta name="twitter:description" content="Boosting simulation performance with Python - Simulating hours of real-life in minutes">
+  
+  <meta name="twitter:image" content="/static/media/twitter/CEYMMK.jpg">
+  
+</head>
+
+<body class="home blog has-header-background">
+  <div class="site" id="page">
+    <header class="site-header" id="masthead">
+      <div class="site-header__wrap">
+        <div class="container">
+          <div class="row in-view">
+            <div class="col-12 col-xl-10 offset-xl-1">
+              <div class="site-header__elements">
+                <div class="site-header__mobile hidden-lg-up">
+                  <button class="site-header__mobile--trigger side-menu-trigger">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                  </button>
+                </div>
+
+                <div class="site-header__branding">
+                  <div class="site-branding">
+                    <a href="/">
+                      <img src="/static/media/PyConDE_PyDataBer_circle_trans_500.png" alt="Home" width="232" height="144">
+                    </a>
+                  </div>
+                </div>
+
+                <div class="site-header__nav hidden-md-down">
+                  <div class="site-header__menu">
+                    <nav class="main-navigation" aria-label="Site Menu" role="navigation">
+                      <div class="menu-top-menu-container">
+                        <ul class="menu" id="top-menu">
+
+                          
+
+
+                          
+                          <li><a href="/program/">Program</a></li>
+
+
+                          
+
+
+                          
+
+
+                          
+                          <li><a href="/frequently-asked-questions/">FAQ</a></li>
+
+
+                          
+
+
+                          
+
+
+                          
+                          <li><a href="/blog/">Blog</a></li>
+
+
+                          
+
+
+                          
+
+
+                          
+                          <li><a href="/sprints/">Sprints</a></li>
+
+
+                          
+
+
+                          
+
+
+                          
+                          <li><a href="/sponsors/">Sponsors</a></li>
+
+
+                          
+
+
+                          
+
+
+                          
+                          <li class="menu-item-has-children">
+                              <a href="#">Info</a>
+                              <ul class="sub-menu">
+                                
+                                <li><a href="/venue/"><span>Venue</span></a></li>
+                                
+                                <li><a href="/call-for-proposals/"><span>Call for Proposals</span></a></li>
+                                
+                                <li><a href="/financial-aid/"><span>Financial Aid</span></a></li>
+                                
+                                <li><a href="/team/"><span>Team</span></a></li>
+                                
+                              </ul>
+                            </li>
+
+
+                          
+
+
+                          
+
+
+                          
+                          <li><a href="/code-of-conduct/">Code of Conduct</a></li>
+
+
+                          
+
+
+                          
+
+
+                        </ul>
+                      </div>
+                    </nav>
+                  </div>
+                </div>
+                <div class="site-header__cta hidden-sm-down">
+                  <a class="btn btn--secondary" target="_blank" href="https://ti.to/pycon-de/pyconde-pydata-2019">Buy
+                    ticket</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="site-content" id="content">
+      <div class="content-area" id="primary">
+        
+<main class="site-main" id="main">
+  <section class="section section--singular">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-xl-10 offset-xl-1">
+          <header class="page-header text-center">
+            <h1 class="page-title">Boosting simulation performance with Python</h1>
+            <h6><p>Infrastructure • Robotics</p>
+</h6>
+            <h5>Talk - 30 Min. • PyConDE</h5>
+            <h3 class="page-title"><p>Eran Friedman</p>
+</h3>
+            <h6></h6>
+          </header>
+          <div class="single-content">
+            <p>Our product uses a fleet of real (not virtual) robots to perform different tasks in a fulfillment warehouse. Simulation is an essential tool in this kind of product: it allows to perform regression tests and test new features without the need for real and expensive hardware, to compare the impact of different implementations and optimizations, to inject failures, and more.</p>
+<p>Tasks performed by physical robots take time (movement over the warehouse, box lifting, etc.), but in simulation, where virtual robots are used, there is no need to wait all that time. I will describe our implementation of the Discrete-Event Simulation approach which allows us to simulate hours of real-life in minutes.</p>
+<p>Shortening simulation time improves the development process by providing faster feedback to developers and quicker CI and testing cycles. Another powerful advantage is a more deterministic simulation - using this approach, each component in the system gets equal opportunity (CPU time) in each time tick, which is not affected by the underlying machine or operating system that the simulation is running on. Also, it is possible to simulate any date and hour easily, and by that we wouldn't panic before the "Y2K bug".</p>
+<p>I will elaborate on some challenges we encountered: time leak of event-driven components, differences between dev and production environments and running a distributed simulation due to the transition to microservices.</p>
+
+          </div>
+          <div class="single-content">
+            <h4>Eran Friedman</h4>
+<p>Affiliation: CommonSense Robotics</p>
+<p>I've finished my M.Sc in Computer Science in the field of Computational Geometry. My first experience with simulations was already back then - part of my thesis involved building a GNSS-Signals simulator. Deploying some novel optimizations, we improved performance dramatically.
+Since then, I've worked as a software engineer in different roles with vast experience in Python. My last one, arrived at early stage to a fast-growing startup named CommonSense Robtics and involved in the system architecture and development, which a simulation is a crucial part of it.</p>
+<p><a href="https://www.cs-robotics.com/">Homepage</a></p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+      </div>
+    </div>
+    <footer class="site-footer" id="colophon" role="contentinfo">
+      <div class="widget-area" role="complementary">
+        <div class="container">
+
+          <div class="row in-view">
+            <div class="col-12 col-md-4 col-xl-2 offset-xl-1">
+              <div class="widget">
+                <div class="widget_socials">
+                  <div class="site-branding">
+                    <a href="index.html">
+                      <img src="/static/media/PyConDE_PyDataBer_circle_trans_500.png" alt="" width="232" height="144">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 col-xl-2">
+              <div class="widget">
+                <h2 class="widget-title">Contact</h2>
+                <div class="widget_nav_menu">
+                  <ul>
+                    <li>
+
+                    </li>
+                    <li>
+                      <a href="mailto:info@pycon.de">info@pycon.de</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 offset-md-4 col-xl-2 offset-xl-0">
+              <div class="widget">
+                <h2 class="widget-title">Follow us</h2>
+                <div class="widget_nav_menu">
+                  <ul>
+                    <li>
+                      <a href="https://twitter.com/pyconde" target="_blank">Twitter</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 col-xl-2">
+              <div class="widget">
+                <h2 class="widget-title">Legal terms</h2>
+                <div class="widget_nav_menu">
+                  <ul>
+                    
+                    <li><a href="/impressum/">Impressum</a></li>
+                    
+                    <li><a href="/privacy-policy/">Terms &amp; Privacy Policy</a></li>
+                    
+                    <li><a href="/code-of-conduct/">Code of Conduct</a></li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="site-info">
+        <div class="container">
+          <div class="row in-view">
+            <div class="col-12 col-md-6 col-xl-5 offset-xl-1">
+              <span class="sub-head">
+                Build with
+                <i class="fa fa-heart color--secondary"></i> in Germany</span>
+            </div>
+            <div class="col-12 col-md-6 col-xl-5 offset-xl-1">
+              <span class="sub-head">
+                This website is run by <a href="https://python-verband.org">PySV e.V.</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="go-up" id="up">
+      <a class="go-up__btn" href="#page">
+        <span class="btn btn--primary btn--circle">
+          <i class="fa fa-chevron-up"></i>
+        </span>
+      </a>
+    </div>
+    <div class="site-sidenav" id="sidenav">
+      <div class="site-sidenav__overlay side-menu-swipeable"></div>
+      <div class="site-sidenav__elements side-menu-swipeable">
+        <div class="site-sidenav__branding">
+          <div class="site-branding">
+            <a href="index.html">
+              <img src="/static/media/PyConDE_PyDataBer_circle_trans_500.png" alt="" width="232" height="144">
+            </a>
+          </div>
+        </div>
+        <div class="site-sidenav__nav">
+          <div class="site-sidenav__menu">
+            <nav class="sidenav-navigation" aria-label="Site Mobile Menu" role="navigation">
+              <div class="menu-sidenav-menu-container">
+                <ul class="menu" id="sidenav-menu">
+
+                    
+
+                          
+                          <li><a href="/program/">Program</a></li>
+
+                          
+
+                          
+
+                          
+                          <li><a href="/frequently-asked-questions/">FAQ</a></li>
+
+                          
+
+                          
+
+                          
+                          <li><a href="/blog/">Blog</a></li>
+
+                          
+
+                          
+
+                          
+                          <li><a href="/sprints/">Sprints</a></li>
+
+                          
+
+                          
+
+                          
+                          <li><a href="/sponsors/">Sponsors</a></li>
+
+                          
+
+                          
+
+                          
+
+                                
+                                <li><a href="/venue/"><span>Venue</span></a></li>
+                                
+                                <li><a href="/call-for-proposals/"><span>Call for Proposals</span></a></li>
+                                
+                                <li><a href="/financial-aid/"><span>Financial Aid</span></a></li>
+                                
+                                <li><a href="/team/"><span>Team</span></a></li>
+                                
+
+                          
+
+                          
+
+                          
+                          <li><a href="/code-of-conduct/">Code of Conduct</a></li>
+
+                          
+
+                          
+
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div class="site-sidenav__cat hidden-md-up">
+          <a class="btn btn--secondary" target="_blank" href="https://ti.to/pycon-de/pyconde-pydata-2019">Buy ticket</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="application/javascript" src="/static/js/lib.js"></script>
+  <script defer async type="application/javascript" src="/static/js/app.js"></script>
+</body>
+
+</html>

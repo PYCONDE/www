@@ -1,0 +1,36 @@
+_model: session 
+---
+code: ZNA8WN
+---
+title: Your Name Is Invalid!
+---
+description: If your code tells me “Your Name Is Invalid!”, then your code is probably invalid. Names of people cannot be invalid.
+---
+twitter_image: /static/media/twitter/ZNA8WN.jpg
+---
+speakers: Miroslav Šedivý
+---
+submission_type: Talk - 30 Min.
+---
+domains: Algorithms • Community • Natural Language Processing • Web • Data Mining / Scraping • Use Cases
+---
+biography: #### Miroslav Šedivý
+
+Affiliation: solute GmbH
+
+
+
+Born in Czechoslovakia, studied in France, working in Germany. Using Python to get you the lowest prices online. Languages enthusiast always happy to discuss the human stuff in the IT: how humans write in their languages, how they measure time and fiddle with time zones, and how they can teach the computers to do the boring stuff for them.
+
+[Twitter](https://twitter.com/eumiro) • [Gthub](https://github.com/eumiro) • [Homepage](https://www.solute.de/)
+---
+affiliation: solute GmbH
+---
+track: PyData
+---
+body: People have names. Most people do. People have first names and last names. Many people do. People have any sorts of names that often don't fit fixed fields in the forms. These names may contain letters, accented letters, and other characters, that may cause problems to your code depending on the encoding you use. They may look differently in uppercase and lowercase, or may not be case foldable at all. Searching and sorting these names may be tricky too. And if you design an application, web form, and/or database dealing with personal names, you'll have to take that into account.
+
+This talk is not about GDPR, but will help you to use the best tools to handle encoding and locales in Python and in your database and prevent your application from appearing in `#uxfail` memes.
+
+The speaker has spent most of his life in different countries where his name may be considered foreign but still should be correctly processed by all IT systems in public administration, online shops, and other customer services. Examples of some failures will help you to understand how to work with personal names correctly.
+

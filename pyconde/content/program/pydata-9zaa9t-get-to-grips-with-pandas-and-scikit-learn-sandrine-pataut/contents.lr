@@ -1,0 +1,46 @@
+_model: session 
+---
+code: 9ZAA9T
+---
+title: Get to grips with pandas and scikit-learn
+---
+description: Get to grips with pandas and scikit-learn: a first contact with data science using python
+---
+twitter_image: /static/media/twitter/9ZAA9T.jpg
+---
+speakers: Sandrine Pataut
+---
+submission_type: Tutorial - 90 Min.
+---
+domains: Algorithms • Data Science • Machine Learning
+---
+biography: #### Sandrine Pataut
+
+Affiliation: QBE Insurance
+
+
+
+From Paris import Sandrine as SP
+
+SP is a French Mathematician turned Data Scientist. She is currently working in financial services and is active in the London tech scene as an open source community leader.
+
+Tags: Machine Learning, Basketball, Python, Cooking, Numpy, Badminton, Family, Pandas, Cat, Travelling, scikit-learn, Friends, Discovering, Data Science, Gardening, Squash
+
+[Twitter](https://twitter.com/SPataut) • [Gthub](https://github.com/SandrineP)
+---
+affiliation: QBE Insurance
+---
+track: PyData
+---
+body: We hear a lot about Machine Learning, but it’s just one part of a bigger process. Before applying any algorithm to a data set, discovery and preparation are needed. This hands-on workshop will cover an end-to-end classification project, from importing the data to evaluating a model performance. After this tutorial, you will have completed a step by step Machine Learning workflow.
+
+Part one: Grab your spade and dig in!
+Pandas is a popular tool that will allow us to efficiently conduct Exploratory Data Analysis. After loading the data set we’ll use in this workshop, we’ll have a first look at it using Pandas and start cleaning it. We’ll also use visualisation to gain more insights and continue to prepare our data.
+
+Part two: Where the Ma(th)gic happen.
+In this part, we’ll introduce the scikit-learn library. We'll split the data into training and testing sets and start pre-processing. Then we’ll choose, tune and train a Machine Learning model and finally evaluate its performance using a confusion matrix.
+
+During this workshop, we will fill in a pre-prepared Jupyter notebook together, explaining each step to get a good understanding of the process. You will also have a guided exercise notebook to reinforce your learning on unseen data.
+
+To get the most out of this workshop you will need Python 3, pandas, matplotlib, scikit-learn and jupyter installed. Please refer to the documentation of your operating system of choice or search on the Internet how to install the packages.
+

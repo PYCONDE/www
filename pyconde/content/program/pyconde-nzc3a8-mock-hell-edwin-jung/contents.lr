@@ -1,0 +1,42 @@
+_model: session 
+---
+code: NZC3A8
+---
+title: Mock Hell
+---
+description: Mock Hell: How to escape and avoid it, and improve your design in the process.
+---
+twitter_image: /static/media/twitter/NZC3A8.jpg
+---
+speakers: Edwin Jung
+---
+submission_type: Talk - 45 Min.
+---
+domains: Code-Review • Web • Data Engineering
+---
+biography: #### Edwin Jung
+
+Affiliation: Quid
+
+
+
+Ed is a staff software engineer at Quid working on platform.  His day to day tasks include data engineering and backend microservices using Python, Flask, and Scala.  Previously he's worked in complex domains ranging from industrial robotics to 3d visualization for medical simulations.
+
+His interests in include software engineer and architecture, software modularization techniques, and the intersection between social and technical systems.
+
+[Twitter](https://twitter.com/ejjcatx) • [Gthub](xtaje)
+---
+affiliation: Quid
+---
+track: PyConDE
+---
+body: Mocking in Python is tricky.  Most widely available materials on Python mocks serve as a basic operator’s manual for the library, but scarcely address the code smells and technical debt that mocks may create. 
+
+An important idea that is commonly misunderstood, is that mocks were never originally intended to simply be a tool for decoupling dependencies.  Mocking originated as a practice with deep roots in OOP and TDD practice, and has a deep catalog of knowledge related to their use and mis-use. 
+
+This session will trace the origins of mocking in XP, OOP, and TDD and relate it to contemporary practice, to show how developers may be mis-lead.  It will demonstrate some bad code smells related to mocks, as well as alternative solutions.  It is assumed that attendees are already familiar with Python mock, MagicMock, and patch. 
+
+The content will also serve as an entry point into some more advanced software architecture concepts (test doubles, dependency injection, hexagonal/onion architectures). 
+
+This knowledge should be useful to engineers or teams who have technical debt related to mocking and patching in their unit tests, but cannot explain why.
+

@@ -1,0 +1,46 @@
+_model: session 
+---
+code: Q88ZUW
+---
+title: What we learned from scraping 1 billion webpages every month
+---
+description: We broke the web via simple hacks. Instead of order, we caused chaos. How to fix that?
+---
+twitter_image: /static/media/twitter/Q88ZUW.jpg
+---
+speakers: Samet Atdag
+---
+submission_type: Talk - 30 Min.
+---
+domains: Business & Start-Ups • Big Data • Infrastructure • Web • Data Engineering
+---
+biography: #### Samet Atdag
+
+Affiliation: Prisync
+
+
+
+I'm Samet Atdag, a seasoned developer, the co-founder and CTO of Prisync. Prisync is a startup focused on information retrieval and data processing in e-commerce domain. I develop systems for crawling a large portion of the web. 
+
+I'm the organizer of Python Istanbul user group. With more than 8000 members, Python Istanbul is one of the largest user groups of Europe.
+
+[Twitter](https://twitter.com/sam3t) • [Gthub](http://github.com/samet) • [Homepage](https://prisync.com)
+---
+affiliation: Prisync
+---
+track: PyConDE
+---
+body: As Prisync, we crawl a large portion of the web every day for 6 years. First we approach the problem with a naive aspect, but we learned our lesson via experience. Developers create workarounds and hacks all over the time. But doing so has –most probably, unexpected– consequences. Some of the glitches we experiences so far: 
+
+There are ;
+--
+ * websites not responding properly
+ * websites responding different output to identical requests
+ * websites not responding at all
+ * websites not obeying HTTP at all
+ * websites with broken firewall rules
+ * websites served on archaic webservers, which even are not aware of current state of transfer protocol
+ * websites taking advantage of vulnerabilities (a.k.a. "clever hacks")
+
+In this talk, I share examples of those "hacks" and I propose some methods to keep the web healthy.
+

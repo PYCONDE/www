@@ -1,0 +1,44 @@
+_model: session 
+---
+code: NFH83Z
+---
+title: What if I tell you that your specs are broken
+---
+description: "What if I tell you that your specs are broken". Protect your specs against incompatible changes ... a practical guide
+---
+twitter_image: /static/media/twitter/NFH83Z.jpg
+---
+speakers: Samuele Maci
+---
+submission_type: Talk - 45 Min.
+---
+domains: Networks
+---
+biography: #### Samuele Maci
+
+Affiliation: Yelp
+
+
+
+Samuele has been working as Backend Engineer @Yelp since 2016, and he is one of the maintainer of bravado* and pyramid-swagger libraries.
+He's really passionate about Python development with major focus on API-design, Swgger specs and infrastructure.
+He's building tools and libraries to support Python developers @Yelp to build faster, scalable and safer code.
+In his free time, he loves cooking and drinking coffee.
+
+[Twitter](https://twitter.com/macisamuele) • [Gthub](https://github.com/macisamuele)
+---
+affiliation: Yelp
+---
+track: PyConDE
+---
+body: If you have ever written an App in 2019, the probability that you are communicating over HTTP(S) is pretty high. After some practice, implementing a new endpoint starts to be a trivial task; no major complexities and turns out to be really repetitive.
+
+While adding an endpoint might seem an easy task, sometimes you need to slightly update an already existing endpoint. When editing, the risk of negatively affect your users is just around the corner. Previously deployed applications, due to changes in the communication interface, are at risk of misbehaving, crashing, etc.
+
+Have you ever changed an endpoint without knowing that previous versions of your clients would be broken or have you ever got so close to it? If you're answering yes ... then you’ve probably experienced backward incompatible changes.
+
+At Yelp, we developed an open source tool that helps us detect breaking changes in the Swagger specs before getting any closer to production.
+We modify our specs pretty often (more than 2-3 times a day) and preventing such changes is critical for the health of our services and our client experiences.
+
+In this talk, we will see how you can leverage the tool to protect your specs, API, and services from backward incompatible changes.
+

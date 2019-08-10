@@ -1,0 +1,44 @@
+_model: session 
+---
+code: VERUFX
+---
+title: Docker and Python - A Match made in Heaven
+---
+description: Learn how to build and ship Python software with Docker Containers.
+---
+twitter_image: /static/media/twitter/VERUFX.jpg
+---
+speakers: Dr. Hendrik Niemeyer
+---
+submission_type: Talk - 45 Min.
+---
+domains: Big Data • DevOps • Infrastructure
+---
+biography: #### Dr. Hendrik Niemeyer
+
+Affiliation: ROSEN Technology and Research Center GmbH
+
+
+
+Hendrik Niemeyer is a Senior Data Scientist working on machine learning
+solutions for pipeline inspection data. Besides Data Science topics Hendrik is also
+interested in containerization and cluster computing for data intensive applications.
+
+[Twitter](https://twitter.com/hniemeye)
+---
+affiliation: ROSEN Technology and Research Center GmbH
+---
+track: PyConDE
+---
+body: Docker provides tooling for building,
+running and communication between Linux containers. Containers are a lightweight 
+alternative to virtual machines and are a great way of isolating resources
+and preventing dependency conflicts in software. The basic concepts and pros
+and cons of containerization will be discussed. 
+
+This talk will show how to build and ship a Python application (flask web app)
+with Docker and why this is beneficial compared to running it directly on the
+machine. Docker also provides an official SDK / API for Python which can be used
+alongside Pytest for writing integration and end to end tests for Docker containers
+which will be shown for an example application.
+

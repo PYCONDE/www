@@ -1,0 +1,33 @@
+_model: session 
+---
+code: RRLRYG
+---
+title: A Bayesian Workflow with PyMC and ArviZ
+---
+description: An Example of a Bayesian Workflow using PyMC and ArviZ: Predicting House Prices in Berlin
+---
+twitter_image: /static/media/twitter/RRLRYG.jpg
+---
+speakers: Corrie
+---
+submission_type: Talk - 45 Min.
+---
+domains: Data Science • Statistics
+---
+biography: #### Corrie
+
+Affiliation: Europace AG
+
+
+
+Corrie Bartelheimer first became interested in data when studying topological data analysis during her math Masters. She is now working as a data scientist at Europace and is interested in Bayesian modelling. She also co-organizes the Berlin Bayesian meetup.
+
+[Twitter](https://twitter.com/corrieaar) • [Gthub](https://github.com/corriebar) • [Homepage](www.samples-of-thoughts.com)
+---
+affiliation: Europace AG
+---
+track: PyData
+---
+body: There are several reasons why we might want to use a Bayesian Model: It can handle well the uncertainty that comes with small data and also allows for the incorporation of domain knowledge by virtue of using priors. However, implementing such a model is usually not as straight-forward as importing a model from scikit-learn. Then there is also the question on how to pick the right prior and how to check if your model actually converged, both tasks that might seem daunting for anyone starting out with Bayesian modelling. In this talk, I will show the basic Bayesian workflow, starting with some guidelines on how to pick a fitting prior for your problem, how to check model convergence and how to do model comparison. To exemplify the workflow, I will use the real-world problem of predicting house prices in Berlin.
+For the modelling, the Python package `PyMC3` is used and for visualization and model checking, the package `ArviZ` is used.
+

@@ -1,0 +1,53 @@
+_model: session 
+---
+code: RE99DB
+---
+title: Quantum computing with Python
+---
+description: Every Python user can play with one of the world's most advanced technologies: quantum computers. This session will tell you how you can and why you should.
+---
+twitter_image: /static/media/twitter/RE99DB.jpg
+---
+speakers: James Wootton
+---
+submission_type: Tutorial - 90 Min.
+---
+domains: Algorithms • Infrastructure • Science • APIs
+---
+biography: #### James Wootton
+
+Affiliation: IBM Research
+
+
+
+I'm a scientist and quantum programmer at IBM Research - Zurich. I wrote the much of the educational content for the new IBM Q Experience (where people can use Python or a GUI to interface with quantum computers), and am one of the main contributors to the tutorials for Qiskit, the IBM-led Python-based framework for quantum computing.
+
+I was previously a researcher at the University of Basel, and have lectured there on quantum computing for at the last 7 years.
+
+[Twitter](https://twitter.com/decodoku) • [Gthub](https://github.com/quantumjim)
+---
+affiliation: IBM Research
+---
+track: PyData
+---
+body: One area in which Python has gained a great deal of ground in recent years is quantum computing. Though quantum computers represent a fundamentally new form of hardware, and will require very different software to be written, the design of algorithms and handling of inputs and outputs will all be done via conventional programming. There are now a handful of frameworks being built to meet this need, and all but one are based on Python.
+
+This session will serve as an introduction to quantum computing as a whole, and also to the most well-developed and well-used framework built to support it: Qiskit.
+
+To introduce quantum computing I will explain what a quantum circuit is, and what it means to create programs at the level of a quantum circuit. This will be done with a Jupyter notebook based presentation, which the audience can follow along with. This presentation will give a simple demonstration of how the variables of quantum computing are fundamentally different than those of standard computing, as well as some simple 'Hello World' style examples.
+
+Some mention will be made of the long-term applications of quantum computing (for optimization algorithms, machine learning, science, etc). More will be said about what is possible today. Specifically, we’ll look at how to use current quantum computational resources to procedurally generate content for games. This will be hands-on, with the audience given the tools required to have a go themselves and create their own quantumly generated content.
+
+Goals:
+* Help people get ready for the coming quantum revolution.
+* Show that quantum computing is something any Python user can mess around with.
+
+
+*What problem is your talk addressing*: Quantum computing is now easy to access for any Python user. The problem is, many may assume that it is only for those with a PhD in physics.
+
+*Why is the problem relevant to the audience*: All fields of computing will be affected when quantum computing reaches it's full potential. Now is the time for everyone to start exploring what it can do for them.
+
+*What is(are) your solution(s) to the problem*: By hosting a practical session with accessible examples of quantum computing, I hope to show the audience that they can use it too.
+
+*What are the main takeaways from your talk*: How to use a quantum computer, and why you'd want to.
+
