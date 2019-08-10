@@ -10,3 +10,4 @@ www/.lektor/
 __pycache__/
 config.py
 _private
+_website_template/

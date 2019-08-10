@@ -374,7 +374,8 @@ def rename_tmp_banners():
 def generate_session_pages():
     cleaned_submissions = json.load(open(f"{clean_submissions_f}.json", "r"))
     # book keeping
-    session_path = Path('pyconde/content/program/')
+    program_path = 'pyconde/content/program/'
+    session_path = Path(program_path)
     session_path.mkdir(exist_ok=True)
     in_place_submissions = [x.name for x in session_path.glob('*')]
     in_place_submissions.remove('contents.lr')  # only dirs
@@ -412,6 +413,8 @@ body: {body}
 
 """
     all_categories = {}  # collect categories automatically add newly discovered ones
+    redirects = {}  # simple url with talk code redirecting to full url, used for auto urls from other systems
+
     for submission in cleaned_submissions:
 
         # filter keynotes or other types
@@ -455,13 +458,28 @@ body: {body}
         all_categories.update({slugify(x): x for x in categories})
 
         slug = slugify(f"{submission['track']}-{submission['code']}-{submission['title']}-{' '.join([x.get('name') for x in submission['speakers']])}")
+
+        redirects[submission['code']] = slug
+        redir_dirname = session_path / submission['code']
+        if submission['code'] in in_place_submissions:
+            in_place_submissions.remove(submission['code'])
+
+        redir_dirname.mkdir(exist_ok=True)
+        with open(redir_dirname / "contents.lr", "w") as f:
+            f.write("""_model: redirect
+---
+target: /program/{}
+---
+_discoverable: no""".format(slug))
+
         dirname = session_path / slug
         if dirname.name in in_place_submissions:
-            print("slug hasn't changed")
+            # print("slug hasn't changed")
             in_place_submissions.remove(dirname.name)
         else:
             # TODO redirect renames to new dir
             raise NotImplementedError("handling of redirects not implemneted, yet")
+
         dirname.mkdir(exist_ok=True)
         with open(dirname / "contents.lr", "w") as f:
             f.write(tpl.format(
