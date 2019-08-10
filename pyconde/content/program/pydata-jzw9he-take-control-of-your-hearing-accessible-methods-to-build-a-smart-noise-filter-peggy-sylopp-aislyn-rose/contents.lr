@@ -40,6 +40,8 @@ track: PyData
 ---
 meta_title: Take control of your hearing: Accessible methods to build a smart noise filter @pegx_ #PyConDE #PyDataBerlin
 ---
+categories: pydata, artificial-intelligence, algorithms, computer-vision, deep-learning, data-science, machine-learning, science, talk
+---
 body: We are all affected by sound waves, whether we hear them or not. Therefore, the potential is vast, what open resources can offer us to become masters of our own sound experience. People who are deaf could build apps to alarm them if cars honk, and from which direction; people with intact hearing could build a filter that lets them hear only birds sing, if they tire of human voices. Smart filters can potentially reduce hearing loss as well as stress for those living or working in noisy environments. 
 
 The problem potential developers and users of smart filtering techniques face is the large number of barriers standing in front of them. Often access to the relevant resources, such as  hardware, software, and data (e.g. for training neural networks), either require a hefty fee, a good health insurance, an amazing employer, or a position at a successful academic or research institution. Furthermore, the mathematics behind that of sound, specifically digital signal processing, as well as deep learning algorithms can be quite intimidating and difficult to penetrate for outsiders.

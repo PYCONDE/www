@@ -31,8 +31,7 @@
         {% set turl = this.twitter_image %}
         <meta name="twitter:image" content="{{ site.config.PROJECT.url }}{{ turl|asseturl }}">
     {% else %}
-        {% set turl = site.get('/static/media/twitter/PyConDEPyData.jpg') %}
-        <meta name="twitter:image" content="{{ turl }}">
+        <meta name="twitter:image" content="{{ site.config.PROJECT.twitter_image|asseturl }}">
     {% endif %}
 </head>
 

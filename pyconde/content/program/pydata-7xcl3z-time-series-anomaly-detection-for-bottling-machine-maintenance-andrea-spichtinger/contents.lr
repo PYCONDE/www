@@ -32,6 +32,8 @@ track: PyData
 ---
 meta_title: Time Series Anomaly Detection for Bottling Machine Maintenance  #PyConDE #PyDataBerlin
 ---
+categories: pydata, algorithms, data-science, machine-learning, talk
+---
 body: To reduce unplanned downtime, bottling plants replace mechanically wearing parts on fixed time schedules, ideally prior to failure. This lack of failure cases makes development of data-driven maintenance plans difficult. Anomaly detection is thus a promising alternative path towards predictive maintenance for these systems.
 
 This talk will give an overview of unsupervised one- and multi-dimensional anomaly detection methods and their application to data from sensors of the main motor of a soft drink bottling machine.

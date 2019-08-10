@@ -31,6 +31,8 @@ track: PyData
 ---
 meta_title: Data Literacy for Managers https://twitter.com/hendorf #PyConDE #PyDataBerlin
 ---
+categories: pydata, artificial-intelligence, business-start-ups, data-science, machine-learning, use-cases, talk
+---
 body: Artificial intelligence promises great value. The technology is mostly understood only by few, yet still unexplainable even for experts. In this talk I'll present how to narrow the hype down to real value explainable to everyone in your organisation - without the math.
 
 Computer scientists often feel not understood by management. Management is overwhelmed by the hype. Progress drowns in daily business and updates of legacy systems. 

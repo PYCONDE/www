@@ -28,6 +28,8 @@ track: PyData
 ---
 meta_title: Advanced Software Testing for Data Scientists  #PyConDE #PyDataBerlin
 ---
+categories: pydata, big-data, data-science, talk
+---
 body: So you are in the middle of a project to develop a new machine learning algorithm which will be a core part of your product. Cool! But how do you know that your algorithm really works?
 
 This is a question that should be asked even before any major work takes place and this approach is called test-driven data science.

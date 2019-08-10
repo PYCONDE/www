@@ -39,6 +39,8 @@ track: PyData
 ---
 meta_title: How to write tests that need a lot of data? @gogognomenl #PyConDE #PyDataBerlin
 ---
+categories: pydata, algorithms, code-review, talk
+---
 body: Does your production code need a lot of data? How do you setup this data for your unit and integration tests? Do you fill a database with a fixed set of data that is to be used by all tests? What if for a new use case you need more data?
 And how many mocks do you use in your unit tests? Do you have to add more mocks for each use case that you implement?
 Visit Sander's talk about how to write tests that need a lot of data. We are not talking about big-data, but about combining data from several tables of database to implement a use case. How can you write test code that is easy to read and easy to maintain?

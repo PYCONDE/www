@@ -34,6 +34,8 @@ track: PyData
 ---
 meta_title: Visualizing Networks in Python @jan_jagusch #PyConDE #PyDataBerlin
 ---
+categories: pydata, deep-learning, data-science, networks, visualisation, talk
+---
 body: What does your company's order-to-ship process, your friends on social media and your trained deep learning model have in common? In fact, all of them are networks of some sort! As network data seems to become increasingly more important, why not learn how to produce some impressive network visualizations in Python?
 
 In this talk, you will learn:

@@ -28,6 +28,8 @@ track: PyData
 ---
 meta_title: Build a Machine Learning pipeline with Jupyter Notebooks and Azure  #PyConDE #PyDataBerlin
 ---
+categories: pydata, computer-vision, deep-learning, devops, ides-jupyter, tutorial
+---
 body: With increasing focus on Machine Learning systems in almost every business it is important, to build a great pipeline to train, test and deploy your models. In this session we will show a way to do that with Jupyter Notebooks and Azure
 
 With increasing focus on Machine Learning systems in almost every business area, it is important to build a great pipeline to train, test and deploy your models. In this session we will show a way to do that with Jupyter Notebooks and Azure.

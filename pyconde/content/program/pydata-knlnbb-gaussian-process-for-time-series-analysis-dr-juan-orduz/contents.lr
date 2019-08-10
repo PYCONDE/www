@@ -28,6 +28,8 @@ track: PyData
 ---
 meta_title: Gaussian Process for Time Series Analysis @juanitorduz #PyConDE #PyDataBerlin
 ---
+categories: pydata, algorithms, data-science, machine-learning, statistics, talk
+---
 body: A Gaussian process can be seen as a generalization of the
 Gaussian probability distribution in the setting of function spaces.
 This non-parametric Bayesian approach is very effective to model arbitrary complex

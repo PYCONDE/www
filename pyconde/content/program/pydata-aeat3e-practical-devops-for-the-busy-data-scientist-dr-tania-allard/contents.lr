@@ -31,6 +31,8 @@ track: PyData
 ---
 meta_title: Practical DevOps for the busy data scientist @ixek #PyConDE #PyDataBerlin
 ---
+categories: pydata, algorithms, big-data, data-science, devops, machine-learning, talk
+---
 body: I will provide a number of machine learning examples and use cases focusing on logging, debugging, diagnosis, automated testing, integration and delivery. In brief, this talk will lead you to step by step on how to use  Azure Devops to automate the deployment of your data applications along with Kubernetes and Docker containers to a production environment.
 
 Attendees will acquire an understanding of DataOps and how these can improve your data science workflows.  As we move over to the examples, you will better identify the many challenges faced during the productionization of data applications and how these can be mitigated through best DataOps practices. By the end of the talk, attendees will have the knowledge required to automate the delivery of their data products, increasing their productivity and the quality of their work. 

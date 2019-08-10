@@ -51,6 +51,8 @@ track: PyData
 ---
 meta_title: Python-Powered OSINT! Modernising Open Source Intelligence for Investigating Disinformation @AnalyticsPanda #PyConDE #PyDataBerlin
 ---
+categories: pydata, artificial-intelligence, algorithms, data-science, machine-learning, web, data-mining-scraping, use-cases, talk
+---
 body: **What is OSINT? And who cares?**            
 
 * OSINT (Open-Source Intelligence) is the discipline of gathering intelligence from publicly available sources for empowering end-user action.

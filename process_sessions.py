@@ -400,6 +400,8 @@ track: {track}
 ---
 meta_title: {meta_title}
 ---
+categories: {categories_list}
+---
 body: {body}
 
 """
@@ -429,6 +431,9 @@ body: {body}
         domains = f"{' • '.join(submission['domains'].split(', '))}"
         expertise = f"Python Knowledge {submission['python_skill']} • Domain Expertise: {submission['domain_expertise']}"
 
+        categories = [submission['track']] + submission['domains'].split(', ') + [submission['submission_type'].split(' ')[0]]
+        categories_list = ', '.join([slugify(x) for x in categories])
+
         slug = slugify(f"{submission['track']}-{submission['code']}-{submission['title']}-{' '.join([x.get('name') for x in submission['speakers']])}")
         dirname = session_path / slug
         dirname.mkdir(exist_ok=True)
@@ -447,6 +452,8 @@ body: {body}
                 affiliation=', '.join([x['affiliation'] for x in submission['speakers']]),
                 twitter_image=f"/static/media/twitter/{submission['code']}.jpg",
                 meta_title=meta_title,
+                categories=categories,
+                categories_list=categories_list,
             ))
         # break
     # TODO redirect renames to new dir

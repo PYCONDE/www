@@ -30,6 +30,8 @@ track: PyData
 ---
 meta_title: Friend or Foe: Comparison of R & Python in Data Wrangling and Visualisation @yutakanzawa #PyConDE #PyDataBerlin
 ---
+categories: pydata, big-data, deep-learning, data-science, machine-learning, visualisation, statistics, talk
+---
 body: R and Python have differences as many as simiralities. Through their comparisons, we can understand both languages better and use them effectively. I will take a look at some examples from de facto standard packages such as tidyverse and pandas for data munging tasks, and ggplot2 and matplotlib (and seaborn) for data visualisation.
 
 1. Differences between R and Python as Language

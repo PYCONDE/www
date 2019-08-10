@@ -32,6 +32,8 @@ track: PyData
 ---
 meta_title: Equivariance in CNNs: how generalising the weight-sharing property increases data-efficiency  #PyConDE #PyDataBerlin
 ---
+categories: pydata, artificial-intelligence, algorithms, computer-vision, deep-learning, data-science, machine-learning, science, talk
+---
 body: Convolutional neural networks have become the methodology of choice for image related tasks, but why exactly is that? 
 
 In this talk, we will explore the theory behind how the weight-sharing property of the convolutional layer that leads to _translational equivariance_ (a shift in input image leads to the same prediction) can be exploited and generalised to equivariance towards other types of transformations such as rotation and reflection. 

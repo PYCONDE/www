@@ -32,6 +32,8 @@ track: PyConDE
 ---
 meta_title: Fresh New Pythonic Database: EdgeDB (And Why It's the Future) @nazarov_tech #PyConDE #PyDataBerlin
 ---
+categories: pyconde, web, use-cases, talk
+---
 body: Why need for a new database, when there's already so many? Excellent question!
 
 We will start by unveiling SQL history: how all of it was designed initially and why it is suitable for our apps no longer. Then we will proceed to existing solutions (such as NoSQl, NewSQl, etc) and end up with a little bit of live demos. We will cover both the basics (setup, syntax, repl, simple usecases) as well as advanced topics (indexes, performance, complex usecases).

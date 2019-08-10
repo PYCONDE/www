@@ -31,5 +31,7 @@ track: PyConDE
 ---
 meta_title: How MicroPython went into space @micropython #PyConDE #PyDataBerlin
 ---
+categories: pyconde, microcontrollers, talk
+---
 body: On Board Control Procedures – OBCPs are procedures, or scripts, that can be dynamically uploaded and executed on board a spacecraft even after it has been launched. They can be used to change or extend the functionality of a spacecraft during its mission. Using MicroPython as an OBCP engine would give operators the ability to write such control scripts in Python, allowing them to write expressive and concise code using a familiar language.
 

@@ -37,6 +37,8 @@ track: PyConDE
 ---
 meta_title: Refactoring in Python: Design Patterns and Approaches  #PyConDE #PyDataBerlin
 ---
+categories: pyconde, business-start-ups, community, code-review, talk
+---
 body: Python makes wonderful code accessible at our fingertips, but it also allows us to take a lot of liberty. When you start, code is beautiful and makes sense. With each step you walk on, you find more and more hacks showing up. Eventually, the brilliant codebase you've started with can not be seen under the mud.
 
 Not every code-base can be rewritten, not everything can be redone from scratch. Cool libraries often take a lot of liberty with code structure and make cross-integration difficult, if not impossible. Tests sound ideal, but in practice, they're just so hard to make right. Why is this, and how to change it?

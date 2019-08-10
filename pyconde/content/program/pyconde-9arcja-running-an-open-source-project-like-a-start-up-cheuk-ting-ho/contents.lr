@@ -28,6 +28,8 @@ track: PyConDE
 ---
 meta_title: Running An Open Source Project Like A Start Up @cheukting_ho #PyConDE #PyDataBerlin
 ---
+categories: pyconde, business-start-ups, community, data-science, machine-learning, talk
+---
 body: In this talk, I will share my journey of starting an open source project.
 
 Assuming you have an idea and a GitHub account, we will first cover how to set up a project easily using a cookie-cutter. What is it you ask? We will explain it to you and also introduce other useful tools in open source project. For example, CICD tools like Travis and documentation service like ReadTheDocs and testing using Pytest.

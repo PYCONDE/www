@@ -39,6 +39,8 @@ track: PyData
 ---
 meta_title: Airflow: your ally for automating machine learning and data pipelines @enricapq #PyConDE #PyDataBerlin
 ---
+categories: pydata, big-data, infrastructure, machine-learning, data-engineering, tutorial
+---
 body: After having worked hard developing a machine learning model, you know that there is still a _relatively small_ step to do: moving it to production.
 
 In a common scenario what you probably would like to have is a workflow to automate:

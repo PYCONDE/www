@@ -32,6 +32,8 @@ track: PyData
 ---
 meta_title: Interpretable Machine Learning: How to make black box models explainable @eng_elhardt #PyConDE #PyDataBerlin
 ---
+categories: pydata, data-science, machine-learning, talk
+---
 body: We all love linear regression for its interpretability: Increase square
 meters by 1, that leads to rent going up by 8 euros. A human can easily
 understand why this model made a certain prediction.

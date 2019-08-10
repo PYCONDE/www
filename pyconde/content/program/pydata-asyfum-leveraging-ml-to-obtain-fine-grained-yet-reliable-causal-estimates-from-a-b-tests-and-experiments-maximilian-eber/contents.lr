@@ -30,6 +30,8 @@ track: PyData
 ---
 meta_title: Leveraging ML to obtain fine-grained (yet reliable) causal estimates from A/B tests and experiments  #PyConDE #PyDataBerlin
 ---
+categories: pydata, data-science, machine-learning, science, statistics, talk
+---
 body: Randomized experiments (including A/B tests) are simple yet powerful for establishing the causal effects of
 different treatments. Pharmaceutical companies use them to establish the effectiveness of medications, governments
 use them to evaluate the effectiveness of social programs, and online shops use them to optimize the layout of their

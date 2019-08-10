@@ -35,6 +35,8 @@ track: PyData
 ---
 meta_title: Deep Learning for Healthcare with PyTorch @leriomaggio #PyConDE #PyDataBerlin
 ---
+categories: pydata, artificial-intelligence, deep-learning, machine-learning, science, tutorial
+---
 body: This tutorial provides a general introduction to the PyTorch Deep Learning framework with specific focus 
 on Deep Learning applications for Precision Medicine and Computational Biology.
 

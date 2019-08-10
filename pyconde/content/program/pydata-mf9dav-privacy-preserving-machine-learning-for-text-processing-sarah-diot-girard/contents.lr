@@ -30,6 +30,8 @@ track: PyData
 ---
 meta_title: Privacy-preserving Machine Learning for text processing  #PyConDE #PyDataBerlin
 ---
+categories: pydata, artificial-intelligence, data-science, natural-language-processing, machine-learning, talk
+---
 body: Data privacy is probably one of the most important challenges we are facing in Data Science. Applications are collecting more and more personal data and it is paramount to ensure anonymity. Privacy cannot be solved just by removing personal identifiers, and concepts such as k-anonymity have been developed to help with structured data. 
 But what if you are working with unstructured text data? Things can get even trickier... 
 This talk aims at presenting a few tips and tricks to ensure privacy when working with text, as well as identifying still open research questions. No silver bullet here, but hopefully a step in the right direction.

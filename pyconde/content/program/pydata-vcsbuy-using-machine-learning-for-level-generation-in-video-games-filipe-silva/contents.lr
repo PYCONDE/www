@@ -32,6 +32,8 @@ track: PyData
 ---
 meta_title: Using machine learning for Level Generation in video-games @Filipedls #PyConDE #PyDataBerlin
 ---
+categories: pydata, data-science, machine-learning, tutorial
+---
 body: In some video-games, the level and environment generation uses random variables that are usually sampled from uniformed distributions. Or in some cases, these variables are even manually programmed.
 The different game experiences, like levels of difficulty, are usually achieved by truncating these distributions to increase the chances of obtaining a sample that translates in a particular game experience, for example, a harder game. In simple games, this is done commonly by just increasing the speed of the game, without changing the way these variable are sampled.
 

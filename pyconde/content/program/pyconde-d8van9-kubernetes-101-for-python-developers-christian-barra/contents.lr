@@ -34,6 +34,8 @@ track: PyConDE
 ---
 meta_title: Kubernetes 101 for Python Developers @christianbarra #PyConDE #PyDataBerlin
 ---
+categories: pyconde, devops, infrastructure, web, apis, use-cases, tutorial
+---
 body: Do you find easier to build a 3894 pieces IKEA’s furniture than using K8s?
 
 Kubernetes 101 for Python Developers is here to help!

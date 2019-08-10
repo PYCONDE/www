@@ -32,6 +32,8 @@ track: PyConDE
 ---
 meta_title: Abridged metaprogramming classics - this episode: pytest @obestwalter #PyConDE #PyDataBerlin
 ---
+categories: pyconde, algorithms, code-review, apis, use-cases, talk
+---
 body: We will make a tour through the  [pytest](https://pypi.org/project/pytest/) core features and see how a lot of them are implemented using metaprogramming techniques like introspection/reflection, AST manipulation and other clever uses of Pythons Data and execution mod.
 
 At the end of this talk we will have built a minimal re-implementation of what makes the core of pytest (code will be available in the [pico-pytest repository](https://gitlab.com/obestwalter/pico-pytest)).

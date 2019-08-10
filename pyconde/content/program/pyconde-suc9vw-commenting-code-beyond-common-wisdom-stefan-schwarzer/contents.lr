@@ -30,6 +30,8 @@ track: PyConDE
 ---
 meta_title: Commenting code — beyond common wisdom  #PyConDE #PyDataBerlin
 ---
+categories: pyconde, code-review, talk
+---
 body: I'm convinced that good code comments are very important for
 software maintainability.
 

@@ -30,6 +30,8 @@ track: PyConDE
 ---
 meta_title: Beyond Paradigms: a new key to grok Python & other languages @ramalhoorg #PyConDE #PyDataBerlin
 ---
+categories: pyconde, algorithms, code-review, talk
+---
 body: Java is object oriented and Haskell is functional. How about Python? Is it really OO with free-standing functions and weak encapsulation? Python has lambdas and closures, but is it functional? Are these useful questions?
 
 In the last 10 years a new approach to the study of programming languages has emerged: focus on features, not paradigms. This approach offers more direct, practical advice for programmers learning a new language, taking up coding idioms, and choosing suitable design patterns.

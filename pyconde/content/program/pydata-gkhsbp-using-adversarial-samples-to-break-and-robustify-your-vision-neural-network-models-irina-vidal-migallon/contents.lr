@@ -30,6 +30,8 @@ track: PyData
 ---
 meta_title: Using adversarial samples to break and robustify your Vision Neural Network Models @not_vim #PyConDE #PyDataBerlin
 ---
+categories: pydata, artificial-intelligence, computer-vision, deep-learning, machine-learning, talk
+---
 body: Industrial Computer Vision systems rely on Neural Networks - also in production. If we should poke our code until it breaks, why would deep learning models get a free pass? We'll see different ways in which to poke our models and improve them, from the practitioner's point of view, who has access to the model.
 
 Attacks keep improving and getting more sophisticated, but that doesn't mean that practitioners cannot aim at improving models with the resources they have: from very basic techniques applicable from day 1 to sophisticated adversarial training. 

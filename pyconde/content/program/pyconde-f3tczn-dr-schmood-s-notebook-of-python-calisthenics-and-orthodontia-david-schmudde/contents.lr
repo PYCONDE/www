@@ -32,6 +32,8 @@ track: PyConDE
 ---
 meta_title: Dr. Schmood's Notebook of Python Calisthenics and Orthodontia https://twitter.com/dschmudde #PyConDE #PyDataBerlin
 ---
+categories: pyconde, data-science, ides-jupyter, talk
+---
 body: "Programs should be written for people to read, and only incidentally for machines to execute." - Abelson and Sussman, *Structure and Interpretation of Computer Programs*
 
 The linear nature of computational notebooks are a natural fit for telling the story of your code, data, and results. However, this format underpins an essential tension between the format's implied linearity and the computer's ability to access, process, and display information in any order. Functional approaches offer an idiosyncratic way of navigating the issue. For example, treating a cell as a collection of small pure functions and eliminating mutable global state make results more immediate and errors easier to understand.

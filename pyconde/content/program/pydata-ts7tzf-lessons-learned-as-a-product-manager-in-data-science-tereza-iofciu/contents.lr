@@ -32,6 +32,8 @@ track: PyData
 ---
 meta_title: Lessons Learned as a Product Manager in Data Science @terezaif #PyConDE #PyDataBerlin
 ---
+categories: pydata, business-start-ups, data-science, machine-learning, talk
+---
 body: From answering simple data questions, building cool visualisations, to building machine learning solutions and bringing them to production, these are all skills expected from data science teams. 
 
 There is so much material these days online about cool data projects that it feels like working with data is easy and projects can be finished in no time. In order to implement data products and bring them from prototype to production successfully there is though a lot of work happening behind the scenes. 

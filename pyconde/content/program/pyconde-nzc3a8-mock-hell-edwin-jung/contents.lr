@@ -32,6 +32,8 @@ track: PyConDE
 ---
 meta_title: Mock Hell ejjcatx #PyConDE #PyDataBerlin
 ---
+categories: pyconde, code-review, web, data-engineering, talk
+---
 body: Mocking in Python is tricky.  Most widely available materials on Python mocks serve as a basic operator’s manual for the library, but scarcely address the code smells and technical debt that mocks may create. 
 
 An important idea that is commonly misunderstood, is that mocks were never originally intended to simply be a tool for decoupling dependencies.  Mocking originated as a practice with deep roots in OOP and TDD practice, and has a deep catalog of knowledge related to their use and mis-use. 

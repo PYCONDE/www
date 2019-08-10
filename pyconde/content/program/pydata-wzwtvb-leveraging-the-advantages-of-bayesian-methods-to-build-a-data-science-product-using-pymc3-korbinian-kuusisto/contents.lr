@@ -30,6 +30,8 @@ track: PyData
 ---
 meta_title: Leveraging the advantages of Bayesian Methods to build a data science product using PyMC3 https://twitter.com/kuusisto_k #PyConDE #PyDataBerlin
 ---
+categories: pydata, algorithms, business-start-ups, data-science, machine-learning, science, statistics, talk
+---
 body: Bayesian frameworks offer powerful theoretical advantages: they can take advantage of prior information and provide a better sense of uncertainty. 
 
 In practice however, the theoretical barrier-to-entry and complexity surrounding Bayesian methods often discourage data scientists from applying these methods in real-life contexts to build successful data products. 

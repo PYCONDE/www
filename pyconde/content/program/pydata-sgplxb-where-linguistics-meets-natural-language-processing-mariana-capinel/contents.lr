@@ -28,6 +28,8 @@ track: PyData
 ---
 meta_title: Where Linguistics meets Natural Language Processing  #PyConDE #PyDataBerlin
 ---
+categories: pydata, natural-language-processing, talk
+---
 body: For someone working with **Natural Language Processing/Understanding** (NLP/NLU), I see a lot of value in incorporating a formal understanding of how languages are structured, beyond just being able to speak/understand them. In this talk I will give you a simple explanation of the basic concepts and their connection with the NLP/NLU world.
 
 According to traditional linguistics, there are 5 levels of study for languages: **phonetics-phonology**, **morphology**, **syntax**, **semantics** and **pragmatics**. They go from the smallest unit in language, the human sounds, to the largest, language usage. We will go through all of them in the talk.

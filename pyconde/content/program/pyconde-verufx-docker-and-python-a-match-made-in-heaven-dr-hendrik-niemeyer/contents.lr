@@ -32,6 +32,8 @@ track: PyConDE
 ---
 meta_title: Docker and Python - A Match made in Heaven @hniemeye #PyConDE #PyDataBerlin
 ---
+categories: pyconde, big-data, devops, infrastructure, talk
+---
 body: Docker provides tooling for building,
 running and communication between Linux containers. Containers are a lightweight 
 alternative to virtual machines and are a great way of isolating resources

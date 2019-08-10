@@ -29,6 +29,8 @@ track: PyConDE
 ---
 meta_title: An Introduction to Concurrency and Parallelism using Python Programming Language  #PyConDE #PyDataBerlin
 ---
+categories: pyconde, algorithms, parallel-programming, tutorial
+---
 body: Python concurrency concepts (like Multiprocessing, Multithreading, Coroutines, Asynchronous I/O ) will be explained in this tutorial. These are very relevant to production level code. If we can can apply these, then in many cases existing   codes can be refactored and possibly we can make them simpler, improve response time and overall throughput (wherever applicable like a network server application). The concurrency models are equally important when implementing new applications.
 
 An outline of the tutorial with approximate breakup of time is given below:

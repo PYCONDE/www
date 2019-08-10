@@ -30,6 +30,8 @@ track: PyConDE
 ---
 meta_title: Chips Made From Python @dan_fritchman #PyConDE #PyDataBerlin
 ---
+categories: pyconde, microcontrollers, parallel-programming, science, makers, talk
+---
 body: Chip design does not often tend to be thought of as *programming*, although a complex system-on-chip (SoC) is generally crafted through thousands or millions of lines of code. 
 
 For decades chip design has primarily taken place in C-derived, domain-specific *hardware description languages*, such as Verilog and VHDL.  A recent set of *hardware description libraries*, several based in Python, aim to instead move the chip-design process into modern programming languages. 

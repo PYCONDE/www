@@ -1,16 +1,15 @@
-{% macro render_category_nav(active=none) %}
+{% macro render_category_nav() %}
   <ul>
   {% for category in site.query('/program-categories') %}
-      <h1>{{ category }}</h1>
     <li><a href="{{ category|url }}">{{ category.name }}</a></li>
   {% endfor %}
   </ul>
 {% endmacro %}
 
 {% macro render_project_list(projects) %}
+    <p>{{ projects }}</p>
   <ul>
   {% for project in projects %}
-       <h1>{{ project }}</h1>
     <li><a href="{{ project|url }}">{{ project.name }}</a></li>
   {% endfor %}
   </ul>

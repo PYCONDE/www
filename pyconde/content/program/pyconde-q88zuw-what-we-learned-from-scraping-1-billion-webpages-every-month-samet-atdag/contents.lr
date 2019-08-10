@@ -32,6 +32,8 @@ track: PyConDE
 ---
 meta_title: What we learned from scraping 1 billion webpages every month @sam3t #PyConDE #PyDataBerlin
 ---
+categories: pyconde, business-start-ups, big-data, infrastructure, web, data-engineering, talk
+---
 body: As Prisync, we crawl a large portion of the web every day for 6 years. First we approach the problem with a naive aspect, but we learned our lesson via experience. Developers create workarounds and hacks all over the time. But doing so has –most probably, unexpected– consequences. Some of the glitches we experiences so far: 
 
 There are ;

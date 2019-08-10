@@ -32,6 +32,8 @@ track: PyData
 ---
 meta_title: Dash: Interactive Data Visualization Web Apps with no Javascript @DomWeldon #PyConDE #PyDataBerlin
 ---
+categories: pydata, data-science, visualisation, web, talk
+---
 body: Your data science or machine learning project probably won't just produce a written report. Instead, projects are increasingly expected to produce interactive tools to allow end-users to explore data and results with rich, interactive visualizations. Inevitably, this will be done in a web browser, meaning you'll need to add a quantitatively trained web developer to your team, or have your data scientists spend time learning HTML, Javascript and CSS. Dash, a project by the team that makes Plotly, solves some of these problems by allowing data scientists to build rich and interactive websites in pure python, with minimal knowledge of HTML and absolutely no Javascript.
 
 At decisionLab, a London-based data science consultancy producing decision tools, we've embraced Dash to produce proof-of-concept models for our projects in alpha. Although we're not officially connected to the plotly/Dash project, by using the library daily across many projects, we've learned many lessons and what we feel are best practises we'd like to share, and hear feedback on!

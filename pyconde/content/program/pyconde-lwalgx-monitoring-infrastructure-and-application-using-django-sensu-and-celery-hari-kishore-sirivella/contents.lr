@@ -28,6 +28,8 @@ track: PyConDE
 ---
 meta_title: Monitoring infrastructure and application using Django, Sensu and Celery.  #PyConDE #PyDataBerlin
 ---
+categories: pyconde, django, devops, infrastructure, talk
+---
 body: I will be talking about how we SREs at Opentable Inc, tries to solve the good old monitoring problem - sensu with puppet, using Django, Sensu and Celery.
 
 If you are fed up with the limitations of what current monitoring tools offer, this is the talk you wanna look out.

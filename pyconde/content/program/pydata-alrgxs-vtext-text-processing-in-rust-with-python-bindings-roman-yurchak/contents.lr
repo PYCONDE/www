@@ -29,6 +29,8 @@ track: PyData
 ---
 meta_title: vtext: text processing in Rust with Python bindings @RomanYurchak #PyConDE #PyDataBerlin
 ---
+categories: pydata, natural-language-processing, talk
+---
 body: Scientific Python has historically relied on compiled extensions for performance critical parts of the code. In this talk, we outline how to write Rust extensions for Python using [rust-numpy](https://github.com/rust-numpy/rust-numpy),
 project. Advantages and limitations of this approach as compared to Cython or wrapping Fortran, C or C++ are also discussed.
 

@@ -28,5 +28,7 @@ track: PyConDE
 ---
 meta_title: MicroPython Heats My Home @miguelgrinberg #PyConDE #PyDataBerlin
 ---
+categories: pyconde, microcontrollers, makers, apis, talk
+---
 body: In 2018 I moved to Ireland from the United States, and the house I rented was very cold, in spite of having a modern Internet-enabled heating controller. In this talk I want to tell you how I "debugged" the problem and how I then improved the heating using a couple of microcontrollers running MicroPython, all without making any modifications to this house I do not own.
 

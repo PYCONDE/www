@@ -32,6 +32,8 @@ track: PyData
 ---
 meta_title: Managing the end-to-end machine learning lifecycle with MLFlow @tobias_sterbak #PyConDE #PyDataBerlin
 ---
+categories: pydata, data-science, infrastructure, machine-learning, data-engineering, tutorial
+---
 body: __Please make sure to check out the installation instructions and data before participating.__ There might be no sufficient internet connection at the venue.
 
 __Instructions and data__ can be found here: __https://github.com/tsterbak/pydataberlin-2019__

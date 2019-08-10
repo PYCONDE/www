@@ -30,6 +30,8 @@ track: PyData
 ---
 meta_title: Automating feature engineering for supervised learning?  Methods, open-source tools and prospects. @thorben_jensen #PyConDE #PyDataBerlin
 ---
+categories: pydata, artificial-intelligence, algorithms, data-science, machine-learning, data-engineering, talk
+---
 body: Currently, Machine Learning – and especially Supervised Learning – is benefiting heavily from increased automation. This is mainly showing on the fronts of tuning and deployment of models. Automation makes it easier for newcomers to get started. And experienced developers can leverage automation to increase their impact. 
 
 While automation of many tasks required for supervised learning is becoming well established, it is less so for the tasks of feature engineering. Feature engineering is one of the most important steps in supervised learning. This is especially true for ‘classical’ models, such as linear and tree-based ones. But also ‘deep’ models, which in principle are capable of learning detailed features from data, benefit from being provided with the right features. As of today, engineering good features remains part of the ‘secret sauce’ of experienced Machine Learning engineers.

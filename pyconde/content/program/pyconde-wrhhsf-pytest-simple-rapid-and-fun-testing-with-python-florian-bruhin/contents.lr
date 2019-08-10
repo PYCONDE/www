@@ -32,6 +32,8 @@ track: PyConDE
 ---
 meta_title: pytest - simple, rapid and fun testing with Python @the_compiler #PyConDE #PyDataBerlin
 ---
+categories: pyconde, infrastructure, tutorial
+---
 body: The pytest tool presents a rapid and simple way to write tests for your Python
 code. This training gives an introduction with exercises to some
 distinguishing features. We'll also examine how to run existing non-pytest test

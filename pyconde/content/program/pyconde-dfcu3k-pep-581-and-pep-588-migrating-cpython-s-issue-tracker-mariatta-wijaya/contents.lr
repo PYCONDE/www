@@ -34,6 +34,8 @@ track: PyConDE
 ---
 meta_title: PEP 581 and PEP 588: Migrating CPython's Issue Tracker @mariatta #PyConDE #PyDataBerlin
 ---
+categories: pyconde, community, use-cases, keynote
+---
 body: In 2017, CPython codebase was moved to GitHub from Mercurial, an effort that took more than three years of planning and lots of volunteer coordination. 
 The move proved to be successful and well-appreciated. New contributors face less barriers when contributing to Python. Core developers are benefiting from personal assistants in the form of GitHub bots and automations.
 Can the workflow be even better? In this talk, we'll look into other problems in CPython's workflow: the issue tracker itself.

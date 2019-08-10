@@ -31,6 +31,8 @@ track: PyData
 ---
 meta_title: Applying deployment oriented mindset for building Machine Learning models @dark_matter88_ #PyConDE #PyDataBerlin
 ---
+categories: pydata, data-science, machine-learning, talk
+---
 body: Developing a complicated ensemble model with hundreds of features fetched from a bunch of different sources? Give me two! Showing great metrics to the stakeholders and already discussing how it will hit a home run in production? Why not! And then getting stuck for months trying to deploy the model and fighting with data inconsistency and bugs? Sounds familiar?
 This talk will focus on providing guidelines on how to build your model development process keeping in mind the deployment phase to come later on.
 In this talk, I will describe the process of Machine Learning models development providing the guidelines on how to manage every phase and which things to keep attention to. I will also tell about successful practical cases in which keeping the deployment in mind actually helped and fueled the development. And I will mention the consequences of forgetting the need for deployment base on my own experience. 
