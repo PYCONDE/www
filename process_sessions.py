@@ -375,7 +375,7 @@ def generate_session_pages():
     # book keeping
     session_path = Path('pyconde/content/program/')
     session_path.mkdir(exist_ok=True)
-    in_place_submissions = session_path.glob('*')
+    in_place_submissions = [x.name for x in session_path.glob('*')]
     tpl = """_model: session 
 ---
 code: {code}
@@ -436,6 +436,12 @@ body: {body}
 
         slug = slugify(f"{submission['track']}-{submission['code']}-{submission['title']}-{' '.join([x.get('name') for x in submission['speakers']])}")
         dirname = session_path / slug
+        if dirname.name in in_place_submissions:
+            print("slug hasn't changed")
+            in_place_submissions.remove(dirname.name)
+        else:
+            # TODO redirect renames to new dir
+            raise NotImplementedError("handling of redirects not implemneted, yet")
         dirname.mkdir(exist_ok=True)
         with open(dirname / "contents.lr", "w") as f:
             f.write(tpl.format(
@@ -455,8 +461,8 @@ body: {body}
                 categories=categories,
                 categories_list=categories_list,
             ))
-        # break
-    # TODO redirect renames to new dir
+        if in_place_submissions:  # leftover dirs
+            raise NotImplementedError("handling of redirects not implemneted, yet")
 
 
 if __name__ == "__main__":
