@@ -32,7 +32,7 @@ python_skill: Python Skill Level expert
 ---
 domain_expertise: Domain Expertise expert
 ---
-meta_title: Current affairs, updates, and the roadmap of scikit-learn and scikit-learn-contrib  #PyConDE #PyDataBerlin
+meta_title: Current affairs, updates, and the roadmap of scikit-learn and scikit-learn-contrib  #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-expert, domain-expertise-expert, talk, artificial-intelligence, community, code-review, machine-learning
 ---

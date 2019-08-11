@@ -8,3 +8,16 @@
 .session_list_speaker {
     margin: 0 0 12px;
 }
+
+/* Schedule */
+.schedule_title, .schedule_title:hover, .schedule_title:focus {
+    color: inherit;
+}
+
+.clipcard__body {
+    padding: 8px 0;
+}
+
+a.tabs__nav > p {
+    margin: 0 0 2px;
+}

@@ -8,13 +8,13 @@ description: Optimizing input by building your own keyboard. Learn where the mod
 ---
 twitter_image: /static/media/twitter/WJGCNV.jpg
 ---
-speakers: daniel rios
+speakers: Daniel Rios
 ---
 submission_type: Talk
 ---
 domains: Community, Microcontrollers, Makers
 ---
-biography: #### daniel rios
+biography: #### Daniel Rios
 
 Affiliation: Jonas und der Wolf
 
@@ -22,7 +22,7 @@ Affiliation: Jonas und der Wolf
 
 I came to programming late in life, and have been programming in Python since 2012, with Django since 2014. I identify not as a self-taught developer, but, rather, as a community-taught developer, as I have learned so much more from the Python community than I could have by myself. For this reason, I coach beginners and try to give back as much as I can. I'm currently working professionally as a Django Web Developer at Jonas und der Wolf in Berlin.
 
-[Twitter](https://twitter.com/misterrios) • [Github](https://github.com/misterrios) • [Homepage](www.misterrios.net)
+[Twitter](https://twitter.com/misterrios)) • [Github](https://github.com/misterrios) • [Homepage](www.misterrios.net)
 ---
 affiliation: Jonas und der Wolf
 ---
@@ -32,7 +32,7 @@ python_skill: Python Skill Level none
 ---
 domain_expertise: Domain Expertise none
 ---
-meta_title: Optimizing Input: Building your own customized keyboard @misterrios #PyConDE #PyDataBerlin
+meta_title: Optimizing Input: Building your own customized keyboard misterrios #PyConDE #PyDataBerlin #PyData
 ---
 categories: pyconde, python-skill-level-none, domain-expertise-none, talk, community, microcontrollers, makers
 ---
