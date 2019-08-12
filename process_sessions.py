@@ -95,8 +95,17 @@ def load_speakers():
             speaker[qa_map[_id]] = qa.get('answer')
             # normalize twitter
             if _id == 115:
-                speaker[qa_map[_id]] = qa.get('answer').split('/')[-1].replace('@', '')
-                speaker['twitter'] = f"https://twitter.com/{speaker[qa_map[_id]]})"
+                speaker['twitter'] = ""
+                handle = qa.get('answer').split('/')[-1].replace('@', '').strip()
+                speaker[qa_map[_id]] = handle
+                if handle:
+                    speaker['twitter'] = f"https://twitter.com/{speaker[qa_map[_id]]}"
+                else:
+                    pass
+            if _id == 117:
+                if qa.get('answer').strip() and 'github.com' not in qa.get('answer', ""):
+                    speaker['github'] = f"https://github.com/{qa.get('answer').strip()}"
+
         the_speakers.append(speaker)
     with open(speakers_path, 'w') as f:
         json.dump(the_speakers, f, indent=4)
@@ -276,7 +285,7 @@ body: {body}
             if x.get('affiliation'):
                 biography.append(f'Affiliation: {x["affiliation"]}')
             biography.append(f'')
-            biography.append(f"{x['biography']}")
+            biography.append(f"{x['biography'] if x['biography'] else ''}")
             social = []
             if x.get('twitter'):
                 social.append(f"[Twitter]({x['twitter']})")
