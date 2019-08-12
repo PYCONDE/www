@@ -1,0 +1,42 @@
+_model: session 
+---
+code: QE3UUQ
+---
+title: How to choose better colors for your data visualizations
+---
+description: You want to choose better colors for all the charts that you create with Python but you do not know where to start? This talk will teach you some basics about color theory so your charts will show what is important (and look beautiful).
+---
+twitter_image: /static/media/twitter/QE3UUQ.jpg
+---
+speakers: Daniel Ringler
+---
+submission_type: Talk
+---
+domains: Data Science, Visualisation
+---
+biography: #### Daniel Ringler
+
+Affiliation: Ancud IT
+
+
+
+PyData Organizer and Data Scientist working in Berlin
+
+[Twitter](https://twitter.com/Ringelpeter) • [Github](https://github.com/dringler)
+---
+affiliation: Ancud IT
+---
+track: PyData
+---
+python_skill: Python Skill Level basic
+---
+domain_expertise: Domain Expertise none
+---
+meta_title: How to choose better colors for your data visualizations Ringelpeter #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-basic, domain-expertise-none, talk, data-science, visualisation
+---
+body: With Python libraries such as matplotlib, seaborn, bokeh, plotly, altair,  hvplot etc. it is easier than ever to create nice and colorful charts to visualize your data. Many people never change the basic configuration of the libraries because they do not know better (or worse: they do not care). This is why almost all charts look the same. 
+Colors are an important tool to quickly transfer the message of your charts to the viewer. In order to make it easy for the people to understand your charts and your data, it is important to think about how to use colors in data visualization (usually the standard colors are not the colors that should be used!).
+Therefore, this talk will teach you some basics of color theory and help you to get started with using better colors in your charts. Some practical examples using popular Python libraries will be shown to help you choose the best colors for your next charts.
+

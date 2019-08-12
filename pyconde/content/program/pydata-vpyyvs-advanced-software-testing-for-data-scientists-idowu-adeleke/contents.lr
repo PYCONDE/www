@@ -1,0 +1,62 @@
+_model: session 
+---
+code: VPYYVS
+---
+title: Advanced Software Testing for Data Scientists
+---
+description: In this talk, I walk you through TDD concepts & how to implement it in a data science project.
+---
+twitter_image: /static/media/twitter/VPYYVS.jpg
+---
+speakers: Idowu Adeleke
+---
+submission_type: Talk
+---
+domains: Big Data, Data Science
+---
+biography: #### Idowu Adeleke
+
+Affiliation: Andela
+
+
+
+I am a software engineer at Andela with years of experience working as a machine learning researcher at venture garden Nigeria. I have spoken at python ghana conference 2018 on "becoming a data scientist", python Nigeria conference on "conversational interfaces for chatbot and artificial intelligence". I am a founding partner at speaktech haven where kids are trained on how to use technology as an agent of change and innovations in their community...
+---
+affiliation: Andela
+---
+track: PyData
+---
+python_skill: Python Skill Level guru
+---
+domain_expertise: Domain Expertise expert
+---
+meta_title: Advanced Software Testing for Data Scientists  #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-guru, domain-expertise-expert, talk, big-data, data-science
+---
+body: So you are in the middle of a project to develop a new machine learning algorithm which will be a core part of your product. Cool! But how do you know that your algorithm really works?
+
+This is a question that should be asked even before any major work takes place and this approach is called test-driven data science.
+
+Test Driven Data Science is drawn from an evolutionary approach to software development called test-driven development.
+
+What is Test Driven Development (TDD)?
+
+Test Driven Development is a software development practice that instructs developers to write new code only when a test for a required feature has failed.
+
+Robust software usually have tests asserting that certain conditions hold, but as a data scientist it’s often not straightforward or obvious how to integrate these best practices
+
+Data scientists often don’t have experience working as software developers and never learned how to write tests for their code. They may be used to writing and executing code interactively or in an ad hoc fashion; they may be unused to writing code that runs without supervision or as part of a larger pipeline.
+
+Advantages of Test Driven Data science
+
+It improves code quality and reusability
+
+It improves the speed at which we get to the root of the problems which have real value
+
+It makes data science less painful more fun, as we can focus on the problem solving rather than debugging
+
+It encourages simpler and more modular code
+
+In this talk, I’ll introduce the concept of testing, describe how to write good tests, discuss how to make testing a part of a normal data science workflow and the tips and tricks I’ve gathered writing test suites for several data science projects.
+

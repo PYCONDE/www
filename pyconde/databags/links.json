@@ -2,15 +2,44 @@
   "product": [
     {
       "name": "Program",
-      "path": "/program"
+      "submenu": [
+        {
+          "name": "All Sessions",
+          "path": "/program"
+        },
+        {
+          "name": "PyData Berlin Sessions",
+          "path": "/program/categories/pydata"
+        },
+        {
+          "name": "PyConDE Sessions",
+          "path": "/program/categories/pyconde"
+        },
+        {
+          "name": "Talks",
+          "path": "/program/categories/talk"
+        },
+        {
+          "name": "Tutorials",
+          "path": "/program/categories/tutorial"
+        },
+        {
+          "name": "Schedule",
+          "path": "/program-schedule"
+        }
+      ]
     },
     {
-      "name": "Sprints",
-      "path": "/sprints/"
+      "name": "FAQ",
+      "path": "/frequently-asked-questions/"
     },
     {
       "name": "Blog",
       "path": "/blog"
+    },
+    {
+      "name": "Sprints",
+      "path": "/sprints/"
     },
     {
       "name": "Sponsors",
@@ -19,10 +48,6 @@
     {
       "name": "Info",
       "submenu": [
-        {
-          "name": "FAQ",
-          "path": "/frequently-asked-questions/"
-        },
         {
           "name": "Venue",
           "path": "/venue"

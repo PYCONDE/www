@@ -1,0 +1,64 @@
+_model: session 
+---
+code: 78RYGG
+---
+title: Deep Learning for Healthcare with PyTorch
+---
+description: This tutorial provides a general introduction to the PyTorch Deep Learning framework with specific focus  on Deep Learning applications for Precision Medicine and Computational Biology.
+---
+twitter_image: /static/media/twitter/78RYGG.jpg
+---
+speakers: Valerio Maggio
+---
+submission_type: Tutorial
+---
+domains: Artificial Intelligence, Deep Learning, Machine Learning, Science
+---
+biography: #### Valerio Maggio
+
+Affiliation: Fondazione Bruno Kessler / University of Bristol
+
+
+
+Valerio Maggio is a Data Scientist and Post-doc Researcher. 
+He has a Ph.D. in Computer Science from the University of Naples “Federico II”, and he is currently enrolled as 
+Research/Cloud Software Engineer at FBK/MPBA. 
+His research interests focus on Reproducible Science and Machine/Deep Learning methods for Computational Biology and Precision Medicine.
+Valerio is also a very active fellow in the Italian Python community and member of the organising committee of many 
+Python Conferences (i.e. EuroPython, PyCon/PyData Italy, EuroSciPy).
+
+[Twitter](https://twitter.com/leriomaggio) • [Github](https://github.com/leriomaggio)
+---
+affiliation: Fondazione Bruno Kessler / University of Bristol
+---
+track: PyData
+---
+python_skill: Python Skill Level expert
+---
+domain_expertise: Domain Expertise some
+---
+meta_title: Deep Learning for Healthcare with PyTorch leriomaggio #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-expert, domain-expertise-some, tutorial, artificial-intelligence, deep-learning, machine-learning, science
+---
+body: This tutorial provides a general introduction to the PyTorch Deep Learning framework with specific focus 
+on Deep Learning applications for Precision Medicine and Computational Biology.
+
+The main components of the framework will be presented, along with examples on focused
+topics (e.g. embeddings, few-shots learning, DL for BioMed and BioImages)
+
+### Outline of the Tutorial at a glance:
+
+* Exploring Gene Expression Data (using Tensors)
+    - Introduction to _AutoGrad_ and Deep Neural Networks
+    
+* Unraveling the Black boxes: Hidden Layers and Embeddings
+    - Short on latest about Interpretability
+    
+* Few-shots learning and the curse of dimensionality
+    - Domain adaptation _& friends_
+    
+* The rise of AutoEncoders for Medical Image Segmentation
+    - UNet and alike architectures
+    - Retina U-Net for Blood Vessel Segmentation
+

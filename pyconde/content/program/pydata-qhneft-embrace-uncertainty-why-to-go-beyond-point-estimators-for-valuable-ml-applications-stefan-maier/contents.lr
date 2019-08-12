@@ -1,0 +1,53 @@
+_model: session 
+---
+code: QHNEFT
+---
+title: Embrace uncertainty! Why to go beyond point estimators for valuable ML applications
+---
+description: Usually, uncertainties of Machine Learning predictions are just regarded as a sign of poor prediction accuracy or as a consequence of lacking input features. This talk illustrates how modeling uncertainties can improve ML based decisions.
+---
+twitter_image: /static/media/twitter/QHNEFT.jpg
+---
+speakers: Stefan Maier
+---
+submission_type: Talk
+---
+domains: Algorithms, Data Science, Machine Learning, Statistics
+---
+biography: #### Stefan Maier
+
+Affiliation: Blue Yonder, a JDA company
+
+
+
+_2016 - present_ Data Scientist at Blue Yonder
+
+* Development of ML models and autonomous replenishment systems
+* Data Science support in supply chain projects
+
+_2015_ Postdoctoral Researcher, University of Cologne
+
+_2010 - 2014_ PhD in Computational Solid State Physics, RWTH Aachen
+
+_2003 - 2009_ Studies of Physics, University of Ulm and University of New Mexico
+
+[Homepage](www.blue-yonder.ai)
+---
+affiliation: Blue Yonder, a JDA company
+---
+track: PyData
+---
+python_skill: Python Skill Level basic
+---
+domain_expertise: Domain Expertise expert
+---
+meta_title: Embrace uncertainty! Why to go beyond point estimators for valuable ML applications  #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-basic, domain-expertise-expert, talk, algorithms, data-science, machine-learning, statistics
+---
+body: The uncertainty of predictions from ML models is often just regarded as a bad thing - as a sign of model deficiencies, too little data, or lacking input features. In this talk, I will argue why knowing this uncertainty can be valuable. This especially applies if your ML model is used to minimize some kind of cost - either implicitly by a human or explicitly by an optimization algorithm.
+
+The first step in realizing this value is going beyond point estimators towards predicting a probability distribution. In this talk, I will review how this can be done with `scikit-learn` and related tools.
+
+The second step is feeding these predictions into an optimization algorithm as probability distributions. As an example, I will present grocery store orders that are calculated from demand predictions. In extreme cases, including the uncertainty of the ML predictions turns out to be necessary for the optimization to be useful in practice at all.
+

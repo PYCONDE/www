@@ -1,0 +1,44 @@
+_model: session 
+---
+code: 3JUWNC
+---
+title: Introduction to automated testing with pytest
+---
+description: Learn how to get started with developing automated tests in Python with the pytest test framework!
+---
+twitter_image: /static/media/twitter/3JUWNC.jpg
+---
+speakers: Raphael Pierzina
+---
+submission_type: Talk
+---
+domains: DevOps, Web, Data Engineering
+---
+biography: #### Raphael Pierzina
+
+Affiliation: Mozilla
+
+
+
+Open Source programmer 👨🏻‍💻 I write and speak about pytest 📝 test engineer for Firefox at Mozilla 🔥🦊 books and running 📚🏃🏻‍♂️ he/him
+
+https://raphael.codes/
+
+[Twitter](https://twitter.com/hackebrot) • [Github](https://github.com/hackebrot) • [Homepage](https://raphael.codes/)
+---
+affiliation: Mozilla
+---
+track: PyConDE
+---
+python_skill: Python Skill Level basic
+---
+domain_expertise: Domain Expertise none
+---
+meta_title: Introduction to automated testing with pytest hackebrot #PyConDE #PyDataBerlin #PyData
+---
+categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, devops, web, data-engineering
+---
+body: This talk aims to give an introduction into automated testing in Python with [pytest], a popular testing framework developed and maintained by a thriving community of volunteers. After looking into how to develop automated tests with pytest, we'll dive into writing plugins for pytest and explore ideas for potential test suite customizations, that help you and your team manage a growing test suite.
+
+[pytest]: https://github.com/pytest-dev/pytest
+

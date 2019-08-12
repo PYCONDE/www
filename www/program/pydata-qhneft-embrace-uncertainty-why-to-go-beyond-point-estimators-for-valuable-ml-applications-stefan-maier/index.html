@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <script>(function (html) {
+        html.className = html.className.replace(/\bno-js\b/, 'js')
+    })(document.documentElement)</script>
+    <title>PyConDE & PyData Berlin 2019 | Embrace uncertainty! Why to go beyond point estimators for valuable ML applications</title>
+    <meta name="description"
+          content="PyConDE & PyData Berlin 2019. October 9-13, Berlin Germany. Where Pythonistas in Germany can meet to learn about new and upcoming Python libraries, tools, software and data science.">
+
+
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//s.w.org">
+    <link rel="icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla:400,700i,700|Poppins:700">
+    <link rel="stylesheet" href="/static/css/font-awesome.css?h=0140952c" type="text/css" media="all">
+    <link rel="stylesheet" href="/static/style.css?h=28d25877" type="text/css" media="all">
+    <link rel="stylesheet" href="/static/style-custom.css?h=11445aab" type="text/css" media="all">
+
+    <!-- Twitter Card data -->
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@pyconde">
+    <meta name="twitter:title" content="Embrace uncertainty! Why to go beyond point estimators for valuable ML applications  #PyConDE #PyDataBerlin #PyData">
+    <meta name="twitter:description" content="Usually, uncertainties of Machine Learning predictions are just regarded as a sign of poor prediction accuracy or as a consequence of lacking input features. This talk illustrates how modeling uncertainties can improve ML based decisions.">
+    
+        
+        <meta name="twitter:image" content="https://de.pycon.org/static/media/twitter/QHNEFT.jpg?h=d5c6c026">
+    
+</head>
+
+<body class="home blog has-header-background">
+<div class="site" id="page">
+    <header class="site-header" id="masthead">
+        <div class="site-header__wrap">
+            <div class="container">
+                <div class="row in-view">
+                    <div class="col-12 col-xl-10 offset-xl-1">
+                        <div class="site-header__elements">
+                            <div class="site-header__mobile hidden-lg-up">
+                                <button class="site-header__mobile--trigger side-menu-trigger">
+                                    <i class="fa fa-bars" aria-hidden="true"></i>
+                                </button>
+                            </div>
+
+                            <div class="site-header__branding">
+                                <div class="site-branding">
+                                    <a href="/">
+                                        <img src="/static/media/PyConDE_PyDataBer_circle_trans_500.png" alt="Home" width="232"
+                                             height="144">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="site-header__nav hidden-md-down">
+                                <div class="site-header__menu">
+                                    <nav class="main-navigation" aria-label="Site Menu" role="navigation">
+                                        <div class="menu-top-menu-container">
+                                            <ul class="menu" id="top-menu">
+
+                                                
+
+
+                                                    
+                                                        <li class="menu-item-has-children">
+                                                            <a href="#">Program</a>
+                                                            <ul class="sub-menu">
+                                                                
+                                                                    <li>
+                                                                        <a href="/program/"><span>All Sessions</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/program/categories/pydata"><span>PyData Berlin Sessions</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/program/categories/pyconde"><span>PyConDE Sessions</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/program/categories/talk"><span>Talks</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/program/categories/tutorial"><span>Tutorials</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/program-schedule/"><span>Schedule</span></a>
+                                                                    </li>
+                                                                
+                                                            </ul>
+                                                        </li>
+
+
+                                                    
+
+
+                                                
+
+
+                                                    
+                                                        <li><a href="/frequently-asked-questions/">FAQ</a></li>
+
+
+                                                    
+
+
+                                                
+
+
+                                                    
+                                                        <li><a href="/blog/">Blog</a></li>
+
+
+                                                    
+
+
+                                                
+
+
+                                                    
+                                                        <li><a href="/sprints/">Sprints</a></li>
+
+
+                                                    
+
+
+                                                
+
+
+                                                    
+                                                        <li><a href="/sponsors/">Sponsors</a></li>
+
+
+                                                    
+
+
+                                                
+
+
+                                                    
+                                                        <li class="menu-item-has-children">
+                                                            <a href="#">Info</a>
+                                                            <ul class="sub-menu">
+                                                                
+                                                                    <li>
+                                                                        <a href="/venue/"><span>Venue</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/call-for-proposals/"><span>Call for Proposals</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/financial-aid/"><span>Financial Aid</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/team/"><span>Team</span></a>
+                                                                    </li>
+                                                                
+                                                            </ul>
+                                                        </li>
+
+
+                                                    
+
+
+                                                
+
+
+                                                    
+                                                        <li><a href="/code-of-conduct/">Code of Conduct</a></li>
+
+
+                                                    
+
+
+                                                
+
+
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="site-header__cta hidden-sm-down">
+                                <a class="btn btn--secondary" target="_blank" href="https://ti.to/pycon-de/pyconde-pydata-2019">Buy
+                                    ticket</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="site-content" id="content">
+        <div class="content-area" id="primary">
+            
+<main class="site-main" id="main">
+  <section class="section section--singular">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-xl-10 offset-xl-1">
+          <header class="page-header text-center">
+            <h2 class="page-title">Embrace uncertainty! Why to go beyond point estimators for valuable ML applications</h2>
+            <h6>
+                
+                
+                <a href="/program/categories/algorithms">Algorithms</a>
+                
+                 • 
+                
+                <a href="/program/categories/data-science">Data Science</a>
+                
+                 • 
+                
+                <a href="/program/categories/machine-learning">Machine Learning</a>
+                
+                 • 
+                
+                <a href="/program/categories/statistics">Statistics</a>
+                
+            </h6>
+              
+              
+              
+              
+            <h5><a href="/program/categories/talk">Talk</a> • <a href="/program/categories/pydata">PyData</a></h5>
+              <h6>Prerequisites: <a href="/program/categories/domain-expertise-expert">Domain Expertise expert</a> • <a href="/program/categories/python-skill-level-basic">Python Skill Level basic</a></h6>
+            <h3 class="page-title">Stefan Maier</h3>
+          </header>
+          <div class="single-content">
+            <p>The uncertainty of predictions from ML models is often just regarded as a bad thing - as a sign of model deficiencies, too little data, or lacking input features. In this talk, I will argue why knowing this uncertainty can be valuable. This especially applies if your ML model is used to minimize some kind of cost - either implicitly by a human or explicitly by an optimization algorithm.</p>
+<p>The first step in realizing this value is going beyond point estimators towards predicting a probability distribution. In this talk, I will review how this can be done with <code>scikit-learn</code> and related tools.</p>
+<p>The second step is feeding these predictions into an optimization algorithm as probability distributions. As an example, I will present grocery store orders that are calculated from demand predictions. In extreme cases, including the uncertainty of the ML predictions turns out to be necessary for the optimization to be useful in practice at all.</p>
+
+          </div>
+          <div class="single-content">
+            <h4>Stefan Maier</h4>
+<p>Affiliation: Blue Yonder, a JDA company</p>
+<p><em>2016 - present</em> Data Scientist at Blue Yonder</p>
+<ul>
+<li>Development of ML models and autonomous replenishment systems</li>
+<li>Data Science support in supply chain projects</li>
+</ul>
+<p><em>2015</em> Postdoctoral Researcher, University of Cologne</p>
+<p><em>2010 - 2014</em> PhD in Computational Solid State Physics, RWTH Aachen</p>
+<p><em>2003 - 2009</em> Studies of Physics, University of Ulm and University of New Mexico</p>
+<p><a href="/program/pydata-qhneft-embrace-uncertainty-why-to-go-beyond-point-estimators-for-valuable-ml-applications-stefan-maier/www.blue-yonder.ai">Homepage</a></p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+        </div>
+    </div>
+    <footer class="site-footer" id="colophon" role="contentinfo">
+        <div class="widget-area" role="complementary">
+            <div class="container">
+
+                <div class="row in-view">
+                    <div class="col-12 col-md-4 col-xl-2 offset-xl-1">
+                        <div class="widget">
+                            <div class="widget_socials">
+                                <div class="site-branding">
+                                    <a href="index.html">
+                                        <img src="/static/media/PyConDE_PyDataBer_circle_trans_500.png" alt="" width="232"
+                                             height="144">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-xl-2">
+                        <div class="widget">
+                            <h2 class="widget-title">Contact</h2>
+                            <div class="widget_nav_menu">
+                                <ul>
+                                    <li>
+
+                                    </li>
+                                    <li>
+                                        <a href="mailto:info@pycon.de">info@pycon.de</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 offset-md-4 col-xl-2 offset-xl-0">
+                        <div class="widget">
+                            <h2 class="widget-title">Follow us</h2>
+                            <div class="widget_nav_menu">
+                                <ul>
+                                    <li>
+                                        <a href="https://twitter.com/pyconde" target="_blank">Twitter</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4 col-xl-2">
+                        <div class="widget">
+                            <h2 class="widget-title">Legal terms</h2>
+                            <div class="widget_nav_menu">
+                                <ul>
+                                    
+                                        <li><a href="/impressum/">Impressum</a></li>
+                                    
+                                        <li><a href="/privacy-policy/">Terms &amp; Privacy Policy</a></li>
+                                    
+                                        <li><a href="/code-of-conduct/">Code of Conduct</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="site-info">
+            <div class="container">
+                <div class="row in-view">
+                    <div class="col-12 col-md-6 col-xl-5 offset-xl-1">
+              <span class="sub-head">
+                Build with
+                <i class="fa fa-heart color--secondary"></i> in Germany</span>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-5 offset-xl-1">
+              <span class="sub-head">
+                This website is run by <a href="https://python-verband.org">PySV e.V.</a>
+              </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="go-up" id="up">
+        <a class="go-up__btn" href="#page">
+        <span class="btn btn--primary btn--circle">
+          <i class="fa fa-chevron-up"></i>
+        </span>
+        </a>
+    </div>
+    <div class="site-sidenav" id="sidenav">
+        <div class="site-sidenav__overlay side-menu-swipeable"></div>
+        <div class="site-sidenav__elements side-menu-swipeable">
+            <div class="site-sidenav__branding">
+                <div class="site-branding">
+                    <a href="index.html">
+                        <img src="/static/media/PyConDE_PyDataBer_circle_trans_500.png" alt="" width="232" height="144">
+                    </a>
+                </div>
+            </div>
+            <div class="site-sidenav__nav">
+                <div class="site-sidenav__menu">
+                    <nav class="sidenav-navigation" aria-label="Site Mobile Menu" role="navigation">
+                        <div class="menu-sidenav-menu-container">
+                            <ul class="menu" id="sidenav-menu">
+
+                                
+
+                                    
+
+                                        
+                                            <li><a href="/program/"><span>All Sessions</span></a></li>
+                                        
+                                            <li><a href="/program/categories/pydata"><span>PyData Berlin Sessions</span></a></li>
+                                        
+                                            <li><a href="/program/categories/pyconde"><span>PyConDE Sessions</span></a></li>
+                                        
+                                            <li><a href="/program/categories/talk"><span>Talks</span></a></li>
+                                        
+                                            <li><a href="/program/categories/tutorial"><span>Tutorials</span></a></li>
+                                        
+                                            <li><a href="/program-schedule/"><span>Schedule</span></a></li>
+                                        
+
+                                    
+
+                                
+
+                                    
+                                        <li><a href="/frequently-asked-questions/">FAQ</a></li>
+
+                                    
+
+                                
+
+                                    
+                                        <li><a href="/blog/">Blog</a></li>
+
+                                    
+
+                                
+
+                                    
+                                        <li><a href="/sprints/">Sprints</a></li>
+
+                                    
+
+                                
+
+                                    
+                                        <li><a href="/sponsors/">Sponsors</a></li>
+
+                                    
+
+                                
+
+                                    
+
+                                        
+                                            <li><a href="/venue/"><span>Venue</span></a></li>
+                                        
+                                            <li><a href="/call-for-proposals/"><span>Call for Proposals</span></a></li>
+                                        
+                                            <li><a href="/financial-aid/"><span>Financial Aid</span></a></li>
+                                        
+                                            <li><a href="/team/"><span>Team</span></a></li>
+                                        
+
+                                    
+
+                                
+
+                                    
+                                        <li><a href="/code-of-conduct/">Code of Conduct</a></li>
+
+                                    
+
+                                
+
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="site-sidenav__cat hidden-md-up">
+                <a class="btn btn--secondary" target="_blank" href="https://ti.to/pycon-de/pyconde-pydata-2019">Buy ticket</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="application/javascript" src="/static/js/lib.js"></script>
+<script defer async type="application/javascript" src="/static/js/app.js"></script>
+</body>
+
+</html>

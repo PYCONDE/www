@@ -1,0 +1,61 @@
+_model: session 
+---
+code: 9D3JQC
+---
+title: Friend or Foe: Comparison of R & Python in Data Wrangling & Visualisation
+---
+description: R and Python are different in community and as language. Still, comparing them in their common fields such as data wrangling and visualisation, useRs and Pythonistas will deepen mutual understanding.
+---
+twitter_image: /static/media/twitter/9D3JQC.jpg
+---
+speakers: Yuta Kanzawa
+---
+submission_type: Talk
+---
+domains: Big Data, Deep Learning, Data Science, Machine Learning, Visualisation, Statistics
+---
+biography: #### Yuta Kanzawa
+
+Affiliation: Janssen Pharmaceutical K.K. (Tokyo, Johnson & Johnson)
+
+
+
+Data Scientist at Janssen Pharmaceutical (Johnson & Johnson) in Tokyo. I have more than 6 years of experience and have worked at Janssen Japan for 3 years collaborating successfully with commercial colleagues and senior management to deliver strategic insights through data science.
+
+[Twitter](https://twitter.com/yutakanzawa)
+---
+affiliation: Janssen Pharmaceutical K.K. (Tokyo, Johnson & Johnson)
+---
+track: PyData
+---
+python_skill: Python Skill Level basic
+---
+domain_expertise: Domain Expertise some
+---
+meta_title: Friend or Foe: Comparison of R & Python in Data Wrangling & Visualisation yutakanzawa #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-basic, domain-expertise-some, talk, big-data, deep-learning, data-science, machine-learning, visualisation, statistics
+---
+body: R and Python have differences as many as simiralities. Through their comparisons, we can understand both languages better and use them effectively. I will take a look at some examples from de facto standard packages such as tidyverse and pandas for data munging tasks, and ggplot2 and matplotlib (and seaborn) for data visualisation.
+
+1. Differences between R and Python as Language
+    * Procedural and object-oriented programming
+    * Specific and general purpose
+
+2. Data Wrangling
+    * tidyverse
+    * pandas
+
+3. Data Visualisation
+    * ggplot2
+    * matplotlib & seaborn
+
+4. Some Other Cases (depending on time and interest)
+    * Machine learning
+    * Deep learning
+    * Big data (distributed data processing)
+    * Natural language processing
+
+5. Conclusion
+    * To be bilingual
+

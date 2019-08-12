@@ -1,0 +1,54 @@
+_model: session 
+---
+code: JZW9HE
+---
+title: Take control of your hearing: Accessible methods to build a smart noise filter
+---
+description: Control what you hear with deep learning and open audio databases. The developer and manager of \\NoIze//, a project supported by Prototype Fund, share what’s helped them build an open source smart, low-computational noise filter in Python.
+---
+twitter_image: /static/media/twitter/JZW9HE.jpg
+---
+speakers: Peggy Sylopp, Aislyn Rose
+---
+submission_type: Talk
+---
+domains: Artificial Intelligence, Algorithms, Computer Vision, Deep Learning, Data Science, Machine Learning, Science
+---
+biography: #### Peggy Sylopp
+
+Affiliation: pexlab.space
+
+
+
+artist and computer scientist
+
+[Twitter](https://twitter.com/pegx_) • [Github](http://github.com/pgys) • [Homepage](https://pexlab.space)
+
+#### Aislyn Rose
+
+Affiliation: Peggy Sylopp und Aislyn Rose GbR
+
+
+
+Aislyn is the developer as well as a researcher for \\\NoIze//, a Prototype Fund project centering on open source smart sound filter development. Python came into Aislyn's life while studying acoustics in Finland: those long winter nights were just the right thing. She currently pulls from her academic background in clinical linguistic research and her life-long dance training to build smart applications processing sound and movement. She lives in Berlin and loves bike tours with her husband and daughter.
+
+[Github](https://github.com/a-n-rose) • [Homepage](https://a-n-rose.github.io/)
+---
+affiliation: pexlab.space, Peggy Sylopp und Aislyn Rose GbR
+---
+track: PyData
+---
+python_skill: Python Skill Level basic
+---
+domain_expertise: Domain Expertise none
+---
+meta_title: Take control of your hearing: Accessible methods to build a smart noise filter pegx_ #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-basic, domain-expertise-none, talk, artificial-intelligence, algorithms, computer-vision, deep-learning, data-science, machine-learning, science
+---
+body: We are all affected by sound waves, whether we hear them or not. Therefore, the potential is vast, what open resources can offer us to become masters of our own sound experience. People who are deaf could build apps to alarm them if cars honk, and from which direction; people with intact hearing could build a filter that lets them hear only birds sing, if they tire of human voices. Smart filters can potentially reduce hearing loss as well as stress for those living or working in noisy environments. 
+
+The problem potential developers and users of smart filtering techniques face is the large number of barriers standing in front of them. Often access to the relevant resources, such as  hardware, software, and data (e.g. for training neural networks), either require a hefty fee, a good health insurance, an amazing employer, or a position at a successful academic or research institution. Furthermore, the mathematics behind that of sound, specifically digital signal processing, as well as deep learning algorithms can be quite intimidating and difficult to penetrate for outsiders.
+
+In this talk, we share what we’ve learned building a low-computational smart noise filter for the purpose of speech enhancement via mobile device (e.g. smart phone). We will offer an overview of how we used Python to create not only a functional smart noise filter, but a potential learning tool to help others understand and interact with the math behind it. Important topics will include the gray area of ‘high performance’ in deep learning as well as acoustic filtering. We will also talk about the pros and cons of using open audio databases and how people can contribute to them to increase their already great value.
+

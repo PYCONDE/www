@@ -1,0 +1,51 @@
+_model: session 
+---
+code: MMXQUC
+---
+title: Creating an Interactive ML Conference Showcase
+---
+description: Build a ML showcase using #transferlearning, #keras, #WebRTC, #python
+---
+twitter_image: /static/media/twitter/MMXQUC.jpg
+---
+speakers: Harald Bosch
+---
+submission_type: Talk
+---
+domains: Artificial Intelligence, Computer Vision, Deep Learning, IDEs/ Jupyter, Machine Learning
+---
+biography: #### Harald Bosch
+
+Affiliation: Novatec Consulting GmbH
+
+
+
+Dr. Harald Bosch is a senior consultant at Novatec Consulting GmbH where he is coordinating the topic machine learning and artificial intelligence. Prior to this, he was a post doc researcher at the university of Stuttgart where he developed visual analytics solutions for complex domain problems, bringing together information visualization, human computer interaction and data mining.
+
+[Homepage](www.novatec-gmbh.de)
+---
+affiliation: Novatec Consulting GmbH
+---
+track: PyData
+---
+python_skill: Python Skill Level basic
+---
+domain_expertise: Domain Expertise expert
+---
+meta_title: Creating an Interactive ML Conference Showcase  #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-basic, domain-expertise-expert, talk, artificial-intelligence, computer-vision, deep-learning, ides-jupyter, machine-learning
+---
+body: If you want to showcase novel technologies, it is best to have interactive demonstrations to explore their characteristics in a playful environment. In this session we will build such a demonstrator for machine-learning-based computer vision in a Jupyter notebook. The goal is to be able to learn new image classes quickly and with minimal training examples for the sake of demonstrating the technology in situations like trade fairs or conference exhibitions. This will not achieve production ready results but is a compact and viable example.
+
+The obstacles that we will face and overcome are:
+- How to get the image data from the webcam over the browser to the python kernel? (Spoiler: ipywebrtc)
+- How to extract meaningful image features using pretrained networks? (Spoiler: keras)
+- How to glue everything together to have a live camera view with classification? (Spoiler: ipywidgets and callbacks)
+
+What we will not be covering:
+- Performance, stability and scalability
+- GPUs for neural networks
+
+#transferlearning, #keras, #WebRTC, #python
+

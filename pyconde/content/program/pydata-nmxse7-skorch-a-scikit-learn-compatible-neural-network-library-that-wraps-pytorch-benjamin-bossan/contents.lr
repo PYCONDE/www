@@ -1,0 +1,50 @@
+_model: session 
+---
+code: NMXSE7
+---
+title: skorch: A scikit-learn compatible neural network library that wraps pytorch
+---
+description: Combine the best of sklearn and PyTorch by using skorch. This talk shows you why and how to use skorch and what cool features it has to offer.
+---
+twitter_image: /static/media/twitter/NMXSE7.jpg
+---
+speakers: Benjamin Bossan
+---
+submission_type: Talk
+---
+domains: Deep Learning, Data Science, Machine Learning
+---
+biography: #### Benjamin Bossan
+
+Affiliation: NewYorker
+
+
+
+Data Scientist at NewYorker
+
+[Github](https://github.com/BenjaminBossan)
+---
+affiliation: NewYorker
+---
+track: PyData
+---
+python_skill: Python Skill Level basic
+---
+domain_expertise: Domain Expertise some
+---
+meta_title: skorch: A scikit-learn compatible neural network library that wraps pytorch  #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-basic, domain-expertise-some, talk, deep-learning, data-science, machine-learning
+---
+body: [Scikit-learn](https://scikit-learn.org/stable/) is the most widely used general purpose machine learning library in Python. It has a very nice API and many tools are built around it, but its support for neural networks is very limited.
+
+[PyTorch](https://pytorch.org/) is a deep learning platform that makes working with neural networks a blast. However, users often find that they need to write boilerplate and wrapper code to integrate PyTorch into their existing workflows.
+
+A possible solution to those problems is [skorch](https://github.com/skorch-dev/skorch). This open source Python library allows you to easily wrap your PyTorch modules to give them a high level sklearn API. This allows you to:
+
+* tap into the power and flexibility of PyTorch
+* get rid of most of the boring boilerplate code
+* combine PyTorch nets with the usual sklearn goodies like `Pipeline`s, `GridSearchCV`, etc.
+
+Ideally, you already have some basic knowledge of sklearn and PyTorch, or are an advanced user of one of the two libraries who is curious about improving your workflow.
+

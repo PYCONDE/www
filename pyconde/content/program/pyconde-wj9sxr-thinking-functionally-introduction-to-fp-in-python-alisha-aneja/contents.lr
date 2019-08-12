@@ -1,0 +1,41 @@
+_model: session 
+---
+code: WJ9SXR
+---
+title: Thinking functionally: Introduction to FP in Python
+---
+description: What is functional programming and how can you do it in Python!
+---
+twitter_image: /static/media/twitter/WJ9SXR.jpg
+---
+speakers: Alisha Aneja
+---
+submission_type: Talk
+---
+domains: Algorithms, Community, Web
+---
+biography: #### Alisha Aneja
+
+Affiliation: CSIRO Data61
+
+
+
+I completed Master of Science (Computer Science) last year from University of Melbourne and now work as a Software Engineer at CSIRO Data61. I am a Pythonista since last 4 years and use it for my personal and academic projects. For more information, this is my LinkedIn profile: https://www.linkedin.com/in/alisha-aneja-509252128/, Twitter: https://twitter.com/alisha_aneja17, Blog: https://alisha17.github.io/
+
+[Twitter](https://twitter.com/alisha_aneja17) • [Homepage](alisha17.github.io)
+---
+affiliation: CSIRO Data61
+---
+track: PyConDE
+---
+python_skill: Python Skill Level basic
+---
+domain_expertise: Domain Expertise some
+---
+meta_title: Thinking functionally: Introduction to FP in Python alisha_aneja17 #PyConDE #PyDataBerlin #PyData
+---
+categories: pyconde, python-skill-level-basic, domain-expertise-some, talk, algorithms, community, web
+---
+body: Python is an imperative language like Java or C++. An imperative language is based on ‘commands’, in the form of instructions and statements and are executed. These commands will have an effect. Functional languages like Haskell, OCaml revolve around the concept of ‘pure functions’. A pure function is expressed as a mathematical expression only. You can evaluate the expression and there will be no side effects, for example, no I/O operations, no global state changes, no database interactions. The output is only dependent on its inputs. Hence, it is based on ‘equational reasoning’. So if you were to call a pure function with the same inputs a million times, you would get the same result every single time. Since there are no side effects, there is immutable data. The data once initialized remains same throughout the lifetime of the code, which makes ‘parallel programming’ easier. Due to this immutability of data, the value of an expression is the same anywhere it might occur in the program – as long as the required variables are defined. This is termed as ‘Referential Transparency’. It means that the value of an expression is the same anywhere it might occur in the program – as long as the required variables are defined. You never need to track the value of state variables or remember any updates. This enables usage of ‘memoization’ – you basically ‘remember’ the outputs of expensive functions with some common arguments in a sort of lookup table. This reduces the computational complexity at the expense of memory. 
+Although Python is not a functional programming language, but it has features suitable for writing a functional program. The three popular higher order functions are map(), reduce(), filter(). reduce() has now been moved to functools module, a part of the standard library. Next comes the lambda function, which has its roots in the Lambda Calculus. They are small anonymous functions not necessarily bound to a name at runtime. As far as recursion is concerned, any imperative code can be converted into a recursive function. The functions, operator and itertools module groups a number of functions (like iter()) related to iterators and their use/combination. Generator expressions to some extent do lazy evaluation, i.e. return an iterator that computes the values as necessary, not needing to materialize all the values at once. Yield expression is an example of this.
+

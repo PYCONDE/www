@@ -12,7 +12,8 @@ body:
 
 *   [General](#general)
 *   [Program](#program)
-*   [Call for Proposals / Speaking at the conference](#speaking)
+*   [Call for Proposals](#cfp) 
+*   [Speaking at the Conference](#speaking)
 *   [Tickets](#tickets)
 *   [Sponsoring](#sponsoring)
 
@@ -32,9 +33,10 @@ Lighten our communication load:
    - [Twitter](https://twitter.com/pyconde)
    - check [Important Dates](#important-dates) for updates
 
-Once tickets are sold out,  
-**please do refrain from sending emails to help desk if there was "something we could do", we can not.   
-Thanks for your kind understanding. :)**
+Sign up as a volunteer. See [our call for volunteers](../blog/call-for-volunteers/)
+
+Once tickets are sold out, please do refrain from sending emails to help desk if there was "something we could do", we can not.
+Thanks for your kind understanding we probably won't answer. :)
 
 <h4 id="important-dates">Important Dates</h4>
 
@@ -46,7 +48,6 @@ Thanks for your kind understanding. :)**
 - 2 August acceptance notices go out  [updated]
 - 3 August program is published [updated]
 - 14 August schedule is published
-- 31 Aug Switch to late bird tickets
 
 #### What's the conference language?
 
@@ -74,7 +75,8 @@ Saturday and Sunday will be open 9:00 - 18:00 (tbc.).
 
 #### Visa - I need a visa to go to Germany. Could you please write me an invitation letter?
 
-If you require an invitation letter send us an email (info@pycon.de). You will have to fill in a form and the letter will be provided to you by email.
+If you require an invitation letter send us an email (info@pycon.de).
+Please include your full address and passport number in the email, so we can include them in the inviattin letter.
 
 #### Is childcare provided?
 
@@ -83,36 +85,47 @@ You can book a childcare slot [here](https://ti.to/pycon-de/pyconde-pydata-2019)
 
 Remember that slots are limited and are provided on first-come-first-served basis.
 
+#### What about food & drinks during the conference?
+
+The conference ticket includes a light lunch buffet, coffee breaks and light refreshments all day.   
+We settled for a vegatarian and vegan food menu.
+
 <h3 id="program">Program</h3>
 
 As this year our two conferences PyConDE and PyData Berlin join up we will have more tracks than before. We are looking into a ca. 50/50 distribution of the sessions.
 
 #### How will the program look like?
 
-As almost all Python and PyData conferences, this event is run and organised by volunteers contributing free time and supported by community sponsors contributing work time of their employees. Any conference profits will go back to the community and Open Source via the Python Softwareverband e. V. and NumFocus.
-
-#### What can I do to support?
-
-The layout of the conference will be: All three days will feature at least five tracks with talks whereby two tracks will be dedicated to PyData only, two tracks will be dedicated to non-data heavy topics as Programming, Web or DevOps
+The program has been released: please see [here](../program)  
+For the schedule see [here](#important-dates)
 
 #### What about trainings?
 
-We plan to offer a training / workshop day as well, likely they will happen on Saturday.
+We plan to offer a training, [90 minute tutorials to be precise](../program/categories/tutorial/).
 
 #### Lightning Talks
 
 A lightning talk (LT) is a short presentation of maximum five minutes. To sign up for a lightning talk please put your name and topic on the whiteboard next to the registration desk. Signing up is first-come-first-serve basis. The queue is reset every day in the morning. You may talk about / present about (almost) everything except: no promotion for products or companies, no call for 'we are hiring' (but you may name your employer). Conference announcements are limited to one minute only. One LT per day per speaker only. Any speaker not having given a LT at the conference is ahead of anyone who has given a LT already.
 
-<h3 id="speaking">Call for Proposals / Speaking at the conference</h3>
+<h3 id="cfp">Call for Proposals</h3>
 
 #### How can I speak at the conference?
 
-Please submit your proposal via the CfP form. The CfP will open be from April 29th 12:00 CEST to May 26th 23:59 CEST.
+The CfP is closed already. We no longer accept any submissions.
+
+#### Is there a support program for speakers?
+
+We do not have an extra support programme for speakers.  
+Please apply to the [Financial Aid Programme](../financial-aid/).
 
 #### When will I get notified?
 
 Due to the volume of submissions received the review process will take longer than originally expected.
-Please see here [Important Dates](#important-dates) for updates
+Please see here [Important Dates](#important-dates) for updates.
+Update: All submitters have been notified by email August 3: accepted, not accepted and waitlisted.  
+In case you did not receive an email: check the status here [https://pretalx.com/pyconde-pydata-berlin-2019/me/submissions/](https://pretalx.com/pyconde-pydata-berlin-2019/me/submissions/)
+
+<h3 id="speaking"> Speaking at the conference</h3>
 
 #### How can I edit my speaker profile?
 
@@ -128,7 +141,10 @@ Being logged in [https://pretalx.com/pyconde-pydata-berlin-2019/me/submissions/]
 
 #### Can I add another speaker to my proposal?
 
-Yes you can add another speaker to your proposal via Pretalx but please note there is only one complimentary ticket per talk and additional speakers will have to purchase a ticket.
+Yes, **before the close of the CfP** you may add another speaker to your proposal via Pretalx. 
+After the review: No.  
+Please note there is only one complimentary ticket per talk and additional speakers will have to purchase a ticket.  
+There should be a good reason for having more than one speakers for talks, please state in the notes.  
 
 #### I have submitted a talk, but would like to make some edits after the CfP.
 
@@ -141,6 +157,12 @@ Accepted speakers will be provided a complimentary ticket for all the conference
 ####  What if I have purchased a ticket and get a free speaker ticket later?
 
 Please see "Are tickets refundable?" - if your talk was selected after that deadline we are happy to refund anyway .
+
+#### I have updated some information -  but it does not reflect on the website.
+
+We use a static website. All information is coming from Pretalx. The website updated approx. once a day. Please be patient.  
+The same applies for the speaker list on Twitter.  
+Please do not write to help desk to request information changes, it's self-service, thank you.
 
 #### What about internet during my talk?
 

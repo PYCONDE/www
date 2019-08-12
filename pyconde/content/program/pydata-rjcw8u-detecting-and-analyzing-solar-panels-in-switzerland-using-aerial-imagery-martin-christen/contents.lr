@@ -1,0 +1,43 @@
+_model: session 
+---
+code: RJCW8U
+---
+title: Detecting and Analyzing Solar Panels in Switzerland using Aerial Imagery
+---
+description: Detecting Solar Panels from aerial imagery using #Python #DeepLearning #CrowdSourcing
+---
+twitter_image: /static/media/twitter/RJCW8U.jpg
+---
+speakers: Martin Christen
+---
+submission_type: Talk
+---
+domains: Big Data, Computer Vision, Deep Learning, Data Science, Machine Learning, Visualisation
+---
+biography: #### Martin Christen
+
+Affiliation: FHNW - University of Applied Sciences and Arts Northwestern Switzerland
+
+
+
+Martin Christen is a professor of Geoinformatics and Computer Graphics at the Institute of Geomatics at the University of Applied Sciences Northwestern Switzerland (FHNW). His main research interests are geospatial Virtual- and Augmented Reality, 3D geoinformation, and interactive 3D maps and Deep Learning. 
+Martin Christen is very active in the Python community. He teaches various Python-related courses and uses Python in most research projects. He organizes the PyBasel meet up - the local Python User Group Northwestern Switzerland. He also organizes the yearly GeoPython conference. He is a board member of the Python Software Verband e.V. and the EuroPython Society.
+
+[Twitter](https://twitter.com/MartinChristen) • [Github](github.com/martinchristen) • [Homepage](http://www.fhnw.ch/habg/igeo)
+---
+affiliation: FHNW - University of Applied Sciences and Arts Northwestern Switzerland
+---
+track: PyData
+---
+python_skill: Python Skill Level basic
+---
+domain_expertise: Domain Expertise some
+---
+meta_title: Detecting and Analyzing Solar Panels in Switzerland using Aerial Imagery MartinChristen #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-basic, domain-expertise-some, talk, big-data, computer-vision, deep-learning, data-science, machine-learning, visualisation
+---
+body: The renewable energy statistics estimate the production of solar power and solar heat. To validate these statistics, the existing installations are to be identified and quantified fully automatically using deep learning algorithms from aerial photographs. Thanks to these methods, the current and future potential for use in Switzerland can be determined more precisely. Above all, this will also allow the status of implementation of the Energy Strategy 2050 of Switzerland to be determined.
+To train the model various solar panels have been collected using crowd sourcing. A Flask-based Web-Service was created to collect data.
+To create the model a GPU Cluster using 4 NVidia V100 was used. It is shown how this can be accomplished.
+

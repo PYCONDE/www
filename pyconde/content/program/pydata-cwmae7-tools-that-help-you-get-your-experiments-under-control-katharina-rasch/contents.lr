@@ -1,0 +1,55 @@
+_model: session 
+---
+code: CWMAE7
+---
+title: Tools that help you get your experiments under control
+---
+description: There is now a wealth of tools that support data science best practices (e.g. tracking experiments, versioning data). Let’s take a look at which tools are available and which ones might be right for your project.
+---
+twitter_image: /static/media/twitter/CWMAE7.jpg
+---
+speakers: Katharina Rasch
+---
+submission_type: Talk
+---
+domains: Artificial Intelligence, Data Science, DevOps, Infrastructure
+---
+biography: #### Katharina Rasch
+
+
+
+Katharina Rasch is a computer scientist with a PhD from KTH Stockholm. From 2014 to 2017 she was a data scientist / computer vision researcher at zalando. Now she is a freelance data scientist in Berlin. At the moment, Katharina is obsessed with professionalising AI development. Less chaos, please!
+
+[Twitter](https://twitter.com/krasch_io) • [Github](https://github.com/krasch/) • [Homepage](krasch.io)
+---
+affiliation: 
+---
+track: PyData
+---
+python_skill: Python Skill Level none
+---
+domain_expertise: Domain Expertise some
+---
+meta_title: Tools that help you get your experiments under control krasch_io #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-none, domain-expertise-some, talk, artificial-intelligence, data-science, devops, infrastructure
+---
+body: As a data scientist I often feel envious of the tooling available to software engineers. Tools for build automatisation, continuous integration, code review, etc help software engineers follow established best practices. In contrast, many of us data scientists have taken to building our own tools for things like managing experiments, for tracking data, for enabling reproducibility. Of course, writing such tools is **hard** and takes a lot of effort. 
+
+Fortunately, the good news is: more and more software supporting data science best practices is becoming available to us. From stand-alone packages such as DVC, polyaxon to Software as a Service solutions such as floydhub, valohai. The bad news is: there really are **a lot** of these tools around and it is hard to know which one to go with. 
+
+In this talk I want to show you, how readily available tools can help you follow best practices in data science. I will focus on the model development phase of a data science project, I will not be talking about tooling for model deployment. I will start with an overview of available tools and will then do a deep-dive comparison of 2-3 tools and show how they support you with things like
+
+* Versioning data
+* Tracking which data / code / library versions / parameters are used in which experiment
+* Easily comparing / visualising experiment results
+* Enabling everybody in your team / future you to replicate experiments
+
+I will also compare them on non-technical dimensions such as
+
+* Ease of use / collaboration
+* Price (especially for SaaS solutions)
+* Vendor lock-in
+
+After this talk you should have a good idea of which tools already are available and which things you can/should look for when deciding if a tool is right for your project.
+

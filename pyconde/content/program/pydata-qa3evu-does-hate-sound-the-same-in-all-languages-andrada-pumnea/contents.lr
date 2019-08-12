@@ -1,0 +1,52 @@
+_model: session 
+---
+code: QA3EVU
+---
+title: Does hate sound the same in all languages?
+---
+description: Does hate sound the same in all languages?  Join this talk to learn more about hate speech detection in a language less circulated, from dataset creation to hate speech recognition model..
+---
+twitter_image: /static/media/twitter/QA3EVU.jpg
+---
+speakers: Andrada Pumnea
+---
+submission_type: Talk
+---
+domains: Deep Learning, Data Science, Natural Language Processing, Data Mining / Scraping
+---
+biography: #### Andrada Pumnea
+
+Affiliation: Futurice GmbH
+
+
+
+I am a Data Scientist with a passion for everything data. I enjoy working on NLP challenges, tackling problems with a text analysis/mining component and applying classic machine learning techniques or deep learning techniques to unstructured text data. I've tackled problems related to information extraction, classification and information retrieval.
+
+I believe in leveraging data science for social good. I am actively working on Opt-Out (https://github.com/opt-out-tool), a tool to combat online hate-speech. At the same time, I'm tackling the problem of hate speech detection in Romanian language (from labeling a dataset to applying ML/DL algorithms).
+
+[Twitter](https://twitter.com/alucardna)
+---
+affiliation: Futurice GmbH
+---
+track: PyData
+---
+python_skill: Python Skill Level basic
+---
+domain_expertise: Domain Expertise some
+---
+meta_title: Does hate sound the same in all languages? alucardna #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-basic, domain-expertise-some, talk, deep-learning, data-science, natural-language-processing, data-mining-scraping
+---
+body: 7th of October 2018 marked a historical day for Romania: the referendum aiming to define the family as exclusively heterosexual, inherently limiting any future attempt to legalise same-sex marriage, failed. Nonetheless, amid the public debate on this topic, social media (especially Facebook) sparked with hate speech against the LGBT community, with no consistent action to moderate it. 
+
+Online hate speech is nothing new, but the measures taken against it are mainly focused on English speakers. How might we make social media safer and more inclusive for minorities speaking languages other than English? In this talk I will discuss the steps undertaken to automatically detect hate speech in Romanian, starting from the content generated during the days preceding the afore-mentioned referendum. Currently, there is no public dataset for hate speech detection in Romanian so, in this talk, the process and learnings from collecting data to implementing a natural language processing (NLP) solution and possible extensions to other languages, will be discussed. Overall, this project explores how data science can be leveraged for social good.
+
+On the technical side, the year 2018 brought major breakthroughs for the NLP community, especially in transfer learning. Thus, we examine the capabilities of current tools for (cross-lingual) transfer learning and discuss the challenges and alternatives. Are pre-trained word embeddings enough to achieve good results in classifying Facebook comments as hateful/not-hateful, and if not, how can we leverage more powerful, pre-trained models? Some of the discussed techniques include::
+
+- TF-IDF representation
+- word2vec, fastText embeddings
+- Multilingual BERT, LASER, XLM 
+
+Diffusion of hate speech needs to be tackled immediately, whether in Romanian or any other language. This talk will give pointers to the audience into how we can more effectively achieve this by exploring existing tools and methods for classification of Facebook comments into hateful/not-hateful and going forward from there.
+

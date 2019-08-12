@@ -1,0 +1,48 @@
+_model: session 
+---
+code: 93C7TF
+---
+title: 🌈Apache Airflow for beginners
+---
+description: Airflow can sound more complicated than it is. Learn the basics on the practical example.
+---
+twitter_image: /static/media/twitter/93C7TF.jpg
+---
+speakers: Varya
+---
+submission_type: Talk
+---
+domains: Infrastructure, Data Engineering
+---
+biography: #### Varya
+
+Affiliation: Zalando
+
+
+
+My name is Varya. I have a background in biology & statistics and moved to software engineering & data science a few years ago. I am very passionate about automation, multidisciplinary approach to solving problems and welcoming diverse audience in the Python community.
+---
+affiliation: Zalando
+---
+track: PyConDE
+---
+python_skill: Python Skill Level basic
+---
+domain_expertise: Domain Expertise some
+---
+meta_title: 🌈Apache Airflow for beginners  #PyConDE #PyDataBerlin #PyData
+---
+categories: pyconde, python-skill-level-basic, domain-expertise-some, talk, infrastructure, data-engineering
+---
+body: Apache Airflow is an open source project that allows you programmatically create, schedule and monitor sequences of tasks. It earned its good reputation over the past years and became the industry standard for building data pipelines. However, for a beginner, it may be tricky to understand whether Airflow can solve some of their problems. In this talk, I will show you what problems can be solved using Airflow, what are the key components and how to use it on a simple example.
+
+We will go over the basic concepts and the building blocks in Airflow, such as `DAGs`, `Operators`, `Tasks`, `Hooks`, `Variables`, and `XComs`.
+
+To demonstrate how those elements are working together, I will show you the process of building a workflow that takes the following steps:
+
+- Extract the data from an API and transform it into the format suitable for the analysis.
+- Save the results in a database.
+- Run some transformation and rearrangement of the stored data. 
+- Save the results in an S3 bucket.
+- Send you an email notification that the pipeline has finished successfully (or not).
+

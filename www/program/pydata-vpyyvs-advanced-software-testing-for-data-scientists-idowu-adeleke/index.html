@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <script>(function (html) {
+        html.className = html.className.replace(/\bno-js\b/, 'js')
+    })(document.documentElement)</script>
+    <title>PyConDE & PyData Berlin 2019 | Advanced Software Testing for Data Scientists</title>
+    <meta name="description"
+          content="PyConDE & PyData Berlin 2019. October 9-13, Berlin Germany. Where Pythonistas in Germany can meet to learn about new and upcoming Python libraries, tools, software and data science.">
+
+
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//s.w.org">
+    <link rel="icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla:400,700i,700|Poppins:700">
+    <link rel="stylesheet" href="/static/css/font-awesome.css?h=0140952c" type="text/css" media="all">
+    <link rel="stylesheet" href="/static/style.css?h=28d25877" type="text/css" media="all">
+    <link rel="stylesheet" href="/static/style-custom.css?h=11445aab" type="text/css" media="all">
+
+    <!-- Twitter Card data -->
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@pyconde">
+    <meta name="twitter:title" content="Advanced Software Testing for Data Scientists  #PyConDE #PyDataBerlin #PyData">
+    <meta name="twitter:description" content="In this talk, I walk you through TDD concepts &amp; how to implement it in a data science project.">
+    
+        
+        <meta name="twitter:image" content="https://de.pycon.org/static/media/twitter/VPYYVS.jpg?h=5dbfda68">
+    
+</head>
+
+<body class="home blog has-header-background">
+<div class="site" id="page">
+    <header class="site-header" id="masthead">
+        <div class="site-header__wrap">
+            <div class="container">
+                <div class="row in-view">
+                    <div class="col-12 col-xl-10 offset-xl-1">
+                        <div class="site-header__elements">
+                            <div class="site-header__mobile hidden-lg-up">
+                                <button class="site-header__mobile--trigger side-menu-trigger">
+                                    <i class="fa fa-bars" aria-hidden="true"></i>
+                                </button>
+                            </div>
+
+                            <div class="site-header__branding">
+                                <div class="site-branding">
+                                    <a href="/">
+                                        <img src="/static/media/PyConDE_PyDataBer_circle_trans_500.png" alt="Home" width="232"
+                                             height="144">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="site-header__nav hidden-md-down">
+                                <div class="site-header__menu">
+                                    <nav class="main-navigation" aria-label="Site Menu" role="navigation">
+                                        <div class="menu-top-menu-container">
+                                            <ul class="menu" id="top-menu">
+
+                                                
+
+
+                                                    
+                                                        <li class="menu-item-has-children">
+                                                            <a href="#">Program</a>
+                                                            <ul class="sub-menu">
+                                                                
+                                                                    <li>
+                                                                        <a href="/program/"><span>All Sessions</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/program/categories/pydata"><span>PyData Berlin Sessions</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/program/categories/pyconde"><span>PyConDE Sessions</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/program/categories/talk"><span>Talks</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/program/categories/tutorial"><span>Tutorials</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/program-schedule/"><span>Schedule</span></a>
+                                                                    </li>
+                                                                
+                                                            </ul>
+                                                        </li>
+
+
+                                                    
+
+
+                                                
+
+
+                                                    
+                                                        <li><a href="/frequently-asked-questions/">FAQ</a></li>
+
+
+                                                    
+
+
+                                                
+
+
+                                                    
+                                                        <li><a href="/blog/">Blog</a></li>
+
+
+                                                    
+
+
+                                                
+
+
+                                                    
+                                                        <li><a href="/sprints/">Sprints</a></li>
+
+
+                                                    
+
+
+                                                
+
+
+                                                    
+                                                        <li><a href="/sponsors/">Sponsors</a></li>
+
+
+                                                    
+
+
+                                                
+
+
+                                                    
+                                                        <li class="menu-item-has-children">
+                                                            <a href="#">Info</a>
+                                                            <ul class="sub-menu">
+                                                                
+                                                                    <li>
+                                                                        <a href="/venue/"><span>Venue</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/call-for-proposals/"><span>Call for Proposals</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/financial-aid/"><span>Financial Aid</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/team/"><span>Team</span></a>
+                                                                    </li>
+                                                                
+                                                            </ul>
+                                                        </li>
+
+
+                                                    
+
+
+                                                
+
+
+                                                    
+                                                        <li><a href="/code-of-conduct/">Code of Conduct</a></li>
+
+
+                                                    
+
+
+                                                
+
+
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="site-header__cta hidden-sm-down">
+                                <a class="btn btn--secondary" target="_blank" href="https://ti.to/pycon-de/pyconde-pydata-2019">Buy
+                                    ticket</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="site-content" id="content">
+        <div class="content-area" id="primary">
+            
+<main class="site-main" id="main">
+  <section class="section section--singular">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-xl-10 offset-xl-1">
+          <header class="page-header text-center">
+            <h2 class="page-title">Advanced Software Testing for Data Scientists</h2>
+            <h6>
+                
+                
+                <a href="/program/categories/big-data">Big Data</a>
+                
+                 • 
+                
+                <a href="/program/categories/data-science">Data Science</a>
+                
+            </h6>
+              
+              
+              
+              
+            <h5><a href="/program/categories/talk">Talk</a> • <a href="/program/categories/pydata">PyData</a></h5>
+              <h6>Prerequisites: <a href="/program/categories/domain-expertise-expert">Domain Expertise expert</a> • <a href="/program/categories/python-skill-level-guru">Python Skill Level guru</a></h6>
+            <h3 class="page-title">Idowu Adeleke</h3>
+          </header>
+          <div class="single-content">
+            <p>So you are in the middle of a project to develop a new machine learning algorithm which will be a core part of your product. Cool! But how do you know that your algorithm really works?</p>
+<p>This is a question that should be asked even before any major work takes place and this approach is called test-driven data science.</p>
+<p>Test Driven Data Science is drawn from an evolutionary approach to software development called test-driven development.</p>
+<p>What is Test Driven Development (TDD)?</p>
+<p>Test Driven Development is a software development practice that instructs developers to write new code only when a test for a required feature has failed.</p>
+<p>Robust software usually have tests asserting that certain conditions hold, but as a data scientist it’s often not straightforward or obvious how to integrate these best practices</p>
+<p>Data scientists often don’t have experience working as software developers and never learned how to write tests for their code. They may be used to writing and executing code interactively or in an ad hoc fashion; they may be unused to writing code that runs without supervision or as part of a larger pipeline.</p>
+<p>Advantages of Test Driven Data science</p>
+<p>It improves code quality and reusability</p>
+<p>It improves the speed at which we get to the root of the problems which have real value</p>
+<p>It makes data science less painful more fun, as we can focus on the problem solving rather than debugging</p>
+<p>It encourages simpler and more modular code</p>
+<p>In this talk, I’ll introduce the concept of testing, describe how to write good tests, discuss how to make testing a part of a normal data science workflow and the tips and tricks I’ve gathered writing test suites for several data science projects.</p>
+
+          </div>
+          <div class="single-content">
+            <h4>Idowu Adeleke</h4>
+<p>Affiliation: Andela</p>
+<p>I am a software engineer at Andela with years of experience working as a machine learning researcher at venture garden Nigeria. I have spoken at python ghana conference 2018 on "becoming a data scientist", python Nigeria conference on "conversational interfaces for chatbot and artificial intelligence". I am a founding partner at speaktech haven where kids are trained on how to use technology as an agent of change and innovations in their community...</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+        </div>
+    </div>
+    <footer class="site-footer" id="colophon" role="contentinfo">
+        <div class="widget-area" role="complementary">
+            <div class="container">
+
+                <div class="row in-view">
+                    <div class="col-12 col-md-4 col-xl-2 offset-xl-1">
+                        <div class="widget">
+                            <div class="widget_socials">
+                                <div class="site-branding">
+                                    <a href="index.html">
+                                        <img src="/static/media/PyConDE_PyDataBer_circle_trans_500.png" alt="" width="232"
+                                             height="144">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-xl-2">
+                        <div class="widget">
+                            <h2 class="widget-title">Contact</h2>
+                            <div class="widget_nav_menu">
+                                <ul>
+                                    <li>
+
+                                    </li>
+                                    <li>
+                                        <a href="mailto:info@pycon.de">info@pycon.de</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 offset-md-4 col-xl-2 offset-xl-0">
+                        <div class="widget">
+                            <h2 class="widget-title">Follow us</h2>
+                            <div class="widget_nav_menu">
+                                <ul>
+                                    <li>
+                                        <a href="https://twitter.com/pyconde" target="_blank">Twitter</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4 col-xl-2">
+                        <div class="widget">
+                            <h2 class="widget-title">Legal terms</h2>
+                            <div class="widget_nav_menu">
+                                <ul>
+                                    
+                                        <li><a href="/impressum/">Impressum</a></li>
+                                    
+                                        <li><a href="/privacy-policy/">Terms &amp; Privacy Policy</a></li>
+                                    
+                                        <li><a href="/code-of-conduct/">Code of Conduct</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="site-info">
+            <div class="container">
+                <div class="row in-view">
+                    <div class="col-12 col-md-6 col-xl-5 offset-xl-1">
+              <span class="sub-head">
+                Build with
+                <i class="fa fa-heart color--secondary"></i> in Germany</span>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-5 offset-xl-1">
+              <span class="sub-head">
+                This website is run by <a href="https://python-verband.org">PySV e.V.</a>
+              </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="go-up" id="up">
+        <a class="go-up__btn" href="#page">
+        <span class="btn btn--primary btn--circle">
+          <i class="fa fa-chevron-up"></i>
+        </span>
+        </a>
+    </div>
+    <div class="site-sidenav" id="sidenav">
+        <div class="site-sidenav__overlay side-menu-swipeable"></div>
+        <div class="site-sidenav__elements side-menu-swipeable">
+            <div class="site-sidenav__branding">
+                <div class="site-branding">
+                    <a href="index.html">
+                        <img src="/static/media/PyConDE_PyDataBer_circle_trans_500.png" alt="" width="232" height="144">
+                    </a>
+                </div>
+            </div>
+            <div class="site-sidenav__nav">
+                <div class="site-sidenav__menu">
+                    <nav class="sidenav-navigation" aria-label="Site Mobile Menu" role="navigation">
+                        <div class="menu-sidenav-menu-container">
+                            <ul class="menu" id="sidenav-menu">
+
+                                
+
+                                    
+
+                                        
+                                            <li><a href="/program/"><span>All Sessions</span></a></li>
+                                        
+                                            <li><a href="/program/categories/pydata"><span>PyData Berlin Sessions</span></a></li>
+                                        
+                                            <li><a href="/program/categories/pyconde"><span>PyConDE Sessions</span></a></li>
+                                        
+                                            <li><a href="/program/categories/talk"><span>Talks</span></a></li>
+                                        
+                                            <li><a href="/program/categories/tutorial"><span>Tutorials</span></a></li>
+                                        
+                                            <li><a href="/program-schedule/"><span>Schedule</span></a></li>
+                                        
+
+                                    
+
+                                
+
+                                    
+                                        <li><a href="/frequently-asked-questions/">FAQ</a></li>
+
+                                    
+
+                                
+
+                                    
+                                        <li><a href="/blog/">Blog</a></li>
+
+                                    
+
+                                
+
+                                    
+                                        <li><a href="/sprints/">Sprints</a></li>
+
+                                    
+
+                                
+
+                                    
+                                        <li><a href="/sponsors/">Sponsors</a></li>
+
+                                    
+
+                                
+
+                                    
+
+                                        
+                                            <li><a href="/venue/"><span>Venue</span></a></li>
+                                        
+                                            <li><a href="/call-for-proposals/"><span>Call for Proposals</span></a></li>
+                                        
+                                            <li><a href="/financial-aid/"><span>Financial Aid</span></a></li>
+                                        
+                                            <li><a href="/team/"><span>Team</span></a></li>
+                                        
+
+                                    
+
+                                
+
+                                    
+                                        <li><a href="/code-of-conduct/">Code of Conduct</a></li>
+
+                                    
+
+                                
+
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="site-sidenav__cat hidden-md-up">
+                <a class="btn btn--secondary" target="_blank" href="https://ti.to/pycon-de/pyconde-pydata-2019">Buy ticket</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="application/javascript" src="/static/js/lib.js"></script>
+<script defer async type="application/javascript" src="/static/js/app.js"></script>
+</body>
+
+</html>

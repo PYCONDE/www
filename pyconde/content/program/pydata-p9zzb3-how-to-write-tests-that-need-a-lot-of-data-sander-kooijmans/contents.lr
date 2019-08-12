@@ -1,0 +1,52 @@
+_model: session 
+---
+code: P9ZZB3
+---
+title: How to write tests that need a lot of data?
+---
+description: In this talk Sander explains how to write tests that need a lot of data using code of a warehouse management system as example.
+---
+twitter_image: /static/media/twitter/P9ZZB3.jpg
+---
+speakers: Sander Kooijmans
+---
+submission_type: Talk
+---
+domains: Algorithms, Code-Review
+---
+biography: #### Sander Kooijmans
+
+Affiliation: Protix
+
+
+
+Sander Kooijmans graduated in Computer Science from the Eindhoven University of Technology in 1999
+and in Software Technology Program of the Stan Ackermans Institute in 2001. After that he worked for
+several companies on the domains of digital television, medical and logistics. 
+
+His hobbies include piano, volleyball and programming. In his free time writes open source applications and libraries,
+such as a chess game, a logbook, a bookkeeping application and a library with text search algorithms.
+
+Sander loves sharing knowledge and experience and he has been a speaker at several conferences in Europe.
+
+You can find out more about Sander at his website: https://gogognome.nl
+
+[Twitter](https://twitter.com/gogognomenl) • [Github](https://github.com/gogognome) • [Homepage](https://www.gogognome.nl/)
+---
+affiliation: Protix
+---
+track: PyData
+---
+python_skill: Python Skill Level basic
+---
+domain_expertise: Domain Expertise some
+---
+meta_title: How to write tests that need a lot of data? gogognomenl #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-basic, domain-expertise-some, talk, algorithms, code-review
+---
+body: Does your production code need a lot of data? How do you setup this data for your unit and integration tests? Do you fill a database with a fixed set of data that is to be used by all tests? What if for a new use case you need more data?
+And how many mocks do you use in your unit tests? Do you have to add more mocks for each use case that you implement?
+Visit Sander's talk about how to write tests that need a lot of data. We are not talking about big-data, but about combining data from several tables of database to implement a use case. How can you write test code that is easy to read and easy to maintain?
+Sander shows examples of code for a warehouse management system (WMS) and explains how complex the production code is. Then he shows how the tests for the production code can be implemented and how to set up the test data.
+

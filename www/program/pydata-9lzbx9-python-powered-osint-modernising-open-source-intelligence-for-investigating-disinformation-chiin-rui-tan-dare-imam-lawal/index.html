@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <script>(function (html) {
+        html.className = html.className.replace(/\bno-js\b/, 'js')
+    })(document.documentElement)</script>
+    <title>PyConDE & PyData Berlin 2019 | Python-Powered OSINT! Modernising Open Source Intelligence for Investigating Disinformation</title>
+    <meta name="description"
+          content="PyConDE & PyData Berlin 2019. October 9-13, Berlin Germany. Where Pythonistas in Germany can meet to learn about new and upcoming Python libraries, tools, software and data science.">
+
+
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//s.w.org">
+    <link rel="icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla:400,700i,700|Poppins:700">
+    <link rel="stylesheet" href="/static/css/font-awesome.css?h=0140952c" type="text/css" media="all">
+    <link rel="stylesheet" href="/static/style.css?h=28d25877" type="text/css" media="all">
+    <link rel="stylesheet" href="/static/style-custom.css?h=11445aab" type="text/css" media="all">
+
+    <!-- Twitter Card data -->
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@pyconde">
+    <meta name="twitter:title" content="Python-Powered OSINT! Modernising Open Source Intelligence for Investigating Disinformation AnalyticsPanda #PyConDE #PyDataBerlin #PyData">
+    <meta name="twitter:description" content="Socio-Technical Python for OSINT! The old state discipline of gathering intelligence from open sources is today critical for investigating Disinformation but has lacked modernisation. A former UK Gov Head of DataSci presents a maturity model for updating legacy OSINT with Python!">
+    
+        
+        <meta name="twitter:image" content="https://de.pycon.org/static/media/twitter/9LZBX9.jpg?h=d2db37ba">
+    
+</head>
+
+<body class="home blog has-header-background">
+<div class="site" id="page">
+    <header class="site-header" id="masthead">
+        <div class="site-header__wrap">
+            <div class="container">
+                <div class="row in-view">
+                    <div class="col-12 col-xl-10 offset-xl-1">
+                        <div class="site-header__elements">
+                            <div class="site-header__mobile hidden-lg-up">
+                                <button class="site-header__mobile--trigger side-menu-trigger">
+                                    <i class="fa fa-bars" aria-hidden="true"></i>
+                                </button>
+                            </div>
+
+                            <div class="site-header__branding">
+                                <div class="site-branding">
+                                    <a href="/">
+                                        <img src="/static/media/PyConDE_PyDataBer_circle_trans_500.png" alt="Home" width="232"
+                                             height="144">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="site-header__nav hidden-md-down">
+                                <div class="site-header__menu">
+                                    <nav class="main-navigation" aria-label="Site Menu" role="navigation">
+                                        <div class="menu-top-menu-container">
+                                            <ul class="menu" id="top-menu">
+
+                                                
+
+
+                                                    
+                                                        <li class="menu-item-has-children">
+                                                            <a href="#">Program</a>
+                                                            <ul class="sub-menu">
+                                                                
+                                                                    <li>
+                                                                        <a href="/program/"><span>All Sessions</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/program/categories/pydata"><span>PyData Berlin Sessions</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/program/categories/pyconde"><span>PyConDE Sessions</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/program/categories/talk"><span>Talks</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/program/categories/tutorial"><span>Tutorials</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/program-schedule/"><span>Schedule</span></a>
+                                                                    </li>
+                                                                
+                                                            </ul>
+                                                        </li>
+
+
+                                                    
+
+
+                                                
+
+
+                                                    
+                                                        <li><a href="/frequently-asked-questions/">FAQ</a></li>
+
+
+                                                    
+
+
+                                                
+
+
+                                                    
+                                                        <li><a href="/blog/">Blog</a></li>
+
+
+                                                    
+
+
+                                                
+
+
+                                                    
+                                                        <li><a href="/sprints/">Sprints</a></li>
+
+
+                                                    
+
+
+                                                
+
+
+                                                    
+                                                        <li><a href="/sponsors/">Sponsors</a></li>
+
+
+                                                    
+
+
+                                                
+
+
+                                                    
+                                                        <li class="menu-item-has-children">
+                                                            <a href="#">Info</a>
+                                                            <ul class="sub-menu">
+                                                                
+                                                                    <li>
+                                                                        <a href="/venue/"><span>Venue</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/call-for-proposals/"><span>Call for Proposals</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/financial-aid/"><span>Financial Aid</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/team/"><span>Team</span></a>
+                                                                    </li>
+                                                                
+                                                            </ul>
+                                                        </li>
+
+
+                                                    
+
+
+                                                
+
+
+                                                    
+                                                        <li><a href="/code-of-conduct/">Code of Conduct</a></li>
+
+
+                                                    
+
+
+                                                
+
+
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="site-header__cta hidden-sm-down">
+                                <a class="btn btn--secondary" target="_blank" href="https://ti.to/pycon-de/pyconde-pydata-2019">Buy
+                                    ticket</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="site-content" id="content">
+        <div class="content-area" id="primary">
+            
+<main class="site-main" id="main">
+  <section class="section section--singular">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-xl-10 offset-xl-1">
+          <header class="page-header text-center">
+            <h2 class="page-title">Python-Powered OSINT! Modernising Open Source Intelligence for Investigating Disinformation</h2>
+            <h6>
+                
+                
+                <a href="/program/categories/artificial-intelligence">Artificial Intelligence</a>
+                
+                 • 
+                
+                <a href="/program/categories/algorithms">Algorithms</a>
+                
+                 • 
+                
+                <a href="/program/categories/data-science">Data Science</a>
+                
+                 • 
+                
+                <a href="/program/categories/machine-learning">Machine Learning</a>
+                
+                 • 
+                
+                <a href="/program/categories/web">Web</a>
+                
+                 • 
+                
+                <a href="/program/categories/data-mining---scraping">Data Mining / Scraping</a>
+                
+                 • 
+                
+                <a href="/program/categories/use-cases">Use Cases</a>
+                
+            </h6>
+              
+              
+              
+              
+            <h5><a href="/program/categories/talk">Talk</a> • <a href="/program/categories/pydata">PyData</a></h5>
+              <h6>Prerequisites: <a href="/program/categories/domain-expertise-none">Domain Expertise none</a> • <a href="/program/categories/python-skill-level-basic">Python Skill Level basic</a></h6>
+            <h3 class="page-title">Chiin-Rui Tan, Dare Imam-Lawal</h3>
+          </header>
+          <div class="single-content">
+            <p><strong>What is OSINT? And who cares?</strong></p>
+<ul>
+<li><p>OSINT (Open-Source Intelligence) is the discipline of gathering intelligence from publicly available sources for empowering end-user action.</p>
+</li>
+<li><p>Originating as a statecraft tool, broadening use of OSINT has demonstrated it’s potential for social impact, as evidenced by the work of citizen and research organisations like Bellingcat and The Human Rights Centre at UC Berkeley in exposing crimes against humanity.</p>
+</li>
+</ul>
+<p><strong>Current challenges &amp; limitations</strong></p>
+<ul>
+<li><p>Lack of Modernisation: OSINT’s lagging adaption to contemporary open source landscapes has created persistent operational deficiencies, as made apparent by Western Intelligence agencies’ failure to predict the social-media mobilised Arab Spring uprisings.</p>
+</li>
+<li><p>Disinformation &amp; Volumes of Data: public digital platforms are increasingly an information battleground between facts and alternative facts, as Industry 3.0’s advancing democratisation of technology facilitates User-Generated Content by good and bad actors alike. And this noisy Big Data challenge is set to scale dramatically with additional AI-Generated Content and IoT sensor data in the 5G Industry 4.0 era.</p>
+</li>
+</ul>
+<p><strong>Opportunities for improvement</strong></p>
+<ul>
+<li><p>In these complex conditions both possibilities and hurdles have never been higher. This talk focuses on tackling the hurdle of overdue modernisation.</p>
+</li>
+<li><p>We present a socio-technical maturity model that uses Python to update legacy OSINT practices to better investigate today's disinformation activities, emphasising the advantages but also necessities of adopting 21st century capabilities for effective open source reconnaissance.</p>
+</li>
+</ul>
+<p><strong>Goal</strong></p>
+<ul>
+<li>We share this topic for public interest, the real-world Python use-case, and to incentivise the community to get into ethical OSINT hacking!</li>
+</ul>
+
+          </div>
+          <div class="single-content">
+            <h4>Chiin-Rui Tan</h4>
+<p>Affiliation: Rho Zeta AI</p>
+<p>Winner of UK Entrepreneur 2018 at the Data Leaders Awards, Chiin is a technologist with 12 years’ experience pioneering digital and data innovation, skunk works, and building tech teams, cumulatively delivering multi-million pound value.</p>
+<p>Originally an Economics graduate from Cambridge University, Chiin taught herself to code later in her twenties. She went on to become the first Data Scientist to work for the UK Foreign &amp; Commonwealth Office taking the role of Head of Data Science, under Cyber &amp; National Security. Chiin used Python and R to deliver the organisation’s first AI project and new OSINT capabilities, gaining MP and senior adoption before leaving to set-up her own startup.</p>
+<p>Now an EdTech founder, Chiin is working with schools not spies (!), testing products she and her team at Rho Zeta AI have developed to democratise hi-tech education to youth, for the goal of enabling future universal AI literacy.</p>
+<p>An active tech community leader, Chiin founded the AI Club for Gender Minorities, a 700-member meetup of mainly Machine Learning, Data Science, and Data Engineering Pythonistas, where she also successfully mentors many individuals without formal STEM experience into their first tech job. She was previously jointly awarded a Linux Foundation grant for R user group expansion.</p>
+<p><a href="https://twitter.com/AnalyticsPanda">Twitter</a> • <a href="http://rhozeta.io/">Homepage</a></p>
+<h4>Dare Imam-Lawal</h4>
+<p>Affiliation: Rho Zeta AI</p>
+<p>Dare is a final year Aerospace Engineering PhD student at Queen Mary, University of London. His research focuses on developing and applying novel Machine Learning techniques to solve aeronautical optimisation problems. 
+A self-taught programmer, Dare has been coding for several years, winning awards from the Royal Aeronautical Society (RAeS) and Institute of Mechanical Engineers (IMechE) for his contribution to the development of an open source Computational Fluid Dynamics (CFD) solver.</p>
+<p>Python plays an important role in his computational simulations, but also in his industry role as an AI researcher at a new EdTech startup, Rho Zeta AI, where he focuses on innovative applications of Deep Learning for Computer Vision problems for interactive and educational game development.</p>
+<p>Hailing from the city of Lagos, Nigeria, Dare is a budding social entrepreneur and OSINT enthusiast and hopes longer-term to return to West Africa and to help accelerate the development of the Tech industry in his home country.</p>
+<p><a href="/program/pydata-9lzbx9-python-powered-osint-modernising-open-source-intelligence-for-investigating-disinformation-chiin-rui-tan-dare-imam-lawal/rhozeta.io">Homepage</a></p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+        </div>
+    </div>
+    <footer class="site-footer" id="colophon" role="contentinfo">
+        <div class="widget-area" role="complementary">
+            <div class="container">
+
+                <div class="row in-view">
+                    <div class="col-12 col-md-4 col-xl-2 offset-xl-1">
+                        <div class="widget">
+                            <div class="widget_socials">
+                                <div class="site-branding">
+                                    <a href="index.html">
+                                        <img src="/static/media/PyConDE_PyDataBer_circle_trans_500.png" alt="" width="232"
+                                             height="144">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-xl-2">
+                        <div class="widget">
+                            <h2 class="widget-title">Contact</h2>
+                            <div class="widget_nav_menu">
+                                <ul>
+                                    <li>
+
+                                    </li>
+                                    <li>
+                                        <a href="mailto:info@pycon.de">info@pycon.de</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 offset-md-4 col-xl-2 offset-xl-0">
+                        <div class="widget">
+                            <h2 class="widget-title">Follow us</h2>
+                            <div class="widget_nav_menu">
+                                <ul>
+                                    <li>
+                                        <a href="https://twitter.com/pyconde" target="_blank">Twitter</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4 col-xl-2">
+                        <div class="widget">
+                            <h2 class="widget-title">Legal terms</h2>
+                            <div class="widget_nav_menu">
+                                <ul>
+                                    
+                                        <li><a href="/impressum/">Impressum</a></li>
+                                    
+                                        <li><a href="/privacy-policy/">Terms &amp; Privacy Policy</a></li>
+                                    
+                                        <li><a href="/code-of-conduct/">Code of Conduct</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="site-info">
+            <div class="container">
+                <div class="row in-view">
+                    <div class="col-12 col-md-6 col-xl-5 offset-xl-1">
+              <span class="sub-head">
+                Build with
+                <i class="fa fa-heart color--secondary"></i> in Germany</span>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-5 offset-xl-1">
+              <span class="sub-head">
+                This website is run by <a href="https://python-verband.org">PySV e.V.</a>
+              </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="go-up" id="up">
+        <a class="go-up__btn" href="#page">
+        <span class="btn btn--primary btn--circle">
+          <i class="fa fa-chevron-up"></i>
+        </span>
+        </a>
+    </div>
+    <div class="site-sidenav" id="sidenav">
+        <div class="site-sidenav__overlay side-menu-swipeable"></div>
+        <div class="site-sidenav__elements side-menu-swipeable">
+            <div class="site-sidenav__branding">
+                <div class="site-branding">
+                    <a href="index.html">
+                        <img src="/static/media/PyConDE_PyDataBer_circle_trans_500.png" alt="" width="232" height="144">
+                    </a>
+                </div>
+            </div>
+            <div class="site-sidenav__nav">
+                <div class="site-sidenav__menu">
+                    <nav class="sidenav-navigation" aria-label="Site Mobile Menu" role="navigation">
+                        <div class="menu-sidenav-menu-container">
+                            <ul class="menu" id="sidenav-menu">
+
+                                
+
+                                    
+
+                                        
+                                            <li><a href="/program/"><span>All Sessions</span></a></li>
+                                        
+                                            <li><a href="/program/categories/pydata"><span>PyData Berlin Sessions</span></a></li>
+                                        
+                                            <li><a href="/program/categories/pyconde"><span>PyConDE Sessions</span></a></li>
+                                        
+                                            <li><a href="/program/categories/talk"><span>Talks</span></a></li>
+                                        
+                                            <li><a href="/program/categories/tutorial"><span>Tutorials</span></a></li>
+                                        
+                                            <li><a href="/program-schedule/"><span>Schedule</span></a></li>
+                                        
+
+                                    
+
+                                
+
+                                    
+                                        <li><a href="/frequently-asked-questions/">FAQ</a></li>
+
+                                    
+
+                                
+
+                                    
+                                        <li><a href="/blog/">Blog</a></li>
+
+                                    
+
+                                
+
+                                    
+                                        <li><a href="/sprints/">Sprints</a></li>
+
+                                    
+
+                                
+
+                                    
+                                        <li><a href="/sponsors/">Sponsors</a></li>
+
+                                    
+
+                                
+
+                                    
+
+                                        
+                                            <li><a href="/venue/"><span>Venue</span></a></li>
+                                        
+                                            <li><a href="/call-for-proposals/"><span>Call for Proposals</span></a></li>
+                                        
+                                            <li><a href="/financial-aid/"><span>Financial Aid</span></a></li>
+                                        
+                                            <li><a href="/team/"><span>Team</span></a></li>
+                                        
+
+                                    
+
+                                
+
+                                    
+                                        <li><a href="/code-of-conduct/">Code of Conduct</a></li>
+
+                                    
+
+                                
+
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="site-sidenav__cat hidden-md-up">
+                <a class="btn btn--secondary" target="_blank" href="https://ti.to/pycon-de/pyconde-pydata-2019">Buy ticket</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="application/javascript" src="/static/js/lib.js"></script>
+<script defer async type="application/javascript" src="/static/js/app.js"></script>
+</body>
+
+</html>

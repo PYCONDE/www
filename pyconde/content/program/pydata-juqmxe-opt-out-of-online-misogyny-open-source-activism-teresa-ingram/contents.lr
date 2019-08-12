@@ -1,0 +1,42 @@
+_model: session 
+---
+code: JUQMXE
+---
+title: Opt Out of Online Misogyny – Open Source Activism
+---
+description: Opt Out of Online Sexism - From a Problem to Open Source Activism and the Mechanics of Change
+---
+twitter_image: /static/media/twitter/JUQMXE.jpg
+---
+speakers: Teresa Ingram
+---
+submission_type: Talk
+---
+domains: Community, Natural Language Processing, Machine Learning
+---
+biography: #### Teresa Ingram
+
+
+
+A cyber activist currently working to help make the internet accessible for all. Python was my first love but life led me to working with Java at an international bank. Now I am plunging back into the Python world, with the dream of making the internet for everyone.
+---
+affiliation: 
+---
+track: PyData
+---
+python_skill: Python Skill Level none
+---
+domain_expertise: Domain Expertise none
+---
+meta_title: Opt Out of Online Misogyny – Open Source Activism  #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-none, domain-expertise-none, talk, community, natural-language-processing, machine-learning
+---
+body: Although cyber violence and online abuse is experienced by all genders, the abuse experienced by female identifying people is often misogynistic in nature. Online threats of violence against these people are often sexualized and include specific references to their bodies, often including rape threats. This pushes them offline, negatively affecting their mental health, social well-being, political representation and economic potential.
+
+The General Data Protection Regulation (GDPR) has changed our lives online on social media platforms. We have the right to be forgotten, to see what is being collected about us and to opt out if we wish. The current abuse that women and female identifying people suffer is not avoidable. We see Opt Out as an extension of the GDPR that also protects the human rights of women and those with intersecting identities online. These human rights are the right to non-discrimination, and the right to freedom of expression and opinion. Under the United Nations Guiding Principles on Business and Human Rights, social media platforms have a specific responsibility to respect these human rights. While steps have been made to protect these people online, not enough has been done.  
+
+Opt Out founding idea is a browser extension that removes misogynistic comments from an individual’s social media feed. It does so by means of binary classification sentiment analyzer model. Our aim is to include the community that we are trying to protect in the development of the project. As the project grows we aim to have three modes of functionality. The first is to create vigilante groups, seeded from our community, with shared and maintained blacklist of known perpetrators of abuse so these accounts are blocked from an individual’s social media feed. Second is a sentiment analyser that automatically removes abusive comments. The final functionality is a sentiment dashboard that pops up before the page loads, with a traffic light labeling of comments, allowing the user to decide what they do or don’t want to see. 
+
+In this talk I will discuss our browser extension, Opt Out. I will describe the global tragedy that is online sexual harassment and our current progress in the fight against it. I will also talk about the community we’ve built around this project, why it is important for a product like this to be community driven and what it’s like to build an open source activism tech product.
+

@@ -1,0 +1,38 @@
+_model: session 
+---
+code: X9JZ9J
+---
+title: MicroPython Heats My Home
+---
+description: Learn how I'm heating my house with a couple of microcontrollers running MicroPython!
+---
+twitter_image: /static/media/twitter/X9JZ9J.jpg
+---
+speakers: Miguel Grinberg
+---
+submission_type: Talk
+---
+domains: Microcontrollers, Makers, APIs
+---
+biography: #### Miguel Grinberg
+
+
+
+Miguel Grinberg wrote his first line of code in 1983 and hasn't stopped coding since. He blogs at https://blog.miguelgrinberg.com about a variety of topics including web development, Python, robotics, photography and the occasional movie review. Miguel is the author of the Flask Mega-Tutorial and the O'Reilly book "Flask Web Development". He calls Portland, Oregon home, but is currently on a "working vacation" in Ireland.
+
+[Twitter](https://twitter.com/miguelgrinberg) • [Github](https://github.com/miguelgrinberg)
+---
+affiliation: 
+---
+track: PyConDE
+---
+python_skill: Python Skill Level none
+---
+domain_expertise: Domain Expertise none
+---
+meta_title: MicroPython Heats My Home miguelgrinberg #PyConDE #PyDataBerlin #PyData
+---
+categories: pyconde, python-skill-level-none, domain-expertise-none, talk, microcontrollers, makers, apis
+---
+body: In 2018 I moved to Ireland from the United States, and the house I rented was very cold, in spite of having a modern Internet-enabled heating controller. In this talk I want to tell you how I "debugged" the problem and how I then improved the heating using a couple of microcontrollers running MicroPython, all without making any modifications to this house I do not own.
+

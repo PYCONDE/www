@@ -1,0 +1,43 @@
+_model: session 
+---
+code: PHYCJL
+---
+title: Getting started with FPGA with Python
+---
+description: In this review, we'll look into frameworks that will help Python developer start working with FPGA without prior knowledge of Verilog or VHDL.
+---
+twitter_image: /static/media/twitter/PHYCJL.jpg
+---
+speakers: Olga
+---
+submission_type: Talk
+---
+domains: Microcontrollers
+---
+biography: #### Olga
+
+Affiliation: L1NDA
+
+
+
+Backend Engineer living in Amsterdam, originally from Russia. 
+Work with Python for 5+ years. Have extensive QA experience.
+
+[Github](https://github.com/tomasmor42)
+---
+affiliation: L1NDA
+---
+track: PyConDE
+---
+python_skill: Python Skill Level basic
+---
+domain_expertise: Domain Expertise none
+---
+meta_title: Getting started with FPGA with Python  #PyConDE #PyDataBerlin #PyData
+---
+categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, microcontrollers
+---
+body: FPGA is becoming more and more popular in many fields such as IOT, video processing. It also used to make computations for machine learning and trading technologies more effective. 
+Unfortunately for newbies to this technology, it is quite complicated and usually requires using specific languages: Verilog and/or VHDL. But with frameworks such as myVDL and PYNQ Python developers also can explore these opportunities. 
+We'll look into FPGA technology, touch what it is and where and how it's used. Also, where can Python developers start and what they can achieve.
+

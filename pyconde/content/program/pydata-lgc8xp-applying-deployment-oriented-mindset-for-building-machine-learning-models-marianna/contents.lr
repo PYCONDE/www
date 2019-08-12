@@ -1,0 +1,44 @@
+_model: session 
+---
+code: LGC8XP
+---
+title: Applying deployment oriented mindset for building Machine Learning models
+---
+description: Getting stuck for months trying to deploy the model and fighting with data inconsistency and bugs? This talk will introduce the way to build the development process with deployment in mind.
+---
+twitter_image: /static/media/twitter/LGC8XP.jpg
+---
+speakers: Marianna
+---
+submission_type: Talk
+---
+domains: Data Science, Machine Learning
+---
+biography: #### Marianna
+
+Affiliation: SynergyOne
+
+
+
+Leading a small but proud team of 2 data scientist and data engineers in SynergyOne. I'm a Data Science Lead of Women Who Code local community. I'm passionate about learning and coding, always focus on organizing agile process of development and prefer to plan ahead.
+Currently in the process of writing a series of articles focused on ML models deployment https://medium.com/@mariaannadiachuk
+
+[Twitter](https://twitter.com/dark_matter88_) • [Homepage](https://www.linkedin.com/company/synergyone/)
+---
+affiliation: SynergyOne
+---
+track: PyData
+---
+python_skill: Python Skill Level none
+---
+domain_expertise: Domain Expertise some
+---
+meta_title: Applying deployment oriented mindset for building Machine Learning models dark_matter88_ #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-none, domain-expertise-some, talk, data-science, machine-learning
+---
+body: Developing a complicated ensemble model with hundreds of features fetched from a bunch of different sources? Give me two! Showing great metrics to the stakeholders and already discussing how it will hit a home run in production? Why not! And then getting stuck for months trying to deploy the model and fighting with data inconsistency and bugs? Sounds familiar?
+This talk will focus on providing guidelines on how to build your model development process keeping in mind the deployment phase to come later on.
+In this talk, I will describe the process of Machine Learning models development providing the guidelines on how to manage every phase and which things to keep attention to. I will also tell about successful practical cases in which keeping the deployment in mind actually helped and fueled the development. And I will mention the consequences of forgetting the need for deployment base on my own experience. 
+The talk is mostly oriented on data scientists no matter the fact whether they will be deploying the models or a team of data engineers / developers will be responsible for it. It may also be helpful for developers and data engineers who are planning to participate in the process to expand their knowledge of things that can already be done to simplify their work and avoid stretching the deadlines because of the chaotic development process. The way of managing the work during the development I am going to tell about is aimed at making the whole cycle of work with models more efficient and building clear communications in a team.
+

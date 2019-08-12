@@ -1,0 +1,5 @@
+_model: redirect
+---
+target: /program/pydata-alemnd-julia-for-python-simon-danisch
+---
+_discoverable: no

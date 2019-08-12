@@ -1,0 +1,44 @@
+_model: session 
+---
+code: WZWTVB
+---
+title: Leveraging the advantages of Bayesian Methods to build a data science product using PyMC3
+---
+description: How can one leverage the power of Bayesian methods to build a successful data science product?
+---
+twitter_image: /static/media/twitter/WZWTVB.jpg
+---
+speakers: Korbinian Kuusisto
+---
+submission_type: Talk
+---
+domains: Algorithms, Business & Start-Ups, Data Science, Machine Learning, Science, Statistics
+---
+biography: #### Korbinian Kuusisto
+
+Affiliation: Dalia Research
+
+
+
+Korbinian is a Data Scientist at Dalia Research, a Berlin-based market research company developing a real-time engine for global public opinion research. At Dalia, Korbinian is working on a next generation brand tracking tool that allows clients to extract deep consumer insights for targeted marketing campaigns. He holds degrees in Mathematics and Economics and is an expert in Bayesian methods and deep learning.
+
+[Twitter](https://twitter.com/kuusisto_k) • [Github](https://github.com/kkuusisto) • [Homepage](https://kkuusisto.github.io/)
+---
+affiliation: Dalia Research
+---
+track: PyData
+---
+python_skill: Python Skill Level basic
+---
+domain_expertise: Domain Expertise expert
+---
+meta_title: Leveraging the advantages of Bayesian Methods to build a data science product using PyMC3 kuusisto_k #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-basic, domain-expertise-expert, talk, algorithms, business-start-ups, data-science, machine-learning, science, statistics
+---
+body: Bayesian frameworks offer powerful theoretical advantages: they can take advantage of prior information and provide a better sense of uncertainty. 
+
+In practice however, the theoretical barrier-to-entry and complexity surrounding Bayesian methods often discourage data scientists from applying these methods in real-life contexts to build successful data products. 
+
+This talk will demonstrate how Bayesian methods can and should be used to build innovative data products. More specifically, it will show how a startup used Bayesian Hierarchical Models and PyMC3 to build a next-generation brand tracking tool. This talk is relevant for data scientists, machine learning engineers, product owners and researchers who are curious about how to leverage the advantages of Bayesian methods to add an entirely new level of value to your product.
+

@@ -1,0 +1,53 @@
+_model: session 
+---
+code: XTD7TE
+---
+title: Abridged metaprogramming classics - this episode: pytest
+---
+description: Abridged metaprogramming classics - this episode: pytest. About the role of metaprogramming in the creation of a simple to use but powerful testing framework.
+---
+twitter_image: /static/media/twitter/XTD7TE.jpg
+---
+speakers: Oliver Bestwalter
+---
+submission_type: Talk
+---
+domains: Algorithms, Code-Review, APIs, Use Cases
+---
+biography: #### Oliver Bestwalter
+
+Affiliation: Avira
+
+
+
+Oliver fell in love with open source in the 1990s and with Python in 2006. He creates and helps maintain test and automation tools helping developers and companies to produce better software more effectively.
+
+    In 2016 he joined the tox project and is now one of the maintainers. Since 2017 he has been spending up to 20% of his time at Avira working on tox and other open source projects.
+
+[Twitter](https://twitter.com/obestwalter) • [Github](https://github.com/obestwalter) • [Homepage](https://oliver.bestwalter.de)
+---
+affiliation: Avira
+---
+track: PyConDE
+---
+python_skill: Python Skill Level basic
+---
+domain_expertise: Domain Expertise none
+---
+meta_title: Abridged metaprogramming classics - this episode: pytest obestwalter #PyConDE #PyDataBerlin #PyData
+---
+categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, algorithms, code-review, apis, use-cases
+---
+body: We will make a tour through the  [pytest](https://pypi.org/project/pytest/) core features and see how a lot of them are implemented using metaprogramming techniques like introspection/reflection, AST manipulation and other clever uses of Pythons Data and execution mod.
+
+At the end of this talk we will have built a minimal re-implementation of what makes the core of pytest (code will be available in the [pico-pytest repository](https://gitlab.com/obestwalter/pico-pytest)).
+
+To get to the essential ideas of their implementation, we will look at (wildly) simplified versions of:
+
+* test discovery and execution
+* object markers for test selection (`@pytest.mark.<some custom name>`)
+* automatic dependency injection (`@pytest.fixture`)
+* automatic test generation (`@pytest.mark.parametrize`)
+* test result introspection through assertion rewriting
+* offering extensibility through plugins
+
