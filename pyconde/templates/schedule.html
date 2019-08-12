@@ -34,8 +34,8 @@
                                                     aria-selected="{% if loop.index0 == 0 %}true{% else %}false{% endif %}">
 
                                                 {{ space.room_name }}
-                                                <p> <span class="sub-head-2">{{ space.use }}</span></p>
-                                                <p> <span class="sub-head-2">{{ space.location }}</span></p>
+                                                <p><span class="sub-head-2">{{ space.use }}</span></p>
+                                                <p><span class="sub-head-2">{{ space.location }}</span></p>
                                             </a>
 
 
@@ -54,33 +54,53 @@
 
                                                 {% for session in space.sessions %}
 
-                                                    <div class="row clipcard {% if loop.index0 == 0 %}margin-top{% endif %}">
-                                                        <div class="col-12 col-md-2 col-lg-1">
-                                                            <p class="clipcard__head">{{ session.time }}</p>
-                                                        </div>
-                                                        <div class="col-12 col-md-10 col-lg-11">
-                                                            <div class="clipcard__body">
-                                                                <div class="clipcard__icon"><i
-                                                                        class="fa fa-md {{ session.clipcard_icon }}"></i></div>
-                                                                {% if session.speaker_names %}
-                                                                <p class="clipcard__info"><span
-                                                                        class="text-body-3">{{ session.speaker_names }}&nbsp;</span>
-                                                                </p>
-                                                             {% endif %}
+                                                    {% if session.time == 'sessionname' %}
 
-                                                                <h6 class="clipcard__title">
-                                                                    <a class="schedule_title"
-                                                                       href="{% if session.url %}{{ session.url }}{% else %}#{% endif %}">{{ session.title }}</a>
-                                                                </h6>
+                                                        <div class="row clipcard {% if loop.index0 == 0 %}margin-top{% endif %}">
+                                                            <div class="col-12 col-md-2 col-lg-1">
+                                                                <p class="clipcard__head"><i class="fa fa-sm fa-hand-o-right"></i></p>
+                                                            </div>
+                                                            <div class="col-12 col-md-10 col-lg-11">
+                                                                <div class="clipcard__body">
 
-                                                                <span
-                                                                        class="clipcard__subtitle"><span
-                                                                        class="sub-head-2">{{ session.track }}
-                                                                    {% if session.domains %} • {% endif %}{{ session.domains }}</span>
-                                                                </span>
+                                                                    <h6 class="clipcard__title sessionname">{{ session.title }}</h6>
+
+                                                                </div>
                                                             </div>
                                                         </div>
-                                                    </div>
+
+                                                    {% else %}
+
+                                                        <div class="row clipcard {% if loop.index0 == 0 %}margin-top{% endif %}">
+                                                            <div class="col-12 col-md-2 col-lg-1">
+                                                                <p class="clipcard__head">{{ session.time }}</p>
+                                                            </div>
+                                                            <div class="col-12 col-md-10 col-lg-11">
+                                                                <div class="clipcard__body">
+                                                                    <div class="clipcard__icon"><i
+                                                                            class="fa fa-md {{ session.clipcard_icon }}"></i></div>
+                                                                    {% if session.speaker_names %}
+                                                                        <p class="clipcard__info"><span
+                                                                                class="text-body-3">{{ session.speaker_names }}&nbsp;</span>
+                                                                        </p>
+                                                                    {% endif %}
+
+                                                                    <h6 class="clipcard__title">
+                                                                        <a class="schedule_title"
+                                                                           href="
+                                                                                   {% if session.url %}{{ session.url }}{% else %}#{% endif %}">{{ session.title }}</a>
+                                                                    </h6>
+
+                                                                    <span
+                                                                            class="clipcard__subtitle"><span
+                                                                            class="sub-head-2">{{ session.track }}
+                                                                        {% if session.domains %} • {% endif %}{{ session.domains }}</span>
+                                                                </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    {% endif %}
 
                                                 {% endfor %}
 
@@ -88,50 +108,6 @@
 
                                         {% endfor %}
                                     </div>
-
-
-                                    {#                                        <div class="row clipcard">#}
-                                    {#                                            <div class="col-12 col-md-2 col-lg-1">#}
-                                    {#                                                <p class="clipcard__head">11:30</p>#}
-                                    {#                                            </div>#}
-                                    {#                                            <div class="col-12 col-md-10 col-lg-11">#}
-                                    {#                                                <div class="clipcard__body"><a class="clipcard__link" href="#"><span class="sr-only">See more</span></a><img#}
-                                    {#                                                        class="clipcard__thumb lazyload--el in-view__child lazyloaded"#}
-                                    {#                                                        src="assets/media/stock/avatar-03.jpg" data-src="assets/media/stock/avatar-03.jpg"#}
-                                    {#                                                        alt="" width="36" height="36">#}
-                                    {#                                                    <p class="clipcard__info"><span class="text-body-3">Main Hall — 2 Hours</span></p>#}
-                                    {#                                                    <h6 class="clipcard__title">Open Source AI Models</h6><span#}
-                                    {#                                                            class="clipcard__subtitle"><span class="sub-head-2">By C-3PO</span></span>#}
-                                    {#                                                </div>#}
-                                    {#                                            </div>#}
-                                    {#                                        </div>#}
-                                    {#                                        <div class="row clipcard">#}
-                                    {#                                            <div class="col-12 col-md-2 col-lg-1">#}
-                                    {#                                                <p class="clipcard__head">02:15</p>#}
-                                    {#                                            </div>#}
-                                    {#                                            <div class="col-12 col-md-10 col-lg-11">#}
-                                    {#                                                <div class="clipcard__body"><a class="clipcard__link" href="#"><span class="sr-only">See more</span></a><img#}
-                                    {#                                                        class="clipcard__thumb lazyload--el in-view__child lazyloaded"#}
-                                    {#                                                        src="assets/media/stock/avatar-02.jpg" data-src="assets/media/stock/avatar-02.jpg"#}
-                                    {#                                                        alt="" width="36" height="36">#}
-                                    {#                                                    <p class="clipcard__info"><span class="text-body-3">Main Hall — 2 Hours</span></p>#}
-                                    {#                                                    <h6 class="clipcard__title">From Research to Production</h6><span#}
-                                    {#                                                            class="clipcard__subtitle"><span class="sub-head-2">By Chewbacca</span></span>#}
-                                    {#                                                </div>#}
-                                    {#                                            </div>#}
-                                    {#                                        </div>#}
-                                    {#                                        <div class="row clipcard">#}
-                                    {#                                            <div class="col-12 col-md-2 col-lg-1">#}
-                                    {#                                                <p class="clipcard__head">01:00</p>#}
-                                    {#                                            </div>#}
-                                    {#                                            <div class="col-12 col-md-10 col-lg-11">#}
-                                    {#                                                <div class="clipcard__body">#}
-                                    {#                                                    <div class="clipcard__icon"><i class="fa fa-lg fa-clock-o"></i></div>#}
-                                    {#                                                    <p class="clipcard__info"><span class="text-body-3">Restaurant — 2 Hours</span></p>#}
-                                    {#                                                    <h6 class="clipcard__title margin-bottom-0 color--primary">Lunch Break</h6>#}
-                                    {#                                                </div>#}
-                                    {#                                            </div>#}
-                                    {#                                        </div>#}
 
                                 </div>
                             </div>

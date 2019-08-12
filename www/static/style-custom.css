@@ -19,5 +19,13 @@
 }
 
 a.tabs__nav > p {
-    margin: 0 0 2px;
+    margin: 0 0 0;
+}
+
+.page-header__schedule {
+    margin-bottom: 5px;
+}
+
+.sessionname {
+    color: rgb(141, 146, 156);
 }

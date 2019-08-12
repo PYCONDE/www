@@ -25,3 +25,7 @@ a.tabs__nav > p {
 .page-header__schedule {
     margin-bottom: 5px;
 }
+
+.sessionname {
+    color: rgb(141, 146, 156);
+}
