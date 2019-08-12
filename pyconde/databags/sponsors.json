@@ -22,6 +22,11 @@
                     "name": "JetBrains",
                     "description": "JetBrains delivers intelligent software solutions that make developers more productive by simplifying their challenging tasks, automating the routine, and helping them adopt the best development practices. PyCharm is the Python IDE for Professional Developers by JetBrains providing a complete set of tools for productive Python, Web and scientific development, available in three editions. The free and open-source PyCharm Community Edition is perfect for pure Python coding.",
                     "logo": "/static/media/sponsors/jetbrains.svg"
+                },
+                {
+                    "name": "OLX Group",
+                    "description": "OLX Group, a Naspers company, is the world’s fastest-growing marketplaces network, serving more than 350 million people every month. We build leading destinations for buying, selling, and exchanging products and services, our technology is designed to help people trade almost anything in safe, smart and convenient ways. We facilitate approximately 17 million exchanges every month, from cars and furniture to electronics and clothing.",
+                    "logo": "/static/media/sponsors/olx.png"
                 }
             ]
         },
