@@ -1,8 +1,5 @@
 .venv/
 venv/
-submissions.json
-schedule.xlsx
-speakers_accepted.json
 www/.lektor/
 .vscode/
 .idea
@@ -10,4 +7,5 @@ www/.lektor/
 __pycache__/
 config.py
 _private
-_website_template/
+_template_website/
+submissions.json
