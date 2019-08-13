@@ -92,6 +92,11 @@
                     "name": "Flying Circus",
                     "description": "For more than 20 years we have been involved with digitalization projects and are responsible for hosting and operating business critical applications. Constant change and growing complexity are the biggest challenges: no project is the same and nobody can predict all possible requirements. Thus we do not rely on ready-made plans but on our experience, practical solutions and close cooperation.",
                     "logo": "/static/media/sponsors/flying-circus.png"
+                },
+                {
+                    "name": "Pivigo",
+                    "description": "Pivigo is a data science marketplace, democratising access to data innovation to all organisations, by connecting them with our global community of freelance data scientists. The Pivigo networking platform allows for profile sharing, networking, and learning data skills. Pivigo also run Europe’s largest data science training programme S2DS (Science to Data Science).",
+                    "logo": "/static/media/sponsors/pivigo.png"
                 }
             ]
         },
@@ -112,6 +117,11 @@
                     "name": "Novatec Consulting",
                     "description": "As an independent IT specialist, we have been leading our customers into the digital future for more than 20 years – with more than 220 employees at nine locations in Europe.",
                     "logo": "/static/media/sponsors/novatec.jpg"
+                },
+                {
+                    "name": "Pluralsight",
+                    "description": "Pluralsight is the technology learning platform for organizations that need to enhance the expertise of their technologists to keep up with the pace of technological change and deliver key innovations on time, on budget and securely.",
+                    "logo": "/static/media/sponsors/pluralsight.png"
                 }
             ]
         },
