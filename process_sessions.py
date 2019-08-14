@@ -309,7 +309,7 @@ body: {body}
         categories = [submission['track'], python_skill, domain_expertise] + [submission['submission_type'].split(' ')[0]] + domains.split(', ')
         slugified_categories = [slugify(x) for x in categories]
         categories_list = ', '.join(slugified_categories)
-        all_categories.update({slugify(x): x for x in categories})
+        all_categories.update({slugify(x).replace('---', '-').replace('--', '-'): x for x in categories})
 
         redirects[submission['code']] = submission['slug']
         redir_dirname = session_path / submission['code']
@@ -373,8 +373,8 @@ _discoverable: no""".format(slug))
 
 if __name__ == "__main__":
     # load_speakers()
-    # update_session_pages(use_cache=True)
-    update_session_pages(use_cache=False)
+    update_session_pages(use_cache=True)
+    # update_session_pages(use_cache=False)
     # save_csv_for_banners()
     # rename_tmp_banners()
     generate_session_pages()

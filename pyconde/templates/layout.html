@@ -33,6 +33,19 @@
     {% else %}
         <meta name="twitter:image" content="{{ site.config.PROJECT.url }}{{ site.config.PROJECT.twitter_card|asseturl }}">
     {% endif %}
+
+    <!-- other data for sharing -->
+
+    <meta name="og:url" content="{{ site.config.PROJECT.url }}{{ '.'|url }}">
+    <meta name="og:title" content="{%  if this.meta_title %}{{ this.meta_title }}{% else %}{{ this.title }}{% endif %}">
+    <meta name="og:description" content="{{ this.description }}">
+    {% if this.twitter_image %}
+        {% set turl = this.twitter_image %}
+        <meta name="og:image" content="{{ site.config.PROJECT.url }}{{ turl|asseturl }}">
+    {% else %}
+        <meta name="og:image" content="{{ site.config.PROJECT.url }}{{ site.config.PROJECT.twitter_card|asseturl }}">
+    {% endif %}
+
 </head>
 
 <body class="home blog has-header-background">
