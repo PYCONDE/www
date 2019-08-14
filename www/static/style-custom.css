@@ -29,3 +29,9 @@ a.tabs__nav > p {
 .sessionname {
     color: rgb(141, 146, 156);
 }
+
+/* Session page */
+
+.short_margin {
+    margin-bottom:25px;
+}

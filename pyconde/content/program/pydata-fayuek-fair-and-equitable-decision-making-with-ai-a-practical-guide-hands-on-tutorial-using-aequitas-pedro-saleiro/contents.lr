@@ -6,6 +6,8 @@ title: Fair and equitable decision-making with AI: a practical guide & hands-on 
 ---
 description: In this tutorial, we are going to deep dive into algorithmic fairness, from metrics and definitions to practical case studies, including bias audits using Aequitas (http://github.com/dssg/aequitas) in real policy problems where AI is being used
 ---
+short_description: In this tutorial, we are going to deep dive into algorithmic fairness, from metrics and definitions to practical case studies, including bias audits using Aequitas (http://github.com/dssg/aequitas) in real policy problems where AI is being used
+---
 twitter_image: /static/media/twitter/FAYUEK.jpg
 ---
 speakers: Pedro Saleiro

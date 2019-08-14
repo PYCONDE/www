@@ -6,6 +6,8 @@ title: Applying deployment oriented mindset for building Machine Learning models
 ---
 description: Getting stuck for months trying to deploy the model and fighting with data inconsistency and bugs? This talk will introduce the way to build the development process with deployment in mind.
 ---
+short_description: Getting stuck for months trying to deploy the model and fighting with data inconsistency and bugs? This talk will introduce the way to build the development process with deployment in mind.
+---
 twitter_image: /static/media/twitter/LGC8XP.jpg
 ---
 speakers: Marianna

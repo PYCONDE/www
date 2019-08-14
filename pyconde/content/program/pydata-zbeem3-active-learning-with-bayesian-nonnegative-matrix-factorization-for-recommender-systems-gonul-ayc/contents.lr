@@ -6,6 +6,8 @@ title: Active Learning with Bayesian Nonnegative Matrix Factorization for Recomm
 ---
 description: An approach for a matrix completion problem using the Bayesian Nonnegative Matrix Factorization (NMF).
 ---
+short_description: An approach for a matrix completion problem using the Bayesian Nonnegative Matrix Factorization (NMF).
+---
 twitter_image: /static/media/twitter/ZBEEM3.jpg
 ---
 speakers: Gönül Aycı

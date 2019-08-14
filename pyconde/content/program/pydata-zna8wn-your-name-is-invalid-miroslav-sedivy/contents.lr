@@ -6,6 +6,8 @@ title: Your Name Is Invalid!
 ---
 description: If your code tells me “Your Name Is Invalid!”, then your code is probably invalid. Names of people cannot be invalid.
 ---
+short_description: If your code tells me “Your Name Is Invalid!”, then your code is probably invalid. Names of people cannot be invalid.
+---
 twitter_image: /static/media/twitter/ZNA8WN.jpg
 ---
 speakers: Miroslav Šedivý

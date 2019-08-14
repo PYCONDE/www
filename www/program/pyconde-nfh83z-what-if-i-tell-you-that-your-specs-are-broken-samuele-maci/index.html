@@ -19,15 +19,15 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla:400,700i,700|Poppins:700">
     <link rel="stylesheet" href="/static/css/font-awesome.css?h=0140952c" type="text/css" media="all">
     <link rel="stylesheet" href="/static/style.css?h=28d25877" type="text/css" media="all">
-    <link rel="stylesheet" href="/static/style-custom.css?h=11445aab" type="text/css" media="all">
+    <link rel="stylesheet" href="/static/style-custom.css?h=482718b0" type="text/css" media="all">
 
     <!-- other data for sharing -->
 
     <meta  property="og:title" content="What if I tell you that your specs are broken macisamuele #PyConDE #PyDataBerlin #PyData">
 
     
-        <meta  name="og:image:secure_url" content="https://de.pycon.org/static/media/twitter/NFH83Z.jpg?h=7546a0cf">
-        <meta  name="og:image" content="https://de.pycon.org/static/media/twitter/NFH83Z.jpg?h=7546a0cf">
+
+        <meta  name="og:image" content="/static/media/twitter/NFH83Z.jpg?h=7546a0cf">
     
 
     <meta property="og:description" content="&#34;What if I tell you that your specs are broken&#34;. Protect your specs against incompatible changes ... a practical guide">
@@ -229,8 +229,10 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-xl-10 offset-xl-1">
-          <header class="page-header text-center">
-            <h2 class="page-title">What if I tell you that your specs are broken</h2>
+          <header class="page-header text-center short_margin">
+
+              <h2 class="page-title">What if I tell you that your specs are broken</h2>
+            <h5><a href="/program/categories/">Talk</a> • <a href="/program/categories/">PyConDE</a></h5>
             <h6>
                 
                 
@@ -241,10 +243,22 @@
               
               
               
-            <h5><a href="/program/categories/talk">Talk</a> • <a href="/program/categories/pyconde">PyConDE</a></h5>
-              <h6>Prerequisites: <a href="/program/categories/domain-expertise-some">Domain Expertise some</a> • <a href="/program/categories/python-skill-level-none">Python Skill Level none</a></h6>
+
+              prerequisites: </br><a href="/program/categories/domain-expertise-some">Domain Expertise some</a> • <a href="/program/categories/python-skill-level-none">Python Skill Level none</a>
             <h3 class="page-title">Samuele Maci</h3>
+
+<i class="fa fa-lg fa-twitter">
+            <a class="twitter-share-button" target="_blank"
+              href="https://twitter.com/intent/tweet?text=%22What%20if%20I%20tell%20you%20that%20your%20specs%20are%20broken%22.%20Protect%20your%20specs%20against%20incompatible%20changes%20...%20a%20practical%20guide&url=https://de.pycon.org/program/pyconde-nfh83z-what-if-i-tell-you-that-your-specs-are-broken-samuele-maci/&hashtags=PyConDE,PyDataBerlin"
+              data-size="large"
+              data-text="What if I tell you that your specs are broken"
+              data-url="https://de.pycon.org/program/pyconde-nfh83z-what-if-i-tell-you-that-your-specs-are-broken-samuele-maci/"
+              data-hashtags="PyConDE,PyDataBerlin"
+              data-via="pyconde"
+              data-related="pydata">Tweet about it!</a></i>
+
           </header>
+
           <div class="single-content">
             <p>If you have ever written an App in 2019, the probability that you are communicating over HTTP(S) is pretty high. After some practice, implementing a new endpoint starts to be a trivial task; no major complexities and turns out to be really repetitive.</p>
 <p>While adding an endpoint might seem an easy task, sometimes you need to slightly update an already existing endpoint. When editing, the risk of negatively affect your users is just around the corner. Previously deployed applications, due to changes in the communication interface, are at risk of misbehaving, crashing, etc.</p>

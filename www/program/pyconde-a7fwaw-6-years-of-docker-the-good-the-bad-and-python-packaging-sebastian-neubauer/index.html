@@ -19,15 +19,15 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla:400,700i,700|Poppins:700">
     <link rel="stylesheet" href="/static/css/font-awesome.css?h=0140952c" type="text/css" media="all">
     <link rel="stylesheet" href="/static/style.css?h=28d25877" type="text/css" media="all">
-    <link rel="stylesheet" href="/static/style-custom.css?h=11445aab" type="text/css" media="all">
+    <link rel="stylesheet" href="/static/style-custom.css?h=482718b0" type="text/css" media="all">
 
     <!-- other data for sharing -->
 
     <meta  property="og:title" content="6 Years of Docker: The Good, the Bad and Python Packaging sebineubauer #PyConDE #PyDataBerlin #PyData">
 
     
-        <meta  name="og:image:secure_url" content="https://de.pycon.org/static/media/twitter/A7FWAW.jpg?h=e01b0c2a">
-        <meta  name="og:image" content="https://de.pycon.org/static/media/twitter/A7FWAW.jpg?h=e01b0c2a">
+
+        <meta  name="og:image" content="/static/media/twitter/A7FWAW.jpg?h=e01b0c2a">
     
 
     <meta property="og:description" content="In this talk I will walk you through the proper setup of a local python development environment using docker.">
@@ -229,8 +229,10 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-xl-10 offset-xl-1">
-          <header class="page-header text-center">
-            <h2 class="page-title">6 Years of Docker: The Good, the Bad and Python Packaging</h2>
+          <header class="page-header text-center short_margin">
+
+              <h2 class="page-title">6 Years of Docker: The Good, the Bad and Python Packaging</h2>
+            <h5><a href="/program/categories/">Talk</a> • <a href="/program/categories/">PyConDE</a></h5>
             <h6>
                 
                 
@@ -253,10 +255,22 @@
               
               
               
-            <h5><a href="/program/categories/talk">Talk</a> • <a href="/program/categories/pyconde">PyConDE</a></h5>
-              <h6>Prerequisites: <a href="/program/categories/domain-expertise-some">Domain Expertise some</a> • <a href="/program/categories/python-skill-level-expert">Python Skill Level expert</a></h6>
+
+              prerequisites: </br><a href="/program/categories/domain-expertise-some">Domain Expertise some</a> • <a href="/program/categories/python-skill-level-expert">Python Skill Level expert</a>
             <h3 class="page-title">Sebastian Neubauer</h3>
+
+<i class="fa fa-lg fa-twitter">
+            <a class="twitter-share-button" target="_blank"
+              href="https://twitter.com/intent/tweet?text=In%20this%20talk%20I%20will%20walk%20you%20through%20the%20proper%20setup%20of%20a%20local%20python%20development%20environment%20using%20docker.&url=https://de.pycon.org/program/pyconde-a7fwaw-6-years-of-docker-the-good-the-bad-and-python-packaging-sebastian-neubauer/&hashtags=PyConDE,PyDataBerlin"
+              data-size="large"
+              data-text="6 Years of Docker: The Good, the Bad and Python Packaging"
+              data-url="https://de.pycon.org/program/pyconde-a7fwaw-6-years-of-docker-the-good-the-bad-and-python-packaging-sebastian-neubauer/"
+              data-hashtags="PyConDE,PyDataBerlin"
+              data-via="pyconde"
+              data-related="pydata">Tweet about it!</a></i>
+
           </header>
+
           <div class="single-content">
             <p>It is a little known fact, that docker was presented the first time to the world in a demo by Solomon Hykes at the PyCon US in Santa Clara in 2013. Furthermore, docker-compose (formerly known as Fig) is entirely written in python. This may lead to the impression, that docker and python is pure love and a match made in heaven. While for some use-cases this is true. But local development of python code inside a docker container is surprisingly broken, at least if you want to do it right. 
 In this talk I will walk you through the proper setup of a local python development environment using docker. Including sane packaging, testing, automated setup in version control, IDE integration, docker-compose and more. I will share with you all the tiny surprises I encountered and you might have stumbled over yourself already too. As a spoiler, I will not be able to give nice solutions to all of them. But it might help you, to not feel stupid the next time you face one of them: Good news, probably it’s not you!</p>

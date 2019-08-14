@@ -6,6 +6,8 @@ title: Loss Function Theory 101
 ---
 description: This talk covers the theoretical background behind two common loss functions, mean squared error and cross entropy, including why they are used for machine learning at all, and what limitations you should keep in mind.
 ---
+short_description: This talk covers the theoretical background behind two common loss functions, mean squared error and cross entropy, including why they are used for machine learning at all, and what limitations you should keep in mind.
+---
 twitter_image: /static/media/twitter/JFEQY8.jpg
 ---
 speakers: David Wölfle

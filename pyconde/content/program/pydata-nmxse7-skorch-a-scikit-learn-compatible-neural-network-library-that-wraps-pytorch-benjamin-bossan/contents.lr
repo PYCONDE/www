@@ -6,6 +6,8 @@ title: skorch: A scikit-learn compatible neural network library that wraps pytor
 ---
 description: Combine the best of sklearn and PyTorch by using skorch. This talk shows you why and how to use skorch and what cool features it has to offer.
 ---
+short_description: Combine the best of sklearn and PyTorch by using skorch. This talk shows you why and how to use skorch and what cool features it has to offer.
+---
 twitter_image: /static/media/twitter/NMXSE7.jpg
 ---
 speakers: Benjamin Bossan

@@ -6,6 +6,8 @@ title: Getting started with FPGA with Python
 ---
 description: In this review, we'll look into frameworks that will help Python developer start working with FPGA without prior knowledge of Verilog or VHDL.
 ---
+short_description: In this review, we'll look into frameworks that will help Python developer start working with FPGA without prior knowledge of Verilog or VHDL.
+---
 twitter_image: /static/media/twitter/PHYCJL.jpg
 ---
 speakers: Olga

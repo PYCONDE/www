@@ -6,6 +6,8 @@ title: Introduction to automated testing with pytest
 ---
 description: Learn how to get started with developing automated tests in Python with the pytest test framework!
 ---
+short_description: Learn how to get started with developing automated tests in Python with the pytest test framework!
+---
 twitter_image: /static/media/twitter/3JUWNC.jpg
 ---
 speakers: Raphael Pierzina

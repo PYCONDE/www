@@ -6,6 +6,8 @@ title: Embrace uncertainty! Why to go beyond point estimators for valuable ML ap
 ---
 description: Usually, uncertainties of Machine Learning predictions are just regarded as a sign of poor prediction accuracy or as a consequence of lacking input features. This talk illustrates how modeling uncertainties can improve ML based decisions.
 ---
+short_description: Usually, uncertainties of Machine Learning predictions are just regarded as a sign of poor prediction accuracy or as a consequence of lacking input features. This talk illustrates how modeling uncertainties can improve ML based decisions.
+---
 twitter_image: /static/media/twitter/QHNEFT.jpg
 ---
 speakers: Stefan Maier

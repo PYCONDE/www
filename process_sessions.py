@@ -239,7 +239,9 @@ code: {code}
 ---
 title: {title}
 ---
-description: {short_decription}
+description: {short_description}
+---
+short_description: {short_description}
 ---
 twitter_image: {twitter_image}
 ---
@@ -326,7 +328,8 @@ body: {body}
         with open(dirname / "contents.lr", "w") as f:
             f.write(tpl.format(
                 title=submission['title'],
-                short_decription=submission['short_description'],
+                short_description=submission['short_description'],
+                short_description_html=submission['short_description'],
                 code=submission['code'],
                 body=submission['description'],
                 domains=domains,

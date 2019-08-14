@@ -6,6 +6,8 @@ title: Machine learning with little data - from digital twin to predictive maint
 ---
 description: This talk is about the coupling of a digital twin model and a machine learning predictive maintenance algorithm in order to be able to detect anomalies in the operation of a not well-known hardware system.
 ---
+short_description: This talk is about the coupling of a digital twin model and a machine learning predictive maintenance algorithm in order to be able to detect anomalies in the operation of a not well-known hardware system.
+---
 twitter_image: /static/media/twitter/UMWRYD.jpg
 ---
 speakers: Andreas Hantsch

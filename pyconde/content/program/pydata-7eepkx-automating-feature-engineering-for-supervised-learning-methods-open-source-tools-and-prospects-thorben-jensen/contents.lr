@@ -6,6 +6,8 @@ title: Automating feature engineering for supervised learning?  Methods, open-so
 ---
 description: How to automate the labor-intensive task of feature engineering for Machine Learning? This talk gives an overview on methods, presents open-source libraries for Python, and compares their performance.
 ---
+short_description: How to automate the labor-intensive task of feature engineering for Machine Learning? This talk gives an overview on methods, presents open-source libraries for Python, and compares their performance.
+---
 twitter_image: /static/media/twitter/7EEPKX.jpg
 ---
 speakers: Thorben Jensen

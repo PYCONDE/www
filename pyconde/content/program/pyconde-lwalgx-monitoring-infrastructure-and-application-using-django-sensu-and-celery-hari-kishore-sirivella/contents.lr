@@ -6,6 +6,8 @@ title: Monitoring infrastructure and application using Django, Sensu and Celery.
 ---
 description: Monitoring infrastructure and application using Django, Sensu and Celery.
 ---
+short_description: Monitoring infrastructure and application using Django, Sensu and Celery.
+---
 twitter_image: /static/media/twitter/LWALGX.jpg
 ---
 speakers: Hari Kishore Sirivella

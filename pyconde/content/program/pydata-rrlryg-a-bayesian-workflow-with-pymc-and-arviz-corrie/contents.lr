@@ -6,6 +6,8 @@ title: A Bayesian Workflow with PyMC and ArviZ
 ---
 description: An Example of a Bayesian Workflow using PyMC and ArviZ: Predicting House Prices in Berlin
 ---
+short_description: An Example of a Bayesian Workflow using PyMC and ArviZ: Predicting House Prices in Berlin
+---
 twitter_image: /static/media/twitter/RRLRYG.jpg
 ---
 speakers: Corrie

@@ -19,15 +19,15 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla:400,700i,700|Poppins:700">
     <link rel="stylesheet" href="/static/css/font-awesome.css?h=0140952c" type="text/css" media="all">
     <link rel="stylesheet" href="/static/style.css?h=28d25877" type="text/css" media="all">
-    <link rel="stylesheet" href="/static/style-custom.css?h=11445aab" type="text/css" media="all">
+    <link rel="stylesheet" href="/static/style-custom.css?h=482718b0" type="text/css" media="all">
 
     <!-- other data for sharing -->
 
     <meta  property="og:title" content="A Bayesian Workflow with PyMC and ArviZ corrieaar #PyConDE #PyDataBerlin #PyData">
 
     
-        <meta  name="og:image:secure_url" content="https://de.pycon.org/static/media/twitter/RRLRYG.jpg?h=996029f6">
-        <meta  name="og:image" content="https://de.pycon.org/static/media/twitter/RRLRYG.jpg?h=996029f6">
+
+        <meta  name="og:image" content="/static/media/twitter/RRLRYG.jpg?h=996029f6">
     
 
     <meta property="og:description" content="An Example of a Bayesian Workflow using PyMC and ArviZ: Predicting House Prices in Berlin">
@@ -229,8 +229,10 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-xl-10 offset-xl-1">
-          <header class="page-header text-center">
-            <h2 class="page-title">A Bayesian Workflow with PyMC and ArviZ</h2>
+          <header class="page-header text-center short_margin">
+
+              <h2 class="page-title">A Bayesian Workflow with PyMC and ArviZ</h2>
+            <h5><a href="/program/categories/">Talk</a> • <a href="/program/categories/">PyData</a></h5>
             <h6>
                 
                 
@@ -245,10 +247,22 @@
               
               
               
-            <h5><a href="/program/categories/talk">Talk</a> • <a href="/program/categories/pydata">PyData</a></h5>
-              <h6>Prerequisites: <a href="/program/categories/domain-expertise-some">Domain Expertise some</a> • <a href="/program/categories/python-skill-level-basic">Python Skill Level basic</a></h6>
+
+              prerequisites: </br><a href="/program/categories/domain-expertise-some">Domain Expertise some</a> • <a href="/program/categories/python-skill-level-basic">Python Skill Level basic</a>
             <h3 class="page-title">Corrie</h3>
+
+<i class="fa fa-lg fa-twitter">
+            <a class="twitter-share-button" target="_blank"
+              href="https://twitter.com/intent/tweet?text=An%20Example%20of%20a%20Bayesian%20Workflow%20using%20PyMC%20and%20ArviZ%3A%20Predicting%20House%20Prices%20in%20Berlin&url=https://de.pycon.org/program/pydata-rrlryg-a-bayesian-workflow-with-pymc-and-arviz-corrie/&hashtags=PyConDE,PyDataBerlin"
+              data-size="large"
+              data-text="A Bayesian Workflow with PyMC and ArviZ"
+              data-url="https://de.pycon.org/program/pydata-rrlryg-a-bayesian-workflow-with-pymc-and-arviz-corrie/"
+              data-hashtags="PyConDE,PyDataBerlin"
+              data-via="pyconde"
+              data-related="pydata">Tweet about it!</a></i>
+
           </header>
+
           <div class="single-content">
             <p>There are several reasons why we might want to use a Bayesian Model: It can handle well the uncertainty that comes with small data and also allows for the incorporation of domain knowledge by virtue of using priors. However, implementing such a model is usually not as straight-forward as importing a model from scikit-learn. Then there is also the question on how to pick the right prior and how to check if your model actually converged, both tasks that might seem daunting for anyone starting out with Bayesian modelling. In this talk, I will show the basic Bayesian workflow, starting with some guidelines on how to pick a fitting prior for your problem, how to check model convergence and how to do model comparison. To exemplify the workflow, I will use the real-world problem of predicting house prices in Berlin.
 For the modelling, the Python package <code>PyMC3</code> is used and for visualization and model checking, the package <code>ArviZ</code> is used.</p>

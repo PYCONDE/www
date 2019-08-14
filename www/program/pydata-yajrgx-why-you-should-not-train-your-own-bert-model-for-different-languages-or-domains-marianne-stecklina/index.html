@@ -19,15 +19,15 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla:400,700i,700|Poppins:700">
     <link rel="stylesheet" href="/static/css/font-awesome.css?h=0140952c" type="text/css" media="all">
     <link rel="stylesheet" href="/static/style.css?h=28d25877" type="text/css" media="all">
-    <link rel="stylesheet" href="/static/style-custom.css?h=11445aab" type="text/css" media="all">
+    <link rel="stylesheet" href="/static/style-custom.css?h=482718b0" type="text/css" media="all">
 
     <!-- other data for sharing -->
 
     <meta  property="og:title" content="Why you should (not) train your own BERT model for different languages or domains MStecklina #PyConDE #PyDataBerlin #PyData">
 
     
-        <meta  name="og:image:secure_url" content="https://de.pycon.org/static/media/twitter/YAJRGX.jpg?h=34024c61">
-        <meta  name="og:image" content="https://de.pycon.org/static/media/twitter/YAJRGX.jpg?h=34024c61">
+
+        <meta  name="og:image" content="/static/media/twitter/YAJRGX.jpg?h=34024c61">
     
 
     <meta property="og:description" content="Language models like BERT can capture general language knowledge and transfer it to new data and tasks. However, applying a pre-trained BERT to non-English text has limitations. Is training from scratch a good (and feasible) way to overcome them?">
@@ -229,8 +229,10 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-xl-10 offset-xl-1">
-          <header class="page-header text-center">
-            <h2 class="page-title">Why you should (not) train your own BERT model for different languages or domains</h2>
+          <header class="page-header text-center short_margin">
+
+              <h2 class="page-title">Why you should (not) train your own BERT model for different languages or domains</h2>
+            <h5><a href="/program/categories/">Talk</a> • <a href="/program/categories/">PyData</a></h5>
             <h6>
                 
                 
@@ -261,10 +263,22 @@
               
               
               
-            <h5><a href="/program/categories/talk">Talk</a> • <a href="/program/categories/pydata">PyData</a></h5>
-              <h6>Prerequisites: <a href="/program/categories/domain-expertise-expert">Domain Expertise expert</a> • <a href="/program/categories/python-skill-level-basic">Python Skill Level basic</a></h6>
+
+              prerequisites: </br><a href="/program/categories/domain-expertise-expert">Domain Expertise expert</a> • <a href="/program/categories/python-skill-level-basic">Python Skill Level basic</a>
             <h3 class="page-title">Marianne Stecklina</h3>
+
+<i class="fa fa-lg fa-twitter">
+            <a class="twitter-share-button" target="_blank"
+              href="https://twitter.com/intent/tweet?text=Language%20models%20like%20BERT%20can%20capture%20general%20language%20knowledge%20and%20transfer%20it%20to%20new%20data%20and%20tasks.%20However%2C%20applying%20a%20pre-trained%20BERT%20to%20non-English%20text%20has%20limitations.%20Is%20training%20from%20scratch%20a%20good%20%28and%20feasible%29%20way%20to%20overcome%20them%3F&url=https://de.pycon.org/program/pydata-yajrgx-why-you-should-not-train-your-own-bert-model-for-different-languages-or-domains-marianne-stecklina/&hashtags=PyConDE,PyDataBerlin"
+              data-size="large"
+              data-text="Why you should (not) train your own BERT model for different languages or domains"
+              data-url="https://de.pycon.org/program/pydata-yajrgx-why-you-should-not-train-your-own-bert-model-for-different-languages-or-domains-marianne-stecklina/"
+              data-hashtags="PyConDE,PyDataBerlin"
+              data-via="pyconde"
+              data-related="pydata">Tweet about it!</a></i>
+
           </header>
+
           <div class="single-content">
             <p>Large pre-trained language models play an important role in recent NLP research. They can learn general language features from unlabeled data, and then be easily fine-tuned for any supervised NLP task, e.g. classification or named entity recognition. BERT (Bidirectional Encoder Representations from Transformers) is one example of a language model, pre-trained weights are available for everyone to use.</p>
 <p>BERT has been shown to successfully transfer knowledge from pre-training to many different NLP benchmark tasks. How good can this transfer work for non-English or domain-specific texts, though?</p>

@@ -6,8 +6,10 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-xl-10 offset-xl-1">
-          <header class="page-header text-center">
-            <h2 class="page-title">{{ this.title }}</h2>
+          <header class="page-header text-center short_margin">
+
+              <h2 class="page-title">{{ this.title }}</h2>
+            <h5><a href="/program/categories/{{ submission_type }}">{{ this.submission_type }}</a> • <a href="/program/categories/{{ category }}">{{ this.track }}</a></h5>
             <h6>{% for domain in this.domains.split(', ') %}
                 {%  if loop.index0 != 0 %} • {% endif %}
                 {% set domain_slug = domain.lower().replace(' ', '-').replace('/', '-') %}
@@ -18,10 +20,22 @@
               {% set submission_type = this.submission_type.lower() %}
               {% set domain_expertise = this.domain_expertise.lower().replace(' ', '-') %}
               {% set python_skill = this.python_skill.lower().replace(' ', '-') %}
-            <h5><a href="/program/categories/{{ submission_type }}">{{ this.submission_type }}</a> • <a href="/program/categories/{{ category }}">{{ this.track }}</a></h5>
-              <h6>Prerequisites: <a href="/program/categories/{{ domain_expertise }}">{{ this.domain_expertise }}</a> • <a href="/program/categories/{{ python_skill }}">{{ this.python_skill }}</a></h6>
+
+              prerequisites: </br><a href="/program/categories/{{ domain_expertise }}">{{ this.domain_expertise }}</a> • <a href="/program/categories/{{ python_skill }}">{{ this.python_skill }}</a>
             <h3 class="page-title">{{ this.speakers }}</h3>
+
+<i class="fa fa-lg fa-twitter">
+            <a class="twitter-share-button" target="_blank"
+              href="https://twitter.com/intent/tweet?text={{this.short_description|urlencode}}&url={{ site.config.PROJECT.url }}{{ '.'|url }}&hashtags=PyConDE,PyDataBerlin"
+              data-size="large"
+              data-text="{{this.title}}"
+              data-url="{{ site.config.PROJECT.url }}{{ '.'|url }}"
+              data-hashtags="PyConDE,PyDataBerlin"
+              data-via="pyconde"
+              data-related="pydata">Tweet about it!</a></i>
+
           </header>
+
           <div class="single-content">
             {{ this.body }}
           </div>

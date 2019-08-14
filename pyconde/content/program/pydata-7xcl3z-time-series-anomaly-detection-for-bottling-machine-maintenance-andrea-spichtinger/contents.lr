@@ -6,6 +6,8 @@ title: Time Series Anomaly Detection for Bottling Machine Maintenance
 ---
 description: Anomaly detection in time series data from mechanical motors in bottling machines, set productive on an AWS edge device. #AnomalyDetection #UnsupervisedML #AWS
 ---
+short_description: Anomaly detection in time series data from mechanical motors in bottling machines, set productive on an AWS edge device. #AnomalyDetection #UnsupervisedML #AWS
+---
 twitter_image: /static/media/twitter/7XCL3Z.jpg
 ---
 speakers: Andrea Spichtinger

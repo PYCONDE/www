@@ -6,6 +6,8 @@ title: Leveraging ML to obtain fine-grained (yet reliable) causal estimates from
 ---
 description: How to use machine learning to evaluate randomised experiments and A/B tests
 ---
+short_description: How to use machine learning to evaluate randomised experiments and A/B tests
+---
 twitter_image: /static/media/twitter/ASYFUM.jpg
 ---
 speakers: Maximilian Eber

@@ -6,6 +6,8 @@ title: A Medieval DSL? Parsing Heraldic Blazons with Python
 ---
 description: Did you know that a DSL with variables and recursion was invented when people were still building castles? This DSL describes exactly how to paint a coat of arms. Learn how to write a parser for it, and the tools to make your own DLS
 ---
+short_description: Did you know that a DSL with variables and recursion was invented when people were still building castles? This DSL describes exactly how to paint a coat of arms. Learn how to write a parser for it, and the tools to make your own DLS
+---
 twitter_image: /static/media/twitter/EE33M8.jpg
 ---
 speakers: Lady Red

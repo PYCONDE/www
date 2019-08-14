@@ -6,6 +6,8 @@ title: Docker and Python - A Match made in Heaven
 ---
 description: Learn how to build and ship Python software with Docker Containers.
 ---
+short_description: Learn how to build and ship Python software with Docker Containers.
+---
 twitter_image: /static/media/twitter/VERUFX.jpg
 ---
 speakers: Dr. Hendrik Niemeyer

@@ -6,6 +6,8 @@ title: Airflow: your ally for automating machine learning and data pipelines
 ---
 description: Automate your machine learning and data pipelines with Apache Airflow
 ---
+short_description: Automate your machine learning and data pipelines with Apache Airflow
+---
 twitter_image: /static/media/twitter/7YG8RT.jpg
 ---
 speakers: Enrica Pasqua, Bahadir Uyarer

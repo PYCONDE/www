@@ -6,6 +6,8 @@ title: Is it me, or the GIL?
 ---
 description: People often complain about the GIL, but does your application actually suffer from the GIL?
 ---
+short_description: People often complain about the GIL, but does your application actually suffer from the GIL?
+---
 twitter_image: /static/media/twitter/BHDEAR.jpg
 ---
 speakers: Christoph Heer

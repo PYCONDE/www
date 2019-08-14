@@ -6,6 +6,8 @@ title: Hide Code, Minimize Dependencies, Boost Performance - The PyTorch JIT
 ---
 description: PyTorch makes developing, training and debugging deep neural networks convenient. Learn how to export your trained model using its just-in-time (JIT) compiler to hide your network architecture, minimize code dependencies and use it in the C++ API. It's getting faster, too!
 ---
+short_description: PyTorch makes developing, training and debugging deep neural networks convenient. Learn how to export your trained model using its just-in-time (JIT) compiler to hide your network architecture, minimize code dependencies and use it in the C++ API. It's getting faster, too!
+---
 twitter_image: /static/media/twitter/8N37P9.jpg
 ---
 speakers: Tilman Krokotsch

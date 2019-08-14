@@ -6,6 +6,8 @@ title: 6 Years of Docker: The Good, the Bad and Python Packaging
 ---
 description: In this talk I will walk you through the proper setup of a local python development environment using docker.
 ---
+short_description: In this talk I will walk you through the proper setup of a local python development environment using docker.
+---
 twitter_image: /static/media/twitter/A7FWAW.jpg
 ---
 speakers: Sebastian Neubauer

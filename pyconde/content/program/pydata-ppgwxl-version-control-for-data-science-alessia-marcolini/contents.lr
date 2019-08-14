@@ -6,6 +6,8 @@ title: Version Control for Data Science
 ---
 description: Versioning in Data Science projects can be pretty painful: are you able to track the data sets along with the code itself and some of the resulting models?
 ---
+short_description: Versioning in Data Science projects can be pretty painful: are you able to track the data sets along with the code itself and some of the resulting models?
+---
 twitter_image: /static/media/twitter/PPGWXL.jpg
 ---
 speakers: Alessia Marcolini

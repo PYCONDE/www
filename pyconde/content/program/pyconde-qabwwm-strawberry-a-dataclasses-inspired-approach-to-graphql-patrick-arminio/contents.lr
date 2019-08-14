@@ -6,6 +6,8 @@ title: Strawberry: a dataclasses inspired approach to GraphQL
 ---
 description: Strawberry is a code-first GraphQL library that makes use of dataclasses and type hints.
 ---
+short_description: Strawberry is a code-first GraphQL library that makes use of dataclasses and type hints.
+---
 twitter_image: /static/media/twitter/QABWWM.jpg
 ---
 speakers: Patrick Arminio

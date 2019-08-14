@@ -6,6 +6,8 @@ title: Driving 3D Printers with Python: Lessons Learned
 ---
 description: OctoPrint is an open source web interface for 3D printers and deployed world wide on a large variety of devices. Learn about some of the challenges in developing and maintaining such a piece of end user facing software in Python
 ---
+short_description: OctoPrint is an open source web interface for 3D printers and deployed world wide on a large variety of devices. Learn about some of the challenges in developing and maintaining such a piece of end user facing software in Python
+---
 twitter_image: /static/media/twitter/JQAUEC.jpg
 ---
 speakers: Gina Häußge

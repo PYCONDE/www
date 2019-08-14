@@ -19,15 +19,15 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla:400,700i,700|Poppins:700">
     <link rel="stylesheet" href="/static/css/font-awesome.css?h=0140952c" type="text/css" media="all">
     <link rel="stylesheet" href="/static/style.css?h=28d25877" type="text/css" media="all">
-    <link rel="stylesheet" href="/static/style-custom.css?h=11445aab" type="text/css" media="all">
+    <link rel="stylesheet" href="/static/style-custom.css?h=482718b0" type="text/css" media="all">
 
     <!-- other data for sharing -->
 
     <meta  property="og:title" content="Automated Feature Engineering and Selection in Python  #PyConDE #PyDataBerlin #PyData">
 
     
-        <meta  name="og:image:secure_url" content="https://de.pycon.org/static/media/twitter/Q7KLXV.jpg?h=3f0cc46e">
-        <meta  name="og:image" content="https://de.pycon.org/static/media/twitter/Q7KLXV.jpg?h=3f0cc46e">
+
+        <meta  name="og:image" content="/static/media/twitter/Q7KLXV.jpg?h=3f0cc46e">
     
 
     <meta property="og:description" content="Automated feature engineering and selection in Python with the autofeat library.">
@@ -229,8 +229,10 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-xl-10 offset-xl-1">
-          <header class="page-header text-center">
-            <h2 class="page-title">Automated Feature Engineering and Selection in Python</h2>
+          <header class="page-header text-center short_margin">
+
+              <h2 class="page-title">Automated Feature Engineering and Selection in Python</h2>
+            <h5><a href="/program/categories/">Talk</a> • <a href="/program/categories/">PyData</a></h5>
             <h6>
                 
                 
@@ -257,10 +259,22 @@
               
               
               
-            <h5><a href="/program/categories/talk">Talk</a> • <a href="/program/categories/pydata">PyData</a></h5>
-              <h6>Prerequisites: <a href="/program/categories/domain-expertise-some">Domain Expertise some</a> • <a href="/program/categories/python-skill-level-basic">Python Skill Level basic</a></h6>
+
+              prerequisites: </br><a href="/program/categories/domain-expertise-some">Domain Expertise some</a> • <a href="/program/categories/python-skill-level-basic">Python Skill Level basic</a>
             <h3 class="page-title">Franziska Horn</h3>
+
+<i class="fa fa-lg fa-twitter">
+            <a class="twitter-share-button" target="_blank"
+              href="https://twitter.com/intent/tweet?text=Automated%20feature%20engineering%20and%20selection%20in%20Python%20with%20the%20autofeat%20library.&url=https://de.pycon.org/program/pydata-q7klxv-automated-feature-engineering-and-selection-in-python-franziska-horn/&hashtags=PyConDE,PyDataBerlin"
+              data-size="large"
+              data-text="Automated Feature Engineering and Selection in Python"
+              data-url="https://de.pycon.org/program/pydata-q7klxv-automated-feature-engineering-and-selection-in-python-franziska-horn/"
+              data-hashtags="PyConDE,PyDataBerlin"
+              data-via="pyconde"
+              data-related="pydata">Tweet about it!</a></i>
+
           </header>
+
           <div class="single-content">
             <p>While there already exist several libraries for automatically selecting the best ML model and its hyperparameters for a prediction task, feature engineering is still mostly a manual task. I will present different options for automating the feature engineering and selection process in Python with a focus on the open source <a href="https://github.com/cod3licious/autofeat"><code>autofeat</code> library</a>, which provides a <code>scikit-learn</code> style linear regression model with automated feature engineering and selection capabilities.</p>
 <p>Complex non-linear machine learning models such as neural networks are in practice often difficult to train and even harder to explain to non-statisticians, who require transparent analysis results as a basis for important business decisions. While linear models are efficient and intuitive, they generally provide lower prediction accuracies. The <code>autofeat</code> library provides a multi-step feature engineering and selection process, where first a large pool of non-linear features is generated, from which then a small and robust set of meaningful features is selected, which improve the prediction accuracy of a linear model while retaining its interpretability.</p>

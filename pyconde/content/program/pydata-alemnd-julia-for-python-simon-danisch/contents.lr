@@ -6,6 +6,8 @@ title: Julia for Python
 ---
 description: Julia is a new Language, that is fast, high level, dynamic and optimized for Data Science. Learn about Julia's strengths and how you can integrate it in your Python workflow!
 ---
+short_description: Julia is a new Language, that is fast, high level, dynamic and optimized for Data Science. Learn about Julia's strengths and how you can integrate it in your Python workflow!
+---
 twitter_image: /static/media/twitter/ALEMND.jpg
 ---
 speakers: Simon Danisch

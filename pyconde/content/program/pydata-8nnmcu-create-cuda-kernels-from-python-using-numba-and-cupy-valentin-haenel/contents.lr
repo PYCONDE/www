@@ -6,6 +6,8 @@ title: Create CUDA kernels from Python using Numba and CuPy.
 ---
 description: Learn to program GPUs (e.g. Kernels) in Python with CuPy and Numba.
 ---
+short_description: Learn to program GPUs (e.g. Kernels) in Python with CuPy and Numba.
+---
 twitter_image: /static/media/twitter/8NNMCU.jpg
 ---
 speakers: Valentin Haenel

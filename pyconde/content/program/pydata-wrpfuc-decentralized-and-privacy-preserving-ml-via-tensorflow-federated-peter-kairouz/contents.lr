@@ -6,6 +6,8 @@ title: Decentralized and Privacy-Preserving ML via TensorFlow Federated
 ---
 description: Meet TensorFlow Federated: an open-source framework for machine learning and other computations on decentralized data.
 ---
+short_description: Meet TensorFlow Federated: an open-source framework for machine learning and other computations on decentralized data.
+---
 twitter_image: /static/media/twitter/WRPFUC.jpg
 ---
 speakers: Peter Kairouz

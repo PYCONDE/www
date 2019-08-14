@@ -6,6 +6,8 @@ title: Using adversarial samples to break and robustify your Vision Neural Netwo
 ---
 description: How much time & risk do you have? Ways to robustify your vision NN model before you let it go live.
 ---
+short_description: How much time & risk do you have? Ways to robustify your vision NN model before you let it go live.
+---
 twitter_image: /static/media/twitter/GKHSBP.jpg
 ---
 speakers: Irina Vidal Migallón

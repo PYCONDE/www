@@ -6,6 +6,8 @@ title: Fresh New Pythonic Database: EdgeDB (And Why It's the Future)
 ---
 description: This @edgedatabase talk will cover both the basics (setup, syntax, repl, simple usecase) as well as advanced topics (indexes, performance, complex usecases). We'll also talk history of databases as is
 ---
+short_description: This @edgedatabase talk will cover both the basics (setup, syntax, repl, simple usecase) as well as advanced topics (indexes, performance, complex usecases). We'll also talk history of databases as is
+---
 twitter_image: /static/media/twitter/SGVKVS.jpg
 ---
 speakers: Dmitry Nazarov
