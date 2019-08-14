@@ -7,7 +7,6 @@ PyCon.DE & PyData Berlin 2019 Website
     pip install -r requirements.txt
 
 
-
 Edit Pages
 
     cd pyconde
@@ -22,13 +21,17 @@ The local website is run on
 [http://localhost:5000](http://localhost:5000)
 
 
-Add Atom Plugin
+Build content pages (talks, tutorials, :
 
-https://github.com/ajdavis/lektor-atom
-
-Build Talks and Tutorials (at first place the papercall submissions as
-submissions.json into the root folder), then call:
 
     python process_sessions.py
+    
+ Card validators
+ 
+ Facebook
+ https://developers.facebook.com/tools/debug/sharing/
+ 
+ LinkedIn
+ https://www.linkedin.com/post-inspector/inspect/
 
 
