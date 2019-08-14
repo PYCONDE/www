@@ -105,6 +105,9 @@ def load_speakers():
             if _id == 117:
                 if qa.get('answer').strip() and 'github.com' not in qa.get('answer', ""):
                     speaker['github'] = f"https://github.com/{qa.get('answer').strip()}"
+            if _id == 114:
+                if qa.get('answer').strip() and 'http' not in qa.get('answer', ""):
+                    speaker['homepage'] = f"http://{qa.get('answer').strip()}"
 
         the_speakers.append(speaker)
     with open(speakers_path, 'w') as f:
@@ -376,8 +379,8 @@ _discoverable: no""".format(slug))
 
 if __name__ == "__main__":
     # load_speakers()
-    update_session_pages(use_cache=True)
-    # update_session_pages(use_cache=False)
+    # update_session_pages(use_cache=True)
+    update_session_pages(use_cache=False)
     # save_csv_for_banners()
     # rename_tmp_banners()
     generate_session_pages()

@@ -25,8 +25,7 @@
 
                                 <div class="single-content__share">
                                     <span class="sub-head-2">Share</span>
-                                    <a href="https://twitter.com/intent/tweet?text={{ this.short_description|urlencode }}&url=
-                                            {{ site.config.PROJECT.url }}{{ '.'|url }}&hashtags=PyConDE,PyDataBerlin" } target="_blank">
+                                    <a href="https://twitter.com/intent/tweet?text={{ this.short_description|urlencode }}&url={{ site.config.PROJECT.url }}{{ '.'|url }}&hashtags=PyConDE,PyDataBerlin"} target="_blank">
                                         <i class="fa fa-twitter"></i>
                                     </a>
                                     <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.config.PROJECT.url }}{{ '.'|url }}&title={{ this.title|urlencode }}&summary={{ this.short_description|urlencode }}&source={{ "PyConDE & PYData Berlin 2019"|urlencode }}"
