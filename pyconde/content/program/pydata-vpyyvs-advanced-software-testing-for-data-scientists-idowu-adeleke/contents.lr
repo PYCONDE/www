@@ -32,9 +32,17 @@ python_skill: Python Skill Level guru
 ---
 domain_expertise: Domain Expertise expert
 ---
-meta_title: Advanced Software Testing for Data Scientists  #PyConDE #PyDataBerlin #PyData
+room: Saal 6
 ---
-categories: pydata, python-skill-level-guru, domain-expertise-expert, talk, big-data, data-science
+start_time: 14:35
+---
+day: thursday
+---
+meta_title: Advanced Software Testing for Data Scientists @ #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-guru, domain-expertise-expert, talk, big-data, data-science, thursday, thursday-1435
+---
+slugified_slot_links: thursday, thursday-1435
 ---
 body: So you are in the middle of a project to develop a new machine learning algorithm which will be a core part of your product. Cool! But how do you know that your algorithm really works?
 

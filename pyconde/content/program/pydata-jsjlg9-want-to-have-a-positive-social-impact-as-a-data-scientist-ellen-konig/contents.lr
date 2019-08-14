@@ -34,9 +34,17 @@ python_skill: Python Skill Level none
 ---
 domain_expertise: Domain Expertise none
 ---
-meta_title: Want to have a positive social impact as a data scientist? ellen_koenig #PyConDE #PyDataBerlin #PyData
+room: Saal 4
 ---
-categories: pydata, python-skill-level-none, domain-expertise-none, talk, community, data-science
+start_time: 11:50
+---
+day: thursday
+---
+meta_title: Want to have a positive social impact as a data scientist? @ellen_koenig #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-none, domain-expertise-none, talk, community, data-science, thursday, thursday-1150
+---
+slugified_slot_links: thursday, thursday-1150
 ---
 body: As a community, we know we can contribute more than just doctoring startup growth numbers or optimizing ad clicks. But how?
 

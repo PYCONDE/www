@@ -34,9 +34,17 @@ python_skill: Python Skill Level guru
 ---
 domain_expertise: Domain Expertise guru
 ---
-meta_title: Chips Made From Python dan_fritchman #PyConDE #PyDataBerlin #PyData
+room: Saal 4
 ---
-categories: pyconde, python-skill-level-guru, domain-expertise-guru, talk, microcontrollers, parallel-programming, science, makers
+start_time: 16:05
+---
+day: thursday
+---
+meta_title: Chips Made From Python @dan_fritchman #PyConDE #PyDataBerlin #PyData
+---
+categories: pyconde, python-skill-level-guru, domain-expertise-guru, talk, microcontrollers, parallel-programming, science, makers, thursday, thursday-1605
+---
+slugified_slot_links: thursday, thursday-1605
 ---
 body: Chip design does not often tend to be thought of as *programming*, although a complex system-on-chip (SoC) is generally crafted through thousands or millions of lines of code. 
 

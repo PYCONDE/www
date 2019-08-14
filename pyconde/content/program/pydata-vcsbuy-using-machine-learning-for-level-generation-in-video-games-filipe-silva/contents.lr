@@ -36,9 +36,17 @@ python_skill: Python Skill Level basic
 ---
 domain_expertise: Domain Expertise some
 ---
-meta_title: Using machine learning for Level Generation in video-games Filipedls #PyConDE #PyDataBerlin #PyData
+room: Saal 5
 ---
-categories: pydata, python-skill-level-basic, domain-expertise-some, tutorial, data-science, machine-learning
+start_time: 13:45
+---
+day: friday
+---
+meta_title: Using machine learning for Level Generation in video-games @Filipedls #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-basic, domain-expertise-some, tutorial, data-science, machine-learning, friday, friday-1345
+---
+slugified_slot_links: friday, friday-1345
 ---
 body: In some video-games, the level and environment generation uses random variables that are usually sampled from uniformed distributions. Or in some cases, these variables are even manually programmed.
 The different game experiences, like levels of difficulty, are usually achieved by truncating these distributions to increase the chances of obtaining a sample that translates in a particular game experience, for example, a harder game. In simple games, this is done commonly by just increasing the speed of the game, without changing the way these variable are sampled.

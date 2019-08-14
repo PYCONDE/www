@@ -38,9 +38,17 @@ python_skill: Python Skill Level basic
 ---
 domain_expertise: Domain Expertise some
 ---
-meta_title: Visualizing Networks in Python jan_jagusch #PyConDE #PyDataBerlin #PyData
+room: Saal 4
 ---
-categories: pydata, python-skill-level-basic, domain-expertise-some, talk, deep-learning, data-science, networks, visualisation
+start_time: 11:50
+---
+day: wednesday
+---
+meta_title: Visualizing Networks in Python @jan_jagusch #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-basic, domain-expertise-some, talk, deep-learning, data-science, networks, visualisation, wednesday, wednesday-1150
+---
+slugified_slot_links: wednesday, wednesday-1150
 ---
 body: What does your company's order-to-ship process, your friends on social media and your trained deep learning model have in common? In fact, all of them are networks of some sort! As network data seems to become increasingly more important, why not learn how to produce some impressive network visualizations in Python?
 

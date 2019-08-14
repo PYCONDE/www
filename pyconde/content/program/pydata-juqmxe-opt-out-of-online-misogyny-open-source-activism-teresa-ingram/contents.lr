@@ -30,9 +30,17 @@ python_skill: Python Skill Level none
 ---
 domain_expertise: Domain Expertise none
 ---
-meta_title: Opt Out of Online Misogyny – Open Source Activism  #PyConDE #PyDataBerlin #PyData
+room: Saal 10
 ---
-categories: pydata, python-skill-level-none, domain-expertise-none, talk, community, natural-language-processing, machine-learning
+start_time: 14:35
+---
+day: friday
+---
+meta_title: Opt Out of Online Misogyny – Open Source Activism @ #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-none, domain-expertise-none, talk, community, natural-language-processing, machine-learning, friday, friday-1435
+---
+slugified_slot_links: friday, friday-1435
 ---
 body: Although cyber violence and online abuse is experienced by all genders, the abuse experienced by female identifying people is often misogynistic in nature. Online threats of violence against these people are often sexualized and include specific references to their bodies, often including rape threats. This pushes them offline, negatively affecting their mental health, social well-being, political representation and economic potential.
 

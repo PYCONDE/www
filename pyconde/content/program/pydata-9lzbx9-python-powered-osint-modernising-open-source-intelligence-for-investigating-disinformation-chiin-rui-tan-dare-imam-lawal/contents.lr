@@ -55,9 +55,17 @@ python_skill: Python Skill Level basic
 ---
 domain_expertise: Domain Expertise none
 ---
-meta_title: Python-Powered OSINT! Modernising Open Source Intelligence for Investigating Disinformation AnalyticsPanda #PyConDE #PyDataBerlin #PyData
+room: Saal 2
 ---
-categories: pydata, python-skill-level-basic, domain-expertise-none, talk, artificial-intelligence, algorithms, data-science, machine-learning, web, data-mining-scraping, use-cases
+start_time: 15:30
+---
+day: wednesday
+---
+meta_title: Python-Powered OSINT! Modernising Open Source Intelligence for Investigating Disinformation @AnalyticsPanda #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-basic, domain-expertise-none, talk, artificial-intelligence, algorithms, data-science, machine-learning, web, data-mining-scraping, use-cases, wednesday, wednesday-1530
+---
+slugified_slot_links: wednesday, wednesday-1530
 ---
 body: **What is OSINT? And who cares?**            
 

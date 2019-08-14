@@ -38,9 +38,17 @@ python_skill: Python Skill Level none
 ---
 domain_expertise: Domain Expertise some
 ---
-meta_title: Loss Function Theory 101  #PyConDE #PyDataBerlin #PyData
+room: Saal 4
 ---
-categories: pydata, python-skill-level-none, domain-expertise-some, talk, artificial-intelligence, algorithms, deep-learning, data-science, machine-learning, statistics
+start_time: 10:50
+---
+day: friday
+---
+meta_title: Loss Function Theory 101 @ #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-none, domain-expertise-some, talk, artificial-intelligence, algorithms, deep-learning, data-science, machine-learning, statistics, friday, friday-1050
+---
+slugified_slot_links: friday, friday-1050
 ---
 body: Well, you probably know that mean squared error is a good default choice for training machine learning models on regression tasks while cross entropy is commonly recommended for classification. (No worries if not, you will be able to understand the talk nevertheless.) But, do you also know why this is the case? Why these loss functions can be used for machine learning at all, and when you should consider an alternative? No? Great! This talk is for you. 
 

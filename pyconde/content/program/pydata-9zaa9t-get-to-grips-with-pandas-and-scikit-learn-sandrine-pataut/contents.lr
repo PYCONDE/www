@@ -38,9 +38,17 @@ python_skill: Python Skill Level basic
 ---
 domain_expertise: Domain Expertise none
 ---
-meta_title: Get to grips with pandas and scikit-learn SPataut #PyConDE #PyDataBerlin #PyData
+room: Saal 5
 ---
-categories: pydata, python-skill-level-basic, domain-expertise-none, tutorial, algorithms, data-science, machine-learning
+start_time: 11:30
+---
+day: wednesday
+---
+meta_title: Get to grips with pandas and scikit-learn @SPataut #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-basic, domain-expertise-none, tutorial, algorithms, data-science, machine-learning, wednesday, wednesday-1130
+---
+slugified_slot_links: wednesday, wednesday-1130
 ---
 body: We hear a lot about Machine Learning, but it’s just one part of a bigger process. Before applying any algorithm to a data set, discovery and preparation are needed. This hands-on workshop will cover an end-to-end classification project, from importing the data to evaluating a model performance. After this tutorial, you will have completed a step by step Machine Learning workflow.
 

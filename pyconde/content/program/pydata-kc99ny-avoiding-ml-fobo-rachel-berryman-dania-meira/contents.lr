@@ -50,9 +50,17 @@ python_skill: Python Skill Level basic
 ---
 domain_expertise: Domain Expertise some
 ---
-meta_title: Avoiding ML FOBO  #PyConDE #PyDataBerlin #PyData
+room: Saal 2
 ---
-categories: pydata, python-skill-level-basic, domain-expertise-some, talk, algorithms, business-start-ups, data-science, machine-learning
+start_time: 12:25
+---
+day: thursday
+---
+meta_title: Avoiding ML FOBO @ #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-basic, domain-expertise-some, talk, algorithms, business-start-ups, data-science, machine-learning, thursday, thursday-1225
+---
+slugified_slot_links: thursday, thursday-1225
 ---
 body: FOMO is the fear of missing out. FOBO is similar- the fear of a better option. FOBO gives a name to that spiral we fall into when we obsessively research every possible option when faced with a decision, fearing we’ll miss out on the “best” one.
 When starting a new machine learning project, just the thought and the reality that we'll never be able to examine every possible algorithm, package, tool and/or technology before making a decision can be overwhelming and it can easily block us. What if we make the wrong decision and don't bring enough value? What if what we choose to use isn't "state-of-the-art"?

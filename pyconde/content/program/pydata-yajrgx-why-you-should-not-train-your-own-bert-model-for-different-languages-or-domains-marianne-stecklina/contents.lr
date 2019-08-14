@@ -34,9 +34,17 @@ python_skill: Python Skill Level basic
 ---
 domain_expertise: Domain Expertise expert
 ---
-meta_title: Why you should (not) train your own BERT model for different languages or domains MStecklina #PyConDE #PyDataBerlin #PyData
+room: Saal 6
 ---
-categories: pydata, python-skill-level-basic, domain-expertise-expert, talk, artificial-intelligence, deep-learning, data-science, natural-language-processing, machine-learning, science
+start_time: 14:35
+---
+day: wednesday
+---
+meta_title: Why you should (not) train your own BERT model for different languages or domains @MStecklina #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-basic, domain-expertise-expert, talk, artificial-intelligence, deep-learning, data-science, natural-language-processing, machine-learning, science, wednesday, wednesday-1435
+---
+slugified_slot_links: wednesday, wednesday-1435
 ---
 body: Large pre-trained language models play an important role in recent NLP research. They can learn general language features from unlabeled data, and then be easily fine-tuned for any supervised NLP task, e.g. classification or named entity recognition. BERT (Bidirectional Encoder Representations from Transformers) is one example of a language model, pre-trained weights are available for everyone to use. 
 

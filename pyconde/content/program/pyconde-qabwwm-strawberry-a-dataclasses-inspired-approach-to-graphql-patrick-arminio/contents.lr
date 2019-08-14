@@ -34,9 +34,17 @@ python_skill: Python Skill Level basic
 ---
 domain_expertise: Domain Expertise some
 ---
-meta_title: Strawberry: a dataclasses inspired approach to GraphQL patrick91 #PyConDE #PyDataBerlin #PyData
+room: Saal 10
 ---
-categories: pyconde, python-skill-level-basic, domain-expertise-some, talk, django, web
+start_time: 10:50
+---
+day: friday
+---
+meta_title: Strawberry: a dataclasses inspired approach to GraphQL @patrick91 #PyConDE #PyDataBerlin #PyData
+---
+categories: pyconde, python-skill-level-basic, domain-expertise-some, talk, django, web, friday, friday-1050
+---
+slugified_slot_links: friday, friday-1050
 ---
 body: Over the past few years, GraphQL has gained much traction, especially in the JavaScript world. Python is getting on board this trend with new interesting libraries. In this talk, we will see how Strawberry makes uses of dataclasses and type hints to easily create GraphQL APIs.
 

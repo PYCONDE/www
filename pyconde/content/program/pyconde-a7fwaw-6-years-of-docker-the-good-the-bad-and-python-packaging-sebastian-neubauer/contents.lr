@@ -34,9 +34,17 @@ python_skill: Python Skill Level expert
 ---
 domain_expertise: Domain Expertise some
 ---
-meta_title: 6 Years of Docker: The Good, the Bad and Python Packaging sebineubauer #PyConDE #PyDataBerlin #PyData
+room: Saal 2
 ---
-categories: pyconde, python-skill-level-expert, domain-expertise-some, talk, devops, infrastructure, ides-jupyter, use-cases
+start_time: 10:50
+---
+day: thursday
+---
+meta_title: 6 Years of Docker: The Good, the Bad and Python Packaging @sebineubauer #PyConDE #PyDataBerlin #PyData
+---
+categories: pyconde, python-skill-level-expert, domain-expertise-some, talk, devops, infrastructure, ides-jupyter, use-cases, thursday, thursday-1050
+---
+slugified_slot_links: thursday, thursday-1050
 ---
 body: It is a little known fact, that docker was presented the first time to the world in a demo by Solomon Hykes at the PyCon US in Santa Clara in 2013. Furthermore, docker-compose (formerly known as Fig) is entirely written in python. This may lead to the impression, that docker and python is pure love and a match made in heaven. While for some use-cases this is true. But local development of python code inside a docker container is surprisingly broken, at least if you want to do it right. 
 In this talk I will walk you through the proper setup of a local python development environment using docker. Including sane packaging, testing, automated setup in version control, IDE integration, docker-compose and more. I will share with you all the tiny surprises I encountered and you might have stumbled over yourself already too. As a spoiler, I will not be able to give nice solutions to all of them. But it might help you, to not feel stupid the next time you face one of them: Good news, probably it’s not you!

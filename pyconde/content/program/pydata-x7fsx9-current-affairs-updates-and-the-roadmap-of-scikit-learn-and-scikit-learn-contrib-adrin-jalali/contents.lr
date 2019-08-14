@@ -34,9 +34,17 @@ python_skill: Python Skill Level expert
 ---
 domain_expertise: Domain Expertise expert
 ---
-meta_title: Current affairs, updates, and the roadmap of scikit-learn and scikit-learn-contrib  #PyConDE #PyDataBerlin #PyData
+room: Saal 2
 ---
-categories: pydata, python-skill-level-expert, domain-expertise-expert, talk, artificial-intelligence, community, code-review, machine-learning
+start_time: 14:35
+---
+day: thursday
+---
+meta_title: Current affairs, updates, and the roadmap of scikit-learn and scikit-learn-contrib @ #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-expert, domain-expertise-expert, talk, artificial-intelligence, community, code-review, machine-learning, thursday, thursday-1435
+---
+slugified_slot_links: thursday, thursday-1435
 ---
 body: [Scikit-learn](https://scikit-learn.org/stable/) a package used by many machine learning students, enthusiasts, and data scientists, has over 35000 stars, 17000 forks, 1200 open issues, and 700 open pull requests.
 

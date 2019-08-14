@@ -36,9 +36,17 @@ python_skill: Python Skill Level none
 ---
 domain_expertise: Domain Expertise none
 ---
-meta_title: Event-Sourced Story unit03 #PyConDE #PyDataBerlin #PyData
+room: Saal 2
 ---
-categories: pyconde, python-skill-level-none, domain-expertise-none, talk, use-cases
+start_time: 14:35
+---
+day: friday
+---
+meta_title: Event-Sourced Story @unit03 #PyConDE #PyDataBerlin #PyData
+---
+categories: pyconde, python-skill-level-none, domain-expertise-none, talk, use-cases, friday, friday-1435
+---
+slugified_slot_links: friday, friday-1435
 ---
 body: Popularity of event sourcing among Python developers seems to be moderate but growing. It can be seen as an enterprise architectural pattern, not worth considering in "smaller" applications.
 

@@ -34,9 +34,17 @@ python_skill: Python Skill Level basic
 ---
 domain_expertise: Domain Expertise some
 ---
-meta_title: A Bayesian Workflow with PyMC and ArviZ corrieaar #PyConDE #PyDataBerlin #PyData
+room: Hauptsaal
 ---
-categories: pydata, python-skill-level-basic, domain-expertise-some, talk, data-science, statistics
+start_time: 12:25
+---
+day: friday
+---
+meta_title: A Bayesian Workflow with PyMC and ArviZ @corrieaar #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-basic, domain-expertise-some, talk, data-science, statistics, friday, friday-1225
+---
+slugified_slot_links: friday, friday-1225
 ---
 body: There are several reasons why we might want to use a Bayesian Model: It can handle well the uncertainty that comes with small data and also allows for the incorporation of domain knowledge by virtue of using priors. However, implementing such a model is usually not as straight-forward as importing a model from scikit-learn. Then there is also the question on how to pick the right prior and how to check if your model actually converged, both tasks that might seem daunting for anyone starting out with Bayesian modelling. In this talk, I will show the basic Bayesian workflow, starting with some guidelines on how to pick a fitting prior for your problem, how to check model convergence and how to do model comparison. To exemplify the workflow, I will use the real-world problem of predicting house prices in Berlin.
 For the modelling, the Python package `PyMC3` is used and for visualization and model checking, the package `ArviZ` is used.

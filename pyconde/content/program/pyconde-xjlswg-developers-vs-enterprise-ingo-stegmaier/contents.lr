@@ -48,9 +48,17 @@ python_skill: Python Skill Level basic
 ---
 domain_expertise: Domain Expertise expert
 ---
-meta_title: Developers vs. Enterprise  #PyConDE #PyDataBerlin #PyData
+room: Saal 4
 ---
-categories: pyconde, python-skill-level-basic, domain-expertise-expert, talk, community, use-cases
+start_time: 15:30
+---
+day: wednesday
+---
+meta_title: Developers vs. Enterprise @ #PyConDE #PyDataBerlin #PyData
+---
+categories: pyconde, python-skill-level-basic, domain-expertise-expert, talk, community, use-cases, wednesday, wednesday-1530
+---
+slugified_slot_links: wednesday, wednesday-1530
 ---
 body: This 30-minute talk will give you an overview about project management, success factors and specialties within enterprises. This will be a guide how you promote internal projects and bring them to success within a highly "political" environment.
 

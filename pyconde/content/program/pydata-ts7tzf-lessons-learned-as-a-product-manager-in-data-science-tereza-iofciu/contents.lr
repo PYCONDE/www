@@ -36,9 +36,17 @@ python_skill: Python Skill Level expert
 ---
 domain_expertise: Domain Expertise expert
 ---
-meta_title: Lessons Learned as a Product Manager in Data Science terezaif #PyConDE #PyDataBerlin #PyData
+room: Saal 6
 ---
-categories: pydata, python-skill-level-expert, domain-expertise-expert, talk, business-start-ups, data-science, machine-learning
+start_time: 14:35
+---
+day: friday
+---
+meta_title: Lessons Learned as a Product Manager in Data Science @terezaif #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-expert, domain-expertise-expert, talk, business-start-ups, data-science, machine-learning, friday, friday-1435
+---
+slugified_slot_links: friday, friday-1435
 ---
 body: From answering simple data questions, building cool visualisations, to building machine learning solutions and bringing them to production, these are all skills expected from data science teams. 
 

@@ -36,9 +36,17 @@ python_skill: Python Skill Level basic
 ---
 domain_expertise: Domain Expertise none
 ---
-meta_title: Quantum computing with Python decodoku #PyConDE #PyDataBerlin #PyData
+room: Saal 5
 ---
-categories: pydata, python-skill-level-basic, domain-expertise-none, tutorial, algorithms, infrastructure, science, apis
+start_time: 15:15
+---
+day: thursday
+---
+meta_title: Quantum computing with Python @decodoku #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-basic, domain-expertise-none, tutorial, algorithms, infrastructure, science, apis, thursday, thursday-1515
+---
+slugified_slot_links: thursday, thursday-1515
 ---
 body: One area in which Python has gained a great deal of ground in recent years is quantum computing. Though quantum computers represent a fundamentally new form of hardware, and will require very different software to be written, the design of algorithms and handling of inputs and outputs will all be done via conventional programming. There are now a handful of frameworks being built to meet this need, and all but one are based on Python.
 

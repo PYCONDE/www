@@ -34,9 +34,17 @@ python_skill: Python Skill Level none
 ---
 domain_expertise: Domain Expertise none
 ---
-meta_title: Optimizing Input: Building your own customized keyboard misterrios #PyConDE #PyDataBerlin #PyData
+room: Saal 2
 ---
-categories: pyconde, python-skill-level-none, domain-expertise-none, talk, community, microcontrollers, makers
+start_time: 11:50
+---
+day: friday
+---
+meta_title: Optimizing Input: Building your own customized keyboard @misterrios #PyConDE #PyDataBerlin #PyData
+---
+categories: pyconde, python-skill-level-none, domain-expertise-none, talk, community, microcontrollers, makers, friday, friday-1150
+---
+slugified_slot_links: friday, friday-1150
 ---
 body: As computer users, we spend copious amounts of time in front of screens, but, as writers and editors of text, we tend to ignore or overlook the way we most directly interact with our development environments, the keyboard.
 

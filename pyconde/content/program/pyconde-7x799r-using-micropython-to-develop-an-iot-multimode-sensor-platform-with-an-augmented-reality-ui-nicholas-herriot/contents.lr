@@ -34,9 +34,17 @@ python_skill: Python Skill Level basic
 ---
 domain_expertise: Domain Expertise none
 ---
-meta_title: Using Micropython to develop an IoT multimode sensor platform with an Augmented Reality UI nicholasherriot #PyConDE #PyDataBerlin #PyData
+room: Saal 6
 ---
-categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, augmented-reality, networks, microcontrollers, visualisation
+start_time: 16:05
+---
+day: wednesday
+---
+meta_title: Using Micropython to develop an IoT multimode sensor platform with an Augmented Reality UI @nicholasherriot #PyConDE #PyDataBerlin #PyData
+---
+categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, augmented-reality, networks, microcontrollers, visualisation, wednesday, wednesday-1605
+---
+slugified_slot_links: wednesday, wednesday-1605
 ---
 body: ## Who is this for ##
 Anyone with a curious mind and interested in how to marry the physical world and IoT with the virtual. This talk is pitched at intermediate, but for beginners extensive documentation and a github repo will be available to read and learn from.

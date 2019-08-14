@@ -35,9 +35,17 @@ python_skill: Python Skill Level basic
 ---
 domain_expertise: Domain Expertise none
 ---
-meta_title: Getting started with FPGA with Python  #PyConDE #PyDataBerlin #PyData
+room: Saal 4
 ---
-categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, microcontrollers
+start_time: 15:30
+---
+day: thursday
+---
+meta_title: Getting started with FPGA with Python @ #PyConDE #PyDataBerlin #PyData
+---
+categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, microcontrollers, thursday, thursday-1530
+---
+slugified_slot_links: thursday, thursday-1530
 ---
 body: FPGA is becoming more and more popular in many fields such as IOT, video processing. It also used to make computations for machine learning and trading technologies more effective. 
 Unfortunately for newbies to this technology, it is quite complicated and usually requires using specific languages: Verilog and/or VHDL. But with frameworks such as myVDL and PYNQ Python developers also can explore these opportunities. 

@@ -39,6 +39,15 @@
                             <div class="single-content">
 
                                 <div class="single-content__tags">
+                                <h6>{{ this.day|title }} {{ this.start_time }} in {{ this.room|title }}
+{#                                    <span class="sub-head-2">When&nbsp;&nbsp;&nbsp;&nbsp;</span>#}
+                                    {% for ts in this.slugified_slot_links.split(', ') %}
+                                        {% set domain_slug = ts.lower().replace(' ', '-').replace('/', '-').replace('---', '-').replace('--', '-') %}
+                                        <a href="/program/categories/{{ ts }}">{{ ts }}</a>
+                                    {% endfor %}</h6>
+                                </div>
+
+                                <div class="single-content__tags">
                                     <span class="sub-head-2">Type/Track</span>
                                     <a href="/program/categories/{{ submission_type }}">{{ this.submission_type }}</a>
                                     <a href="/program/categories/{{ category }}">{{ this.track }}</a>

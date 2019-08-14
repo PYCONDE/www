@@ -36,9 +36,17 @@ python_skill: Python Skill Level basic
 ---
 domain_expertise: Domain Expertise none
 ---
-meta_title: pytest - simple, rapid and fun testing with Python the_compiler #PyConDE #PyDataBerlin #PyData
+room: Saal 7
 ---
-categories: pyconde, python-skill-level-basic, domain-expertise-none, tutorial, infrastructure
+start_time: 15:15
+---
+day: wednesday
+---
+meta_title: pytest - simple, rapid and fun testing with Python @the_compiler #PyConDE #PyDataBerlin #PyData
+---
+categories: pyconde, python-skill-level-basic, domain-expertise-none, tutorial, infrastructure, wednesday, wednesday-1515
+---
+slugified_slot_links: wednesday, wednesday-1515
 ---
 body: The pytest tool presents a rapid and simple way to write tests for your Python
 code. This training gives an introduction with exercises to some

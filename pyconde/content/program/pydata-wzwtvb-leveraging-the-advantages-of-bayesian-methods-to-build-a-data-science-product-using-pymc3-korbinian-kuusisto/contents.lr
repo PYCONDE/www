@@ -34,9 +34,17 @@ python_skill: Python Skill Level basic
 ---
 domain_expertise: Domain Expertise expert
 ---
-meta_title: Leveraging the advantages of Bayesian Methods to build a data science product using PyMC3 kuusisto_k #PyConDE #PyDataBerlin #PyData
+room: Hauptsaal
 ---
-categories: pydata, python-skill-level-basic, domain-expertise-expert, talk, algorithms, business-start-ups, data-science, machine-learning, science, statistics
+start_time: 11:50
+---
+day: friday
+---
+meta_title: Leveraging the advantages of Bayesian Methods to build a data science product using PyMC3 @kuusisto_k #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-basic, domain-expertise-expert, talk, algorithms, business-start-ups, data-science, machine-learning, science, statistics, friday, friday-1150
+---
+slugified_slot_links: friday, friday-1150
 ---
 body: Bayesian frameworks offer powerful theoretical advantages: they can take advantage of prior information and provide a better sense of uncertainty. 
 

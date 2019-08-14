@@ -24,6 +24,7 @@ submissions_path = Path('_private/submissions.json')
 speakers_path = Path('_private/speakers.json')
 clean_submissions_f = "pyconde/databags/submissions"  # filepath w/o extention
 clean_speakers_f = "pyconde/databags/speakers"  # filepath w/o extention
+schedule__path = Path("pyconde/databags/schedule_databag.json")  # may be added later
 
 
 def get_from_pretalx_api(url, params=None):
@@ -148,6 +149,25 @@ def gen_gravatar(email):
     return "https://www.gravatar.com/avatar/{}".format(h)
 
 
+def load_schedule():
+    the_schedule = {}
+    if not schedule__path.exists():
+        return
+    schedule = json.load(schedule__path.open())
+    for d in schedule['dates']:
+        for r in d['rooms']:
+            for s in r['sessions']:
+                if s.get('code'):
+                    the_schedule[s['code']] = {
+                        'time': d['day'].split(',')[0].lower() + "-" + s['time'],
+                        'day': d['day'].split(',')[0].lower(),
+                        'room': r['room_name'],
+                        'start_time': s['time']
+                    }
+    return the_schedule
+
+
+
 def update_session_pages(use_cache=False):
     """
     Refactored for 2019 setup
@@ -264,15 +284,25 @@ python_skill: {python_skill}
 ---
 domain_expertise: {domain_expertise}
 ---
+room: {room}
+---
+start_time: {start_time}
+---
+day: {day}
+---
 meta_title: {meta_title}
 ---
 categories: {categories_list}
+---
+slugified_slot_links: {slugified_slot_links}
 ---
 body: {body}
 
 """
     all_categories = {}  # collect categories automatically add newly discovered ones
     redirects = {}  # simple url with talk code redirecting to full url, used for auto urls from other systems
+
+    the_schedule = load_schedule()
 
     for submission in cleaned_submissions:
 
@@ -303,7 +333,7 @@ body: {body}
         biography = '\n\n'.join(biography)
 
         speaker_twitters = ' '.join([x.get('@twitter') for x in submission['speakers'] if x.get('@twitter')])
-        meta_title = f"{submission['title']} {speaker_twitters} #PyConDE #PyDataBerlin #PyData"
+        meta_title = f"{submission['title']} @{speaker_twitters} #PyConDE #PyDataBerlin #PyData"
 
         # easier to handle on website as full text
         python_skill = f"Python Skill Level {submission['python_skill']}"
@@ -312,7 +342,16 @@ body: {body}
         domains = submission['domains']
 
         categories = [submission['track'], python_skill, domain_expertise] + [submission['submission_type'].split(' ')[0]] + domains.split(', ')
+
+        # add date and session start time for navidgation
+        slot_links = []
+        if submission.get('code') and the_schedule.get(submission.get('code')):
+            start_time, room = the_schedule[submission['code']]['start_time'], the_schedule[submission['code']]['room']
+            day = the_schedule[submission['code']]['day']
+            slot_links = [day, the_schedule[submission['code']]['time']]
+        categories = categories + slot_links
         slugified_categories = [slugify(x) for x in categories]
+        slugified_slot_links = ', '.join([slugify(x) for x in slot_links])
         categories_list = ', '.join(slugified_categories)
         all_categories.update({slugify(x).replace('---', '-').replace('--', '-'): x for x in categories})
 
@@ -347,6 +386,10 @@ body: {body}
                 categories_list=categories_list,
                 python_skill=python_skill,
                 domain_expertise=domain_expertise,
+                slugified_slot_links=slugified_slot_links,
+                start_time=start_time,
+                room=room,
+                day=day,
             ))
     if in_place_submissions:  # leftover dirs
         for zombie in in_place_submissions:
@@ -379,8 +422,8 @@ _discoverable: no""".format(slug))
 
 if __name__ == "__main__":
     # load_speakers()
-    # update_session_pages(use_cache=True)
-    update_session_pages(use_cache=False)
+    update_session_pages(use_cache=True)
+    # update_session_pages(use_cache=False)
     # save_csv_for_banners()
     # rename_tmp_banners()
     generate_session_pages()

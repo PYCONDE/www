@@ -34,9 +34,17 @@ python_skill: Python Skill Level none
 ---
 domain_expertise: Domain Expertise none
 ---
-meta_title: Commenting code — beyond common wisdom  #PyConDE #PyDataBerlin #PyData
+room: Saal 10
 ---
-categories: pyconde, python-skill-level-none, domain-expertise-none, talk, code-review
+start_time: 16:05
+---
+day: thursday
+---
+meta_title: Commenting code — beyond common wisdom @ #PyConDE #PyDataBerlin #PyData
+---
+categories: pyconde, python-skill-level-none, domain-expertise-none, talk, code-review, thursday, thursday-1605
+---
+slugified_slot_links: thursday, thursday-1605
 ---
 body: I'm convinced that good code comments are very important for
 software maintainability.

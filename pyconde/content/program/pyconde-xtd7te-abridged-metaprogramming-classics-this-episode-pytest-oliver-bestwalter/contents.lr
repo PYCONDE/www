@@ -36,9 +36,17 @@ python_skill: Python Skill Level basic
 ---
 domain_expertise: Domain Expertise none
 ---
-meta_title: Abridged metaprogramming classics - this episode: pytest obestwalter #PyConDE #PyDataBerlin #PyData
+room: Saal 2
 ---
-categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, algorithms, code-review, apis, use-cases
+start_time: 10:50
+---
+day: friday
+---
+meta_title: Abridged metaprogramming classics - this episode: pytest @obestwalter #PyConDE #PyDataBerlin #PyData
+---
+categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, algorithms, code-review, apis, use-cases, friday, friday-1050
+---
+slugified_slot_links: friday, friday-1050
 ---
 body: We will make a tour through the  [pytest](https://pypi.org/project/pytest/) core features and see how a lot of them are implemented using metaprogramming techniques like introspection/reflection, AST manipulation and other clever uses of Pythons Data and execution mod.
 

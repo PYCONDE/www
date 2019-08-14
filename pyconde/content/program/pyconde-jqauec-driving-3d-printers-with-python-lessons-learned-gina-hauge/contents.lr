@@ -34,9 +34,17 @@ python_skill: Python Skill Level basic
 ---
 domain_expertise: Domain Expertise none
 ---
-meta_title: Driving 3D Printers with Python: Lessons Learned foosel #PyConDE #PyDataBerlin #PyData
+room: Saal 10
 ---
-categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, web, 3d-priniting, makers
+start_time: 12:25
+---
+day: friday
+---
+meta_title: Driving 3D Printers with Python: Lessons Learned @foosel #PyConDE #PyDataBerlin #PyData
+---
+categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, web, 3d-priniting, makers, friday, friday-1225
+---
+slugified_slot_links: friday, friday-1225
 ---
 body: With OctoPrint I've created an open source web interface for consumer 3D printers that allows to control all aspects of the printer and ongoing print job and is extensible by plugins. OctoPrint's server side is written in Python and installed by end users on their own devices. In this talk I want to give a short overview of its architecture, provide some insight into the various challenges of developing and maintaining such a piece of end user facing software in Python and how I tackled them.
 

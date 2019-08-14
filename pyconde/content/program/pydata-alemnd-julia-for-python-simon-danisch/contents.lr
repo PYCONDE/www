@@ -34,9 +34,17 @@ python_skill: Python Skill Level basic
 ---
 domain_expertise: Domain Expertise expert
 ---
-meta_title: Julia for Python SimonDanisch #PyConDE #PyDataBerlin #PyData
+room: Saal 10
 ---
-categories: pydata, python-skill-level-basic, domain-expertise-expert, talk, data-science, infrastructure, ides-jupyter, parallel-programming
+start_time: 14:35
+---
+day: wednesday
+---
+meta_title: Julia for Python @SimonDanisch #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-basic, domain-expertise-expert, talk, data-science, infrastructure, ides-jupyter, parallel-programming, wednesday, wednesday-1435
+---
+slugified_slot_links: wednesday, wednesday-1435
 ---
 body: You have performance problems with your Python code but are sick of rewriting it in Cython/C/C++? Julia might just be the language to solve your problems. 
 It's ease of use rivals that of Python, but it runs as fast as C. It has a powerful, optional type system, which is great for writing high level and generic code.

@@ -34,9 +34,17 @@ python_skill: Python Skill Level expert
 ---
 domain_expertise: Domain Expertise expert
 ---
-meta_title: Should I stay or should I go? Optimal exercise decisions using the Longstaff-Schwartz algorithm  #PyConDE #PyDataBerlin #PyData
+room: Saal 2
 ---
-categories: pydata, python-skill-level-expert, domain-expertise-expert, talk, algorithms, business-start-ups, data-science, science, statistics
+start_time: 15:30
+---
+day: thursday
+---
+meta_title: Should I stay or should I go? Optimal exercise decisions using the Longstaff-Schwartz algorithm @ #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-expert, domain-expertise-expert, talk, algorithms, business-start-ups, data-science, science, statistics, thursday, thursday-1530
+---
+slugified_slot_links: thursday, thursday-1530
 ---
 body: A common problem in mathematical finance is the evaluation of exercise options (enter or cancel rights) in financial contracts. A typical example is an American equity option that allows the investor at any given day to buy (or sell) a stock at a fixed price. The owner has to decide every day whether to exercise the option or to hold it and exercise later. Another example is a corporate bond that can be canceled by the issuer at several dates before its maturity. More general, a situation where a company or an investor can opt in or opt out of a business or contract can be framed as an exercise option.
 

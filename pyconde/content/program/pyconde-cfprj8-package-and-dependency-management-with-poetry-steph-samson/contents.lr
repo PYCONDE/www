@@ -34,9 +34,17 @@ python_skill: Python Skill Level basic
 ---
 domain_expertise: Domain Expertise none
 ---
-meta_title: Package and Dependency Management with Poetry  #PyConDE #PyDataBerlin #PyData
+room: Saal 7
 ---
-categories: pyconde, python-skill-level-basic, domain-expertise-none, tutorial, devops, infrastructure, use-cases
+start_time: 11:30
+---
+day: wednesday
+---
+meta_title: Package and Dependency Management with Poetry @ #PyConDE #PyDataBerlin #PyData
+---
+categories: pyconde, python-skill-level-basic, domain-expertise-none, tutorial, devops, infrastructure, use-cases, wednesday, wednesday-1130
+---
+slugified_slot_links: wednesday, wednesday-1130
 ---
 body: Managing a Python project can be overwhelming -- one can need anything from just a requirements.txt file to an array of other files: setup.py, setup.cfg, MANIFEST.in. The question for the new or unfamiliar developer can become, when to use what and why?
 

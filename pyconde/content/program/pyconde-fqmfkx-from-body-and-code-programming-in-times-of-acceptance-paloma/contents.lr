@@ -34,9 +34,17 @@ python_skill: Python Skill Level none
 ---
 domain_expertise: Domain Expertise none
 ---
-meta_title: From body and code <programming in times of acceptance> pcultural #PyConDE #PyDataBerlin #PyData
+room: Saal 10
 ---
-categories: pyconde, python-skill-level-none, domain-expertise-none, talk, business-start-ups, community, web
+start_time: 15:30
+---
+day: thursday
+---
+meta_title: From body and code <programming in times of acceptance> @pcultural #PyConDE #PyDataBerlin #PyData
+---
+categories: pyconde, python-skill-level-none, domain-expertise-none, talk, business-start-ups, community, web, thursday, thursday-1530
+---
+slugified_slot_links: thursday, thursday-1530
 ---
 body: Have you being hearing about **"diversity"** but not sure why is it important or what it actually mean? Do you support "diversity" but are not sure on how your **day by day actions** proposes a real **change**?
 

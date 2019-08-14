@@ -34,9 +34,17 @@ python_skill: Python Skill Level none
 ---
 domain_expertise: Domain Expertise none
 ---
-meta_title: Static Typing in Python di_codes #PyConDE #PyDataBerlin #PyData
+room: Hauptsaal
 ---
-categories: pyconde, python-skill-level-none, domain-expertise-none, talk, science
+start_time: 15:30
+---
+day: thursday
+---
+meta_title: Static Typing in Python @di_codes #PyConDE #PyDataBerlin #PyData
+---
+categories: pyconde, python-skill-level-none, domain-expertise-none, talk, science, thursday, thursday-1530
+---
+slugified_slot_links: thursday, thursday-1530
 ---
 body: Python is well-known as a programming language without static types. This means that you don't need to say what a given variable will hold, or whether your function will return a string or an integer (or sometimes one, and sometimes another!). This has historically made Python a very flexible and beginner-friendly language.
 
