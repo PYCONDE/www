@@ -26,11 +26,11 @@
     <meta  property="og:title" content="{%  if this.meta_title %}{{ this.meta_title }}{% else %}{{ this.title }}{% endif %}">
 
     {% if this.twitter_image %}{% set turl = this.twitter_image %}
-        <meta  name="og:image:secure_url" content="{{ site.config.PROJECT.url }}{{ turl|asseturl }}">
-        <meta  name="og:image" content="{{ site.config.PROJECT.url }}{{ turl|asseturl }}">
+{#        <meta  name="og:image:secure_url" content="{{ site.config.PROJECT.url }}{{ turl|asseturl }}">#}
+        <meta  name="og:image" content="{{ turl|asseturl }}">
     {% else %}
-        <meta  property="og:image:secure_url" content="{{ site.config.PROJECT.url }}{{ site.config.PROJECT.twitter_card|url }}">
-    <meta  property="og:image" content="{{ site.config.PROJECT.url }}{{ site.config.PROJECT.twitter_card|url }}">
+{#        <meta  property="og:image:secure_url" content="{{ site.config.PROJECT.url }}{{ site.config.PROJECT.twitter_card|url }}">#}
+    <meta  property="og:image" content="{{ site.config.PROJECT.twitter_card|url }}">
     {% endif %}
 
     <meta property="og:description" content="{{ this.description }}">
