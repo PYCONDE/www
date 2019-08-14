@@ -1,4 +1,3 @@
-
 {% macro render_category_nav() %}
     <div class="margin-top">
         {% for category in site.query('/program-categories') %}
@@ -14,18 +13,28 @@
 
     {% for session in sessions %}
 
+        {% set category = session.track.lower().replace('---', '-').replace('--', '-') %}
+        {% set submission_type = session.submission_type.lower().replace('---', '-').replace('--', '-') %}
+        {% set domain_expertise = session.domain_expertise.lower().replace(' ', '-').replace('---', '-').replace('--', '-') %}
+        {% set python_skill = session.python_skill.lower().replace(' ', '-').replace('---', '-').replace('--', '-') %}
+
         <div class="blog-list__post in-view__child in-view__child--fadein in-view__child--in">
-            <span class="blog-list__info sub-head">{{ session.track }} | {{ session.submission_type }} </span>
+            <div class="single-content__tags">
+                <a href="/program/categories/{{ submission_type }}">{{ session.submission_type }}</a>
+                <a href="/program/categories/{{ category }}">{{ session.track }}</a>
+            </div>
             <h5 class="blog-list__title session_list_title">
                 <a href="{{ session|url }}">{{ session.title }}</a>
             </h5>
             <h6 class="session_list_speaker">{{ session.speakers }}</h6>
             <span class="blog-list__info sub-head">{{ session.domains }}</span>
             <span class="blog-list__info sub-head">{{ session.expertise }}</span>
+
             <p>{{ session.description }}</p>
             <p class="blog-list__link text-xl-right">
                 <a class="sub-head dashed dashed--reverse--md in-view__child in-view__child--in" href="{{ session|url }}">Read more</a>
             </p>
+
         </div>
     {% endfor %}
 {% endmacro %}

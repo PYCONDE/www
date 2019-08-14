@@ -13,10 +13,10 @@
                             {#                            <h5><a href="/program/categories/{{ submission_type }}">{{ this.submission_type }}</a> • <a#}
                             {#                                    href="/program/categories/{{ category }}">{{ this.track }}</a></h5>#}
 
-                            {% set category = this.track.lower() %}
-                            {% set submission_type = this.submission_type.lower() %}
-                            {% set domain_expertise = this.domain_expertise.lower().replace(' ', '-') %}
-                            {% set python_skill = this.python_skill.lower().replace(' ', '-') %}
+                            {% set category = this.track.lower().replace('---', '-').replace('--', '-') %}
+                            {% set submission_type = this.submission_type.lower().replace('---', '-').replace('--', '-') %}
+                            {% set domain_expertise = this.domain_expertise.lower().replace(' ', '-').replace('---', '-').replace('--', '-') %}
+                            {% set python_skill = this.python_skill.lower().replace(' ', '-').replace('---', '-').replace('--', '-') %}
 
                             {#                            prerequisites: </br><a href="/program/categories/{{ domain_expertise }}">{{ this.domain_expertise }}</a> • <a#}
                             {#                                href="/program/categories/{{ python_skill }}">{{ this.python_skill }}</a>#}
