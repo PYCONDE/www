@@ -28,10 +28,13 @@ Build content pages (talks, tutorials, :
     
  Card validators
  
- Facebook
+ Facebook  
  https://developers.facebook.com/tools/debug/sharing/
  
- LinkedIn
+ LinkedIn  
  https://www.linkedin.com/post-inspector/inspect/
+ 
+ Twitter  
+ https://cards-dev.twitter.com/validator
 
 
