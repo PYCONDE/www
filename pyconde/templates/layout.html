@@ -26,10 +26,12 @@
     <meta prefix="og: http://ogp.me/ns#" property="og:title" content="{%  if this.meta_title %}{{ this.meta_title }}{% else %}{{ this.title }}{% endif %}">
     {% if this.twitter_image %}{% set turl = this.twitter_image %}<meta prefix="og: http://ogp.me/ns#" name="og:image:secure_url" content="{{ site.config.PROJECT.url }}{{ turl|asseturl }}">
     {% else %}<meta prefix="og: http://ogp.me/ns#" property="og:image:secure_url" content="{{ site.config.PROJECT.url }}{{ site.config.PROJECT.twitter_card|asseturl }}">{% endif %}
+    {% if this.twitter_image %}{% set turl = this.twitter_image %}<meta prefix="og: http://ogp.me/ns#" name="og:image" content="{{ site.config.PROJECT.url }}{{ turl|asseturl }}">
+    {% else %}<meta prefix="og: http://ogp.me/ns#" property="og:image" content="{{ site.config.PROJECT.url }}{{ site.config.PROJECT.twitter_card|asseturl }}">{% endif %}
     <meta prefix="og: http://ogp.me/ns#" property="og:description" content="{{ this.description }}">
     <meta prefix="og: http://ogp.me/ns#" property="og:url" content="{{ site.config.PROJECT.url }}{{ '.'|asseturl }}">
     <meta prefix="og: http://ogp.me/ns#" property="og:author" content="PyConDE & PyData Berlin 2019">
-    <meta prefix="og: http://ogp.me/ns#" property="og:type" content="website">
+    <meta prefix="og: http://ogp.me/ns#" property="og:type" content="article">
 
     <!-- Twitter Card data -->
 
