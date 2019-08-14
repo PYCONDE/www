@@ -296,7 +296,7 @@ body: {body}
             if x.get('homepage'):
                 social.append(f"[Homepage]({x['homepage']})")
             if social:
-                biography.append(' • '. join(social))
+                biography.append('visit the speaker at: ' + ' • '. join(social))
         biography = '\n\n'.join(biography)
 
         speaker_twitters = ' '.join([x.get('@twitter') for x in submission['speakers'] if x.get('@twitter')])

@@ -224,77 +224,136 @@
     <div class="site-content" id="content">
         <div class="content-area" id="primary">
             
-<main class="site-main" id="main">
-  <section class="section section--singular">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-xl-10 offset-xl-1">
-          <header class="page-header text-center short_margin">
+    <main class="site-main" id="main">
+        <section class="section section--singular">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-xl-10 offset-xl-1">
+                        <header class="page-header text-center short_margin">
 
-              <h2 class="page-title">Should I stay or should I go? Optimal exercise decisions using the Longstaff-Schwartz algorithm</h2>
-            <h5><a href="/program/categories/">Talk</a> • <a href="/program/categories/">PyData</a></h5>
-            <h6>
-                
-                
-                <a href="/program/categories/algorithms">Algorithms</a>
-                
-                 • 
-                
-                <a href="/program/categories/business-&amp;-start-ups">Business &amp; Start-Ups</a>
-                
-                 • 
-                
-                <a href="/program/categories/data-science">Data Science</a>
-                
-                 • 
-                
-                <a href="/program/categories/science">Science</a>
-                
-                 • 
-                
-                <a href="/program/categories/statistics">Statistics</a>
-                
-            </h6>
-              
-              
-              
-              
+                            <h2 class="page-title">Should I stay or should I go? Optimal exercise decisions using the Longstaff-Schwartz algorithm</h2>
 
-              prerequisites: </br><a href="/program/categories/domain-expertise-expert">Domain Expertise expert</a> • <a href="/program/categories/python-skill-level-expert">Python Skill Level expert</a>
-            <h3 class="page-title">Benedikt Rudolph</h3>
+                            
+                            
 
-<i class="fa fa-lg fa-twitter">
-            <a class="twitter-share-button" target="_blank"
-              href="https://twitter.com/intent/tweet?text=Learn%20about%20a%20simple%20least-squares%20approach%20to%20evaluate%20financial%20exercise%20options%20and%20make%20optimal%20exercise%20decisions.&url=https://de.pycon.org/program/pydata-mapyah-should-i-stay-or-should-i-go-optimal-exercise-decisions-using-the-longstaff-schwartz-algorithm-benedikt-rudolph/&hashtags=PyConDE,PyDataBerlin"
-              data-size="large"
-              data-text="Should I stay or should I go? Optimal exercise decisions using the Longstaff-Schwartz algorithm"
-              data-url="https://de.pycon.org/program/pydata-mapyah-should-i-stay-or-should-i-go-optimal-exercise-decisions-using-the-longstaff-schwartz-algorithm-benedikt-rudolph/"
-              data-hashtags="PyConDE,PyDataBerlin"
-              data-via="pyconde"
-              data-related="pydata">Tweet about it!</a></i>
+                            
+                            
+                            
+                            
 
-          </header>
+                            
+                            
+                            <h3 class="page-title">Benedikt Rudolph</h3>
 
-          <div class="single-content">
-            <p>A common problem in mathematical finance is the evaluation of exercise options (enter or cancel rights) in financial contracts. A typical example is an American equity option that allows the investor at any given day to buy (or sell) a stock at a fixed price. The owner has to decide every day whether to exercise the option or to hold it and exercise later. Another example is a corporate bond that can be canceled by the issuer at several dates before its maturity. More general, a situation where a company or an investor can opt in or opt out of a business or contract can be framed as an exercise option.</p>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+
+
+                        </header>
+
+
+                        <div class="single-content">
+                            <div class="single-content__footer">
+
+                                <div class="single-content__share">
+                                    <span class="sub-head-2">Share</span>
+                                    <a href="https://twitter.com/intent/tweet?text=Learn%20about%20a%20simple%20least-squares%20approach%20to%20evaluate%20financial%20exercise%20options%20and%20make%20optimal%20exercise%20decisions.&url=
+                                            https://de.pycon.org/program/pydata-mapyah-should-i-stay-or-should-i-go-optimal-exercise-decisions-using-the-longstaff-schwartz-algorithm-benedikt-rudolph/&hashtags=PyConDE,PyDataBerlin" } target="_blank">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://de.pycon.org/program/pydata-mapyah-should-i-stay-or-should-i-go-optimal-exercise-decisions-using-the-longstaff-schwartz-algorithm-benedikt-rudolph/&title=Should%20I%20stay%20or%20should%20I%20go%3F%20Optimal%20exercise%20decisions%20using%20the%20Longstaff-Schwartz%20algorithm&summary=Learn%20about%20a%20simple%20least-squares%20approach%20to%20evaluate%20financial%20exercise%20options%20and%20make%20optimal%20exercise%20decisions.&source=PyConDE%20%26%20PYData%20Berlin%202019">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="single-content">
+
+                                <div class="single-content__tags">
+                                    <span class="sub-head-2">Type/Track</span>
+                                    <a href="/program/categories/talk">Talk</a>
+                                    <a href="/program/categories/pydata">PyData</a>
+                                </div>
+
+
+                                <p>A common problem in mathematical finance is the evaluation of exercise options (enter or cancel rights) in financial contracts. A typical example is an American equity option that allows the investor at any given day to buy (or sell) a stock at a fixed price. The owner has to decide every day whether to exercise the option or to hold it and exercise later. Another example is a corporate bond that can be canceled by the issuer at several dates before its maturity. More general, a situation where a company or an investor can opt in or opt out of a business or contract can be framed as an exercise option.</p>
 <p>Using Monte Carlo simulation, many financial products can be evaluated with low computational effort. However, when an exercise option comes into play, for every path of the original simulation an additional full simulation would be required to price the exercise right. With every exercise right added, the computational effort increases exponentially and the full revaluation approach quickly becomes unfeasible. Francis Longstaff and Eduardo Schwartz developed a simple method based on linear least-squares to tackle this problem. Instead of recursive full simulations, the exercise option value is estimated by performing successive linear regressions on predefined basis functions.</p>
 <p>In this talk, a simple implementation of the Longstaff-Schwartz algorithm in Python will be presented. The technical problems in the context of exercise right valuation are explained using code examples. Prerequisites are intermediate Python skills and a solid foundation in probability theory and statistics (especially probability distributions, stochastic processes and linear regression). Knowledge on quantitative finance or financial markets is not expected, but will certainly be useful. The SciPy technology stack will be used for the implementation of the algorithm.</p>
 <p>After this talk you will be familiar with a simple method to evaluate exercise options and determine optimal exercise decisions. Also, you will know how to implement this method using Python.</p>
 
-          </div>
-          <div class="single-content">
-            <h4>Benedikt Rudolph</h4>
-<p>Affiliation: Lucht Probst Associates</p>
-<p>I studied Mathematical Finance at Technical University of Munich. After graduation, I joined Lucht Probst Associates (LPA) in Frankfurt, Germany, to work as a Quantitative Analyst. My job is the development and implementation of mathematical models for structured financial products. C# and Python are my programming languages of choice to solve difficult quantitative problems.</p>
-<p><a href="https://www.l-p-a.com/">Homepage</a></p>
 
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+                                <div class="single-content__tags">
+                                    <span class="sub-head-2">Tags&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                    
+                                        
+                                        
+                                        <a href="/program/categories/algorithms">Algorithms</a>
+                                        
+                                    
+                                        
+                                        
+                                        <a href="/program/categories/business-&amp;-start-ups">Business &amp; Start-Ups</a>
+                                        
+                                    
+                                        
+                                        
+                                        <a href="/program/categories/data-science">Data Science</a>
+                                        
+                                    
+                                        
+                                        
+                                        <a href="/program/categories/science">Science</a>
+                                        
+                                    
+                                        
+                                        
+                                        <a href="/program/categories/statistics">Statistics</a>
+                                        
+                                    
+                                </div>
+                                <div class="single-content__tags">
+                                    <span class="sub-head-2">Level&nbsp;&nbsp;</span>
+                                    <a href="/program/categories/domain-expertise-expert">Domain Expertise expert</a>
+                                    <a href="/program/categories/python-skill-level-expert">Python Skill Level expert</a>
+                                </div>
 
-</main>
+
+                            </div>
+                            <div class="single-content">
+                                <h4>Benedikt Rudolph</h4>
+<p>: Affiliation: Lucht Probst Associates</p>
+<p>:</p>
+<p>: I studied Mathematical Finance at Technical University of Munich. After graduation, I joined Lucht Probst Associates (LPA) in Frankfurt, Germany, to work as a Quantitative Analyst. My job is the development and implementation of mathematical models for structured financial products. C# and Python are my programming languages of choice to solve difficult quantitative problems.</p>
+<p>: Visit on: <a href="https://www.l-p-a.com/">Homepage</a></p>
+
+                            </div>
+
+                        </div>
+
+
+                        <img class="lazyload--el lazyloaded" src="/static/media/twitter/MAPYAH.jpg" data-src="/static/media/twitter/MAPYAH.jpg" alt=""
+                             width="960" height="480">
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
 
         </div>
     </div>

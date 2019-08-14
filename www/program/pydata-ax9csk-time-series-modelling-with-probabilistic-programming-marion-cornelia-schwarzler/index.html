@@ -224,64 +224,120 @@
     <div class="site-content" id="content">
         <div class="content-area" id="primary">
             
-<main class="site-main" id="main">
-  <section class="section section--singular">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-xl-10 offset-xl-1">
-          <header class="page-header text-center short_margin">
+    <main class="site-main" id="main">
+        <section class="section section--singular">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-xl-10 offset-xl-1">
+                        <header class="page-header text-center short_margin">
 
-              <h2 class="page-title">Time series modelling with probabilistic programming</h2>
-            <h5><a href="/program/categories/">Talk</a> • <a href="/program/categories/">PyData</a></h5>
-            <h6>
-                
-                
-                <a href="/program/categories/data-science">Data Science</a>
-                
-                 • 
-                
-                <a href="/program/categories/statistics">Statistics</a>
-                
-            </h6>
-              
-              
-              
-              
+                            <h2 class="page-title">Time series modelling with probabilistic programming</h2>
 
-              prerequisites: </br><a href="/program/categories/domain-expertise-expert">Domain Expertise expert</a> • <a href="/program/categories/python-skill-level-expert">Python Skill Level expert</a>
-            <h3 class="page-title">Marion Cornelia Schwärzler</h3>
+                            
+                            
 
-<i class="fa fa-lg fa-twitter">
-            <a class="twitter-share-button" target="_blank"
-              href="https://twitter.com/intent/tweet?text=Probabilistic%20time-series%20forecasting%20%40%20Deloitte%20Analytics%20Institute&url=https://de.pycon.org/program/pydata-ax9csk-time-series-modelling-with-probabilistic-programming-marion-cornelia-schwarzler/&hashtags=PyConDE,PyDataBerlin"
-              data-size="large"
-              data-text="Time series modelling with probabilistic programming"
-              data-url="https://de.pycon.org/program/pydata-ax9csk-time-series-modelling-with-probabilistic-programming-marion-cornelia-schwarzler/"
-              data-hashtags="PyConDE,PyDataBerlin"
-              data-via="pyconde"
-              data-related="pydata">Tweet about it!</a></i>
+                            
+                            
+                            
+                            
 
-          </header>
+                            
+                            
+                            <h3 class="page-title">Marion Cornelia Schwärzler</h3>
 
-          <div class="single-content">
-            <p>We cannot address every time-series problem with standard tools, especially in the case of extrapolation, where even the applicability of many standard machine-learning tools is not obvious. We will describe a problem we recently encountered in time-series extrapolation, where the underlying time-series were (i) non-stationary, (ii) subject to secular shocks ,(iii) short, and (iv) sometimes only indirectly visible. The challenge was to extrapolate the next nine points for each instance.</p>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+
+
+                        </header>
+
+
+                        <div class="single-content">
+                            <div class="single-content__footer">
+
+                                <div class="single-content__share">
+                                    <span class="sub-head-2">Share</span>
+                                    <a href="https://twitter.com/intent/tweet?text=Probabilistic%20time-series%20forecasting%20%40%20Deloitte%20Analytics%20Institute&url=
+                                            https://de.pycon.org/program/pydata-ax9csk-time-series-modelling-with-probabilistic-programming-marion-cornelia-schwarzler/&hashtags=PyConDE,PyDataBerlin" } target="_blank">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://de.pycon.org/program/pydata-ax9csk-time-series-modelling-with-probabilistic-programming-marion-cornelia-schwarzler/&title=Time%20series%20modelling%20with%20probabilistic%20programming&summary=Probabilistic%20time-series%20forecasting%20%40%20Deloitte%20Analytics%20Institute&source=PyConDE%20%26%20PYData%20Berlin%202019">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="single-content">
+
+                                <div class="single-content__tags">
+                                    <span class="sub-head-2">Type/Track</span>
+                                    <a href="/program/categories/talk">Talk</a>
+                                    <a href="/program/categories/pydata">PyData</a>
+                                </div>
+
+
+                                <p>We cannot address every time-series problem with standard tools, especially in the case of extrapolation, where even the applicability of many standard machine-learning tools is not obvious. We will describe a problem we recently encountered in time-series extrapolation, where the underlying time-series were (i) non-stationary, (ii) subject to secular shocks ,(iii) short, and (iv) sometimes only indirectly visible. The challenge was to extrapolate the next nine points for each instance.</p>
 <p>Our approach consisted in two stages, an initial analytic stage, for which we used Gaussian process regression to identify intrinsic structure, and a final extrapolation stage, for which we used a custom state-space model motivated by the specific structure we had been able to identify using the GP.  We implemented all the models we used in the Stan probabilistic programming language, which we can access through the PyStan Python package.</p>
 <p>In our presentation, we will describe the details and motivation of each step (what advantage does a Gaussian process offer in comparision to, e.g., LOESS regression? Why a state-space model, and not an ARMA model?) and the results. We will also compare and contrast our approach with alternatives: e.g., why we do not use a Kalman filter to analyze our model, but instead implement in Stan; why we perform a full marginal analysis of the Gaussian process, rather than taken the better known (older) algebraic approach? We will also describe the supporting processes for the project, and how these interacted with the technical work.</p>
 
-          </div>
-          <div class="single-content">
-            <h4>Marion Cornelia Schwärzler</h4>
-<p>Affiliation: Deloitte Analytics Institute</p>
-<p>Member of the Mathematical analytics group, Deloitte Analytics Institute.</p>
-<p><a href="https://www2.deloitte.com/de/de/pages/deloitte-analytics/topics/deloitte-analytics-institute.html">Homepage</a></p>
 
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+                                <div class="single-content__tags">
+                                    <span class="sub-head-2">Tags&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                    
+                                        
+                                        
+                                        <a href="/program/categories/data-science">Data Science</a>
+                                        
+                                    
+                                        
+                                        
+                                        <a href="/program/categories/statistics">Statistics</a>
+                                        
+                                    
+                                </div>
+                                <div class="single-content__tags">
+                                    <span class="sub-head-2">Level&nbsp;&nbsp;</span>
+                                    <a href="/program/categories/domain-expertise-expert">Domain Expertise expert</a>
+                                    <a href="/program/categories/python-skill-level-expert">Python Skill Level expert</a>
+                                </div>
 
-</main>
+
+                            </div>
+                            <div class="single-content">
+                                <h4>Marion Cornelia Schwärzler</h4>
+<p>: Affiliation: Deloitte Analytics Institute</p>
+<p>:</p>
+<p>: Member of the Mathematical analytics group, Deloitte Analytics Institute.</p>
+<p>: Visit on: <a href="https://www2.deloitte.com/de/de/pages/deloitte-analytics/topics/deloitte-analytics-institute.html">Homepage</a></p>
+
+                            </div>
+
+                        </div>
+
+
+                        <img class="lazyload--el lazyloaded" src="/static/media/twitter/AX9CSK.jpg" data-src="/static/media/twitter/AX9CSK.jpg" alt=""
+                             width="960" height="480">
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
 
         </div>
     </div>

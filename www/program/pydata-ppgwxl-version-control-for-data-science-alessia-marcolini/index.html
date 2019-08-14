@@ -224,51 +224,72 @@
     <div class="site-content" id="content">
         <div class="content-area" id="primary">
             
-<main class="site-main" id="main">
-  <section class="section section--singular">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-xl-10 offset-xl-1">
-          <header class="page-header text-center short_margin">
+    <main class="site-main" id="main">
+        <section class="section section--singular">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-xl-10 offset-xl-1">
+                        <header class="page-header text-center short_margin">
 
-              <h2 class="page-title">Version Control for Data Science</h2>
-            <h5><a href="/program/categories/">Talk</a> • <a href="/program/categories/">PyData</a></h5>
-            <h6>
-                
-                
-                <a href="/program/categories/artificial-intelligence">Artificial Intelligence</a>
-                
-                 • 
-                
-                <a href="/program/categories/data-science">Data Science</a>
-                
-                 • 
-                
-                <a href="/program/categories/machine-learning">Machine Learning</a>
-                
-            </h6>
-              
-              
-              
-              
+                            <h2 class="page-title">Version Control for Data Science</h2>
 
-              prerequisites: </br><a href="/program/categories/domain-expertise-some">Domain Expertise some</a> • <a href="/program/categories/python-skill-level-basic">Python Skill Level basic</a>
-            <h3 class="page-title">Alessia Marcolini</h3>
+                            
+                            
 
-<i class="fa fa-lg fa-twitter">
-            <a class="twitter-share-button" target="_blank"
-              href="https://twitter.com/intent/tweet?text=Versioning%20in%20Data%20Science%20projects%20can%20be%20pretty%20painful%3A%20are%20you%20able%20to%20track%20the%20data%20sets%20along%20with%20the%20code%20itself%20and%20some%20of%20the%20resulting%20models%3F&url=https://de.pycon.org/program/pydata-ppgwxl-version-control-for-data-science-alessia-marcolini/&hashtags=PyConDE,PyDataBerlin"
-              data-size="large"
-              data-text="Version Control for Data Science"
-              data-url="https://de.pycon.org/program/pydata-ppgwxl-version-control-for-data-science-alessia-marcolini/"
-              data-hashtags="PyConDE,PyDataBerlin"
-              data-via="pyconde"
-              data-related="pydata">Tweet about it!</a></i>
+                            
+                            
+                            
+                            
 
-          </header>
+                            
+                            
+                            <h3 class="page-title">Alessia Marcolini</h3>
 
-          <div class="single-content">
-            <p><em>Data</em> is the key differentiator between a Machine Learning project and a traditional software project: even if everything else stays stable, changing the data your models are trained upon makes a huge difference.</p>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+
+
+                        </header>
+
+
+                        <div class="single-content">
+                            <div class="single-content__footer">
+
+                                <div class="single-content__share">
+                                    <span class="sub-head-2">Share</span>
+                                    <a href="https://twitter.com/intent/tweet?text=Versioning%20in%20Data%20Science%20projects%20can%20be%20pretty%20painful%3A%20are%20you%20able%20to%20track%20the%20data%20sets%20along%20with%20the%20code%20itself%20and%20some%20of%20the%20resulting%20models%3F&url=
+                                            https://de.pycon.org/program/pydata-ppgwxl-version-control-for-data-science-alessia-marcolini/&hashtags=PyConDE,PyDataBerlin" } target="_blank">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://de.pycon.org/program/pydata-ppgwxl-version-control-for-data-science-alessia-marcolini/&title=Version%20Control%20for%20Data%20Science&summary=Versioning%20in%20Data%20Science%20projects%20can%20be%20pretty%20painful%3A%20are%20you%20able%20to%20track%20the%20data%20sets%20along%20with%20the%20code%20itself%20and%20some%20of%20the%20resulting%20models%3F&source=PyConDE%20%26%20PYData%20Berlin%202019">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="single-content">
+
+                                <div class="single-content__tags">
+                                    <span class="sub-head-2">Type/Track</span>
+                                    <a href="/program/categories/talk">Talk</a>
+                                    <a href="/program/categories/pydata">PyData</a>
+                                </div>
+
+
+                                <p><em>Data</em> is the key differentiator between a Machine Learning project and a traditional software project: even if everything else stays stable, changing the data your models are trained upon makes a huge difference.</p>
 <p>The best tools for tracking changes are the VCS that are used in software development, such as Git, Mercurial, and Subversion. They keep track of what was changed in a file, when and by whom, and synchronize changes to a central server so that multiple contributors can manage changes to the same set of files. But these <strong>traditional tools aren’t quite sufficient for Machine Learning</strong> because of the need for being able to <strong>track the data sets along with the code itself and some of the resulting models</strong>.</p>
 <p>So versioning in Data Science projects can be pretty painful. There are generally six things that you usually want to keep track of:</p>
 <ul>
@@ -284,20 +305,56 @@
 <p>In this talk I will share some best practices to help you better version your ML project and also I will show some existing tools such as <a href="https://dvc.org/">DVC</a>, <a href="https://github.com/jupyter/nbdime">ndim</a> and <a href="https://www.reviewnb.com/">ReviewNB</a> (to version Jupyter Notebooks).</p>
 <p>This talk is aimed at PyData beginners and specific Machine Learning expertise is not required, although knowledge about Git and the Data Science ecosystem would help follow the speech.</p>
 
-          </div>
-          <div class="single-content">
-            <h4>Alessia Marcolini</h4>
-<p>Affiliation: Fondazione Bruno Kessler</p>
-<p>Enthusiastic and curious ICT student at University of Trento, with a passion for deep learning. Junior Research Assistant at FBK, working on machine / deep learning solutions for environmental health and food quality. Pythonista, PyCon Italy organizer and Django Girls coach.</p>
-<p><a href="https://twitter.com/viperale">Twitter</a> • <a href="https://github.com/alessiamarcolini">Github</a></p>
 
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+                                <div class="single-content__tags">
+                                    <span class="sub-head-2">Tags&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                    
+                                        
+                                        
+                                        <a href="/program/categories/artificial-intelligence">Artificial Intelligence</a>
+                                        
+                                    
+                                        
+                                        
+                                        <a href="/program/categories/data-science">Data Science</a>
+                                        
+                                    
+                                        
+                                        
+                                        <a href="/program/categories/machine-learning">Machine Learning</a>
+                                        
+                                    
+                                </div>
+                                <div class="single-content__tags">
+                                    <span class="sub-head-2">Level&nbsp;&nbsp;</span>
+                                    <a href="/program/categories/domain-expertise-some">Domain Expertise some</a>
+                                    <a href="/program/categories/python-skill-level-basic">Python Skill Level basic</a>
+                                </div>
 
-</main>
+
+                            </div>
+                            <div class="single-content">
+                                <h4>Alessia Marcolini</h4>
+<p>: Affiliation: Fondazione Bruno Kessler</p>
+<p>:</p>
+<p>: Enthusiastic and curious ICT student at University of Trento, with a passion for deep learning. Junior Research Assistant at FBK, working on machine / deep learning solutions for environmental health and food quality. Pythonista, PyCon Italy organizer and Django Girls coach.</p>
+<p>: Visit on: <a href="https://twitter.com/viperale">Twitter</a> • <a href="https://github.com/alessiamarcolini">Github</a></p>
+
+                            </div>
+
+                        </div>
+
+
+                        <img class="lazyload--el lazyloaded" src="/static/media/twitter/PPGWXL.jpg" data-src="/static/media/twitter/PPGWXL.jpg" alt=""
+                             width="960" height="480">
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
 
         </div>
     </div>

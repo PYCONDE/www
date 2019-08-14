@@ -224,86 +224,147 @@
     <div class="site-content" id="content">
         <div class="content-area" id="primary">
             
-<main class="site-main" id="main">
-  <section class="section section--singular">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-xl-10 offset-xl-1">
-          <header class="page-header text-center short_margin">
+    <main class="site-main" id="main">
+        <section class="section section--singular">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-xl-10 offset-xl-1">
+                        <header class="page-header text-center short_margin">
 
-              <h2 class="page-title">Equivariance in CNNs: how generalising the weight-sharing property increases data-efficiency</h2>
-            <h5><a href="/program/categories/">Talk</a> • <a href="/program/categories/">PyData</a></h5>
-            <h6>
-                
-                
-                <a href="/program/categories/artificial-intelligence">Artificial Intelligence</a>
-                
-                 • 
-                
-                <a href="/program/categories/algorithms">Algorithms</a>
-                
-                 • 
-                
-                <a href="/program/categories/computer-vision">Computer Vision</a>
-                
-                 • 
-                
-                <a href="/program/categories/deep-learning">Deep Learning</a>
-                
-                 • 
-                
-                <a href="/program/categories/data-science">Data Science</a>
-                
-                 • 
-                
-                <a href="/program/categories/machine-learning">Machine Learning</a>
-                
-                 • 
-                
-                <a href="/program/categories/science">Science</a>
-                
-            </h6>
-              
-              
-              
-              
+                            <h2 class="page-title">Equivariance in CNNs: how generalising the weight-sharing property increases data-efficiency</h2>
 
-              prerequisites: </br><a href="/program/categories/domain-expertise-some">Domain Expertise some</a> • <a href="/program/categories/python-skill-level-basic">Python Skill Level basic</a>
-            <h3 class="page-title">Marysia Winkels</h3>
+                            
+                            
 
-<i class="fa fa-lg fa-twitter">
-            <a class="twitter-share-button" target="_blank"
-              href="https://twitter.com/intent/tweet?text=Equivariance%20in%20CNNs%3A%20how%20generalising%20the%20weight-sharing%20property%20increases%20data-efficiency&url=https://de.pycon.org/program/pydata-ras8uk-equivariance-in-cnns-how-generalising-the-weight-sharing-property-increases-data-efficiency-marysia-winkels/&hashtags=PyConDE,PyDataBerlin"
-              data-size="large"
-              data-text="Equivariance in CNNs: how generalising the weight-sharing property increases data-efficiency"
-              data-url="https://de.pycon.org/program/pydata-ras8uk-equivariance-in-cnns-how-generalising-the-weight-sharing-property-increases-data-efficiency-marysia-winkels/"
-              data-hashtags="PyConDE,PyDataBerlin"
-              data-via="pyconde"
-              data-related="pydata">Tweet about it!</a></i>
+                            
+                            
+                            
+                            
 
-          </header>
+                            
+                            
+                            <h3 class="page-title">Marysia Winkels</h3>
 
-          <div class="single-content">
-            <p>Convolutional neural networks have become the methodology of choice for image related tasks, but why exactly is that?</p>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+
+
+                        </header>
+
+
+                        <div class="single-content">
+                            <div class="single-content__footer">
+
+                                <div class="single-content__share">
+                                    <span class="sub-head-2">Share</span>
+                                    <a href="https://twitter.com/intent/tweet?text=Equivariance%20in%20CNNs%3A%20how%20generalising%20the%20weight-sharing%20property%20increases%20data-efficiency&url=
+                                            https://de.pycon.org/program/pydata-ras8uk-equivariance-in-cnns-how-generalising-the-weight-sharing-property-increases-data-efficiency-marysia-winkels/&hashtags=PyConDE,PyDataBerlin" } target="_blank">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://de.pycon.org/program/pydata-ras8uk-equivariance-in-cnns-how-generalising-the-weight-sharing-property-increases-data-efficiency-marysia-winkels/&title=Equivariance%20in%20CNNs%3A%20how%20generalising%20the%20weight-sharing%20property%20increases%20data-efficiency&summary=Equivariance%20in%20CNNs%3A%20how%20generalising%20the%20weight-sharing%20property%20increases%20data-efficiency&source=PyConDE%20%26%20PYData%20Berlin%202019">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="single-content">
+
+                                <div class="single-content__tags">
+                                    <span class="sub-head-2">Type/Track</span>
+                                    <a href="/program/categories/talk">Talk</a>
+                                    <a href="/program/categories/pydata">PyData</a>
+                                </div>
+
+
+                                <p>Convolutional neural networks have become the methodology of choice for image related tasks, but why exactly is that?</p>
 <p>In this talk, we will explore the theory behind how the weight-sharing property of the convolutional layer that leads to <em>translational equivariance</em> (a shift in input image leads to the same prediction) can be exploited and generalised to equivariance towards other types of transformations such as rotation and reflection.</p>
 <p>The python library GrouPy implements a new type of convolutional layer that ensures equivariance towards transformations beyond just translation.  This builds prior knowledge about our data (<em>e.g.</em> orientation should not influence prediction) into network itself which therefore no longer needs to be learned through data augmentation. In addition to that, these new networks  achieve a significant reduction in sample complexity and a notable increase in performance, generally converge faster and prove far more effective in cases of class imbalance. The GrouPy convolution layer can simply be used as a drop-in replacement of regular convolutions.</p>
 <p>As a use case, we study lung nodule detection - suspicious lesions in the lung visible on a 3D CT chest scan that may be indicative of lung cancer. We learn that using networks with these new convolutions achieve an increase in performance even when trained on 10x less data.</p>
 
-          </div>
-          <div class="single-content">
-            <h4>Marysia Winkels</h4>
-<p>Affiliation: Aidence</p>
-<p>Marysia studied Artificial Intelligence (BSc and MSc) at the University of Amsterdam. After that, she joined Aidence, an Amsterdam-based start-up that uses deep learning for medical image analysis, as a machine learning engineer, and has worked there ever since to help artificial intelligence improve healthcare.</p>
+
+                                <div class="single-content__tags">
+                                    <span class="sub-head-2">Tags&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                    
+                                        
+                                        
+                                        <a href="/program/categories/artificial-intelligence">Artificial Intelligence</a>
+                                        
+                                    
+                                        
+                                        
+                                        <a href="/program/categories/algorithms">Algorithms</a>
+                                        
+                                    
+                                        
+                                        
+                                        <a href="/program/categories/computer-vision">Computer Vision</a>
+                                        
+                                    
+                                        
+                                        
+                                        <a href="/program/categories/deep-learning">Deep Learning</a>
+                                        
+                                    
+                                        
+                                        
+                                        <a href="/program/categories/data-science">Data Science</a>
+                                        
+                                    
+                                        
+                                        
+                                        <a href="/program/categories/machine-learning">Machine Learning</a>
+                                        
+                                    
+                                        
+                                        
+                                        <a href="/program/categories/science">Science</a>
+                                        
+                                    
+                                </div>
+                                <div class="single-content__tags">
+                                    <span class="sub-head-2">Level&nbsp;&nbsp;</span>
+                                    <a href="/program/categories/domain-expertise-some">Domain Expertise some</a>
+                                    <a href="/program/categories/python-skill-level-basic">Python Skill Level basic</a>
+                                </div>
+
+
+                            </div>
+                            <div class="single-content">
+                                <h4>Marysia Winkels</h4>
+<p>: Affiliation: Aidence</p>
+<p>:</p>
+<p>: Marysia studied Artificial Intelligence (BSc and MSc) at the University of Amsterdam. After that, she joined Aidence, an Amsterdam-based start-up that uses deep learning for medical image analysis, as a machine learning engineer, and has worked there ever since to help artificial intelligence improve healthcare.</p>
 <p>She is also happily co-chair of the organisation of PyData Amsterdam!</p>
-<p><a href="https://marysia.nl">Homepage</a></p>
+<p>: Visit on: <a href="https://marysia.nl">Homepage</a></p>
 
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+                            </div>
 
-</main>
+                        </div>
+
+
+                        <img class="lazyload--el lazyloaded" src="/static/media/twitter/RAS8UK.jpg" data-src="/static/media/twitter/RAS8UK.jpg" alt=""
+                             width="960" height="480">
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
 
         </div>
     </div>
