@@ -9,12 +9,12 @@ PyCon.DE & PyData Berlin 2019 Website
 
 Edit Pages
 
-    cd pyconde
+    cd website
     lektor server
 
 Build Static Site
     
-    cd pyconde
+    cd website
     lektor build --output-path ../www
     
 The local website is run on    
@@ -25,16 +25,51 @@ Build content pages (talks, tutorials, :
 
 
     python process_sessions.py
-    
- Card validators
  
- Facebook  
- https://developers.facebook.com/tools/debug/sharing/
  
- LinkedIn  
- https://www.linkedin.com/post-inspector/inspect/
+### Creating and Updating Speaker Lists on Twitter
  
- Twitter  
- https://cards-dev.twitter.com/validator
+###### Preparation
+ - A developer account for the Twitter API
+ - An app registered for this deveoper account
+ - Save consumer_key and consumer_secret in `config.py`
+ - Keep `config.py` private!
+ 
+###### Authorizing the App
+
+To access and act for an Twitter account, the app needs to be authorized.
+
+Run `manually_authorize_app.py`  via the console
+
+```bash
+python  manually_authorize_app.py  consumer_key consumer_secret
+```
+Follow the instructions on the terminal.
+Save `access_token` and `access_token_secret` in `config.py`.  
+
+
+### Generate Cards for Talks for Sharing
+ 
+Update everything,
+
+`save_csv_for_banners` created a UTF-16 CSV with
+- code
+- title
+- speakers
+- affiliations
+- filename expected from Adobe Indesign's
+
+Create the banners in e.g. Indesign and save the batch with filename 'Twitter-'  
+Rename the first file to 'Twitter-1' (could be coded but not yet implemented detail)
+Make sure banners are named in the same ordering as provided in the txt file.
+
+Run `rename_tmp_banners`: renames the banners in to `code.jpg` in the same order as provided in the txt file.
+
+ 
+ ##### Card Validators
+ - [Facebook]( https://developers.facebook.com/tools/debug/sharing/)
+ - [LinkedIn]( https://www.linkedin.com/post-inspector/inspect/)  
+ - [Twitter]( https://cards-dev.twitter.com/validator)
+
 
 

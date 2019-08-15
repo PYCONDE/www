@@ -12,19 +12,18 @@ from pathlib import Path
 import click
 import requests
 import pandas as pd
-from openpyxl import load_workbook
 
-TOKEN = open('_private/TOKEN.txt').read()
+TOKEN = open('../_private/TOKEN.txt').read()
 
 base_url = 'https://pretalx.com'
 event = 'pyconde-pydata-berlin-2019'
 headers = {'Accept': 'application/json, text/javascript', 'Authorization': f'Token {TOKEN}'}
 
-submissions_path = Path('_private/submissions.json')
-speakers_path = Path('_private/speakers.json')
-clean_submissions_f = "pyconde/databags/submissions"  # filepath w/o extention
-clean_speakers_f = "pyconde/databags/speakers"  # filepath w/o extention
-schedule__path = Path("pyconde/databags/schedule_databag.json")  # may be added later
+submissions_path = Path('../_private/submissions.json')
+speakers_path = Path('../_private/speakers.json')
+clean_submissions_f = "website/databags/submissions"  # filepath w/o extention
+clean_speakers_f = "website/databags/speakers"  # filepath w/o extention
+schedule__path = Path("website/databags/schedule_databag.json")  # may be added later
 
 
 def get_from_pretalx_api(url, params=None):
@@ -165,7 +164,6 @@ def load_schedule():
                         'start_time': s['time']
                     }
     return the_schedule
-
 
 
 def update_session_pages(use_cache=False):
@@ -423,8 +421,8 @@ _discoverable: no""".format(slug))
 
 if __name__ == "__main__":
     # load_speakers()
-    update_session_pages(use_cache=True)
-    # update_session_pages(use_cache=False)
+    # update_session_pages(use_cache=True)
+    update_session_pages(use_cache=False)
     # save_csv_for_banners()
     # rename_tmp_banners()
     generate_session_pages()

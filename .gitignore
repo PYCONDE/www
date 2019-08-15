@@ -9,3 +9,5 @@ config.py
 _private
 _template_website/
 submissions.json
+submissions.txt
+submissions_generated.txt
