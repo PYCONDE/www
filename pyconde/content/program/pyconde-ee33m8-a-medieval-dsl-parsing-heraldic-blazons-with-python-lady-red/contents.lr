@@ -38,13 +38,13 @@ room: Hauptsaal
 ---
 start_time: 12:25
 ---
-day: wednesday
+day: friday
 ---
 meta_title: A Medieval DSL? Parsing Heraldic Blazons with Python @lady-mcscope #PyConDE #PyDataBerlin #PyData
 ---
-categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, makers, wednesday, wednesday-1225
+categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, makers, friday, friday-1225
 ---
-slugified_slot_links: wednesday, wednesday-1225
+slugified_slot_links: friday, friday-1225
 ---
 body: Medieval European Nobility was obsessed with Lineage. They created a Heraldic System to track families, which assigned each family a unique Coat of Arms.
 Any painting of the Coat of Arms was not the official version. The official version was a "Blazon" - a precise, terse description in heraldic language. This heraldic language reads like English, Latin, French, and XML had a baby. It's a fully recursive language with a formal grammar, variable assignment, positional arguments, and also, Lions, Bears, and Pythons.

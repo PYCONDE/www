@@ -36,17 +36,17 @@ python_skill: Python Skill Level basic
 ---
 domain_expertise: Domain Expertise none
 ---
-room: Saal 6
+room: Hauptsaal
 ---
 start_time: 12:25
 ---
-day: friday
+day: wednesday
 ---
 meta_title: Mock Hell @ejjcatx #PyConDE #PyDataBerlin #PyData
 ---
-categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, code-review, web, data-engineering, friday, friday-1225
+categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, code-review, web, data-engineering, wednesday, wednesday-1225
 ---
-slugified_slot_links: friday, friday-1225
+slugified_slot_links: wednesday, wednesday-1225
 ---
 body: Mocking in Python is tricky.  Most widely available materials on Python mocks serve as a basic operator’s manual for the library, but scarcely address the code smells and technical debt that mocks may create. 
 
