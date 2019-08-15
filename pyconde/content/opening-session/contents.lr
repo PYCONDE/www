@@ -1,0 +1,9 @@
+_model: page
+---
+title: Opening Session
+---
+body: ### Opening Session
+---
+_template: page-md.html
+---
+description: 
