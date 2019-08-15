@@ -32,9 +32,9 @@ affiliation: mytaxi
 ---
 track: PyData
 ---
-python_skill: Python Skill Level expert
+python_skill: Python Skill Level none
 ---
-domain_expertise: Domain Expertise expert
+domain_expertise: Domain Expertise some
 ---
 room: Saal 6
 ---
@@ -44,7 +44,7 @@ day: friday
 ---
 meta_title: Lessons Learned as a Product Manager in Data Science @terezaif #PyConDE #PyDataBerlin #PyData
 ---
-categories: pydata, python-skill-level-expert, domain-expertise-expert, talk, business-start-ups, data-science, machine-learning, friday, friday-1435
+categories: pydata, python-skill-level-none, domain-expertise-some, talk, business-start-ups, data-science, machine-learning, friday, friday-1435
 ---
 slugified_slot_links: friday, friday-1435
 ---

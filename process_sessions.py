@@ -345,6 +345,7 @@ body: {body}
 
         # add date and session start time for navidgation
         slot_links = []
+        start_time, room, day = None, None, None
         if submission.get('code') and the_schedule.get(submission.get('code')):
             start_time, room = the_schedule[submission['code']]['start_time'], the_schedule[submission['code']]['room']
             day = the_schedule[submission['code']]['day']
