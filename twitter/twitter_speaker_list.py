@@ -3,8 +3,8 @@ from pprint import pprint
 import tweepy
 from config import consumer_key, consumer_secret, access_token, access_token_secret
 
-speakersf = "_private/speakers.json"
-submissionsf = "_private/submissions.json"
+speakersf = "../_private/speakers.json"
+submissionsf = "../_private/submissions.json"
 
 with open(speakersf, "r") as f:
     all_speakers = json.load(f)
@@ -44,7 +44,7 @@ lists = api.lists_all()
 for _list in lists:
     print(_list.id, _list.name)
 
-CURRRENT_ID = '1002813052767670272'
+CURRRENT_ID = '1160256308303601665'
 
 
 the_list = api.list_members(list_id=CURRRENT_ID, count=5000)
@@ -62,7 +62,7 @@ for handle in (handles - users_added):
         user = api.get_user(handle)
         print(user.id, user.name)
         added = api.add_list_member(list_id=CURRRENT_ID, user_id=user.id)
-        print(added)
+        # print(added)
     except:
         not_added.append(handle)
 
@@ -76,7 +76,7 @@ for handle in (users_added - handles):
         user = api.get_user(handle)
         print(user.id, user.name)
         removed = api.remove_list_member(list_id=CURRRENT_ID, user_id=user.id)
-        print(removed)
+        # print(removed)
     except:
         print("not removed", handle)
 
