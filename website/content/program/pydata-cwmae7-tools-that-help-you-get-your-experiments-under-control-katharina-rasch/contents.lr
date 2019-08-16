@@ -38,7 +38,9 @@ start_time: 10:00
 ---
 day: thursday
 ---
-meta_title: Tools that help you get your experiments under control @krasch_io #PyConDE #PyDataBerlin #PyData
+meta_title: Tools that help you get your experiments under control Katharina Rasch PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Tools that help you get your experiments under control @krasch_io #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-none, domain-expertise-some, talk, artificial-intelligence, data-science, devops, infrastructure, thursday, thursday-1000
 ---

@@ -40,7 +40,9 @@ start_time: 10:00
 ---
 day: friday
 ---
-meta_title: Law, ethics and machine learning – a curious ménage à trois @ #PyConDE #PyDataBerlin #PyData
+meta_title: Law, ethics and machine learning – a curious ménage à trois Benjamin PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Law, ethics and machine learning – a curious ménage à trois @ #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-none, domain-expertise-some, talk, artificial-intelligence, big-data, machine-learning, friday, friday-1000
 ---

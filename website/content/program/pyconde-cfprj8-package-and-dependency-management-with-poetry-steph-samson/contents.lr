@@ -40,7 +40,9 @@ start_time: 11:30
 ---
 day: wednesday
 ---
-meta_title: Package and Dependency Management with Poetry @ #PyConDE #PyDataBerlin #PyData
+meta_title: Package and Dependency Management with Poetry Steph Samson PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Package and Dependency Management with Poetry @ #PyConDE #PyDataBerlin #PyData
 ---
 categories: pyconde, python-skill-level-basic, domain-expertise-none, tutorial, devops, infrastructure, use-cases, wednesday, wednesday-1130
 ---

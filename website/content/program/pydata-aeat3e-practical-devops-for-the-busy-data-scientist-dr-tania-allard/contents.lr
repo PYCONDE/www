@@ -41,7 +41,9 @@ start_time: 12:25
 ---
 day: wednesday
 ---
-meta_title: Practical DevOps for the busy data scientist @ixek #PyConDE #PyDataBerlin #PyData
+meta_title: Practical DevOps for the busy data scientist Dr. Tania Allard PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Practical DevOps for the busy data scientist @ixek #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-basic, domain-expertise-some, talk, algorithms, big-data, data-science, devops, machine-learning, wednesday, wednesday-1225
 ---

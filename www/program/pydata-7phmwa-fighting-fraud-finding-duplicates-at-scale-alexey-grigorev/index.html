@@ -23,7 +23,7 @@
 
     <!-- other data for sharing -->
 
-    <meta  property="og:title" content="Fighting fraud: finding duplicates at scale @ #PyConDE #PyDataBerlin #PyData">
+    <meta  property="og:title" content="Fighting fraud: finding duplicates at scale Alexey Grigorev PyConDE &amp; PyDataBerlin 2019 conference ">
 
     
         <meta  name="og:image:secure_url" content="https://de.pycon.org">
@@ -44,7 +44,7 @@
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@pyconde">
-    <meta name="twitter:title" content="Fighting fraud: finding duplicates at scale">
+    <meta name="twitter:title" content="Fighting fraud: finding duplicates at scale @ #PyConDE #PyDataBerlin #PyData">
     <meta name="twitter:description" content="Fight fraudsters at scale: use machine learning to find duplicates in 10 million ads daily">
     <meta name="twitter:image" content="https://de.pycon.org">
     
@@ -280,10 +280,10 @@
                                 </div>
 
 
-                                <p>OLX is an online classifieds platform and millions of good users visit it every day to buy and sell from each other. Unfortunately, there’s a small number of scammers who pose as genuine sellers to get money from honest buyers. They typically do it by creating fake listings and copying the content from existing ads.</p>
-<p>In this talk we present a duplicate detection system that we developed to fight fraudsters. The system analyzes every listing on the platform, which allows us to quickly remove any fraudulent posting before it can harm our users.</p>
-<p>We show how we use both text and image information from ads to quickly identify potential duplicates and how we use machine learning to make sure the results are accurate.</p>
-<p>The system processes 10 million ads per day, so we talk about the way we designed it to sustain such load. We also share the implementation details and talk about using AWS, kubernetes, elasticsearch, python, scikit-learn and keras to do it.</p>
+                                <p>Duplicated content is often an issue in many online platforms, especially in classifieds, where it requires special attention: fraudsters there create fake ads by copying existing listings and trick honest users into giving away their money.</p>
+<p>In this talk, we suggest an approach to this problem and show how to design a system for duplicate detection in online classifieds. We cover it end-to-end and first present the basic conceptual ideas and then go into hands-on implementation details.</p>
+<p>In the conceptual part, we talk about the general approach to the duplicate detection problem and explain how to use both images and texts to identify potential duplicates and how to apply machine learning to make sure the results are accurate.</p>
+<p>To successfully stop fraudsters, a duplicate detection system has to be able to process millions of items daily while obeying to very strict speed requirements. This is why in the implementation part we discuss how to design the system to sustain high load of 10 million listings daily while always keeping the response time under one second. We show how to build it using python, AWS, elasticsearch, keras and other libraries.</p>
 
 
                                 <div class="single-content__tags">

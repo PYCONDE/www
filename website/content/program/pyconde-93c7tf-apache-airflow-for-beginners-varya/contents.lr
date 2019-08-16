@@ -38,7 +38,9 @@ start_time: 15:30
 ---
 day: wednesday
 ---
-meta_title: 🌈Apache Airflow for beginners @ #PyConDE #PyDataBerlin #PyData
+meta_title: 🌈Apache Airflow for beginners Varya PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: 🌈Apache Airflow for beginners @ #PyConDE #PyDataBerlin #PyData
 ---
 categories: pyconde, python-skill-level-basic, domain-expertise-some, talk, infrastructure, data-engineering, wednesday, wednesday-1530
 ---

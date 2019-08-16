@@ -42,7 +42,9 @@ start_time: 10:00
 ---
 day: friday
 ---
-meta_title: Fresh New Pythonic Database: EdgeDB (And Why It's the Future) @nazarov_tech #PyConDE #PyDataBerlin #PyData
+meta_title: Fresh New Pythonic Database: EdgeDB (And Why It's the Future) Dmitry Nazarov PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Fresh New Pythonic Database: EdgeDB (And Why It's the Future) @nazarov_tech #PyConDE #PyDataBerlin #PyData
 ---
 categories: pyconde, python-skill-level-basic, domain-expertise-some, talk, web, use-cases, friday, friday-1000
 ---

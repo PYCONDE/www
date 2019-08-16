@@ -47,7 +47,9 @@ start_time: 11:50
 ---
 day: wednesday
 ---
-meta_title: Refactoring in Python: Design Patterns and Approaches @ #PyConDE #PyDataBerlin #PyData
+meta_title: Refactoring in Python: Design Patterns and Approaches Tin Marković PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Refactoring in Python: Design Patterns and Approaches @ #PyConDE #PyDataBerlin #PyData
 ---
 categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, business-start-ups, community, code-review, wednesday, wednesday-1150
 ---

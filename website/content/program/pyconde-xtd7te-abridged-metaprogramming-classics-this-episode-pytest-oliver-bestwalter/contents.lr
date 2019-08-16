@@ -42,7 +42,9 @@ start_time: 10:50
 ---
 day: friday
 ---
-meta_title: Abridged metaprogramming classics - this episode: pytest @obestwalter #PyConDE #PyDataBerlin #PyData
+meta_title: Abridged metaprogramming classics - this episode: pytest Oliver Bestwalter PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Abridged metaprogramming classics - this episode: pytest @obestwalter #PyConDE #PyDataBerlin #PyData
 ---
 categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, algorithms, code-review, apis, use-cases, friday, friday-1050
 ---

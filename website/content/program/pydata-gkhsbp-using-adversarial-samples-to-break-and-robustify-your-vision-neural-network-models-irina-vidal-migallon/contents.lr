@@ -40,7 +40,9 @@ start_time: 12:25
 ---
 day: thursday
 ---
-meta_title: Using adversarial samples to break and robustify your Vision Neural Network Models @not_vim #PyConDE #PyDataBerlin #PyData
+meta_title: Using adversarial samples to break and robustify your Vision Neural Network Models Irina Vidal Migallón PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Using adversarial samples to break and robustify your Vision Neural Network Models @not_vim #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-basic, domain-expertise-some, talk, artificial-intelligence, computer-vision, deep-learning, machine-learning, thursday, thursday-1225
 ---

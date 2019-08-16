@@ -40,7 +40,9 @@ start_time: 15:15
 ---
 day: wednesday
 ---
-meta_title: Hidden Markov Models for Chord Recognition - Intuition and Applications @CaioMiyashiro #PyConDE #PyDataBerlin #PyData
+meta_title: Hidden Markov Models for Chord Recognition - Intuition and Applications Caio Miyashiro PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Hidden Markov Models for Chord Recognition - Intuition and Applications @CaioMiyashiro #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-none, domain-expertise-some, tutorial, algorithms, data-science, machine-learning, statistics, wednesday, wednesday-1515
 ---

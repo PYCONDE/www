@@ -42,7 +42,9 @@ start_time: 15:15
 ---
 day: thursday
 ---
-meta_title: Quantum computing with Python @decodoku #PyConDE #PyDataBerlin #PyData
+meta_title: Quantum computing with Python James Wootton PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Quantum computing with Python @decodoku #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-basic, domain-expertise-none, tutorial, algorithms, infrastructure, science, apis, thursday, thursday-1515
 ---

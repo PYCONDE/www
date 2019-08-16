@@ -40,7 +40,9 @@ start_time: 10:00
 ---
 day: thursday
 ---
-meta_title: Beyond Paradigms: a new key to grok Python & other languages @ramalhoorg #PyConDE #PyDataBerlin #PyData
+meta_title: Beyond Paradigms: a new key to grok Python & other languages Luciano Ramalho PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Beyond Paradigms: a new key to grok Python & other languages @ramalhoorg #PyConDE #PyDataBerlin #PyData
 ---
 categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, algorithms, code-review, thursday, thursday-1000
 ---

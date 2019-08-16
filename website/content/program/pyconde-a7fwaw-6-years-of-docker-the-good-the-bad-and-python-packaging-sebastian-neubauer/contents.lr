@@ -40,7 +40,9 @@ start_time: 10:50
 ---
 day: thursday
 ---
-meta_title: 6 Years of Docker: The Good, the Bad and Python Packaging @sebineubauer #PyConDE #PyDataBerlin #PyData
+meta_title: 6 Years of Docker: The Good, the Bad and Python Packaging Sebastian Neubauer PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: 6 Years of Docker: The Good, the Bad and Python Packaging @sebineubauer #PyConDE #PyDataBerlin #PyData
 ---
 categories: pyconde, python-skill-level-expert, domain-expertise-some, talk, devops, infrastructure, ides-jupyter, use-cases, thursday, thursday-1050
 ---

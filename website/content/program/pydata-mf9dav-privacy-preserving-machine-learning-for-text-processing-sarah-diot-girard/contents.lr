@@ -40,7 +40,9 @@ start_time: 15:30
 ---
 day: wednesday
 ---
-meta_title: Privacy-preserving Machine Learning for text processing @ #PyConDE #PyDataBerlin #PyData
+meta_title: Privacy-preserving Machine Learning for text processing Sarah Diot-Girard PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Privacy-preserving Machine Learning for text processing @ #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-basic, domain-expertise-some, talk, artificial-intelligence, data-science, natural-language-processing, machine-learning, wednesday, wednesday-1530
 ---

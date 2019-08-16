@@ -39,7 +39,9 @@ start_time: 16:05
 ---
 day: wednesday
 ---
-meta_title: vtext: text processing in Rust with Python bindings @RomanYurchak #PyConDE #PyDataBerlin #PyData
+meta_title: vtext: text processing in Rust with Python bindings Roman Yurchak PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: vtext: text processing in Rust with Python bindings @RomanYurchak #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-basic, domain-expertise-some, talk, natural-language-processing, wednesday, wednesday-1605
 ---

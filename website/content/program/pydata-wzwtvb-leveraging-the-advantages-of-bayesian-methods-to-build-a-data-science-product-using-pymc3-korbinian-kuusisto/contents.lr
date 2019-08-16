@@ -40,7 +40,9 @@ start_time: 11:50
 ---
 day: friday
 ---
-meta_title: Leveraging the advantages of Bayesian Methods to build a data science product using PyMC3 @kuusisto_k #PyConDE #PyDataBerlin #PyData
+meta_title: Leveraging the advantages of Bayesian Methods to build a data science product using PyMC3 Korbinian Kuusisto PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Leveraging the advantages of Bayesian Methods to build a data science product using PyMC3 @kuusisto_k #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-basic, domain-expertise-expert, talk, algorithms, business-start-ups, data-science, machine-learning, science, statistics, friday, friday-1150
 ---

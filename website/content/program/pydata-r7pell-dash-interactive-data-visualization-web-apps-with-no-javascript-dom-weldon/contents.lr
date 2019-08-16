@@ -42,7 +42,9 @@ start_time: 11:50
 ---
 day: thursday
 ---
-meta_title: Dash: Interactive Data Visualization Web Apps with no Javascript @DomWeldon #PyConDE #PyDataBerlin #PyData
+meta_title: Dash: Interactive Data Visualization Web Apps with no Javascript Dom Weldon PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Dash: Interactive Data Visualization Web Apps with no Javascript @DomWeldon #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-basic, domain-expertise-some, talk, data-science, visualisation, web, thursday, thursday-1150
 ---

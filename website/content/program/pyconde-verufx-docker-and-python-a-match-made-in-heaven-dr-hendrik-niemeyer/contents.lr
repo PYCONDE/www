@@ -42,7 +42,9 @@ start_time: 10:00
 ---
 day: thursday
 ---
-meta_title: Docker and Python - A Match made in Heaven @hniemeye #PyConDE #PyDataBerlin #PyData
+meta_title: Docker and Python - A Match made in Heaven Dr. Hendrik Niemeyer PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Docker and Python - A Match made in Heaven @hniemeye #PyConDE #PyDataBerlin #PyData
 ---
 categories: pyconde, python-skill-level-basic, domain-expertise-some, talk, big-data, devops, infrastructure, thursday, thursday-1000
 ---

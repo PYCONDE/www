@@ -40,7 +40,9 @@ start_time: 11:50
 ---
 day: friday
 ---
-meta_title: Friend or Foe: Comparison of R & Python in Data Wrangling & Visualisation @yutakanzawa #PyConDE #PyDataBerlin #PyData
+meta_title: Friend or Foe: Comparison of R & Python in Data Wrangling & Visualisation Yuta Kanzawa PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Friend or Foe: Comparison of R & Python in Data Wrangling & Visualisation @yutakanzawa #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-basic, domain-expertise-some, talk, data-science, machine-learning, visualisation, statistics, friday, friday-1150
 ---

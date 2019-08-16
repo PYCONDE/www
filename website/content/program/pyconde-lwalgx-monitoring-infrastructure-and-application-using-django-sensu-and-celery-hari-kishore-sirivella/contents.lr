@@ -38,7 +38,9 @@ start_time: 10:50
 ---
 day: friday
 ---
-meta_title: Monitoring infrastructure and application using Django, Sensu and Celery. @ #PyConDE #PyDataBerlin #PyData
+meta_title: Monitoring infrastructure and application using Django, Sensu and Celery. Hari Kishore Sirivella PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Monitoring infrastructure and application using Django, Sensu and Celery. @ #PyConDE #PyDataBerlin #PyData
 ---
 categories: pyconde, python-skill-level-basic, domain-expertise-some, talk, django, devops, infrastructure, friday, friday-1050
 ---

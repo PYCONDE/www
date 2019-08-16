@@ -53,7 +53,9 @@ start_time: 10:00
 ---
 day: friday
 ---
-meta_title: Create CUDA kernels from Python using Numba and CuPy. @esc___ #PyConDE #PyDataBerlin #PyData
+meta_title: Create CUDA kernels from Python using Numba and CuPy. Valentin Haenel PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Create CUDA kernels from Python using Numba and CuPy. @esc___ #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-basic, domain-expertise-none, tutorial, algorithms, big-data, data-science, parallel-programming, friday, friday-1000
 ---

@@ -49,7 +49,9 @@ start_time: 14:00
 ---
 day: thursday
 ---
-meta_title: How to write tests that need a lot of data? @gogognomenl #PyConDE #PyDataBerlin #PyData
+meta_title: How to write tests that need a lot of data? Sander Kooijmans PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: How to write tests that need a lot of data? @gogognomenl #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-basic, domain-expertise-some, talk, algorithms, code-review, thursday, thursday-1400
 ---

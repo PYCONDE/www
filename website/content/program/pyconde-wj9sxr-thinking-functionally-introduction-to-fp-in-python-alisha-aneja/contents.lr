@@ -40,7 +40,9 @@ start_time: 14:00
 ---
 day: thursday
 ---
-meta_title: Thinking functionally: Introduction to FP in Python @alisha_aneja17 #PyConDE #PyDataBerlin #PyData
+meta_title: Thinking functionally: Introduction to FP in Python Alisha Aneja PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Thinking functionally: Introduction to FP in Python @alisha_aneja17 #PyConDE #PyDataBerlin #PyData
 ---
 categories: pyconde, python-skill-level-basic, domain-expertise-some, talk, algorithms, community, web, thursday, thursday-1400
 ---

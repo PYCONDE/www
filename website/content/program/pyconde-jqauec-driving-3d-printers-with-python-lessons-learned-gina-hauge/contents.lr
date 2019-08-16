@@ -40,7 +40,9 @@ start_time: 12:25
 ---
 day: friday
 ---
-meta_title: Driving 3D Printers with Python: Lessons Learned @foosel #PyConDE #PyDataBerlin #PyData
+meta_title: Driving 3D Printers with Python: Lessons Learned Gina Häußge PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Driving 3D Printers with Python: Lessons Learned @foosel #PyConDE #PyDataBerlin #PyData
 ---
 categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, web, 3d-priniting, makers, friday, friday-1225
 ---

@@ -42,7 +42,9 @@ start_time: 14:00
 ---
 day: friday
 ---
-meta_title: Interpretable Machine Learning: How to make black box models explainable @eng_elhardt #PyConDE #PyDataBerlin #PyData
+meta_title: Interpretable Machine Learning: How to make black box models explainable Alexander Engelhardt PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Interpretable Machine Learning: How to make black box models explainable @eng_elhardt #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-basic, domain-expertise-some, talk, data-science, machine-learning, friday, friday-1400
 ---

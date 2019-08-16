@@ -42,7 +42,9 @@ start_time: 14:35
 ---
 day: thursday
 ---
-meta_title: Dr. Schmood's Notebook of Python Calisthenics and Orthodontia @dschmudde #PyConDE #PyDataBerlin #PyData
+meta_title: Dr. Schmood's Notebook of Python Calisthenics and Orthodontia David Schmudde PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Dr. Schmood's Notebook of Python Calisthenics and Orthodontia @dschmudde #PyConDE #PyDataBerlin #PyData
 ---
 categories: pyconde, python-skill-level-basic, domain-expertise-some, talk, data-science, ides-jupyter, thursday, thursday-1435
 ---

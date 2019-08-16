@@ -40,7 +40,9 @@ start_time: 10:00
 ---
 day: friday
 ---
-meta_title: Version Control for Data Science @viperale #PyConDE #PyDataBerlin #PyData
+meta_title: Version Control for Data Science Alessia Marcolini PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Version Control for Data Science @viperale #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-basic, domain-expertise-some, talk, artificial-intelligence, data-science, machine-learning, friday, friday-1000
 ---

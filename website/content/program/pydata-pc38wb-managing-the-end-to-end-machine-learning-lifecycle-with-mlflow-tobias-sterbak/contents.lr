@@ -42,7 +42,9 @@ start_time: 10:00
 ---
 day: friday
 ---
-meta_title: Managing the end-to-end machine learning lifecycle with MLFlow @tobias_sterbak #PyConDE #PyDataBerlin #PyData
+meta_title: Managing the end-to-end machine learning lifecycle with MLFlow Tobias Sterbak PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Managing the end-to-end machine learning lifecycle with MLFlow @tobias_sterbak #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-basic, domain-expertise-some, tutorial, data-science, infrastructure, machine-learning, data-engineering, friday, friday-1000
 ---

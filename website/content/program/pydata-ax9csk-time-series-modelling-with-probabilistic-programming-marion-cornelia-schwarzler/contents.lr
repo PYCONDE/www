@@ -40,7 +40,9 @@ start_time: 12:25
 ---
 day: wednesday
 ---
-meta_title: Time series modelling with probabilistic programming @ #PyConDE #PyDataBerlin #PyData
+meta_title: Time series modelling with probabilistic programming Marion Cornelia Schwärzler PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Time series modelling with probabilistic programming @ #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-expert, domain-expertise-expert, talk, data-science, statistics, wednesday, wednesday-1225
 ---

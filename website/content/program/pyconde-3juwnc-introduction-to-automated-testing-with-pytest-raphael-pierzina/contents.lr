@@ -42,7 +42,9 @@ start_time: 10:00
 ---
 day: friday
 ---
-meta_title: Introduction to automated testing with pytest @hackebrot #PyConDE #PyDataBerlin #PyData
+meta_title: Introduction to automated testing with pytest Raphael Pierzina PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Introduction to automated testing with pytest @hackebrot #PyConDE #PyDataBerlin #PyData
 ---
 categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, devops, web, data-engineering, friday, friday-1000
 ---

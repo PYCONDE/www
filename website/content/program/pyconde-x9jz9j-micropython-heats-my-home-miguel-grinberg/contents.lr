@@ -38,7 +38,9 @@ start_time: 15:30
 ---
 day: wednesday
 ---
-meta_title: MicroPython Heats My Home @miguelgrinberg #PyConDE #PyDataBerlin #PyData
+meta_title: MicroPython Heats My Home Miguel Grinberg PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: MicroPython Heats My Home @miguelgrinberg #PyConDE #PyDataBerlin #PyData
 ---
 categories: pyconde, python-skill-level-none, domain-expertise-none, talk, microcontrollers, makers, apis, wednesday, wednesday-1530
 ---

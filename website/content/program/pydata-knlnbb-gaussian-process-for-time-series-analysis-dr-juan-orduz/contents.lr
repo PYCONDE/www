@@ -38,7 +38,9 @@ start_time: 10:50
 ---
 day: thursday
 ---
-meta_title: Gaussian Process for Time Series Analysis @juanitorduz #PyConDE #PyDataBerlin #PyData
+meta_title: Gaussian Process for Time Series Analysis Dr. Juan Orduz PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Gaussian Process for Time Series Analysis @juanitorduz #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-basic, domain-expertise-some, talk, algorithms, data-science, machine-learning, statistics, thursday, thursday-1050
 ---

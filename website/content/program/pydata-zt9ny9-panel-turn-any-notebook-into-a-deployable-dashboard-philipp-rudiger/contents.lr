@@ -40,7 +40,9 @@ start_time: 12:25
 ---
 day: thursday
 ---
-meta_title: Panel: Turn any notebook into a deployable dashboard @philippjfr #PyConDE #PyDataBerlin #PyData
+meta_title: Panel: Turn any notebook into a deployable dashboard Philipp Rudiger PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Panel: Turn any notebook into a deployable dashboard @philippjfr #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-expert, domain-expertise-expert, talk, data-science, ides-jupyter, visualisation, thursday, thursday-1225
 ---

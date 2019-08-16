@@ -42,7 +42,9 @@ start_time: 11:50
 ---
 day: wednesday
 ---
-meta_title: Time Series Anomaly Detection for Bottling Machine Maintenance @ #PyConDE #PyDataBerlin #PyData
+meta_title: Time Series Anomaly Detection for Bottling Machine Maintenance Andrea Spichtinger PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Time Series Anomaly Detection for Bottling Machine Maintenance @ #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-basic, domain-expertise-some, talk, algorithms, data-science, machine-learning, wednesday, wednesday-1150
 ---

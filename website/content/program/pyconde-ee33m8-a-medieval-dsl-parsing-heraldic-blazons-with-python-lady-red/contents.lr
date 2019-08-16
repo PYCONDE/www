@@ -40,7 +40,9 @@ start_time: 12:25
 ---
 day: friday
 ---
-meta_title: A Medieval DSL? Parsing Heraldic Blazons with Python @lady-mcscope #PyConDE #PyDataBerlin #PyData
+meta_title: A Medieval DSL? Parsing Heraldic Blazons with Python Lady Red PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: A Medieval DSL? Parsing Heraldic Blazons with Python @lady-mcscope #PyConDE #PyDataBerlin #PyData
 ---
 categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, makers, friday, friday-1225
 ---

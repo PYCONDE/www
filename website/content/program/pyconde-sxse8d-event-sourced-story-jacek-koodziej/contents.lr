@@ -42,7 +42,9 @@ start_time: 14:35
 ---
 day: friday
 ---
-meta_title: Event-Sourced Story @unit03 #PyConDE #PyDataBerlin #PyData
+meta_title: Event-Sourced Story Jacek Kołodziej PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Event-Sourced Story @unit03 #PyConDE #PyDataBerlin #PyData
 ---
 categories: pyconde, python-skill-level-none, domain-expertise-none, talk, use-cases, friday, friday-1435
 ---

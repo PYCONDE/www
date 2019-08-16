@@ -40,7 +40,9 @@ start_time: 14:35
 ---
 day: wednesday
 ---
-meta_title: Automating feature engineering for supervised learning?  Methods, open-source tools and prospects. @thorben_jensen #PyConDE #PyDataBerlin #PyData
+meta_title: Automating feature engineering for supervised learning?  Methods, open-source tools and prospects. Thorben Jensen PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Automating feature engineering for supervised learning?  Methods, open-source tools and prospects. @thorben_jensen #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-basic, domain-expertise-some, talk, artificial-intelligence, algorithms, data-science, machine-learning, data-engineering, wednesday, wednesday-1435
 ---

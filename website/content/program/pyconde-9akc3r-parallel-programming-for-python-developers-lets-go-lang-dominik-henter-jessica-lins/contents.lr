@@ -28,11 +28,15 @@ visit the speaker at: [Github](https://github.com/DoHe) • [Homepage](https://e
 
 #### Jéssica Lins
 
+Affiliation: Ecosia
 
 
 
+Born and raised in Brazil, Jéssica Lins also studied Computer Science there. During her studies, she did some internships and also had the chance to take part in an exchange program at Politecnico di Torino, in Italy. Today she is based in Berlin working mainly with backend development using Go and Python, and is happy that she can apply her programming skills towards a greener planet by working at Ecosia.
+
+visit the speaker at: [Github](https://github.com/jessicalins) • [Homepage](https://www.ecosia.org/)
 ---
-affiliation: Ecosia, 
+affiliation: Ecosia, Ecosia
 ---
 track: PyConDE
 ---
@@ -46,7 +50,9 @@ start_time: 11:30
 ---
 day: friday
 ---
-meta_title: Parallel programming for python developers – Let’s Go(lang) @ #PyConDE #PyDataBerlin #PyData
+meta_title: Parallel programming for python developers – Let’s Go(lang) Dominik Henter Jéssica Lins PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Parallel programming for python developers – Let’s Go(lang) @ #PyConDE #PyDataBerlin #PyData
 ---
 categories: pyconde, python-skill-level-basic, domain-expertise-none, tutorial, infrastructure, networks, parallel-programming, friday, friday-1130
 ---

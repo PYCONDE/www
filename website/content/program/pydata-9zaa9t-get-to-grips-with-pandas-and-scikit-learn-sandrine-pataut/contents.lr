@@ -44,7 +44,9 @@ start_time: 11:30
 ---
 day: wednesday
 ---
-meta_title: Get to grips with pandas and scikit-learn @SPataut #PyConDE #PyDataBerlin #PyData
+meta_title: Get to grips with pandas and scikit-learn Sandrine Pataut PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Get to grips with pandas and scikit-learn @SPataut #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-basic, domain-expertise-none, tutorial, algorithms, data-science, machine-learning, wednesday, wednesday-1130
 ---

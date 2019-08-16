@@ -49,7 +49,9 @@ start_time: 10:00
 ---
 day: thursday
 ---
-meta_title: Airflow: your ally for automating machine learning and data pipelines @enricapq #PyConDE #PyDataBerlin #PyData
+meta_title: Airflow: your ally for automating machine learning and data pipelines Enrica Pasqua Bahadir Uyarer PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Airflow: your ally for automating machine learning and data pipelines @enricapq #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-expert, domain-expertise-some, tutorial, big-data, infrastructure, machine-learning, data-engineering, thursday, thursday-1000
 ---

@@ -44,7 +44,9 @@ start_time: 13:45
 ---
 day: thursday
 ---
-meta_title: Kubernetes 101 for Python Developers @christianbarra #PyConDE #PyDataBerlin #PyData
+meta_title: Kubernetes 101 for Python Developers Christian Barra PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Kubernetes 101 for Python Developers @christianbarra #PyConDE #PyDataBerlin #PyData
 ---
 categories: pyconde, python-skill-level-basic, domain-expertise-some, tutorial, devops, infrastructure, web, apis, use-cases, thursday, thursday-1345
 ---

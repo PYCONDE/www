@@ -40,7 +40,9 @@ start_time: 14:35
 ---
 day: wednesday
 ---
-meta_title: Julia for Python @SimonDanisch #PyConDE #PyDataBerlin #PyData
+meta_title: Julia for Python Simon Danisch PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Julia for Python @SimonDanisch #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-basic, domain-expertise-expert, talk, data-science, infrastructure, ides-jupyter, parallel-programming, wednesday, wednesday-1435
 ---

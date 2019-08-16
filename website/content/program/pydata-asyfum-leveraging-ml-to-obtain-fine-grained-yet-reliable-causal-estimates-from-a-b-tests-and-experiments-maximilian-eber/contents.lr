@@ -40,7 +40,9 @@ start_time: 15:30
 ---
 day: thursday
 ---
-meta_title: Leveraging ML to obtain fine-grained (yet reliable) causal estimates from A/B tests and experiments @ #PyConDE #PyDataBerlin #PyData
+meta_title: Leveraging ML to obtain fine-grained (yet reliable) causal estimates from A/B tests and experiments Maximilian Eber PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Leveraging ML to obtain fine-grained (yet reliable) causal estimates from A/B tests and experiments @ #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-basic, domain-expertise-some, talk, data-science, machine-learning, science, statistics, thursday, thursday-1530
 ---

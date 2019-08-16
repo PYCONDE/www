@@ -40,7 +40,9 @@ start_time: 14:00
 ---
 day: wednesday
 ---
-meta_title: Automated Feature Engineering and Selection in Python @ #PyConDE #PyDataBerlin #PyData
+meta_title: Automated Feature Engineering and Selection in Python Franziska Horn PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Automated Feature Engineering and Selection in Python @ #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-basic, domain-expertise-some, talk, data-science, machine-learning, science, data-engineering, statistics, wednesday, wednesday-1400
 ---

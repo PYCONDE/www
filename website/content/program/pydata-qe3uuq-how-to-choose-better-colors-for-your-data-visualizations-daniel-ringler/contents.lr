@@ -40,7 +40,9 @@ start_time: 12:25
 ---
 day: wednesday
 ---
-meta_title: How to choose better colors for your data visualizations @Ringelpeter #PyConDE #PyDataBerlin #PyData
+meta_title: How to choose better colors for your data visualizations Daniel Ringler PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: How to choose better colors for your data visualizations @Ringelpeter #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-basic, domain-expertise-none, talk, data-science, visualisation, wednesday, wednesday-1225
 ---

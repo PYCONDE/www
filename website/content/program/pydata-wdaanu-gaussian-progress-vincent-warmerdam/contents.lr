@@ -44,7 +44,9 @@ start_time: 10:00
 ---
 day: thursday
 ---
-meta_title: Gaussian Progress @fishnets88 #PyConDE #PyDataBerlin #PyData
+meta_title: Gaussian Progress Vincent Warmerdam PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Gaussian Progress @fishnets88 #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-basic, domain-expertise-some, talk, artificial-intelligence, algorithms, data-science, ides-jupyter, machine-learning, statistics, thursday, thursday-1000
 ---

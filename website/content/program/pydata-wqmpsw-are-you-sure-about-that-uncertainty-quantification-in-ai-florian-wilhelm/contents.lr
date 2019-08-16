@@ -40,7 +40,9 @@ start_time: 10:00
 ---
 day: thursday
 ---
-meta_title: Are you sure about that?! Uncertainty Quantification in AI @FlorianWilhelm #PyConDE #PyDataBerlin #PyData
+meta_title: Are you sure about that?! Uncertainty Quantification in AI Florian Wilhelm PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Are you sure about that?! Uncertainty Quantification in AI @FlorianWilhelm #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-none, domain-expertise-some, talk, artificial-intelligence, deep-learning, data-science, machine-learning, science, thursday, thursday-1000
 ---

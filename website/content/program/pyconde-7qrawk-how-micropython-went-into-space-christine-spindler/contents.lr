@@ -41,7 +41,9 @@ start_time: 14:00
 ---
 day: wednesday
 ---
-meta_title: How MicroPython went into space @micropython #PyConDE #PyDataBerlin #PyData
+meta_title: How MicroPython went into space Christine Spindler PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: How MicroPython went into space @micropython #PyConDE #PyDataBerlin #PyData
 ---
 categories: pyconde, python-skill-level-none, domain-expertise-none, talk, microcontrollers, wednesday, wednesday-1400
 ---

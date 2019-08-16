@@ -40,7 +40,9 @@ start_time: 10:50
 ---
 day: friday
 ---
-meta_title: Strawberry: a dataclasses inspired approach to GraphQL @patrick91 #PyConDE #PyDataBerlin #PyData
+meta_title: Strawberry: a dataclasses inspired approach to GraphQL Patrick Arminio PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Strawberry: a dataclasses inspired approach to GraphQL @patrick91 #PyConDE #PyDataBerlin #PyData
 ---
 categories: pyconde, python-skill-level-basic, domain-expertise-some, talk, django, web, friday, friday-1050
 ---

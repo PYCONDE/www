@@ -40,7 +40,9 @@ start_time: 10:00
 ---
 day: friday
 ---
-meta_title: Why you don’t see many real-world applications of Reinforcement Learning. @ #PyConDE #PyDataBerlin #PyData
+meta_title: Why you don’t see many real-world applications of Reinforcement Learning. Yurii Tolochko PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Why you don’t see many real-world applications of Reinforcement Learning. @ #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-basic, domain-expertise-some, talk, artificial-intelligence, algorithms, deep-learning, machine-learning, statistics, friday, friday-1000
 ---

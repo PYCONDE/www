@@ -40,7 +40,9 @@ start_time: 14:35
 ---
 day: wednesday
 ---
-meta_title: Why you should (not) train your own BERT model for different languages or domains @MStecklina #PyConDE #PyDataBerlin #PyData
+meta_title: Why you should (not) train your own BERT model for different languages or domains Marianne Stecklina PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Why you should (not) train your own BERT model for different languages or domains @MStecklina #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-basic, domain-expertise-expert, talk, artificial-intelligence, deep-learning, data-science, natural-language-processing, machine-learning, science, wednesday, wednesday-1435
 ---

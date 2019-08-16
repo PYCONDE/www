@@ -40,7 +40,9 @@ start_time: 14:00
 ---
 day: thursday
 ---
-meta_title: skorch: A scikit-learn compatible neural network library that wraps pytorch @ #PyConDE #PyDataBerlin #PyData
+meta_title: skorch: A scikit-learn compatible neural network library that wraps pytorch Benjamin Bossan PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: skorch: A scikit-learn compatible neural network library that wraps pytorch @ #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-basic, domain-expertise-some, talk, deep-learning, data-science, machine-learning, thursday, thursday-1400
 ---

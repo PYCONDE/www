@@ -42,7 +42,9 @@ start_time: 15:15
 ---
 day: wednesday
 ---
-meta_title: pytest - simple, rapid and fun testing with Python @the_compiler #PyConDE #PyDataBerlin #PyData
+meta_title: pytest - simple, rapid and fun testing with Python Florian Bruhin PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: pytest - simple, rapid and fun testing with Python @the_compiler #PyConDE #PyDataBerlin #PyData
 ---
 categories: pyconde, python-skill-level-basic, domain-expertise-none, tutorial, infrastructure, wednesday, wednesday-1515
 ---

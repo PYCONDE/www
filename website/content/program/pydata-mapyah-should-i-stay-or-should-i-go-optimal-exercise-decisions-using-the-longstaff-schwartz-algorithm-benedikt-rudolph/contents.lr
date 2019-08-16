@@ -40,7 +40,9 @@ start_time: 15:30
 ---
 day: thursday
 ---
-meta_title: Should I stay or should I go? Optimal exercise decisions using the Longstaff-Schwartz algorithm @ #PyConDE #PyDataBerlin #PyData
+meta_title: Should I stay or should I go? Optimal exercise decisions using the Longstaff-Schwartz algorithm Benedikt Rudolph PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Should I stay or should I go? Optimal exercise decisions using the Longstaff-Schwartz algorithm @ #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-expert, domain-expertise-expert, talk, algorithms, business-start-ups, data-science, science, statistics, thursday, thursday-1530
 ---

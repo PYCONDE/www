@@ -40,7 +40,9 @@ start_time: 12:25
 ---
 day: friday
 ---
-meta_title: A Bayesian Workflow with PyMC and ArviZ @corrieaar #PyConDE #PyDataBerlin #PyData
+meta_title: A Bayesian Workflow with PyMC and ArviZ Corrie Bartelheimer PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: A Bayesian Workflow with PyMC and ArviZ @corrieaar #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-basic, domain-expertise-some, talk, data-science, statistics, friday, friday-1225
 ---

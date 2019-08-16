@@ -44,7 +44,9 @@ start_time: 10:50
 ---
 day: friday
 ---
-meta_title: Loss Function Theory 101 @ #PyConDE #PyDataBerlin #PyData
+meta_title: Loss Function Theory 101 David Wölfle PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Loss Function Theory 101 @ #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-none, domain-expertise-some, talk, artificial-intelligence, algorithms, deep-learning, data-science, machine-learning, statistics, friday, friday-1050
 ---
