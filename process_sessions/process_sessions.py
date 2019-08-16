@@ -15,7 +15,7 @@ import pandas as pd
 
 project_root = Path(__file__).parent.parent
 
-TOKEN = project_root / Path('_private/TOKEN.txt')
+TOKEN = (project_root / Path('_private/TOKEN.txt')).open().read()
 
 base_url = 'https://pretalx.com'
 event = 'pyconde-pydata-berlin-2019'
@@ -250,8 +250,7 @@ def rename_tmp_banners():
 def generate_session_pages():
     cleaned_submissions = json.load(clean_submissions_f.open())
     # book keeping
-    program_path = 'pyconde/content/program/'
-    session_path = Path(program_path)
+    session_path = project_root / 'website/content/program/'
     session_path.mkdir(exist_ok=True)
     in_place_submissions = [x.name for x in session_path.glob('*')]
     in_place_submissions.remove('contents.lr')  # only dirs
@@ -400,11 +399,16 @@ body: {body}
     if in_place_submissions:  # leftover dirs
         for zombie in in_place_submissions:
             # TODO could try to redirect zombies via code
-            zpath = Path('pyconde/content/program/') / zombie
-            shutil.rmtree(zpath)
+            zpath = Path('website/content/program/') / zombie
+            try:
+                code = zombie.split('-')[1].upper()
+                if redirects.get(code):
+                    create_redirect(zpath, slug=redirects.get(code))
+            except Exception as e:
+                shutil.rmtree(zpath)
 
     for category in all_categories:
-        cpath = Path('pyconde/content/program-categories') / category
+        cpath = Path('website/content/program-categories') / category
         if not cpath.exists():
             cpath.mkdir()
             with open(cpath / 'contents.lr', 'w') as f:
@@ -428,8 +432,8 @@ _discoverable: no""".format(slug))
 
 if __name__ == "__main__":
     # load_speakers()
-    # update_session_pages(use_cache=True)
-    update_session_pages(use_cache=False)
+    update_session_pages(use_cache=True)
+    # update_session_pages(use_cache=False)
     # save_csv_for_banners()
     # rename_tmp_banners()
     generate_session_pages()
