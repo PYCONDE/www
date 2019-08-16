@@ -290,6 +290,8 @@ day: {day}
 ---
 meta_title: {meta_title}
 ---
+meta_twitter_title: {meta_twitter_title}
+---
 categories: {categories_list}
 ---
 slugified_slot_links: {slugified_slot_links}
@@ -330,8 +332,10 @@ body: {body}
                 biography.append('visit the speaker at: ' + ' • '. join(social))
         biography = '\n\n'.join(biography)
 
+        speakers = ', '.join([x['name'] for x in submission['speakers']])
         speaker_twitters = ' '.join([x.get('@twitter') for x in submission['speakers'] if x.get('@twitter')])
-        meta_title = f"{submission['title']} @{speaker_twitters} #PyConDE #PyDataBerlin #PyData"
+        meta_title = f"{submission['title']} {speakers.replace(',', '')} PyConDE & PyDataBerlin 2019 conference "
+        meta_twitter_title = f"{submission['title']} @{speaker_twitters} #PyConDE #PyDataBerlin #PyData"
 
         # easier to handle on website as full text
         python_skill = f"Python Skill Level {submission['python_skill']}"
@@ -376,11 +380,12 @@ body: {body}
                 domains=domains,
                 track=submission['track'],
                 submission_type=submission['submission_type'].split(' ')[0],
-                speakers=', '.join([x['name'] for x in submission['speakers']]),
+                speakers=speakers,
                 biography=biography,
                 affiliation=', '.join([x['affiliation'] for x in submission['speakers']]),
                 twitter_image=f"/static/media/twitter/{submission['code']}.jpg",
                 meta_title=meta_title,
+                meta_twitter_title=meta_twitter_title,
                 categories=categories,
                 categories_list=categories_list,
                 python_skill=python_skill,
