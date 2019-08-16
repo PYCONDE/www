@@ -30,14 +30,14 @@
         <meta  name="og:image" content="{{ site.config.PROJECT.url }}{{ turl|asseturl }}">
     {% else %}
         <meta  property="og:image:secure_url" content="{{ site.config.PROJECT.url }}{{ site.config.PROJECT.twitter_card|url }}">
-    <meta  property="og:image" content="{{ site.config.PROJECT.url }}{{ site.config.PROJECT.twitter_card|url }}">
+        <meta  property="og:image" content="{{ site.config.PROJECT.url }}{{ site.config.PROJECT.twitter_card|url }}">
     {% endif %}
 
     <meta property="og:description" content="{{ this.description }}">
     <meta property="og:url" content="{{ site.config.PROJECT.url }}{{ '.'|url }}">
     <meta property="og:type" content="article">
     <meta property=“article:publisher“ content="https://de.pycon.org">
-    <meta property=“og:site_name“ content="PyCon DE &amp; PyData Berlin" />
+    <meta property=“og:site_name“ content="PyConDE &amp; PyData Berlin" />
 
     <meta property=“og:image:type“ content="image/jpeg" />
     <meta property=“og:image:width“ content=“2108″ />
@@ -47,7 +47,7 @@
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@pyconde">
-    <meta name="twitter:title" content="{%  if this.meta_title %}{{ this.meta_title }}{% else %}{{ this.title }}{% endif %}">
+    <meta name="twitter:title" content="{%  if this.meta_twitter_title %}{{ this.meta_twitter_title }}{% else %}{{ this.title }}{% endif %}">
     <meta name="twitter:description" content="{{ this.description }}">
     {% if this.twitter_image %}{% set turl = this.twitter_image %}<meta name="twitter:image" content="{{ site.config.PROJECT.url }}{{ turl|asseturl }}">
     {% else %}<meta name="twitter:image" content="{{ site.config.PROJECT.url }}{{ site.config.PROJECT.twitter_card|asseturl }}">
