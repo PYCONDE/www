@@ -13,17 +13,18 @@ import click
 import requests
 import pandas as pd
 
-TOKEN = open('../_private/TOKEN.txt').read()
+project_root = Path(__file__).parent.parent
+
+TOKEN = project_root / Path('_private/TOKEN.txt')
 
 base_url = 'https://pretalx.com'
 event = 'pyconde-pydata-berlin-2019'
 headers = {'Accept': 'application/json, text/javascript', 'Authorization': f'Token {TOKEN}'}
 
-submissions_path = Path('../_private/submissions.json')
-speakers_path = Path('../_private/speakers.json')
-clean_submissions_f = "website/databags/submissions"  # filepath w/o extention
-clean_speakers_f = "website/databags/speakers"  # filepath w/o extention
-schedule__path = Path("website/databags/schedule_databag.json")  # may be added later
+submissions_path = project_root / Path('_private/submissions.json')
+speakers_path = project_root / Path('_private/speakers.json')
+clean_submissions_f = project_root / Path("website/databags/submissions.json")  # filepath
+schedule__path = project_root / Path("website/databags/schedule_databag.json")  # may be added later
 
 
 def get_from_pretalx_api(url, params=None):
@@ -68,7 +69,7 @@ def load_submissions(accepted_only=True):
         slug = slugify(f"{submission.get('track', {}).get('en', 'pycon-pydata')}-{submission['code']}-{submission['title']}-{spkrs}")
         submission['slug'] = slug
 
-    with open(submissions_path, 'w') as f:
+    with submissions_path.open('w') as f:
         json.dump(submissions, f, indent=4)
 
 
@@ -110,7 +111,7 @@ def load_speakers():
                     speaker['homepage'] = f"http://{qa.get('answer').strip()}"
 
         the_speakers.append(speaker)
-    with open(speakers_path, 'w') as f:
+    with speakers_path.open('w') as f:
         json.dump(the_speakers, f, indent=4)
 
 
@@ -175,8 +176,8 @@ def update_session_pages(use_cache=False):
     if not use_cache:
         load_submissions()
         load_speakers()
-    submissions = json.load(open(submissions_path))
-    speakers = json.load(open(speakers_path))
+    submissions = json.load(submissions_path.open())
+    speakers = json.load(speakers_path.open())
     speakers = {s['code']: s for s in speakers}
     # TODO: add custom sessions as Open Space
     # take on only required attributes
@@ -205,7 +206,7 @@ def update_session_pages(use_cache=False):
             enriched_speakers.append(x)
         cs['speakers'] = enriched_speakers
         cleaned_submissions.append(cs)
-    json.dump(cleaned_submissions, open(f"{clean_submissions_f}.json", "w"), indent=4)
+    json.dump(cleaned_submissions, clean_submissions_f.open('w'), indent=4)
 
 
 def save_csv_for_banners():
@@ -213,7 +214,7 @@ def save_csv_for_banners():
     CSV with banner info only, saved as UTF-16 for useage in Illustrator for auto banner generation
     :return:
     """
-    cleaned_submissions = json.load(open(f"{clean_submissions_f}.json", "r"))
+    cleaned_submissions = json.load(clean_submissions_f.open())
     # save csv for banner generation
     csv = ['code', 'title', 'track', 'speakers', 'affiliation', 'banner_name']
     csv_submissions = []
@@ -224,8 +225,8 @@ def save_csv_for_banners():
         record['banner_name'] = f'Twitter-{i}.jpg'  # output filename from Illustrator
         csv_submissions.append(record)
     df = pd.DataFrame(csv_submissions)
-    df.to_csv(f"{clean_submissions_f}.csv", sep='\t', encoding='utf-8', index=False)
-    with codecs.open(f"{clean_submissions_f}.txt", "w", "UTF-16") as f:  #
+    df.to_csv(clean_submissions_f.with_suffix('.csv'), sep='\t', encoding='utf-8', index=False)
+    with codecs.open(clean_submissions_f.with_suffix('.txt'), "w", "UTF-16") as f:  #
         f.write('\t'.join(csv) + '\n')
         for line in csv_submissions:
             f.write('\t'.join([line[k] for k in csv]) + '\n')
@@ -236,7 +237,7 @@ def rename_tmp_banners():
     banners are created in the same order as in the clean_submissions_f.txt file
     :return:
     """
-    df = pd.read_csv(f'{clean_submissions_f}.txt', sep='\t', encoding='utf-16')
+    df = pd.read_csv(clean_submissions_f.with_suffix('.txt'), sep='\t', encoding='utf-16')
     for i in range(0, df.shape[0]):
         src = df.iloc[i]['banner_name']
         if i == 0:
@@ -247,7 +248,7 @@ def rename_tmp_banners():
 
 
 def generate_session_pages():
-    cleaned_submissions = json.load(open(f"{clean_submissions_f}.json", "r"))
+    cleaned_submissions = json.load(clean_submissions_f.open())
     # book keeping
     program_path = 'pyconde/content/program/'
     session_path = Path(program_path)
@@ -329,7 +330,7 @@ body: {body}
             if x.get('homepage'):
                 social.append(f"[Homepage]({x['homepage']})")
             if social:
-                biography.append('visit the speaker at: ' + ' • '. join(social))
+                biography.append('visit the speaker at: ' + ' • '.join(social))
         biography = '\n\n'.join(biography)
 
         speakers = ', '.join([x['name'] for x in submission['speakers']])
@@ -343,7 +344,8 @@ body: {body}
 
         domains = submission['domains']
 
-        categories = [submission['track'], python_skill, domain_expertise] + [submission['submission_type'].split(' ')[0]] + domains.split(', ')
+        categories = [submission['track'], python_skill, domain_expertise] + [submission['submission_type'].split(' ')[0]] + domains.split(
+            ', ')
 
         # add date and session start time for navidgation
         slot_links = []
