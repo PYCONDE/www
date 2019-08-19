@@ -32,8 +32,8 @@ def get_credentials():
     # The file token.pickle stores the user's access and refresh tokens, and is
     # created automatically when the authorization flow completes for the first
     # time.
-    tokenpath = project_root / '_private=token.pickle'
-    credentialspath = project_root / 'google_credentials.json'
+    tokenpath = project_root / '_private/token.pickle'
+    credentialspath = project_root / '_private/google_credentials.json'
     if tokenpath.exists():
         with tokenpath.ope('rb') as token:
             creds = pickle.load(token)
