@@ -48,8 +48,3 @@ try:
             f.write(f"{chosen['code']}\n")
 except:
     exit(1)
-
-user = api.get_user(screen_name="@hendorf")
-res = api.send_direct_message(user.id, text=f"robot tweeted at {datetime.now().isoformat()}\nhttps://twitter.com/PyConDE/status/{tweet.id}")
-# user = api.get_user(screen_name="@christianbarra")
-# res = api.send_direct_message(user.id, text=f"the robot tweeted this at {datetime.now().isoformat()}\nhttps://twitter.com/PyConDE/status/{tweet.id}")
