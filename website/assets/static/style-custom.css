@@ -35,3 +35,9 @@ a.tabs__nav > p {
 .short_margin {
     margin-bottom:25px;
 }
+
+/* FOOTER */
+
+.force_link {
+    color: #011eff !important;
+}
