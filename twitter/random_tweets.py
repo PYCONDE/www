@@ -1,4 +1,5 @@
 import json
+from datetime import datetime
 import tweepy
 from random import choice
 from config import consumer_key, consumer_secret, access_token, access_token_secret
@@ -40,15 +41,15 @@ auth.set_access_token(access_token, access_token_secret)
 
 api = tweepy.API(auth)
 
-res = api.update_status(status=the_tweet)
+tweet = api.update_status(status=the_tweet)
 try:
-    if res.id:
+    if tweet.id:
         with open(tweeted_already, 'a') as f:
             f.write(f"{chosen['code']}\n")
 except:
     exit(1)
 
-user_id = api.get_user(screen_name="@hendorf")
-res = api.send_direct_message(user_id, text=f"tweeted: https://twitter.com/PyConDE/status/{res.id}")
-user_id = api.get_user(screen_name="@christianbarra")
-res = api.send_direct_message(user_id, text=f"tweeted: https://twitter.com/PyConDE/status/{res.id}")
+user = api.get_user(screen_name="@hendorf")
+res = api.send_direct_message(user.id, text=f"robot tweeted at {datetime.now().isoformat()}\nhttps://twitter.com/PyConDE/status/{tweet.id}")
+# user = api.get_user(screen_name="@christianbarra")
+# res = api.send_direct_message(user.id, text=f"the robot tweeted this at {datetime.now().isoformat()}\nhttps://twitter.com/PyConDE/status/{tweet.id}")
