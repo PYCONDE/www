@@ -35,7 +35,7 @@ def get_credentials():
     tokenpath = project_root / '_private/token.pickle'
     credentialspath = project_root / '_private/google_credentials.json'
     if tokenpath.exists():
-        with tokenpath.ope('rb') as token:
+        with tokenpath.open('rb') as token:
             creds = pickle.load(token)
     # If there are no (valid) credentials available, let the user log in.
     if not creds or not creds.valid:
