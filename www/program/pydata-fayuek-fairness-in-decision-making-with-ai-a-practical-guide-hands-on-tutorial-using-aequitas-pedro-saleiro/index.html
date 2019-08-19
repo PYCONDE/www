@@ -8,7 +8,7 @@
     <script>(function (html) {
         html.className = html.className.replace(/\bno-js\b/, 'js')
     })(document.documentElement)</script>
-    <title>PyConDE & PyData Berlin 2019 | Use Cases</title>
+    <title>PyConDE & PyData Berlin 2019 | Fairness in decision-making with AI: a practical guide &amp; hands-on tutorial using Aequitas</title>
     <meta name="description"
           content="PyConDE & PyData Berlin 2019. October 9-13, Berlin Germany. Where Pythonistas in Germany can meet to learn about new and upcoming Python libraries, tools, software and data science.">
 
@@ -23,15 +23,15 @@
 
     <!-- other data for sharing -->
 
-    <meta  property="og:title" content="Use Cases Session List">
+    <meta  property="og:title" content="Fairness in decision-making with AI: a practical guide &amp; hands-on tutorial using Aequitas Pedro Saleiro PyConDE &amp; PyDataBerlin 2019 conference ">
 
     
-        <meta  property="og:image:secure_url" content="https://de.pycon.org/static/media/twitter/PyConDEPyData.jpg">
-        <meta  property="og:image" content="https://de.pycon.org/static/media/twitter/PyConDEPyData.jpg">
+        <meta  name="og:image:secure_url" content="https://de.pycon.org/static/media/twitter/FAYUEK.jpg?h=08cbf09b">
+        <meta  name="og:image" content="https://de.pycon.org/static/media/twitter/FAYUEK.jpg?h=08cbf09b">
     
 
-    <meta property="og:description" content="All Use Cases sessions at the PyConDE &amp; Pydata Berlin 2019 conference">
-    <meta property="og:url" content="https://de.pycon.org/program/categories/use-cases/">
+    <meta property="og:description" content="In this tutorial, we are going to deep dive into algorithmic fairness, from metrics and definitions to practical case studies, including bias audits using Aequitas (http://github.com/dssg/aequitas) in real policy problems where AI is being used">
+    <meta property="og:url" content="https://de.pycon.org/program/pydata-fayuek-fairness-in-decision-making-with-ai-a-practical-guide-hands-on-tutorial-using-aequitas-pedro-saleiro/">
     <meta property="og:type" content="article">
     <meta property=“article:publisher“ content="https://de.pycon.org">
     <meta property=“og:site_name“ content="PyConDE &amp; PyData Berlin" />
@@ -44,9 +44,9 @@
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@pyconde">
-    <meta name="twitter:title" content="Use Cases Session List">
-    <meta name="twitter:description" content="All Use Cases sessions at the PyConDE &amp; Pydata Berlin 2019 conference">
-    <meta name="twitter:image" content="https://de.pycon.org/static/media/twitter/PyConDEPyData.jpg?h=7f166feb">
+    <meta name="twitter:title" content="Fairness in decision-making with AI: a practical guide &amp; hands-on tutorial using Aequitas @ #PyConDE #PyDataBerlin #PyData">
+    <meta name="twitter:description" content="In this tutorial, we are going to deep dive into algorithmic fairness, from metrics and definitions to practical case studies, including bias audits using Aequitas (http://github.com/dssg/aequitas) in real policy problems where AI is being used">
+    <meta name="twitter:image" content="https://de.pycon.org/static/media/twitter/FAYUEK.jpg?h=08cbf09b">
     
 
 
@@ -224,306 +224,112 @@
     <div class="site-content" id="content">
         <div class="content-area" id="primary">
             
+    <main class="site-main" id="main">
+        <section class="section section--singular">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-xl-10 offset-xl-1">
+                        <header class="page-header text-center short_margin">
+
+                            <h2 class="page-title">Fairness in decision-making with AI: a practical guide &amp; hands-on tutorial using Aequitas</h2>
+
+                            
+                            
+                            
+                            
+
+                            <h3 class="page-title">Pedro Saleiro</h3>
+
+                        </header>
 
 
-    <section class="section section--singular">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-xl-10 offset-xl-1">
-                    <header class="page-header">
-                        <h3 class="page-title">Use Cases Session List</h3>
-                    </header>
-                    <div class="row">
-                        <div class="col-12 col-xl-10 offset-xl-1">
-                            <div class="blog-list in-view in-view--in">
-                                
+                        <div class="single-content">
+                            <div class="single-content__footer">
 
-    
+                                <div class="single-content__share">
+                                    <span class="sub-head-2">Share</span>
+                                    <a href="https://twitter.com/intent/tweet?text=In%20this%20tutorial%2C%20we%20are%20going%20to%20deep%20dive%20into%20algorithmic%20fairness%2C%20from%20metrics%20and%20definitions%20to%20practical%20case%20studies%2C%20including%20bias%20audits%20using%20Aequitas%20%28http%3A//github.com/dssg/aequitas%29%20in%20real%20policy%20problems%20where%20AI%20is%20being%20used&url=https://de.pycon.org/program/pydata-fayuek-fairness-in-decision-making-with-ai-a-practical-guide-hands-on-tutorial-using-aequitas-pedro-saleiro/&hashtags=PyConDE,PyDataBerlin"} target="_blank">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://de.pycon.org/program/pydata-fayuek-fairness-in-decision-making-with-ai-a-practical-guide-hands-on-tutorial-using-aequitas-pedro-saleiro/&title=Fairness%20in%20decision-making%20with%20AI%3A%20a%20practical%20guide%20%26%20hands-on%20tutorial%20using%20Aequitas&summary=In%20this%20tutorial%2C%20we%20are%20going%20to%20deep%20dive%20into%20algorithmic%20fairness%2C%20from%20metrics%20and%20definitions%20to%20practical%20case%20studies%2C%20including%20bias%20audits%20using%20Aequitas%20%28http%3A//github.com/dssg/aequitas%29%20in%20real%20policy%20problems%20where%20AI%20is%20being%20used&source=PyConDE%20%26%20PYData%20Berlin%202019"
+                                    target="_blank">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
 
-        
-        
-        
-        
-
-        <div class="blog-list__post in-view__child in-view__child--fadein in-view__child--in">
-            <div class="single-content__tags">
-                <a href="/program/categories/talk">Talk</a>
-                <a href="/program/categories/pyconde">PyConDE</a>
-            </div>
-            <h5 class="blog-list__title session_list_title">
-                <a href="/program/pyconde-a7fwaw-6-years-of-docker-the-good-the-bad-and-python-packaging-sebastian-neubauer/">6 Years of Docker: The Good, the Bad and Python Packaging</a>
-            </h5>
-            <h6 class="session_list_speaker">Sebastian Neubauer</h6>
-            <span class="blog-list__info sub-head">DevOps, Infrastructure, IDEs/ Jupyter, Use Cases</span>
-            <span class="blog-list__info sub-head"></span>
-
-            <p>In this talk I will walk you through the proper setup of a local python development environment using docker.</p>
-            <p class="blog-list__link text-xl-right">
-                <a class="sub-head dashed dashed--reverse--md in-view__child in-view__child--in" href="/program/pyconde-a7fwaw-6-years-of-docker-the-good-the-bad-and-python-packaging-sebastian-neubauer/">Read more</a>
-            </p>
-
-        </div>
-    
-
-        
-        
-        
-        
-
-        <div class="blog-list__post in-view__child in-view__child--fadein in-view__child--in">
-            <div class="single-content__tags">
-                <a href="/program/categories/talk">Talk</a>
-                <a href="/program/categories/pyconde">PyConDE</a>
-            </div>
-            <h5 class="blog-list__title session_list_title">
-                <a href="/program/pyconde-xtd7te-abridged-metaprogramming-classics-this-episode-pytest-oliver-bestwalter/">Abridged metaprogramming classics - this episode: pytest</a>
-            </h5>
-            <h6 class="session_list_speaker">Oliver Bestwalter</h6>
-            <span class="blog-list__info sub-head">Algorithms, Code-Review, APIs, Use Cases</span>
-            <span class="blog-list__info sub-head"></span>
-
-            <p>Abridged metaprogramming classics - this episode: pytest. About the role of metaprogramming in the creation of a simple to use but powerful testing framework.</p>
-            <p class="blog-list__link text-xl-right">
-                <a class="sub-head dashed dashed--reverse--md in-view__child in-view__child--in" href="/program/pyconde-xtd7te-abridged-metaprogramming-classics-this-episode-pytest-oliver-bestwalter/">Read more</a>
-            </p>
-
-        </div>
-    
-
-        
-        
-        
-        
-
-        <div class="blog-list__post in-view__child in-view__child--fadein in-view__child--in">
-            <div class="single-content__tags">
-                <a href="/program/categories/talk">Talk</a>
-                <a href="/program/categories/pydata">PyData</a>
-            </div>
-            <h5 class="blog-list__title session_list_title">
-                <a href="/program/pydata-wuebkt-data-literacy-for-managers-alexander-cs-hendorf/">Data Literacy for Managers</a>
-            </h5>
-            <h6 class="session_list_speaker">Alexander CS Hendorf</h6>
-            <span class="blog-list__info sub-head">Artificial Intelligence, Business &amp; Start-Ups, Data Science, Machine Learning, Use Cases</span>
-            <span class="blog-list__info sub-head"></span>
-
-            <p>Artificial Intelligence need to be better understood in enterprises. Close the communications gap between engineers and management. Making data litteracy  happen in your organisation.</p>
-            <p class="blog-list__link text-xl-right">
-                <a class="sub-head dashed dashed--reverse--md in-view__child in-view__child--in" href="/program/pydata-wuebkt-data-literacy-for-managers-alexander-cs-hendorf/">Read more</a>
-            </p>
-
-        </div>
-    
-
-        
-        
-        
-        
-
-        <div class="blog-list__post in-view__child in-view__child--fadein in-view__child--in">
-            <div class="single-content__tags">
-                <a href="/program/categories/talk">Talk</a>
-                <a href="/program/categories/pyconde">PyConDE</a>
-            </div>
-            <h5 class="blog-list__title session_list_title">
-                <a href="/program/pyconde-xjlswg-developers-vs-enterprise-ingo-stegmaier/">Developers vs. Enterprise</a>
-            </h5>
-            <h6 class="session_list_speaker">Ingo Stegmaier</h6>
-            <span class="blog-list__info sub-head">Community, Use Cases</span>
-            <span class="blog-list__info sub-head"></span>
-
-            <p>Developers vs. Enterprise. A guide to promote and succeed internal projects</p>
-            <p class="blog-list__link text-xl-right">
-                <a class="sub-head dashed dashed--reverse--md in-view__child in-view__child--in" href="/program/pyconde-xjlswg-developers-vs-enterprise-ingo-stegmaier/">Read more</a>
-            </p>
-
-        </div>
-    
-
-        
-        
-        
-        
-
-        <div class="blog-list__post in-view__child in-view__child--fadein in-view__child--in">
-            <div class="single-content__tags">
-                <a href="/program/categories/talk">Talk</a>
-                <a href="/program/categories/pyconde">PyConDE</a>
-            </div>
-            <h5 class="blog-list__title session_list_title">
-                <a href="/program/pyconde-sxse8d-event-sourced-story-jacek-koodziej/">Event-Sourced Story</a>
-            </h5>
-            <h6 class="session_list_speaker">Jacek Kołodziej</h6>
-            <span class="blog-list__info sub-head">Use Cases</span>
-            <span class="blog-list__info sub-head"></span>
-
-            <p>Basics and three years of experience in utilizing event sourcing in a real-life application with its ups and downs - come hear the Event-Sourced Story.</p>
-            <p class="blog-list__link text-xl-right">
-                <a class="sub-head dashed dashed--reverse--md in-view__child in-view__child--in" href="/program/pyconde-sxse8d-event-sourced-story-jacek-koodziej/">Read more</a>
-            </p>
-
-        </div>
-    
-
-        
-        
-        
-        
-
-        <div class="blog-list__post in-view__child in-view__child--fadein in-view__child--in">
-            <div class="single-content__tags">
-                <a href="/program/categories/tutorial">Tutorial</a>
-                <a href="/program/categories/pydata">PyData</a>
-            </div>
-            <h5 class="blog-list__title session_list_title">
-                <a href="/program/pydata-fayuek-fairness-in-decision-making-with-ai-a-practical-guide-hands-on-tutorial-using-aequitas-pedro-saleiro/">Fairness in decision-making with AI: a practical guide &amp; hands-on tutorial using Aequitas</a>
-            </h5>
-            <h6 class="session_list_speaker">Pedro Saleiro</h6>
-            <span class="blog-list__info sub-head">Data Science, Machine Learning, Use Cases</span>
-            <span class="blog-list__info sub-head"></span>
-
-            <p>In this tutorial, we are going to deep dive into algorithmic fairness, from metrics and definitions to practical case studies, including bias audits using Aequitas (http://github.com/dssg/aequitas) in real policy problems where AI is being used</p>
-            <p class="blog-list__link text-xl-right">
-                <a class="sub-head dashed dashed--reverse--md in-view__child in-view__child--in" href="/program/pydata-fayuek-fairness-in-decision-making-with-ai-a-practical-guide-hands-on-tutorial-using-aequitas-pedro-saleiro/">Read more</a>
-            </p>
-
-        </div>
-    
-
-        
-        
-        
-        
-
-        <div class="blog-list__post in-view__child in-view__child--fadein in-view__child--in">
-            <div class="single-content__tags">
-                <a href="/program/categories/talk">Talk</a>
-                <a href="/program/categories/pyconde">PyConDE</a>
-            </div>
-            <h5 class="blog-list__title session_list_title">
-                <a href="/program/pyconde-sgvkvs-fresh-new-pythonic-database-edgedb-and-why-it-s-the-future-dmitry-nazarov/">Fresh New Pythonic Database: EdgeDB (And Why It&#39;s the Future)</a>
-            </h5>
-            <h6 class="session_list_speaker">Dmitry Nazarov</h6>
-            <span class="blog-list__info sub-head">Web, Use Cases</span>
-            <span class="blog-list__info sub-head"></span>
-
-            <p>This @edgedatabase talk will cover both the basics (setup, syntax, repl, simple usecase) as well as advanced topics (indexes, performance, complex usecases). We&#39;ll also talk history of databases as is</p>
-            <p class="blog-list__link text-xl-right">
-                <a class="sub-head dashed dashed--reverse--md in-view__child in-view__child--in" href="/program/pyconde-sgvkvs-fresh-new-pythonic-database-edgedb-and-why-it-s-the-future-dmitry-nazarov/">Read more</a>
-            </p>
-
-        </div>
-    
-
-        
-        
-        
-        
-
-        <div class="blog-list__post in-view__child in-view__child--fadein in-view__child--in">
-            <div class="single-content__tags">
-                <a href="/program/categories/tutorial">Tutorial</a>
-                <a href="/program/categories/pyconde">PyConDE</a>
-            </div>
-            <h5 class="blog-list__title session_list_title">
-                <a href="/program/pyconde-d8van9-kubernetes-101-for-python-developers-christian-barra/">Kubernetes 101 for Python Developers</a>
-            </h5>
-            <h6 class="session_list_speaker">Christian Barra</h6>
-            <span class="blog-list__info sub-head">DevOps, Infrastructure, Web, APIs, Use Cases</span>
-            <span class="blog-list__info sub-head"></span>
-
-            <p>Ready to learn about Kubernetes? Join the workshop and be prepared to play with yaml files!</p>
-            <p class="blog-list__link text-xl-right">
-                <a class="sub-head dashed dashed--reverse--md in-view__child in-view__child--in" href="/program/pyconde-d8van9-kubernetes-101-for-python-developers-christian-barra/">Read more</a>
-            </p>
-
-        </div>
-    
-
-        
-        
-        
-        
-
-        <div class="blog-list__post in-view__child in-view__child--fadein in-view__child--in">
-            <div class="single-content__tags">
-                <a href="/program/categories/tutorial">Tutorial</a>
-                <a href="/program/categories/pyconde">PyConDE</a>
-            </div>
-            <h5 class="blog-list__title session_list_title">
-                <a href="/program/pyconde-cfprj8-package-and-dependency-management-with-poetry-steph-samson/">Package and Dependency Management with Poetry</a>
-            </h5>
-            <h6 class="session_list_speaker">Steph Samson</h6>
-            <span class="blog-list__info sub-head">DevOps, Infrastructure, Use Cases</span>
-            <span class="blog-list__info sub-head"></span>
-
-            <p>Learn how to make package and dependency management easier with Poetry.</p>
-            <p class="blog-list__link text-xl-right">
-                <a class="sub-head dashed dashed--reverse--md in-view__child in-view__child--in" href="/program/pyconde-cfprj8-package-and-dependency-management-with-poetry-steph-samson/">Read more</a>
-            </p>
-
-        </div>
-    
-
-        
-        
-        
-        
-
-        <div class="blog-list__post in-view__child in-view__child--fadein in-view__child--in">
-            <div class="single-content__tags">
-                <a href="/program/categories/talk">Talk</a>
-                <a href="/program/categories/pydata">PyData</a>
-            </div>
-            <h5 class="blog-list__title session_list_title">
-                <a href="/program/pydata-9lzbx9-python-powered-osint-modernising-open-source-intelligence-for-investigating-disinformation-chiin-rui-tan-dare-imam-lawal/">Python-Powered OSINT! Modernising Open Source Intelligence for Investigating Disinformation</a>
-            </h5>
-            <h6 class="session_list_speaker">Chiin-Rui Tan, Dare Imam-Lawal</h6>
-            <span class="blog-list__info sub-head">Artificial Intelligence, Algorithms, Data Science, Machine Learning, Web, Data Mining / Scraping, Use Cases</span>
-            <span class="blog-list__info sub-head"></span>
-
-            <p>Socio-Technical Python for OSINT! The old state discipline of gathering intelligence from open sources is today critical for investigating Disinformation but has lacked modernisation. A former UK Gov Head of DataSci presents a maturity model for updating legacy OSINT with Python!</p>
-            <p class="blog-list__link text-xl-right">
-                <a class="sub-head dashed dashed--reverse--md in-view__child in-view__child--in" href="/program/pydata-9lzbx9-python-powered-osint-modernising-open-source-intelligence-for-investigating-disinformation-chiin-rui-tan-dare-imam-lawal/">Read more</a>
-            </p>
-
-        </div>
-    
-
-        
-        
-        
-        
-
-        <div class="blog-list__post in-view__child in-view__child--fadein in-view__child--in">
-            <div class="single-content__tags">
-                <a href="/program/categories/talk">Talk</a>
-                <a href="/program/categories/pydata">PyData</a>
-            </div>
-            <h5 class="blog-list__title session_list_title">
-                <a href="/program/pydata-zna8wn-your-name-is-invalid-miroslav-sedivy/">Your Name Is Invalid!</a>
-            </h5>
-            <h6 class="session_list_speaker">Miroslav Šedivý</h6>
-            <span class="blog-list__info sub-head">Algorithms, Community, Natural Language Processing, Web, Data Mining / Scraping, Use Cases</span>
-            <span class="blog-list__info sub-head"></span>
-
-            <p>If your code tells me “Your Name Is Invalid!”, then your code is probably invalid. Names of people cannot be invalid.</p>
-            <p class="blog-list__link text-xl-right">
-                <a class="sub-head dashed dashed--reverse--md in-view__child in-view__child--in" href="/program/pydata-zna8wn-your-name-is-invalid-miroslav-sedivy/">Read more</a>
-            </p>
-
-        </div>
-    
-
-                                 <p><span class="sub-head-2">Filter</span></p>
+                                </div>
                             </div>
+
+                            <div class="single-content">
+
+                                <div class="single-content__tags">
+                                <h6>Thursday 10:00 in Saal 7
+
+                                    
+                                        
+                                        <a href="/program/categories/thursday">thursday</a>
+                                    
+                                        
+                                        <a href="/program/categories/thursday-1000">thursday-1000</a>
+                                    </h6>
+                                </div>
+
+                                <div class="single-content__tags">
+                                    <span class="sub-head-2">Type/Track</span>
+                                    <a href="/program/categories/tutorial">Tutorial</a>
+                                    <a href="/program/categories/pydata">PyData</a>
+                                </div>
+
+
+                                <p>Recent work has raised concerns on the risk of unintended bias in AI systems being used nowadays that can affect individuals unfairly based on race, gender or religion, among other possible characteristics.
+While a lot of bias metrics and fairness definitions have been proposed in recent years, there is no consensus on which metric/definition should be used and there are very few available resources
+to operationalize them. Therefore, despite recent awareness, auditing for bias and fairness when developing and deploying AI systems is not yet a standard practice. In this tutorial, we present Aequitas(<a href="http://github.com/dssg/aequitas">http://github.com/dssg/aequitas</a>), an open source bias and fairness audit toolkit that is an intuitive and easy to use addition to the machine learning workflow, enabling users to seamlessly test models for several bias
+and fairness metrics in relation to multiple population sub-groups. Aequitas facilitates informed and equitable decisions around developing and deploying algorithmic decision making systems for both data scientists, machine learning researchers and policymakers.</p>
+<p>In this tutorial we will cover the following how tos: 
+<em>How to think about fairness and equity when building and evaluating AI systems;</em> <em>How to define fairness goals and manage efficiency and effectiveness tradeoffs;</em> <em>How to select fairness metrics;</em> <em>How to build and select ML models that achieve those fairness goals; </em> <em>How to validate that the AI system is fair</em>;<em>How to monitor a deployed AI system for fairness and adapt if necessary;</em></p>
+
+
+                                <div class="single-content__tags">
+                                    <span class="sub-head-2">Tags&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                    
+                                        
+                                        <a href="/program/categories/data-science">Data Science</a>
+                                    
+                                        
+                                        <a href="/program/categories/machine-learning">Machine Learning</a>
+                                    
+                                        
+                                        <a href="/program/categories/use-cases">Use Cases</a>
+                                    
+                                </div>
+                                <div class="single-content__tags">
+                                    <span class="sub-head-2">Level&nbsp;&nbsp;</span>
+                                    <a href="/program/categories/domain-expertise-some">Domain Expertise some</a>
+                                    <a href="/program/categories/python-skill-level-basic">Python Skill Level basic</a>
+                                </div>
+
+
+                            </div>
+                            <div class="single-content">
+                                <h4>Pedro Saleiro</h4>
+<p>Affiliation: Feedzai</p>
+<p>Pedro Saleiro is a Data Science Manager at Feedzai, leading FATE, a new research group working on Fairness, Accountability, Transparency and Ethics in AI. Previously, Pedro was working with Rayid Ghani as Postdoc at the University of Chicago, developing new methods and open source tools, such as the Aequitas toolkit to detect bias and discrimination in AI, and doing data science projects with government and nonprofit partners. Pedro completed his PhD in Machine Learning and Information Retrieval at the Faculty of Engineering of the University of Porto (FEUP).</p>
+<p>visit the speaker at: <a href="https://dsapp.uchicago.edu/projects/aequitas/">Homepage</a></p>
+
+                            </div>
+
                         </div>
+
+
+                        <img class="lazyload--el lazyloaded" src="/static/media/twitter/FAYUEK.jpg" data-src="/static/media/twitter/FAYUEK.jpg" alt=""
+                             width="960" height="480">
+
                     </div>
+
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
+    </main>
 
         </div>
     </div>

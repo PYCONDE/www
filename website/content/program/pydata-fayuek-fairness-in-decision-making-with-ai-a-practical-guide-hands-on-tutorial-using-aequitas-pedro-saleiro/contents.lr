@@ -1,0 +1,58 @@
+_model: session 
+---
+code: FAYUEK
+---
+title: Fairness in decision-making with AI: a practical guide & hands-on tutorial using Aequitas
+---
+description: In this tutorial, we are going to deep dive into algorithmic fairness, from metrics and definitions to practical case studies, including bias audits using Aequitas (http://github.com/dssg/aequitas) in real policy problems where AI is being used
+---
+short_description: In this tutorial, we are going to deep dive into algorithmic fairness, from metrics and definitions to practical case studies, including bias audits using Aequitas (http://github.com/dssg/aequitas) in real policy problems where AI is being used
+---
+twitter_image: /static/media/twitter/FAYUEK.jpg
+---
+speakers: Pedro Saleiro
+---
+submission_type: Tutorial
+---
+domains: Data Science, Machine Learning, Use Cases
+---
+biography: #### Pedro Saleiro
+
+Affiliation: Feedzai
+
+
+
+Pedro Saleiro is a Data Science Manager at Feedzai, leading FATE, a new research group working on Fairness, Accountability, Transparency and Ethics in AI. Previously, Pedro was working with Rayid Ghani as Postdoc at the University of Chicago, developing new methods and open source tools, such as the Aequitas toolkit to detect bias and discrimination in AI, and doing data science projects with government and nonprofit partners. Pedro completed his PhD in Machine Learning and Information Retrieval at the Faculty of Engineering of the University of Porto (FEUP).
+
+visit the speaker at: [Homepage](https://dsapp.uchicago.edu/projects/aequitas/)
+---
+affiliation: Feedzai
+---
+track: PyData
+---
+python_skill: Python Skill Level basic
+---
+domain_expertise: Domain Expertise some
+---
+room: Saal 7
+---
+start_time: 10:00
+---
+day: thursday
+---
+meta_title: Fairness in decision-making with AI: a practical guide & hands-on tutorial using Aequitas Pedro Saleiro PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Fairness in decision-making with AI: a practical guide & hands-on tutorial using Aequitas @ #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-basic, domain-expertise-some, tutorial, data-science, machine-learning, use-cases, thursday, thursday-1000
+---
+slugified_slot_links: thursday, thursday-1000
+---
+body: Recent work has raised concerns on the risk of unintended bias in AI systems being used nowadays that can affect individuals unfairly based on race, gender or religion, among other possible characteristics.
+While a lot of bias metrics and fairness definitions have been proposed in recent years, there is no consensus on which metric/definition should be used and there are very few available resources
+to operationalize them. Therefore, despite recent awareness, auditing for bias and fairness when developing and deploying AI systems is not yet a standard practice. In this tutorial, we present Aequitas(http://github.com/dssg/aequitas), an open source bias and fairness audit toolkit that is an intuitive and easy to use addition to the machine learning workflow, enabling users to seamlessly test models for several bias
+and fairness metrics in relation to multiple population sub-groups. Aequitas facilitates informed and equitable decisions around developing and deploying algorithmic decision making systems for both data scientists, machine learning researchers and policymakers.
+
+In this tutorial we will cover the following how tos: 
+*How to think about fairness and equity when building and evaluating AI systems;* *How to define fairness goals and manage efficiency and effectiveness tradeoffs;* *How to select fairness metrics;* *How to build and select ML models that achieve those fairness goals; * *How to validate that the AI system is fair*;*How to monitor a deployed AI system for fairness and adapt if necessary;*
+
