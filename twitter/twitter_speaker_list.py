@@ -1,10 +1,11 @@
 import json
-from pprint import pprint
+from pathlib import Path
 import tweepy
 from config import consumer_key, consumer_secret, access_token, access_token_secret
 
-speakersf = "../_private/speakers.json"
-submissionsf = "../_private/submissions.json"
+project_root = Path(__file__).resolve().parents[1]
+speakersf = project_root / "_private/speakers.json"
+submissionsf = project_root / "_private/submissions.json"
 
 with open(speakersf, "r") as f:
     all_speakers = json.load(f)
