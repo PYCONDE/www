@@ -11,3 +11,6 @@ cd - || exit
 
 export PYTHONPATH="$project_path"
 python process_sessions.py
+
+git commit -a -m "autmatic contents update "
+git push
