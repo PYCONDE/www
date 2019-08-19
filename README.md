@@ -26,10 +26,10 @@ Build content pages (talks, tutorials, :
 
     python process_sessions.py
  
- 
-### Creating and Updating Speaker Lists on Twitter
- 
-###### Preparation
+
+## Twitter
+
+### Preparation
  - A developer account for the Twitter API
  - An app registered for this deveoper account
  - Save consumer_key and consumer_secret in `config.py`
@@ -46,6 +46,16 @@ python  manually_authorize_app.py  consumer_key consumer_secret
 ```
 Follow the instructions on the terminal.
 Save `access_token` and `access_token_secret` in `config.py`.  
+
+### Creating and Updating Speaker Lists on Twitter
+
+Will add and remove speaker handles added by speakers (via Pretalx).
+
+Run `twitter_speaker_list.py`  via the console
+
+```bash
+python  twitter_speaker_list.py
+```
 
 
 ### Generate Cards for Talks for Sharing
@@ -72,4 +82,10 @@ Run `rename_tmp_banners`: renames the banners in to `code.jpg` in the same order
  - [Twitter]( https://cards-dev.twitter.com/validator)
 
 
+### Randomly Select a Session for Tweewting
+
+Selects a random session, considers sessions having a speaker twitter handle only.
+Policy is one tweet per session, tweeted session are added to `databags/tweeted_talks.txt`
+
+Run `send_random_tweet.sh` manually of via cronjob.
 
