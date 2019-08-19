@@ -233,7 +233,7 @@ def generate_session_pages():
     # book keeping
     session_path = project_root / 'website/content/program/'
     session_path.mkdir(exist_ok=True)
-    in_place_submissions = [x.name for x in session_path.glob('*')]
+    in_place_submissions = [x.name for x in session_path.glob('*') if x.name[0] != '.']
     in_place_submissions.remove('contents.lr')  # only dirs
     tpl = """_model: session 
 ---
@@ -380,7 +380,7 @@ body: {body}
     if in_place_submissions:  # leftover dirs
         for zombie in in_place_submissions:
             # TODO could try to redirect zombies via code
-            zpath = Path('website/content/program/') / zombie
+            zpath = project_root / Path('website/content/program/') / zombie
             try:
                 code = zombie.split('-')[1].upper()
                 if redirects.get(code):
@@ -389,7 +389,7 @@ body: {body}
                 shutil.rmtree(zpath)
 
     for category in all_categories:
-        cpath = Path('website/content/program-categories') / category
+        cpath = project_root / Path('website/content/program-categories') / category
         if not cpath.exists():
             cpath.mkdir()
             with open(cpath / 'contents.lr', 'w') as f:
@@ -412,7 +412,7 @@ _discoverable: no""".format(slug))
 
 
 if __name__ == "__main__":
-    update_session_pages(use_cache=False)
-    update_schedule_from_sheet()
+    # update_session_pages(use_cache=False)
+    # update_schedule_from_sheet()
     update_session_pages(use_cache=True)
     generate_session_pages()

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+set -e
 # simple script to run cronjob for tweets on local computer
 
 # path to python env
