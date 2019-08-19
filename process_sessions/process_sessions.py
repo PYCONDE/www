@@ -1,17 +1,16 @@
 import hashlib
 import json
-import os
 import re
 import codecs
 import shutil
 from datetime import timedelta
-from functools import partial
 from unicodedata import normalize
 from pathlib import Path
 
-import click
 import requests
 import pandas as pd
+
+from schedule.schedule_from_google_sheet import update_schedule_from_sheet, slugify
 
 project_root = Path(__file__).parent.parent
 
@@ -113,23 +112,6 @@ def load_speakers():
         the_speakers.append(speaker)
     with speakers_path.open('w') as f:
         json.dump(the_speakers, f, indent=4)
-
-
-def slugify(text, delim="-"):
-    """Generates an slightly worse ASCII-only slug."""
-
-    _punct_re = re.compile(r'[\t !"#$%&\'()*\-/<=>?@\[\\\]^_`{|},.]+')
-    _regex = re.compile("[^a-z0-9]")
-    # First parameter is the replacement, second parameter is your input string
-
-    result = []
-    for word in _punct_re.split(text.lower()):
-        word = normalize("NFKD", word).encode("ascii", "ignore")
-        word = word.decode("ascii")
-        word = _regex.sub("", word)
-        if word:
-            result.append(word)
-    return str(delim.join(result))
 
 
 def date2identifier(dt):
@@ -431,9 +413,7 @@ _discoverable: no""".format(slug))
 
 
 if __name__ == "__main__":
-    # load_speakers()
+    update_session_pages(use_cache=False)
+    update_schedule_from_sheet()
     update_session_pages(use_cache=True)
-    # update_session_pages(use_cache=False)
-    # save_csv_for_banners()
-    # rename_tmp_banners()
     generate_session_pages()
