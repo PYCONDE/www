@@ -30,7 +30,7 @@ from itertools import cycle
 
 from schedule.google_download import download_sheet
 
-project_root = Path(__file__).parent.parent
+project_root = Path(__file__).resolve().parents[1]
 
 # The ID and range of a sample spreadsheet.
 SPREADSHEET_ID = '1uQcyxmWUuc8H1dpB8rN3FU3AF6Sy0BtKzokLXe7W9N0'

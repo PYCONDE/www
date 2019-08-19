@@ -4,7 +4,6 @@ import re
 import codecs
 import shutil
 from datetime import timedelta
-from unicodedata import normalize
 from pathlib import Path
 
 import requests
@@ -12,9 +11,9 @@ import pandas as pd
 
 from schedule.schedule_from_google_sheet import update_schedule_from_sheet, slugify
 
-project_root = Path(__file__).parent.parent
-
-TOKEN = (project_root / Path('_private/TOKEN.txt')).open().read()
+project_root = Path(__file__).resolve().parents[1]
+tokenpath = project_root / '_private/TOKEN.txt'
+TOKEN = tokenpath.open().read()
 
 base_url = 'https://pretalx.com'
 event = 'pyconde-pydata-berlin-2019'
