@@ -245,6 +245,8 @@ class ScheduleFromGSheet:
         :return:
         """
         time, contents_str = session_tuple
+        if '@' in contents_str:
+            contents_str, time = contents_str.split('@')
         contents = contents_str.split()
 
         session_keys = [
