@@ -36,7 +36,7 @@ domain_expertise: Domain Expertise some
 ---
 room: Saal 5
 ---
-start_time: 15:15
+start_time: 15:20
 ---
 day: wednesday
 ---
@@ -44,9 +44,9 @@ meta_title: Hidden Markov Models for Chord Recognition - Intuition and Applicati
 ---
 meta_twitter_title: Hidden Markov Models for Chord Recognition - Intuition and Applications @CaioMiyashiro #PyConDE #PyDataBerlin #PyData
 ---
-categories: pydata, python-skill-level-none, domain-expertise-some, tutorial, algorithms, data-science, machine-learning, statistics, wednesday, wednesday-1515
+categories: pydata, python-skill-level-none, domain-expertise-some, tutorial, algorithms, data-science, machine-learning, statistics, wednesday, wednesday-1520
 ---
-slugified_slot_links: wednesday, wednesday-1515
+slugified_slot_links: wednesday, wednesday-1520
 ---
 body: In machine learning, traditional mathematical models are still a good choice when dealing with small to medium datasets. However, the theory behind some of them is still hidden under heavy mathematical jargon, making it difficult for a broader application of them in science and in business.   
 

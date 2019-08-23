@@ -38,7 +38,7 @@ domain_expertise: Domain Expertise none
 ---
 room: Saal 7
 ---
-start_time: 15:15
+start_time: 15:20
 ---
 day: wednesday
 ---
@@ -46,9 +46,9 @@ meta_title: pytest - simple, rapid and fun testing with Python Florian Bruhin Py
 ---
 meta_twitter_title: pytest - simple, rapid and fun testing with Python @the_compiler #PyConDE #PyDataBerlin #PyData
 ---
-categories: pyconde, python-skill-level-basic, domain-expertise-none, tutorial, infrastructure, wednesday, wednesday-1515
+categories: pyconde, python-skill-level-basic, domain-expertise-none, tutorial, infrastructure, wednesday, wednesday-1520
 ---
-slugified_slot_links: wednesday, wednesday-1515
+slugified_slot_links: wednesday, wednesday-1520
 ---
 body: The pytest tool presents a rapid and simple way to write tests for your Python
 code. This training gives an introduction with exercises to some

@@ -1,6 +1,6 @@
 import hashlib
 import json
-import re
+import subprocess
 import codecs
 import shutil
 from datetime import timedelta
@@ -411,8 +411,17 @@ target: /program/{}
 _discoverable: no""".format(slug))
 
 
+def run_lekor_update():
+    command = "cd website && lektor build --output-path ../www"
+    process = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
+    proc_stdout = process.communicate()[0].strip()
+    for line in proc_stdout.decode('utf-8').split('\n'):
+        print(line)
+
+
 if __name__ == "__main__":
-    update_session_pages(use_cache=False)
-    update_schedule_from_sheet()
-    update_session_pages(use_cache=True)
-    generate_session_pages()
+    # update_session_pages(use_cache=False)
+    # update_schedule_from_sheet()
+    # update_session_pages(use_cache=True)
+    # generate_session_pages()
+    run_lekor_update()

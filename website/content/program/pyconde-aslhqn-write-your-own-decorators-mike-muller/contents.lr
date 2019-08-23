@@ -40,7 +40,7 @@ domain_expertise: Domain Expertise some
 ---
 room: Saal 5
 ---
-start_time: 13:45
+start_time: 13:50
 ---
 day: wednesday
 ---
@@ -48,9 +48,9 @@ meta_title: Write your Own Decorators Mike Müller PyConDE & PyDataBerlin 2019 c
 ---
 meta_twitter_title: Write your Own Decorators @pyacademy #PyConDE #PyDataBerlin #PyData
 ---
-categories: pyconde, python-skill-level-basic, domain-expertise-some, tutorial, algorithms, wednesday, wednesday-1345
+categories: pyconde, python-skill-level-basic, domain-expertise-some, tutorial, algorithms, wednesday, wednesday-1350
 ---
-slugified_slot_links: wednesday, wednesday-1345
+slugified_slot_links: wednesday, wednesday-1350
 ---
 body: Writing a function that takes a function and returns new, modified function requires solid knowledge how Python functions and closures work. This  hands-on workshop takes  you step-by-step through the process of writing decorators. Learn how to apply best practices from the start.
 

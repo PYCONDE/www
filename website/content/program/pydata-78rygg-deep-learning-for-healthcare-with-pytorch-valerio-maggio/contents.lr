@@ -41,7 +41,7 @@ domain_expertise: Domain Expertise some
 ---
 room: Saal 7
 ---
-start_time: 13:45
+start_time: 13:50
 ---
 day: wednesday
 ---
@@ -49,9 +49,9 @@ meta_title: Deep Learning for Healthcare with PyTorch Valerio Maggio PyConDE & P
 ---
 meta_twitter_title: Deep Learning for Healthcare with PyTorch @leriomaggio #PyConDE #PyDataBerlin #PyData
 ---
-categories: pydata, python-skill-level-expert, domain-expertise-some, tutorial, artificial-intelligence, deep-learning, machine-learning, science, wednesday, wednesday-1345
+categories: pydata, python-skill-level-expert, domain-expertise-some, tutorial, artificial-intelligence, deep-learning, machine-learning, science, wednesday, wednesday-1350
 ---
-slugified_slot_links: wednesday, wednesday-1345
+slugified_slot_links: wednesday, wednesday-1350
 ---
 body: This tutorial provides a general introduction to the PyTorch Deep Learning framework with specific focus 
 on Deep Learning applications for Precision Medicine and Computational Biology.
