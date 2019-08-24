@@ -15,7 +15,7 @@ with open(submissionsf, "r") as f:
 accepted_submissions = [x for x in all_submissions if x['state'] in ("accepted", "confirmed")]
 
 with open(tweeted_already) as f:
-    tweeted_codes = set(f.readlines())
+    tweeted_codes = set([x.strip() for x in f.readlines()])
 
 accepted_submissions_for_twitter = [x for x in accepted_submissions
                                     if any([y.get('@twitter') for y in x['speakers']])
