@@ -7,6 +7,11 @@
                     "name": "Anaconda",
                     "description": "With more than 15 million users, Anaconda is the world’s most popular data science platform and the foundation of modern machine learning. Our flagship product, Anaconda Enterprise, delivers data science and machine learning at speed and scale, unleashing the full potential of our customers’ data science and machine learning initiatives.",
                     "logo": "/static/media/sponsors/anaconda.jpg"
+                },
+                {
+                    "name": "Microsoft",
+                    "description": "Microsoft is proud to support the Python Community and the PyCon DE & PyData Berlin Conference. Visual Studio Code, our lightweight, free and open source editor lets developers write better code faster with extensions for Python. Microsoft Azure enables you to develop & run your code easily in the cloud. Azure DevOps supports you to automate the deployment of your data application.",
+                    "logo": "/static/media/sponsors/microsoft.png"
                 }
             ]
         },
@@ -122,6 +127,11 @@
                     "name": "Pluralsight",
                     "description": "Pluralsight is the technology learning platform for organizations that need to enhance the expertise of their technologists to keep up with the pace of technological change and deliver key innovations on time, on budget and securely.",
                     "logo": "/static/media/sponsors/pluralsight.png"
+                },
+                {
+                    "name": "Axa Germany",
+                    "description": "With written premiums of EUR 10.7 billion (2018) and 9,038 employees, AXA Konzern is one of the leading insurance companies and financial services providers in Germany. The mindset and actions of the company are based on the customer and his needs.",
+                    "logo": "/static/media/sponsors/axa_logo_solid_rgb.svg"
                 }
             ]
         },
