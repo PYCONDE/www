@@ -303,7 +303,7 @@ class ScheduleFromGSheet:
             session_details['add_to_class'] = "color--primary"
             session_details['short_description'] = "Light lunch and refreshments."
             session_details['clipcard_icon'] = "fa-cutlery"
-        elif contents and 'keynote' in contents[0].lower():
+        elif contents and 'keynote:' in contents[0].lower():
             session_details['title'] = "Keynote"
             session_details['type'] = "Plenary"
             session_details['plenary'] = True
@@ -379,6 +379,15 @@ class ScheduleFromGSheet:
                                                    "you must be a member of the PSV to attend."
             session_details['url'] = 'https://python-verband.org/verband'
             session_details['clipcard_icon'] = "fa-user-secret"
+        elif contents and 'pyladies lunch' in contents_str.lower():
+            session_details['title'] = contents_str
+            session_details['duration'] = "01:00"
+            session_details['url'] = 'blog/pyladies-lunch/'
+            session_details['clipcard_icon'] = "fa-users"
+            session_details['track'] = "pycon-pydata"
+            session_details['type'] = "Community"
+            session_details['domains'] = "Diversity"
+            session_details['speaker_names'] = "PyLadies"
         elif contents and 'end' == contents_str.lower():
             session_details['title'] = "End of the day"
             session_details['track'] = "pyconde"
@@ -413,14 +422,14 @@ class ScheduleFromGSheet:
 def update_schedule_from_sheet():
     s = ScheduleFromGSheet(SPREADSHEET_ID, RANGE_NAME, DATABAG_PATH)
     s.read_online_sheet()
-    s.set_rooms(5, "A:K")
-    s.set_locations(7, "A:K")
-    s.set_use(6, "A:K")
+    s.set_rooms(5, "A:L")
+    s.set_locations(7, "A:L")
+    s.set_use(6, "A:L")
 
     s.load_submissions(SUBMISSIONS_PATH)
 
     talks_time_colum_name = "A"
-    talks_colums = ["C", "D", "E", "F", "G"]
+    talks_colums = ["C", "D", "E", "F", "G", "K"]
 
     tuts_time_colum_name = "H"
     tuts_colums = ["I", "J"]
