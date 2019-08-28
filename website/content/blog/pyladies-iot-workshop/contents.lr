@@ -1,0 +1,44 @@
+title: PyLadies IoT workshop
+---
+pub_date: 2019-08-28
+---
+author: Organisers
+---
+description: PyLadies IoT workshop at PyCon DE & PyData Berlin 2019
+---
+twitter_image: /static/media/twitter/iot.jpg
+---
+body:
+
+![PyConDE & PyData Berlin 2019](/static/media/twitter/iot.jpg)
+
+This year, **PyLadies Hamburg, PyLadies Berlin & Friends are joining forces to organise a beginner Internet-of-Things (IOT) workshop**, on the first day of the Sprints: Saturday, October 12th, 10:00 - 18:00 at the Sprint Venue.
+
+In this workshop we will learn more about micro-controllers, data manipulation and the Python ecosystem. We will start by setting up a Raspberry Pi, then collecting weather data and finally visualizing this data. With the collected data, the aim in the future is to predict the temperature in your flat.
+
+So what we will do:
+- Hook up DHT22 humidity and temperature sensor with a Raspberry Pi
+- Set up a hobby database
+- Build an app to read sensor data and store it to a data source
+- Read the data and visualize it in a grafana dashboard
+- Predict temperature based on historical data
+
+What you need to bring:
+- a laptop
+- your GitHub account. Create one, if you do not have one already.
+- micro-usb to usb adapter
+- other material will be available on site
+
+**The workshop is for those identifying as women or non binary and want to learn how to build a hobby project from scratch involving various tools.**
+
+As we only have a few places at the workshop we ask everybody who wants to participate to fill out the [form](https://forms.gle/x7c85EGvjgYQxXzC6).
+
+The application will close once the pool of participants is filled.
+
+
+- Location: Sprint Venue
+- When: October 12th, 10:00 - 18:00
+- Who: Anyone who identifies as a woman or non binary who is attending the conference
+- RSVP: [google form registration](https://forms.gle/x7c85EGvjgYQxXzC6)
+
+PyLadies Hamburg and PyLadies Berlin Team
