@@ -412,7 +412,7 @@ _discoverable: no""".format(slug))
 
 
 def run_lekor_update():
-    command = "cd website && lektor build --output-path ../www"
+    command = f"cd {project_root.absolute()}/website && lektor build --output-path ../www"
     process = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
     proc_stdout = process.communicate()[0].strip()
     for line in proc_stdout.decode('utf-8').split('\n'):
@@ -420,7 +420,7 @@ def run_lekor_update():
 
 
 def git_push():
-    commands = [f"cd {project_root.absolute()}", "git add website/*", "git add www/*", "git commit -m website-auto-update", "git push"]
+    commands = [f"cd {project_root.absolute()}", "git add --all", "git commit -am website-auto-update", "git push"]
     for command in commands:
         print("command:", command)
         process = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
@@ -432,9 +432,9 @@ def git_push():
 
 
 if __name__ == "__main__":
-    update_session_pages(use_cache=False)
-    update_schedule_from_sheet()
-    update_session_pages(use_cache=True)
-    generate_session_pages()
+    # update_session_pages(use_cache=False)
+    # update_schedule_from_sheet()
+    # update_session_pages(use_cache=True)
+    # generate_session_pages()
     run_lekor_update()
     git_push()

@@ -65,10 +65,10 @@ Specifically, the topics covered are
 
 - What makes a model interpretable?
   - Linear models, trees, decision rules
-- The SIPA framework (Sampling, Intervention, Prediction, Aggregation) for making models interpretable again
+- How to achieve interpretability
 - Model-agnostic methods for interpretability
+  - Permutation Feature Importance
   - Partial dependence plots (PDPs)
-  - Individual conditional expectations (ICEs)
-- Example-based explanations
+  - Shapley Values / SHAP
 - The future of machine learning
 
