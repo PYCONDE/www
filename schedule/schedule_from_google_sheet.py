@@ -313,7 +313,7 @@ class ScheduleFromGSheet:
             session_details['short_description'] = "To be announced soon."
             session_details['clipcard_icon'] = "fa-key"
         elif contents and 'open space' in contents_str.lower():
-            session_details['title'] = "Open Space"
+            session_details['title'] = contents_str
             session_details['type'] = "Community"
             session_details['duration'] = "00:30"
             session_details['track'] = "pycon-pydata"
