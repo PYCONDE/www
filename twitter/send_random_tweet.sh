@@ -14,5 +14,6 @@ cd - || exit
 export PYTHONPATH="$project_path"
 python random_tweets.py
 
-git commit -m "update autotweets"
+git add --all
+git commit -am update-autotweets
 git push
