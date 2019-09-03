@@ -2,8 +2,8 @@
 
 # simple script to run cronjob for tweets on local computer
 
-# path to python env
-source /Users/hendorf/anaconda3/bin/activate PyConDE-www
+# path to python env local || server
+source /Users/hendorf/anaconda3/bin/activate PyConDE-www || source /home/hendorf/anaconda3/bin/activate pyconwww
 
 cd ..
 project_path=$(pwd)
