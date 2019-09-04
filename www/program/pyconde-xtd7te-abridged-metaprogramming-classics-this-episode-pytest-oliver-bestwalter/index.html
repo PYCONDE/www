@@ -280,7 +280,7 @@
                                 </div>
 
 
-                                <p>We will make a tour through the  <a href="https://pypi.org/project/pytest/">pytest</a> core features and see how a lot of them are implemented using metaprogramming techniques like introspection/reflection, AST manipulation and other clever uses of Pythons Data and execution mod.</p>
+                                <p>We will make a tour through the  <a href="https://pypi.org/project/pytest/">pytest</a> core features and see how a lot of them are implemented using metaprogramming techniques like introspection/reflection, code as data and other clever applications of Pythons Data and execution model.</p>
 <p>At the end of this talk we will have built a minimal re-implementation of what makes the core of pytest (code will be available in the <a href="https://gitlab.com/obestwalter/pico-pytest">pico-pytest repository</a>).</p>
 <p>To get to the essential ideas of their implementation, we will look at (wildly) simplified versions of:</p>
 <ul>
@@ -288,7 +288,6 @@
 <li>object markers for test selection (<code>@pytest.mark.&lt;some custom name&gt;</code>)</li>
 <li>automatic dependency injection (<code>@pytest.fixture</code>)</li>
 <li>automatic test generation (<code>@pytest.mark.parametrize</code>)</li>
-<li>test result introspection through assertion rewriting</li>
 <li>offering extensibility through plugins</li>
 </ul>
 

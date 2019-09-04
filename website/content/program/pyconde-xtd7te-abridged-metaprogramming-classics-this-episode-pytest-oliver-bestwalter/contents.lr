@@ -50,7 +50,7 @@ categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, algo
 ---
 slugified_slot_links: friday, friday-1050
 ---
-body: We will make a tour through the  [pytest](https://pypi.org/project/pytest/) core features and see how a lot of them are implemented using metaprogramming techniques like introspection/reflection, AST manipulation and other clever uses of Pythons Data and execution mod.
+body: We will make a tour through the  [pytest](https://pypi.org/project/pytest/) core features and see how a lot of them are implemented using metaprogramming techniques like introspection/reflection, code as data and other clever applications of Pythons Data and execution model.
 
 At the end of this talk we will have built a minimal re-implementation of what makes the core of pytest (code will be available in the [pico-pytest repository](https://gitlab.com/obestwalter/pico-pytest)).
 
@@ -60,6 +60,5 @@ To get to the essential ideas of their implementation, we will look at (wildly) 
 * object markers for test selection (`@pytest.mark.<some custom name>`)
 * automatic dependency injection (`@pytest.fixture`)
 * automatic test generation (`@pytest.mark.parametrize`)
-* test result introspection through assertion rewriting
 * offering extensibility through plugins
 
