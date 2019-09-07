@@ -132,6 +132,16 @@
                     "name": "Axa Germany",
                     "description": "With written premiums of EUR 10.7 billion (2018) and 9,038 employees, AXA Konzern is one of the leading insurance companies and financial services providers in Germany. The mindset and actions of the company are based on the customer and his needs.",
                     "logo": "/static/media/sponsors/axa_logo_solid_rgb.svg"
+                },
+                {
+                    "name": "Ada",
+                    "description": "Ada is a global health company founded by doctors, scientists, and industry pioneers to create new possibilities for personal health. Ada’s core system connects medical knowledge with intelligent technology to help all people actively manage their health and medical professionals to deliver effective care. Ada is proud to collaborate with leading health systems and global non-profit organizations to carry out this vision.",
+                    "logo": "/static/media/sponsors/ada.png"
+                },
+                {
+                    "name": "DeliveryHero",
+                    "description": "Delivery Hero is building the next generation global on-demand delivery platform. We have grown rapidly from inception in 2011 to become the world’s largest food-ordering network and we’re now innovating and creating new verticals such as groceries, pharmacies, flowers and other convenience articles in multiple markets.",
+                    "logo": "/static/media/sponsors/deliveryhero.png"
                 }
             ]
         },
