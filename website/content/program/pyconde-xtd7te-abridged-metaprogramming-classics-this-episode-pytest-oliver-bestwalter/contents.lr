@@ -60,5 +60,4 @@ To get to the essential ideas of their implementation, we will look at (wildly) 
 * object markers for test selection (`@pytest.mark.<some custom name>`)
 * automatic dependency injection (`@pytest.fixture`)
 * automatic test generation (`@pytest.mark.parametrize`)
-* offering extensibility through plugins
 
