@@ -79,6 +79,11 @@
                     "logo": "/static/media/sponsors/infarm.png"
                 },
                 {
+                    "name": "Python Academy",
+                    "description": "Python Academy is a specialized Python training company. We offer open courses for individuals as well as customized on-site courses for companies and institutes. We cover a wide range of Python topics from introductory to advanced, Python for scientists and engineers, big data, machine learning, web development, code optimization, and many more.\nIn addition to training, we consult companies that migrate to Python and develop high-quality Python software often in combination with training. Our special expertise is scientific and technical software development with Python.",
+                    "logo": "/static/media/sponsors/pya_logo_rgb_sq.svg"
+                },
+                {
                     "name": "StackFuel",
                     "description": "StackFuel is Germany's first provider of interactive online courses in data science and analytics for professionals. We offer a hands-on programming experierence combined with real world business cases and industry data sets. Enhance your career and become a data professional.",
                     "logo": "/static/media/sponsors/stackfuel.png"
@@ -129,7 +134,7 @@
                     "logo": "/static/media/sponsors/pluralsight.png"
                 },
                 {
-                    "name": "Axa Germany",
+                    "name": "AXA Germany",
                     "description": "With written premiums of EUR 10.7 billion (2018) and 9,038 employees, AXA Konzern is one of the leading insurance companies and financial services providers in Germany. The mindset and actions of the company are based on the customer and his needs.",
                     "logo": "/static/media/sponsors/axa_logo_solid_rgb.svg"
                 },
@@ -139,8 +144,13 @@
                     "logo": "/static/media/sponsors/ada.png"
                 },
                 {
-                    "name": "DeliveryHero",
-                    "description": "Delivery Hero is building the next generation global on-demand delivery platform. We have grown rapidly from inception in 2011 to become the world’s largest food-ordering network and we’re now innovating and creating new verticals such as groceries, pharmacies, flowers and other convenience articles in multiple markets.",
+                    "name": "Comtravo",
+                    "description": "Recent advancements in NLP and Machine Learning as well as top notch software engineering and devops\nenable Comtravo to simplify the business travel booking process: You can book an entire business trip quickly via\nour self-booking tool or with a single email. The rest is taken care of by our powerful human-machine hybrid.",
+                    "logo": "/static/media/sponsors/comtravo_logo.svg"
+                },
+                {
+                    "name": "Delivery Hero",
+                    "description": "Delivery Hero is building the next generation global on-demand delivery platform, handling millions of orders daily. To make this possible, we use Python extensively across our infrastructure, processing thousands of events per second. The Python data ecosystem drives some of our data pipelines and machine learning models as well, in order to produce a personalised experience for our millions of customers.",
                     "logo": "/static/media/sponsors/deliveryhero.png"
                 }
             ]
