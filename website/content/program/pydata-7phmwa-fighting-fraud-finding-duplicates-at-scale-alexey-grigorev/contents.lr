@@ -36,9 +36,9 @@ python_skill: Python Skill Level basic
 ---
 domain_expertise: Domain Expertise some
 ---
-room: Hauptsaal
+room: Saal 2
 ---
-start_time: 14:35
+start_time: 14:00
 ---
 day: wednesday
 ---
@@ -46,9 +46,9 @@ meta_title: Fighting fraud: finding duplicates at scale Alexey Grigorev PyConDE 
 ---
 meta_twitter_title: Fighting fraud: finding duplicates at scale @ #PyConDE #PyDataBerlin #PyData
 ---
-categories: pydata, python-skill-level-basic, domain-expertise-some, talk, data-science, infrastructure, machine-learning, data-engineering, wednesday, wednesday-1435
+categories: pydata, python-skill-level-basic, domain-expertise-some, talk, data-science, infrastructure, machine-learning, data-engineering, wednesday, wednesday-1400
 ---
-slugified_slot_links: wednesday, wednesday-1435
+slugified_slot_links: wednesday, wednesday-1400
 ---
 body: Duplicated content is often an issue in many online platforms, especially in classifieds, where it requires special attention: fraudsters there create fake ads by copying existing listings and trick honest users into giving away their money.
 
