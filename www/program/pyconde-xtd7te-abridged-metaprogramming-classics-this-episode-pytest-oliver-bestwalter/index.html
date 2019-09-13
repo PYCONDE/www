@@ -280,15 +280,17 @@
                                 </div>
 
 
-                                <p>We will make a tour through the  <a href="https://pypi.org/project/pytest/">pytest</a> core features and see how a lot of them are implemented using metaprogramming techniques like introspection/reflection, code as data and other clever applications of Pythons Data and execution model.</p>
-<p>At the end of this talk we will have built a minimal re-implementation of what makes the core of pytest (code will be available in the <a href="https://gitlab.com/obestwalter/pico-pytest">pico-pytest repository</a>).</p>
-<p>To get to the essential ideas of their implementation, we will look at (wildly) simplified versions of:</p>
+                                <p>If pytest seems like pure magic to you or you even don't know what a test framework does, this talk will hopefully give you some insights.</p>
+<p>We will take look at three <a href="https://pypi.org/project/pytest/">pytest</a> core features and see how they are implemented using metaprogramming techniques like using code as data, dynamic execution of arbitrary expressions and live object introspection. These are all big words, but in Python all this comes quite natural. Getting started with these things is not too hard and can be done in an incremental fashion.</p>
+<p>To get to the essential ideas of how metaprogramming can help in creating a testing framework we will look at:</p>
 <ul>
-<li>test discovery and execution</li>
-<li>object markers for test selection (<code>@pytest.mark.&lt;some custom name&gt;</code>)</li>
-<li>automatic dependency injection (<code>@pytest.fixture</code>)</li>
-<li>automatic test generation (<code>@pytest.mark.parametrize</code>)</li>
+<li>Automatic test discovery and execution. What happens when I run <code>pytest path/to/my/tests</code>?</li>
+<li>Selecting marked tests via expressions (<code>@pytest.mark</code>). How do I implement <code>@pytest.mark.&lt;arbitrarily_named_marker&gt;</code> and run <code>pytest -m</code> with an expression to select specific tests decorated with markers?</li>
+<li>Automatic dependency injection (<code>@pytest.fixture</code>). How do I implement a fixture mechanism and what happens if I use a fixture in my test?</li>
 </ul>
+<p>This is an introductory talk. No knowledge is expected of either pytest or metaprogramming. The functionality will be explained and built from the ground up for each feature. This is also a very code heavy talk, but It turns out that if you don't have to worry about the real world, you only need a few lines of code as Python itself does the heavy lifting :)</p>
+<p>A more complete version of the code shown in the talk lives in the <a href="https://gitlab.com/obestwalter/pico-pytest">pico-pytest repository</a>). it contains an installable, tested project that also implements only the bare functionality, but has automatic tests and makes use of type hinting (these are especially useful in programs that are very dynamic and make use of metaprogramming).</p>
+<p>Disclaimer: no third party tools where harmed in the making of this talk: metaprogramming is inbuilt into Python and well supported by the language and its standard library.</p>
 
 
                                 <div class="single-content__tags">

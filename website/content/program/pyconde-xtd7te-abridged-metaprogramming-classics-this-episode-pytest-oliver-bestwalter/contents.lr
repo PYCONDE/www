@@ -50,14 +50,19 @@ categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, algo
 ---
 slugified_slot_links: friday, friday-1050
 ---
-body: We will make a tour through the  [pytest](https://pypi.org/project/pytest/) core features and see how a lot of them are implemented using metaprogramming techniques like introspection/reflection, code as data and other clever applications of Pythons Data and execution model.
+body: If pytest seems like pure magic to you or you even don't know what a test framework does, this talk will hopefully give you some insights.
 
-At the end of this talk we will have built a minimal re-implementation of what makes the core of pytest (code will be available in the [pico-pytest repository](https://gitlab.com/obestwalter/pico-pytest)).
+We will take look at three [pytest](https://pypi.org/project/pytest/) core features and see how they are implemented using metaprogramming techniques like using code as data, dynamic execution of arbitrary expressions and live object introspection. These are all big words, but in Python all this comes quite natural. Getting started with these things is not too hard and can be done in an incremental fashion.
 
-To get to the essential ideas of their implementation, we will look at (wildly) simplified versions of:
+To get to the essential ideas of how metaprogramming can help in creating a testing framework we will look at:
 
-* test discovery and execution
-* object markers for test selection (`@pytest.mark.<some custom name>`)
-* automatic dependency injection (`@pytest.fixture`)
-* automatic test generation (`@pytest.mark.parametrize`)
+* Automatic test discovery and execution. What happens when I run `pytest path/to/my/tests`?
+* Selecting marked tests via expressions (`@pytest.mark`). How do I implement `@pytest.mark.<arbitrarily_named_marker>` and run `pytest -m` with an expression to select specific tests decorated with markers?
+* Automatic dependency injection (`@pytest.fixture`). How do I implement a fixture mechanism and what happens if I use a fixture in my test?
+
+This is an introductory talk. No knowledge is expected of either pytest or metaprogramming. The functionality will be explained and built from the ground up for each feature. This is also a very code heavy talk, but It turns out that if you don't have to worry about the real world, you only need a few lines of code as Python itself does the heavy lifting :)
+
+A more complete version of the code shown in the talk lives in the [pico-pytest repository](https://gitlab.com/obestwalter/pico-pytest)). it contains an installable, tested project that also implements only the bare functionality, but has automatic tests and makes use of type hinting (these are especially useful in programs that are very dynamic and make use of metaprogramming).
+
+Disclaimer: no third party tools where harmed in the making of this talk: metaprogramming is inbuilt into Python and well supported by the language and its standard library.
 
