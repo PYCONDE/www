@@ -1,0 +1,5 @@
+_model: redirect
+---
+target: https://ti.to/pycon-de/pyconde-pydata-2019
+---
+_discoverable: no

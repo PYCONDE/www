@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta http-equiv="refresh" content="0; URL='{{ this.target|url }}'" />
+   {% if "http" in this.target %}
+       <meta http-equiv="refresh" content="0; URL='{{ this.target }}'" />
+    {% else %}
+       <meta http-equiv="refresh" content="0; URL='{{ this.target|url }}'" />
+    {% endif %}
 </head>
 <body>
 redirecting...
