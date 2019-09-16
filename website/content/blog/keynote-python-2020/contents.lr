@@ -1,0 +1,33 @@
+title: Keynote: Python 2020+
+---
+author: ORGANISERS
+---
+pub_date: 2019-09-17
+---
+twitter_handle: PyDataBerlin
+---
+twitter_image: /static/media/twitter/keynote-lukas.jpg
+---
+body:
+
+
+We are happy to announce Łukasz Langa as a keynote speaker for the conference!
+
+
+![banner](/static/media/twitter/keynote-lukas.jpg)
+
+#### Python 2020+
+
+While very successful, Python's peculiarly missing in some spaces like mobile devices, client-side Web, or gaming. Should we do something about it? How could we go about changing that?
+
+Python is at crossroads. It's one of the most popular programming languages in use, the de facto choice for education and data science. Python 3 is gaining mass adoption while Python 2 is just about to reach End-of-Life. Life could not be better for a Python programmer.
+
+But as a general purpose programming language, Python is peculiarly missing in some spaces like mobile devices, client-side Web, or gaming. Should we do something about it? How could we go about changing that? How can *you* help? Come and find out.
+
+#### About Łukasz Langa
+[ambv on Github](https://github.com/ambv). [Python](https://python.org) core developer, [Python 3.8 release](https://www.python.org/dev/peps/pep-0569/) manager, creator of [Black](https://pypi.org/project/black/), pianist, dad. Likes analog modular synthesizers, immersive single-player role playing games (Fallout, Elder Scrolls), and single malt Scotch whisky
+
+---
+_discoverable: no
+---
+_hidden: yes
