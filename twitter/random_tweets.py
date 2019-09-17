@@ -13,6 +13,7 @@ with open(submissionsf, "r") as f:
     all_submissions = json.load(f)
 
 accepted_submissions = [x for x in all_submissions if x['state'] in ("accepted", "confirmed")]
+accepted_submissions = [x for x in accepted_submissions if 'keynote' not in x['submission_type'].lower()]
 
 with open(tweeted_already) as f:
     tweeted_codes = set([x.strip() for x in f.readlines()])
@@ -21,6 +22,9 @@ accepted_submissions_for_twitter = [x for x in accepted_submissions
                                     if any([y.get('@twitter') for y in x['speakers']])
                                     and x['code'] not in tweeted_codes
                                     ]
+
+if not accepted_submissions_for_twitter:
+    exit(0)
 
 chosen = choice(accepted_submissions_for_twitter)
 
