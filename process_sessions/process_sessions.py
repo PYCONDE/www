@@ -293,6 +293,7 @@ body: {body}
         elif 'Tutorial' in submission['submission_type']:
             pass
         # published keynotes
+        # is_featured = sneak peak must be set in Pretalx
         elif 'Keynote' in submission['submission_type']:
             if submission['is_featured']:
                 pass
