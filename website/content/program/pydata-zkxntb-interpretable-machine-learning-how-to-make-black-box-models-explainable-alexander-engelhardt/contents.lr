@@ -51,24 +51,25 @@ categories: pydata, python-skill-level-basic, domain-expertise-some, talk, data-
 slugified_slot_links: friday, friday-1400
 ---
 body: We all love linear regression for its interpretability: Increase square
-meters by 1, that leads to rent going up by 8 euros. A human can easily
+meters by 1, that leads to the rent going up by 8 euros. A human can easily
 understand why this model made a certain prediction.
 
 Complex machine learning models like tree aggregates or neural networks
 usually make better predictions, but this comes at a price: it's hard to
 understand these models.
 
-In this talk, we'll look at a few methods to pry open these models and gain
-some insights 
+In this talk, we'll look at a few common problems of black-box models, e.g. unwanted discrimination or unexplainable false predictions ("bugs"). Next, we go over three methods to pry open these models and gain some insights into how and why they make their predictions.
+
+I'll conclude with a few predictions about the future of (interpretable) machine learning.
    
 Specifically, the topics covered are
 
 - What makes a model interpretable?
-  - Linear models, trees, decision rules
-- How to achieve interpretability
+  - Linear models, trees
+- How to understand your model
 - Model-agnostic methods for interpretability
   - Permutation Feature Importance
   - Partial dependence plots (PDPs)
   - Shapley Values / SHAP
-- The future of machine learning
+- The future of (interpretable) machine learning
 
