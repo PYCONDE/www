@@ -37,6 +37,7 @@ SPREADSHEET_ID = '1uQcyxmWUuc8H1dpB8rN3FU3AF6Sy0BtKzokLXe7W9N0'
 RANGE_NAME = 'Schedule Layout'  # get all of the the sheet
 
 DATABAG_PATH = project_root / 'website/databags/schedule_databag.json'
+DATABAG_PATH_T = project_root / 'website/databags/schedule_databagT.json'
 # path to json with submission for data verifications
 SUBMISSIONS_PATH = project_root / 'website/databags/submissions.json'
 PROGRAM_BASE_URL = '/program'
@@ -87,6 +88,32 @@ class ScheduleFromGSheet:
     def save_to_json(self):
         with open(self.databag_path, 'w') as f:
             json.dump(self.databag, f, indent=4)
+
+    def transpose_schedule(self):
+        """ swap times and rooms """
+        databag_t = {"dates": []}
+        for date in self.databag["dates"]:
+            start_times = {}
+            for room in date["rooms"]:
+                for session in room["sessions"]:
+                    if not start_times.get(session["time"], {}):
+                        start_times[session["time"]] = {
+                            "data_tab": session["time"].replace(':', '-'),
+                            "time": session["time"],
+                        }
+                    if not start_times.get(session["time"], {}).get("sessions"):
+                        start_times[session["time"]]["sessions"] = []
+                    session["room_name"] = room["room_name"]
+                    session["location"] = room["location"]
+                    session["use"] = room["use"]
+                    start_times[session["time"]]["sessions"].append(session)
+            databag_t["dates"].append({
+                "datum": date["datum"],
+                "day": date["day"],
+                "times": [start_times[x] for x in start_times]
+            })
+        with open(DATABAG_PATH_T, 'w') as f:
+            json.dump(databag_t, f, indent=4)
 
     def load_submissions(self, path: str):
         with open(path, 'r') as f:
@@ -481,6 +508,7 @@ def update_schedule_from_sheet():
     for name, day in days.items():
         s.get_day_from_schedule(**day)
     s.save_to_json()
+    s.transpose_schedule()
     not_scheduled = set(s.submissions) - set(s.scheduled_codes)
     for ns in not_scheduled:
         print(f"NOT SCHEDULED: {ns} {s.submissions.get(ns)['title']}")
