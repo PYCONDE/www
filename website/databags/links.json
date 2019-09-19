@@ -16,6 +16,10 @@
           "path": "/program/categories/pyconde"
         },
         {
+          "name": "Keynotes",
+          "path": "/program/categories/keynote"
+        },
+        {
           "name": "Talks",
           "path": "/program/categories/talk"
         },
