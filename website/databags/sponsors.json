@@ -107,6 +107,11 @@
                     "name": "Pivigo",
                     "description": "Pivigo is a data science marketplace, democratising access to data innovation to all organisations, by connecting them with our global community of freelance data scientists. The Pivigo networking platform allows for profile sharing, networking, and learning data skills. Pivigo also run Europe’s largest data science training programme S2DS (Science to Data Science).",
                     "logo": "/static/media/sponsors/pivigo.png"
+                },
+                {
+                    "name": "IBM",
+                    "description": "Share in IBM’s vision of AI for social good, our commitment to open source, and our mission of AI education for all. The IBM Data Science Community is the place for data scientists and developers to learn, share, and engage with their peers and industry leaders.Join the IBM Data Science Community and participate in shaping our digital future.",
+                    "logo": "/static/media/sponsors/ibmpos_blurgb.jpg"
                 }
             ]
         },
