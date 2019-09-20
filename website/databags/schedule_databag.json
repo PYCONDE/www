@@ -28,7 +28,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-ticket",
-                            "time": "09:00"
+                            "time": "09:00",
+                            "start": "09:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -48,7 +50,9 @@
                             "plenary": true,
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-rocket",
-                            "time": "10:30"
+                            "time": "10:30",
+                            "start": "10:30",
+                            "end": "10:45"
                         },
                         {
                             "code": "",
@@ -68,7 +72,9 @@
                             "plenary": true,
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-key",
-                            "time": "10:50"
+                            "time": "10:50",
+                            "start": "10:50",
+                            "end": "11:35"
                         },
                         {
                             "code": "",
@@ -88,7 +94,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-coffee",
-                            "time": "11:20"
+                            "time": "11:20",
+                            "start": "11:20",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -108,7 +116,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "FTVNPK",
@@ -128,7 +138,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "11:50"
+                            "time": "11:50",
+                            "start": "11:50",
+                            "end": "12:35"
                         },
                         {
                             "code": "NZC3A8",
@@ -148,7 +160,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "12:25"
+                            "time": "12:25",
+                            "start": "12:25",
+                            "end": "13:10"
                         },
                         {
                             "code": "",
@@ -168,7 +182,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-cutlery",
-                            "time": "13:00"
+                            "time": "13:00",
+                            "start": "13:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -188,7 +204,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "PY8XW9",
@@ -208,7 +226,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:00"
+                            "time": "14:00",
+                            "start": "14:00",
+                            "end": "14:30"
                         },
                         {
                             "code": "7QRAWK",
@@ -228,7 +248,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:35"
+                            "time": "14:35",
+                            "start": "14:35",
+                            "end": "15:05"
                         },
                         {
                             "code": "",
@@ -248,7 +270,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-coffee",
-                            "time": "15:05"
+                            "time": "15:05",
+                            "start": "15:05",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -268,7 +292,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "93C7TF",
@@ -288,7 +314,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "15:30"
+                            "time": "15:30",
+                            "start": "15:30",
+                            "end": "16:00"
                         },
                         {
                             "code": "FXUYQ9",
@@ -308,7 +336,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:05"
+                            "time": "16:05",
+                            "start": "16:05",
+                            "end": "16:50"
                         },
                         {
                             "code": "",
@@ -328,7 +358,9 @@
                             "plenary": true,
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-users",
-                            "time": "16:50"
+                            "time": "16:50",
+                            "start": "16:50",
+                            "end": "17:00"
                         },
                         {
                             "code": "DFCU3K",
@@ -348,7 +380,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "17:00"
+                            "time": "17:00",
+                            "start": "17:00",
+                            "end": "17:45"
                         },
                         {
                             "code": "",
@@ -368,7 +402,9 @@
                             "plenary": true,
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-bolt",
-                            "time": "17:45"
+                            "time": "17:45",
+                            "start": "17:45",
+                            "end": "18:30"
                         },
                         {
                             "code": "",
@@ -388,7 +424,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "fa-hand-spock-o",
-                            "time": "18:30"
+                            "time": "18:30",
+                            "start": "18:30",
+                            "end": ""
                         }
                     ]
                 },
@@ -416,7 +454,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "09:00"
+                            "time": "09:00",
+                            "start": "09:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -436,7 +476,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:30"
+                            "time": "10:30",
+                            "start": "10:30",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -456,7 +498,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:50"
+                            "time": "10:50",
+                            "start": "10:50",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -476,7 +520,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-coffee",
-                            "time": "11:20"
+                            "time": "11:20",
+                            "start": "11:20",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -496,7 +542,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "CEYMMK",
@@ -516,7 +564,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "11:50"
+                            "time": "11:50",
+                            "start": "11:50",
+                            "end": "12:20"
                         },
                         {
                             "code": "8N37P9",
@@ -536,7 +586,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "12:25"
+                            "time": "12:25",
+                            "start": "12:25",
+                            "end": "12:55"
                         },
                         {
                             "code": "",
@@ -556,7 +608,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-cutlery",
-                            "time": "13:00"
+                            "time": "13:00",
+                            "start": "13:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -576,7 +630,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "7PHMWA",
@@ -596,7 +652,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:00"
+                            "time": "14:00",
+                            "start": "14:00",
+                            "end": "14:30"
                         },
                         {
                             "code": "L998EU",
@@ -616,7 +674,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:35"
+                            "time": "14:35",
+                            "start": "14:35",
+                            "end": "15:05"
                         },
                         {
                             "code": "",
@@ -636,7 +696,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-coffee",
-                            "time": "15:05"
+                            "time": "15:05",
+                            "start": "15:05",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -656,7 +718,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "9LZBX9",
@@ -676,7 +740,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "15:30"
+                            "time": "15:30",
+                            "start": "15:30",
+                            "end": "16:00"
                         },
                         {
                             "code": "MMXQUC",
@@ -696,7 +762,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:05"
+                            "time": "16:05",
+                            "start": "16:05",
+                            "end": "16:35"
                         },
                         {
                             "code": "",
@@ -716,7 +784,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:50"
+                            "time": "16:50",
+                            "start": "16:50",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -736,7 +806,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "17:00"
+                            "time": "17:00",
+                            "start": "17:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -756,7 +828,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "17:45"
+                            "time": "17:45",
+                            "start": "17:45",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -776,7 +850,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "18:30"
+                            "time": "18:30",
+                            "start": "18:30",
+                            "end": ""
                         }
                     ]
                 },
@@ -804,7 +880,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "09:00"
+                            "time": "09:00",
+                            "start": "09:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -824,7 +902,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:30"
+                            "time": "10:30",
+                            "start": "10:30",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -844,7 +924,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:50"
+                            "time": "10:50",
+                            "start": "10:50",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -864,7 +946,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-coffee",
-                            "time": "11:20"
+                            "time": "11:20",
+                            "start": "11:20",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -884,7 +968,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "7XCL3Z",
@@ -904,7 +990,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "11:50"
+                            "time": "11:50",
+                            "start": "11:50",
+                            "end": "12:20"
                         },
                         {
                             "code": "AX9CSK",
@@ -924,7 +1012,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "12:25"
+                            "time": "12:25",
+                            "start": "12:25",
+                            "end": "13:10"
                         },
                         {
                             "code": "",
@@ -944,7 +1034,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-cutlery",
-                            "time": "13:00"
+                            "time": "13:00",
+                            "start": "13:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -964,7 +1056,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "M8MLZX",
@@ -984,7 +1078,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:00"
+                            "time": "14:00",
+                            "start": "14:00",
+                            "end": "14:30"
                         },
                         {
                             "code": "ALEMND",
@@ -1004,7 +1100,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:35"
+                            "time": "14:35",
+                            "start": "14:35",
+                            "end": "15:05"
                         },
                         {
                             "code": "",
@@ -1024,7 +1122,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-coffee",
-                            "time": "15:05"
+                            "time": "15:05",
+                            "start": "15:05",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -1044,7 +1144,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "MF9DAV",
@@ -1064,7 +1166,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "15:30"
+                            "time": "15:30",
+                            "start": "15:30",
+                            "end": "16:15"
                         },
                         {
                             "code": "ALRGXS",
@@ -1084,7 +1188,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:05"
+                            "time": "16:05",
+                            "start": "16:05",
+                            "end": "16:35"
                         },
                         {
                             "code": "",
@@ -1104,7 +1210,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:50"
+                            "time": "16:50",
+                            "start": "16:50",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -1124,7 +1232,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "17:00"
+                            "time": "17:00",
+                            "start": "17:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -1144,7 +1254,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "17:45"
+                            "time": "17:45",
+                            "start": "17:45",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -1164,7 +1276,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "18:30"
+                            "time": "18:30",
+                            "start": "18:30",
+                            "end": ""
                         }
                     ]
                 },
@@ -1192,7 +1306,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "09:00"
+                            "time": "09:00",
+                            "start": "09:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -1212,7 +1328,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:30"
+                            "time": "10:30",
+                            "start": "10:30",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -1232,7 +1350,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:50"
+                            "time": "10:50",
+                            "start": "10:50",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -1252,7 +1372,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-coffee",
-                            "time": "11:20"
+                            "time": "11:20",
+                            "start": "11:20",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -1272,7 +1394,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "LGC8XP",
@@ -1292,7 +1416,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "11:50"
+                            "time": "11:50",
+                            "start": "11:50",
+                            "end": "12:35"
                         },
                         {
                             "code": "AEAT3E",
@@ -1312,7 +1438,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "12:25"
+                            "time": "12:25",
+                            "start": "12:25",
+                            "end": "13:10"
                         },
                         {
                             "code": "",
@@ -1332,7 +1460,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-cutlery",
-                            "time": "13:00"
+                            "time": "13:00",
+                            "start": "13:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -1352,7 +1482,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "SGPLXB",
@@ -1372,7 +1504,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:00"
+                            "time": "14:00",
+                            "start": "14:00",
+                            "end": "14:30"
                         },
                         {
                             "code": "YAJRGX",
@@ -1392,7 +1526,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:35"
+                            "time": "14:35",
+                            "start": "14:35",
+                            "end": "15:05"
                         },
                         {
                             "code": "",
@@ -1412,7 +1548,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-coffee",
-                            "time": "15:05"
+                            "time": "15:05",
+                            "start": "15:05",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -1432,7 +1570,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "X9JZ9J",
@@ -1452,7 +1592,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "15:30"
+                            "time": "15:30",
+                            "start": "15:30",
+                            "end": "16:00"
                         },
                         {
                             "code": "7X799R",
@@ -1472,7 +1614,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:05"
+                            "time": "16:05",
+                            "start": "16:05",
+                            "end": "16:50"
                         },
                         {
                             "code": "",
@@ -1492,7 +1636,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:50"
+                            "time": "16:50",
+                            "start": "16:50",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -1512,7 +1658,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "17:00"
+                            "time": "17:00",
+                            "start": "17:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -1532,7 +1680,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "17:45"
+                            "time": "17:45",
+                            "start": "17:45",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -1552,7 +1702,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "18:30"
+                            "time": "18:30",
+                            "start": "18:30",
+                            "end": ""
                         }
                     ]
                 },
@@ -1580,7 +1732,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "09:00"
+                            "time": "09:00",
+                            "start": "09:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -1600,7 +1754,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:30"
+                            "time": "10:30",
+                            "start": "10:30",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -1620,7 +1776,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:50"
+                            "time": "10:50",
+                            "start": "10:50",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -1640,7 +1798,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-coffee",
-                            "time": "11:20"
+                            "time": "11:20",
+                            "start": "11:20",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -1660,7 +1820,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "HFKNUW",
@@ -1680,7 +1842,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "11:50"
+                            "time": "11:50",
+                            "start": "11:50",
+                            "end": "12:20"
                         },
                         {
                             "code": "QE3UUQ",
@@ -1700,7 +1864,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "12:25"
+                            "time": "12:25",
+                            "start": "12:25",
+                            "end": "13:10"
                         },
                         {
                             "code": "",
@@ -1720,7 +1886,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-cutlery",
-                            "time": "13:00"
+                            "time": "13:00",
+                            "start": "13:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -1740,7 +1908,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "Q7KLXV",
@@ -1760,7 +1930,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:00"
+                            "time": "14:00",
+                            "start": "14:00",
+                            "end": "14:30"
                         },
                         {
                             "code": "7EEPKX",
@@ -1780,7 +1952,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:35"
+                            "time": "14:35",
+                            "start": "14:35",
+                            "end": "15:05"
                         },
                         {
                             "code": "",
@@ -1800,7 +1974,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-coffee",
-                            "time": "15:05"
+                            "time": "15:05",
+                            "start": "15:05",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -1820,7 +1996,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "XJLSWG",
@@ -1840,7 +2018,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "15:30"
+                            "time": "15:30",
+                            "start": "15:30",
+                            "end": "16:00"
                         },
                         {
                             "code": "9ARCJA",
@@ -1860,7 +2040,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:05"
+                            "time": "16:05",
+                            "start": "16:05",
+                            "end": "16:35"
                         },
                         {
                             "code": "",
@@ -1880,7 +2062,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:50"
+                            "time": "16:50",
+                            "start": "16:50",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -1900,7 +2084,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "17:00"
+                            "time": "17:00",
+                            "start": "17:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -1920,7 +2106,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "17:45"
+                            "time": "17:45",
+                            "start": "17:45",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -1940,7 +2128,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "18:30"
+                            "time": "18:30",
+                            "start": "18:30",
+                            "end": ""
                         }
                     ]
                 },
@@ -1968,7 +2158,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "09:00"
+                            "time": "09:00",
+                            "start": "09:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -1988,7 +2180,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:30"
+                            "time": "10:30",
+                            "start": "10:30",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -2008,7 +2202,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:50"
+                            "time": "10:50",
+                            "start": "10:50",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -2028,7 +2224,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "fa-users",
-                            "time": "11:20"
+                            "time": "11:20",
+                            "start": "11:20",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -2048,7 +2246,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -2068,7 +2268,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "11:50"
+                            "time": "11:50",
+                            "start": "11:50",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -2088,7 +2290,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "12:25"
+                            "time": "12:25",
+                            "start": "12:25",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -2108,7 +2312,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "fa-users",
-                            "time": "12:45"
+                            "time": "12:45",
+                            "start": "12:45",
+                            "end": "13:45"
                         },
                         {
                             "code": "",
@@ -2128,7 +2334,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -2148,7 +2356,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:00"
+                            "time": "14:00",
+                            "start": "14:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -2168,7 +2378,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:35"
+                            "time": "14:35",
+                            "start": "14:35",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -2188,7 +2400,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "15:05"
+                            "time": "15:05",
+                            "start": "15:05",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -2208,7 +2422,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -2228,7 +2444,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "15:30"
+                            "time": "15:30",
+                            "start": "15:30",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -2248,7 +2466,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:05"
+                            "time": "16:05",
+                            "start": "16:05",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -2268,7 +2488,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:50"
+                            "time": "16:50",
+                            "start": "16:50",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -2288,7 +2510,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "17:00"
+                            "time": "17:00",
+                            "start": "17:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -2308,7 +2532,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "17:45"
+                            "time": "17:45",
+                            "start": "17:45",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -2328,7 +2554,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "18:30"
+                            "time": "18:30",
+                            "start": "18:30",
+                            "end": ""
                         }
                     ]
                 },
@@ -2356,7 +2584,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "11:30"
+                            "time": "11:30",
+                            "start": "11:30",
+                            "end": "13:00"
                         },
                         {
                             "code": "",
@@ -2376,7 +2606,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-cutlery",
-                            "time": "13:00"
+                            "time": "13:00",
+                            "start": "13:00",
+                            "end": ""
                         },
                         {
                             "code": "ASLHQN",
@@ -2396,7 +2628,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "13:50"
+                            "time": "13:50",
+                            "start": "13:50",
+                            "end": "15:20"
                         },
                         {
                             "code": "YXNDB9",
@@ -2416,7 +2650,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "15:20"
+                            "time": "15:20",
+                            "start": "15:20",
+                            "end": "16:50"
                         }
                     ]
                 },
@@ -2444,7 +2680,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "11:30"
+                            "time": "11:30",
+                            "start": "11:30",
+                            "end": "12:45"
                         },
                         {
                             "code": "",
@@ -2464,7 +2702,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-cutlery",
-                            "time": "13:00"
+                            "time": "13:00",
+                            "start": "13:00",
+                            "end": ""
                         },
                         {
                             "code": "78RYGG",
@@ -2484,7 +2724,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "13:50"
+                            "time": "13:50",
+                            "start": "13:50",
+                            "end": "15:20"
                         },
                         {
                             "code": "WRHHSF",
@@ -2504,7 +2746,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "15:20"
+                            "time": "15:20",
+                            "start": "15:20",
+                            "end": "16:50"
                         }
                     ]
                 }
@@ -2538,7 +2782,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "fa-users",
-                            "time": "08:30"
+                            "time": "08:30",
+                            "start": "08:30",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -2558,7 +2804,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "fa-users",
-                            "time": "09:00"
+                            "time": "09:00",
+                            "start": "09:00",
+                            "end": ""
                         },
                         {
                             "code": "JFNCMQ",
@@ -2578,7 +2826,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "09:10"
+                            "time": "09:10",
+                            "start": "09:10",
+                            "end": "09:55"
                         },
                         {
                             "code": "",
@@ -2598,7 +2848,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "WDAANU",
@@ -2618,7 +2870,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:00"
+                            "time": "10:00",
+                            "start": "10:00",
+                            "end": "10:45"
                         },
                         {
                             "code": "KNLNBB",
@@ -2638,7 +2892,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:50"
+                            "time": "10:50",
+                            "start": "10:50",
+                            "end": "11:20"
                         },
                         {
                             "code": "",
@@ -2658,7 +2914,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-coffee",
-                            "time": "11:20"
+                            "time": "11:20",
+                            "start": "11:20",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -2678,7 +2936,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "RAS8UK",
@@ -2698,7 +2958,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "11:50"
+                            "time": "11:50",
+                            "start": "11:50",
+                            "end": "12:20"
                         },
                         {
                             "code": "GKHSBP",
@@ -2718,7 +2980,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "12:25"
+                            "time": "12:25",
+                            "start": "12:25",
+                            "end": "12:55"
                         },
                         {
                             "code": "",
@@ -2738,7 +3002,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-cutlery",
-                            "time": "13:00"
+                            "time": "13:00",
+                            "start": "13:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -2758,7 +3024,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -2778,7 +3046,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "fa-users",
-                            "time": "14:00"
+                            "time": "14:00",
+                            "start": "14:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -2798,7 +3068,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:35"
+                            "time": "14:35",
+                            "start": "14:35",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -2818,7 +3090,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-coffee",
-                            "time": "15:05"
+                            "time": "15:05",
+                            "start": "15:05",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -2838,7 +3112,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "NH9UEY",
@@ -2858,7 +3134,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "15:30"
+                            "time": "15:30",
+                            "start": "15:30",
+                            "end": "16:00"
                         },
                         {
                             "code": "BHDEAR",
@@ -2878,7 +3156,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:05"
+                            "time": "16:05",
+                            "start": "16:05",
+                            "end": "16:50"
                         },
                         {
                             "code": "",
@@ -2898,7 +3178,9 @@
                             "plenary": true,
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-users",
-                            "time": "16:50"
+                            "time": "16:50",
+                            "start": "16:50",
+                            "end": "17:00"
                         },
                         {
                             "code": "UPVJP7",
@@ -2918,7 +3200,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "17:00"
+                            "time": "17:00",
+                            "start": "17:00",
+                            "end": "17:45"
                         },
                         {
                             "code": "",
@@ -2938,7 +3222,9 @@
                             "plenary": true,
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-bolt",
-                            "time": "17:45"
+                            "time": "17:45",
+                            "start": "17:45",
+                            "end": "18:30"
                         },
                         {
                             "code": "",
@@ -2958,7 +3244,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "fa-hand-spock-o",
-                            "time": "18:30"
+                            "time": "18:30",
+                            "start": "18:30",
+                            "end": ""
                         }
                     ]
                 },
@@ -2986,7 +3274,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "08:30"
+                            "time": "08:30",
+                            "start": "08:30",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -3006,7 +3296,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "09:00"
+                            "time": "09:00",
+                            "start": "09:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -3026,7 +3318,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "09:10"
+                            "time": "09:10",
+                            "start": "09:10",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -3046,7 +3340,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "VERUFX",
@@ -3066,7 +3362,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:00"
+                            "time": "10:00",
+                            "start": "10:00",
+                            "end": "10:45"
                         },
                         {
                             "code": "A7FWAW",
@@ -3086,7 +3384,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:50"
+                            "time": "10:50",
+                            "start": "10:50",
+                            "end": "11:20"
                         },
                         {
                             "code": "",
@@ -3106,7 +3406,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-coffee",
-                            "time": "11:20"
+                            "time": "11:20",
+                            "start": "11:20",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -3126,7 +3428,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "WUEBKT",
@@ -3146,7 +3450,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "11:50"
+                            "time": "11:50",
+                            "start": "11:50",
+                            "end": "12:20"
                         },
                         {
                             "code": "KC99NY",
@@ -3166,7 +3472,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "12:25"
+                            "time": "12:25",
+                            "start": "12:25",
+                            "end": "12:55"
                         },
                         {
                             "code": "",
@@ -3186,7 +3494,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-cutlery",
-                            "time": "13:00"
+                            "time": "13:00",
+                            "start": "13:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -3206,7 +3516,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "NMXSE7",
@@ -3226,7 +3538,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:00"
+                            "time": "14:00",
+                            "start": "14:00",
+                            "end": "14:30"
                         },
                         {
                             "code": "X7FSX9",
@@ -3246,7 +3560,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:35"
+                            "time": "14:35",
+                            "start": "14:35",
+                            "end": "15:05"
                         },
                         {
                             "code": "",
@@ -3266,7 +3582,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-coffee",
-                            "time": "15:05"
+                            "time": "15:05",
+                            "start": "15:05",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -3286,7 +3604,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "MAPYAH",
@@ -3306,7 +3626,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "15:30"
+                            "time": "15:30",
+                            "start": "15:30",
+                            "end": "16:00"
                         },
                         {
                             "code": "ZBEEM3",
@@ -3326,7 +3648,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:05"
+                            "time": "16:05",
+                            "start": "16:05",
+                            "end": "16:35"
                         },
                         {
                             "code": "",
@@ -3346,7 +3670,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:50"
+                            "time": "16:50",
+                            "start": "16:50",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -3366,7 +3692,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "17:00"
+                            "time": "17:00",
+                            "start": "17:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -3386,7 +3714,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "17:45"
+                            "time": "17:45",
+                            "start": "17:45",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -3406,7 +3736,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "18:30"
+                            "time": "18:30",
+                            "start": "18:30",
+                            "end": ""
                         }
                     ]
                 },
@@ -3434,7 +3766,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "08:30"
+                            "time": "08:30",
+                            "start": "08:30",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -3454,7 +3788,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "09:00"
+                            "time": "09:00",
+                            "start": "09:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -3474,7 +3810,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "09:10"
+                            "time": "09:10",
+                            "start": "09:10",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -3494,7 +3832,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "QCNNTW",
@@ -3514,7 +3854,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:00"
+                            "time": "10:00",
+                            "start": "10:00",
+                            "end": "10:45"
                         },
                         {
                             "code": "TRFD98",
@@ -3534,7 +3876,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:50"
+                            "time": "10:50",
+                            "start": "10:50",
+                            "end": "11:20"
                         },
                         {
                             "code": "",
@@ -3554,7 +3898,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-coffee",
-                            "time": "11:20"
+                            "time": "11:20",
+                            "start": "11:20",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -3574,7 +3920,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "QXB8DR",
@@ -3594,7 +3942,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "11:50"
+                            "time": "11:50",
+                            "start": "11:50",
+                            "end": "12:20"
                         },
                         {
                             "code": "NFH83Z",
@@ -3614,7 +3964,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "12:25"
+                            "time": "12:25",
+                            "start": "12:25",
+                            "end": "13:10"
                         },
                         {
                             "code": "",
@@ -3634,7 +3986,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-cutlery",
-                            "time": "13:00"
+                            "time": "13:00",
+                            "start": "13:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -3654,7 +4008,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "T7EEEB",
@@ -3674,7 +4030,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:00"
+                            "time": "14:00",
+                            "start": "14:00",
+                            "end": "14:30"
                         },
                         {
                             "code": "RJCW8U",
@@ -3694,7 +4052,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:35"
+                            "time": "14:35",
+                            "start": "14:35",
+                            "end": "15:05"
                         },
                         {
                             "code": "",
@@ -3714,7 +4074,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-coffee",
-                            "time": "15:05"
+                            "time": "15:05",
+                            "start": "15:05",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -3734,7 +4096,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "FQMFKX",
@@ -3754,7 +4118,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "15:30"
+                            "time": "15:30",
+                            "start": "15:30",
+                            "end": "16:00"
                         },
                         {
                             "code": "SUC9VW",
@@ -3774,7 +4140,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:05"
+                            "time": "16:05",
+                            "start": "16:05",
+                            "end": "16:50"
                         },
                         {
                             "code": "",
@@ -3794,7 +4162,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:50"
+                            "time": "16:50",
+                            "start": "16:50",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -3814,7 +4184,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "17:00"
+                            "time": "17:00",
+                            "start": "17:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -3834,7 +4206,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "17:45"
+                            "time": "17:45",
+                            "start": "17:45",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -3854,7 +4228,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "18:30"
+                            "time": "18:30",
+                            "start": "18:30",
+                            "end": ""
                         }
                     ]
                 },
@@ -3882,7 +4258,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "08:30"
+                            "time": "08:30",
+                            "start": "08:30",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -3902,7 +4280,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "09:00"
+                            "time": "09:00",
+                            "start": "09:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -3922,7 +4302,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "09:10"
+                            "time": "09:10",
+                            "start": "09:10",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -3942,7 +4324,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "WQMPSW",
@@ -3962,7 +4346,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:00"
+                            "time": "10:00",
+                            "start": "10:00",
+                            "end": "10:45"
                         },
                         {
                             "code": "QHNEFT",
@@ -3982,7 +4368,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:50"
+                            "time": "10:50",
+                            "start": "10:50",
+                            "end": "11:20"
                         },
                         {
                             "code": "",
@@ -4002,7 +4390,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-coffee",
-                            "time": "11:20"
+                            "time": "11:20",
+                            "start": "11:20",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -4022,7 +4412,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "R7PELL",
@@ -4042,7 +4434,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "11:50"
+                            "time": "11:50",
+                            "start": "11:50",
+                            "end": "12:20"
                         },
                         {
                             "code": "ZT9NY9",
@@ -4062,7 +4456,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "12:25"
+                            "time": "12:25",
+                            "start": "12:25",
+                            "end": "12:55"
                         },
                         {
                             "code": "",
@@ -4082,7 +4478,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-cutlery",
-                            "time": "13:00"
+                            "time": "13:00",
+                            "start": "13:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -4102,7 +4500,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "P9ZZB3",
@@ -4122,7 +4522,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:00"
+                            "time": "14:00",
+                            "start": "14:00",
+                            "end": "14:30"
                         },
                         {
                             "code": "VPYYVS",
@@ -4142,7 +4544,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:35"
+                            "time": "14:35",
+                            "start": "14:35",
+                            "end": "15:05"
                         },
                         {
                             "code": "",
@@ -4162,7 +4566,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-coffee",
-                            "time": "15:05"
+                            "time": "15:05",
+                            "start": "15:05",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -4182,7 +4588,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "ASYFUM",
@@ -4202,7 +4610,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "15:30"
+                            "time": "15:30",
+                            "start": "15:30",
+                            "end": "16:00"
                         },
                         {
                             "code": "3NUA9T",
@@ -4222,7 +4632,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:05"
+                            "time": "16:05",
+                            "start": "16:05",
+                            "end": "16:35"
                         },
                         {
                             "code": "",
@@ -4242,7 +4654,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:50"
+                            "time": "16:50",
+                            "start": "16:50",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -4262,7 +4676,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "17:00"
+                            "time": "17:00",
+                            "start": "17:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -4282,7 +4698,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "17:45"
+                            "time": "17:45",
+                            "start": "17:45",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -4302,7 +4720,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "18:30"
+                            "time": "18:30",
+                            "start": "18:30",
+                            "end": ""
                         }
                     ]
                 },
@@ -4330,7 +4750,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "08:30"
+                            "time": "08:30",
+                            "start": "08:30",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -4350,7 +4772,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "09:00"
+                            "time": "09:00",
+                            "start": "09:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -4370,7 +4794,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "09:10"
+                            "time": "09:10",
+                            "start": "09:10",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -4390,7 +4816,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "CWMAE7",
@@ -4410,7 +4838,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:00"
+                            "time": "10:00",
+                            "start": "10:00",
+                            "end": "10:45"
                         },
                         {
                             "code": "EH7FWD",
@@ -4430,7 +4860,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:50"
+                            "time": "10:50",
+                            "start": "10:50",
+                            "end": "11:20"
                         },
                         {
                             "code": "",
@@ -4450,7 +4882,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-coffee",
-                            "time": "11:20"
+                            "time": "11:20",
+                            "start": "11:20",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -4470,7 +4904,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "JSJLG9",
@@ -4490,7 +4926,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "11:50"
+                            "time": "11:50",
+                            "start": "11:50",
+                            "end": "12:20"
                         },
                         {
                             "code": "PZVHP9",
@@ -4510,7 +4948,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "12:25"
+                            "time": "12:25",
+                            "start": "12:25",
+                            "end": "12:55"
                         },
                         {
                             "code": "",
@@ -4530,7 +4970,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-cutlery",
-                            "time": "13:00"
+                            "time": "13:00",
+                            "start": "13:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -4550,7 +4992,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "WJ9SXR",
@@ -4570,7 +5014,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:00"
+                            "time": "14:00",
+                            "start": "14:00",
+                            "end": "14:30"
                         },
                         {
                             "code": "F3TCZN",
@@ -4590,7 +5036,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:35"
+                            "time": "14:35",
+                            "start": "14:35",
+                            "end": "15:05"
                         },
                         {
                             "code": "",
@@ -4610,7 +5058,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-coffee",
-                            "time": "15:05"
+                            "time": "15:05",
+                            "start": "15:05",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -4630,7 +5080,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "PHYCJL",
@@ -4650,7 +5102,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "15:30"
+                            "time": "15:30",
+                            "start": "15:30",
+                            "end": "16:00"
                         },
                         {
                             "code": "WURZX8",
@@ -4670,7 +5124,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:05"
+                            "time": "16:05",
+                            "start": "16:05",
+                            "end": "16:50"
                         },
                         {
                             "code": "",
@@ -4690,7 +5146,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:50"
+                            "time": "16:50",
+                            "start": "16:50",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -4710,7 +5168,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "17:00"
+                            "time": "17:00",
+                            "start": "17:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -4730,7 +5190,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "17:45"
+                            "time": "17:45",
+                            "start": "17:45",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -4750,7 +5212,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "18:30"
+                            "time": "18:30",
+                            "start": "18:30",
+                            "end": ""
                         }
                     ]
                 },
@@ -4778,7 +5242,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "08:30"
+                            "time": "08:30",
+                            "start": "08:30",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -4798,7 +5264,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "09:00"
+                            "time": "09:00",
+                            "start": "09:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -4818,7 +5286,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "09:10"
+                            "time": "09:10",
+                            "start": "09:10",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -4838,7 +5308,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -4858,7 +5330,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:00"
+                            "time": "10:00",
+                            "start": "10:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -4878,7 +5352,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:50"
+                            "time": "10:50",
+                            "start": "10:50",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -4898,7 +5374,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "fa-users",
-                            "time": "11:20"
+                            "time": "11:20",
+                            "start": "11:20",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -4918,7 +5396,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -4938,7 +5418,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "11:50"
+                            "time": "11:50",
+                            "start": "11:50",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -4958,7 +5440,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "12:25"
+                            "time": "12:25",
+                            "start": "12:25",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -4978,7 +5462,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "13:00"
+                            "time": "13:00",
+                            "start": "13:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -4998,7 +5484,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -5018,7 +5506,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:00"
+                            "time": "14:00",
+                            "start": "14:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -5038,7 +5528,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:35"
+                            "time": "14:35",
+                            "start": "14:35",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -5058,7 +5550,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "15:05"
+                            "time": "15:05",
+                            "start": "15:05",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -5078,7 +5572,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -5098,7 +5594,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "15:30"
+                            "time": "15:30",
+                            "start": "15:30",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -5118,7 +5616,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:05"
+                            "time": "16:05",
+                            "start": "16:05",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -5138,7 +5638,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:50"
+                            "time": "16:50",
+                            "start": "16:50",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -5158,7 +5660,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "17:00"
+                            "time": "17:00",
+                            "start": "17:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -5178,7 +5682,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "fa-users",
-                            "time": "17:45"
+                            "time": "17:45",
+                            "start": "17:45",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -5198,7 +5704,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "18:30"
+                            "time": "18:30",
+                            "start": "18:30",
+                            "end": ""
                         }
                     ]
                 },
@@ -5226,7 +5734,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:00"
+                            "time": "10:00",
+                            "start": "10:00",
+                            "end": "11:30"
                         },
                         {
                             "code": "TNHATE",
@@ -5246,7 +5756,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "11:30"
+                            "time": "11:30",
+                            "start": "11:30",
+                            "end": "13:00"
                         },
                         {
                             "code": "",
@@ -5266,7 +5778,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-cutlery",
-                            "time": "13:00"
+                            "time": "13:00",
+                            "start": "13:00",
+                            "end": ""
                         },
                         {
                             "code": "D8VAN9",
@@ -5286,7 +5800,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "13:45"
+                            "time": "13:45",
+                            "start": "13:45",
+                            "end": "15:15"
                         },
                         {
                             "code": "RE99DB",
@@ -5306,7 +5822,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "15:15"
+                            "time": "15:15",
+                            "start": "15:15",
+                            "end": "16:45"
                         },
                         {
                             "code": "",
@@ -5326,7 +5844,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:00"
+                            "time": "16:00",
+                            "start": "16:00",
+                            "end": ""
                         }
                     ]
                 },
@@ -5354,7 +5874,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:00"
+                            "time": "10:00",
+                            "start": "10:00",
+                            "end": "11:30"
                         },
                         {
                             "code": "SC7JGK",
@@ -5374,7 +5896,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "11:30"
+                            "time": "11:30",
+                            "start": "11:30",
+                            "end": "13:00"
                         },
                         {
                             "code": "",
@@ -5394,7 +5918,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-cutlery",
-                            "time": "13:00"
+                            "time": "13:00",
+                            "start": "13:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -5414,7 +5940,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "fa-sticky-note",
-                            "time": "13:45"
+                            "time": "13:45",
+                            "start": "13:45",
+                            "end": "14:15"
                         },
                         {
                             "code": "",
@@ -5434,7 +5962,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "fa-sticky-note",
-                            "time": "15:15"
+                            "time": "15:15",
+                            "start": "15:15",
+                            "end": "15:45"
                         },
                         {
                             "code": "",
@@ -5454,7 +5984,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "fa-user-secret",
-                            "time": "16:00"
+                            "time": "16:00",
+                            "start": "16:00",
+                            "end": "17:30"
                         }
                     ]
                 }
@@ -5488,7 +6020,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "fa-users",
-                            "time": "08:30"
+                            "time": "08:30",
+                            "start": "08:30",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -5508,7 +6042,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "fa-users",
-                            "time": "09:00"
+                            "time": "09:00",
+                            "start": "09:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -5528,7 +6064,9 @@
                             "plenary": true,
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-key",
-                            "time": "09:10"
+                            "time": "09:10",
+                            "start": "09:10",
+                            "end": "09:55"
                         },
                         {
                             "code": "",
@@ -5548,7 +6086,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "9VGGLP",
@@ -5568,7 +6108,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:00"
+                            "time": "10:00",
+                            "start": "10:00",
+                            "end": "10:45"
                         },
                         {
                             "code": "PMDFA3",
@@ -5588,7 +6130,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:50"
+                            "time": "10:50",
+                            "start": "10:50",
+                            "end": "11:20"
                         },
                         {
                             "code": "",
@@ -5608,7 +6152,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-coffee",
-                            "time": "11:20"
+                            "time": "11:20",
+                            "start": "11:20",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -5628,7 +6174,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "CATV3T",
@@ -5648,7 +6196,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "11:50"
+                            "time": "11:50",
+                            "start": "11:50",
+                            "end": "12:20"
                         },
                         {
                             "code": "EE33M8",
@@ -5668,7 +6218,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "12:25"
+                            "time": "12:25",
+                            "start": "12:25",
+                            "end": "12:55"
                         },
                         {
                             "code": "",
@@ -5688,7 +6240,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-cutlery",
-                            "time": "13:00"
+                            "time": "13:00",
+                            "start": "13:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -5708,7 +6262,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -5728,7 +6284,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "fa-users",
-                            "time": "14:00"
+                            "time": "14:00",
+                            "start": "14:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -5748,7 +6306,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:35"
+                            "time": "14:35",
+                            "start": "14:35",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -5768,7 +6328,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-coffee",
-                            "time": "15:05"
+                            "time": "15:05",
+                            "start": "15:05",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -5788,7 +6350,9 @@
                             "plenary": true,
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-rocket",
-                            "time": "15:30"
+                            "time": "15:30",
+                            "start": "15:30",
+                            "end": "15:45"
                         },
                         {
                             "code": "",
@@ -5808,7 +6372,9 @@
                             "plenary": true,
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-bolt",
-                            "time": "15:45"
+                            "time": "15:45",
+                            "start": "15:45",
+                            "end": "16:30"
                         },
                         {
                             "code": "",
@@ -5828,7 +6394,9 @@
                             "plenary": true,
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-rocket",
-                            "time": "16:15"
+                            "time": "16:15",
+                            "start": "16:15",
+                            "end": "16:45"
                         },
                         {
                             "code": "",
@@ -5848,7 +6416,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "fa-hand-spock-o",
-                            "time": "16:45"
+                            "time": "16:45",
+                            "start": "16:45",
+                            "end": ""
                         }
                     ]
                 },
@@ -5876,7 +6446,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "08:30"
+                            "time": "08:30",
+                            "start": "08:30",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -5896,7 +6468,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "09:00"
+                            "time": "09:00",
+                            "start": "09:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -5916,7 +6490,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "09:10"
+                            "time": "09:10",
+                            "start": "09:10",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -5936,7 +6512,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "3JUWNC",
@@ -5956,7 +6534,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:00"
+                            "time": "10:00",
+                            "start": "10:00",
+                            "end": "10:45"
                         },
                         {
                             "code": "XTD7TE",
@@ -5976,7 +6556,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:50"
+                            "time": "10:50",
+                            "start": "10:50",
+                            "end": "11:20"
                         },
                         {
                             "code": "",
@@ -5996,7 +6578,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-coffee",
-                            "time": "11:20"
+                            "time": "11:20",
+                            "start": "11:20",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -6016,7 +6600,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "WJGCNV",
@@ -6036,7 +6622,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "11:50"
+                            "time": "11:50",
+                            "start": "11:50",
+                            "end": "12:20"
                         },
                         {
                             "code": "ZNA8WN",
@@ -6056,7 +6644,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "12:25"
+                            "time": "12:25",
+                            "start": "12:25",
+                            "end": "12:55"
                         },
                         {
                             "code": "",
@@ -6076,7 +6666,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-cutlery",
-                            "time": "13:00"
+                            "time": "13:00",
+                            "start": "13:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -6096,7 +6688,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "ZKXNTB",
@@ -6116,7 +6710,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:00"
+                            "time": "14:00",
+                            "start": "14:00",
+                            "end": "14:30"
                         },
                         {
                             "code": "SXSE8D",
@@ -6136,7 +6732,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:35"
+                            "time": "14:35",
+                            "start": "14:35",
+                            "end": "15:20"
                         },
                         {
                             "code": "",
@@ -6156,7 +6754,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-coffee",
-                            "time": "15:05"
+                            "time": "15:05",
+                            "start": "15:05",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -6176,7 +6776,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "15:30"
+                            "time": "15:30",
+                            "start": "15:30",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -6196,7 +6798,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "15:45"
+                            "time": "15:45",
+                            "start": "15:45",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -6216,7 +6820,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:15"
+                            "time": "16:15",
+                            "start": "16:15",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -6236,7 +6842,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:45"
+                            "time": "16:45",
+                            "start": "16:45",
+                            "end": ""
                         }
                     ]
                 },
@@ -6264,7 +6872,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "08:30"
+                            "time": "08:30",
+                            "start": "08:30",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -6284,7 +6894,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "09:00"
+                            "time": "09:00",
+                            "start": "09:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -6304,7 +6916,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "09:10"
+                            "time": "09:10",
+                            "start": "09:10",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -6324,7 +6938,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "SGVKVS",
@@ -6344,7 +6960,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:00"
+                            "time": "10:00",
+                            "start": "10:00",
+                            "end": "10:45"
                         },
                         {
                             "code": "QABWWM",
@@ -6364,7 +6982,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:50"
+                            "time": "10:50",
+                            "start": "10:50",
+                            "end": "11:20"
                         },
                         {
                             "code": "",
@@ -6384,7 +7004,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-coffee",
-                            "time": "11:20"
+                            "time": "11:20",
+                            "start": "11:20",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -6404,7 +7026,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "Q88ZUW",
@@ -6424,7 +7048,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "11:50"
+                            "time": "11:50",
+                            "start": "11:50",
+                            "end": "12:20"
                         },
                         {
                             "code": "JQAUEC",
@@ -6444,7 +7070,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "12:25"
+                            "time": "12:25",
+                            "start": "12:25",
+                            "end": "12:55"
                         },
                         {
                             "code": "",
@@ -6464,7 +7092,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-cutlery",
-                            "time": "13:00"
+                            "time": "13:00",
+                            "start": "13:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -6484,7 +7114,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "QA3EVU",
@@ -6504,7 +7136,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:00"
+                            "time": "14:00",
+                            "start": "14:00",
+                            "end": "14:30"
                         },
                         {
                             "code": "JUQMXE",
@@ -6524,7 +7158,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:35"
+                            "time": "14:35",
+                            "start": "14:35",
+                            "end": "15:20"
                         },
                         {
                             "code": "",
@@ -6544,7 +7180,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-coffee",
-                            "time": "15:05"
+                            "time": "15:05",
+                            "start": "15:05",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -6564,7 +7202,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "15:30"
+                            "time": "15:30",
+                            "start": "15:30",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -6584,7 +7224,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "15:45"
+                            "time": "15:45",
+                            "start": "15:45",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -6604,7 +7246,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:15"
+                            "time": "16:15",
+                            "start": "16:15",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -6624,7 +7268,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:45"
+                            "time": "16:45",
+                            "start": "16:45",
+                            "end": ""
                         }
                     ]
                 },
@@ -6652,7 +7298,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "08:30"
+                            "time": "08:30",
+                            "start": "08:30",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -6672,7 +7320,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "09:00"
+                            "time": "09:00",
+                            "start": "09:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -6692,7 +7342,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "09:10"
+                            "time": "09:10",
+                            "start": "09:10",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -6712,7 +7364,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "PPGWXL",
@@ -6732,7 +7386,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:00"
+                            "time": "10:00",
+                            "start": "10:00",
+                            "end": "10:45"
                         },
                         {
                             "code": "LWALGX",
@@ -6752,7 +7408,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:50"
+                            "time": "10:50",
+                            "start": "10:50",
+                            "end": "11:20"
                         },
                         {
                             "code": "",
@@ -6772,7 +7430,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-coffee",
-                            "time": "11:20"
+                            "time": "11:20",
+                            "start": "11:20",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -6792,7 +7452,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "WZWTVB",
@@ -6812,7 +7474,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "11:50"
+                            "time": "11:50",
+                            "start": "11:50",
+                            "end": "12:20"
                         },
                         {
                             "code": "RRLRYG",
@@ -6832,7 +7496,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "12:25"
+                            "time": "12:25",
+                            "start": "12:25",
+                            "end": "13:10"
                         },
                         {
                             "code": "",
@@ -6852,7 +7518,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-cutlery",
-                            "time": "13:00"
+                            "time": "13:00",
+                            "start": "13:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -6872,7 +7540,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "E3LFDL",
@@ -6892,7 +7562,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:00"
+                            "time": "14:00",
+                            "start": "14:00",
+                            "end": "14:30"
                         },
                         {
                             "code": "TS7TZF",
@@ -6912,7 +7584,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:35"
+                            "time": "14:35",
+                            "start": "14:35",
+                            "end": "15:20"
                         },
                         {
                             "code": "",
@@ -6932,7 +7606,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-coffee",
-                            "time": "15:05"
+                            "time": "15:05",
+                            "start": "15:05",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -6952,7 +7628,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "15:30"
+                            "time": "15:30",
+                            "start": "15:30",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -6972,7 +7650,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "15:45"
+                            "time": "15:45",
+                            "start": "15:45",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -6992,7 +7672,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:15"
+                            "time": "16:15",
+                            "start": "16:15",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -7012,7 +7694,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:45"
+                            "time": "16:45",
+                            "start": "16:45",
+                            "end": ""
                         }
                     ]
                 },
@@ -7040,7 +7724,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "08:30"
+                            "time": "08:30",
+                            "start": "08:30",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -7060,7 +7746,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "09:00"
+                            "time": "09:00",
+                            "start": "09:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -7080,7 +7768,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "09:10"
+                            "time": "09:10",
+                            "start": "09:10",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -7100,7 +7790,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "GTHCWX",
@@ -7120,7 +7812,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:00"
+                            "time": "10:00",
+                            "start": "10:00",
+                            "end": "10:45"
                         },
                         {
                             "code": "JFEQY8",
@@ -7140,7 +7834,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:50"
+                            "time": "10:50",
+                            "start": "10:50",
+                            "end": "11:20"
                         },
                         {
                             "code": "",
@@ -7160,7 +7856,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-coffee",
-                            "time": "11:20"
+                            "time": "11:20",
+                            "start": "11:20",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -7180,7 +7878,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "9D3JQC",
@@ -7200,7 +7900,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "11:50"
+                            "time": "11:50",
+                            "start": "11:50",
+                            "end": "12:20"
                         },
                         {
                             "code": "NC8VVA",
@@ -7220,7 +7922,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "12:25"
+                            "time": "12:25",
+                            "start": "12:25",
+                            "end": "12:55"
                         },
                         {
                             "code": "",
@@ -7240,7 +7944,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-cutlery",
-                            "time": "13:00"
+                            "time": "13:00",
+                            "start": "13:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -7260,7 +7966,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "UMWRYD",
@@ -7280,7 +7988,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:00"
+                            "time": "14:00",
+                            "start": "14:00",
+                            "end": "14:30"
                         },
                         {
                             "code": "JZW9HE",
@@ -7300,7 +8010,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:35"
+                            "time": "14:35",
+                            "start": "14:35",
+                            "end": "15:05"
                         },
                         {
                             "code": "",
@@ -7320,7 +8032,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-coffee",
-                            "time": "15:05"
+                            "time": "15:05",
+                            "start": "15:05",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -7340,7 +8054,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "15:30"
+                            "time": "15:30",
+                            "start": "15:30",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -7360,7 +8076,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "15:45"
+                            "time": "15:45",
+                            "start": "15:45",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -7380,7 +8098,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:15"
+                            "time": "16:15",
+                            "start": "16:15",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -7400,7 +8120,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:45"
+                            "time": "16:45",
+                            "start": "16:45",
+                            "end": ""
                         }
                     ]
                 },
@@ -7428,7 +8150,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "08:30"
+                            "time": "08:30",
+                            "start": "08:30",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -7448,7 +8172,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "09:00"
+                            "time": "09:00",
+                            "start": "09:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -7468,7 +8194,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "09:10"
+                            "time": "09:10",
+                            "start": "09:10",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -7488,7 +8216,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -7508,7 +8238,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:00"
+                            "time": "10:00",
+                            "start": "10:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -7528,7 +8260,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:50"
+                            "time": "10:50",
+                            "start": "10:50",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -7548,7 +8282,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "fa-users",
-                            "time": "11:20"
+                            "time": "11:20",
+                            "start": "11:20",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -7568,7 +8304,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -7588,7 +8326,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "11:50"
+                            "time": "11:50",
+                            "start": "11:50",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -7608,7 +8348,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "12:25"
+                            "time": "12:25",
+                            "start": "12:25",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -7628,7 +8370,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "13:00"
+                            "time": "13:00",
+                            "start": "13:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -7648,7 +8392,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "sessionname"
+                            "time": "sessionname",
+                            "start": "sessionname",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -7668,7 +8414,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:00"
+                            "time": "14:00",
+                            "start": "14:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -7688,7 +8436,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "14:35"
+                            "time": "14:35",
+                            "start": "14:35",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -7708,7 +8458,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "15:05"
+                            "time": "15:05",
+                            "start": "15:05",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -7728,7 +8480,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "15:30"
+                            "time": "15:30",
+                            "start": "15:30",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -7748,7 +8502,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "15:45"
+                            "time": "15:45",
+                            "start": "15:45",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -7768,7 +8524,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:15"
+                            "time": "16:15",
+                            "start": "16:15",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -7788,7 +8546,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "16:45"
+                            "time": "16:45",
+                            "start": "16:45",
+                            "end": ""
                         }
                     ]
                 },
@@ -7816,7 +8576,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:00"
+                            "time": "10:00",
+                            "start": "10:00",
+                            "end": "11:30"
                         },
                         {
                             "code": "WRPFUC",
@@ -7836,7 +8598,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "11:30"
+                            "time": "11:30",
+                            "start": "11:30",
+                            "end": "13:00"
                         },
                         {
                             "code": "",
@@ -7856,7 +8620,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-cutlery",
-                            "time": "13:00"
+                            "time": "13:00",
+                            "start": "13:00",
+                            "end": ""
                         },
                         {
                             "code": "VCSBUY",
@@ -7876,7 +8642,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "13:45"
+                            "time": "13:45",
+                            "start": "13:45",
+                            "end": "15:15"
                         }
                     ]
                 },
@@ -7904,7 +8672,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "10:00"
+                            "time": "10:00",
+                            "start": "10:00",
+                            "end": "11:30"
                         },
                         {
                             "code": "9AKC3R",
@@ -7924,7 +8694,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
-                            "time": "11:30"
+                            "time": "11:30",
+                            "start": "11:30",
+                            "end": "13:00"
                         },
                         {
                             "code": "",
@@ -7944,7 +8716,9 @@
                             "plenary": "",
                             "add_to_class": "color--primary",
                             "clipcard_icon": "fa-cutlery",
-                            "time": "13:00"
+                            "time": "13:00",
+                            "start": "13:00",
+                            "end": ""
                         },
                         {
                             "code": "",
@@ -7964,7 +8738,9 @@
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "fa-sticky-note",
-                            "time": "13:45"
+                            "time": "13:45",
+                            "start": "13:45",
+                            "end": "14:15"
                         }
                     ]
                 }

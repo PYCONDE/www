@@ -20,7 +20,8 @@
 import json
 import re
 from pprint import pprint
-from datetime import datetime
+from datetime import datetime, timedelta
+import time
 from unicodedata import normalize
 import pandas as pd
 
@@ -95,23 +96,45 @@ class ScheduleFromGSheet:
         for date in self.databag["dates"]:
             start_times = {}
             for room in date["rooms"]:
+                sessionname = ''
                 for session in room["sessions"]:
-                    if not start_times.get(session["time"], {}):
-                        start_times[session["time"]] = {
-                            "data_tab": session["time"].replace(':', '-'),
+                    if ':' not in session["time"]:
+                        # filter non-time entries like sessionname
+                        if session["type"] == 'sessionname':
+                            sessionname = session["title"]
+                        continue
+
+                    # decide where to split the day
+                    hour, minute = [int(x) for x in session["time"].split(':')]
+                    if 10 > hour > 18:
+                        continue
+                    elif hour < 13 or (hour == 13 and minute < 30):
+                        day_sec = f'{session["time"]}-morning'
+                    else:
+                        day_sec = f'{session["time"]}-afternoon'
+
+                    if not start_times.get(day_sec, {}):
+                        start_times[day_sec] = {
+                            "data_tab": day_sec.replace(':', '-'),
                             "time": session["time"],
+                            "day_sec": day_sec,
                         }
-                    if not start_times.get(session["time"], {}).get("sessions"):
-                        start_times[session["time"]]["sessions"] = []
+                    if not start_times.get(day_sec, {}).get("sessions"):
+                        start_times[day_sec]["sessions"] = []
                     session["room_name"] = room["room_name"]
                     session["location"] = room["location"]
                     session["use"] = room["use"]
-                    start_times[session["time"]]["sessions"].append(session)
-            databag_t["dates"].append({
-                "datum": date["datum"],
-                "day": date["day"],
-                "times": [start_times[x] for x in start_times]
-            })
+                    session["sessionname"] = sessionname
+                    start_times[day_sec]["sessions"].append(session)
+            # split and write to days
+            split_on = ['morning', 'afternoon']
+            for split in split_on:
+                _start_times = {x.split('-')[0]: y for x, y in sorted(start_times.items()) if split in x}
+                databag_t["dates"].append({
+                    "datum": f'{date["datum"]} {split.title()}',
+                    "day": f'{date["day"]} {split.title()}',
+                    "times": [_start_times[x] for x in _start_times]
+                })
         with open(DATABAG_PATH_T, 'w') as f:
             json.dump(databag_t, f, indent=4)
 
@@ -434,6 +457,14 @@ class ScheduleFromGSheet:
         if contents and not self.submissions.get(contents[0]) and contents_str not in self.scheduled_bag and time != 'sessionname':
             print(f"CHECK: not a session with code:  {contents_str}")
             self.scheduled_bag[contents_str] = time
+
+        if session_details['time']:
+            session_details['start'] = session_details['time']
+            session_details['end'] = ''
+            if session_details['duration']:
+                dur = datetime.strptime(session_details['duration'], "%H:%M")
+                end = datetime.strptime(session_details['time'], "%H:%M") + timedelta(hours=dur.hour, minutes=dur.minute)
+                session_details['end'] = end.strftime("%H:%M")
 
         return session_details
 
