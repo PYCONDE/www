@@ -59,11 +59,16 @@
                                                             </div>
                                                             <div class="clipcard__body col-12 col-md-10 col-lg-10" style="display: block">
                                                                 <p class="clipcard__title sessionname">{{ session.room_name }}</p>
-                                                                <h6 class="clipcard__title sessionname">
+                                                                <h6 class="clipcard__title sessionname compact_title">
                                                                     {% set _href = session.url if session.url else "#" %}
-                                                                    <a class="schedule_title" href="_href">{{ session.type }}: {{ session.title }}
+                                                                    <a class="schedule_title" href="{{ _href }}">{{ session.type }}: {{ session.title }}
                                                                     </a>
                                                                 </h6>
+                                                                {% if session.speaker_names %}
+                                                                        <p class="clipcard__info"><span
+                                                                                class="text-body-3">{{ session.speaker_names }}&nbsp;</span>
+                                                                        </p>
+                                                                    {% endif %}
                                                                 <span class="clipcard__subtitle"><span class="sub-head-2">{{ session.track }}
                                                                     {% if session.domains %} • {% endif %}{{ session.domains }}</span>
                                                                 </span>
