@@ -30,6 +30,10 @@
         {
           "name": "Schedule",
           "path": "/schedule"
+        },
+        {
+          "name": "Schedule (time->sessions)",
+          "path": "/scheduleT"
         }
       ]
     },
