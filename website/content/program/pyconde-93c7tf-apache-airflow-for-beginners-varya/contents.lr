@@ -32,9 +32,9 @@ python_skill: Python Skill Level basic
 ---
 domain_expertise: Domain Expertise some
 ---
-room: Hauptsaal
+room: Saal 6
 ---
-start_time: 15:30
+start_time: 11:50
 ---
 day: wednesday
 ---
@@ -42,9 +42,9 @@ meta_title: 🌈Apache Airflow for beginners Varya PyConDE & PyDataBerlin 2019 c
 ---
 meta_twitter_title: 🌈Apache Airflow for beginners @ #PyConDE #PyDataBerlin #PyData
 ---
-categories: pyconde, python-skill-level-basic, domain-expertise-some, talk, infrastructure, data-engineering, wednesday, wednesday-1530
+categories: pyconde, python-skill-level-basic, domain-expertise-some, talk, infrastructure, data-engineering, wednesday, wednesday-1150
 ---
-slugified_slot_links: wednesday, wednesday-1530
+slugified_slot_links: wednesday, wednesday-1150
 ---
 body: Apache Airflow is an open source project that allows you programmatically create, schedule and monitor sequences of tasks. It earned its good reputation over the past years and became the industry standard for building data pipelines. However, for a beginner, it may be tricky to understand whether Airflow can solve some of their problems. In this talk, I will show you what problems can be solved using Airflow, what are the key components and how to use it on a simple example.
 
