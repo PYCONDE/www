@@ -4,9 +4,9 @@ pub_date: 2019-09-28
 ---
 author: Organisers
 ---
-description: PyLadies IoT workshop at PyCon DE & PyData Berlin 2019
+description: Our attempt to improve the conference's experience
 ---
-twitter_image: /static/media/twitter/PyConDEPyDataSquare.jpg
+twitter_image: /static/media/twitter/42_answer.jpg
 ---
 body:
 
@@ -69,7 +69,7 @@ Citing the [Social Rules from the Recurse Center](https://www.recurse.com/social
 **Repetita iuvant: assuming someone isn’t a programmer because of their race or gender.**
 
 
-##### Be aware of mansplaining
+#### Be aware of mansplaining
 
 Citing [Merriam Webster dictionary](https://www.merriam-webster.com/words-at-play/mansplaining-definition-history):
 
