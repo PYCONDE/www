@@ -1,0 +1,54 @@
+_model: session 
+---
+code: RRPC79
+---
+title: Using Overhead Video Capture to Analyse Grouping Behaviour of Dancers in a Silent Disco
+---
+description: I built upon Python's OpenCV library to detect locations of dancers in a silent disco, using their headphone lights as a proxy, and performed network analysis to investigate their grouping behaviour based on the playlists people were listening to.
+---
+short_description: I built upon Python's OpenCV library to detect locations of dancers in a silent disco, using their headphone lights as a proxy, and performed network analysis to investigate their grouping behaviour based on the playlists people were listening to.
+---
+twitter_image: /static/media/twitter/RRPC79.jpg
+---
+speakers: Nelson Mooren
+---
+submission_type: Talk
+---
+domains: Computer Vision, Science
+---
+biography: #### Nelson Mooren
+
+
+
+Cognitive neuroscientist turned software developer.
+
+visit the speaker at: [Github](https://github.com/Nelson-AM) • [Homepage](http://nelson.science/)
+---
+affiliation: 
+---
+track: PyData
+---
+python_skill: Python Skill Level basic
+---
+domain_expertise: Domain Expertise some
+---
+room: Saal 6
+---
+start_time: 15:30
+---
+day: thursday
+---
+meta_title: Using Overhead Video Capture to Analyse Grouping Behaviour of Dancers in a Silent Disco Nelson Mooren PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Using Overhead Video Capture to Analyse Grouping Behaviour of Dancers in a Silent Disco @ #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-basic, domain-expertise-some, talk, computer-vision, science, thursday, thursday-1530
+---
+slugified_slot_links: thursday, thursday-1530
+---
+body: Off-the-shelf image processing techniques can be used to track people's locations but this doesn’t work as well in dark environments, such as dance clubs. These environments are of interest to researchers investigating the interaction between music and social behaviour.  Silent discos are a dance club-like environment with one great advantage: a signal in the form of headphone lights. Using overhead video capture and image processing, these headphone lights can be used to track people’s location over time.
+
+These methods provide a low-cost alternative to motion tracking laboratories, which are expensive to set-up and maintain. Since silent discos have become increasingly popular at festivals and other events, they also present a relatively natural environment in which larger groups of people can participate.
+
+For this project, I built upon Python's OpenCV library to detect locations of dancers in a silent disco, using their headphone lights as a proxy. Using this data, I investigated the grouping behaviour of dancers using network analysis. In this talk, I want to focus on the techniques used and possible future directions, such as integration with mobile apps that track acceleration and movement.
+
