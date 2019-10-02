@@ -18,13 +18,11 @@ domains: Natural Language Processing
 ---
 biography: #### Mariana Capinel
 
-Affiliation: diconium
-
 
 
 Data scientist with background in Linguistics.
 ---
-affiliation: diconium
+affiliation: 
 ---
 track: PyData
 ---
