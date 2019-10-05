@@ -444,4 +444,4 @@ if __name__ == "__main__":
     update_session_pages(use_cache=True)
     generate_session_pages()
     run_lekor_update()
-    # git_push()
+    git_push()
