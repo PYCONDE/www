@@ -103,35 +103,6 @@
                             {% endfor %}
 
 
-                            {#                                                <td style="vertical-align: top;" class="tabs__nav" rowspan="{{ tb.rowspan }}" colspan="{{  td.colspan }}">#}
-                            {##}
-                            {#                                                    {{ td.title }}#}
-                            {#                                                </td>#}
-                            {##}
-                            {#                                                {% for session in _time.sessions %}#}
-                            {#                                                    {% if session.title == "" %}#}
-                            {#                                                    {% elif session.title == "Lunch" and loop.index > 1 %}#}
-                            {#                                                    {% elif session.title == "Coffee Break" and loop.index > 1 %}#}
-                            {#                                                    {% else %}#}
-                            {#                                                    <td style="vertical-align: top !important; min-width: 18%;background-color: #F8F8F8; padding: 3px;"#}
-                            {#                                                    {% if session.type == "Tutorial" or "Open Space" in session.title or "Panel" in session.title %}rowspan="3" {% endif %}>#}
-                            {##}
-                            {#                                                        <p class="clipcard__title sessionname tabs__nav" >{{ session.room_name }}</p>#}
-                            {#                                                        <p class="clipcard__title sessionname compact_title">#}
-                            {#                                                            {% set _href = session.url if session.url else "#" %}#}
-                            {#                                                            <a class=""#}
-                            {#                                                               href="{{ _href }}">{%  if session.type == "" %}{%  else %}<span style="font-size: small;">{{ session.type }}<br></span>{% endif %}{{ session.title }}#}
-                            {#                                                            </a>#}
-                            {#                                                        {% if session.speaker_names %}#}
-                            {#                                                                    <p style="font-size: small;;line-height: 1em;">{{ session.speaker_names }}#}
-                            {#                                                                {% endif %}{% if session.end %} (ends#}
-                            {#                                                            {{ session.end }}){% endif %}</p>#}
-                            {#                                                        </p>#}
-                            {#                                                    </td>#}
-                            {#                                                    {%  endif %}#}
-                            {#                                                {% endfor %}#}
-
-
                         </table>
                     </div>
                 </div>
