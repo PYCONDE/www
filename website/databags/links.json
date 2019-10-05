@@ -75,6 +75,10 @@
         {
           "name": "Team",
           "path": "/team"
+        },
+        {
+          "name": "App",
+          "path": "/app"
         }
       ]
     },

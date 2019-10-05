@@ -1,0 +1,28 @@
+_template: page-md.html
+---
+title: No App 🙄
+---
+body: We decided not to have an app after all.
+We looked into multiple apps and none of them seemed very suitable in the end (more below).
+
+#### For news and updates:
+
+###### [Schedule time -> session](/scheduleT/)
+###### [Schedule time -> session](/scheduleT/)
+
+#### Schedule:
+
+###### [Schedule](/schedule/)
+###### [Schedule full table](/scheduleTable/)
+###### [Schedule time -> session](/scheduleT/)
+
+
+
+##### App for next year
+All apps we looked into was lacking of at leat one of the below, so if you know of any conference app that:
+- is suitable for Android and iOS
+- fully integratable via an API incl. updates
+- fully GDPR compliant
+- cool
+
+do let us know!
