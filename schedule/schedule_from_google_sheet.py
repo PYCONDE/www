@@ -39,6 +39,7 @@ RANGE_NAME = 'Schedule Layout'  # get all of the the sheet
 
 DATABAG_PATH = project_root / 'website/databags/schedule_databag.json'
 DATABAG_PATH_T = project_root / 'website/databags/schedule_databagT.json'
+DATABAG_PATH_TB = project_root / 'website/databags/schedule_databagTable.json'
 # path to json with submission for data verifications
 SUBMISSIONS_PATH = project_root / 'website/databags/submissions.json'
 PROGRAM_BASE_URL = '/program'
@@ -89,6 +90,99 @@ class ScheduleFromGSheet:
     def save_to_json(self):
         with open(self.databag_path, 'w') as f:
             json.dump(self.databag, f, indent=4)
+
+    def table_from_dataframe(self):
+        header = "5"
+        days = {
+            "wed": {'start': 10, 'end': 28, 'name': 'Wednesday Oct 9'},
+            "thu": {'start': 36, 'end': 57, 'name': 'Thursday Oct 10'},
+            "fri": {'start': 65, 'end': 83, 'name': 'Friday Oct 11'},
+        }
+        ls, le, rs, _re = "C", "G", "I", "K"
+        header_names = ["time"] + list(self.sheet.loc[header, ls:le]) + list(self.sheet.loc[header, rs:_re])
+        table = {"header": header_names, "dates": []}
+        for day, coo in days.items():
+            the_day = {
+                'day': coo['name'],
+                'sessions': []
+            }
+            for the_row in range(coo['start'], coo['end'] + 1):
+                _row, _time = [], ""
+                the_row = str(the_row)
+                _time = self.sheet.loc[the_row, "A"]
+                row = list(self.sheet.loc[the_row, ls:le]) + list(self.sheet.loc[the_row, rs:_re])
+                # if len(set([x for x in row if x])) == 1:
+                #     colspan = len(row)
+                # elif row[0].lower() in ("coffee break", "lunch", "community space", "lightning talks",
+                #                             "registration & coffee", "doors open", "morning anncouncements",
+                #                             "sprint orientation") and len(set([x for x in row if x])) == 1:
+                #     colspan = len(row) - 1
+                # elif row[0].lower() in ("coffee break", "lunch"):
+                #     colspan = 5
+                # else:
+                #     colspan = 7
+
+                last_col = {}
+                colspan = 1
+                for i, col in enumerate(row, 1):
+
+                    try:
+                        code, *_ = col.split(" ")
+                    except ValueError:
+                        code = col.strip()
+                    speakers, subm_type, duration = '', '', ''
+                    if code in self.submissions:
+                        title = self.submissions[code]['title']
+                        speakers = ', '.join([x['name'] for x in self.submissions[code]['speakers']])
+                        subm_type = self.submissions[code]['submission_type'].split(' ')[0]
+                        duration = self.submissions[code]['duration']
+                    else:
+                        title = col
+
+                    _col = {
+                        'title': title,
+                        'speakers': speakers,
+                        'subm_type': subm_type,
+                        'duration': duration,
+                        'colspan': colspan,
+                        'rowspan': 2 if subm_type == "Tutorial" else 1,
+                    }
+
+                    if i == len(row):
+                        # always append last row
+                        _row.append(_col)
+                        break
+                    if 7 <= i <= 8 and not row[i] and subm_type not in "Tutorial" and "Open" not in title and "PSV" not in title:  # i is 1-indexed
+                        _col['colspan'] = ""
+                        _col['rowspan'] = ""
+                        # _row.append(_col)
+                        continue
+
+                    if last_col.get('title', '') == _col.get('title', '') or not _col.get('title', ''):
+                        try:
+                            if _row[-1]['subm_type'] == "Talk" or any([x in _row[-1]['subm_type'] for x in ("Tutorial", "Open", "PSV")]):
+                                colspan = 1
+                            else:
+                                colspan += 1
+                            try:
+                                _row[-1]['colspan'] = colspan
+                            except Exception as e:
+                                colspan = 1
+                        except Exception as e:
+                            colspan = 1
+                        if i == len(row):
+                            break
+                    else:
+                        if i != len(row):
+                            _row.append(_col)
+                            last_col = _col
+                            colspan = 1
+
+                the_day['sessions'].append([_time] + _row)
+
+            table["dates"].append(the_day)
+        with open(DATABAG_PATH_TB, 'w') as f:
+            json.dump(table, f, indent=4)
 
     def transpose_schedule(self):
         """ swap times and rooms """
@@ -294,9 +388,9 @@ class ScheduleFromGSheet:
         :param session_tuple: (time, session text)
         :return:
         """
-        time, contents_str = session_tuple
+        _time, contents_str = session_tuple
         if '@' in contents_str:
-            contents_str, time = contents_str.split('@')
+            contents_str, _time = contents_str.split('@')
         contents = contents_str.split()
 
         session_keys = [
@@ -307,10 +401,10 @@ class ScheduleFromGSheet:
             'speaker_names', 'type', 'url', 'plenary', 'add_to_class', 'clipcard_icon',
         ]
         session_details = dict(zip(session_keys, cycle([""])))  # init
-        session_details['time'] = time
+        session_details['time'] = _time
 
         # extra handling of tracks
-        if contents and time == 'sessionname':
+        if contents and _time == 'sessionname':
             session_details['title'] = contents_str
             session_details['type'] = "sessionname"
 
@@ -362,6 +456,11 @@ class ScheduleFromGSheet:
             session_details['add_to_class'] = "color--primary"
             session_details['short_description'] = "To be announced soon."
             session_details['clipcard_icon'] = "fa-key"
+        elif contents and 'cancelled' == contents[0].lower():
+            session_details['title'] = contents_str
+            session_details['track'] = ""
+            session_details['short_description'] = "Unfortunately had to be cancelled on short notice."
+            session_details['clipcard_icon'] = "fa-bell-o"
         elif contents and 'open space' in contents_str.lower():
             session_details['title'] = contents_str
             session_details['type'] = "Community"
@@ -454,9 +553,9 @@ class ScheduleFromGSheet:
             session_details['clipcard_icon'] = ""
 
         # bookkeeping
-        if contents and not self.submissions.get(contents[0]) and contents_str not in self.scheduled_bag and time != 'sessionname':
+        if contents and not self.submissions.get(contents[0]) and contents_str not in self.scheduled_bag and _time != 'sessionname':
             print(f"CHECK: not a session with code:  {contents_str}")
-            self.scheduled_bag[contents_str] = time
+            self.scheduled_bag[contents_str] = _time
 
         if session_details['time']:
             session_details['start'] = session_details['time']
@@ -536,6 +635,9 @@ def update_schedule_from_sheet():
             'rooms_filter': tuts_colums,
         },
     }
+
+    s.table_from_dataframe()
+
     for name, day in days.items():
         s.get_day_from_schedule(**day)
     s.save_to_json()
@@ -543,6 +645,8 @@ def update_schedule_from_sheet():
     not_scheduled = set(s.submissions) - set(s.scheduled_codes)
     for ns in not_scheduled:
         print(f"NOT SCHEDULED: {ns} {s.submissions.get(ns)['title']}")
+
+    # table from ds interrows
 
 
 if __name__ == '__main__':

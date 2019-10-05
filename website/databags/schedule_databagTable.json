@@ -1,0 +1,2402 @@
+{
+    "header": [
+        "time",
+        "Hauptsaal",
+        "Saal 2",
+        "Saal 10",
+        "Saal 6",
+        "Saal 4",
+        "Saal 5",
+        "Saal 7",
+        "Lounge"
+    ],
+    "dates": [
+        {
+            "day": "Wednesday Oct 9",
+            "sessions": [
+                [
+                    "09:00",
+                    {
+                        "title": "Registration & Coffee",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "10:30",
+                    {
+                        "title": "Opening Session",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "10:50",
+                    {
+                        "title": "Algo.Rules - How do we get the ethics into the code?",
+                        "speakers": "Carla Hustedt",
+                        "subm_type": "Keynote",
+                        "duration": "00:45",
+                        "colspan": 7,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "11:20",
+                    {
+                        "title": "Coffee Break",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Keynote Q&A Session",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "sessionname",
+                    {
+                        "title": "Python",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Performance",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Time Series",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Deployment",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Visualization",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Tutorial @ 11:30",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 2,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 2,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "11:50",
+                    {
+                        "title": "Refactoring in Python: Design Patterns and Approaches",
+                        "speakers": "Tin Markovi\u0107",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Boosting simulation performance with Python",
+                        "speakers": "Eran Friedman",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Time Series Anomaly Detection for Bottling Machine Maintenance",
+                        "speakers": "Andrea Spichtinger",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "\ud83c\udf08Apache Airflow for beginners",
+                        "speakers": "Varya",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Visualizing Interactive Graph Networks in Python",
+                        "speakers": "Jan-Benedikt Jagusch",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Get to grips with pandas and scikit-learn",
+                        "speakers": "Sandrine Pataut",
+                        "subm_type": "Tutorial",
+                        "duration": "01:30",
+                        "colspan": 1,
+                        "rowspan": 2
+                    },
+                    {
+                        "title": "Package and Dependency Management with Poetry",
+                        "speakers": "Steph Samson",
+                        "subm_type": "Tutorial",
+                        "duration": "01:15",
+                        "colspan": 1,
+                        "rowspan": 2
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "12:25",
+                    {
+                        "title": "Mock Hell",
+                        "speakers": "Edwin Jung",
+                        "subm_type": "Talk",
+                        "duration": "00:45",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Hide Code, Minimize Dependencies, Boost Performance - The PyTorch JIT",
+                        "speakers": "Tilman Krokotsch",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Time series modelling with probabilistic programming",
+                        "speakers": "Sean Matthews, Jannes Quer",
+                        "subm_type": "Talk",
+                        "duration": "00:45",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Practical DevOps for the busy data scientist",
+                        "speakers": "Dr. Tania Allard",
+                        "subm_type": "Talk",
+                        "duration": "00:45",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "How to choose better colors for your data visualizations",
+                        "speakers": "Daniel Ringler",
+                        "subm_type": "Talk",
+                        "duration": "00:45",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "13:00",
+                    {
+                        "title": "Lunch",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "PyLadies Lunch @12:45",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "sessionname",
+                    {
+                        "title": "Micropython",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Prediction",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Julia",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "NLP",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Feature Engineering",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Tutorial @ 13:50",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 2,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "-",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 2,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "14:00",
+                    {
+                        "title": "TBC",
+                        "speakers": "James Powell",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Fighting fraud: finding duplicates at scale",
+                        "speakers": "Alexey Grigorev",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "First steps in Julia",
+                        "speakers": "Felicia Burtscher",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Where Linguistics meets Natural Language Processing",
+                        "speakers": "Mariana Capinel",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Automated Feature Engineering and Selection in Python",
+                        "speakers": "Franziska Horn",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Write your Own Decorators",
+                        "speakers": "Mike M\u00fcller",
+                        "subm_type": "Tutorial",
+                        "duration": "01:30",
+                        "colspan": 1,
+                        "rowspan": 2
+                    },
+                    {
+                        "title": "Deep Learning for Healthcare with PyTorch",
+                        "speakers": "Valerio Maggio",
+                        "subm_type": "Tutorial",
+                        "duration": "01:30",
+                        "colspan": 1,
+                        "rowspan": 2
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "14:35",
+                    {
+                        "title": "How MicroPython went into space",
+                        "speakers": "Christine Spindler",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "AI Intentions and Code Completion",
+                        "speakers": "Vasily Korf",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Julia for Python",
+                        "speakers": "Simon Danisch",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Why you should (not) train your own BERT model for different languages or domains",
+                        "speakers": "Marianne Stecklina",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Automating feature engineering for supervised learning?  Methods, open-source tools and prospects.",
+                        "speakers": "Thorben Jensen",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "15:05",
+                    {
+                        "title": "Coffee Break",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "sessionname",
+                    {
+                        "title": "Deployment",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "ML use-case",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Text",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Micropython",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Enterprise",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Tutorial @ 15:20",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 2,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "-",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 2,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "15:30",
+                    {
+                        "title": "Applying deployment oriented mindset for building Machine Learning models",
+                        "speakers": "Marianna Diachuk",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Python-Powered OSINT! Modernising Open Source Intelligence for Investigating Disinformation",
+                        "speakers": "Chiin-Rui Tan, Dare Imam-Lawal",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Privacy-preserving Machine Learning for text processing",
+                        "speakers": "Sarah Diot-Girard",
+                        "subm_type": "Talk",
+                        "duration": "00:45",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "CANCELLED MicroPython Heats My Home",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Developers vs. Enterprise",
+                        "speakers": "Ingo Stegmaier",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Hidden Markov Models for Chord Recognition - Intuition and Applications",
+                        "speakers": "Caio Miyashiro",
+                        "subm_type": "Tutorial",
+                        "duration": "01:30",
+                        "colspan": 1,
+                        "rowspan": 2
+                    },
+                    {
+                        "title": "pytest - simple, rapid and fun testing with Python",
+                        "speakers": "Florian Bruhin",
+                        "subm_type": "Tutorial",
+                        "duration": "01:30",
+                        "colspan": 1,
+                        "rowspan": 2
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "16:05",
+                    {
+                        "title": "Production-level data pipelines that make everyone happy using Kedro",
+                        "speakers": "Yetunde Dada",
+                        "subm_type": "Talk",
+                        "duration": "00:45",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Creating an Interactive ML Conference Showcase",
+                        "speakers": "Harald Bosch",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "vtext: text processing in Rust with Python bindings",
+                        "speakers": "Roman Yurchak",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Using Micropython to develop an IoT multimode sensor platform with an Augmented Reality UI",
+                        "speakers": "Nicholas Herriot",
+                        "subm_type": "Talk",
+                        "duration": "00:45",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Running An Open Source Project Like A Start Up",
+                        "speakers": "Cheuk Ting Ho",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "16:50",
+                    {
+                        "title": "Community Space",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "17:00",
+                    {
+                        "title": "PEP 581 and PEP 588: Migrating CPython's Issue Tracker",
+                        "speakers": "Mariatta Wijaya",
+                        "subm_type": "Keynote",
+                        "duration": "00:45",
+                        "colspan": 7,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "17:45",
+                    {
+                        "title": "Lighting Talks",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "18:30",
+                    {
+                        "title": "END",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    }
+                ]
+            ]
+        },
+        {
+            "day": "Thursday Oct 10",
+            "sessions": [
+                [
+                    "08:30",
+                    {
+                        "title": "Doors Open",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "09:00",
+                    {
+                        "title": "Morning Announcements",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "09:10",
+                    {
+                        "title": "Python 2020+",
+                        "speakers": "\u0141ukasz Langa",
+                        "subm_type": "Keynote",
+                        "duration": "00:45",
+                        "colspan": 7,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "sessionname",
+                    {
+                        "title": "Gaussian Process",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Docker",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Python's friends",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "ML & uncertainty",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Tools",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Tutorial",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 2,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "-",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 2,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "10:00",
+                    {
+                        "title": "Gaussian Progress",
+                        "speakers": "Vincent Warmerdam",
+                        "subm_type": "Talk",
+                        "duration": "00:45",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Docker and Python - A Match made in Heaven",
+                        "speakers": "Dr. Hendrik Niemeyer",
+                        "subm_type": "Talk",
+                        "duration": "00:45",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Beyond Paradigms: a new key to grok Python & other languages",
+                        "speakers": "Luciano Ramalho",
+                        "subm_type": "Talk",
+                        "duration": "00:45",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Are you sure about that?! Uncertainty Quantification in AI",
+                        "speakers": "Florian Wilhelm",
+                        "subm_type": "Talk",
+                        "duration": "00:45",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Tools that help you get your experiments under control",
+                        "speakers": "Katharina Rasch",
+                        "subm_type": "Talk",
+                        "duration": "00:45",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Airflow: your ally for automating machine learning and data pipelines",
+                        "speakers": "Enrica Pasqua, Bahadir Uyarer",
+                        "subm_type": "Tutorial",
+                        "duration": "01:30",
+                        "colspan": 1,
+                        "rowspan": 2
+                    },
+                    {
+                        "title": "Fairness in decision-making with AI: a practical guide & hands-on tutorial using Aequitas",
+                        "speakers": "Pedro Saleiro",
+                        "subm_type": "Tutorial",
+                        "duration": "01:30",
+                        "colspan": 1,
+                        "rowspan": 2
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "10:50",
+                    {
+                        "title": "Gaussian Process for Time Series Analysis",
+                        "speakers": "Dr. Juan Orduz",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "6 Years of Docker: The Good, the Bad and Python Packaging",
+                        "speakers": "Sebastian Neubauer",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "10 ways to debug Python code",
+                        "speakers": "Christoph Deil",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Embrace uncertainty! Why to go beyond point estimators for valuable ML applications",
+                        "speakers": "Stefan Maier",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "A Tour of JupyterLab Extensions",
+                        "speakers": "Jeremy Tuloup",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "11:20",
+                    {
+                        "title": "Coffee Break",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Keynote Q&A",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "sessionname",
+                    {
+                        "title": "Vision",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Enterprise",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "API",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Visualization",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "ML for good",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Tutorial @ 11:30",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 2,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "-",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 2,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "11:50",
+                    {
+                        "title": "Equivariance in CNNs: how generalising the weight-sharing property increases data-efficiency",
+                        "speakers": "Marysia Winkels",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Data Literacy for Managers",
+                        "speakers": "Alexander CS Hendorf",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Break your API gently - or not at all",
+                        "speakers": "Tim Hoffmann",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Dash: Interactive Data Visualization Web Apps with no Javascript",
+                        "speakers": "Dom Weldon",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Want to have a positive social impact as a data scientist?",
+                        "speakers": "Ellen K\u00f6nig",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Build a Machine Learning pipeline with Jupyter and Azure",
+                        "speakers": "Daniel Heinze",
+                        "subm_type": "Tutorial",
+                        "duration": "01:30",
+                        "colspan": 1,
+                        "rowspan": 2
+                    },
+                    {
+                        "title": "An Introduction to Concurrency and Parallelism using Python Programming Language",
+                        "speakers": "Tanmoy Bandyopadhyay",
+                        "subm_type": "Tutorial",
+                        "duration": "01:30",
+                        "colspan": 1,
+                        "rowspan": 2
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "12:25",
+                    {
+                        "title": "Using adversarial samples to break and robustify your Vision Neural Network Models",
+                        "speakers": "Irina Vidal Migall\u00f3n",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Avoiding ML FOBO",
+                        "speakers": "Rachel Berryman, D\u00e2nia Meira",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "What if I tell you that your specs are broken",
+                        "speakers": "Samuele Maci",
+                        "subm_type": "Talk",
+                        "duration": "00:45",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Panel: Turn any notebook into a deployable dashboard",
+                        "speakers": "Philipp Rudiger",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Tackle the problems that really matter - leverage the power of data science in the service of humanity",
+                        "speakers": "Eva Schreyer, Lisa Z\u00e4uner",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "13:00",
+                    {
+                        "title": "Lunch",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "sessionname",
+                    {
+                        "title": "Python",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "scikit*",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Vision",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Tests and *env",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Classificaion / FP",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Tutorial @ 13:45",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 2,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "-",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 2,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "14:00",
+                    {
+                        "title": "Python Panel",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "skorch: A scikit-learn compatible neural network library that wraps pytorch",
+                        "speakers": "Benjamin Bossan",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Birds of a feather flock together - Tracking pigeons with Python and OpenCV",
+                        "speakers": "Neslihan Edes",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "How to write tests that need a lot of data?",
+                        "speakers": "Sander Kooijmans",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "10 Years of Automated Category Classification for Product Data",
+                        "speakers": "Johannes Knopp",
+                        "subm_type": "Talk",
+                        "duration": "00:45",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Kubernetes 101 for Python Developers",
+                        "speakers": "Christian Barra",
+                        "subm_type": "Tutorial",
+                        "duration": "01:30",
+                        "colspan": 1,
+                        "rowspan": 2
+                    },
+                    {
+                        "title": "Open Space #1",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "14:35",
+                    {
+                        "title": "Python Panel",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Current affairs, updates, and the roadmap of scikit-learn and scikit-learn-contrib",
+                        "speakers": "Adrin Jalali",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Detecting and Analyzing Solar Panels in Switzerland using Aerial Imagery",
+                        "speakers": "Martin Christen",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "venv, pyenv, pypi, pip, pipenv, pyWTF?",
+                        "speakers": "Simone Robutti",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Dr. Schmood's Notebook of Python Calisthenics and Orthodontia",
+                        "speakers": "David Schmudde",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Open Space # 2",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "15:05",
+                    {
+                        "title": "Coffee Break",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "sessionname",
+                    {
+                        "title": "Python",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "A bit of Theory",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Good practices",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "ML use-case",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Hardware",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Tutorial @ 15:15",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Open Space/PSV",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "-",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "15:30",
+                    {
+                        "title": "Static Typing in Python",
+                        "speakers": "Dustin Ingram",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Should I stay or should I go? Optimal exercise decisions using the Longstaff-Schwartz algorithm",
+                        "speakers": "Benedikt Rudolph",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "From body and code <programming in times of acceptance>",
+                        "speakers": "Paloma",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Using Overhead Video Capture to Analyse Grouping Behaviour of Dancers in a Silent Disco",
+                        "speakers": "Nelson Mooren",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Getting started with FPGA with Python",
+                        "speakers": "Olga",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Quantum computing with Python",
+                        "speakers": "James Wootton",
+                        "subm_type": "Tutorial",
+                        "duration": "01:30",
+                        "colspan": 1,
+                        "rowspan": 2
+                    },
+                    {
+                        "title": "Open Space #3",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "16:05",
+                    {
+                        "title": "Is it me, or the GIL?",
+                        "speakers": "Christoph Heer",
+                        "subm_type": "Talk",
+                        "duration": "00:45",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Active Learning with Bayesian Nonnegative Matrix Factorization for Recommender Systems",
+                        "speakers": "G\u00f6n\u00fcl Ayc\u0131",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Commenting code \u2014 beyond common wisdom",
+                        "speakers": "Stefan Schwarzer",
+                        "subm_type": "Talk",
+                        "duration": "00:45",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "How strong is my opponent? Using Bayesian methods for skill assessment",
+                        "speakers": "Darina Goldin",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Chips Made From Python",
+                        "speakers": "Dan Fritchman",
+                        "subm_type": "Talk",
+                        "duration": "00:45",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "PSV Mitgliederversammung @16:00",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "16:50",
+                    {
+                        "title": "Community Space",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "17:00",
+                    {
+                        "title": "Crunching Numbers Like a Journalist",
+                        "speakers": "Marie-Louise Timcke",
+                        "subm_type": "Keynote",
+                        "duration": "00:45",
+                        "colspan": 7,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "17:45",
+                    {
+                        "title": "Lighting Talks",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Keynote Q&A",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "18:30",
+                    {
+                        "title": "END",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    }
+                ]
+            ]
+        },
+        {
+            "day": "Friday Oct 11",
+            "sessions": [
+                [
+                    "08:30",
+                    {
+                        "title": "Doors Open",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "09:00",
+                    {
+                        "title": "Morning Announcements",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "09:10",
+                    {
+                        "title": "Rethinking Open Source in the Era of Cloud & Machine Learning",
+                        "speakers": "Peter Wang",
+                        "subm_type": "Keynote",
+                        "duration": "00:45",
+                        "colspan": 7,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "sessionname",
+                    {
+                        "title": "ML & Ethics",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Testing",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "DB",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Production",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "ML & RL",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Tutorial",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 2,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 2,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "10:00",
+                    {
+                        "title": "Law, ethics and machine learning \u2013 a curious m\u00e9nage \u00e0 trois",
+                        "speakers": "Benjamin",
+                        "subm_type": "Talk",
+                        "duration": "00:45",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Introduction to automated testing with pytest",
+                        "speakers": "Raphael Pierzina",
+                        "subm_type": "Talk",
+                        "duration": "00:45",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Fresh New Pythonic Database: EdgeDB (And Why It's the Future)",
+                        "speakers": "Dmitry Nazarov",
+                        "subm_type": "Talk",
+                        "duration": "00:45",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Version Control for Data Science",
+                        "speakers": "Alessia Marcolini",
+                        "subm_type": "Talk",
+                        "duration": "00:45",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Why you don\u2019t see many real-world applications of Reinforcement Learning.",
+                        "speakers": "Yurii Tolochko",
+                        "subm_type": "Talk",
+                        "duration": "00:45",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Create CUDA kernels from Python using Numba and CuPy.",
+                        "speakers": "Valentin Haenel",
+                        "subm_type": "Tutorial",
+                        "duration": "01:30",
+                        "colspan": 1,
+                        "rowspan": 2
+                    },
+                    {
+                        "title": "Managing the end-to-end machine learning lifecycle with MLFlow",
+                        "speakers": "Tobias Sterbak",
+                        "subm_type": "Tutorial",
+                        "duration": "01:30",
+                        "colspan": 1,
+                        "rowspan": 2
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "10:50",
+                    {
+                        "title": "Transforming a Legacy System into a Bias-Mitigating AI Solution for Debt Repayment",
+                        "speakers": "Avar\u00e9 Stewart",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Abridged metaprogramming classics - this episode: pytest",
+                        "speakers": "Oliver Bestwalter",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Strawberry: a dataclasses inspired approach to GraphQL",
+                        "speakers": "Patrick Arminio",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Monitoring infrastructure and application using Django, Sensu and Celery.",
+                        "speakers": "Hari Kishore Sirivella",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Loss Function Theory 101",
+                        "speakers": "David W\u00f6lfle",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "11:20",
+                    {
+                        "title": "Coffee Break",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Keynote Q&A",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "sessionname",
+                    {
+                        "title": "Python",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Input",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Lessons Learned",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "PyMC",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Visualization",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Tutorial @ 11:30",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 2,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "-",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 2,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "11:50",
+                    {
+                        "title": "What\u2019s new in Python 3.8?",
+                        "speakers": "St\u00e9phane Wirtel",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Optimizing Input: Building your own customized keyboard",
+                        "speakers": "Daniel Rios",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "What we learned from scraping 1 billion webpages every month",
+                        "speakers": "Samet Atdag",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Leveraging the advantages of Bayesian Methods to build a data science product using PyMC3",
+                        "speakers": "Korbinian Kuusisto",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Friend or Foe: Comparison of R & Python in Data Wrangling & Visualisation",
+                        "speakers": "Yuta Kanzawa",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Decentralized and Privacy-Preserving ML via TensorFlow Federated",
+                        "speakers": "Peter Kairouz",
+                        "subm_type": "Tutorial",
+                        "duration": "01:30",
+                        "colspan": 1,
+                        "rowspan": 2
+                    },
+                    {
+                        "title": "Parallel programming for python developers \u2013 Let\u2019s Go(lang)",
+                        "speakers": "Dominik Henter, J\u00e9ssica Lins",
+                        "subm_type": "Tutorial",
+                        "duration": "01:30",
+                        "colspan": 1,
+                        "rowspan": 2
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "12:25",
+                    {
+                        "title": "A Medieval DSL? Parsing Heraldic Blazons with Python",
+                        "speakers": "Lady Red",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Your Name Is Invalid!",
+                        "speakers": "Miroslav \u0160ediv\u00fd",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Driving 3D Printers with Python: Lessons Learned",
+                        "speakers": "Gina H\u00e4u\u00dfge",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "A Bayesian Workflow with PyMC and ArviZ",
+                        "speakers": "Corrie Bartelheimer",
+                        "subm_type": "Talk",
+                        "duration": "00:45",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Making the complex simple in data viz",
+                        "speakers": "Tania Vasilikioti",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "13:00",
+                    {
+                        "title": "Lunch",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Lunch",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "sessionname",
+                    {
+                        "title": "Work",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Interpretable ML",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "NLP for good",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Carreer",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "ML use-case",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Tutorial @ 13:45",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 2,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "-",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 2,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "14:00",
+                    {
+                        "title": "Job panel: Freelancing / academia to industry",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Interpretable Machine Learning: How to make black box models explainable",
+                        "speakers": "Alexander Engelhardt",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Does hate sound the same in all languages?",
+                        "speakers": "Andrada Pumnea",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Professional Development and Career Progression for Data Scientists",
+                        "speakers": "Noa Tamir",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Machine learning with little data - from digital twin to predictive maintenance",
+                        "speakers": "Andreas Hantsch",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Using machine learning for Level Generation in Snake (video-game)",
+                        "speakers": "Filipe Silva",
+                        "subm_type": "Tutorial",
+                        "duration": "01:30",
+                        "colspan": 1,
+                        "rowspan": 2
+                    },
+                    {
+                        "title": "Open Space # 4",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "14:35",
+                    {
+                        "title": "Job panel: Freelancing / academia to industry",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Event-Sourced Story",
+                        "speakers": "Jacek Ko\u0142odziej",
+                        "subm_type": "Talk",
+                        "duration": "00:45",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "The Sound of Silence: Online Misogyny and How we Model it",
+                        "speakers": "Teresa Ingram",
+                        "subm_type": "Talk",
+                        "duration": "00:45",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Lessons Learned as a Product Manager in Data Science",
+                        "speakers": "Tereza Iofciu",
+                        "subm_type": "Talk",
+                        "duration": "00:45",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Take control of your hearing: Accessible methods to build a smart noise filter",
+                        "speakers": "Peggy Sylopp, Aislyn Rose",
+                        "subm_type": "Talk",
+                        "duration": "00:30",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Open Space # 5",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "15:05",
+                    {
+                        "title": "Coffee Break",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "15:30",
+                    {
+                        "title": "Sprint Orientation",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "15:45",
+                    {
+                        "title": "Lighting Talks",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "16:15",
+                    {
+                        "title": "Closing Session",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    }
+                ],
+                [
+                    "16:45",
+                    {
+                        "title": "END",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "",
+                        "speakers": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 7,
+                        "rowspan": 1
+                    }
+                ]
+            ]
+        }
+    ]
+}

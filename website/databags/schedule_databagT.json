@@ -32,7 +32,7 @@
                             "end": "",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": ""
                         },
                         {
@@ -162,7 +162,7 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
+                            "use": "div",
                             "sessionname": ""
                         }
                     ]
@@ -195,7 +195,7 @@
                             "end": "10:45",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": ""
                         },
                         {
@@ -325,7 +325,7 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
+                            "use": "div",
                             "sessionname": ""
                         }
                     ]
@@ -358,7 +358,7 @@
                             "end": "11:35",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": ""
                         },
                         {
@@ -488,7 +488,7 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
+                            "use": "div",
                             "sessionname": ""
                         }
                     ]
@@ -521,7 +521,7 @@
                             "end": "",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": ""
                         },
                         {
@@ -651,7 +651,59 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
+                            "use": "div",
+                            "sessionname": ""
+                        },
+                        {
+                            "code": "",
+                            "name": "",
+                            "track": "pycon-pydata",
+                            "duration": "",
+                            "description": "",
+                            "short_description": "Break for coffee and refreshments.",
+                            "python_skill": "",
+                            "domain_expertise": "",
+                            "domains": "",
+                            "slug": "",
+                            "title": "Coffee Break",
+                            "speaker_names": "",
+                            "type": "Break",
+                            "url": "",
+                            "plenary": "",
+                            "add_to_class": "color--primary",
+                            "clipcard_icon": "fa-coffee",
+                            "time": "11:20",
+                            "start": "11:20",
+                            "end": "",
+                            "room_name": "Saal 5",
+                            "location": "back",
+                            "use": "Tutorial",
+                            "sessionname": ""
+                        },
+                        {
+                            "code": "",
+                            "name": "",
+                            "track": "pycon-pydata",
+                            "duration": "",
+                            "description": "",
+                            "short_description": "Break for coffee and refreshments.",
+                            "python_skill": "",
+                            "domain_expertise": "",
+                            "domains": "",
+                            "slug": "",
+                            "title": "Coffee Break",
+                            "speaker_names": "",
+                            "type": "Break",
+                            "url": "",
+                            "plenary": "",
+                            "add_to_class": "color--primary",
+                            "clipcard_icon": "fa-coffee",
+                            "time": "11:20",
+                            "start": "11:20",
+                            "end": "",
+                            "room_name": "Saal 7",
+                            "location": "back",
+                            "use": "Tutorial",
                             "sessionname": ""
                         }
                     ]
@@ -684,7 +736,7 @@
                             "end": "13:00",
                             "room_name": "Saal 5",
                             "location": "back",
-                            "use": "tutorials",
+                            "use": "Tutorial",
                             "sessionname": ""
                         },
                         {
@@ -710,7 +762,7 @@
                             "end": "12:45",
                             "room_name": "Saal 7",
                             "location": "back",
-                            "use": "tutorials",
+                            "use": "Tutorial",
                             "sessionname": ""
                         }
                     ]
@@ -743,7 +795,7 @@
                             "end": "12:20",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "Python"
                         },
                         {
@@ -829,16 +881,16 @@
                             "name": "",
                             "track": "PyData",
                             "duration": "00:30",
-                            "description": "What does your company's order-to-ship process, your friends on social media and your trained deep learning model have in common? In fact, all of them are networks of some sort! As network data seems to become increasingly more important, why not learn how to produce some impressive network visualizations in Python?\r\n\r\nIn this talk, you will learn:\r\n\r\n1. How to use networkx to convert your data into graph objects.\r\n2. How to calculate network layouts and build your own custom topology methods.\r\n3. How to represent your attribute's of your data in certrain characteristics of the network (node size, edge width, facecolor, opacity, shape).\r\n4. How to use matplotlib to render beautiful static documents.\r\n5. How to use bokeh to produce exiting interactive animations.\r\n\r\nAt the end of the presentation, you will be able to generate insightful and gorgeous network visualizations that you can impress your colleague, supervisor, client or investor with.",
-                            "short_description": "Network #data is beautiful. Join Jan's presentation and learn how to build impressive visualizations for your next deep learning project.",
-                            "python_skill": "basic",
+                            "description": "Visualizing graph networks is becoming increasingly more important in the realm of data science. However, once your graph exceeds some hundred nodes and edges, rendering a static image that contains all information becomes too complex and incomprehensible. That is when you need interactive graph visualization.\r\n\r\nIn this talk, you will learn how to use well-established packages, such as `networkx`, `traitlets`, `ipywidgets` and `plotly`, to produce interactive network graphs, where you can easily zoom in and out, filter for nodes and edges, find nodes by their name and even update the network's layout.",
+                            "short_description": "Join @jan_jagusch's talk to learn about visualizing interactive network graphs in Python.",
+                            "python_skill": "expert",
                             "domain_expertise": "some",
-                            "domains": "Deep Learning, Data Science, Networks, Visualisation",
-                            "slug": "pydata-hfknuw-visualizing-networks-in-python-jan-benedikt-jagusch",
-                            "title": "Visualizing Networks in Python",
+                            "domains": "Data Science, IDEs/ Jupyter, Networks, Visualisation, Python",
+                            "slug": "pydata-hfknuw-visualizing-interactive-graph-networks-in-python-jan-benedikt-jagusch",
+                            "title": "Visualizing Interactive Graph Networks in Python",
                             "speaker_names": "Jan-Benedikt Jagusch (Instaffo GmbH)",
                             "type": "Talk",
-                            "url": "/program/pydata-hfknuw-visualizing-networks-in-python-jan-benedikt-jagusch",
+                            "url": "/program/pydata-hfknuw-visualizing-interactive-graph-networks-in-python-jan-benedikt-jagusch",
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
@@ -873,7 +925,7 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
+                            "use": "div",
                             "sessionname": ""
                         }
                     ]
@@ -906,7 +958,7 @@
                             "end": "13:10",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "Python"
                         },
                         {
@@ -1036,7 +1088,7 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
+                            "use": "div",
                             "sessionname": ""
                         }
                     ]
@@ -1069,7 +1121,7 @@
                             "end": "13:45",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
+                            "use": "div",
                             "sessionname": ""
                         }
                     ]
@@ -1102,7 +1154,7 @@
                             "end": "",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "Python"
                         },
                         {
@@ -1232,7 +1284,7 @@
                             "end": "",
                             "room_name": "Saal 5",
                             "location": "back",
-                            "use": "tutorials",
+                            "use": "Tutorial",
                             "sessionname": ""
                         },
                         {
@@ -1258,7 +1310,7 @@
                             "end": "",
                             "room_name": "Saal 7",
                             "location": "back",
-                            "use": "tutorials",
+                            "use": "Tutorial",
                             "sessionname": ""
                         }
                     ]
@@ -1297,7 +1349,7 @@
                             "end": "15:20",
                             "room_name": "Saal 5",
                             "location": "back",
-                            "use": "tutorials",
+                            "use": "Tutorial",
                             "sessionname": ""
                         },
                         {
@@ -1323,7 +1375,7 @@
                             "end": "15:20",
                             "room_name": "Saal 7",
                             "location": "back",
-                            "use": "tutorials",
+                            "use": "Tutorial",
                             "sessionname": ""
                         }
                     ]
@@ -1356,7 +1408,7 @@
                             "end": "14:30",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "Micropython"
                         },
                         {
@@ -1486,8 +1538,8 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         }
                     ]
                 },
@@ -1519,7 +1571,7 @@
                             "end": "15:05",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "Micropython"
                         },
                         {
@@ -1649,8 +1701,8 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         }
                     ]
                 },
@@ -1682,7 +1734,7 @@
                             "end": "",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "Micropython"
                         },
                         {
@@ -1812,7 +1864,59 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
+                            "use": "div",
+                            "sessionname": "-"
+                        },
+                        {
+                            "code": "",
+                            "name": "",
+                            "track": "pycon-pydata",
+                            "duration": "",
+                            "description": "",
+                            "short_description": "Break for coffee and refreshments.",
+                            "python_skill": "",
+                            "domain_expertise": "",
+                            "domains": "",
+                            "slug": "",
+                            "title": "Coffee Break",
+                            "speaker_names": "",
+                            "type": "Break",
+                            "url": "",
+                            "plenary": "",
+                            "add_to_class": "color--primary",
+                            "clipcard_icon": "fa-coffee",
+                            "time": "15:05",
+                            "start": "15:05",
+                            "end": "",
+                            "room_name": "Saal 5",
+                            "location": "back",
+                            "use": "Tutorial",
+                            "sessionname": ""
+                        },
+                        {
+                            "code": "",
+                            "name": "",
+                            "track": "pycon-pydata",
+                            "duration": "",
+                            "description": "",
+                            "short_description": "Break for coffee and refreshments.",
+                            "python_skill": "",
+                            "domain_expertise": "",
+                            "domains": "",
+                            "slug": "",
+                            "title": "Coffee Break",
+                            "speaker_names": "",
+                            "type": "Break",
+                            "url": "",
+                            "plenary": "",
+                            "add_to_class": "color--primary",
+                            "clipcard_icon": "fa-coffee",
+                            "time": "15:05",
+                            "start": "15:05",
+                            "end": "",
+                            "room_name": "Saal 7",
+                            "location": "back",
+                            "use": "Tutorial",
                             "sessionname": ""
                         }
                     ]
@@ -1845,7 +1949,7 @@
                             "end": "16:50",
                             "room_name": "Saal 5",
                             "location": "back",
-                            "use": "tutorials",
+                            "use": "Tutorial",
                             "sessionname": ""
                         },
                         {
@@ -1871,7 +1975,7 @@
                             "end": "16:50",
                             "room_name": "Saal 7",
                             "location": "back",
-                            "use": "tutorials",
+                            "use": "Tutorial",
                             "sessionname": ""
                         }
                     ]
@@ -1904,7 +2008,7 @@
                             "end": "16:00",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "Deployment"
                         },
                         {
@@ -1960,26 +2064,26 @@
                             "sessionname": "Text"
                         },
                         {
-                            "code": "X9JZ9J",
+                            "code": "",
                             "name": "",
-                            "track": "PyConDE",
-                            "duration": "00:30",
-                            "description": "In 2018 I moved to Ireland from the United States, and the house I rented was very cold, in spite of having a modern Internet-enabled heating controller. In this talk I want to tell you how I \"debugged\" the problem and how I then improved the heating using a couple of microcontrollers running MicroPython, all without making any modifications to this house I do not own.",
-                            "short_description": "Learn how I'm heating my house with a couple of microcontrollers running MicroPython!",
-                            "python_skill": "none",
-                            "domain_expertise": "none",
-                            "domains": "Microcontrollers, Makers, APIs",
-                            "slug": "pyconde-x9jz9j-micropython-heats-my-home-miguel-grinberg",
-                            "title": "MicroPython Heats My Home",
-                            "speaker_names": "Miguel Grinberg",
-                            "type": "Talk",
-                            "url": "/program/pyconde-x9jz9j-micropython-heats-my-home-miguel-grinberg",
+                            "track": "",
+                            "duration": "",
+                            "description": "",
+                            "short_description": "Unfortunately had to be cancelled on short notice.",
+                            "python_skill": "",
+                            "domain_expertise": "",
+                            "domains": "",
+                            "slug": "",
+                            "title": "CANCELLED MicroPython Heats My Home",
+                            "speaker_names": "",
+                            "type": "",
+                            "url": "",
                             "plenary": "",
                             "add_to_class": "",
-                            "clipcard_icon": "",
+                            "clipcard_icon": "fa-bell-o",
                             "time": "15:30",
                             "start": "15:30",
-                            "end": "16:00",
+                            "end": "",
                             "room_name": "Saal 6",
                             "location": "back, middle",
                             "use": "talks",
@@ -2034,8 +2138,8 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         }
                     ]
                 },
@@ -2067,7 +2171,7 @@
                             "end": "16:50",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "Deployment"
                         },
                         {
@@ -2197,8 +2301,8 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         }
                     ]
                 },
@@ -2230,7 +2334,7 @@
                             "end": "17:00",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "Deployment"
                         },
                         {
@@ -2360,8 +2464,8 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         }
                     ]
                 },
@@ -2393,7 +2497,7 @@
                             "end": "17:45",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "Deployment"
                         },
                         {
@@ -2523,8 +2627,8 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         }
                     ]
                 },
@@ -2556,7 +2660,7 @@
                             "end": "18:30",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "Deployment"
                         },
                         {
@@ -2686,8 +2790,8 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         }
                     ]
                 },
@@ -2719,7 +2823,7 @@
                             "end": "",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "Deployment"
                         },
                         {
@@ -2849,8 +2953,8 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         }
                     ]
                 }
@@ -2888,7 +2992,7 @@
                             "end": "",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": ""
                         },
                         {
@@ -3018,7 +3122,7 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
+                            "use": "div",
                             "sessionname": ""
                         }
                     ]
@@ -3051,7 +3155,7 @@
                             "end": "",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": ""
                         },
                         {
@@ -3181,7 +3285,7 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
+                            "use": "div",
                             "sessionname": ""
                         }
                     ]
@@ -3214,7 +3318,7 @@
                             "end": "09:55",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": ""
                         },
                         {
@@ -3344,7 +3448,7 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
+                            "use": "div",
                             "sessionname": ""
                         }
                     ]
@@ -3377,7 +3481,7 @@
                             "end": "10:45",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "Gaussian Process"
                         },
                         {
@@ -3507,8 +3611,8 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         },
                         {
                             "code": "7YG8RT",
@@ -3533,7 +3637,7 @@
                             "end": "11:30",
                             "room_name": "Saal 5",
                             "location": "back",
-                            "use": "tutorials",
+                            "use": "Tutorial",
                             "sessionname": ""
                         },
                         {
@@ -3559,7 +3663,7 @@
                             "end": "11:30",
                             "room_name": "Saal 7",
                             "location": "back",
-                            "use": "tutorials",
+                            "use": "Tutorial",
                             "sessionname": ""
                         }
                     ]
@@ -3592,7 +3696,7 @@
                             "end": "11:20",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "Gaussian Process"
                         },
                         {
@@ -3722,8 +3826,8 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         }
                     ]
                 },
@@ -3755,7 +3859,7 @@
                             "end": "",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "Gaussian Process"
                         },
                         {
@@ -3885,7 +3989,59 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
+                            "use": "div",
+                            "sessionname": "-"
+                        },
+                        {
+                            "code": "",
+                            "name": "",
+                            "track": "pycon-pydata",
+                            "duration": "",
+                            "description": "",
+                            "short_description": "Break for coffee and refreshments.",
+                            "python_skill": "",
+                            "domain_expertise": "",
+                            "domains": "",
+                            "slug": "",
+                            "title": "Coffee Break",
+                            "speaker_names": "",
+                            "type": "Break",
+                            "url": "",
+                            "plenary": "",
+                            "add_to_class": "color--primary",
+                            "clipcard_icon": "fa-coffee",
+                            "time": "11:20",
+                            "start": "11:20",
+                            "end": "",
+                            "room_name": "Saal 5",
+                            "location": "back",
+                            "use": "Tutorial",
+                            "sessionname": ""
+                        },
+                        {
+                            "code": "",
+                            "name": "",
+                            "track": "pycon-pydata",
+                            "duration": "",
+                            "description": "",
+                            "short_description": "Break for coffee and refreshments.",
+                            "python_skill": "",
+                            "domain_expertise": "",
+                            "domains": "",
+                            "slug": "",
+                            "title": "Coffee Break",
+                            "speaker_names": "",
+                            "type": "Break",
+                            "url": "",
+                            "plenary": "",
+                            "add_to_class": "color--primary",
+                            "clipcard_icon": "fa-coffee",
+                            "time": "11:20",
+                            "start": "11:20",
+                            "end": "",
+                            "room_name": "Saal 7",
+                            "location": "back",
+                            "use": "Tutorial",
                             "sessionname": ""
                         }
                     ]
@@ -3918,7 +4074,7 @@
                             "end": "13:00",
                             "room_name": "Saal 5",
                             "location": "back",
-                            "use": "tutorials",
+                            "use": "Tutorial",
                             "sessionname": ""
                         },
                         {
@@ -3944,7 +4100,7 @@
                             "end": "13:00",
                             "room_name": "Saal 7",
                             "location": "back",
-                            "use": "tutorials",
+                            "use": "Tutorial",
                             "sessionname": ""
                         }
                     ]
@@ -3977,7 +4133,7 @@
                             "end": "12:20",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "Vision"
                         },
                         {
@@ -4107,8 +4263,8 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         }
                     ]
                 },
@@ -4140,7 +4296,7 @@
                             "end": "12:55",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "Vision"
                         },
                         {
@@ -4270,8 +4426,8 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         }
                     ]
                 },
@@ -4303,7 +4459,7 @@
                             "end": "",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "Vision"
                         },
                         {
@@ -4433,8 +4589,8 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         },
                         {
                             "code": "",
@@ -4459,7 +4615,7 @@
                             "end": "",
                             "room_name": "Saal 5",
                             "location": "back",
-                            "use": "tutorials",
+                            "use": "Tutorial",
                             "sessionname": ""
                         },
                         {
@@ -4485,7 +4641,7 @@
                             "end": "",
                             "room_name": "Saal 7",
                             "location": "back",
-                            "use": "tutorials",
+                            "use": "Tutorial",
                             "sessionname": ""
                         }
                     ]
@@ -4524,7 +4680,7 @@
                             "end": "15:15",
                             "room_name": "Saal 5",
                             "location": "back",
-                            "use": "tutorials",
+                            "use": "Tutorial",
                             "sessionname": ""
                         },
                         {
@@ -4538,7 +4694,7 @@
                             "domain_expertise": "",
                             "domains": "",
                             "slug": "",
-                            "title": "Open Space (3 x 30 minutes)",
+                            "title": "Open Space #1",
                             "speaker_names": "",
                             "type": "Community",
                             "url": "/open-space",
@@ -4550,7 +4706,7 @@
                             "end": "14:15",
                             "room_name": "Saal 7",
                             "location": "back",
-                            "use": "tutorials",
+                            "use": "Tutorial",
                             "sessionname": ""
                         }
                     ]
@@ -4583,7 +4739,7 @@
                             "end": "",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "Python"
                         },
                         {
@@ -4713,8 +4869,8 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         }
                     ]
                 },
@@ -4726,27 +4882,27 @@
                         {
                             "code": "",
                             "name": "",
-                            "track": "",
+                            "track": "pycon-pydata",
                             "duration": "",
                             "description": "",
-                            "short_description": "",
+                            "short_description": "Community session.",
                             "python_skill": "",
                             "domain_expertise": "",
                             "domains": "",
                             "slug": "",
-                            "title": "",
+                            "title": "Python Panel",
                             "speaker_names": "",
-                            "type": "",
+                            "type": "Community",
                             "url": "",
                             "plenary": "",
                             "add_to_class": "",
-                            "clipcard_icon": "",
+                            "clipcard_icon": "fa-users",
                             "time": "14:35",
                             "start": "14:35",
                             "end": "",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "Python"
                         },
                         {
@@ -4876,8 +5032,8 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         }
                     ]
                 },
@@ -4909,7 +5065,7 @@
                             "end": "",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "Python"
                         },
                         {
@@ -5039,7 +5195,59 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
+                            "use": "div",
+                            "sessionname": "-"
+                        },
+                        {
+                            "code": "",
+                            "name": "",
+                            "track": "pycon-pydata",
+                            "duration": "",
+                            "description": "",
+                            "short_description": "Break for coffee and refreshments.",
+                            "python_skill": "",
+                            "domain_expertise": "",
+                            "domains": "",
+                            "slug": "",
+                            "title": "Coffee Break",
+                            "speaker_names": "",
+                            "type": "Break",
+                            "url": "",
+                            "plenary": "",
+                            "add_to_class": "color--primary",
+                            "clipcard_icon": "fa-coffee",
+                            "time": "15:05",
+                            "start": "15:05",
+                            "end": "",
+                            "room_name": "Saal 5",
+                            "location": "back",
+                            "use": "Tutorial",
+                            "sessionname": ""
+                        },
+                        {
+                            "code": "",
+                            "name": "",
+                            "track": "pycon-pydata",
+                            "duration": "",
+                            "description": "",
+                            "short_description": "Break for coffee and refreshments.",
+                            "python_skill": "",
+                            "domain_expertise": "",
+                            "domains": "",
+                            "slug": "",
+                            "title": "Coffee Break",
+                            "speaker_names": "",
+                            "type": "Break",
+                            "url": "",
+                            "plenary": "",
+                            "add_to_class": "color--primary",
+                            "clipcard_icon": "fa-coffee",
+                            "time": "15:05",
+                            "start": "15:05",
+                            "end": "",
+                            "room_name": "Saal 7",
+                            "location": "back",
+                            "use": "Tutorial",
                             "sessionname": ""
                         }
                     ]
@@ -5072,7 +5280,7 @@
                             "end": "16:45",
                             "room_name": "Saal 5",
                             "location": "back",
-                            "use": "tutorials",
+                            "use": "Tutorial",
                             "sessionname": ""
                         },
                         {
@@ -5086,7 +5294,7 @@
                             "domain_expertise": "",
                             "domains": "",
                             "slug": "",
-                            "title": "Open Space (2 x 30 minutes) ",
+                            "title": "Open Space #3",
                             "speaker_names": "",
                             "type": "Community",
                             "url": "/open-space",
@@ -5098,7 +5306,7 @@
                             "end": "15:45",
                             "room_name": "Saal 7",
                             "location": "back",
-                            "use": "tutorials",
+                            "use": "Tutorial",
                             "sessionname": ""
                         }
                     ]
@@ -5131,7 +5339,7 @@
                             "end": "16:00",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "Python"
                         },
                         {
@@ -5261,8 +5469,8 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         }
                     ]
                 },
@@ -5294,7 +5502,7 @@
                             "end": "",
                             "room_name": "Saal 5",
                             "location": "back",
-                            "use": "tutorials",
+                            "use": "Tutorial",
                             "sessionname": ""
                         },
                         {
@@ -5320,7 +5528,7 @@
                             "end": "17:30",
                             "room_name": "Saal 7",
                             "location": "back",
-                            "use": "tutorials",
+                            "use": "Tutorial",
                             "sessionname": ""
                         }
                     ]
@@ -5353,7 +5561,7 @@
                             "end": "16:50",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "Python"
                         },
                         {
@@ -5483,8 +5691,8 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         }
                     ]
                 },
@@ -5516,7 +5724,7 @@
                             "end": "17:00",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "Python"
                         },
                         {
@@ -5646,8 +5854,8 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         }
                     ]
                 },
@@ -5679,7 +5887,7 @@
                             "end": "17:45",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "Python"
                         },
                         {
@@ -5809,8 +6017,8 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         }
                     ]
                 },
@@ -5842,7 +6050,7 @@
                             "end": "18:30",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "Python"
                         },
                         {
@@ -5972,8 +6180,8 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         }
                     ]
                 },
@@ -6005,7 +6213,7 @@
                             "end": "",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "Python"
                         },
                         {
@@ -6135,8 +6343,8 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         }
                     ]
                 }
@@ -6174,7 +6382,7 @@
                             "end": "",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": ""
                         },
                         {
@@ -6304,7 +6512,7 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
+                            "use": "div",
                             "sessionname": ""
                         }
                     ]
@@ -6337,7 +6545,7 @@
                             "end": "",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": ""
                         },
                         {
@@ -6467,7 +6675,7 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
+                            "use": "div",
                             "sessionname": ""
                         }
                     ]
@@ -6500,7 +6708,7 @@
                             "end": "09:55",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": ""
                         },
                         {
@@ -6630,7 +6838,7 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
+                            "use": "div",
                             "sessionname": ""
                         }
                     ]
@@ -6663,7 +6871,7 @@
                             "end": "10:45",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "ML & Ethics"
                         },
                         {
@@ -6793,7 +7001,7 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
+                            "use": "div",
                             "sessionname": ""
                         },
                         {
@@ -6819,7 +7027,7 @@
                             "end": "11:30",
                             "room_name": "Saal 5",
                             "location": "back",
-                            "use": "tutorials",
+                            "use": "Tutorial",
                             "sessionname": ""
                         },
                         {
@@ -6845,7 +7053,7 @@
                             "end": "11:30",
                             "room_name": "Saal 7",
                             "location": "back",
-                            "use": "tutorials",
+                            "use": "Tutorial",
                             "sessionname": ""
                         }
                     ]
@@ -6878,7 +7086,7 @@
                             "end": "11:20",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "ML & Ethics"
                         },
                         {
@@ -6886,7 +7094,7 @@
                             "name": "",
                             "track": "PyConDE",
                             "duration": "00:30",
-                            "description": "If pytest seems like pure magic to you or you even don't know what a test framework does, this talk will hopefully give you some insights.\r\n\r\nWe will take look at three [pytest](https://pypi.org/project/pytest/) core features and see how they are implemented using metaprogramming techniques like using code as data, dynamic execution of arbitrary expressions and live object introspection. These are all big words, but in Python all this comes quite natural. Getting started with these things is not too hard and can be done in an incremental fashion.\r\n\r\nTo get to the essential ideas of how metaprogramming can help in creating a testing framework we will look at:\r\n\r\n* Automatic test discovery and execution. What happens when I run `pytest path/to/my/tests`?\r\n* Selecting marked tests via expressions (`@pytest.mark`). How do I implement `@pytest.mark.<arbitrarily_named_marker>` and run `pytest -m` with an expression to select specific tests decorated with markers?\r\n* Automatic dependency injection (`@pytest.fixture`). How do I implement a fixture mechanism and what happens if I use a fixture in my test?\r\n\r\nThis is an introductory talk. No knowledge is expected of either pytest or metaprogramming. The functionality will be explained and built from the ground up for each feature. This is also a very code heavy talk, but It turns out that if you don't have to worry about the real world, you only need a few lines of code as Python itself does the heavy lifting :)\r\n\r\nA more complete version of the code shown in the talk lives in the [pico-pytest repository](https://gitlab.com/obestwalter/pico-pytest)). it contains an installable, tested project that also implements only the bare functionality, but has automatic tests and makes use of type hinting (these are especially useful in programs that are very dynamic and make use of metaprogramming).\r\n\r\nDisclaimer: no third party tools where harmed in the making of this talk: metaprogramming is inbuilt into Python and well supported by the language and its standard library.",
+                            "description": "If pytest seems like pure magic to you or you even don't know what a test framework does, this talk will hopefully give you some insights.\r\n\r\nWe will take a look at 3 [pytest](https://pypi.org/project/pytest/) core features and see how they are implemented using metaprogramming techniques like using code as data, dynamic execution of arbitrary expressions and live object introspection. These are all big words, but in Python all this comes quite natural. Getting started with these things is not too hard and can be done in an incremental fashion.\r\n\r\nTo get to the essential ideas of how metaprogramming can help in creating a testing framework we will look at:\r\n\r\n* Automatic test discovery and execution. What happens when I run `pytest path/to/my/tests`?\r\n* Selecting marked tests via expressions (`@pytest.mark`). How do I implement `@pytest.mark.<arbitrarily_named_marker>` and run `pytest -m` with an expression to select specific tests decorated with markers?\r\n* Automatic dependency injection (`@pytest.fixture`). How do I implement a fixture mechanism and what happens if I use a fixture in my test?\r\n\r\nThis is an introductory talk. No knowledge is expected of either pytest or metaprogramming. The functionality will be explained and built from the ground up for each feature. This is also a very code heavy talk, but It turns out that if you don't have to worry about the real world, you only need a few lines of code as Python itself does the heavy lifting :)\r\n\r\nA more complete version of the code shown in the talk lives in the [pico-pytest repository](https://gitlab.com/obestwalter/pico-pytest)). it contains an installable, tested project that also implements only the bare functionality, but has automatic tests and makes use of type hinting (these are especially useful in programs that are very dynamic and make use of metaprogramming).\r\n\r\nDisclaimer: no third party tools where harmed in the making of this talk: metaprogramming is inbuilt into Python and well supported by the language and its standard library.",
                             "short_description": "Abridged metaprogramming classics - this episode: pytest. About the role of metaprogramming in the creation of a simple to use but powerful testing framework.",
                             "python_skill": "basic",
                             "domain_expertise": "none",
@@ -7008,7 +7216,7 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
+                            "use": "div",
                             "sessionname": ""
                         }
                     ]
@@ -7041,7 +7249,7 @@
                             "end": "",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "ML & Ethics"
                         },
                         {
@@ -7171,7 +7379,59 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
+                            "use": "div",
+                            "sessionname": ""
+                        },
+                        {
+                            "code": "",
+                            "name": "",
+                            "track": "pycon-pydata",
+                            "duration": "",
+                            "description": "",
+                            "short_description": "Break for coffee and refreshments.",
+                            "python_skill": "",
+                            "domain_expertise": "",
+                            "domains": "",
+                            "slug": "",
+                            "title": "Coffee Break",
+                            "speaker_names": "",
+                            "type": "Break",
+                            "url": "",
+                            "plenary": "",
+                            "add_to_class": "color--primary",
+                            "clipcard_icon": "fa-coffee",
+                            "time": "11:20",
+                            "start": "11:20",
+                            "end": "",
+                            "room_name": "Saal 5",
+                            "location": "back",
+                            "use": "Tutorial",
+                            "sessionname": ""
+                        },
+                        {
+                            "code": "",
+                            "name": "",
+                            "track": "pycon-pydata",
+                            "duration": "",
+                            "description": "",
+                            "short_description": "Break for coffee and refreshments.",
+                            "python_skill": "",
+                            "domain_expertise": "",
+                            "domains": "",
+                            "slug": "",
+                            "title": "Coffee Break",
+                            "speaker_names": "",
+                            "type": "Break",
+                            "url": "",
+                            "plenary": "",
+                            "add_to_class": "color--primary",
+                            "clipcard_icon": "fa-coffee",
+                            "time": "11:20",
+                            "start": "11:20",
+                            "end": "",
+                            "room_name": "Saal 7",
+                            "location": "back",
+                            "use": "Tutorial",
                             "sessionname": ""
                         }
                     ]
@@ -7204,7 +7464,7 @@
                             "end": "13:00",
                             "room_name": "Saal 5",
                             "location": "back",
-                            "use": "tutorials",
+                            "use": "Tutorial",
                             "sessionname": ""
                         },
                         {
@@ -7230,7 +7490,7 @@
                             "end": "13:00",
                             "room_name": "Saal 7",
                             "location": "back",
-                            "use": "tutorials",
+                            "use": "Tutorial",
                             "sessionname": ""
                         }
                     ]
@@ -7263,7 +7523,7 @@
                             "end": "12:20",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "Python"
                         },
                         {
@@ -7393,8 +7653,8 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         }
                     ]
                 },
@@ -7426,7 +7686,7 @@
                             "end": "12:55",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "Python"
                         },
                         {
@@ -7556,8 +7816,8 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         }
                     ]
                 },
@@ -7589,7 +7849,7 @@
                             "end": "",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
+                            "use": "talks/keynotes",
                             "sessionname": "Python"
                         },
                         {
@@ -7699,28 +7959,28 @@
                         {
                             "code": "",
                             "name": "",
-                            "track": "",
+                            "track": "pycon-pydata",
                             "duration": "",
                             "description": "",
-                            "short_description": "",
+                            "short_description": "Light lunch and refreshments.",
                             "python_skill": "",
                             "domain_expertise": "",
                             "domains": "",
                             "slug": "",
-                            "title": "",
+                            "title": "Lunch",
                             "speaker_names": "",
-                            "type": "",
+                            "type": "Break",
                             "url": "",
                             "plenary": "",
-                            "add_to_class": "",
-                            "clipcard_icon": "",
+                            "add_to_class": "color--primary",
+                            "clipcard_icon": "fa-cutlery",
                             "time": "13:00",
                             "start": "13:00",
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         },
                         {
                             "code": "",
@@ -7745,7 +8005,7 @@
                             "end": "",
                             "room_name": "Saal 5",
                             "location": "back",
-                            "use": "tutorials",
+                            "use": "Tutorial",
                             "sessionname": ""
                         },
                         {
@@ -7771,7 +8031,7 @@
                             "end": "",
                             "room_name": "Saal 7",
                             "location": "back",
-                            "use": "tutorials",
+                            "use": "Tutorial",
                             "sessionname": ""
                         }
                     ]
@@ -7810,7 +8070,7 @@
                             "end": "15:15",
                             "room_name": "Saal 5",
                             "location": "back",
-                            "use": "tutorials",
+                            "use": "Tutorial",
                             "sessionname": ""
                         },
                         {
@@ -7824,7 +8084,7 @@
                             "domain_expertise": "",
                             "domains": "",
                             "slug": "",
-                            "title": "Open Space (2 x 30 minutes)",
+                            "title": "Open Space # 4",
                             "speaker_names": "",
                             "type": "Community",
                             "url": "/open-space",
@@ -7836,7 +8096,7 @@
                             "end": "14:15",
                             "room_name": "Saal 7",
                             "location": "back",
-                            "use": "tutorials",
+                            "use": "Tutorial",
                             "sessionname": ""
                         }
                     ]
@@ -7869,8 +8129,8 @@
                             "end": "",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
-                            "sessionname": "Python"
+                            "use": "talks/keynotes",
+                            "sessionname": "Work"
                         },
                         {
                             "code": "ZKXNTB",
@@ -7999,8 +8259,8 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         }
                     ]
                 },
@@ -8012,28 +8272,28 @@
                         {
                             "code": "",
                             "name": "",
-                            "track": "",
+                            "track": "pycon-pydata",
                             "duration": "",
                             "description": "",
-                            "short_description": "",
+                            "short_description": "Community session.",
                             "python_skill": "",
                             "domain_expertise": "",
                             "domains": "",
                             "slug": "",
-                            "title": "",
+                            "title": "Job panel: Freelancing / academia to industry",
                             "speaker_names": "",
-                            "type": "",
+                            "type": "Community",
                             "url": "",
                             "plenary": "",
                             "add_to_class": "",
-                            "clipcard_icon": "",
+                            "clipcard_icon": "fa-users",
                             "time": "14:35",
                             "start": "14:35",
                             "end": "",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
-                            "sessionname": "Python"
+                            "use": "talks/keynotes",
+                            "sessionname": "Work"
                         },
                         {
                             "code": "SXSE8D",
@@ -8162,8 +8422,8 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         }
                     ]
                 },
@@ -8195,8 +8455,8 @@
                             "end": "",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
-                            "sessionname": "Python"
+                            "use": "talks/keynotes",
+                            "sessionname": "Work"
                         },
                         {
                             "code": "",
@@ -8325,8 +8585,8 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         }
                     ]
                 },
@@ -8358,8 +8618,8 @@
                             "end": "15:45",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
-                            "sessionname": "Python"
+                            "use": "talks/keynotes",
+                            "sessionname": "Work"
                         },
                         {
                             "code": "",
@@ -8488,8 +8748,8 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         }
                     ]
                 },
@@ -8521,8 +8781,8 @@
                             "end": "16:30",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
-                            "sessionname": "Python"
+                            "use": "talks/keynotes",
+                            "sessionname": "Work"
                         },
                         {
                             "code": "",
@@ -8651,8 +8911,8 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         }
                     ]
                 },
@@ -8684,8 +8944,8 @@
                             "end": "16:45",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
-                            "sessionname": "Python"
+                            "use": "talks/keynotes",
+                            "sessionname": "Work"
                         },
                         {
                             "code": "",
@@ -8814,8 +9074,8 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         }
                     ]
                 },
@@ -8847,8 +9107,8 @@
                             "end": "",
                             "room_name": "Hauptsaal",
                             "location": "center",
-                            "use": "talks / keynotes",
-                            "sessionname": "Python"
+                            "use": "talks/keynotes",
+                            "sessionname": "Work"
                         },
                         {
                             "code": "",
@@ -8977,8 +9237,8 @@
                             "end": "",
                             "room_name": "Lounge",
                             "location": "front",
-                            "use": "interactive",
-                            "sessionname": ""
+                            "use": "div",
+                            "sessionname": "-"
                         }
                     ]
                 }
