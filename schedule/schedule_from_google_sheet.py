@@ -95,7 +95,7 @@ class ScheduleFromGSheet:
         header = "5"
         days = {
             "wed": {'start': 10, 'end': 28, 'name': 'Wednesday Oct 9'},
-            "thu": {'start': 36, 'end': 57, 'name': 'Thursday Oct 10'},
+            "thu": {'start': 36, 'end': 58, 'name': 'Thursday Oct 10'},
             "fri": {'start': 65, 'end': 83, 'name': 'Friday Oct 11'},
         }
         ls, le, rs, _re = "C", "G", "I", "K"
@@ -124,6 +124,7 @@ class ScheduleFromGSheet:
 
                 last_col = {}
                 colspan = 1
+                pcode, slug = "", ""
                 for i, col in enumerate(row, 1):
 
                     try:
@@ -136,12 +137,16 @@ class ScheduleFromGSheet:
                         speakers = ', '.join([x['name'] for x in self.submissions[code]['speakers']])
                         subm_type = self.submissions[code]['submission_type'].split(' ')[0]
                         duration = self.submissions[code]['duration']
+                        slug = self.submissions[code]['slug']
+                        pcode = self.submissions[code]['slug']
                     else:
                         title = col
 
                     _col = {
                         'title': title,
                         'speakers': speakers,
+                        'code': pcode,
+                        'slug': slug,
                         'subm_type': subm_type,
                         'duration': duration,
                         'colspan': colspan,
@@ -499,6 +504,15 @@ class ScheduleFromGSheet:
             session_details['short_description'] = "Community announcements and presentations just before the keynote."
             session_details['url'] = f"/community-space"  # convention
             session_details['clipcard_icon'] = "fa-users"
+        elif contents and 'ibm party' in contents_str.lower():
+            session_details['title'] = "IBM Party @ PyCon DE & PyData Berlin 2019"
+            session_details['type'] = "Community"
+            session_details['duration'] = "06:00"
+            session_details['track'] = "pycon-pydata"
+            session_details['add_to_class'] = "color--primary"
+            session_details['short_description'] = "Join the community for a joyful evening with dinner and drinks. An opportunity to interact, discuss, network and spread ideas - or just to relax."
+            session_details['url'] = f"/blog/ibm-party-pycon-de-and-pydata-berlin-2019"  # convention
+            session_details['clipcard_icon'] = "fa-users"
         elif contents and 'closing session' in contents_str.lower():
             session_details['title'] = "Closing Session"
             session_details['type'] = "Community"
@@ -609,14 +623,14 @@ def update_schedule_from_sheet():
         'thu-talks': {
             'datum': datetime(2019, 10, 10),
             'day_start_row': 36,
-            'day_end_row': 57,
+            'day_end_row': 58,
             'time_colum_name': talks_time_colum_name,
             'rooms_filter': talks_colums,
         },
         'thu-tuts': {
             'datum': datetime(2019, 10, 10),
             'day_start_row': 36,
-            'day_end_row': 57,
+            'day_end_row': 58,
             'time_colum_name': tuts_time_colum_name,
             'rooms_filter': tuts_colums,
         },

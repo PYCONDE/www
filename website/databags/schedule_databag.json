@@ -3335,6 +3335,28 @@
                             "time": "18:30",
                             "start": "18:30",
                             "end": ""
+                        },
+                        {
+                            "code": "",
+                            "name": "",
+                            "track": "pycon-pydata",
+                            "duration": "06:00",
+                            "description": "",
+                            "short_description": "Join the community for a joyful evening with dinner and drinks. An opportunity to interact, discuss, network and spread ideas - or just to relax.",
+                            "python_skill": "",
+                            "domain_expertise": "",
+                            "domains": "",
+                            "slug": "",
+                            "title": "IBM Party @ PyCon DE & PyData Berlin 2019",
+                            "speaker_names": "",
+                            "type": "Community",
+                            "url": "/blog/ibm-party-pycon-de-and-pydata-berlin-2019",
+                            "plenary": "",
+                            "add_to_class": "color--primary",
+                            "clipcard_icon": "fa-users",
+                            "time": "19:00",
+                            "start": "19:00",
+                            "end": "01:00"
                         }
                     ]
                 },
@@ -3826,6 +3848,28 @@
                             "clipcard_icon": "",
                             "time": "18:30",
                             "start": "18:30",
+                            "end": ""
+                        },
+                        {
+                            "code": "",
+                            "name": "",
+                            "track": "",
+                            "duration": "",
+                            "description": "",
+                            "short_description": "",
+                            "python_skill": "",
+                            "domain_expertise": "",
+                            "domains": "",
+                            "slug": "",
+                            "title": "",
+                            "speaker_names": "",
+                            "type": "",
+                            "url": "",
+                            "plenary": "",
+                            "add_to_class": "",
+                            "clipcard_icon": "",
+                            "time": "19:00",
+                            "start": "19:00",
                             "end": ""
                         }
                     ]
@@ -4319,6 +4363,28 @@
                             "time": "18:30",
                             "start": "18:30",
                             "end": ""
+                        },
+                        {
+                            "code": "",
+                            "name": "",
+                            "track": "",
+                            "duration": "",
+                            "description": "",
+                            "short_description": "",
+                            "python_skill": "",
+                            "domain_expertise": "",
+                            "domains": "",
+                            "slug": "",
+                            "title": "",
+                            "speaker_names": "",
+                            "type": "",
+                            "url": "",
+                            "plenary": "",
+                            "add_to_class": "",
+                            "clipcard_icon": "",
+                            "time": "19:00",
+                            "start": "19:00",
+                            "end": ""
                         }
                     ]
                 },
@@ -4810,6 +4876,28 @@
                             "clipcard_icon": "",
                             "time": "18:30",
                             "start": "18:30",
+                            "end": ""
+                        },
+                        {
+                            "code": "",
+                            "name": "",
+                            "track": "",
+                            "duration": "",
+                            "description": "",
+                            "short_description": "",
+                            "python_skill": "",
+                            "domain_expertise": "",
+                            "domains": "",
+                            "slug": "",
+                            "title": "",
+                            "speaker_names": "",
+                            "type": "",
+                            "url": "",
+                            "plenary": "",
+                            "add_to_class": "",
+                            "clipcard_icon": "",
+                            "time": "19:00",
+                            "start": "19:00",
                             "end": ""
                         }
                     ]
@@ -5303,6 +5391,28 @@
                             "time": "18:30",
                             "start": "18:30",
                             "end": ""
+                        },
+                        {
+                            "code": "",
+                            "name": "",
+                            "track": "",
+                            "duration": "",
+                            "description": "",
+                            "short_description": "",
+                            "python_skill": "",
+                            "domain_expertise": "",
+                            "domains": "",
+                            "slug": "",
+                            "title": "",
+                            "speaker_names": "",
+                            "type": "",
+                            "url": "",
+                            "plenary": "",
+                            "add_to_class": "",
+                            "clipcard_icon": "",
+                            "time": "19:00",
+                            "start": "19:00",
+                            "end": ""
                         }
                     ]
                 },
@@ -5794,6 +5904,28 @@
                             "clipcard_icon": "",
                             "time": "18:30",
                             "start": "18:30",
+                            "end": ""
+                        },
+                        {
+                            "code": "",
+                            "name": "",
+                            "track": "",
+                            "duration": "",
+                            "description": "",
+                            "short_description": "",
+                            "python_skill": "",
+                            "domain_expertise": "",
+                            "domains": "",
+                            "slug": "",
+                            "title": "",
+                            "speaker_names": "",
+                            "type": "",
+                            "url": "",
+                            "plenary": "",
+                            "add_to_class": "",
+                            "clipcard_icon": "",
+                            "time": "19:00",
+                            "start": "19:00",
                             "end": ""
                         }
                     ]
@@ -8788,11 +8920,11 @@
                             "python_skill": "basic",
                             "domain_expertise": "some",
                             "domains": "Artificial Intelligence, Deep Learning, Data Science, Machine Learning, Data Engineering",
-                            "slug": "pydata-wrpfuc-decentralized-and-privacy-preserving-ml-via-tensorflow-federated-peter-kairouz",
+                            "slug": "pydata-wrpfuc-decentralized-and-privacy-preserving-ml-via-tensorflow-federated-peter-kairouz-amlan-chakraborty",
                             "title": "Decentralized and Privacy-Preserving ML via TensorFlow Federated",
-                            "speaker_names": "Peter Kairouz (Google)",
+                            "speaker_names": "Peter Kairouz (Google), Amlan Chakraborty",
                             "type": "Tutorial",
-                            "url": "/program/pydata-wrpfuc-decentralized-and-privacy-preserving-ml-via-tensorflow-federated-peter-kairouz",
+                            "url": "/program/pydata-wrpfuc-decentralized-and-privacy-preserving-ml-via-tensorflow-federated-peter-kairouz-amlan-chakraborty",
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
