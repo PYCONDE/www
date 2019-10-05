@@ -4,6 +4,18 @@
       "name": "Program",
       "submenu": [
         {
+          "name": "Schedule",
+          "path": "/schedule"
+        },
+        {
+          "name": "Schedule (full table)",
+          "path": "/scheduleTable"
+        },
+        {
+          "name": "Schedule (time->sessions)",
+          "path": "/scheduleT"
+        },
+                {
           "name": "All Sessions",
           "path": "/program"
         },
@@ -26,14 +38,6 @@
         {
           "name": "Tutorials",
           "path": "/program/categories/tutorial"
-        },
-        {
-          "name": "Schedule",
-          "path": "/schedule"
-        },
-        {
-          "name": "Schedule (time->sessions)",
-          "path": "/scheduleT"
         }
       ]
     },
