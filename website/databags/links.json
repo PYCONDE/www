@@ -15,7 +15,11 @@
           "name": "Schedule (time->sessions)",
           "path": "/scheduleT"
         },
-                {
+        {
+          "name": "Calendar Integration",
+          "path": "/calendar-integration"
+        },
+        {
           "name": "All Sessions",
           "path": "/program"
         },
