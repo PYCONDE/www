@@ -623,7 +623,7 @@
                         "rowspan": 1
                     },
                     {
-                        "title": "Micropython",
+                        "title": "Storage/Micropython",
                         "speakers": "",
                         "code": "",
                         "slug": "",
@@ -696,12 +696,12 @@
                         "rowspan": 1
                     },
                     {
-                        "title": "CANCELLED MicroPython Heats My Home",
-                        "speakers": "",
-                        "code": "pydata-mf9dav-privacy-preserving-machine-learning-for-text-processing-sarah-diot-girard",
-                        "slug": "pydata-mf9dav-privacy-preserving-machine-learning-for-text-processing-sarah-diot-girard",
-                        "subm_type": "",
-                        "duration": "",
+                        "title": "Kartothek \u2013 Table management for cloud object stores powered by Apache Arrow and Dask",
+                        "speakers": "Florian Jetter",
+                        "code": "pydata-cxynhx-kartothek-table-management-for-cloud-object-stores-powered-by-apache-arrow-and-dask-florian-jetter",
+                        "slug": "pydata-cxynhx-kartothek-table-management-for-cloud-object-stores-powered-by-apache-arrow-and-dask-florian-jetter",
+                        "subm_type": "Talk",
+                        "duration": "00:45",
                         "colspan": 1,
                         "rowspan": 1
                     },
