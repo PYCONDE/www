@@ -36,9 +36,9 @@ python_skill: Python Skill Level none
 ---
 domain_expertise: Domain Expertise some
 ---
-room: Saal 6
+room: Saal 4
 ---
-start_time: 14:35
+start_time: 12:25
 ---
 day: friday
 ---
@@ -46,9 +46,9 @@ meta_title: Lessons Learned as a Product Manager in Data Science Tereza Iofciu P
 ---
 meta_twitter_title: Lessons Learned as a Product Manager in Data Science @terezaif #PyConDE #PyDataBerlin #PyData
 ---
-categories: pydata, python-skill-level-none, domain-expertise-some, talk, business-start-ups, data-science, machine-learning, friday, friday-1435
+categories: pydata, python-skill-level-none, domain-expertise-some, talk, business-start-ups, data-science, machine-learning, friday, friday-1225
 ---
-slugified_slot_links: friday, friday-1435
+slugified_slot_links: friday, friday-1225
 ---
 body: From answering simple data questions, building cool visualisations, to building machine learning solutions and bringing them to production, these are all skills expected from data science teams. 
 

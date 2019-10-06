@@ -2424,7 +2424,7 @@
                         "rowspan": 1
                     },
                     {
-                        "title": "Visualization",
+                        "title": "Carreer",
                         "speakers": "",
                         "code": "",
                         "slug": "",
@@ -2497,10 +2497,10 @@
                         "rowspan": 1
                     },
                     {
-                        "title": "Friend or Foe: Comparison of R & Python in Data Wrangling & Visualisation",
-                        "speakers": "Yuta Kanzawa",
-                        "code": "pydata-9d3jqc-friend-or-foe-comparison-of-r-python-in-data-wrangling-visualisation-yuta-kanzawa",
-                        "slug": "pydata-9d3jqc-friend-or-foe-comparison-of-r-python-in-data-wrangling-visualisation-yuta-kanzawa",
+                        "title": "Professional Development and Career Progression for Data Scientists",
+                        "speakers": "Noa Tamir",
+                        "code": "pydata-e3lfdl-professional-development-and-career-progression-for-data-scientists-noa-tamir",
+                        "slug": "pydata-e3lfdl-professional-development-and-career-progression-for-data-scientists-noa-tamir",
                         "subm_type": "Talk",
                         "duration": "00:30",
                         "colspan": 1,
@@ -2580,20 +2580,20 @@
                         "rowspan": 1
                     },
                     {
-                        "title": "Making the complex simple in data viz",
-                        "speakers": "Tania Vasilikioti",
-                        "code": "pydata-nc8vva-making-the-complex-simple-in-data-viz-tania-vasilikioti",
-                        "slug": "pydata-nc8vva-making-the-complex-simple-in-data-viz-tania-vasilikioti",
+                        "title": "Lessons Learned as a Product Manager in Data Science",
+                        "speakers": "Tereza Iofciu",
+                        "code": "pydata-ts7tzf-lessons-learned-as-a-product-manager-in-data-science-tereza-iofciu",
+                        "slug": "pydata-ts7tzf-lessons-learned-as-a-product-manager-in-data-science-tereza-iofciu",
                         "subm_type": "Talk",
-                        "duration": "00:30",
+                        "duration": "00:45",
                         "colspan": 1,
                         "rowspan": 1
                     },
                     {
                         "title": "",
                         "speakers": "",
-                        "code": "pydata-nc8vva-making-the-complex-simple-in-data-viz-tania-vasilikioti",
-                        "slug": "pydata-nc8vva-making-the-complex-simple-in-data-viz-tania-vasilikioti",
+                        "code": "pydata-ts7tzf-lessons-learned-as-a-product-manager-in-data-science-tereza-iofciu",
+                        "slug": "pydata-ts7tzf-lessons-learned-as-a-product-manager-in-data-science-tereza-iofciu",
                         "subm_type": "",
                         "duration": "",
                         "colspan": 1,
@@ -2656,7 +2656,7 @@
                         "rowspan": 1
                     },
                     {
-                        "title": "Carreer",
+                        "title": "Visualization",
                         "speakers": "",
                         "code": "",
                         "slug": "",
@@ -2729,10 +2729,10 @@
                         "rowspan": 1
                     },
                     {
-                        "title": "Professional Development and Career Progression for Data Scientists",
-                        "speakers": "Noa Tamir",
-                        "code": "pydata-e3lfdl-professional-development-and-career-progression-for-data-scientists-noa-tamir",
-                        "slug": "pydata-e3lfdl-professional-development-and-career-progression-for-data-scientists-noa-tamir",
+                        "title": "Friend or Foe: Comparison of R & Python in Data Wrangling & Visualisation",
+                        "speakers": "Yuta Kanzawa",
+                        "code": "pydata-9d3jqc-friend-or-foe-comparison-of-r-python-in-data-wrangling-visualisation-yuta-kanzawa",
+                        "slug": "pydata-9d3jqc-friend-or-foe-comparison-of-r-python-in-data-wrangling-visualisation-yuta-kanzawa",
                         "subm_type": "Talk",
                         "duration": "00:30",
                         "colspan": 1,
@@ -2812,12 +2812,12 @@
                         "rowspan": 1
                     },
                     {
-                        "title": "Lessons Learned as a Product Manager in Data Science",
-                        "speakers": "Tereza Iofciu",
-                        "code": "pydata-ts7tzf-lessons-learned-as-a-product-manager-in-data-science-tereza-iofciu",
-                        "slug": "pydata-ts7tzf-lessons-learned-as-a-product-manager-in-data-science-tereza-iofciu",
+                        "title": "Making the complex simple in data viz",
+                        "speakers": "Tania Vasilikioti",
+                        "code": "pydata-nc8vva-making-the-complex-simple-in-data-viz-tania-vasilikioti",
+                        "slug": "pydata-nc8vva-making-the-complex-simple-in-data-viz-tania-vasilikioti",
                         "subm_type": "Talk",
-                        "duration": "00:45",
+                        "duration": "00:30",
                         "colspan": 1,
                         "rowspan": 1
                     },

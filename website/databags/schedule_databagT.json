@@ -7768,20 +7768,20 @@
                             "sessionname": "PyMC"
                         },
                         {
-                            "code": "9D3JQC",
+                            "code": "E3LFDL",
                             "name": "",
                             "track": "PyData",
                             "duration": "00:30",
-                            "description": "R and Python have differences as many as simiralities. Through their comparisons, we can understand both languages better and use them effectively. I will take a look at some examples from de facto standard packages such as tidyverse and pandas for data munging tasks, and ggplot2 and matplotlib (and seaborn) for data visualisation.\r\n\r\n1. Differences between R and Python as Language\r\n    * Procedural and object-oriented programming\r\n    * Specific and general purpose\r\n\r\n2. Data Wrangling\r\n    * tidyverse\r\n    * pandas\r\n\r\n3. Data Visualisation\r\n    * ggplot2\r\n    * matplotlib & seaborn\r\n\r\n4. Some Other Cases (depending on time and interest)\r\n    * Machine learning\r\n    * Deep learning\r\n    * Big data (distributed data processing)\r\n    * Natural language processing\r\n\r\n5. Conclusion\r\n    * To be bilingual",
-                            "short_description": "R and Python are different in community and as language. Still, comparing them in their common fields such as data wrangling and visualisation, useRs and Pythonistas will deepen mutual understanding.",
-                            "python_skill": "basic",
-                            "domain_expertise": "some",
-                            "domains": "Data Science, Machine Learning, Visualisation, Statistics",
-                            "slug": "pydata-9d3jqc-friend-or-foe-comparison-of-r-python-in-data-wrangling-visualisation-yuta-kanzawa",
-                            "title": "Friend or Foe: Comparison of R & Python in Data Wrangling & Visualisation",
-                            "speaker_names": "Yuta Kanzawa (Janssen Pharmaceutical K.K., Tokyo; Johnson & Johnson)",
+                            "description": "Let's go beyond the Venn diagram memes and delve into the scope of technical, leadership, and soft skills current data scientists can develop and grow as they shape their careers. Find out how you can pursue your passion and specialize, and what to do if you are into leadership, but can not see yourself becoming a manger. I will share a framework that helps break down what data science can mean, across companies and experience levels, into what it means to you and your career. In addition, I will provide examples for resources you can utilize to learn on the job, and off the job, and how to manage your learning while managing your workload.",
+                            "short_description": "How to level up your skills and develop your your career by making the most of on the job opportunities, as well as open source contributions",
+                            "python_skill": "none",
+                            "domain_expertise": "none",
+                            "domains": "Business & Start-Ups, Community, Data Science",
+                            "slug": "pydata-e3lfdl-professional-development-and-career-progression-for-data-scientists-noa-tamir",
+                            "title": "Professional Development and Career Progression for Data Scientists",
+                            "speaker_names": "Noa Tamir",
                             "type": "Talk",
-                            "url": "/program/pydata-9d3jqc-friend-or-foe-comparison-of-r-python-in-data-wrangling-visualisation-yuta-kanzawa",
+                            "url": "/program/pydata-e3lfdl-professional-development-and-career-progression-for-data-scientists-noa-tamir",
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
@@ -7791,7 +7791,7 @@
                             "room_name": "Saal 4",
                             "location": "center",
                             "use": "talks",
-                            "sessionname": "Visualization"
+                            "sessionname": "Carreer"
                         },
                         {
                             "code": "",
@@ -7931,30 +7931,30 @@
                             "sessionname": "PyMC"
                         },
                         {
-                            "code": "NC8VVA",
+                            "code": "TS7TZF",
                             "name": "",
                             "track": "PyData",
-                            "duration": "00:30",
-                            "description": "When building a data visualization in Python from scratch, we quickly stumble across multiple questions: \"What type of plot to use?\" \"How to scale the axes?\" \"How many dimensions?\" \"Should I use colors?\" In trying to answer these, we can easily get lost in multiple exploratory trips to Stack Overflow, documentation pages, example galleries, and tutorials, often resulting in code that utilizes three different libraries, is more than 50 lines long, and leaves us with a feeling that our graphic's language is lacking structure.\r\n\r\nPart of the problem is the abundance of data visualization packages available in Python and their very different syntactic patterns. Each package uses different ways to change elements like axis features, labels, annotations, titles, or even gridlines. Even the way the input data needs to be structured can differ. As a result, the analyst is often absorbed more by figuring out how to adjust each visual detail, instead of thinking of the graphic as a system of logically structured elements, and mapping the data to each of them separately.\r\n\r\nEnter *The Grammar of Graphics*, a framework conceptualized by L. Wilkinson in 1999, which helps us better understand the underlying structure of every graphic. The talk will introduce the framework by deconstructing a simple chart into its constituent \"grammatical elements\": *Aesthetics, Algebra, Scales, Statistics, Geometry, and Coordinates*. I will discuss each and explain how every element directly translates to the decisions we take when designing a graphic. \r\n\r\nThen, I will practically demonstrate how plotting with a grammar can be highly liberating, as it makes otherwise complex plots easy to think about and then to create. Even though *The Grammar of Graphics* (and its sister *The Layered Grammar of Graphics*, Wickham 2010) is most famously implemented in R's `ggplot2`, that doesn't mean the framework is language-specific \u2013 it can be used with any Python visualization package. To demonstrate, I will show an application of the framework by building a chart in the Python `plotnine` package, and then explaining how we can use *the grammar* as a guide to let us build the same chart in `matplotlib` \u2013 one grammatical element at a time.",
-                            "short_description": "Creating graphics that convey the desired message, are easily interpretable, but also beautiful can be a daunting task. Come to this talk to learn how to use The Grammar of Graphics to make any complex graphic simple, in Python.",
-                            "python_skill": "basic",
+                            "duration": "00:45",
+                            "description": "From answering simple data questions, building cool visualisations, to building machine learning solutions and bringing them to production, these are all skills expected from data science teams. \r\n\r\nThere is so much material these days online about cool data projects that it feels like working with data is easy and projects can be finished in no time. In order to implement data products and bring them from prototype to production successfully there is though a lot of work happening behind the scenes. \r\n\r\nThis talk focuses on my personal experience of working as a product manager for a cross disciplinary data science team. I will follow a machine learning project from infancy to going live, focusing mainly on tips and tricks and lessons learned. For example, talking to stakeholders, understanding the problems they have and then translating that to actual data problems is not as trivial as it may seem. This is a talk about the challenges in tech and about the value of communication.",
+                            "short_description": "How many languages does the data science product manager need to speak?",
+                            "python_skill": "none",
                             "domain_expertise": "some",
-                            "domains": "Data Science, Visualisation",
-                            "slug": "pydata-nc8vva-making-the-complex-simple-in-data-viz-tania-vasilikioti",
-                            "title": "Making the complex simple in data viz",
-                            "speaker_names": "Tania Vasilikioti (Babbel)",
+                            "domains": "Business & Start-Ups, Data Science, Machine Learning",
+                            "slug": "pydata-ts7tzf-lessons-learned-as-a-product-manager-in-data-science-tereza-iofciu",
+                            "title": "Lessons Learned as a Product Manager in Data Science",
+                            "speaker_names": "Tereza Iofciu (mytaxi)",
                             "type": "Talk",
-                            "url": "/program/pydata-nc8vva-making-the-complex-simple-in-data-viz-tania-vasilikioti",
+                            "url": "/program/pydata-ts7tzf-lessons-learned-as-a-product-manager-in-data-science-tereza-iofciu",
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
                             "time": "12:25",
                             "start": "12:25",
-                            "end": "12:55",
+                            "end": "13:10",
                             "room_name": "Saal 4",
                             "location": "center",
                             "use": "talks",
-                            "sessionname": "Visualization"
+                            "sessionname": "Carreer"
                         },
                         {
                             "code": "",
@@ -8117,7 +8117,7 @@
                             "room_name": "Saal 4",
                             "location": "center",
                             "use": "talks",
-                            "sessionname": "Visualization"
+                            "sessionname": "Carreer"
                         },
                         {
                             "code": "",
@@ -8348,20 +8348,20 @@
                             "sessionname": "NLP for good"
                         },
                         {
-                            "code": "E3LFDL",
+                            "code": "9D3JQC",
                             "name": "",
                             "track": "PyData",
                             "duration": "00:30",
-                            "description": "Let's go beyond the Venn diagram memes and delve into the scope of technical, leadership, and soft skills current data scientists can develop and grow as they shape their careers. Find out how you can pursue your passion and specialize, and what to do if you are into leadership, but can not see yourself becoming a manger. I will share a framework that helps break down what data science can mean, across companies and experience levels, into what it means to you and your career. In addition, I will provide examples for resources you can utilize to learn on the job, and off the job, and how to manage your learning while managing your workload.",
-                            "short_description": "How to level up your skills and develop your your career by making the most of on the job opportunities, as well as open source contributions",
-                            "python_skill": "none",
-                            "domain_expertise": "none",
-                            "domains": "Business & Start-Ups, Community, Data Science",
-                            "slug": "pydata-e3lfdl-professional-development-and-career-progression-for-data-scientists-noa-tamir",
-                            "title": "Professional Development and Career Progression for Data Scientists",
-                            "speaker_names": "Noa Tamir",
+                            "description": "R and Python have differences as many as simiralities. Through their comparisons, we can understand both languages better and use them effectively. I will take a look at some examples from de facto standard packages such as tidyverse and pandas for data munging tasks, and ggplot2 and matplotlib (and seaborn) for data visualisation.\r\n\r\n1. Differences between R and Python as Language\r\n    * Procedural and object-oriented programming\r\n    * Specific and general purpose\r\n\r\n2. Data Wrangling\r\n    * tidyverse\r\n    * pandas\r\n\r\n3. Data Visualisation\r\n    * ggplot2\r\n    * matplotlib & seaborn\r\n\r\n4. Some Other Cases (depending on time and interest)\r\n    * Machine learning\r\n    * Deep learning\r\n    * Big data (distributed data processing)\r\n    * Natural language processing\r\n\r\n5. Conclusion\r\n    * To be bilingual",
+                            "short_description": "R and Python are different in community and as language. Still, comparing them in their common fields such as data wrangling and visualisation, useRs and Pythonistas will deepen mutual understanding.",
+                            "python_skill": "basic",
+                            "domain_expertise": "some",
+                            "domains": "Data Science, Machine Learning, Visualisation, Statistics",
+                            "slug": "pydata-9d3jqc-friend-or-foe-comparison-of-r-python-in-data-wrangling-visualisation-yuta-kanzawa",
+                            "title": "Friend or Foe: Comparison of R & Python in Data Wrangling & Visualisation",
+                            "speaker_names": "Yuta Kanzawa (Janssen Pharmaceutical K.K., Tokyo; Johnson & Johnson)",
                             "type": "Talk",
-                            "url": "/program/pydata-e3lfdl-professional-development-and-career-progression-for-data-scientists-noa-tamir",
+                            "url": "/program/pydata-9d3jqc-friend-or-foe-comparison-of-r-python-in-data-wrangling-visualisation-yuta-kanzawa",
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
@@ -8371,7 +8371,7 @@
                             "room_name": "Saal 6",
                             "location": "back, middle",
                             "use": "talks",
-                            "sessionname": "Carreer"
+                            "sessionname": "Visualization"
                         },
                         {
                             "code": "UMWRYD",
@@ -8511,30 +8511,30 @@
                             "sessionname": "NLP for good"
                         },
                         {
-                            "code": "TS7TZF",
+                            "code": "NC8VVA",
                             "name": "",
                             "track": "PyData",
-                            "duration": "00:45",
-                            "description": "From answering simple data questions, building cool visualisations, to building machine learning solutions and bringing them to production, these are all skills expected from data science teams. \r\n\r\nThere is so much material these days online about cool data projects that it feels like working with data is easy and projects can be finished in no time. In order to implement data products and bring them from prototype to production successfully there is though a lot of work happening behind the scenes. \r\n\r\nThis talk focuses on my personal experience of working as a product manager for a cross disciplinary data science team. I will follow a machine learning project from infancy to going live, focusing mainly on tips and tricks and lessons learned. For example, talking to stakeholders, understanding the problems they have and then translating that to actual data problems is not as trivial as it may seem. This is a talk about the challenges in tech and about the value of communication.",
-                            "short_description": "How many languages does the data science product manager need to speak?",
-                            "python_skill": "none",
+                            "duration": "00:30",
+                            "description": "When building a data visualization in Python from scratch, we quickly stumble across multiple questions: \"What type of plot to use?\" \"How to scale the axes?\" \"How many dimensions?\" \"Should I use colors?\" In trying to answer these, we can easily get lost in multiple exploratory trips to Stack Overflow, documentation pages, example galleries, and tutorials, often resulting in code that utilizes three different libraries, is more than 50 lines long, and leaves us with a feeling that our graphic's language is lacking structure.\r\n\r\nPart of the problem is the abundance of data visualization packages available in Python and their very different syntactic patterns. Each package uses different ways to change elements like axis features, labels, annotations, titles, or even gridlines. Even the way the input data needs to be structured can differ. As a result, the analyst is often absorbed more by figuring out how to adjust each visual detail, instead of thinking of the graphic as a system of logically structured elements, and mapping the data to each of them separately.\r\n\r\nEnter *The Grammar of Graphics*, a framework conceptualized by L. Wilkinson in 1999, which helps us better understand the underlying structure of every graphic. The talk will introduce the framework by deconstructing a simple chart into its constituent \"grammatical elements\": *Aesthetics, Algebra, Scales, Statistics, Geometry, and Coordinates*. I will discuss each and explain how every element directly translates to the decisions we take when designing a graphic. \r\n\r\nThen, I will practically demonstrate how plotting with a grammar can be highly liberating, as it makes otherwise complex plots easy to think about and then to create. Even though *The Grammar of Graphics* (and its sister *The Layered Grammar of Graphics*, Wickham 2010) is most famously implemented in R's `ggplot2`, that doesn't mean the framework is language-specific \u2013 it can be used with any Python visualization package. To demonstrate, I will show an application of the framework by building a chart in the Python `plotnine` package, and then explaining how we can use *the grammar* as a guide to let us build the same chart in `matplotlib` \u2013 one grammatical element at a time.",
+                            "short_description": "Creating graphics that convey the desired message, are easily interpretable, but also beautiful can be a daunting task. Come to this talk to learn how to use The Grammar of Graphics to make any complex graphic simple, in Python.",
+                            "python_skill": "basic",
                             "domain_expertise": "some",
-                            "domains": "Business & Start-Ups, Data Science, Machine Learning",
-                            "slug": "pydata-ts7tzf-lessons-learned-as-a-product-manager-in-data-science-tereza-iofciu",
-                            "title": "Lessons Learned as a Product Manager in Data Science",
-                            "speaker_names": "Tereza Iofciu (mytaxi)",
+                            "domains": "Data Science, Visualisation",
+                            "slug": "pydata-nc8vva-making-the-complex-simple-in-data-viz-tania-vasilikioti",
+                            "title": "Making the complex simple in data viz",
+                            "speaker_names": "Tania Vasilikioti (Babbel)",
                             "type": "Talk",
-                            "url": "/program/pydata-ts7tzf-lessons-learned-as-a-product-manager-in-data-science-tereza-iofciu",
+                            "url": "/program/pydata-nc8vva-making-the-complex-simple-in-data-viz-tania-vasilikioti",
                             "plenary": "",
                             "add_to_class": "",
                             "clipcard_icon": "",
                             "time": "14:35",
                             "start": "14:35",
-                            "end": "15:20",
+                            "end": "15:05",
                             "room_name": "Saal 6",
                             "location": "back, middle",
                             "use": "talks",
-                            "sessionname": "Carreer"
+                            "sessionname": "Visualization"
                         },
                         {
                             "code": "JZW9HE",
@@ -8697,7 +8697,7 @@
                             "room_name": "Saal 6",
                             "location": "back, middle",
                             "use": "talks",
-                            "sessionname": "Carreer"
+                            "sessionname": "Visualization"
                         },
                         {
                             "code": "",
@@ -8860,7 +8860,7 @@
                             "room_name": "Saal 6",
                             "location": "back, middle",
                             "use": "talks",
-                            "sessionname": "Carreer"
+                            "sessionname": "Visualization"
                         },
                         {
                             "code": "",
@@ -9023,7 +9023,7 @@
                             "room_name": "Saal 6",
                             "location": "back, middle",
                             "use": "talks",
-                            "sessionname": "Carreer"
+                            "sessionname": "Visualization"
                         },
                         {
                             "code": "",
@@ -9186,7 +9186,7 @@
                             "room_name": "Saal 6",
                             "location": "back, middle",
                             "use": "talks",
-                            "sessionname": "Carreer"
+                            "sessionname": "Visualization"
                         },
                         {
                             "code": "",
@@ -9349,7 +9349,7 @@
                             "room_name": "Saal 6",
                             "location": "back, middle",
                             "use": "talks",
-                            "sessionname": "Carreer"
+                            "sessionname": "Visualization"
                         },
                         {
                             "code": "",

@@ -34,9 +34,9 @@ python_skill: Python Skill Level basic
 ---
 domain_expertise: Domain Expertise some
 ---
-room: Saal 4
+room: Saal 6
 ---
-start_time: 11:50
+start_time: 14:00
 ---
 day: friday
 ---
@@ -44,9 +44,9 @@ meta_title: Friend or Foe: Comparison of R & Python in Data Wrangling & Visualis
 ---
 meta_twitter_title: Friend or Foe: Comparison of R & Python in Data Wrangling & Visualisation @yutakanzawa #PyConDE #PyDataBerlin #PyData
 ---
-categories: pydata, python-skill-level-basic, domain-expertise-some, talk, data-science, machine-learning, visualisation, statistics, friday, friday-1150
+categories: pydata, python-skill-level-basic, domain-expertise-some, talk, data-science, machine-learning, visualisation, statistics, friday, friday-1400
 ---
-slugified_slot_links: friday, friday-1150
+slugified_slot_links: friday, friday-1400
 ---
 body: R and Python have differences as many as simiralities. Through their comparisons, we can understand both languages better and use them effectively. I will take a look at some examples from de facto standard packages such as tidyverse and pandas for data munging tasks, and ggplot2 and matplotlib (and seaborn) for data visualisation.
 
