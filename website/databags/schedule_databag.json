@@ -1578,7 +1578,7 @@
                             "code": "CXYNHX",
                             "name": "",
                             "track": "PyData",
-                            "duration": "00:45",
+                            "duration": "00:30",
                             "description": "Storing and processing data efficiently is an integral part of successful data-driven applications. An efficient and scalable way to store big data is by using object stores of public cloud providers like ABS, S3 or GCS. These storages come with downsides attached which make the management of tabular data distributed over many objects not a trivial task.\r\n\r\n[Kartothek](https://github.com/JDASoftwareGroup/kartothek) is a recently open sourced Python library we develop and use at [Blue Yonder \u2013 JDA Software](https://tech.jda.com) to manage tabular data in cloud object stores. It is built on [Apache Arrow](https://arrow.apache.org), [Apache Parquet](https://parquet.apache.org) and is powered by [Dask](http://dask.org). It\u2019s specification is compatible with the de-facto standard storage layouts used by other big data processing tools like Apache Spark and Hive but offers a native, seamless integration into the Python ecosystem.\r\n\r\nWhat Kartothek offers, includes:\r\n* Consistent dataset state at all times.\r\n* Add or remove files with an atomic operation.\r\n* Read without any locking mechanisms.\r\n* Strongly typed and enforced table schemas using Apache Arrow.\r\n* `O(1)` remote storage calls to plan job dispatching.\r\n* Inverted indices for fast and efficient querying.\r\n* Integrated predicate pushdown on row group level using Apache Parquet.\r\n* Seamless integration to pandas, Dask and the Python ecosystem.\r\n\r\nAt the end of this talk, I want you to leave with the knowledge about what the struggles in modern big data storage are and how to deal with them.",
                             "short_description": "Kartothek - Table management for cloud object stores powered by @ApacheArrow and @dask_dev",
                             "python_skill": "none",
@@ -1594,7 +1594,7 @@
                             "clipcard_icon": "",
                             "time": "15:30",
                             "start": "15:30",
-                            "end": "16:15"
+                            "end": "16:00"
                         },
                         {
                             "code": "7X799R",
@@ -7790,7 +7790,7 @@
                             "code": "RRLRYG",
                             "name": "",
                             "track": "PyData",
-                            "duration": "00:45",
+                            "duration": "00:30",
                             "description": "There are several reasons why we might want to use a Bayesian Model: It can handle well the uncertainty that comes with small data and also allows for the incorporation of domain knowledge by virtue of using priors. However, implementing such a model is usually not as straight-forward as importing a model from scikit-learn. Then there is also the question on how to pick the right prior and how to check if your model actually converged, both tasks that might seem daunting for anyone starting out with Bayesian modelling. In this talk, I will show the basic Bayesian workflow, starting with some guidelines on how to pick a fitting prior for your problem, how to check model convergence and how to do model comparison. To exemplify the workflow, I will use the real-world problem of predicting house prices in Berlin.\r\nFor the modelling, the Python package `PyMC3` is used and for visualization and model checking, the package `ArviZ` is used.",
                             "short_description": "An Example of a Bayesian Workflow using PyMC and ArviZ: Predicting House Prices in Berlin",
                             "python_skill": "basic",
@@ -7806,7 +7806,7 @@
                             "clipcard_icon": "",
                             "time": "12:25",
                             "start": "12:25",
-                            "end": "13:10"
+                            "end": "12:55"
                         },
                         {
                             "code": "",
