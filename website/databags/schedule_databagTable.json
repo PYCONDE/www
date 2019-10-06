@@ -2699,12 +2699,12 @@
                 [
                     "14:00",
                     {
-                        "title": "Job panel: Freelancing / academia to industry",
-                        "speakers": "",
-                        "code": "",
-                        "slug": "",
-                        "subm_type": "",
-                        "duration": "",
+                        "title": "Job Panel",
+                        "speakers": "Christian Barra, Tereza Iofciu, Katharina Rasch, Matteo Guzzo, Sieer Angar",
+                        "code": "pyconde-meegjc-job-panel-christian-barra-tereza-iofciu-katharina-rasch-matteo-guzzo-sieer-angar",
+                        "slug": "pyconde-meegjc-job-panel-christian-barra-tereza-iofciu-katharina-rasch-matteo-guzzo-sieer-angar",
+                        "subm_type": "Panel",
+                        "duration": "01:00",
                         "colspan": 1,
                         "rowspan": 1
                     },
