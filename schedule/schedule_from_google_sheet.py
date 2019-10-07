@@ -19,9 +19,7 @@
 
 import json
 import re
-from pprint import pprint
 from datetime import datetime, timedelta
-import time
 from unicodedata import normalize
 import pandas as pd
 
@@ -124,8 +122,10 @@ class ScheduleFromGSheet:
 
                 last_col = {}
                 colspan = 1
-                pcode, slug = "", ""
+
                 for i, col in enumerate(row, 1):
+
+                    pcode, slug = "", ""
 
                     try:
                         code, *_ = col.split(" ")
