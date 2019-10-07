@@ -81,3 +81,19 @@ Therefore the Airflow pipelines can benefit from the advantages of the software 
 
 In this workshop we’ll go over basic Airflow concepts and we’ll setup an instance for orchestrating an inference pipeline for a machine learning model.
 
+#### Details for Audience
+* It assumes no previous Airflow knowledge.
+* The main purpose is creating a **basic** train and inference pipeline with Airflow.
+* It is not about a particular model / ML method.
+* It's not an advanced Airflow workshop.
+* It is not suitable for Python beginners.
+
+#### Workshop Requirements
+* **[Docker installed](https://www.docker.com/)**.
+* Any editor (Sublime, PyCharm, Vim, Atom).
+* [Verify that Docker works properly](https://docs.docker.com/get-started/part2/).
+* **Ensure that you allocated 4gb of RAM for the Docker Engine**. (Can be done via desktop app, check Preferences section. After setting up, restart Docker App)
+* **Download the Airflow Docker image**: `docker pull puckel/docker-airflow`
+* Download repository under the `$HOME` directory.
+`git clone https://github.com/deliveryhero/pyconde2019-airflow-ml-workshop`
+

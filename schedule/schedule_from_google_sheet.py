@@ -545,7 +545,7 @@ class ScheduleFromGSheet:
         elif contents and 'pyladies lunch' in contents_str.lower():
             session_details['title'] = contents_str
             session_details['duration'] = "01:00"
-            session_details['url'] = 'blog/pyladies-lunch/'
+            session_details['url'] = 'https://de.pycon.org/blog/pyladies-lunch/'
             session_details['clipcard_icon'] = "fa-users"
             session_details['track'] = "pycon-pydata"
             session_details['type'] = "Community"
