@@ -648,6 +648,30 @@
         "id": "a2756197581b7548183535520872855b"
     },
     {
+        "summary": "Kartothek \u2013 Table management for cloud object stores powered by Apache Arrow and Dask(Florian Jetter (Blue Yonder - JDA Software))",
+        "location": "Saal 6",
+        "description": "Storing and processing data efficiently is an integral part of successful data-driven applications. An efficient and scalable way to store big data is by using object stores of public cloud providers like ABS, S3 or GCS. These storages come with downsides attached which make the management of tabular data distributed over many objects not a trivial task.\r\n\r\n[Kartothek](https://github.com/JDASoftwareGroup/kartothek) is a recently open sourced Python library we develop and use at [Blue Yonder \u2013 JDA Software](https://tech.jda.com) to manage tabular data in cloud object stores. It is built on [Apache Arrow](https://arrow.apache.org), [Apache Parquet](https://parquet.apache.org) and is powered by [Dask](http://dask.org). It\u2019s specification is compatible with the de-facto standard storage layouts used by other big data processing tools like Apache Spark and Hive but offers a native, seamless integration into the Python ecosystem.\r\n\r\nWhat Kartothek offers, includes:\r\n* Consistent dataset state at all times.\r\n* Add or remove files with an atomic operation.\r\n* Read without any locking mechanisms.\r\n* Strongly typed and enforced table schemas using Apache Arrow.\r\n* `O(1)` remote storage calls to plan job dispatching.\r\n* Inverted indices for fast and efficient querying.\r\n* Integrated predicate pushdown on row group level using Apache Parquet.\r\n* Seamless integration to pandas, Dask and the Python ecosystem.\r\n\r\nAt the end of this talk, I want you to leave with the knowledge about what the struggles in modern big data storage are and how to deal with them.",
+        "start": {
+            "dateTime": "2019-10-09T15:30:00+02:00",
+            "timeZone": "Europe/Berlin"
+        },
+        "end": {
+            "dateTime": "2019-10-09T16:00:00+02:00",
+            "timeZone": "Europe/Berlin"
+        },
+        "source": {
+            "url": "http://pycon.de/program/pydata-cxynhx-kartothek-table-management-for-cloud-object-stores-powered-by-apache-arrow-and-dask-florian-jetter",
+            "title": "PyConDE & PyData Berlin Schedule"
+        },
+        "reminders": {
+            "useDefault": false,
+            "overrides": []
+        },
+        "transparency": "transparent",
+        "visibility": "public",
+        "id": "42463898da6d3586d63e5618e7f4b7d2"
+    },
+    {
         "summary": "Using Micropython to develop an IoT multimode sensor platform with an Augmented Reality UI(Nicholas Herriot (Samsung Research Istitute - London))",
         "location": "Saal 6",
         "description": "## Who is this for ##\r\nAnyone with a curious mind and interested in how to marry the physical world and IoT with the virtual. This talk is pitched at intermediate, but for beginners extensive documentation and a github repo will be available to read and learn from.\r\n\r\n## What is it about ##\r\nThe story of a project to capture data for the purpose of using in AI projects, which then became an OS platform with innovative ideas more important that the original concept. A multimode sensor platform using Augmented Reality for visualization and control.\r\n\r\n## Will I See The Real Prototype ##\r\nYes there will be a demonstration of the prototype and this will be used as part of the talk to explain the concepts.\r\n\r\n## What Technologies Will It Cover ##\r\nThis talk will cover a microcontroller with plug-able sensors using (micropython)[http://www.micropython.org/] for the main software development platform. For the serve side components the talk will be using an IoT Gateway used to sync with the sensor platform.\r\nFor Augmented Reality the talk will switch to using HTML and JavaScript needed to render objects in the browser for the demo.\r\n\r\n## What Will I Learn ##\r\nHopefully you will learn an introduction to IoT concepts to developers who are interested in this tech, but we will use python for embedded systems and show how to used. You will see in this talk:\r\n* How to use a tiny microcontroller with real sensors using (micropython)[http://www.micropython.org/].\r\n* How to connect 'things' to the platform.\r\n* A server side component that allows the ingestion of data.\r\n* The web side, using web technologies like A-Frame, AR.js and awe.js for the purpose of having AR capabilities.\r\n\r\n## In Summary ##\r\nThis talk will cover going from the small embedded world of IoT and sensors using python. Some time will be given to go over the general server side or back end processing. Then the last part of the talk will go over the concepts of Augmented Reality and using a mobile browser to view data from the sensors.\r\n\r\n### Resources ###\r\nThe main github repo for the project is (here)[https://github.com/SamsungResearchUK-IoT-Meetup/projects]. However there will be nothing much to view till near the time of the talk.",
@@ -1150,30 +1174,6 @@
         "transparency": "transparent",
         "visibility": "public",
         "id": "487c297f3baec95a60f7e2501f641b2d"
-    },
-    {
-        "summary": "Python Panel",
-        "location": "Hauptsaal",
-        "description": "",
-        "start": {
-            "dateTime": "2019-10-10T14:00:00+02:00",
-            "timeZone": "Europe/Berlin"
-        },
-        "end": {
-            "dateTime": "2019-10-10T15:00:00+02:00",
-            "timeZone": "Europe/Berlin"
-        },
-        "source": {
-            "url": "http://pycon.de/program/",
-            "title": "PyConDE & PyData Berlin Schedule"
-        },
-        "reminders": {
-            "useDefault": false,
-            "overrides": []
-        },
-        "transparency": "transparent",
-        "visibility": "public",
-        "id": "e1ae1857dd9f67bd61bca0e20a95d7bc"
     },
     {
         "summary": "Python Panel",
@@ -2136,30 +2136,6 @@
         "id": "b0ef0baa5752d4eadf03171767301053"
     },
     {
-        "summary": "Keynote Q&A Session",
-        "location": "Lounge",
-        "description": "",
-        "start": {
-            "dateTime": "2019-10-10T17:45:00+02:00",
-            "timeZone": "Europe/Berlin"
-        },
-        "end": {
-            "dateTime": "2019-10-10T18:30:00+02:00",
-            "timeZone": "Europe/Berlin"
-        },
-        "source": {
-            "url": "http://pycon.de/program/",
-            "title": "PyConDE & PyData Berlin Schedule"
-        },
-        "reminders": {
-            "useDefault": false,
-            "overrides": []
-        },
-        "transparency": "transparent",
-        "visibility": "public",
-        "id": "b0ef0baa5752d4eadf03171767301053"
-    },
-    {
         "summary": "Airflow: your ally for automating machine learning and data pipelines(Enrica Pasqua (Delivery Hero SE), Bahadir Uyarer (Delivery Hero SE))",
         "location": "Saal 5",
         "description": "After having worked hard developing a machine learning model, you know that there is still a _relatively small_ step to do: moving it to production.\r\n\r\nIn a common scenario what you probably would like to have is a workflow to automate:\r\n* gathering and preprocessing the data\r\n* running inference on them\r\n* storing the predictions\r\n\r\nIdeally you would want a tool that can help you:\r\n* dealing with big data\r\n* guaranteeing robustness and resilience\r\n* executing your workflows on a scheduled basis or when some pre-conditions are met\r\n* resolving dependencies between tasks\r\n\r\nIf until today you used cron to schedule jobs, this could be the right time to adopt a well established tool like Apache Airflow for addressing this complexity.\r\n\r\nApache Airflow is an open source project written in Python for programmatically author, schedule and monitor batch execution of tasks.\r\n\r\nYou can design your pipelines according to a determined logic: decide which actions to perform, retry them if errors occur, skip tasks if dependencies are not met, access monitor and log status through a friendly and powerful web UI, and a lot more.\r\n\r\nA very nice feature of Airflow is that all the above is configured and defined in Python code. \r\nTherefore the Airflow pipelines can benefit from the advantages of the software development process (such as peer-reviews, automated testing and version control). \r\n\r\nIn this workshop we\u2019ll go over basic Airflow concepts and we\u2019ll setup an instance for orchestrating an inference pipeline for a machine learning model.",
@@ -2494,30 +2470,6 @@
         "transparency": "transparent",
         "visibility": "public",
         "id": "4d7e45f37e51309cbf74c2c5a6f2054d"
-    },
-    {
-        "summary": "Job panel: Freelancing / academia to industry",
-        "location": "Hauptsaal",
-        "description": "",
-        "start": {
-            "dateTime": "2019-10-11T14:00:00+02:00",
-            "timeZone": "Europe/Berlin"
-        },
-        "end": {
-            "dateTime": "2019-10-11T15:00:00+02:00",
-            "timeZone": "Europe/Berlin"
-        },
-        "source": {
-            "url": "http://pycon.de/program/",
-            "title": "PyConDE & PyData Berlin Schedule"
-        },
-        "reminders": {
-            "useDefault": false,
-            "overrides": []
-        },
-        "transparency": "transparent",
-        "visibility": "public",
-        "id": "704649458cf6bcd5181ce1f73f8edd71"
     },
     {
         "summary": "Job panel: Freelancing / academia to industry",
@@ -2984,7 +2936,7 @@
             "timeZone": "Europe/Berlin"
         },
         "end": {
-            "dateTime": "2019-10-11T13:10:00+02:00",
+            "dateTime": "2019-10-11T12:55:00+02:00",
             "timeZone": "Europe/Berlin"
         },
         "source": {
@@ -3000,9 +2952,9 @@
         "id": "2ec38cc744f896ecdee02e57ca081687"
     },
     {
-        "summary": "Professional Development and Career Progression for Data Scientists(Noa Tamir)",
+        "summary": "Friend or Foe: Comparison of R & Python in Data Wrangling & Visualisation(Yuta Kanzawa (Janssen Pharmaceutical K.K., Tokyo; Johnson & Johnson))",
         "location": "Saal 6",
-        "description": "Let's go beyond the Venn diagram memes and delve into the scope of technical, leadership, and soft skills current data scientists can develop and grow as they shape their careers. Find out how you can pursue your passion and specialize, and what to do if you are into leadership, but can not see yourself becoming a manger. I will share a framework that helps break down what data science can mean, across companies and experience levels, into what it means to you and your career. In addition, I will provide examples for resources you can utilize to learn on the job, and off the job, and how to manage your learning while managing your workload.",
+        "description": "R and Python have differences as many as simiralities. Through their comparisons, we can understand both languages better and use them effectively. I will take a look at some examples from de facto standard packages such as tidyverse and pandas for data munging tasks, and ggplot2 and matplotlib (and seaborn) for data visualisation.\r\n\r\n1. Differences between R and Python as Language\r\n    * Procedural and object-oriented programming\r\n    * Specific and general purpose\r\n\r\n2. Data Wrangling\r\n    * tidyverse\r\n    * pandas\r\n\r\n3. Data Visualisation\r\n    * ggplot2\r\n    * matplotlib & seaborn\r\n\r\n4. Some Other Cases (depending on time and interest)\r\n    * Machine learning\r\n    * Deep learning\r\n    * Big data (distributed data processing)\r\n    * Natural language processing\r\n\r\n5. Conclusion\r\n    * To be bilingual",
         "start": {
             "dateTime": "2019-10-11T14:00:00+02:00",
             "timeZone": "Europe/Berlin"
@@ -3012,7 +2964,7 @@
             "timeZone": "Europe/Berlin"
         },
         "source": {
-            "url": "http://pycon.de/program/pydata-e3lfdl-professional-development-and-career-progression-for-data-scientists-noa-tamir",
+            "url": "http://pycon.de/program/pydata-9d3jqc-friend-or-foe-comparison-of-r-python-in-data-wrangling-visualisation-yuta-kanzawa",
             "title": "PyConDE & PyData Berlin Schedule"
         },
         "reminders": {
@@ -3021,22 +2973,22 @@
         },
         "transparency": "transparent",
         "visibility": "public",
-        "id": "cd5bdd247d60170d08c9351c2a258abc"
+        "id": "94ba576b7c4fea5073fcbd0f63848c1f"
     },
     {
-        "summary": "Lessons Learned as a Product Manager in Data Science(Tereza Iofciu (mytaxi))",
+        "summary": "Making the complex simple in data viz(Tania Vasilikioti (Babbel))",
         "location": "Saal 6",
-        "description": "From answering simple data questions, building cool visualisations, to building machine learning solutions and bringing them to production, these are all skills expected from data science teams. \r\n\r\nThere is so much material these days online about cool data projects that it feels like working with data is easy and projects can be finished in no time. In order to implement data products and bring them from prototype to production successfully there is though a lot of work happening behind the scenes. \r\n\r\nThis talk focuses on my personal experience of working as a product manager for a cross disciplinary data science team. I will follow a machine learning project from infancy to going live, focusing mainly on tips and tricks and lessons learned. For example, talking to stakeholders, understanding the problems they have and then translating that to actual data problems is not as trivial as it may seem. This is a talk about the challenges in tech and about the value of communication.",
+        "description": "When building a data visualization in Python from scratch, we quickly stumble across multiple questions: \"What type of plot to use?\" \"How to scale the axes?\" \"How many dimensions?\" \"Should I use colors?\" In trying to answer these, we can easily get lost in multiple exploratory trips to Stack Overflow, documentation pages, example galleries, and tutorials, often resulting in code that utilizes three different libraries, is more than 50 lines long, and leaves us with a feeling that our graphic's language is lacking structure.\r\n\r\nPart of the problem is the abundance of data visualization packages available in Python and their very different syntactic patterns. Each package uses different ways to change elements like axis features, labels, annotations, titles, or even gridlines. Even the way the input data needs to be structured can differ. As a result, the analyst is often absorbed more by figuring out how to adjust each visual detail, instead of thinking of the graphic as a system of logically structured elements, and mapping the data to each of them separately.\r\n\r\nEnter *The Grammar of Graphics*, a framework conceptualized by L. Wilkinson in 1999, which helps us better understand the underlying structure of every graphic. The talk will introduce the framework by deconstructing a simple chart into its constituent \"grammatical elements\": *Aesthetics, Algebra, Scales, Statistics, Geometry, and Coordinates*. I will discuss each and explain how every element directly translates to the decisions we take when designing a graphic. \r\n\r\nThen, I will practically demonstrate how plotting with a grammar can be highly liberating, as it makes otherwise complex plots easy to think about and then to create. Even though *The Grammar of Graphics* (and its sister *The Layered Grammar of Graphics*, Wickham 2010) is most famously implemented in R's `ggplot2`, that doesn't mean the framework is language-specific \u2013 it can be used with any Python visualization package. To demonstrate, I will show an application of the framework by building a chart in the Python `plotnine` package, and then explaining how we can use *the grammar* as a guide to let us build the same chart in `matplotlib` \u2013 one grammatical element at a time.",
         "start": {
             "dateTime": "2019-10-11T14:35:00+02:00",
             "timeZone": "Europe/Berlin"
         },
         "end": {
-            "dateTime": "2019-10-11T15:20:00+02:00",
+            "dateTime": "2019-10-11T15:05:00+02:00",
             "timeZone": "Europe/Berlin"
         },
         "source": {
-            "url": "http://pycon.de/program/pydata-ts7tzf-lessons-learned-as-a-product-manager-in-data-science-tereza-iofciu",
+            "url": "http://pycon.de/program/pydata-nc8vva-making-the-complex-simple-in-data-viz-tania-vasilikioti",
             "title": "PyConDE & PyData Berlin Schedule"
         },
         "reminders": {
@@ -3045,7 +2997,7 @@
         },
         "transparency": "transparent",
         "visibility": "public",
-        "id": "379e0938cfd0f1ae65ab41e3392b75e8"
+        "id": "656484c2e4676a0770bf44679c2a66a7"
     },
     {
         "summary": "Why you don\u2019t see many real-world applications of Reinforcement Learning.(Yurii Tolochko (BASF))",
@@ -3096,9 +3048,9 @@
         "id": "bbfaafe9e3b18be8e18faeb374c3fab4"
     },
     {
-        "summary": "Friend or Foe: Comparison of R & Python in Data Wrangling & Visualisation(Yuta Kanzawa (Janssen Pharmaceutical K.K., Tokyo; Johnson & Johnson))",
+        "summary": "Professional Development and Career Progression for Data Scientists(Noa Tamir)",
         "location": "Saal 4",
-        "description": "R and Python have differences as many as simiralities. Through their comparisons, we can understand both languages better and use them effectively. I will take a look at some examples from de facto standard packages such as tidyverse and pandas for data munging tasks, and ggplot2 and matplotlib (and seaborn) for data visualisation.\r\n\r\n1. Differences between R and Python as Language\r\n    * Procedural and object-oriented programming\r\n    * Specific and general purpose\r\n\r\n2. Data Wrangling\r\n    * tidyverse\r\n    * pandas\r\n\r\n3. Data Visualisation\r\n    * ggplot2\r\n    * matplotlib & seaborn\r\n\r\n4. Some Other Cases (depending on time and interest)\r\n    * Machine learning\r\n    * Deep learning\r\n    * Big data (distributed data processing)\r\n    * Natural language processing\r\n\r\n5. Conclusion\r\n    * To be bilingual",
+        "description": "Let's go beyond the Venn diagram memes and delve into the scope of technical, leadership, and soft skills current data scientists can develop and grow as they shape their careers. Find out how you can pursue your passion and specialize, and what to do if you are into leadership, but can not see yourself becoming a manger. I will share a framework that helps break down what data science can mean, across companies and experience levels, into what it means to you and your career. In addition, I will provide examples for resources you can utilize to learn on the job, and off the job, and how to manage your learning while managing your workload.",
         "start": {
             "dateTime": "2019-10-11T11:50:00+02:00",
             "timeZone": "Europe/Berlin"
@@ -3108,7 +3060,7 @@
             "timeZone": "Europe/Berlin"
         },
         "source": {
-            "url": "http://pycon.de/program/pydata-9d3jqc-friend-or-foe-comparison-of-r-python-in-data-wrangling-visualisation-yuta-kanzawa",
+            "url": "http://pycon.de/program/pydata-e3lfdl-professional-development-and-career-progression-for-data-scientists-noa-tamir",
             "title": "PyConDE & PyData Berlin Schedule"
         },
         "reminders": {
@@ -3117,22 +3069,22 @@
         },
         "transparency": "transparent",
         "visibility": "public",
-        "id": "94ba576b7c4fea5073fcbd0f63848c1f"
+        "id": "cd5bdd247d60170d08c9351c2a258abc"
     },
     {
-        "summary": "Making the complex simple in data viz(Tania Vasilikioti (Babbel))",
+        "summary": "Lessons Learned as a Product Manager in Data Science(Tereza Iofciu (mytaxi))",
         "location": "Saal 4",
-        "description": "When building a data visualization in Python from scratch, we quickly stumble across multiple questions: \"What type of plot to use?\" \"How to scale the axes?\" \"How many dimensions?\" \"Should I use colors?\" In trying to answer these, we can easily get lost in multiple exploratory trips to Stack Overflow, documentation pages, example galleries, and tutorials, often resulting in code that utilizes three different libraries, is more than 50 lines long, and leaves us with a feeling that our graphic's language is lacking structure.\r\n\r\nPart of the problem is the abundance of data visualization packages available in Python and their very different syntactic patterns. Each package uses different ways to change elements like axis features, labels, annotations, titles, or even gridlines. Even the way the input data needs to be structured can differ. As a result, the analyst is often absorbed more by figuring out how to adjust each visual detail, instead of thinking of the graphic as a system of logically structured elements, and mapping the data to each of them separately.\r\n\r\nEnter *The Grammar of Graphics*, a framework conceptualized by L. Wilkinson in 1999, which helps us better understand the underlying structure of every graphic. The talk will introduce the framework by deconstructing a simple chart into its constituent \"grammatical elements\": *Aesthetics, Algebra, Scales, Statistics, Geometry, and Coordinates*. I will discuss each and explain how every element directly translates to the decisions we take when designing a graphic. \r\n\r\nThen, I will practically demonstrate how plotting with a grammar can be highly liberating, as it makes otherwise complex plots easy to think about and then to create. Even though *The Grammar of Graphics* (and its sister *The Layered Grammar of Graphics*, Wickham 2010) is most famously implemented in R's `ggplot2`, that doesn't mean the framework is language-specific \u2013 it can be used with any Python visualization package. To demonstrate, I will show an application of the framework by building a chart in the Python `plotnine` package, and then explaining how we can use *the grammar* as a guide to let us build the same chart in `matplotlib` \u2013 one grammatical element at a time.",
+        "description": "From answering simple data questions, building cool visualisations, to building machine learning solutions and bringing them to production, these are all skills expected from data science teams. \r\n\r\nThere is so much material these days online about cool data projects that it feels like working with data is easy and projects can be finished in no time. In order to implement data products and bring them from prototype to production successfully there is though a lot of work happening behind the scenes. \r\n\r\nThis talk focuses on my personal experience of working as a product manager for a cross disciplinary data science team. I will follow a machine learning project from infancy to going live, focusing mainly on tips and tricks and lessons learned. For example, talking to stakeholders, understanding the problems they have and then translating that to actual data problems is not as trivial as it may seem. This is a talk about the challenges in tech and about the value of communication.",
         "start": {
             "dateTime": "2019-10-11T12:25:00+02:00",
             "timeZone": "Europe/Berlin"
         },
         "end": {
-            "dateTime": "2019-10-11T12:55:00+02:00",
+            "dateTime": "2019-10-11T13:10:00+02:00",
             "timeZone": "Europe/Berlin"
         },
         "source": {
-            "url": "http://pycon.de/program/pydata-nc8vva-making-the-complex-simple-in-data-viz-tania-vasilikioti",
+            "url": "http://pycon.de/program/pydata-ts7tzf-lessons-learned-as-a-product-manager-in-data-science-tereza-iofciu",
             "title": "PyConDE & PyData Berlin Schedule"
         },
         "reminders": {
@@ -3141,7 +3093,7 @@
         },
         "transparency": "transparent",
         "visibility": "public",
-        "id": "656484c2e4676a0770bf44679c2a66a7"
+        "id": "379e0938cfd0f1ae65ab41e3392b75e8"
     },
     {
         "summary": "Machine learning with little data - from digital twin to predictive maintenance(Andreas Hantsch (CLOUD&HEAT Technologies GmbH))",

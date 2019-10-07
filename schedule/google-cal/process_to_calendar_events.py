@@ -9,6 +9,7 @@ with open(DATABAG_TALKS, 'r') as f:
     data = json.load(f)
 
 events = []
+keys = set()
 for _date in data['dates']:
     _datum = _date['datum']
     for room in _date['rooms']:
@@ -40,6 +41,10 @@ for _date in data['dates']:
             else:
                 _id = f"{''.join([x.lower() for x in session['title'] + _datum + session['end'] if x in string.ascii_letters + string.digits])}"
             _id = md5(_id.encode()).hexdigest()
+
+            if _id in keys:
+                continue  # avoid duplicates with same session name
+            keys.add(_id)
 
             events.append(
                 {
