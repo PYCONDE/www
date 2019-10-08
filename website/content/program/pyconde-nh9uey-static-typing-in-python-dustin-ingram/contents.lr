@@ -54,7 +54,7 @@ In this talk, we'll discuss the advantages and disadvantages to a static type sy
 
 # Audience
 
-This talk is for Python programmers who either don't know what static typing is, don't know why why they might want it, or who do have some understanding, but aren't sure what benefits they might get by adding type annotations to their code.
+This talk is for Python programmers who either don't know what static typing is, don't know why they might want it, or who do have some understanding, but aren't sure what benefits they might get by adding type annotations to their code.
 
 Attendees should know that there is a distinction between typed and untyped code, and understand what some types (list, int, string, etc) are, but don't need to know exactly what static typing is or have direct experience with typed code.
 
