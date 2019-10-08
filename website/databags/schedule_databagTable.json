@@ -686,10 +686,10 @@
                         "rowspan": 1
                     },
                     {
-                        "title": "Privacy-preserving Machine Learning for text processing",
-                        "speakers": "Sarah Diot-Girard",
-                        "code": "pydata-mf9dav-privacy-preserving-machine-learning-for-text-processing-sarah-diot-girard",
-                        "slug": "pydata-mf9dav-privacy-preserving-machine-learning-for-text-processing-sarah-diot-girard",
+                        "title": "vtext: text processing in Rust with Python bindings",
+                        "speakers": "Roman Yurchak",
+                        "code": "pydata-alrgxs-vtext-text-processing-in-rust-with-python-bindings-roman-yurchak",
+                        "slug": "pydata-alrgxs-vtext-text-processing-in-rust-with-python-bindings-roman-yurchak",
                         "subm_type": "Talk",
                         "duration": "00:30",
                         "colspan": 1,
@@ -769,12 +769,12 @@
                         "rowspan": 1
                     },
                     {
-                        "title": "vtext: text processing in Rust with Python bindings",
-                        "speakers": "Roman Yurchak",
-                        "code": "pydata-alrgxs-vtext-text-processing-in-rust-with-python-bindings-roman-yurchak",
-                        "slug": "pydata-alrgxs-vtext-text-processing-in-rust-with-python-bindings-roman-yurchak",
+                        "title": "Privacy-preserving Machine Learning for text processing",
+                        "speakers": "Sarah Diot-Girard",
+                        "code": "pydata-mf9dav-privacy-preserving-machine-learning-for-text-processing-sarah-diot-girard",
+                        "slug": "pydata-mf9dav-privacy-preserving-machine-learning-for-text-processing-sarah-diot-girard",
                         "subm_type": "Talk",
-                        "duration": "00:30",
+                        "duration": "00:45",
                         "colspan": 1,
                         "rowspan": 1
                     },
@@ -2216,9 +2216,9 @@
                     "10:00",
                     {
                         "title": "Law, ethics and machine learning \u2013 a curious m\u00e9nage \u00e0 trois",
-                        "speakers": "Benjamin",
-                        "code": "pydata-9vgglp-law-ethics-and-machine-learning-a-curious-menage-a-trois-benjamin",
-                        "slug": "pydata-9vgglp-law-ethics-and-machine-learning-a-curious-menage-a-trois-benjamin",
+                        "speakers": "Dr. Benjamin Werthmann",
+                        "code": "pydata-9vgglp-law-ethics-and-machine-learning-a-curious-menage-a-trois-dr-benjamin-werthmann",
+                        "slug": "pydata-9vgglp-law-ethics-and-machine-learning-a-curious-menage-a-trois-dr-benjamin-werthmann",
                         "subm_type": "Talk",
                         "duration": "00:45",
                         "colspan": 1,
