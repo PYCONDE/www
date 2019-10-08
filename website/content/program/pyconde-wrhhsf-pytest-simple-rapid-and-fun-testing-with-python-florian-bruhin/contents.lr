@@ -50,13 +50,22 @@ categories: pyconde, python-skill-level-basic, domain-expertise-none, tutorial, 
 ---
 slugified_slot_links: wednesday, wednesday-1520
 ---
-body: The pytest tool presents a rapid and simple way to write tests for your Python
+body: # Overview
+
+The pytest tool presents a rapid and simple way to write tests for your Python
 code. This training gives an introduction with exercises to some
 distinguishing features. We'll also examine how to run existing non-pytest test
 suites and discuss migration strategies. Various plugins which extend pytest's
 functionality even further will be introduced.
 
-This is the planned outline:
+# Preparation
+
+The workshop uses Python 3.5 (or later), it'd be good if you could set it up before the workshop starts. If you know how, set up a virtualenv with pytest and hypothesis installed - if you don't, that's no problem, I'll cover it at the beginning of the workshop!
+
+Code needed for the exercises can be found at https://t.cmpl.cc/pycon-de-2019.zip
+
+
+# Planned outline
 
 - (30 minutes) pytest feature walkthrough:
   * Automatic test discovery
@@ -70,18 +79,17 @@ This is the planned outline:
   * Setup and teardown via dependency injection
   * Declaring and using function/module/session scoped fixtures
   * Using fixtures from fixture functions
-  * Parametrizing fixtures
   * Looking at useful built-in fixtures (managing temporary files, patching, output capturing)
   * Exercises
 
 - (15 minutes): Running existing unittest suites with pytest:
   * Discussing advantages and limitations
   * Strategies for migrating to pytest
-  * Exercises
 
 - (15 minutes): Useful third-party plugins:
-  * Coverage integration
-  * Property-based testing (automated testcase generation) via Hypothesis
+  * Overview of several pytest plugins
+
+# Requirements
 
 Basic Python OOP knowledge (e.g. what a class/instance is) is required.
 

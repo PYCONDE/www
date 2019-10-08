@@ -58,3 +58,12 @@ The session will cover the following topics:
 - deploying an API (via Docker) to get predictions from the model
 - using DevOps to update the API
 
+Notes:
+
+Please bring your own device, as we will be running the workshop on individual machines.
+
+To prepare:
+- make sure you have a Python environment >= 3.5 installed (preferred using Anaconda)
+- we will be using Azure, so make sure you have a Microsoft account - no Azure registration needed beforehand
+- optional: Install Docker on your machine, install VS Code, install Azure Storage Explorer
+
