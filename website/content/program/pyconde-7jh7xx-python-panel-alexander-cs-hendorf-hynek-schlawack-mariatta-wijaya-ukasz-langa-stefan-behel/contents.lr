@@ -10,7 +10,7 @@ short_description: Panel about Python, core-devs, development, challenges, commu
 ---
 twitter_image: /static/media/twitter/7JH7XX.jpg
 ---
-speakers: Alexander CS Hendorf, Hynek Schlawack, Mariatta Wijaya, Łukasz Langa, Stefan Behel
+speakers: Alexander CS Hendorf, Hynek Schlawack, Mariatta Wijaya, Łukasz Langa, Stefan Behnel
 ---
 submission_type: Panel
 ---
@@ -63,7 +63,7 @@ ambv on Github. Python core developer, Python 3.8 release manager, creator of Bl
 
 visit the speaker at: [Twitter](https://twitter.com/llanga) • [Github](https://github.com/ambv) • [Homepage](http://lukasz.langa.pl)
 
-#### Stefan Behel
+#### Stefan Behnel
 
 
 
@@ -83,7 +83,7 @@ start_time: 14:00
 ---
 day: thursday
 ---
-meta_title: Python Panel Alexander CS Hendorf Hynek Schlawack Mariatta Wijaya Łukasz Langa Stefan Behel PyConDE & PyDataBerlin 2019 conference 
+meta_title: Python Panel Alexander CS Hendorf Hynek Schlawack Mariatta Wijaya Łukasz Langa Stefan Behnel PyConDE & PyDataBerlin 2019 conference 
 ---
 meta_twitter_title: Python Panel @hendorf hynek mariatta llanga #PyConDE #PyDataBerlin #PyData
 ---
