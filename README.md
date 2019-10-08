@@ -21,7 +21,7 @@ The local website is run on
 [http://localhost:5000](http://localhost:5000)
 
 
-Build content pages (talks, tutorials, :
+Build content pages (talks, tutorials, ...):
 
 
     python process_sessions.py
@@ -31,7 +31,7 @@ Build content pages (talks, tutorials, :
 
 ### Preparation
  - A developer account for the Twitter API
- - An app registered for this deveoper account
+ - An app registered for this developer account
  - Save consumer_key and consumer_secret in `config.py`
  - Keep `config.py` private!
  
@@ -82,7 +82,7 @@ Run `rename_tmp_banners`: renames the banners in to `code.jpg` in the same order
  - [Twitter]( https://cards-dev.twitter.com/validator)
 
 
-### Randomly Select a Session for Tweewting
+### Randomly Select a Session for Tweeting
 
 Selects a random session, considers sessions having a speaker twitter handle only.
 Policy is one tweet per session, tweeted session are added to `databags/tweeted_talks.txt`
