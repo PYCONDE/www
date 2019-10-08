@@ -1,0 +1,114 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+
+
+    <section class="section section--singular">
+        <div class="container">
+                <div class="col-12 offset-xl-1">
+                    <header class="page-header page-header__schedule">
+                        <h1 class="page-title">Schedule</h1>
+                        <h5 class="page-subtitle">
+                            Sessions Table<br/>
+                            <span>More than 112 sessions await you.</span>
+                        </h5>
+                    </header>
+                </div>
+
+                    {% for theday in  bag('schedule_databagT').dates %}
+
+                        <div class="row">
+                            <div class="col-12 col-xl-10 offset-xl-1">
+
+                                <h3>{{ theday.day }}</h3>
+                                <table>
+                                    <tr style="vertical-align: top">
+
+                                        {% for _time in theday.times %}
+                                            {% if _time.data_tab == "sessionname" %}
+                                            {% else %}
+                                                <td style="vertical-align: top;" class="tabs__nav">
+
+                                                    {{ _time.time }}
+                                                </td>
+
+                                                {% for session in _time.sessions %}
+                                                    {% if session.title == "" %}
+                                                    {% else %}
+                                                    <td class="tabs__nav">
+                                                        <p class="clipcard__title sessionname">{{ session.room_name }}</p>
+                                                        <p class="clipcard__title sessionname compact_title">
+                                                            {% set _href = session.url if session.url else "#" %}
+                                                            <a class=""
+                                                               href="{{ _href }}">{{ session.type }}: {{ session.title }}
+                                                            </a>
+                                                        </p>{% if session.end %}<span> (until
+                                                            {{ session.end }})</span>{% endif %}
+                                                    </td>
+                                                    {%  endif %}
+                                                {% endfor %}
+
+                                            {% endif %}
+
+                                            </tr>
+                                        {% endfor %}
+
+
+{#                                    <div class="tabs__content">#}
+{##}
+{#                                        {% for _time in theday.times %}#}
+{##}
+{#                                            <div class="tabs__item {% if loop.index0 == 0 %}tabs__item--active{% endif %}"#}
+{#                                                 data-tab="{{ _time.data_tab }}"#}
+{#                                                 tabindex="{% if loop.index0 == 0 %}0{% else %}-1{% endif %}" role="tab"#}
+{#                                                 aria-selected="{% if loop.index0 == 0 %}true{% else %}false{% endif %}">#}
+{##}
+{#                                                {% for session in _time.sessions %}#}
+{##}
+{#                                                    {% if session.title %}#}
+{#                                                        <div class="col-12 row clipcard">#}
+{#                                                            <div class="col-12 col-md-2 col-lg-2">#}
+{#                                                                <p class="clipcard__head">{{ session.start }} {% if session.end %}-#}
+{#                                                                    {{ session.end }}{% endif %}</p>#}
+{#                                                            </div>#}
+{#                                                            <div class="clipcard__body col-12 col-md-10 col-lg-10" style="display: block">#}
+{#                                                                <p class="clipcard__title sessionname">{{ session.room_name }}</p>#}
+{#                                                                <h6 class="clipcard__title sessionname compact_title">#}
+{#                                                                    {% set _href = session.url if session.url else "#" %}#}
+{#                                                                    <a class="schedule_title"#}
+{#                                                                       href="{{ _href }}">{{ session.type }}: {{ session.title }}#}
+{#                                                                    </a>#}
+{#                                                                </h6>#}
+{#                                                                {% if session.speaker_names %}#}
+{#                                                                    <p class="clipcard__info"><span#}
+{#                                                                            class="text-body-3">{{ session.speaker_names }}&nbsp;</span>#}
+{#                                                                    </p>#}
+{#                                                                {% endif %}#}
+{#                                                                <span class="clipcard__subtitle"><span#}
+{#                                                                        class="sub-head-2">{{ session.track }}#}
+{#                                                                    {% if session.domains %} • {% endif %}{{ session.domains }}</span>#}
+{#                                                                </span>#}
+{#                                                            </div>#}
+{#                                                        </div>#}
+{##}
+{#                                                    {% endif %}#}
+{##}
+{#                                                {% endfor %}#}
+{##}
+{#                                            </div>#}
+{##}
+{#                                        {% endfor %}#}
+{#                                    </div>#}
+
+                                </table>
+                            </div>
+                        </div>
+
+                    {% endfor %}
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}

@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla:400,700i,700|Poppins:700">
     <link rel="stylesheet" href="/static/css/font-awesome.css?h=0140952c" type="text/css" media="all">
     <link rel="stylesheet" href="/static/style.css?h=28d25877" type="text/css" media="all">
-    <link rel="stylesheet" href="/static/style-custom.css?h=39907fb0" type="text/css" media="all">
+    <link rel="stylesheet" href="/static/style-custom.css?h=549e129d" type="text/css" media="all">
 
     <!-- other data for sharing -->
 
@@ -48,8 +48,6 @@
     <meta name="twitter:description" content="Automate your machine learning and data pipelines with Apache Airflow">
     <meta name="twitter:image" content="https://de.pycon.org/static/media/twitter/7YG8RT.jpg?h=3bc61d73">
     
-
-
 
 </head>
 
@@ -91,6 +89,22 @@
                                                             <ul class="sub-menu">
                                                                 
                                                                     <li>
+                                                                        <a href="/schedule/"><span>Schedule</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/scheduleTable/"><span>Schedule (full table)</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/scheduleT/"><span>Schedule (time-&gt;sessions)</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/calendar-integration/"><span>Calendar Integration</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
                                                                         <a href="/program/"><span>All Sessions</span></a>
                                                                     </li>
                                                                 
@@ -112,10 +126,6 @@
                                                                 
                                                                     <li>
                                                                         <a href="/program/categories/tutorial"><span>Tutorials</span></a>
-                                                                    </li>
-                                                                
-                                                                    <li>
-                                                                        <a href="/schedule/"><span>Schedule</span></a>
                                                                     </li>
                                                                 
                                                             </ul>
@@ -187,6 +197,10 @@
                                                                 
                                                                     <li>
                                                                         <a href="/team/"><span>Team</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/app/"><span>App</span></a>
                                                                     </li>
                                                                 
                                                             </ul>
@@ -304,6 +318,24 @@
 <p>A very nice feature of Airflow is that all the above is configured and defined in Python code. 
 Therefore the Airflow pipelines can benefit from the advantages of the software development process (such as peer-reviews, automated testing and version control).</p>
 <p>In this workshop we’ll go over basic Airflow concepts and we’ll setup an instance for orchestrating an inference pipeline for a machine learning model.</p>
+<h4>Details for Audience</h4>
+<ul>
+<li>It assumes no previous Airflow knowledge.</li>
+<li>The main purpose is creating a <strong>basic</strong> train and inference pipeline with Airflow.</li>
+<li>It is not about a particular model / ML method.</li>
+<li>It's not an advanced Airflow workshop.</li>
+<li>It is not suitable for Python beginners.</li>
+</ul>
+<h4>Workshop Requirements</h4>
+<ul>
+<li><strong><a href="https://www.docker.com/">Docker installed</a></strong>.</li>
+<li>Any editor (Sublime, PyCharm, Vim, Atom).</li>
+<li><a href="https://docs.docker.com/get-started/part2/">Verify that Docker works properly</a>.</li>
+<li><strong>Ensure that you allocated 4gb of RAM for the Docker Engine</strong>. (Can be done via desktop app, check Preferences section. After setting up, restart Docker App)</li>
+<li><strong>Download the Airflow Docker image</strong>: <code>docker pull puckel/docker-airflow</code></li>
+<li>Download repository under the <code>$HOME</code> directory.
+<code>git clone https://github.com/deliveryhero/pyconde2019-airflow-ml-workshop</code></li>
+</ul>
 
 
                                 <div class="single-content__tags">
@@ -466,6 +498,14 @@ Her interests include Big Data Architecture, Process Automation and Machine Lear
                                     
 
                                         
+                                            <li><a href="/schedule/"><span>Schedule</span></a></li>
+                                        
+                                            <li><a href="/scheduleTable/"><span>Schedule (full table)</span></a></li>
+                                        
+                                            <li><a href="/scheduleT/"><span>Schedule (time-&gt;sessions)</span></a></li>
+                                        
+                                            <li><a href="/calendar-integration/"><span>Calendar Integration</span></a></li>
+                                        
                                             <li><a href="/program/"><span>All Sessions</span></a></li>
                                         
                                             <li><a href="/program/categories/pydata"><span>PyData Berlin Sessions</span></a></li>
@@ -477,8 +517,6 @@ Her interests include Big Data Architecture, Process Automation and Machine Lear
                                             <li><a href="/program/categories/talk"><span>Talks</span></a></li>
                                         
                                             <li><a href="/program/categories/tutorial"><span>Tutorials</span></a></li>
-                                        
-                                            <li><a href="/schedule/"><span>Schedule</span></a></li>
                                         
 
                                     
@@ -523,6 +561,8 @@ Her interests include Big Data Architecture, Process Automation and Machine Lear
                                             <li><a href="/financial-aid/"><span>Financial Aid</span></a></li>
                                         
                                             <li><a href="/team/"><span>Team</span></a></li>
+                                        
+                                            <li><a href="/app/"><span>App</span></a></li>
                                         
 
                                     

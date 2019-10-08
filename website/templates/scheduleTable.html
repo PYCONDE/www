@@ -1,0 +1,121 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+    <style type="text/css">
+        table {
+            font-family: Karla, sans-serif;
+            padding: 3px;
+        }
+
+        tr {
+            font-family: Karla, sans-serif;
+            font-weight: 500;
+            font-size: 0.8em;
+            line-height: 1em;
+            width: 100%;
+        }
+
+        td {
+            font-family: Poppins, sans-serif;
+            font-size: 0.8em;
+            padding: 3px;
+        }
+
+        span {
+            font-family: Karla, sans-serif;
+            font-size: 1em;
+        }
+
+        a {
+            color: #222;
+        }
+
+        @media print {
+            #masthead {
+                position: static;
+            }
+        }
+
+    </style>
+
+    <section class="section section--singular">
+        <div class="container">
+            <div class="col-12 offset-xl-1">
+                <header class="page-header page-header__schedule">
+                    <h1 class="page-title">Schedule Sessions' Table</h1>
+                </header>
+            </div>
+
+            {% set theheader = bag('schedule_databagTable')["header"] %}
+
+
+            {% for theday in  bag('schedule_databagTable')["dates"] %}
+
+
+                <div class="row" >
+                    <div class="col-12 col-xl-10 offset-xl-1">
+
+                        <h3>{{ theday.day }}</h3>
+
+
+                        <table>
+                            {% for tr in theday.sessions %}
+                                {% if tr[0] != "sessionname" %}
+                                    {% set color = "#dce6f2" %}
+                                {% else %}
+                                    <tr>
+                                        {% for room in theheader %}
+                                            <td>{{ room }}</td>
+                                        {% endfor %}
+                                    </tr>
+
+                                    {% set color = "lightgray" %}
+                                {% endif %}
+                                <tr>
+
+                                    <td rowspan="1" colspan="1">
+                                        {% if tr[0] != "sessionname" %}
+                                            {{ tr[0] }}
+                                        {% else %}
+                                            &nbsp;
+                                        {% endif %}
+                                    </td>
+
+                                    {% for td in tr[1:] %}
+                                        <td style="background-color: {{ color }}; vertical-align: top"
+                                            rowspan="{{ td.rowspan }}"
+                                            colspan="{{ td.colspan }}">
+                                            {% set _href = "/program/" + td.slug if td.slug else "#" %}
+                                            {% if _href !="#" %}
+                                                <a href="{{ _href }}">
+                                                    {{ td.title }}
+
+                                                    {% if td.speakers %}
+                                                        <span><br>{{ td.speakers }}</span>
+                                                    {% endif %}
+                                                </a>
+                                            {% else %}
+                                                {{ td.title }}
+                                                {% if td.speakers %}
+                                                    <span><br>{{ td.speakers }}</span>
+                                                {% endif %}
+                                            {% endif %}
+
+                                        </td>
+                                    {% endfor %}
+
+
+                                </tr>
+                            {% endfor %}
+
+
+                        </table>
+                    </div>
+                </div>
+
+            {% endfor %}
+
+        </div>
+    </section>
+
+{% endblock %}

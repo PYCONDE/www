@@ -292,13 +292,15 @@ body: {body}
             pass
         elif 'Tutorial' in submission['submission_type']:
             pass
+        elif 'Panel' in submission['submission_type']:
+            pass
         # published keynotes
         # is_featured = sneak peak must be set in Pretalx
         elif 'Keynote' in submission['submission_type']:
             if submission['is_featured']:
                 pass
             else:
-                continue
+                print(f'skipped: submission {submission["code"]} {submission["title"]}')
         else:
             continue
 
@@ -439,9 +441,9 @@ def git_push():
 
 
 if __name__ == "__main__":
-    update_session_pages(use_cache=False)
+    # update_session_pages(use_cache=False)
     update_schedule_from_sheet()
     update_session_pages(use_cache=True)
     generate_session_pages()
     run_lekor_update()
-    # git_push()
+    git_push()

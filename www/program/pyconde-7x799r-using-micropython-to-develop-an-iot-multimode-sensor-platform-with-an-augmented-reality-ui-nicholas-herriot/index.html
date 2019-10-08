@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla:400,700i,700|Poppins:700">
     <link rel="stylesheet" href="/static/css/font-awesome.css?h=0140952c" type="text/css" media="all">
     <link rel="stylesheet" href="/static/style.css?h=28d25877" type="text/css" media="all">
-    <link rel="stylesheet" href="/static/style-custom.css?h=39907fb0" type="text/css" media="all">
+    <link rel="stylesheet" href="/static/style-custom.css?h=549e129d" type="text/css" media="all">
 
     <!-- other data for sharing -->
 
@@ -48,8 +48,6 @@
     <meta name="twitter:description" content="Learn how to bring the internet of things to augmented reality using python and web technologies">
     <meta name="twitter:image" content="https://de.pycon.org/static/media/twitter/7X799R.jpg?h=3de8d46a">
     
-
-
 
 </head>
 
@@ -91,6 +89,22 @@
                                                             <ul class="sub-menu">
                                                                 
                                                                     <li>
+                                                                        <a href="/schedule/"><span>Schedule</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/scheduleTable/"><span>Schedule (full table)</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/scheduleT/"><span>Schedule (time-&gt;sessions)</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/calendar-integration/"><span>Calendar Integration</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
                                                                         <a href="/program/"><span>All Sessions</span></a>
                                                                     </li>
                                                                 
@@ -112,10 +126,6 @@
                                                                 
                                                                     <li>
                                                                         <a href="/program/categories/tutorial"><span>Tutorials</span></a>
-                                                                    </li>
-                                                                
-                                                                    <li>
-                                                                        <a href="/schedule/"><span>Schedule</span></a>
                                                                     </li>
                                                                 
                                                             </ul>
@@ -187,6 +197,10 @@
                                                                 
                                                                     <li>
                                                                         <a href="/team/"><span>Team</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/app/"><span>App</span></a>
                                                                     </li>
                                                                 
                                                             </ul>
@@ -287,24 +301,24 @@
                                 <h2>Who is this for</h2>
 <p>Anyone with a curious mind and interested in how to marry the physical world and IoT with the virtual. This talk is pitched at intermediate, but for beginners extensive documentation and a github repo will be available to read and learn from.</p>
 <h2>What is it about</h2>
-<p>The story of a project to capture data for the purpose of using in AI projects, which then became an OS platform with innovative ideas more important that the original concept. A multimode sensor platform using Augmented Reality for visualization and control.</p>
+<p>The story of a project to capture data for the purpose of using in AI projects, which then became an OS platform with innovative ideas more important that the original concept. A multimode sensor platform using Augmented Reality for visualization.</p>
 <h2>Will I See The Real Prototype</h2>
 <p>Yes there will be a demonstration of the prototype and this will be used as part of the talk to explain the concepts.</p>
 <h2>What Technologies Will It Cover</h2>
-<p>This talk will cover a microcontroller with plug-able sensors using (micropython)[<a href="http://www.micropython.org/">http://www.micropython.org/</a>] for the main software development platform. For the serve side components the talk will be using an IoT Gateway used to sync with the sensor platform.
+<p>This talk will cover a microcontroller with plug-able sensors using (micropython)[<a href="http://www.micropython.org/">http://www.micropython.org/</a>] for the main software development platform. For the serve side components the talk will be using a micro web server used to serve sensor data and a simple AR display.
 For Augmented Reality the talk will switch to using HTML and JavaScript needed to render objects in the browser for the demo.</p>
 <h2>What Will I Learn</h2>
 <p>Hopefully you will learn an introduction to IoT concepts to developers who are interested in this tech, but we will use python for embedded systems and show how to used. You will see in this talk:</p>
 <ul>
 <li>How to use a tiny microcontroller with real sensors using (micropython)[<a href="http://www.micropython.org/">http://www.micropython.org/</a>].</li>
 <li>How to connect 'things' to the platform.</li>
-<li>A server side component that allows the ingestion of data.</li>
-<li>The web side, using web technologies like A-Frame, AR.js and awe.js for the purpose of having AR capabilities.</li>
+<li>A micro web server to serve content.</li>
+<li>The web side, using web technologies like A-Frame, AR.js for the purpose of having AR capabilities.</li>
 </ul>
 <h2>In Summary</h2>
-<p>This talk will cover going from the small embedded world of IoT and sensors using python. Some time will be given to go over the general server side or back end processing. Then the last part of the talk will go over the concepts of Augmented Reality and using a mobile browser to view data from the sensors.</p>
+<p>This talk will cover going from the small embedded world of IoT and sensors using python. Some time will be given to go over the general micro server. Then the last part of the talk will go over the concepts of Augmented Reality and using a mobile browser to view data from the sensors.</p>
 <h3>Resources</h3>
-<p>The main github repo for the project is (here)[<a href="https://github.com/SamsungResearchUK-IoT-Meetup/projects">https://github.com/SamsungResearchUK-IoT-Meetup/projects</a>]. However there will be nothing much to view till near the time of the talk.</p>
+<p>The main github repo for the project is <a href="https://github.com/SamsungResearchUK-IoT-Meetup/multimode_sensor_platform">here</a>. However there will be nothing much to view till near the time of the talk.</p>
 
 
                                 <div class="single-content__tags">
@@ -463,6 +477,14 @@ For Augmented Reality the talk will switch to using HTML and JavaScript needed t
                                     
 
                                         
+                                            <li><a href="/schedule/"><span>Schedule</span></a></li>
+                                        
+                                            <li><a href="/scheduleTable/"><span>Schedule (full table)</span></a></li>
+                                        
+                                            <li><a href="/scheduleT/"><span>Schedule (time-&gt;sessions)</span></a></li>
+                                        
+                                            <li><a href="/calendar-integration/"><span>Calendar Integration</span></a></li>
+                                        
                                             <li><a href="/program/"><span>All Sessions</span></a></li>
                                         
                                             <li><a href="/program/categories/pydata"><span>PyData Berlin Sessions</span></a></li>
@@ -474,8 +496,6 @@ For Augmented Reality the talk will switch to using HTML and JavaScript needed t
                                             <li><a href="/program/categories/talk"><span>Talks</span></a></li>
                                         
                                             <li><a href="/program/categories/tutorial"><span>Tutorials</span></a></li>
-                                        
-                                            <li><a href="/schedule/"><span>Schedule</span></a></li>
                                         
 
                                     
@@ -520,6 +540,8 @@ For Augmented Reality the talk will switch to using HTML and JavaScript needed t
                                             <li><a href="/financial-aid/"><span>Financial Aid</span></a></li>
                                         
                                             <li><a href="/team/"><span>Team</span></a></li>
+                                        
+                                            <li><a href="/app/"><span>App</span></a></li>
                                         
 
                                     

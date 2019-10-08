@@ -41,3 +41,10 @@ a.tabs__nav > p {
 .force_link {
     color: #011eff !important;
 }
+
+
+/* Schedule transposed */
+.compact_title {
+    line-height: 18px;
+    margin-bottom: 3px;
+}

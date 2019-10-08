@@ -8,8 +8,12 @@ __pycache__/
 config.py
 _private
 _template_website/
+.DS_Store
+.idea
+
 submissions.json
 submissions.txt
 submissions_generated.txt
 
 tito-tools
+schedule/google-cal/events_backup*

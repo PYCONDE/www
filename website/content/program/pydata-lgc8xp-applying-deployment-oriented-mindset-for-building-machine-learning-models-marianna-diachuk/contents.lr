@@ -1,0 +1,54 @@
+_model: session 
+---
+code: LGC8XP
+---
+title: Applying deployment oriented mindset for building Machine Learning models
+---
+description: Getting stuck for months trying to deploy the model and fighting with data inconsistency and bugs? This talk will introduce the way to build the development process with deployment in mind.
+---
+short_description: Getting stuck for months trying to deploy the model and fighting with data inconsistency and bugs? This talk will introduce the way to build the development process with deployment in mind.
+---
+twitter_image: /static/media/twitter/LGC8XP.jpg
+---
+speakers: Marianna Diachuk
+---
+submission_type: Talk
+---
+domains: Data Science, Machine Learning
+---
+biography: #### Marianna Diachuk
+
+Affiliation: Women Who Code Kyiv
+
+
+
+I'm a Data Science Lead of Women Who Code local community. Leaded a small but proud team of 2 data scientists and 1 data engineer.I'm passionate about learning and coding, always focus on organizing agile process of development and prefer to plan ahead.
+Currently in the process of writing a series of articles focused on ML models deployment https://medium.com/@mariaannadiachuk
+
+visit the speaker at: [Twitter](https://twitter.com/dark_matter88_) • [Github](https://github.com/DarkMatter88) • [Homepage](https://www.linkedin.com/company/women-who-code-kyiv/)
+---
+affiliation: Women Who Code Kyiv
+---
+track: PyData
+---
+python_skill: Python Skill Level none
+---
+domain_expertise: Domain Expertise some
+---
+room: Hauptsaal
+---
+start_time: 15:30
+---
+day: wednesday
+---
+meta_title: Applying deployment oriented mindset for building Machine Learning models Marianna Diachuk PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Applying deployment oriented mindset for building Machine Learning models @dark_matter88_ #PyConDE #PyDataBerlin #PyData
+---
+categories: pydata, python-skill-level-none, domain-expertise-some, talk, data-science, machine-learning, wednesday, wednesday-1530
+---
+slugified_slot_links: wednesday, wednesday-1530
+---
+body: Developing a complicated ensemble model with hundreds of features fetched from a bunch of different sources? Give me two! Showing great metrics to the stakeholders and already discussing how it will hit a home run in production? Why not! And then getting stuck for months trying to deploy the model and fighting with data inconsistency and bugs? Sounds familiar?
+This talk will focus on providing guidelines on how to build your model development process keeping in mind the deployment phase to come later on.
+

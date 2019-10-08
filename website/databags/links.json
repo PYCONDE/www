@@ -4,6 +4,22 @@
       "name": "Program",
       "submenu": [
         {
+          "name": "Schedule",
+          "path": "/schedule"
+        },
+        {
+          "name": "Schedule (full table)",
+          "path": "/scheduleTable"
+        },
+        {
+          "name": "Schedule (time->sessions)",
+          "path": "/scheduleT"
+        },
+        {
+          "name": "Calendar Integration",
+          "path": "/calendar-integration"
+        },
+        {
           "name": "All Sessions",
           "path": "/program"
         },
@@ -26,10 +42,6 @@
         {
           "name": "Tutorials",
           "path": "/program/categories/tutorial"
-        },
-        {
-          "name": "Schedule",
-          "path": "/schedule"
         }
       ]
     },
@@ -67,6 +79,10 @@
         {
           "name": "Team",
           "path": "/team"
+        },
+        {
+          "name": "App",
+          "path": "/app"
         }
       ]
     },

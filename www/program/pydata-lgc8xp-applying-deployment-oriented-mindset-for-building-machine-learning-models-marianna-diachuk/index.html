@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <script>(function (html) {
+        html.className = html.className.replace(/\bno-js\b/, 'js')
+    })(document.documentElement)</script>
+    <title>PyConDE & PyData Berlin 2019 | Applying deployment oriented mindset for building Machine Learning models</title>
+    <meta name="description"
+          content="PyConDE & PyData Berlin 2019. October 9-13, Berlin Germany. Where Pythonistas in Germany can meet to learn about new and upcoming Python libraries, tools, software and data science.">
+
+
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//s.w.org">
+    <link rel="icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla:400,700i,700|Poppins:700">
+    <link rel="stylesheet" href="/static/css/font-awesome.css?h=0140952c" type="text/css" media="all">
+    <link rel="stylesheet" href="/static/style.css?h=28d25877" type="text/css" media="all">
+    <link rel="stylesheet" href="/static/style-custom.css?h=549e129d" type="text/css" media="all">
+
+    <!-- other data for sharing -->
+
+    <meta  property="og:title" content="Applying deployment oriented mindset for building Machine Learning models Marianna Diachuk PyConDE &amp; PyDataBerlin 2019 conference ">
+
+    
+        <meta  name="og:image:secure_url" content="https://de.pycon.org/static/media/twitter/LGC8XP.jpg?h=5c129d89">
+        <meta  name="og:image" content="https://de.pycon.org/static/media/twitter/LGC8XP.jpg?h=5c129d89">
+    
+
+    <meta property="og:description" content="Getting stuck for months trying to deploy the model and fighting with data inconsistency and bugs? This talk will introduce the way to build the development process with deployment in mind.">
+    <meta property="og:url" content="https://de.pycon.org/program/pydata-lgc8xp-applying-deployment-oriented-mindset-for-building-machine-learning-models-marianna-diachuk/">
+    <meta property="og:type" content="article">
+    <meta property=“article:publisher“ content="https://de.pycon.org">
+    <meta property=“og:site_name“ content="PyConDE &amp; PyData Berlin" />
+
+    <meta property=“og:image:type“ content="image/jpeg" />
+    <meta property=“og:image:width“ content=“2108″ />
+    <meta property=“og:image:height“ content=“1054″ />
+
+    <!-- Twitter Card data -->
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@pyconde">
+    <meta name="twitter:title" content="Applying deployment oriented mindset for building Machine Learning models @dark_matter88_ #PyConDE #PyDataBerlin #PyData">
+    <meta name="twitter:description" content="Getting stuck for months trying to deploy the model and fighting with data inconsistency and bugs? This talk will introduce the way to build the development process with deployment in mind.">
+    <meta name="twitter:image" content="https://de.pycon.org/static/media/twitter/LGC8XP.jpg?h=5c129d89">
+    
+
+</head>
+
+<body class="home blog has-header-background">
+<div class="site" id="page">
+    <header class="site-header" id="masthead">
+        <div class="site-header__wrap">
+            <div class="container">
+                <div class="row in-view">
+                    <div class="col-12 col-xl-10 offset-xl-1">
+                        <div class="site-header__elements">
+                            <div class="site-header__mobile hidden-lg-up">
+                                <button class="site-header__mobile--trigger side-menu-trigger">
+                                    <i class="fa fa-bars" aria-hidden="true"></i>
+                                </button>
+                            </div>
+
+                            <div class="site-header__branding">
+                                <div class="site-branding">
+                                    <a href="/">
+                                        <img src="/static/media/PyConDE_PyDataBer_circle_trans_500.png" alt="Home" width="232"
+                                             height="144">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="site-header__nav hidden-md-down">
+                                <div class="site-header__menu">
+                                    <nav class="main-navigation" aria-label="Site Menu" role="navigation">
+                                        <div class="menu-top-menu-container">
+                                            <ul class="menu" id="top-menu">
+
+                                                
+
+
+                                                    
+                                                        <li class="menu-item-has-children">
+                                                            <a href="#">Program</a>
+                                                            <ul class="sub-menu">
+                                                                
+                                                                    <li>
+                                                                        <a href="/schedule/"><span>Schedule</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/scheduleTable/"><span>Schedule (full table)</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/scheduleT/"><span>Schedule (time-&gt;sessions)</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/calendar-integration/"><span>Calendar Integration</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/program/"><span>All Sessions</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/program/categories/pydata"><span>PyData Berlin Sessions</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/program/categories/pyconde"><span>PyConDE Sessions</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/program/categories/keynote"><span>Keynotes</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/program/categories/talk"><span>Talks</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/program/categories/tutorial"><span>Tutorials</span></a>
+                                                                    </li>
+                                                                
+                                                            </ul>
+                                                        </li>
+
+
+                                                    
+
+
+                                                
+
+
+                                                    
+                                                        <li><a href="/frequently-asked-questions/">FAQ</a></li>
+
+
+                                                    
+
+
+                                                
+
+
+                                                    
+                                                        <li><a href="/blog/">Blog</a></li>
+
+
+                                                    
+
+
+                                                
+
+
+                                                    
+                                                        <li><a href="/sprints/">Sprints</a></li>
+
+
+                                                    
+
+
+                                                
+
+
+                                                    
+                                                        <li><a href="/sponsors/">Sponsors</a></li>
+
+
+                                                    
+
+
+                                                
+
+
+                                                    
+                                                        <li class="menu-item-has-children">
+                                                            <a href="#">Info</a>
+                                                            <ul class="sub-menu">
+                                                                
+                                                                    <li>
+                                                                        <a href="/venue/"><span>Venue</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/call-for-proposals/"><span>Call for Proposals</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/financial-aid/"><span>Financial Aid</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/team/"><span>Team</span></a>
+                                                                    </li>
+                                                                
+                                                                    <li>
+                                                                        <a href="/app/"><span>App</span></a>
+                                                                    </li>
+                                                                
+                                                            </ul>
+                                                        </li>
+
+
+                                                    
+
+
+                                                
+
+
+                                                    
+                                                        <li><a href="/code-of-conduct/">Code of Conduct</a></li>
+
+
+                                                    
+
+
+                                                
+
+
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="site-header__cta hidden-sm-down">
+                                <a class="btn btn--secondary" target="_blank" href="https://ti.to/pycon-de/pyconde-pydata-2019">Buy
+                                    ticket</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="site-content" id="content">
+        <div class="content-area" id="primary">
+            
+    <main class="site-main" id="main">
+        <section class="section section--singular">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-xl-10 offset-xl-1">
+                        <header class="page-header text-center short_margin">
+
+                            <h2 class="page-title">Applying deployment oriented mindset for building Machine Learning models</h2>
+
+                            
+                            
+                            
+                            
+
+                            <h3 class="page-title">Marianna Diachuk</h3>
+
+                        </header>
+
+
+                        <div class="single-content">
+                            <div class="single-content__footer">
+
+                                <div class="single-content__share">
+                                    <span class="sub-head-2">Share</span>
+                                    <a href="https://twitter.com/intent/tweet?text=Getting%20stuck%20for%20months%20trying%20to%20deploy%20the%20model%20and%20fighting%20with%20data%20inconsistency%20and%20bugs%3F%20This%20talk%20will%20introduce%20the%20way%20to%20build%20the%20development%20process%20with%20deployment%20in%20mind.&url=https://de.pycon.org/program/pydata-lgc8xp-applying-deployment-oriented-mindset-for-building-machine-learning-models-marianna-diachuk/&hashtags=PyConDE,PyDataBerlin"} target="_blank">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://de.pycon.org/program/pydata-lgc8xp-applying-deployment-oriented-mindset-for-building-machine-learning-models-marianna-diachuk/&title=Applying%20deployment%20oriented%20mindset%20for%20building%20Machine%20Learning%20models&summary=Getting%20stuck%20for%20months%20trying%20to%20deploy%20the%20model%20and%20fighting%20with%20data%20inconsistency%20and%20bugs%3F%20This%20talk%20will%20introduce%20the%20way%20to%20build%20the%20development%20process%20with%20deployment%20in%20mind.&source=PyConDE%20%26%20PYData%20Berlin%202019"
+                                    target="_blank">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+
+                                </div>
+                            </div>
+
+                            <div class="single-content">
+
+                                <div class="single-content__tags">
+                                <h6>Wednesday 15:30 in Hauptsaal
+
+                                    
+                                        
+                                        <a href="/program/categories/wednesday">wednesday</a>
+                                    
+                                        
+                                        <a href="/program/categories/wednesday-1530">wednesday-1530</a>
+                                    </h6>
+                                </div>
+
+                                <div class="single-content__tags">
+                                    <span class="sub-head-2">Type/Track</span>
+                                    <a href="/program/categories/talk">Talk</a>
+                                    <a href="/program/categories/pydata">PyData</a>
+                                </div>
+
+
+                                <p>Developing a complicated ensemble model with hundreds of features fetched from a bunch of different sources? Give me two! Showing great metrics to the stakeholders and already discussing how it will hit a home run in production? Why not! And then getting stuck for months trying to deploy the model and fighting with data inconsistency and bugs? Sounds familiar?
+This talk will focus on providing guidelines on how to build your model development process keeping in mind the deployment phase to come later on.</p>
+
+
+                                <div class="single-content__tags">
+                                    <span class="sub-head-2">Tags&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                    
+                                        
+                                        <a href="/program/categories/data-science">Data Science</a>
+                                    
+                                        
+                                        <a href="/program/categories/machine-learning">Machine Learning</a>
+                                    
+                                </div>
+                                <div class="single-content__tags">
+                                    <span class="sub-head-2">Level&nbsp;&nbsp;</span>
+                                    <a href="/program/categories/domain-expertise-some">Domain Expertise some</a>
+                                    <a href="/program/categories/python-skill-level-none">Python Skill Level none</a>
+                                </div>
+
+
+                            </div>
+                            <div class="single-content">
+                                <h4>Marianna Diachuk</h4>
+<p>Affiliation: Women Who Code Kyiv</p>
+<p>I'm a Data Science Lead of Women Who Code local community. Leaded a small but proud team of 2 data scientists and 1 data engineer.I'm passionate about learning and coding, always focus on organizing agile process of development and prefer to plan ahead.
+Currently in the process of writing a series of articles focused on ML models deployment <a href="https://medium.com/@mariaannadiachuk">https://medium.com/@mariaannadiachuk</a></p>
+<p>visit the speaker at: <a href="https://twitter.com/dark_matter88_">Twitter</a> • <a href="https://github.com/DarkMatter88">Github</a> • <a href="https://www.linkedin.com/company/women-who-code-kyiv/">Homepage</a></p>
+
+                            </div>
+
+                        </div>
+
+
+                        <img class="lazyload--el lazyloaded" src="/static/media/twitter/LGC8XP.jpg" data-src="/static/media/twitter/LGC8XP.jpg" alt=""
+                             width="960" height="480">
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+        </div>
+    </div>
+    <footer class="site-footer" id="colophon" role="contentinfo">
+        <div class="widget-area" role="complementary">
+            <div class="container">
+
+                <div class="row in-view">
+                    <div class="col-12 col-md-4 col-xl-2 offset-xl-1">
+                        <div class="widget">
+                            <div class="widget_socials">
+                                <div class="site-branding">
+                                    <a href="index.html">
+                                        <img src="/static/media/PyConDE_PyDataBer_circle_trans_500.png" alt="" width="232"
+                                             height="144">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-xl-2">
+                        <div class="widget">
+                            <h2 class="widget-title">Contact</h2>
+                            <div class="widget_nav_menu">
+                                <ul>
+                                    <li>
+                                        Please do <a class="force_link" href="/frequently-asked-questions"><b>read the FAQs</b></a> before contacting us, thank you.
+                                    </li>
+                                    <li>
+                                        <a href="mailto:info@pycon.de">info@pycon.de</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 offset-md-4 col-xl-2 offset-xl-0">
+                        <div class="widget">
+                            <h2 class="widget-title">Follow us</h2>
+                            <div class="widget_nav_menu">
+                                <ul>
+                                    <li>
+                                        <a href="https://twitter.com/pyconde" target="_blank">Twitter</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4 col-xl-2">
+                        <div class="widget">
+                            <h2 class="widget-title">Legal terms</h2>
+                            <div class="widget_nav_menu">
+                                <ul>
+                                    
+                                        <li><a href="/impressum/">Impressum</a></li>
+                                    
+                                        <li><a href="/privacy-policy/">Terms &amp; Privacy Policy</a></li>
+                                    
+                                        <li><a href="/code-of-conduct/">Code of Conduct</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="site-info">
+            <div class="container">
+                <div class="row in-view">
+                    <div class="col-12 col-md-6 col-xl-5 offset-xl-1">
+              <span class="sub-head">
+                Build with
+                <i class="fa fa-heart color--secondary"></i> in Germany</span>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-5 offset-xl-1">
+              <span class="sub-head">
+                This website is run by <a href="https://python-verband.org">PySV e.V.</a>
+              </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="go-up" id="up">
+        <a class="go-up__btn" href="#page">
+        <span class="btn btn--primary btn--circle">
+          <i class="fa fa-chevron-up"></i>
+        </span>
+        </a>
+    </div>
+    <div class="site-sidenav" id="sidenav">
+        <div class="site-sidenav__overlay side-menu-swipeable"></div>
+        <div class="site-sidenav__elements side-menu-swipeable">
+            <div class="site-sidenav__branding">
+                <div class="site-branding">
+                    <a href="index.html">
+                        <img src="/static/media/PyConDE_PyDataBer_circle_trans_500.png" alt="" width="232" height="144">
+                    </a>
+                </div>
+            </div>
+            <div class="site-sidenav__nav">
+                <div class="site-sidenav__menu">
+                    <nav class="sidenav-navigation" aria-label="Site Mobile Menu" role="navigation">
+                        <div class="menu-sidenav-menu-container">
+                            <ul class="menu" id="sidenav-menu">
+
+                                
+
+                                    
+
+                                        
+                                            <li><a href="/schedule/"><span>Schedule</span></a></li>
+                                        
+                                            <li><a href="/scheduleTable/"><span>Schedule (full table)</span></a></li>
+                                        
+                                            <li><a href="/scheduleT/"><span>Schedule (time-&gt;sessions)</span></a></li>
+                                        
+                                            <li><a href="/calendar-integration/"><span>Calendar Integration</span></a></li>
+                                        
+                                            <li><a href="/program/"><span>All Sessions</span></a></li>
+                                        
+                                            <li><a href="/program/categories/pydata"><span>PyData Berlin Sessions</span></a></li>
+                                        
+                                            <li><a href="/program/categories/pyconde"><span>PyConDE Sessions</span></a></li>
+                                        
+                                            <li><a href="/program/categories/keynote"><span>Keynotes</span></a></li>
+                                        
+                                            <li><a href="/program/categories/talk"><span>Talks</span></a></li>
+                                        
+                                            <li><a href="/program/categories/tutorial"><span>Tutorials</span></a></li>
+                                        
+
+                                    
+
+                                
+
+                                    
+                                        <li><a href="/frequently-asked-questions/">FAQ</a></li>
+
+                                    
+
+                                
+
+                                    
+                                        <li><a href="/blog/">Blog</a></li>
+
+                                    
+
+                                
+
+                                    
+                                        <li><a href="/sprints/">Sprints</a></li>
+
+                                    
+
+                                
+
+                                    
+                                        <li><a href="/sponsors/">Sponsors</a></li>
+
+                                    
+
+                                
+
+                                    
+
+                                        
+                                            <li><a href="/venue/"><span>Venue</span></a></li>
+                                        
+                                            <li><a href="/call-for-proposals/"><span>Call for Proposals</span></a></li>
+                                        
+                                            <li><a href="/financial-aid/"><span>Financial Aid</span></a></li>
+                                        
+                                            <li><a href="/team/"><span>Team</span></a></li>
+                                        
+                                            <li><a href="/app/"><span>App</span></a></li>
+                                        
+
+                                    
+
+                                
+
+                                    
+                                        <li><a href="/code-of-conduct/">Code of Conduct</a></li>
+
+                                    
+
+                                
+
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="site-sidenav__cat hidden-md-up">
+                <a class="btn btn--secondary" target="_blank" href="https://ti.to/pycon-de/pyconde-pydata-2019">Buy ticket</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="application/javascript" src="/static/js/lib.js"></script>
+<script defer async type="application/javascript" src="/static/js/app.js"></script>
+</body>
+
+</html>

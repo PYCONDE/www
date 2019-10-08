@@ -18,17 +18,17 @@ domains: Algorithms, Business & Start-Ups, Data Science, Machine Learning
 ---
 biography: #### Rachel Berryman
 
-Affiliation: Tempus Energy
+Affiliation: AI Guild
 
 
 
 Data Science Educator and Analytics Manager
 
-visit the speaker at: [Homepage](https://tempusenergy.com)
+visit the speaker at: [Github](https://github.com/rachelkberryman) • [Homepage](https://theguild.ai/)
 
 #### Dânia Meira
 
-Affiliation: Todoku
+Affiliation: AI Guild
 
 
 
@@ -40,9 +40,9 @@ At her current role as a data scientist, her focus is on predictive analytics: d
 
 She is an active volunteer at DSSG Berlin and also a teacher at a Data Science Bootcamp in Berlin.
 
-visit the speaker at: [Homepage](https://todoku.ai/)
+visit the speaker at: [Twitter](https://twitter.com/ai_guild) • [Github](https://github.com/meiradania) • [Homepage](https://theguild.ai/)
 ---
-affiliation: Tempus Energy, Todoku
+affiliation: AI Guild, AI Guild
 ---
 track: PyData
 ---
@@ -58,7 +58,7 @@ day: thursday
 ---
 meta_title: Avoiding ML FOBO Rachel Berryman Dânia Meira PyConDE & PyDataBerlin 2019 conference 
 ---
-meta_twitter_title: Avoiding ML FOBO @ #PyConDE #PyDataBerlin #PyData
+meta_twitter_title: Avoiding ML FOBO @ai_guild #PyConDE #PyDataBerlin #PyData
 ---
 categories: pydata, python-skill-level-basic, domain-expertise-some, talk, algorithms, business-start-ups, data-science, machine-learning, thursday, thursday-1225
 ---

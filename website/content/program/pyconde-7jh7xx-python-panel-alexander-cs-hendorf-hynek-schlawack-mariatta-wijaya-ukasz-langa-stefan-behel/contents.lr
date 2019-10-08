@@ -1,0 +1,100 @@
+_model: session 
+---
+code: 7JH7XX
+---
+title: Python Panel
+---
+description: Panel about Python, core-devs, development, challenges, community and the future! And: how can become a part of it! Join the discussion!
+---
+short_description: Panel about Python, core-devs, development, challenges, community and the future! And: how can become a part of it! Join the discussion!
+---
+twitter_image: /static/media/twitter/7JH7XX.jpg
+---
+speakers: Alexander CS Hendorf, Hynek Schlawack, Mariatta Wijaya, Łukasz Langa, Stefan Behel
+---
+submission_type: Panel
+---
+domains: Community
+---
+biography: #### Alexander CS Hendorf
+
+Affiliation: KÖNIGSWEG
+
+
+
+Alexander' professional career was always about digitalization: starting from vinyl records in the nineties to advanced data analytics nowadays. He's a [Python Software Foundation fellow](https://python.org), emeritus program chair of [EuroPython](https://europython.eu), PyConDE & PyData Berlin 2019 and the scientific Python conference [EuroSciPy]()https://eurscipy.org. He’s one of the [25 mongoDB masters](https://www.mongodb.com/community/masters) and a regular contributor to the tech community. As regular speaker at international conferences in he love to talk about, discuss and train tech.
+Being a partner at [Königsweg](https://www.koenigsweg.com/index_ger.html) - a boutique Data Science and AI consultancy based in Mannheim, Germany - he's advising and training industry clients in AI, data science, data literacy and big data matters.
+
+visit the speaker at: [Twitter](https://twitter.com/hendorf) • [Github](https://github.com/alanderex) • [Homepage](https://www.koenigsweg.com/index_ger.html)
+
+#### Hynek Schlawack
+
+Affiliation: Variomedia AG
+
+
+
+Hynek Schlawack is a lead infrastructure and software engineer from Berlin, a PSF fellow, a maintainer of too many open source projects, and a contributor to even more.
+
+His main areas of interest are networks, security, and robust software.
+
+visit the speaker at: [Twitter](https://twitter.com/hynek) • [Github](https://github.com/hynek) • [Homepage](https://hynek.me)
+
+#### Mariatta Wijaya
+
+Affiliation: Zapier
+
+
+
+Mariatta works as a software engineer in Vancouver, BC. She's a co-organizer of Vancouver PyLadies and PyCascades conference.
+
+Mariatta is a Python Core Developer and contributed to Python documentation, Python Developer's Guide, Python core workflow, and Python.org. She helps to maintain Core Python's GitHub bots: bedevere, miss-islington and blurb_it.
+
+Her current big projects are: PEP 581, PEP 588, and black-out.
+
+visit the speaker at: [Twitter](https://twitter.com/mariatta) • [Github](https://github.com/Mariatta) • [Homepage](https://mariatta.ca)
+
+#### Łukasz Langa
+
+Affiliation: Python Software Foundation
+
+
+
+ambv on Github. Python core developer, Python 3.8 release manager, creator of Black, pianist, dad. Likes analog modular synthesizers, immersive single-player role playing games (Fallout, Elder Scrolls), and single malt Scotch whisky.
+
+visit the speaker at: [Twitter](https://twitter.com/llanga) • [Github](https://github.com/ambv) • [Homepage](http://lukasz.langa.pl)
+
+#### Stefan Behel
+
+
+
+
+---
+affiliation: KÖNIGSWEG, Variomedia AG, Zapier, Python Software Foundation, 
+---
+track: PyConDE
+---
+python_skill: Python Skill Level basic
+---
+domain_expertise: Domain Expertise some
+---
+room: Hauptsaal
+---
+start_time: 14:00
+---
+day: thursday
+---
+meta_title: Python Panel Alexander CS Hendorf Hynek Schlawack Mariatta Wijaya Łukasz Langa Stefan Behel PyConDE & PyDataBerlin 2019 conference 
+---
+meta_twitter_title: Python Panel @hendorf hynek mariatta llanga #PyConDE #PyDataBerlin #PyData
+---
+categories: pyconde, python-skill-level-basic, domain-expertise-some, panel, community, thursday, thursday-1400
+---
+slugified_slot_links: thursday, thursday-1400
+---
+body: Some points we want to discuss on this panel:
+
+- Demystifying core developers, does one have be be a C-guru to help with CPython?
+- Have a conversation with the community
+- The panel is not to be planned to be very technical, more about understanding how core developers, work, struggle and show the community where and how it may help/support core-developers
+- Future of Python
+

@@ -52,25 +52,25 @@ body: ## Who is this for ##
 Anyone with a curious mind and interested in how to marry the physical world and IoT with the virtual. This talk is pitched at intermediate, but for beginners extensive documentation and a github repo will be available to read and learn from.
 
 ## What is it about ##
-The story of a project to capture data for the purpose of using in AI projects, which then became an OS platform with innovative ideas more important that the original concept. A multimode sensor platform using Augmented Reality for visualization and control.
+The story of a project to capture data for the purpose of using in AI projects, which then became an OS platform with innovative ideas more important that the original concept. A multimode sensor platform using Augmented Reality for visualization.
 
 ## Will I See The Real Prototype ##
 Yes there will be a demonstration of the prototype and this will be used as part of the talk to explain the concepts.
 
 ## What Technologies Will It Cover ##
-This talk will cover a microcontroller with plug-able sensors using (micropython)[http://www.micropython.org/] for the main software development platform. For the serve side components the talk will be using an IoT Gateway used to sync with the sensor platform.
+This talk will cover a microcontroller with plug-able sensors using (micropython)[http://www.micropython.org/] for the main software development platform. For the serve side components the talk will be using a micro web server used to serve sensor data and a simple AR display.
 For Augmented Reality the talk will switch to using HTML and JavaScript needed to render objects in the browser for the demo.
 
 ## What Will I Learn ##
 Hopefully you will learn an introduction to IoT concepts to developers who are interested in this tech, but we will use python for embedded systems and show how to used. You will see in this talk:
 * How to use a tiny microcontroller with real sensors using (micropython)[http://www.micropython.org/].
 * How to connect 'things' to the platform.
-* A server side component that allows the ingestion of data.
-* The web side, using web technologies like A-Frame, AR.js and awe.js for the purpose of having AR capabilities.
+* A micro web server to serve content.
+* The web side, using web technologies like A-Frame, AR.js for the purpose of having AR capabilities.
 
 ## In Summary ##
-This talk will cover going from the small embedded world of IoT and sensors using python. Some time will be given to go over the general server side or back end processing. Then the last part of the talk will go over the concepts of Augmented Reality and using a mobile browser to view data from the sensors.
+This talk will cover going from the small embedded world of IoT and sensors using python. Some time will be given to go over the general micro server. Then the last part of the talk will go over the concepts of Augmented Reality and using a mobile browser to view data from the sensors.
 
 ### Resources ###
-The main github repo for the project is (here)[https://github.com/SamsungResearchUK-IoT-Meetup/projects]. However there will be nothing much to view till near the time of the talk.
+The main github repo for the project is [here](https://github.com/SamsungResearchUK-IoT-Meetup/multimode_sensor_platform). However there will be nothing much to view till near the time of the talk.
 
