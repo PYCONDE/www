@@ -52,21 +52,13 @@ slugified_slot_links: thursday, thursday-1515
 ---
 body: Quantum computers represent a fundamentally new form of hardware, and will require very different software to be written. However, the design of algorithms and handling of inputs and outputs will all be done via conventional programming. There are now a handful of frameworks being built to meet this need, and all but one are based on Python.
 
-This session will serve as an introduction to quantum computing as a whole, and also to the most well-developed and well-used framework built to support it: Qiskit.
+This session will serve as an introduction to quantum computing as a whole, and also to the most well-developed and well-used framework built to support it: [Qiskit](https://qiskit.org).
 
 To introduce quantum computing I will explain what a quantum circuit is, and what it means to create programs at the level of a quantum circuit. This will be done with a presentation based on our Jupyter notebook based [textbook](https://community.qiskit.org/textbook/). This presentation will give a simple demonstration of how the variables of quantum computing are fundamentally different than those of standard computing
 
-To provide a simple sandbox for experimentation, the tutorial will be explicitly based on the MicroPython version of Qiskit. Examples will be run on PewPews, the microcontroller-based games console used for teaching Python. So if you have a PewPew from this year's EuroPython, bring it along!
+A fun and simple [suggested project](https://ibm.biz/microqiskit) is be provided, to give you your first taste of using Qiskit. To provide a simple sandbox for experimentation, this is based on the MicroPython version of Qiskit and for the PewPew (the microcontroller-based games console used for teaching Python). So if you have a PewPew from this year's EuroPython, bring it along!
 
-*Goals:*
-* Help people get ready for the coming quantum revolution.
-* Show that quantum computing is something any Python user can mess around with.
+**Preparation**
 
-*What problem is this talk addressing*: Quantum computing is now easy to access for any Python user. The problem is, many may assume that it is only for those with a PhD in physics.
-
-*Why is the problem relevant to the audience*: All fields of computing will be affected when quantum computing reaches it's full potential. Now is the time for everyone to start exploring what it can do for them.
-
-*What is(are) your solution(s) to the problem*: By hosting a practical session with accessible examples of quantum computing, I hope to show the audience that they can use it too.
-
-*What are the main takeaways from your talk*: How to use a quantum computer, and why you'd want to.
+Attendees can just sit and watch, or they can run code as we go. For the latter, it is recommended to have Python 3, Jupyter notebooks and Qiskit installed, and to download the resources [here](https://ibm.biz/qiskit-pyconde).
 

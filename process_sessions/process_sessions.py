@@ -453,8 +453,8 @@ def git_pull():
 
 
 if __name__ == "__main__":
-    # git_pull()
-    # update_session_pages(use_cache=False)
+    git_pull()
+    update_session_pages(use_cache=False)
     update_schedule_from_sheet()
     update_session_pages(use_cache=True)
     generate_session_pages()

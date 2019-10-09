@@ -66,3 +66,6 @@ The next step is the exciting part, as we will call two APIs in parallel, using 
 
 In the description I promised you a service, so this is what we will do in the end. We will implemented a Go HTTP server that spawns a new goroutine for every request, which in turn will spawn a goroutine for each of our API calls. So much parallelism! But I promise you, this will not result in any headaches.
 
+#### Instructions for the workshop
+Before joining the workshop, make sure you have Go installed in your local environment. Head out to the workshop [repo](https://github.com/DoHe/lets-golang) and follow the [instructions](https://github.com/DoHe/lets-golang/tree/master/0%20-%20Getting%20started)
+

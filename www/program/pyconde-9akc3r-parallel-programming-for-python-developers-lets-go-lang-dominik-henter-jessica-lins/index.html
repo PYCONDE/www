@@ -302,6 +302,8 @@
 <p>I will start by giving you some motivation of why you might be tempted to even try Go, mostly by giving some technical background of how parallel execution works in Python versus how it works in Go. After being properly motivated, our actual programming will start simple: we will build our first API call in Go, including the infamous task of taking untyped JSON and putting it into a typed Go struct. Nothing parallel just yet.</p>
 <p>The next step is the exciting part, as we will call two APIs in parallel, using channels and goroutines, Go’s core language features for parallel execution. All this we will wrap in a nice <em>job</em> abstraction, with a <em>start</em> method, so we feel right at home as Python developers. To ward us against slow APIs we will then add a parallel timeout and stopping behavior.</p>
 <p>In the description I promised you a service, so this is what we will do in the end. We will implemented a Go HTTP server that spawns a new goroutine for every request, which in turn will spawn a goroutine for each of our API calls. So much parallelism! But I promise you, this will not result in any headaches.</p>
+<h4>Instructions for the workshop</h4>
+<p>Before joining the workshop, make sure you have Go installed in your local environment. Head out to the workshop <a href="https://github.com/DoHe/lets-golang">repo</a> and follow the <a href="https://github.com/DoHe/lets-golang/tree/master/0%20-%20Getting%20started">instructions</a></p>
 
 
                                 <div class="single-content__tags">

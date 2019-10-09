@@ -2235,10 +2235,10 @@
                         "rowspan": 1
                     },
                     {
-                        "title": "Fresh New Pythonic Database: EdgeDB (And Why It's the Future)",
+                        "title": "CANCELLED: Fresh New Pythonic Database: EdgeDB (And Why It's the Future)",
                         "speakers": "Dmitry Nazarov",
-                        "code": "pyconde-sgvkvs-fresh-new-pythonic-database-edgedb-and-why-it-s-the-future-dmitry-nazarov",
-                        "slug": "pyconde-sgvkvs-fresh-new-pythonic-database-edgedb-and-why-it-s-the-future-dmitry-nazarov",
+                        "code": "pyconde-sgvkvs-cancelled-fresh-new-pythonic-database-edgedb-and-why-it-s-the-future-dmitry-nazarov",
+                        "slug": "pyconde-sgvkvs-cancelled-fresh-new-pythonic-database-edgedb-and-why-it-s-the-future-dmitry-nazarov",
                         "subm_type": "Talk",
                         "duration": "00:45",
                         "colspan": 1,
