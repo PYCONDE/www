@@ -1518,7 +1518,17 @@
                         "slug": "",
                         "subm_type": "",
                         "duration": "",
-                        "colspan": 2,
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Open Space",
+                        "speakers": "",
+                        "code": "",
+                        "slug": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
                         "rowspan": 1
                     },
                     {
@@ -1528,7 +1538,7 @@
                         "slug": "",
                         "subm_type": "",
                         "duration": "",
-                        "colspan": 2,
+                        "colspan": 1,
                         "rowspan": 1
                     }
                 ],
@@ -1595,7 +1605,7 @@
                         "rowspan": 2
                     },
                     {
-                        "title": "Open Space #1",
+                        "title": "Sieer: Lessons Learned as Data Science Provider",
                         "speakers": "",
                         "code": "",
                         "slug": "",
@@ -2682,7 +2692,17 @@
                         "slug": "",
                         "subm_type": "",
                         "duration": "",
-                        "colspan": 2,
+                        "colspan": 1,
+                        "rowspan": 1
+                    },
+                    {
+                        "title": "Open Space",
+                        "speakers": "",
+                        "code": "",
+                        "slug": "",
+                        "subm_type": "",
+                        "duration": "",
+                        "colspan": 1,
                         "rowspan": 1
                     },
                     {
@@ -2692,7 +2712,7 @@
                         "slug": "",
                         "subm_type": "",
                         "duration": "",
-                        "colspan": 2,
+                        "colspan": 1,
                         "rowspan": 1
                     }
                 ],
