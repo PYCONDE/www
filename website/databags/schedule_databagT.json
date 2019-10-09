@@ -134,7 +134,7 @@
                             "time": "09:00",
                             "start": "09:00",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": ""
@@ -297,7 +297,7 @@
                             "time": "10:30",
                             "start": "10:30",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": ""
@@ -460,7 +460,7 @@
                             "time": "10:50",
                             "start": "10:50",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": ""
@@ -623,7 +623,7 @@
                             "time": "11:20",
                             "start": "11:20",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": ""
@@ -675,7 +675,7 @@
                             "time": "11:20",
                             "start": "11:20",
                             "end": "",
-                            "room_name": "Saal 5",
+                            "room_name": "Saal 4",
                             "location": "back",
                             "use": "Tutorial",
                             "sessionname": ""
@@ -734,7 +734,7 @@
                             "time": "11:30",
                             "start": "11:30",
                             "end": "13:00",
-                            "room_name": "Saal 5",
+                            "room_name": "Saal 4",
                             "location": "back",
                             "use": "Tutorial",
                             "sessionname": ""
@@ -897,7 +897,7 @@
                             "time": "11:50",
                             "start": "11:50",
                             "end": "12:20",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "Visualization"
@@ -1060,7 +1060,7 @@
                             "time": "12:25",
                             "start": "12:25",
                             "end": "13:10",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "Visualization"
@@ -1256,7 +1256,7 @@
                             "time": "13:00",
                             "start": "13:00",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "Visualization"
@@ -1282,7 +1282,7 @@
                             "time": "13:00",
                             "start": "13:00",
                             "end": "",
-                            "room_name": "Saal 5",
+                            "room_name": "Saal 4",
                             "location": "back",
                             "use": "Tutorial",
                             "sessionname": ""
@@ -1347,7 +1347,7 @@
                             "time": "13:50",
                             "start": "13:50",
                             "end": "15:20",
-                            "room_name": "Saal 5",
+                            "room_name": "Saal 4",
                             "location": "back",
                             "use": "Tutorial",
                             "sessionname": ""
@@ -1510,7 +1510,7 @@
                             "time": "14:00",
                             "start": "14:00",
                             "end": "14:30",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "Feature Engineering"
@@ -1673,7 +1673,7 @@
                             "time": "14:35",
                             "start": "14:35",
                             "end": "15:05",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "Feature Engineering"
@@ -1836,7 +1836,7 @@
                             "time": "15:05",
                             "start": "15:05",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "Feature Engineering"
@@ -1888,7 +1888,7 @@
                             "time": "15:05",
                             "start": "15:05",
                             "end": "",
-                            "room_name": "Saal 5",
+                            "room_name": "Saal 4",
                             "location": "back",
                             "use": "Tutorial",
                             "sessionname": ""
@@ -1947,7 +1947,7 @@
                             "time": "15:20",
                             "start": "15:20",
                             "end": "16:50",
-                            "room_name": "Saal 5",
+                            "room_name": "Saal 4",
                             "location": "back",
                             "use": "Tutorial",
                             "sessionname": ""
@@ -2110,7 +2110,7 @@
                             "time": "15:30",
                             "start": "15:30",
                             "end": "16:00",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "Enterprise"
@@ -2273,7 +2273,7 @@
                             "time": "16:05",
                             "start": "16:05",
                             "end": "16:35",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "Enterprise"
@@ -2436,7 +2436,7 @@
                             "time": "16:50",
                             "start": "16:50",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "Enterprise"
@@ -2599,7 +2599,7 @@
                             "time": "17:00",
                             "start": "17:00",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "Enterprise"
@@ -2762,7 +2762,7 @@
                             "time": "17:45",
                             "start": "17:45",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "Enterprise"
@@ -2925,7 +2925,7 @@
                             "time": "18:30",
                             "start": "18:30",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "Enterprise"
@@ -3094,7 +3094,7 @@
                             "time": "08:30",
                             "start": "08:30",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": ""
@@ -3257,7 +3257,7 @@
                             "time": "09:00",
                             "start": "09:00",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": ""
@@ -3420,7 +3420,7 @@
                             "time": "09:10",
                             "start": "09:10",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": ""
@@ -3583,7 +3583,7 @@
                             "time": "10:00",
                             "start": "10:00",
                             "end": "10:45",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "Tools"
@@ -3635,7 +3635,7 @@
                             "time": "10:00",
                             "start": "10:00",
                             "end": "11:30",
-                            "room_name": "Saal 5",
+                            "room_name": "Saal 4",
                             "location": "back",
                             "use": "Tutorial",
                             "sessionname": ""
@@ -3798,7 +3798,7 @@
                             "time": "10:50",
                             "start": "10:50",
                             "end": "11:20",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "Tools"
@@ -3961,7 +3961,7 @@
                             "time": "11:20",
                             "start": "11:20",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "Tools"
@@ -4013,7 +4013,7 @@
                             "time": "11:20",
                             "start": "11:20",
                             "end": "",
-                            "room_name": "Saal 5",
+                            "room_name": "Saal 4",
                             "location": "back",
                             "use": "Tutorial",
                             "sessionname": ""
@@ -4072,7 +4072,7 @@
                             "time": "11:30",
                             "start": "11:30",
                             "end": "13:00",
-                            "room_name": "Saal 5",
+                            "room_name": "Saal 4",
                             "location": "back",
                             "use": "Tutorial",
                             "sessionname": ""
@@ -4235,7 +4235,7 @@
                             "time": "11:50",
                             "start": "11:50",
                             "end": "12:20",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "ML for good"
@@ -4398,7 +4398,7 @@
                             "time": "12:25",
                             "start": "12:25",
                             "end": "12:55",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "ML for good"
@@ -4561,7 +4561,7 @@
                             "time": "13:00",
                             "start": "13:00",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "ML for good"
@@ -4613,7 +4613,7 @@
                             "time": "13:00",
                             "start": "13:00",
                             "end": "",
-                            "room_name": "Saal 5",
+                            "room_name": "Saal 4",
                             "location": "back",
                             "use": "Tutorial",
                             "sessionname": ""
@@ -4678,7 +4678,7 @@
                             "time": "13:45",
                             "start": "13:45",
                             "end": "15:15",
-                            "room_name": "Saal 5",
+                            "room_name": "Saal 4",
                             "location": "back",
                             "use": "Tutorial",
                             "sessionname": ""
@@ -4841,7 +4841,7 @@
                             "time": "14:00",
                             "start": "14:00",
                             "end": "14:30",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "Classificaion / FP"
@@ -5004,7 +5004,7 @@
                             "time": "14:35",
                             "start": "14:35",
                             "end": "15:05",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "Classificaion / FP"
@@ -5167,7 +5167,7 @@
                             "time": "15:05",
                             "start": "15:05",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "Classificaion / FP"
@@ -5219,7 +5219,7 @@
                             "time": "15:05",
                             "start": "15:05",
                             "end": "",
-                            "room_name": "Saal 5",
+                            "room_name": "Saal 4",
                             "location": "back",
                             "use": "Tutorial",
                             "sessionname": ""
@@ -5278,7 +5278,7 @@
                             "time": "15:15",
                             "start": "15:15",
                             "end": "16:45",
-                            "room_name": "Saal 5",
+                            "room_name": "Saal 4",
                             "location": "back",
                             "use": "Tutorial",
                             "sessionname": ""
@@ -5441,7 +5441,7 @@
                             "time": "15:30",
                             "start": "15:30",
                             "end": "16:00",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "Hardware"
@@ -5500,7 +5500,7 @@
                             "time": "16:00",
                             "start": "16:00",
                             "end": "",
-                            "room_name": "Saal 5",
+                            "room_name": "Saal 4",
                             "location": "back",
                             "use": "Tutorial",
                             "sessionname": ""
@@ -5663,7 +5663,7 @@
                             "time": "16:05",
                             "start": "16:05",
                             "end": "16:50",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "Hardware"
@@ -5826,7 +5826,7 @@
                             "time": "16:50",
                             "start": "16:50",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "Hardware"
@@ -5989,7 +5989,7 @@
                             "time": "17:00",
                             "start": "17:00",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "Hardware"
@@ -6152,7 +6152,7 @@
                             "time": "17:45",
                             "start": "17:45",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "Hardware"
@@ -6315,7 +6315,7 @@
                             "time": "18:30",
                             "start": "18:30",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "Hardware"
@@ -6478,7 +6478,7 @@
                             "time": "19:00",
                             "start": "19:00",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "Hardware"
@@ -6647,7 +6647,7 @@
                             "time": "08:30",
                             "start": "08:30",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": ""
@@ -6810,7 +6810,7 @@
                             "time": "09:00",
                             "start": "09:00",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": ""
@@ -6973,7 +6973,7 @@
                             "time": "09:10",
                             "start": "09:10",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": ""
@@ -7136,7 +7136,7 @@
                             "time": "10:00",
                             "start": "10:00",
                             "end": "10:45",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "ML & RL"
@@ -7188,7 +7188,7 @@
                             "time": "10:00",
                             "start": "10:00",
                             "end": "11:30",
-                            "room_name": "Saal 5",
+                            "room_name": "Saal 4",
                             "location": "back",
                             "use": "Tutorial",
                             "sessionname": ""
@@ -7351,7 +7351,7 @@
                             "time": "10:50",
                             "start": "10:50",
                             "end": "11:20",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "ML & RL"
@@ -7514,7 +7514,7 @@
                             "time": "11:20",
                             "start": "11:20",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "ML & RL"
@@ -7566,7 +7566,7 @@
                             "time": "11:20",
                             "start": "11:20",
                             "end": "",
-                            "room_name": "Saal 5",
+                            "room_name": "Saal 4",
                             "location": "back",
                             "use": "Tutorial",
                             "sessionname": ""
@@ -7625,7 +7625,7 @@
                             "time": "11:30",
                             "start": "11:30",
                             "end": "13:00",
-                            "room_name": "Saal 5",
+                            "room_name": "Saal 4",
                             "location": "back",
                             "use": "Tutorial",
                             "sessionname": ""
@@ -7788,7 +7788,7 @@
                             "time": "11:50",
                             "start": "11:50",
                             "end": "12:20",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "Carreer"
@@ -7951,7 +7951,7 @@
                             "time": "12:25",
                             "start": "12:25",
                             "end": "13:10",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "Carreer"
@@ -8114,7 +8114,7 @@
                             "time": "13:00",
                             "start": "13:00",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "Carreer"
@@ -8166,7 +8166,7 @@
                             "time": "13:00",
                             "start": "13:00",
                             "end": "",
-                            "room_name": "Saal 5",
+                            "room_name": "Saal 4",
                             "location": "back",
                             "use": "Tutorial",
                             "sessionname": ""
@@ -8231,7 +8231,7 @@
                             "time": "13:45",
                             "start": "13:45",
                             "end": "15:15",
-                            "room_name": "Saal 5",
+                            "room_name": "Saal 4",
                             "location": "back",
                             "use": "Tutorial",
                             "sessionname": ""
@@ -8394,7 +8394,7 @@
                             "time": "14:00",
                             "start": "14:00",
                             "end": "14:30",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "ML use-case"
@@ -8557,7 +8557,7 @@
                             "time": "14:35",
                             "start": "14:35",
                             "end": "15:05",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "ML use-case"
@@ -8720,7 +8720,7 @@
                             "time": "15:05",
                             "start": "15:05",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "ML use-case"
@@ -8883,7 +8883,7 @@
                             "time": "15:30",
                             "start": "15:30",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "ML use-case"
@@ -9046,7 +9046,7 @@
                             "time": "15:45",
                             "start": "15:45",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "ML use-case"
@@ -9209,7 +9209,7 @@
                             "time": "16:15",
                             "start": "16:15",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "ML use-case"
@@ -9372,7 +9372,7 @@
                             "time": "16:45",
                             "start": "16:45",
                             "end": "",
-                            "room_name": "Saal 4",
+                            "room_name": "Saal 5",
                             "location": "center",
                             "use": "talks",
                             "sessionname": "ML use-case"

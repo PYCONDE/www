@@ -1709,10 +1709,10 @@
                     ]
                 },
                 {
-                    "room_name": "Saal 4",
+                    "room_name": "Saal 5",
                     "location": "center",
                     "use": "talks",
-                    "data_tab": "2019-10-09-saal-4",
+                    "data_tab": "2019-10-09-saal-5",
                     "sessions": [
                         {
                             "code": "",
@@ -2561,10 +2561,10 @@
                     ]
                 },
                 {
-                    "room_name": "Saal 5",
+                    "room_name": "Saal 4",
                     "location": "back",
                     "use": "Tutorial",
-                    "data_tab": "2019-10-09-saal-5",
+                    "data_tab": "2019-10-09-saal-4",
                     "sessions": [
                         {
                             "code": "",
@@ -4903,10 +4903,10 @@
                     ]
                 },
                 {
-                    "room_name": "Saal 4",
+                    "room_name": "Saal 5",
                     "location": "center",
                     "use": "talks",
-                    "data_tab": "2019-10-10-saal-4",
+                    "data_tab": "2019-10-10-saal-5",
                     "sessions": [
                         {
                             "code": "",
@@ -5931,10 +5931,10 @@
                     ]
                 },
                 {
-                    "room_name": "Saal 5",
+                    "room_name": "Saal 4",
                     "location": "back",
                     "use": "Tutorial",
-                    "data_tab": "2019-10-10-saal-5",
+                    "data_tab": "2019-10-10-saal-4",
                     "sessions": [
                         {
                             "code": "7YG8RT",
@@ -8009,10 +8009,10 @@
                     ]
                 },
                 {
-                    "room_name": "Saal 4",
+                    "room_name": "Saal 5",
                     "location": "center",
                     "use": "talks",
-                    "data_tab": "2019-10-11-saal-4",
+                    "data_tab": "2019-10-11-saal-5",
                     "sessions": [
                         {
                             "code": "",
@@ -8861,10 +8861,10 @@
                     ]
                 },
                 {
-                    "room_name": "Saal 5",
+                    "room_name": "Saal 4",
                     "location": "back",
                     "use": "Tutorial",
-                    "data_tab": "2019-10-11-saal-5",
+                    "data_tab": "2019-10-11-saal-4",
                     "sessions": [
                         {
                             "code": "8NNMCU",

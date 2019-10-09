@@ -440,7 +440,20 @@ def git_push():
             print(line)
 
 
+def git_pull():
+    commands = [f"cd {project_root.absolute()}", "git pull"]
+    for command in commands:
+        print("command:", command)
+        process = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
+        proc_stdout, proc_error = process.communicate()
+        if proc_error:
+            raise RuntimeError(f"git did return an error {proc_error}: {proc_stdout}")
+        for line in proc_stdout.decode('utf-8').split('\n'):
+            print(line)
+
+
 if __name__ == "__main__":
+    git_pull()
     update_session_pages(use_cache=False)
     update_schedule_from_sheet()
     update_session_pages(use_cache=True)
