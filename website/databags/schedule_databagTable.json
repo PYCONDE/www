@@ -484,14 +484,14 @@
                         "rowspan": 2
                     },
                     {
-                        "title": "Deep Learning for Healthcare with PyTorch",
-                        "speakers": "Valerio Maggio",
-                        "code": "pydata-78rygg-deep-learning-for-healthcare-with-pytorch-valerio-maggio",
-                        "slug": "pydata-78rygg-deep-learning-for-healthcare-with-pytorch-valerio-maggio",
-                        "subm_type": "Tutorial",
-                        "duration": "01:30",
+                        "title": "UPDATED: Get to grips with pandas and scikit-learn, Part two (\"Deep Learning for Healthcare with PyTorch\" had to be canceled)\n\"",
+                        "speakers": "",
+                        "code": "",
+                        "slug": "",
+                        "subm_type": "",
+                        "duration": "",
                         "colspan": 1,
-                        "rowspan": 2
+                        "rowspan": 1
                     },
                     {
                         "title": "",
@@ -858,7 +858,7 @@
                 [
                     "17:45",
                     {
-                        "title": "Lighting Talks",
+                        "title": "Lightning Talks",
                         "speakers": "",
                         "code": "",
                         "slug": "",
@@ -1999,7 +1999,7 @@
                 [
                     "17:45",
                     {
-                        "title": "Lighting Talks",
+                        "title": "Lightning Talks",
                         "speakers": "",
                         "code": "",
                         "slug": "",
@@ -2901,7 +2901,7 @@
                 [
                     "15:45",
                     {
-                        "title": "Lighting Talks",
+                        "title": "Lightning Talks",
                         "speakers": "",
                         "code": "",
                         "slug": "",
