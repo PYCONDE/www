@@ -1678,16 +1678,6 @@
                         "rowspan": 1
                     },
                     {
-                        "title": "Open Space # 2",
-                        "speakers": "",
-                        "code": "",
-                        "slug": "",
-                        "subm_type": "",
-                        "duration": "",
-                        "colspan": 1,
-                        "rowspan": 1
-                    },
-                    {
                         "title": "",
                         "speakers": "",
                         "code": "",
@@ -1867,7 +1857,7 @@
                         "rowspan": 2
                     },
                     {
-                        "title": "Open Space #3",
+                        "title": "Beyond 9 to 5",
                         "speakers": "",
                         "code": "",
                         "slug": "",
@@ -2275,10 +2265,10 @@
                         "rowspan": 1
                     },
                     {
-                        "title": "Create CUDA kernels from Python using Numba and CuPy.",
+                        "title": "CANCELED: Create CUDA kernels from Python using Numba and CuPy.",
                         "speakers": "Valentin Haenel",
-                        "code": "pydata-8nnmcu-create-cuda-kernels-from-python-using-numba-and-cupy-valentin-haenel",
-                        "slug": "pydata-8nnmcu-create-cuda-kernels-from-python-using-numba-and-cupy-valentin-haenel",
+                        "code": "pydata-8nnmcu-canceled-create-cuda-kernels-from-python-using-numba-and-cupy-valentin-haenel",
+                        "slug": "pydata-8nnmcu-canceled-create-cuda-kernels-from-python-using-numba-and-cupy-valentin-haenel",
                         "subm_type": "Tutorial",
                         "duration": "01:30",
                         "colspan": 1,
