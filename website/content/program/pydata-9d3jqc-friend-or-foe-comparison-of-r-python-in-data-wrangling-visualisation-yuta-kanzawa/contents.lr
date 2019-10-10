@@ -60,7 +60,8 @@ body: R and Python have differences as many as simiralities. Through their compa
 
 3. Data Visualisation
     * ggplot2
-    * matplotlib & seaborn
+    * matplotlib
+    * plotly
 
 4. Some Other Cases (depending on time and interest)
     * Machine learning
