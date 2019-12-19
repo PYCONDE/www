@@ -47,6 +47,10 @@ categories: pyconde, python-skill-level-basic, domain-expertise-some, tutorial, 
 ---
 slugified_slot_links: thursday, thursday-1130
 ---
+video_link: https://www.youtube.com/embed/iEpkP-kkDJ0
+---
+youtube_id: iEpkP-kkDJ0
+---
 body: Python concurrency concepts (like Multiprocessing, Multithreading, Coroutines, Asynchronous I/O ) will be explained in this tutorial. These are very relevant to production level code. If we can can apply these, then in many cases existing   codes can be refactored and possibly we can make them simpler, improve response time and overall throughput (wherever applicable like a network server application). The concurrency models are equally important when implementing new applications.
 
 An outline of the tutorial with approximate breakup of time is given below:

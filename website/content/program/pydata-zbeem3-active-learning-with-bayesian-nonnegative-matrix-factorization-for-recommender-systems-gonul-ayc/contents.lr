@@ -50,5 +50,9 @@ categories: pydata, python-skill-level-basic, domain-expertise-some, talk, stati
 ---
 slugified_slot_links: thursday, thursday-1605
 ---
+video_link: https://www.youtube.com/embed/JF3-JHFZukw
+---
+youtube_id: JF3-JHFZukw
+---
 body: In most of the systems, collecting data is not always free. In this talk, I will talk about an approach for a matrix completion problem that learns a distribution of data where information is incomplete or collecting it has a cost. Active learning is a method of analyzing the observed data such that choosing the next observation will give the most information about the variable to be predicted. However, when observations are costly, one needs strategies to obtain informative data to arrive at accurate predictions with less data. I will show results for comparing various observation sequence selection strategies on the matrix completion problem. We used Gibbs Sampling and Variational Bayes as inference mechanisms on the MovieLens dataset. For this study, we totally use the Python programming language. I will also show our results using Python Heatmap.
 

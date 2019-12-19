@@ -50,6 +50,10 @@ categories: pyconde, python-skill-level-none, domain-expertise-none, talk, use-c
 ---
 slugified_slot_links: friday, friday-1435
 ---
+video_link: https://www.youtube.com/embed/AdlmA6iHnfA
+---
+youtube_id: AdlmA6iHnfA
+---
 body: Popularity of event sourcing among Python developers seems to be moderate but growing. It can be seen as an enterprise architectural pattern, not worth considering in "smaller" applications.
 
 The goal of this talk is to spread the knowledge about what the event sourcing is, what hides behind the corner of an initial implementation and to help decide whether your code will benefit from it enough to be worth the cost. As any other tool, event sourcing is not a silver bullet and it won't be portrayed as such - it has its drawbacks and introduces a fair amount of complexity.

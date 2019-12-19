@@ -49,6 +49,10 @@ categories: pydata, python-skill-level-none, domain-expertise-some, talk, artifi
 ---
 slugified_slot_links: thursday, thursday-1150
 ---
+video_link: https://www.youtube.com/embed/t_7pZkPifqc
+---
+youtube_id: t_7pZkPifqc
+---
 body: Artificial intelligence promises great value. The technology is mostly understood only by few, yet still unexplainable even for experts. In this talk I'll present how to narrow the hype down to real value explainable to everyone in your organisation - without the math.
 
 Computer scientists often feel not understood by management. Management is overwhelmed by the hype. Progress drowns in daily business and updates of legacy systems. 

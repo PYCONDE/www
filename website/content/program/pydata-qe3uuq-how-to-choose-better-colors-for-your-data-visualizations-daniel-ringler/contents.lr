@@ -48,6 +48,10 @@ categories: pydata, python-skill-level-basic, domain-expertise-none, talk, data-
 ---
 slugified_slot_links: wednesday, wednesday-1225
 ---
+video_link: https://www.youtube.com/embed/5kwlIuQArdU
+---
+youtube_id: 5kwlIuQArdU
+---
 body: With Python libraries such as matplotlib, seaborn, bokeh, plotly, altair,  hvplot etc. it is easier than ever to create nice and colorful charts to visualize your data. Many people never change the basic configuration of the libraries because they do not know better (or worse: they do not care). This is why almost all charts look the same. 
 Colors are an important tool to quickly transfer the message of your charts to the viewer. In order to make it easy for the people to understand your charts and your data, it is important to think about how to use colors in data visualization (usually the standard colors are not the colors that should be used!).
 Therefore, this talk will teach you some basics of color theory and help you to get started with using better colors in your charts.

@@ -52,6 +52,10 @@ categories: pyconde, python-skill-level-basic, domain-expertise-some, tutorial, 
 ---
 slugified_slot_links: wednesday, wednesday-1350
 ---
+video_link: https://www.youtube.com/embed/lWo0Zjgj3ZA
+---
+youtube_id: lWo0Zjgj3ZA
+---
 body: Writing a function that takes a function and returns new, modified function requires solid knowledge how Python functions and closures work. This  hands-on workshop takes  you step-by-step through the process of writing decorators. Learn how to apply best practices from the start.
 
 You will learn the important principles that you need to fully understand how and why a decorator works the way it does. But this training does not end there. It provides many practical examples that can be used as blueprints for your own decorators.

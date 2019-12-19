@@ -50,6 +50,10 @@ categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, algo
 ---
 slugified_slot_links: friday, friday-1050
 ---
+video_link: https://www.youtube.com/embed/zHpeMTJsBRk
+---
+youtube_id: zHpeMTJsBRk
+---
 body: If pytest seems like pure magic to you or you even don't know what a test framework does, this talk will hopefully give you some insights.
 
 We will take a look at 3 [pytest](https://pypi.org/project/pytest/) core features and see how they are implemented using metaprogramming techniques like using code as data, dynamic execution of arbitrary expressions and live object introspection. These are all big words, but in Python all this comes quite natural. Getting started with these things is not too hard and can be done in an incremental fashion.

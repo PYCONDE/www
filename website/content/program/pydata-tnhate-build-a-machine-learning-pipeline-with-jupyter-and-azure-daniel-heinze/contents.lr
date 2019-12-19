@@ -48,6 +48,10 @@ categories: pydata, python-skill-level-basic, domain-expertise-some, tutorial, c
 ---
 slugified_slot_links: thursday, thursday-1130
 ---
+video_link: 
+---
+youtube_id: 
+---
 body: With increasing focus on Machine Learning systems in almost every business area, it is important to build a great pipeline to train, test and deploy your models. In this session we will show a way to do that with Jupyter and Azure.
 The session will cover the following topics:
 - creating a simple image classification service without coding

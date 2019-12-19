@@ -48,6 +48,10 @@ categories: pydata, python-skill-level-none, domain-expertise-some, talk, big-da
 ---
 slugified_slot_links: wednesday, wednesday-1530
 ---
+video_link: https://www.youtube.com/embed/kg2I0-4RXZw
+---
+youtube_id: kg2I0-4RXZw
+---
 body: Storing and processing data efficiently is an integral part of successful data-driven applications. An efficient and scalable way to store big data is by using object stores of public cloud providers like ABS, S3 or GCS. These storages come with downsides attached which make the management of tabular data distributed over many objects not a trivial task.
 
 [Kartothek](https://github.com/JDASoftwareGroup/kartothek) is a recently open sourced Python library we develop and use at [Blue Yonder – JDA Software](https://tech.jda.com) to manage tabular data in cloud object stores. It is built on [Apache Arrow](https://arrow.apache.org), [Apache Parquet](https://parquet.apache.org) and is powered by [Dask](http://dask.org). It’s specification is compatible with the de-facto standard storage layouts used by other big data processing tools like Apache Spark and Hive but offers a native, seamless integration into the Python ecosystem.

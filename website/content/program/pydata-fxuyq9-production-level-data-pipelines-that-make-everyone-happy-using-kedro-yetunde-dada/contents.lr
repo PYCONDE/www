@@ -48,6 +48,10 @@ categories: pydata, python-skill-level-basic, domain-expertise-some, talk, data-
 ---
 slugified_slot_links: wednesday, wednesday-1605
 ---
+video_link: https://www.youtube.com/embed/OFObles2CJs
+---
+youtube_id: OFObles2CJs
+---
 body: ### Objective
 This talk will tell a story of how changing business objectives are driving interest in production-level code; what software principles data engineers and data scientists should consider applying to their code to make it easier to deploy into the production environment; and, how they can use an open source Python library, called [Kedro](https://github.com/quantumblacklabs/kedro), to simplify their workflow using our Spaceflights example. 
 

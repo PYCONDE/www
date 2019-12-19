@@ -49,6 +49,10 @@ categories: pydata, python-skill-level-none, domain-expertise-some, talk, data-s
 ---
 slugified_slot_links: wednesday, wednesday-1530
 ---
+video_link: https://www.youtube.com/embed/wOgbtMLNmS4
+---
+youtube_id: wOgbtMLNmS4
+---
 body: Developing a complicated ensemble model with hundreds of features fetched from a bunch of different sources? Give me two! Showing great metrics to the stakeholders and already discussing how it will hit a home run in production? Why not! And then getting stuck for months trying to deploy the model and fighting with data inconsistency and bugs? Sounds familiar?
 This talk will focus on providing guidelines on how to build your model development process keeping in mind the deployment phase to come later on.
 

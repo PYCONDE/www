@@ -48,6 +48,10 @@ categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, algo
 ---
 slugified_slot_links: thursday, thursday-1000
 ---
+video_link: https://www.youtube.com/embed/bF3a2VYXxa0
+---
+youtube_id: bF3a2VYXxa0
+---
 body: Java is object oriented and Haskell is functional. How about Python? Is it really OO with free-standing functions and weak encapsulation? Python has lambdas and closures, but is it functional? Are these useful questions?
 
 In the last 10 years a new approach to the study of programming languages has emerged: focus on features, not paradigms. This approach offers more direct, practical advice for programmers learning a new language, taking up coding idioms, and choosing suitable design patterns.

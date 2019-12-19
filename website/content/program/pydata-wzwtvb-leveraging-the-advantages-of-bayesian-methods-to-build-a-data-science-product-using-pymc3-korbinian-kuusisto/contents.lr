@@ -48,6 +48,10 @@ categories: pydata, python-skill-level-basic, domain-expertise-expert, talk, alg
 ---
 slugified_slot_links: friday, friday-1150
 ---
+video_link: https://www.youtube.com/embed/gXSAH_nf29M
+---
+youtube_id: gXSAH_nf29M
+---
 body: Bayesian frameworks offer powerful theoretical advantages: they can take advantage of prior information and provide a better sense of uncertainty. 
 
 In practice however, the theoretical barrier-to-entry and complexity surrounding Bayesian methods often discourage data scientists from applying these methods in real-life contexts to build successful data products. 

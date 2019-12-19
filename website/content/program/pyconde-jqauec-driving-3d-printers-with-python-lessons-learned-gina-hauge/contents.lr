@@ -48,5 +48,9 @@ categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, web,
 ---
 slugified_slot_links: friday, friday-1225
 ---
+video_link: https://www.youtube.com/embed/9OcVmGbeh8A
+---
+youtube_id: 9OcVmGbeh8A
+---
 body: With OctoPrint I've created an open source web interface for consumer 3D printers that allows to control all aspects of the printer and ongoing print job and is extensible by plugins. OctoPrint's server side is written in Python and installed by end users on their own devices. In this talk I want to give a short overview of its architecture, provide some insight into the various challenges of developing and maintaining such a piece of end user facing software in Python and how I tackled them.
 

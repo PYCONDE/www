@@ -44,6 +44,10 @@ categories: pydata, python-skill-level-none, domain-expertise-none, talk, commun
 ---
 slugified_slot_links: friday, friday-1435
 ---
+video_link: https://www.youtube.com/embed/kd63M0HDDrg
+---
+youtube_id: kd63M0HDDrg
+---
 body: At Opt Out, we’re building a set of tools designed to help female-identifying people engage with healthy debate online safely. Victims of online misogyny experience a sense of fear and attack on their integrity. Amnesty International found that of the women who experienced abuse or harassment online, 41% of responding women felt that their physical safety was threatened and 1 in 2 women experienced lower self-esteem or loss of self-confidence as well as stress, anxiety or panic attacks. By pushing female-identifying people out of online spaces, because of fear of victimisation or retaliation, online misogyny punishes female-identifying people further by affecting their economic potential and political representation.  Many cannot rely on the internet for a living and in addition, the Chartered Institute of Marketers, UK reported that 83% of women had self-censored indicating that voicing a political opinion could be under threat. In a world that is more entrenched on the internet than ever, these human rights violations are contributing to an oppression similar to those of decades long gone.
 
 Opt Out's founding idea is a browser extension that removes misogynistic comments from an individual’s social media feed. But what is online misogyny? How do you capture the nuances whilst ensuring that the richness of respectful online interaction is maintained? In this talk I will discuss:

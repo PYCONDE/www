@@ -52,6 +52,10 @@ categories: pydata, python-skill-level-expert, domain-expertise-some, talk, data
 ---
 slugified_slot_links: wednesday, wednesday-1150
 ---
+video_link: https://www.youtube.com/embed/h1OoqnzAh2E
+---
+youtube_id: h1OoqnzAh2E
+---
 body: Visualizing graph networks is becoming increasingly more important in the realm of data science. However, once your graph exceeds some hundred nodes and edges, rendering a static image that contains all information becomes too complex and incomprehensible. That is when you need interactive graph visualization.
 
 In this talk, you will learn how to use well-established packages, such as `networkx`, `traitlets`, `ipywidgets` and `plotly`, to produce interactive network graphs, where you can easily zoom in and out, filter for nodes and edges, find nodes by their name and even update the network's layout.

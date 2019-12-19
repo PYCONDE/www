@@ -48,6 +48,10 @@ categories: pyconde, python-skill-level-basic, domain-expertise-some, keynote, c
 ---
 slugified_slot_links: thursday, thursday-0910
 ---
+video_link: https://www.youtube.com/embed/fOdCxum-qLA
+---
+youtube_id: fOdCxum-qLA
+---
 body: Python is at crossroads. It's one of the most popular programming languages in use, the de facto choice for education and data science. Python 3 is gaining mass adoption while Python 2 is just about to reach End-of-Life. Life could not be better for a Python programmer.
 
 But as a general purpose programming language, Python is peculiarly missing in some spaces like mobile devices, client-side Web, or gaming. Should we do something about it? How could we go about changing that? How can *you* help? Come and find out.

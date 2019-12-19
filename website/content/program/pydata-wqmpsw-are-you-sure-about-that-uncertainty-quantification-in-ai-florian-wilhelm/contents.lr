@@ -48,6 +48,10 @@ categories: pydata, python-skill-level-none, domain-expertise-some, talk, artifi
 ---
 slugified_slot_links: thursday, thursday-1000
 ---
+video_link: https://www.youtube.com/embed/LCDIqL-8bHs
+---
+youtube_id: LCDIqL-8bHs
+---
 body: With the advent of Deep Learning (DL), the field of AI made a giant leap forward and it is nowadays applied in many industrial use-cases. Especially critical systems like autonomous driving, require that DL methods not only produce a prediction but also state the certainty about the prediction in order to assess risks and failure. 
 
 In my talk, I will give an introduction to different kinds of uncertainty, i.e. epistemic and aleatoric. To have a baseline for comparison, the classical method of Gaussian Processes for regression problems is presented. I then elaborate on different DL methods for uncertainty quantification like Quantile Regression, Monte-Carlo Dropout, and Deep Ensembles. The talk is concluded with a comparison of these techniques to Gaussian Processes and the current state of the art.

@@ -50,6 +50,10 @@ categories: pyconde, python-skill-level-basic, domain-expertise-some, talk, big-
 ---
 slugified_slot_links: thursday, thursday-1000
 ---
+video_link: https://www.youtube.com/embed/Q2u1wcfmlzw
+---
+youtube_id: Q2u1wcfmlzw
+---
 body: Docker provides tooling for building,
 running and communication between Linux containers. Containers are a lightweight 
 alternative to virtual machines and are a great way of isolating resources

@@ -50,6 +50,10 @@ categories: pydata, python-skill-level-basic, domain-expertise-some, talk, data-
 ---
 slugified_slot_links: wednesday, wednesday-1400
 ---
+video_link: https://www.youtube.com/embed/hnDZGBuzKvo
+---
+youtube_id: hnDZGBuzKvo
+---
 body: Duplicated content is often an issue in many online platforms, especially in classifieds, where it requires special attention: fraudsters there create fake ads by copying existing listings and trick honest users into giving away their money.
 
 In this talk, we suggest an approach to this problem and show how to design a system for duplicate detection in online classifieds. We cover it end-to-end and first present the basic conceptual ideas and then go into hands-on implementation details.

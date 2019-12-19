@@ -49,6 +49,10 @@ categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, infr
 ---
 slugified_slot_links: wednesday, wednesday-1150
 ---
+video_link: https://www.youtube.com/embed/-0TVMCTnCg4
+---
+youtube_id: -0TVMCTnCg4
+---
 body: Our product uses a fleet of real (not virtual) robots to perform different tasks in a fulfillment warehouse. Simulation is an essential tool in this kind of product: it allows to perform regression tests and test new features without the need for real and expensive hardware, to compare the impact of different implementations and optimizations, to inject failures, and more.
 
 Tasks performed by physical robots take time (movement over the warehouse, box lifting, etc.), but in simulation, where virtual robots are used, there is no need to wait all that time. I will describe our implementation of the Discrete-Event Simulation approach which allows us to simulate hours of real-life in minutes.

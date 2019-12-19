@@ -50,6 +50,10 @@ categories: pydata, python-skill-level-basic, domain-expertise-some, talk, algor
 ---
 slugified_slot_links: wednesday, wednesday-1150
 ---
+video_link: https://www.youtube.com/embed/5ChQ6Ijt8j4
+---
+youtube_id: 5ChQ6Ijt8j4
+---
 body: To reduce unplanned downtime, bottling plants replace mechanically wearing parts on fixed time schedules, ideally prior to failure. This lack of failure cases makes development of data-driven maintenance plans difficult. Anomaly detection is thus a promising alternative path towards predictive maintenance for these systems.
 
 This talk will give an overview of unsupervised one- and multi-dimensional anomaly detection methods and their application to data from sensors of the main motor of a soft drink bottling machine.

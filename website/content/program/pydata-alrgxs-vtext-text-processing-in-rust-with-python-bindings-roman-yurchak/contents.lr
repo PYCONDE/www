@@ -47,6 +47,10 @@ categories: pydata, python-skill-level-basic, domain-expertise-some, talk, natur
 ---
 slugified_slot_links: wednesday, wednesday-1530
 ---
+video_link: https://www.youtube.com/embed/G_43eu6Ascs
+---
+youtube_id: G_43eu6Ascs
+---
 body: Scientific Python has historically relied on compiled extensions for performance critical parts of the code. In this talk, we outline how to write Rust extensions for Python using [rust-numpy](https://github.com/rust-numpy/rust-numpy),
 project. Advantages and limitations of this approach as compared to Cython or wrapping Fortran, C or C++ are also discussed.
 

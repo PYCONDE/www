@@ -53,6 +53,10 @@ categories: pydata, python-skill-level-expert, domain-expertise-some, tutorial, 
 ---
 slugified_slot_links: 
 ---
+video_link: 
+---
+youtube_id: 
+---
 body: This tutorial provides a general introduction to the PyTorch Deep Learning framework with specific focus 
 on Deep Learning applications for Precision Medicine and Computational Biology.
 

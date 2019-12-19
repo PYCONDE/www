@@ -48,6 +48,10 @@ categories: pydata, python-skill-level-basic, domain-expertise-some, talk, artif
 ---
 slugified_slot_links: friday, friday-1000
 ---
+video_link: https://www.youtube.com/embed/IH2gEtxIbqM
+---
+youtube_id: IH2gEtxIbqM
+---
 body: *Data* is the key differentiator between a Machine Learning project and a traditional software project: even if everything else stays stable, changing the data your models are trained upon makes a huge difference.
 
 The best tools for tracking changes are the VCS that are used in software development, such as Git, Mercurial, and Subversion. They keep track of what was changed in a file, when and by whom, and synchronize changes to a central server so that multiple contributors can manage changes to the same set of files. But these **traditional tools aren’t quite sufficient for Machine Learning** because of the need for being able to **track the data sets along with the code itself and some of the resulting models**.

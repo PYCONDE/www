@@ -46,6 +46,10 @@ categories: pydata, python-skill-level-basic, domain-expertise-some, talk, compu
 ---
 slugified_slot_links: thursday, thursday-1530
 ---
+video_link: https://www.youtube.com/embed/dBPJCO706BE
+---
+youtube_id: dBPJCO706BE
+---
 body: Off-the-shelf image processing techniques can be used to track people's locations but this doesn’t work as well in dark environments, such as dance clubs. These environments are of interest to researchers investigating the interaction between music and social behaviour.  Silent discos are a dance club-like environment with one great advantage: a signal in the form of headphone lights. Using overhead video capture and image processing, these headphone lights can be used to track people’s location over time.
 
 These methods provide a low-cost alternative to motion tracking laboratories, which are expensive to set-up and maintain. Since silent discos have become increasingly popular at festivals and other events, they also present a relatively natural environment in which larger groups of people can participate.

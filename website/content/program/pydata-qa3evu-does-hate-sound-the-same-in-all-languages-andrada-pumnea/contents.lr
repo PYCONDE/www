@@ -50,6 +50,10 @@ categories: pydata, python-skill-level-basic, domain-expertise-some, talk, deep-
 ---
 slugified_slot_links: friday, friday-1400
 ---
+video_link: https://www.youtube.com/embed/xFTTHCH4yiQ
+---
+youtube_id: xFTTHCH4yiQ
+---
 body: 7th of October 2018 marked a historical day for Romania: the referendum aiming to define the family as exclusively heterosexual, inherently limiting any future attempt to legalise same-sex marriage, failed. Nonetheless, amid the public debate on this topic, social media (especially Facebook) sparked with hate speech against the LGBT community, with no consistent action to moderate it. 
 
 Online hate speech is nothing new, but the measures taken against it are mainly focused on English speakers. How might we make social media safer and more inclusive for minorities speaking languages other than English? In this talk I will discuss the steps undertaken to automatically detect hate speech in Romanian, starting from the content generated during the days preceding the afore-mentioned referendum. Currently, there is no public dataset for hate speech detection in Romanian so, in this talk, the process and learnings from collecting data to implementing a natural language processing (NLP) solution and possible extensions to other languages, will be discussed. Overall, this project explores how data science can be leveraged for social good.

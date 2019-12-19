@@ -164,7 +164,7 @@ def update_session_pages(use_cache=False):
     # take on only required attributes
 
     eq_attr = ['abstract', 'answers', 'code', 'description', 'duration', 'is_featured',
-               'speakers', 'state', 'submission_type', 'title', 'track', 'slug']
+               'speakers', 'state', 'submission_type', 'title', 'track', 'slug', 'youtube_id', 'video_link']
     id_answers = {118: 'short_description', 111: 'python_skill', 110: 'domain_expertise', 119: 'domains'}
     cleaned_submissions = []
     for s in submissions:
@@ -277,6 +277,10 @@ categories: {categories_list}
 ---
 slugified_slot_links: {slugified_slot_links}
 ---
+video_link: {video_link}
+---
+youtube_id: {youtube_id}
+---
 body: {body}
 
 """
@@ -332,6 +336,8 @@ body: {body}
         domain_expertise = f"Domain Expertise {submission['domain_expertise']}"
 
         domains = submission['domains']
+        video_link = f"https://www.youtube.com/embed/{submission['youtube_id']}" if submission.get('youtube_id') else ""
+        youtube_id = submission['youtube_id'] if submission.get('youtube_id') else ""
 
         categories = [submission['track'], python_skill, domain_expertise] + [submission['submission_type'].split(' ')[0]] + domains.split(
             ', ')
@@ -385,6 +391,8 @@ body: {body}
                 start_time=start_time,
                 room=room,
                 day=day,
+                video_link=video_link,
+                youtube_id=youtube_id,
             ))
     if in_place_submissions:  # leftover dirs
         for zombie in in_place_submissions:
@@ -430,18 +438,15 @@ def run_lekor_update():
 
 def git_push():
     commands = [f"cd {project_root.absolute()}", "git add --all", "git commit -am website-auto-update", "git push"]
-    for command in commands:
-        print("command:", command)
-        process = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
-        proc_stdout, proc_error = process.communicate()
-        if proc_error:
-            raise RuntimeError(f"git did return an error {proc_error}: {proc_stdout}")
-        for line in proc_stdout.decode('utf-8').split('\n'):
-            print(line)
+    exec_command(commands)
 
 
 def git_pull():
     commands = [f"cd {project_root.absolute()}", "git pull"]
+    exec_command(commands)
+
+
+def exec_command(commands):
     for command in commands:
         print("command:", command)
         process = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
@@ -453,10 +458,10 @@ def git_pull():
 
 
 if __name__ == "__main__":
-    git_pull()
-    update_session_pages(use_cache=False)
+    # git_pull()
+    # update_session_pages(use_cache=False)
     # update_schedule_from_sheet()
     update_session_pages(use_cache=True)
     generate_session_pages()
     run_lekor_update()
-    git_push()
+    # git_push()

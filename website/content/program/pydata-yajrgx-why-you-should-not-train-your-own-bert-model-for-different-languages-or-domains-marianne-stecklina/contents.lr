@@ -48,6 +48,10 @@ categories: pydata, python-skill-level-basic, domain-expertise-expert, talk, art
 ---
 slugified_slot_links: wednesday, wednesday-1435
 ---
+video_link: https://www.youtube.com/embed/-EvtAWr3GIo
+---
+youtube_id: -EvtAWr3GIo
+---
 body: Large pre-trained language models play an important role in recent NLP research. They can learn general language features from unlabeled data, and then be easily fine-tuned for any supervised NLP task, e.g. classification or named entity recognition. BERT (Bidirectional Encoder Representations from Transformers) is one example of a language model, pre-trained weights are available for everyone to use. 
 
 BERT has been shown to successfully transfer knowledge from pre-training to many different NLP benchmark tasks. How good can this transfer work for non-English or domain-specific texts, though? 

@@ -48,6 +48,10 @@ categories: pydata, python-skill-level-basic, domain-expertise-some, talk, algor
 ---
 slugified_slot_links: friday, friday-1225
 ---
+video_link: https://www.youtube.com/embed/pBuS7EUPnQA
+---
+youtube_id: pBuS7EUPnQA
+---
 body: People have names. Most people do. People have first names and last names. Many people do. People have any sorts of names that often don't fit fixed fields in the forms. These names may contain letters, accented letters, and other characters, that may cause problems to your code depending on the encoding you use. They may look differently in uppercase and lowercase, or may not be case foldable at all. Searching and sorting these names may be tricky too. And if you design an application, web form, and/or database dealing with personal names, you'll have to take that into account.
 
 This talk is not about GDPR, but will help you to use the best tools to handle encoding and locales in Python and in your database and prevent your application from appearing in `#uxfail` memes.

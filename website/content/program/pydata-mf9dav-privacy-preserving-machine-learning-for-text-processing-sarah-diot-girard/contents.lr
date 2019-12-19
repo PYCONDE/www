@@ -48,6 +48,10 @@ categories: pydata, python-skill-level-basic, domain-expertise-some, talk, artif
 ---
 slugified_slot_links: wednesday, wednesday-1605
 ---
+video_link: https://www.youtube.com/embed/M_wnxin97U0
+---
+youtube_id: M_wnxin97U0
+---
 body: Data privacy is probably one of the most important challenges we are facing in Data Science. Applications are collecting more and more personal data and it is paramount to ensure anonymity. Privacy cannot be solved just by removing personal identifiers, and concepts such as k-anonymity have been developed to help with structured data. 
 But what if you are working with unstructured text data? Things can get even trickier... 
 This talk aims at presenting a few tips and tricks to ensure privacy when working with text, as well as identifying still open research questions. No silver bullet here, but hopefully a step in the right direction.

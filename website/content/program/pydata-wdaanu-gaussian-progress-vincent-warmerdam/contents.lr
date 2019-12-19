@@ -52,6 +52,10 @@ categories: pydata, python-skill-level-basic, domain-expertise-some, talk, artif
 ---
 slugified_slot_links: thursday, thursday-1000
 ---
+video_link: https://www.youtube.com/embed/aICqoAG5BXQ
+---
+youtube_id: aICqoAG5BXQ
+---
 body: When you're a machine learning professional you might feel like you need to learn *so* many algorithms that it can be hard to keep up. It can be very demotivating. This talk is not about downplaying this feeling but it is about demonstrating a lovely hack; understanding a mother algorithm. 
 
 It turns out that if you appreciate what the gaussian distribution can do then there are lot's of algorithms that are much easier to grasp. This talk is an attempt at explaining the power of the Gaussian[tm] by stepping up the ladder of complexity of algorithms:

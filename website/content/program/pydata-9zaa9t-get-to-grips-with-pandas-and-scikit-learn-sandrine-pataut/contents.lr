@@ -52,6 +52,10 @@ categories: pydata, python-skill-level-basic, domain-expertise-none, tutorial, a
 ---
 slugified_slot_links: wednesday, wednesday-1130
 ---
+video_link: https://www.youtube.com/embed/FfZlPDSeJ24
+---
+youtube_id: FfZlPDSeJ24
+---
 body: We hear a lot about Machine Learning, but it’s just one part of a bigger process. Before applying any algorithm to a data set, discovery and preparation are needed. This hands-on workshop will cover an end-to-end classification project, from importing the data to evaluating a model performance. After this tutorial, you will have completed a step by step Machine Learning workflow.
 
 Part one: Grab your spade and dig in!

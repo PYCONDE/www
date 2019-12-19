@@ -44,6 +44,10 @@ categories: pydata, python-skill-level-none, domain-expertise-none, talk, natura
 ---
 slugified_slot_links: wednesday, wednesday-1400
 ---
+video_link: https://www.youtube.com/embed/vesSXYx2uQw
+---
+youtube_id: vesSXYx2uQw
+---
 body: For someone working with **Natural Language Processing/Understanding** (NLP/NLU), I see a lot of value in incorporating a formal understanding of how languages are structured, beyond just being able to speak/understand them. In this talk I will give you a simple explanation of the basic concepts and their connection with the NLP/NLU world.
 
 According to traditional linguistics, there are 5 levels of study for languages: **phonetics-phonology**, **morphology**, **syntax**, **semantics** and **pragmatics**. They go from the smallest unit in language, the human sounds, to the largest, language usage. We will go through all of them in the talk.

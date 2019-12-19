@@ -48,6 +48,10 @@ categories: pydata, python-skill-level-basic, domain-expertise-none, talk, compu
 ---
 slugified_slot_links: thursday, thursday-1400
 ---
+video_link: https://www.youtube.com/embed/R1HiqnZpCEg
+---
+youtube_id: R1HiqnZpCEg
+---
 body: Observing animal behaviour and movement have been fruitful for scientists from different areas. Evolotuinory ecologists are interested in animals’ adaptive evolution of behavioural strategies. Neuroscientists focus on brain-behaviour relationships to investigate how the brain learns new movements or how the brain tells the body to move. To get to bottom of behaviour, evolutionary ecologists survey animals’ adaptive evolution of behavioural strategies. Anciently, in order to quantify animal movement and behaviour, direct observations were made in the field. However direct observations bear several problems. They are not only time-consuming and labour intensive but also tendentious which often leads to difficulty in reproducing the experiments. Moreover, the presence of the observer can affect the behaviour of the animals if animals are not accustomed to the observer. These issues may be overcome by using a video recording system. Unlike the direct observation which cannot be reanalyzed in the case that the fatigue of the observer, video recording ensures complete and permanent registration of behavioural patterns which happened during the observation time. 
 
 However, analyzing the video recordings from a traditional point of view with a pencil, paper and stopwatch induced problems like time consumption and human labour. The recent technological development in the field of computer vision has allowed researchers to track the animals automatically. With the help of the automated tracking techniques, less time and effort is needed to generate a precise dataset of animal movement and behaviour.

@@ -48,6 +48,10 @@ categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, code
 ---
 slugified_slot_links: thursday, thursday-1050
 ---
+video_link: https://www.youtube.com/embed/cokP4XAhcwo
+---
+youtube_id: cokP4XAhcwo
+---
 body: Are your debugging skills limited to "print", or do you sometimes think there must be a better way to figure out what's going on? I will show 10 ways to debug Python code, and share tips and tricks for effective debugging.
 
 This talk is at the beginner level, but it is fast-paced, with the goal to give you an overview of the many options to debug Python code, and to let you find the "right tool for the job" when you encounter a problem. We will start with a quick introduction how Python executes code, focusing on stack frames and tracebacks. Then we will give an overview of different tools and techniques to debug Python if you get an error or unexpected output, ranging from pdb in the terminal to ipdb in Jupyter to the visual debugger in PyCharm and VS Code.

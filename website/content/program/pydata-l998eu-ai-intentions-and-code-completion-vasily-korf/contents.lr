@@ -46,6 +46,10 @@ categories: pydata, python-skill-level-basic, domain-expertise-some, talk, artif
 ---
 slugified_slot_links: wednesday, wednesday-1435
 ---
+video_link: https://www.youtube.com/embed/98nyBGXalNg
+---
+youtube_id: 98nyBGXalNg
+---
 body: Datalore supports intentions – code suggestions based on what you’ve just written. They cover a wide range of situations from generating code to warnings and optimization suggestions. While Datalore is aware of what intentions can be applied to the particular block of code, it can’t determine which intention will be the most useful for the user and should be shown first. Although Datalore is the web application, we can’t access our users’ source code – and hence can’t match it with intentions they are invoking and use this data for training our model.
 As for now, the model architecture follows more or less the same architecture approach, except for using bidirectional LSTM connections.
 The current proof-of-concept version obtains up to 57% top-1 accuracy while requiring about 200 ms for one prediction.

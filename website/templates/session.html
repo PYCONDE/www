@@ -25,11 +25,15 @@
 
                                 <div class="single-content__share">
                                     <span class="sub-head-2">Share</span>
-                                    <a href="https://twitter.com/intent/tweet?text={{ this.short_description|urlencode }}&url={{ site.config.PROJECT.url }}{{ '.'|url }}&hashtags=PyConDE,PyDataBerlin"} target="_blank">
+                                    <a href="https://twitter.com/intent/tweet?text={{ this.short_description|urlencode }}&url=
+                                            {{ site.config.PROJECT.url }}{{ '.'|url }}&hashtags=PyConDE,PyDataBerlin" } target="_blank">
                                         <i class="fa fa-twitter"></i>
                                     </a>
-                                    <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.config.PROJECT.url }}{{ '.'|url }}&title={{ this.title|urlencode }}&summary={{ this.short_description|urlencode }}&source={{ "PyConDE & PYData Berlin 2019"|urlencode }}"
-                                    target="_blank">
+                                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=
+
+
+                                            {{ site.config.PROJECT.url }}{{ '.'|url }}&title={{ this.title|urlencode }}&summary={{ this.short_description|urlencode }}&source={{ "PyConDE & PYData Berlin 2019"|urlencode }}"
+                                       target="_blank">
                                         <i class="fa fa-linkedin"></i>
                                     </a>
 
@@ -39,12 +43,12 @@
                             <div class="single-content">
 
                                 <div class="single-content__tags">
-                                <h6>{{ this.day|title }} {{ this.start_time }} in {{ this.room|title }}
-{#                                    <span class="sub-head-2">When&nbsp;&nbsp;&nbsp;&nbsp;</span>#}
-                                    {% for ts in this.slugified_slot_links.split(', ') %}
-                                        {% set domain_slug = ts.lower().replace(' ', '-').replace('/', '-').replace('---', '-').replace('--', '-') %}
-                                        <a href="/program/categories/{{ ts }}">{{ ts }}</a>
-                                    {% endfor %}</h6>
+                                    <h6>{{ this.day|title }} {{ this.start_time }} in {{ this.room|title }}
+                                        {#                                    <span class="sub-head-2">When&nbsp;&nbsp;&nbsp;&nbsp;</span>#}
+                                        {% for ts in this.slugified_slot_links.split(', ') %}
+                                            {% set domain_slug = ts.lower().replace(' ', '-').replace('/', '-').replace('---', '-').replace('--', '-') %}
+                                            <a href="/program/categories/{{ ts }}">{{ ts }}</a>
+                                        {% endfor %}</h6>
                                 </div>
 
                                 <div class="single-content__tags">
@@ -77,9 +81,15 @@
 
                         </div>
 
-
-                        <img class="lazyload--el lazyloaded" src="{{ this.twitter_image|url }}" data-src="{{ this.twitter_image }}" alt=""
-                             width="960" height="480">
+                        {% if this.video_link %}
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="560" height="315"  src="{{ this.video_link }}?&autoplay=0" frameborder="0"
+                                        allowfullscreen></iframe>
+                            </div>
+                        {% else %}
+                            <img class="lazyload--el lazyloaded" src="{{ this.twitter_image|url }}" data-src="{{ this.twitter_image }}"
+                                 alt="" width="960" height="480">
+                        {% endif %}
 
                     </div>
 

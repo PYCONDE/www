@@ -48,5 +48,9 @@ categories: pydata, python-skill-level-none, domain-expertise-some, keynote, pyt
 ---
 slugified_slot_links: friday, friday-0910
 ---
+video_link: https://www.youtube.com/embed/QMJIh-voWng
+---
+youtube_id: QMJIh-voWng
+---
 body: By some measures, Open Source is a wildly successful and crucial part of many areas of modern technology. However, the ’sustainability crisis’ and the age of cloud computing have threatened its core mechanisms. Peter will present some alternative ways of looking at this crucial moment in the evolution of the open source movement, and suggest some ways to think about the future of open source.
 

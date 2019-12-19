@@ -50,6 +50,10 @@ categories: pydata, python-skill-level-basic, domain-expertise-some, talk, data-
 ---
 slugified_slot_links: friday, friday-1435
 ---
+video_link: https://www.youtube.com/embed/pwzsGHjTDa4
+---
+youtube_id: pwzsGHjTDa4
+---
 body: When building a data visualization in Python from scratch, we quickly stumble across multiple questions: "What type of plot to use?" "How to scale the axes?" "How many dimensions?" "Should I use colors?" In trying to answer these, we can easily get lost in multiple exploratory trips to Stack Overflow, documentation pages, example galleries, and tutorials, often resulting in code that utilizes three different libraries, is more than 50 lines long, and leaves us with a feeling that our graphic's language is lacking structure.
 
 Part of the problem is the abundance of data visualization packages available in Python and their very different syntactic patterns. Each package uses different ways to change elements like axis features, labels, annotations, titles, or even gridlines. Even the way the input data needs to be structured can differ. As a result, the analyst is often absorbed more by figuring out how to adjust each visual detail, instead of thinking of the graphic as a system of logically structured elements, and mapping the data to each of them separately.

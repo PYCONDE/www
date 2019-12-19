@@ -48,6 +48,10 @@ categories: pydata, python-skill-level-basic, domain-expertise-some, talk, artif
 ---
 slugified_slot_links: friday, friday-1000
 ---
+video_link: https://www.youtube.com/embed/HqK0wmIceH4
+---
+youtube_id: HqK0wmIceH4
+---
 body: Being the third pillar of machine learning, it is not too surprising that reinforcement learning both enjoys and suffers from opportunities and challenges that are unique to its domain. A lot of the difficulties of supervised and unsupervised learning are simply not an issue here, but it comes at a cost of dealing with a completely different set of problems. 
 
 We have seen the tremendous success of RL in creating AIs for various games - from tic-tac-toe through chess and Go and up to Starcraft 2 and Dota 2. But what about successful applications in fields that are not inherently game-related? Turns out, we won’t find that many, even if we dig pretty deep. Why is that?

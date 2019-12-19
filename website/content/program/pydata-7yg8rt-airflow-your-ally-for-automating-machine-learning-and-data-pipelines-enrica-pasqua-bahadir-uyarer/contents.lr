@@ -57,6 +57,10 @@ categories: pydata, python-skill-level-expert, domain-expertise-some, tutorial, 
 ---
 slugified_slot_links: thursday, thursday-1000
 ---
+video_link: 
+---
+youtube_id: 
+---
 body: After having worked hard developing a machine learning model, you know that there is still a _relatively small_ step to do: moving it to production.
 
 In a common scenario what you probably would like to have is a workflow to automate:

@@ -46,6 +46,10 @@ categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, busi
 ---
 slugified_slot_links: wednesday, wednesday-1605
 ---
+video_link: https://www.youtube.com/embed/ZhE-xdJ6V34
+---
+youtube_id: ZhE-xdJ6V34
+---
 body: In this talk, I will share my journey of starting an open source project.
 
 Assuming you have an idea and a GitHub account, we will first cover how to set up a project easily using a cookie-cutter. What is it you ask? We will explain it to you and also introduce other useful tools in open source project. For example, CICD tools like Travis and documentation service like ReadTheDocs and testing using Pytest.

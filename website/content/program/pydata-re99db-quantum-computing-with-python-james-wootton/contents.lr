@@ -50,6 +50,10 @@ categories: pydata, python-skill-level-basic, domain-expertise-none, tutorial, a
 ---
 slugified_slot_links: thursday, thursday-1515
 ---
+video_link: https://www.youtube.com/embed/tjx2b-cJktE
+---
+youtube_id: tjx2b-cJktE
+---
 body: Quantum computers represent a fundamentally new form of hardware, and will require very different software to be written. However, the design of algorithms and handling of inputs and outputs will all be done via conventional programming. There are now a handful of frameworks being built to meet this need, and all but one are based on Python.
 
 This session will serve as an introduction to quantum computing as a whole, and also to the most well-developed and well-used framework built to support it: [Qiskit](https://qiskit.org).

@@ -48,6 +48,10 @@ categories: pyconde, python-skill-level-guru, domain-expertise-guru, talk, micro
 ---
 slugified_slot_links: thursday, thursday-1605
 ---
+video_link: https://www.youtube.com/embed/o3WkrKdGrRc
+---
+youtube_id: o3WkrKdGrRc
+---
 body: Chip design does not often tend to be thought of as *programming*, although a complex system-on-chip (SoC) is generally crafted through thousands or millions of lines of code. 
 
 For decades chip design has primarily taken place in C-derived, domain-specific *hardware description languages*, such as Verilog and VHDL.  A recent set of *hardware description libraries*, several based in Python, aim to instead move the chip-design process into modern programming languages. 

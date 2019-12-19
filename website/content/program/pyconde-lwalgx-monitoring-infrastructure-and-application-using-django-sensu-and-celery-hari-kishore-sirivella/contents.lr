@@ -46,6 +46,10 @@ categories: pyconde, python-skill-level-basic, domain-expertise-some, talk, djan
 ---
 slugified_slot_links: friday, friday-1050
 ---
+video_link: https://www.youtube.com/embed/uo5zV4pyGIE
+---
+youtube_id: uo5zV4pyGIE
+---
 body: I will be talking about how we SREs at Opentable Inc, tries to solve the good old monitoring problem - sensu with puppet, using Django, Sensu and Celery.
 
 If you are fed up with the limitations of what current monitoring tools offer, this is the talk you wanna look out.

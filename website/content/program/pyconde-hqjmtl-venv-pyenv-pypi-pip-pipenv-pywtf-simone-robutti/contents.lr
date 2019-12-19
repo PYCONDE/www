@@ -48,6 +48,10 @@ categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, code
 ---
 slugified_slot_links: thursday, thursday-1435
 ---
+video_link: https://www.youtube.com/embed/-C8uVImkTQg
+---
+youtube_id: -C8uVImkTQg
+---
 body: The goal of this talk is to cover the most common Python Project tools and explain where and why they should be used. Hopefully it will give a clearer picture of what you really need to build and manage your projects, alongside a better understanding of the many tools you often have to use when employing or contributing to an open source Python project. 
 
 The talk will cover tools for:

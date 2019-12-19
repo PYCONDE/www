@@ -52,6 +52,10 @@ categories: pyconde, python-skill-level-basic, domain-expertise-some, keynote, c
 ---
 slugified_slot_links: wednesday, wednesday-1700
 ---
+video_link: https://www.youtube.com/embed/tBY8u7iSF0M
+---
+youtube_id: tBY8u7iSF0M
+---
 body: In 2017, CPython codebase was moved to GitHub from Mercurial, an effort that took more than three years of planning and lots of volunteer coordination. 
 The move proved to be successful and well-appreciated. New contributors face less barriers when contributing to Python. Core developers are benefiting from personal assistants in the form of GitHub bots and automations.
 Can the workflow be even better? In this talk, we'll look into other problems in CPython's workflow: the issue tracker itself.

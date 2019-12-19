@@ -48,6 +48,10 @@ categories: pyconde, python-skill-level-none, domain-expertise-none, talk, commu
 ---
 slugified_slot_links: friday, friday-1150
 ---
+video_link: https://www.youtube.com/embed/j2vrXPdWQck
+---
+youtube_id: j2vrXPdWQck
+---
 body: As computer users, we spend copious amounts of time in front of screens, but, as writers and editors of text, we tend to ignore or overlook the way we most directly interact with our development environments, the keyboard.
 
 The keyboard standard set by QWERTY has remained unchallenged for about a hundred years, despite being free from the mechanisms that dictated the way mechanical typewriters had to be built.  Recent developments in electronics manufacturing, laser cutting, and 3D printing have allowed a community of keyboard makers to flourish and challenge the status quo. This talk will set out to upend preconceived notions of input, and will present alternative keyboard layouts, both virtual and physical.

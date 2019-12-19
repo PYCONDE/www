@@ -91,6 +91,10 @@ categories: pyconde, python-skill-level-basic, domain-expertise-some, panel, com
 ---
 slugified_slot_links: thursday, thursday-1400
 ---
+video_link: https://www.youtube.com/embed/VrxFpkegqWA
+---
+youtube_id: VrxFpkegqWA
+---
 body: Some points we want to discuss on this panel:
 
 - Demystifying core developers, does one have be be a C-guru to help with CPython?

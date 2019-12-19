@@ -50,6 +50,10 @@ categories: pyconde, python-skill-level-none, domain-expertise-some, talk, busin
 ---
 slugified_slot_links: friday, friday-1150
 ---
+video_link: https://www.youtube.com/embed/w85WZ0mJQS4
+---
+youtube_id: w85WZ0mJQS4
+---
 body: As Prisync, we crawl a large portion of the web every day for 6 years. First we approach the problem with a naive aspect, but we learned our lesson via experience. Developers create workarounds and hacks all over the time. But doing so has –most probably, unexpected– consequences. Some of the glitches we experiences so far: 
 
 There are ;

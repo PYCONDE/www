@@ -48,6 +48,10 @@ categories: pydata, python-skill-level-none, domain-expertise-some, talk, artifi
 ---
 slugified_slot_links: thursday, thursday-1400
 ---
+video_link: https://www.youtube.com/embed/R-ts_mxGKOg
+---
+youtube_id: R-ts_mxGKOg
+---
 body: Being in the price comparison business, solute's mission is to make
 sense of product data. Crucial to fulfilling that mission is figuring
 out the category of each offer. We tackle this problem with Machine

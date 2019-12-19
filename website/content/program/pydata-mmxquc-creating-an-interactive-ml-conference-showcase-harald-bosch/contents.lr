@@ -48,6 +48,10 @@ categories: pydata, python-skill-level-basic, domain-expertise-expert, talk, art
 ---
 slugified_slot_links: wednesday, wednesday-1605
 ---
+video_link: https://www.youtube.com/embed/YyKQOKPK5Kg
+---
+youtube_id: YyKQOKPK5Kg
+---
 body: If you want to showcase novel technologies, it is best to have interactive demonstrations to explore their characteristics in a playful environment. In this session we will build such a demonstrator for machine-learning-based computer vision in a Jupyter notebook. The goal is to be able to learn new image classes quickly and with minimal training examples for the sake of demonstrating the technology in situations like trade fairs or conference exhibitions. This will not achieve production ready results but is a compact and viable example.
 
 The obstacles that we will face and overcome are:

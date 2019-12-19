@@ -48,5 +48,9 @@ categories: pyconde, python-skill-level-basic, domain-expertise-some, talk, comm
 ---
 slugified_slot_links: friday, friday-1150
 ---
+video_link: https://www.youtube.com/embed/vTxXHx5lfv0
+---
+youtube_id: vTxXHx5lfv0
+---
 body: Python 3.8 will be released in few months and you want to know the new features of this version, I will explain you the new points, the new audit hook or the f-string {=} and the other changes of this new version.
 

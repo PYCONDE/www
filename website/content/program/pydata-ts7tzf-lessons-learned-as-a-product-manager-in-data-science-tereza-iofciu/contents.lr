@@ -50,6 +50,10 @@ categories: pydata, python-skill-level-none, domain-expertise-some, talk, busine
 ---
 slugified_slot_links: friday, friday-1225
 ---
+video_link: https://www.youtube.com/embed/4HDLg2V3nYA
+---
+youtube_id: 4HDLg2V3nYA
+---
 body: From answering simple data questions, building cool visualisations, to building machine learning solutions and bringing them to production, these are all skills expected from data science teams. 
 
 There is so much material these days online about cool data projects that it feels like working with data is easy and projects can be finished in no time. In order to implement data products and bring them from prototype to production successfully there is though a lot of work happening behind the scenes. 

@@ -48,6 +48,10 @@ categories: pydata, python-skill-level-basic, domain-expertise-some, talk, artif
 ---
 slugified_slot_links: wednesday, wednesday-1400
 ---
+video_link: 
+---
+youtube_id: 
+---
 body: This tutorial will provide an overview and a hands-on introduction to Julia, a very exciting new programming language. We will show a few advantages of Julia compared to other languages such as Python (such as its speed, typing in latex code), provide some motivating examples (such as visualising the Julia set (fractals) in comparison to a Python implementation). As a guiding example we will build a Machine Learning neuron that classifies an image as an apple or as a banana using multiple features from the image. We will train the neuron on data from many images; by minimising a loss function using gradient descent the neuron will learn which parameters to pick.
 The participants should bring their laptops; it is not necessary to have installed the latest stable Julia version (v1.0) as we will be using the browser-based version JuliaBox (https://juliabox.com/).
 

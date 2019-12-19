@@ -50,6 +50,10 @@ categories: pydata, python-skill-level-basic, domain-expertise-some, tutorial, d
 ---
 slugified_slot_links: friday, friday-1345
 ---
+video_link: https://www.youtube.com/embed/pBhHvXyFi7Y
+---
+youtube_id: pBhHvXyFi7Y
+---
 body: In some video-games, the level and environment generation uses random variables that are usually sampled from uniformed distributions. Or in some cases, these variables are even manually programmed.
 The different game experiences, like levels of difficulty, are usually achieved by truncating these distributions to increase the chances of obtaining a sample that translates in a particular game experience, for example, a harder game. In simple games, this is done commonly by just increasing the speed of the game, without changing the way these variables are sampled. All of these variables have an impact on the way the game is going to develop for the player. 
 

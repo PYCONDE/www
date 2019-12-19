@@ -51,6 +51,10 @@ categories: pydata, python-skill-level-basic, domain-expertise-some, talk, artif
 ---
 slugified_slot_links: friday, friday-1050
 ---
+video_link: https://www.youtube.com/embed/_zLHVDFISMk
+---
+youtube_id: _zLHVDFISMk
+---
 body: Motivation: Legacy rule-based expert systems still exist today, because they work well at solving a specific problem and deliver economic value for a business based on combined knowledge of human experts in the problem domain.
 
 An example of a legacy rule-based system is one that offers discount payment incentives to debtors in order to entice them to repay. Characteristic of such legacy systems is that the knowledge used to arrive at the discount incentive is locked away, not only inside the case worker, but also the unstructured documents they produce.

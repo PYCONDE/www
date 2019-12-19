@@ -48,6 +48,10 @@ categories: pyconde, python-skill-level-none, domain-expertise-none, talk, scien
 ---
 slugified_slot_links: thursday, thursday-1530
 ---
+video_link: https://www.youtube.com/embed/p-nhGq-Wwv8
+---
+youtube_id: p-nhGq-Wwv8
+---
 body: Python is well-known as a programming language without static types. This means that you don't need to say what a given variable will hold, or whether your function will return a string or an integer (or sometimes one, and sometimes another!). This has historically made Python a very flexible and beginner-friendly language.
 
 In this talk, we'll discuss the advantages and disadvantages to a static type system, as well as recent efforts to introduce static typing to Python via optional "type hints" and various tools to aid in adding types to Python code. We'll see what this means for Python, for Python programmers, and what the future has in store for Python's type system.

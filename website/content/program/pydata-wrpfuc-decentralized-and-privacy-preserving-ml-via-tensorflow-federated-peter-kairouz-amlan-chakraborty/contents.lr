@@ -54,6 +54,10 @@ categories: pydata, python-skill-level-basic, domain-expertise-some, tutorial, a
 ---
 slugified_slot_links: friday, friday-1130
 ---
+video_link: https://www.youtube.com/embed/PP209iFnnH8
+---
+youtube_id: PP209iFnnH8
+---
 body: In this tutorial, authors of TensorFlow Federated will introduce the key concepts behind federated learning, an approach to machine learning that allows a shared global model to be trained across many participating clients that keep their training data locally. By eliminating the need to collect data at a central location, yet still enabling each participant to benefit from the collective knowledge of all participants in the network, it lets you build intelligent applications that leverage insights from data that might be too costly, sensitive, or impractical to collect.
 
 We’ll demonstrate how you can develop hands-on familiarity with federated learning using TensorFlow Federated (TFF), a new open-source framework in the TensorFlow ecosystem. We will introduce the key concepts behind TensorFlow and TFF, we’ll demonstrate by example how to setup a federated learning experiment and run it in a simulator, what the code looks like under the hood and how to extend it, and we’ll briefly discuss options for future deployment to real devices.

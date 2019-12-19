@@ -48,6 +48,10 @@ categories: pydata, python-skill-level-expert, domain-expertise-expert, talk, da
 ---
 slugified_slot_links: thursday, thursday-1225
 ---
+video_link: https://www.youtube.com/embed/Ohr29FJjBi0
+---
+youtube_id: Ohr29FJjBi0
+---
 body: Over the last decade Jupyter notebooks have become an incredibly powerful tool for performing analyses and visualizing data. Once an analysis is done it often has to be shared with a wider audience, either within an organization or with the wider public, but this step often requires an entirely different set of tools and skillset. [Panel](http://panel.pyviz.org) is a new, open-source Python library built to easily wrap the outputs of an analysis, combine them with widgets and then lay them out as an interactive app or dashboard. This enables faster iteration cycles within organizations and ensures users without in-depth familiarity with web programming can develop and deploy complex dashboards with minimal code. 
 
 Panel natively supports a wide range of plotting tools and many other types of data making it trivial to work with the tools users are already familiar with. A complex interactive Panel-based dashboard is typically many times shorter than the equivalent [Dash](https://plot.ly/products/dash/) or [Bokeh](https://bokeh.pydata.org/en/latest/) code, focusing on expressing relationships between widgets, computation, and visualizations directly. At the same time Panel is not limited to building simple apps and can be used to visualize complex, multi-stage analysis pipelines, provides full styling flexibility using CSS and Bokeh themes and has the ability to dynamically resize to the size of the browser window.

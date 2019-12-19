@@ -48,6 +48,10 @@ categories: pyconde, python-skill-level-basic, domain-expertise-none, talk, augm
 ---
 slugified_slot_links: wednesday, wednesday-1605
 ---
+video_link: https://www.youtube.com/embed/hhWX6DD9QhU
+---
+youtube_id: hhWX6DD9QhU
+---
 body: ## Who is this for ##
 Anyone with a curious mind and interested in how to marry the physical world and IoT with the virtual. This talk is pitched at intermediate, but for beginners extensive documentation and a github repo will be available to read and learn from.
 

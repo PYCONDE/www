@@ -50,6 +50,10 @@ categories: pydata, python-skill-level-basic, domain-expertise-some, talk, artif
 ---
 slugified_slot_links: thursday, thursday-1150
 ---
+video_link: https://www.youtube.com/embed/t7U-Z5a7oWw
+---
+youtube_id: t7U-Z5a7oWw
+---
 body: Convolutional neural networks have become the methodology of choice for image related tasks, but why exactly is that? 
 
 In this talk, we will explore the theory behind how the weight-sharing property of the convolutional layer that leads to _translational equivariance_ (a shift in input image leads to the same prediction) can be exploited and generalised to equivariance towards other types of transformations such as rotation and reflection. 

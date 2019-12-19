@@ -69,6 +69,10 @@ categories: pydata, python-skill-level-basic, domain-expertise-none, talk, artif
 ---
 slugified_slot_links: wednesday, wednesday-1530
 ---
+video_link: https://www.youtube.com/embed/oGPWyfbrQb0
+---
+youtube_id: oGPWyfbrQb0
+---
 body: **What is OSINT? And who cares?**            
 
 * OSINT (Open-Source Intelligence) is the discipline of gathering intelligence from publicly available sources for empowering end-user action.

@@ -50,6 +50,10 @@ categories: pydata, python-skill-level-basic, domain-expertise-some, tutorial, d
 ---
 slugified_slot_links: friday, friday-1000
 ---
+video_link: https://www.youtube.com/embed/6z0_n8kxh-g
+---
+youtube_id: 6z0_n8kxh-g
+---
 body: __Please make sure to check out the installation instructions and data before participating.__ There might be no sufficient internet connection at the venue.
 
 __Instructions and data__ can be found here: __https://github.com/tsterbak/pydataberlin-2019__

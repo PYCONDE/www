@@ -46,5 +46,9 @@ categories: pydata, python-skill-level-none, domain-expertise-none, keynote, alg
 ---
 slugified_slot_links: wednesday, wednesday-1050
 ---
+video_link: https://www.youtube.com/embed/A07TlcpH428
+---
+youtube_id: A07TlcpH428
+---
 body: Algorithms are increasingly relied upon in decision making processes that can have far-reaching implications for all of us. They help doctors diagnose diseases and develop treatment plans. They tell police officers where to patrol. They decide who is going to be invited to the job interview. It is up to us to ensure that algorithmic systems are designed for the benefit of society. But how do we make sure that the individual and collective freedoms and rights that comprise human rights are strengthened, not undermined, by the use of algorithmic systems?  In the keynote I address the complex interconnections between the technology and society, highlighting potential solutions to understanding, building and regulating algorithm decision making.
 

@@ -48,6 +48,10 @@ categories: pydata, python-skill-level-expert, domain-expertise-expert, talk, ar
 ---
 slugified_slot_links: thursday, thursday-1435
 ---
+video_link: https://www.youtube.com/embed/0tXIkjClGOs
+---
+youtube_id: 0tXIkjClGOs
+---
 body: [Scikit-learn](https://scikit-learn.org/stable/) a package used by many machine learning students, enthusiasts, and data scientists, has over 35000 stars, 17000 forks, 1200 open issues, and 700 open pull requests.
 
 It is quite challenging to handle the activities on the project with less than 10 active at a time core developers. In this talk I talk about recent events around the scikit-learn community, and how it has affected the development cycle. I will also cover some of the recent major activities on the project, and the major features we're actively working on. There are also other major developments on the roadmap that I'll briefly discuss.

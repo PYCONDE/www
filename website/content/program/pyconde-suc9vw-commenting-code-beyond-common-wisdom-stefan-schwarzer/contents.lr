@@ -48,6 +48,10 @@ categories: pyconde, python-skill-level-none, domain-expertise-none, talk, code-
 ---
 slugified_slot_links: thursday, thursday-1605
 ---
+video_link: https://www.youtube.com/embed/tP5uWCruaBs
+---
+youtube_id: tP5uWCruaBs
+---
 body: I'm convinced that good code comments are very important for
 software maintainability.
 
