@@ -3,3 +3,5 @@ _model: program-categories
 _slug: program/categories
 ---
 _discoverable: yes
+---
+_hidden: yes

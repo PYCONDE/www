@@ -1,16 +1,18 @@
 title: Schedule released!
 ---
-_hidden: no
----
 author: ORGANISERS
 ---
-description: The selection for PyConDE & PyData Berlin 2019 is made.
+description: The selection for PyConDE & PyData Berlin 2020 is made.
 ---
-pub_date: 2019-08-14
+pub_date: 2020-08-14
 ---
 twitter_handle: PyDataBerlin
 ---
 twitter_image: /static/media/twitter/PyConDEPyDataSquare.jpg
+---
+_discoverable: no
+---
+_hidden: yes
 ---
 body:
 

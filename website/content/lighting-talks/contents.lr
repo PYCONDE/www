@@ -7,3 +7,7 @@ body: ### Lighting Talks
 description: Lighting Talks
 ---
 _template: page-md.html
+---
+_discoverable: yes
+---
+_hidden: yes

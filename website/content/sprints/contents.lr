@@ -6,6 +6,10 @@ description: Sprints: Working on Open Source together
 ---
 twitter_image: /static/media/twitter/PyConDEPyDataSquare.jpg
 ---
+_hidden: yes
+---
+discoverable: no
+---
 body:
 
 ### What is a “Sprint” ?

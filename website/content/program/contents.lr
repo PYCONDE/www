@@ -1,8 +1,9 @@
 _model: sessions
 ---
-_discoverable: yes
+_discoverable: no
 ---
 title: Session List
 ---
-description: All sessions of the PyConDE & PyData Berlin 2019 conference
+description: All sessions of the PyConDE & PyData Berlin 2020 conference
 ---
+_hidden: yes

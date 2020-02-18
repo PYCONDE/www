@@ -2,7 +2,9 @@ _template: page-md.html
 ---
 title: No App 🙄, So What? 😃
 ---
-body: We decided not to have an app after all.
+body:
+
+We decided not to have an app after all.
 We looked into multiple apps and none of them seemed very suitable in the end (more below).
 
 #### For news and updates:
@@ -30,3 +32,7 @@ All apps we looked into was lacking of at leat one of the below, so if you know 
 - cool
 
 do let us know!
+---
+_discoverable: no
+---
+_hidden: yes

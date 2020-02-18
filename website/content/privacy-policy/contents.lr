@@ -93,3 +93,7 @@ We may have to update this policy every now and then to add new services or make
 ##### Data Retention Policy
 
 For auditing the data will be kept as legally required by German law, speaker and talk information published on our websites will remain there.
+---
+_discoverable: yes
+---
+_hidden: yes

@@ -1,16 +1,20 @@
 title: PyLadies IoT workshop
 ---
-pub_date: 2019-08-28
+pub_date: 2020-08-28
 ---
 author: Organisers
 ---
-description: PyLadies IoT workshop at PyCon DE & PyData Berlin 2019
+description: PyLadies IoT workshop at PyCon DE & PyData Berlin 2020
 ---
 twitter_image: /static/media/twitter/iot.jpg
 ---
+_discoverable: no
+---
+_hidden: yes
+---
 body:
 
-![PyConDE & PyData Berlin 2019](/static/media/twitter/iot.jpg)
+![PyConDE & PyData Berlin 2020](/static/media/twitter/iot.jpg)
 
 This year, **PyLadies Hamburg, PyLadies Berlin & Friends are joining forces to organise a beginner Internet-of-Things (IOT) workshop**, on the first day of the Sprints: Saturday, October 12th, 10:00 - 18:00 at the Sprint Venue.
 

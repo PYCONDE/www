@@ -2,6 +2,6 @@ _model: schedule
 ---
 title: Schedule
 ---
-_discoverable: no
+_discoverable: yes
 ---
-_hidden: no
+_hidden: yes

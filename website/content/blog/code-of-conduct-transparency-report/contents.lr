@@ -4,22 +4,23 @@ author: ORGANISERS
 ---
 description: Code of Conduct transparency report
 ---
-pub_date: 2019-11-29
+pub_date: 2020-11-29
 ---
 twitter_handle: PyConDE
 ---
 twitter_image: /static/media/twitter/PyConDEPyData.jpg
 ---
-_hidden: no
+_discoverable: no
 ---
-_discoverable: yes
+_hidden: yes
+
 ---
 body:
 
 As part of our Code of Conduct process we’re publishing a transparency report about how we dealt with our Code of
 Conduct, any incidents at the conference and our response, and lessons learned.
 
-PyConDE and PyData Berlin 2019 had a Code of Conduct (CoC).
+PyConDE and PyData Berlin 2020 had a Code of Conduct (CoC).
 
 Our main goals with this were to ensure everyone feels safe and included, setting expectations, and ensuring trust in
 our incident handling process. We set up a team responsible to

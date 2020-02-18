@@ -11,3 +11,7 @@ Community Space is…
 description: Community Space
 ---
 _template: page-md.html
+---
+_discoverable: yes
+---
+_hidden: yes

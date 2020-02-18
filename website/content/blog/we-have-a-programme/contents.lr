@@ -1,20 +1,22 @@
 title: We have a Program!
 ---
-_hidden: no
----
 author: ORGANISERS
 ---
-description: The selection for PyConDE & PyData Berlin 2019 is made.
+description: The selection for PyConDE & PyData Berlin 2020 is made.
 ---
-pub_date: 2019-08-01
+pub_date: 2020-08-01
 ---
 twitter_handle: PyConDE
 ---
 twitter_image: /static/media/twitter/PyConDEPyDataSquare.jpg
 ---
+_discoverable: no
+---
+_hidden: yes
+---
 body:
 
-![PyConDE & PyData Berlin 2019](/static/media/PyConDEPyDataBER-1800-transparent.png)
+![PyConDE & PyData Berlin 2020](/static/media/PyConDEPyDataBER-1800-transparent.png)
 
 We are extremely happy to announce the program selection has been made.
 
@@ -37,4 +39,4 @@ The program will consist of:
 - 4 Community sessions
 - 3 Ligthning Talks sessions
 
-We have released a [list of accepted sessions here](https://pretalx.com/pyconde-pydata-berlin-2019/sneak/).
+We have released a [list of accepted sessions here](https://pretalx.com/pyconde-pydata-berlin-2020/sneak/).
