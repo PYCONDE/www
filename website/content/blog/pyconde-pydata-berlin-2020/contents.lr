@@ -1,12 +1,12 @@
 title: PyConDE & PyData Berlin 2020
 ---
-pub_date: 2020-02-17
+pub_date: 2020-02-18
 ---
 author: Organisers
 ---
 description: PyConDE & PyData Berlin 2020 will be back in Berlin Oct 14-16, more read our blog post for more…
 ---
-twitter_image: /static/media/twitter/PyConDEPyDataSquare.jpg
+twitter_image: /static/media/twitter/Berlin-2020-Announce.jpg
 ---
 _discoverable: yes
 ---
@@ -16,42 +16,47 @@ body:
 
 ![PyConDE & PyData Berlin 2020](/static/media/PyConDEPyDataBER-1800-transparent.png)
 
-We are happy to **super** announce that the two conferences PyConDE and PyData Berlin will back agian 2020.
-After a few meetings both conference teams feel that the conferences goals and spirits align very well and teaming up we can build a better, bigger conference than apart.
+We are **super**happy to  announce  PyConDE and PyData Berlin 2020.
 
-The main conference will be held from October 9 to 11 at Kosmos, Berlin followed by two days of sprints. We are expecting up to 1000 participants.
+The main conference will be held from
+<p><span style="font-size:1.5em; font-weight: 900">October 14 to 16 at <a href="https://www.bcc-berlin.de" target="blank">bcc Berlin Congress Center</a>.</span></p>
+The bcc is located at Alexanderplatz right in the heart of Berlin.
 
-![Kosmos](/static/media/venue/kosmos-1.jpg)
+We are expecting up to 1400 participants this year.
 
-The conference will feature seven tutorials and talks tracks and more than 100 sessions:
-Three dedicated exclusively to PyData topics as Artificial Intelligence, Machine Learning and Ethics
-Three for Python topics as programming, DevOps, Web, Django.
-Plenary for keynotes as well as PyData and PyConDE sessions.
+![bcc Berlin Congress Center](/static/media/venue/bcc_front_1200_144.jpg)
 
-PyConDE is the German conference for the Python language and was established in 2011. Last year's conference had 550 participants and sold out one month before the event.
+After last year's huge success - being sold out two months in advance,
+having 1111 attendees at the conference and 800 more on the waiting list - we decided to go to a bigger venue.
 
-PyData Berlin was established in 2014 and hosts monthly meetups and a yearly conference about Python, Data and everything in between. It is one of the biggest PyData chapters and the Pydata Berlin conference keeps on growing every year with a record of 600 attendees in the 2018 conference.
+As of now the conference will feature five talks tracks and more than 100 sessions:
+Two tracks dedicated exclusively to PyData topics as Artificial Intelligence, Machine Learning and Data Engineering.
+Two tracks for Python topics as programming, DevOps, Web, Django.
+One for general topics as Ethics, best practices and community.
 
-We wish to keep the individual identities of PyData Berlin and PyconDE, but please prepare to some changes regarding the operation of the conference with respect to previous years. Both teams had to adapt in order to promise a smooth collaboration and we are certain that we will have a great event.
+PyConDE is the German conference for the Python language and was established in 2011.
+PyData Berlin was established in 2014 and hosts monthly meetups and a yearly conference about Python, Data and everything in between.It is one of the biggest PyData chapters worldwide.
 
+The conference is organised by experts for other experts providing an excellent quality level of content. It is run by volunteers from the
+community. All profits will be redistributed to the community supporting Open Source and diversity.
+The conference is under the [Code of Conduct](https://de.pycon.org/code-of-conduct/).
 
-The conference is organised by experts for other experts providing an excellent quality level of content. It is run by volunteers from the community. All profits will be redistributed to the community supporting Open Source and diversity.
-
-The conference is run under the roof of the [Python Software Verband e.V.](https://python-verband.org/) and [NumFocus](https://numfocus.org/).
-
+The conference is run under the roof of the [Python Software Verband e.V.](https://python-verband.org/) in cooperation with [NumFocus](https://numfocus.org/).
 
 Some important dates:
-- 29 April call for speakers opens
-- 9 June call for speakers closes (after two weeks extention)
-- 23 June launch of user voting (beta)  [updated]
-- 30 Jun End of scholarship programme
-- 7 July last day of of user voting  [updated]
-- 2 August acceptance notices go out  [updated]
-- 3 August program is published [updated]
-- 14 August schedule is published
+ * Feb 19 launch website
+ * Feb 19 Open Call for Proposals
+ * Feb 19 Open scholarship programme
+ * April 6 start of Early Bird ticket sales
+ * May 5 End of Call for Proposals
+ * June 1 End of scholarship programme
+ * July 1 scholarship programme notifications
+ * July 1 talk acceptance send out
+ * August 1 schedule is published
+ * August 30 last day to return tickets purchased
+ * September 25 last day to edit info for badges
+ * 13 October last night before the conference starts 🥳
 
-
-Conference is under the Code of Conduct: https://de.pycon.org/code-of-conduct/
 
 ### [NumFocus](https://numfocus.org/)
 The mission of the US 501(c)3 public charity is to promote sustainable high-level programming languages, open code development, and reproducible scientific research.
@@ -59,4 +64,5 @@ The mission of the US 501(c)3 public charity is to promote sustainable high-leve
 ### [Python Software Verband](https://python-verband.org/)
 Is a public charity supporting and furthering the Python language in Germany.
 
-Meet and engage with Python developers and enthusiasts at the conference. This conference is an excellent opportunity to present your company, organization and products or services to a friendly and interested audience.
+Meet and engage with Python developers and enthusiasts at the conference. This conference is an excellent opportunity to present your company,
+organization and products or services to a friendly and interested audience.

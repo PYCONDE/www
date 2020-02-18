@@ -9,20 +9,33 @@
       "path": "/sponsors"
     },
     {
-      "name": "Venue",
-      "path": "/venue"
+      "name": "Financial Aid",
+      "path": "/financial-aid"
     },
     {
       "name": "FAQ",
       "path": "/frequently-asked-questions/"
     },
     {
-      "name": "Team",
-      "path": "/team"
+      "name": "Call for Proposals",
+      "path": "/call-for-proposals"
     },
     {
       "name": "Code of Conduct",
       "path": "/code-of-conduct/"
+    },
+    {
+      "name": "Info",
+      "submenu": [
+        {
+          "name": "Venue",
+          "path": "/venue"
+        },
+        {
+          "name": "Team",
+          "path": "/team"
+        }
+      ]
     }
   ],
   "legal": {
