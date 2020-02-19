@@ -27,57 +27,33 @@ As almost all Python and PyData conferences this event is run and organised by v
 #### What can I do to support?
 
 Lighten our communication load:
- - check this page for answers first
+ - check this FAQ page for answers first
  - read our update emails (check your spam),
  - be proactive and try to find answers by googling or via our community channels as:
    - the open [Telegram group](https://t.me/pyconde)
    - [Twitter](https://twitter.com/pyconde)
    - check [Important Dates](#important-dates) for updates
 
-Sign up as a volunteer. See [our call for volunteers](/blog/call-for-volunteers/)
+Sign up as a volunteer. More information coming soon.
 
 Once tickets are sold out, please do refrain from sending emails to help desk if there was "something we could do", we can not.
 Thanks for your kind understanding we probably won't answer. :)
 
 <h4 id="important-dates">Important Dates</h4>
 
-- 29 April call for speakers opens
-- 9 June call for speakers closes (after two weeks extention)
-- 23 June launch of user voting (beta)  [updated]
-- 30 Jun End of scholarship programme
-- 7 July last day of of user voting  [updated]
-- 2 August acceptance notices go out  [updated]
-- 3 August program is published [updated]
-- 14 August schedule is published
-- 30 August last day to return tickets purchased
-- 20 September last day to edit info for badges
-- 8 October last night before the conference starts 🥳
+- February, 19: call for proposals & scholarship programme opens
+- April, 6: start Early Bird ticket sales
+- May, 5: End call for proposals
+- June, 1: End of scholarship programme
+- July, 1: Talk aceptance & scholarship notifications
+- August, 1: Schedule is published
+- August, 30: Last day to return purchased tickets
+- September, 25: Last day to edit info for badges
+- 13 October last night before the conference starts 🥳
 
 #### What's the conference language?
 
 The conference is all in English.
-
-<h4 id="opening-times">When will the conference open / close?</h4>
-**Tuesday October 8**
-16:00 - 18:45 Early badge pick up at the venue.
-
-**Wednesday October 9**  
-09:00 Doors open. Registration - please keep in mind the first day will be very busy due to registration. **Please do arrive early!**
-10:30 Conference opening  
-18:30 Conference end  
-
-**Thursday October 10**  
-08:30 Doors open  
-09:00 Conference start  
-18:30 Conference end  
-
-**Friday October 11**  
-08:30 Doors open  
-09:00 Conference start  
-16:45 Conference end  
-
-**Sprints**  
-Saturday and Sunday will be open 9:00 - 18:00 (tbc.).
 
 #### Is there a conference app?
 
@@ -99,7 +75,6 @@ Remember that slots are limited and are provided on first-come-first-served basi
 If you require an invitation letter send us an email (info@pycon.de).
 Please include your full address and passport number in the email, so we can include them in the inviattin letter.
 
-
 #### What about food & drinks during the conference?
 
 The conference ticket includes a light lunch buffet, coffee breaks and light refreshments all day.   
@@ -107,12 +82,11 @@ We settled for a vegatarian and vegan food menu.
 
 <h3 id="program">Program</h3>
 
-As this year our two conferences PyConDE and PyData Berlin join up we will have more tracks than before. We are looking into a ca. 50/50 distribution of the sessions.
+Just like last year, our two conferences PyConDE and PyData Berlin join up. We are looking into a ca. 50/50 distribution of the sessions.
 
 #### How will the program look like?
 
-The program has been released: please see [here](/program)  
-For the schedule see [here](/schedule)
+TBA
 
 #### What about trainings?
 
@@ -122,39 +96,11 @@ We offer a trainings, [90 minute tutorials to be precise](/program/categories/tu
 
 A lightning talk (LT) is a short presentation of maximum five minutes. To sign up for a lightning talk please put your name and topic on the whiteboard next to the registration desk. Signing up is first-come-first-serve basis. The queue is reset every day in the morning. You may talk about / present about (almost) everything except: no promotion for products or companies, no call for 'we are hiring' (but you may name your employer). Conference announcements are limited to one minute only. One LT per day per speaker only. Any speaker not having given a LT at the conference is ahead of anyone who has given a LT already.
 
-<h3> IBM Party at PyConDE & PyData Berlin 2020</h3>
-
-#### Is the IBM Party at PyConDE & PyData Berlin 2020 public?
-
-No, the party is limited to attendees only and attendees have to buy a ticket for the event.  
-Every attendee might bring one other person along (additional ticket purchase required).
-
-#### Is the IBM Party at PyConDE & PyData Berlin 2020 for free?
-
-No, but thanks to the generous support from IBMG we are able to offer the tickets for a very reasonable price.
-
-
-#### Where can I buy tickets for IBM Party at PyConDE & PyData Berlin?
-
-Invitation emails incl. a link to purchase tickets were sent to every attendee October 2.
-
-#### I cannot find the invitation email.
-
-Please come to the registration desk - but **not before Wednesday afternoon**.
-
-#### Social event ground rules.
-
-- Tickets may only purchased once via the link below. Once a purchase was made, the link expires
-- Event is for attendees only plus one person
-- You may buy max two tickets
-- Please pick up your entry ribbon on Thursday at the conference
-
-
 <h3 id="cfp">Call for Proposals</h3>
 
 #### How can I speak at the conference?
 
-The CfP is closed already. We no longer accept any submissions.
+Please submit your talk over our [Pretalx website](https://pretalx.com/pyconde-pydata-berlin-2020/cfp). Check the [Call for Proposals page](/call-for-proposals).
 
 #### Is there a support program for speakers?
 
@@ -162,11 +108,7 @@ We do not have an extra support programme for speakers.
 Please apply to the [Financial Aid Programme](/financial-aid/).
 
 #### When will I get notified?
-
-Due to the volume of submissions received the review process will take longer than originally expected.
-Please see here [Important Dates](#important-dates) for updates.
-Update: All submitters have been notified by email August 3: accepted, not accepted and waitlisted.  
-In case you did not receive an email: check the status here [https://pretalx.com/pyconde-pydata-berlin-2020/me/submissions/](https://pretalx.com/pyconde-pydata-berlin-2020/me/submissions/)
+We will send out notifications on July, 1.
 
 <h3 id="speaking"> Speaking at the conference</h3>
 
@@ -193,13 +135,11 @@ There should be a good reason for having more than one speakers for talks, pleas
 
 Please feel free to make reasonable edits and improvements to your description any time. Regardless, your talk must not become a different one. Changes are monitored. Please note during review the talks are non-editable, once accepted you may edit again. See "How can I edit my proposals?" above.
 
-#### Presenting at the Confernce
+#### Presenting at the Conference.
 
-We do encourage everyone to use gender neutral language at the conference.  
-All projectors support 16:9. Except the projectors in the main hall (Saal 1) are 4:3 only.   
-for Saal 5 and Saal 7  we recommend using 4:3 as well.  
+We do encourage everyone to use gender neutral language at the conference.
 Please make sure to bring a HDMI adapter with you.
-
+We will update this section with venue specific information.
 
 #### Are speakers invited to the conference?
 
@@ -265,7 +205,7 @@ If tickets become available due to cancellations received we will offer these ti
 #### How likely is it I may bet a ticket via the waiting list.
 
 "Predictions are hard, especially about the future."  
-The waiting list is not a waiting line, we offer tickets to anyone on the list no matter when one signed up.  
+The waiting list is not a waiting line, we offer tickets to anyone on the list no matter when you signed up.
 
 #### Will it be helpful if I write you an email explaining why I missed buying a ticket.
 
@@ -277,7 +217,7 @@ Students must present a valid student ID at the conference. If you are a student
 
 #### I'm on a budget and cannot afford a ticket.
 
-Please have a look at our financial aid and scholarship program. The program will open April 29th and close June 23rd\. Please check back our website for more details.
+Please have a look at our financial aid and scholarship program. The program will open February, 19 and close June, 1. Please check back our [Financial Aid Programme page](/financial-aid/) for more details.
 
 #### Is it possible to purchase Individual tickets as a company?
 
@@ -295,7 +235,7 @@ If this is important to you, business ticket is the way to go.
 
 #### Can I pay ticket by invoice?
 
-No, purchase via the website only, which requires a credit card.
+No, purchase via the website only (requires a credit card).
 
 #### The credit card is not working, are there alternative payment methods?
 
@@ -321,7 +261,7 @@ No, we do not offer discounts.
 
 #### When are you going to start selling the tickets?
 
-Ticket sales will open April 29th 12:00 CEST. There will be a limited amount of early bird tickets available, once these are sold out regular tickets will become available.
+Ticket sales will open April, 6. There will be a limited amount of early bird tickets available, once these are sold out regular tickets will become available.
 
 #### How much are the tickets?
 
@@ -339,10 +279,7 @@ However companies can easily apply for a VAT refund from the authorities.
 Yes, tickets are refundable until August 30th\. No refunds after August 30th\. You may re-assign the ticket to someone else if you cannot make it or donate it to the financial aid programme.
 Please send an email to info@pycon.de to request a refund, refunds will be credited to the credit card used for purchase only.
 
-
 #### How can I change information on my badge?
-
-**we are past the deadline - please note that badge information can no longer be change now.**
 
 We will use the information you provide via Tito for the conference badges.
 To change information you may only do this via Tito (just follow the links in the emails with your ticket).
@@ -364,13 +301,13 @@ Any changes after this date won't reflect on the badges.
 
 No.
 
-#### Do you sell tickets at the confernce?
+#### Do you sell tickets at the conference?
 
 Absolutely not.
 
 #### Are badges transferable?
 
-No, badges are valid for the person the ticket was assigned to only. Tickets have to be assigned by **September 20**. No changes after this date.
+No, badges are valid for the person the ticket was assigned to only. Tickets have to be assigned by **September 25**. No changes after this date.
 
 
 <h3 id="sponsoring">Sponsoring</h3>
@@ -389,24 +326,14 @@ We don’t offer additional free tickets for employees at the sponsoring table.
 Depending on the sponsoring package, if you have three tickets available for example, you can do with it whatever you want.
 Give one to employees for the sponsoring table and two for the conference or however it fits for your company best.
 
-#### Do the sponsors get any visibility during the sprint days?
-
-A banner showing their names or something, or is the sponsorship purely for the 3 conference days? - Purely for the 3 days on the conference.
-
-#### Are the sponsor tickets valid for the sprint days?
-
-Yes, like the normal tickets.
-
 #### Sponsoring package prices VAT
 
 All sponsoring package prices are net plus statutory VAT in the amount valid at the time.
 
-#### Where to send the Merchandise as a Sponsor?
-
-Ancud-IT Beratung, c/o Daniel Ringler, Poststraße 21-22, 10178 Berlin
-
-If you did not find the answer you are looking for above, contact us: [info@pycon.de](mailto:info@pycon.de)
 
 #### Final day to book sponsoring
 
 The last days to sign up as a sponsor is August 30.
+
+
+If you did not find the answer you are looking for above, contact us: [info@pycon.de](mailto:info@pycon.de)
