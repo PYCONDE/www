@@ -4,68 +4,53 @@ _template: page-md.html
 ---
 description: We are happy to announce our Financial Aid Programme!
 ---
-twitter_image: /static/media/twitter/PyConDEPyDataSquare.jpg
+twitter_image: /static/media/twitter/Berlin-2020-Finaid.jpg
 ---
 body:
 
-As part of our commitment to the Python and data science community, we are pleased to announce that we offer special financial grants for attendees to join us in PyConDE & PyData Berlin 2019.
-
-Please follow the instructions below to apply for a grant.
+As part of our commitment to the Python and data science community, we are pleased to announce that we offer special financial grants for attendees to join us in PyConDE & PyData Berlin 2020. Please follow the instructions below to apply for a grant.
 
 We offer financial aid conference grants in these 2 categories:
 
-- Free ticket. Get a standard ticket for the conference for free.
-- Travel and Accommodation costs.
-
-We will reimburse travel and accommodation costs up to 400€.
-
-When applying we will ask you to estimate the travel and accommodation costs.
+1. **Free ticket**. Get a standard ticket for the conference for free.
+2. **Travel and Accommodation costs**. We will reimburse travel and accommodation costs up to 400€. When applying we will ask you to estimate the travel and accommodation costs.
 
 #### Grant Eligibility
+Our grants are open to all people in need of financial aid. We will specifically take into account the following criteria in the selection process:
 
-Our grants are open to all people in need of financial aid.
+* Economic factors: we want everybody to have a chance to join us at PyConDE & PyData Berlin 2020, regardless of their economic situation or income level.
+* Diversity: we seek the most diverse and inclusive event possible.
 
-We will specifically take into account the following criteria in the selection process:
+#### How to Apply
+Please fill in the form [HERE](https://forms.gle/qkSC9iihodFFbERZ9).
 
-- Economic factors: we want everybody to have a chance to join us at PyConDE & PyData Berlin 2019, regardless of their economic situation or income level.
-- Diversity: we seek the most diverse and inclusive event possible.
-
-#### How to apply
-
-Please fill in the [form](https://forms.gle/XnbNGdbAbEQE7CmE7).
 
 #### Timeline
 
-- April 29th (2019-04-29): open the finance aid grant programme
-- June 23rd (2019-06-23): the deadline for submitting the applications
-- July 15th (2019-07-15) to July 22th (2019-07-22): applicants will be notified by e-mail about acceptance or rejection
-- August 15th: deadline for selected applicants confirmation
+* February 19th (2020-02-19) - open the finance aid grant opportunity
+* June 1st (2020-06-01) - the deadline for submitting the applications
+* July 1st (2020-07-01) - applicants will be notified by e-mail about acceptance or rejection.
+* July 15th (2020-07-15) - deadline for selected applicants confirmation.
 
-#### Refund management
 
-- Free ticket: the individual coupons will be generated for a free ticket
-- Accommodation and Travel grant: all grants involving reimbursements will be reimbursed by PayPal or bank transfer after the conference.
+#### Refund Management
 
-Please send us your receipts (hotel invoice, plane/bus/train ticket) before the conference for approval.
+**Free ticket** : the individual coupons will be generated for a free ticket.
+**Accommodation and travel grant** :  all grants involving reimbursements will be reimbursed based on approved receipts (hotel invoice, plane/bus/train ticket) sent to us before the conference. The reimbursement can either be made in cash during the conference or by a bank transfer or PayPal payment after the conference.
+Please note:
+* The maximum total amount of grant will not exceed the amount of 400€ per person.
+* If the applicant will not accept the grant before the mentioned deadline, the grant will be considered rejected by the applicant.
+* Not approved invoices will not be reimbursed.
+* Reimbursements before the conference, or via other means such as cash are not possible.
+* The financial aid grants will only be made available to registered attendees actually attending the conference.
+* Transfers to other people is not possible.
+* As part of our efforts to reduce the carbon footprint of the conference we expect our attendees to use train rather than airplanes when possible. Thus, we will not refund air travel costs when other means of transportation are easily available. This will be considered on a case by case basis. Please consider this when calculating the estimated costs.
 
-#### Please note:
 
-- The maximum total amount of grant will not exceed the amount of 400 € per person.
-- If the applicant will not accept the grant before the mentioned deadline, the grant will be considered rejected by the applicant.
-- Not approved invoices will not be reimbursed.
-- Reimbursements before the conference, or via other means such as cash are not possible.
-- The financial aid grants will only be made available to registered attendees actually attending the conference.
-- Transfers to other people is not possible.
+### Become a Special Diversity Sponsor!
+You or your company can support our diversity and finaid initiative by becoming a sponsor.
+We have a special “Diversity Sponsor” in the list of sponsor options, that can be booked separately or be included in the sponsor package.
+Check the [sponsor brochure](/static/files/PyConDE-PyData-BerlinSponsoringsheet-2020.pdf) for more information and contact sponsoring@pycon.de.
 
-If you find that you cannot attend the conference for some reason, please send an email to
-info@pycon.de informing us, so that we can allocate the funds to someone else.
-
-### Privacy
-
-The data we collect on this form will exclusively be used by our financial aid work group for the
-selection of grant recipients and processing of financial aid refunds. No data is passed on to third
-parties, except to our accountants and the bank in order to process the refunds. We use Google Forms for
-the processing and Google Drive for storing the relevant information. For more details on our privacy
-policies, please see the PyConDE & PyData Berlin 2019 website: https://de.pycon.org/privacy-policy/
-
-If you did not find the answer you are looking for above, contact us: [info@pycon.de](mailto:info@pycon.de)
+Thank you.
+See you at PyConDE & PyData Berlin 2020.

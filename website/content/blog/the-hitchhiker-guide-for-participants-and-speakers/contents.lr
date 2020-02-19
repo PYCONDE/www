@@ -1,6 +1,6 @@
 title: The hitchhiker's guide for participants and speakers
 ---
-pub_date: 2019-09-28
+pub_date: 2020-09-28
 ---
 author: Organisers
 ---
@@ -8,13 +8,17 @@ description: Our attempt to improve the conference's experience
 ---
 twitter_image: /static/media/twitter/42_answer.jpg
 ---
+_discoverable: no
+---
+_hidden: yes
+---
 body:
 
 We have found that there are so many valuable resources about how to be a great participant of a conference, that we decided to make this guide really short.
 
 Here we list a few behaviours we see happening over and over again that are diminishing the great experience people can have.
 
-We want to thank [JS Conf EU 2019](https://2019.jsconf.eu/code-of-conduct/) and the [Recurse Center](https://www.recurse.com/code-of-conduct) for their Code of Conduct and [Social Rules](https://www.recurse.com/social-rules).
+We want to thank [JS Conf EU 2020](https://2020.jsconf.eu/code-of-conduct/) and the [Recurse Center](https://www.recurse.com/code-of-conduct) for their Code of Conduct and [Social Rules](https://www.recurse.com/social-rules).
 
 This hitchhiker's guide has been inspired by them.
 
@@ -25,7 +29,7 @@ In case you are wondering, they are in random order.
 
 #### Feigning surprise
 
-PyConDE & PyData Berlin 2019 is a conference open to people with different backgrounds, some can be experts in computer science, others in biology, some others can be amateurs where Python is a daily hobby.
+PyConDE & PyData Berlin 2020 is a conference open to people with different backgrounds, some can be experts in computer science, others in biology, some others can be amateurs where Python is a daily hobby.
 
 For all these reasons try to avoid feigning surprise.
 

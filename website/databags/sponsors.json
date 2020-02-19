@@ -3,156 +3,11 @@
         {
             "name": "Diamond sponsors",
             "sponsors": [
-                {
-                    "name": "Anaconda",
-                    "description": "With more than 15 million users, Anaconda is the world’s most popular data science platform and the foundation of modern machine learning. Our flagship product, Anaconda Enterprise, delivers data science and machine learning at speed and scale, unleashing the full potential of our customers’ data science and machine learning initiatives.",
-                    "logo": "/static/media/sponsors/anaconda.jpg"
-                },
-                {
-                    "name": "Microsoft",
-                    "description": "Microsoft is proud to support the Python Community and the PyCon DE & PyData Berlin Conference. Visual Studio Code, our lightweight, free and open source editor lets developers write better code faster with extensions for Python. Microsoft Azure enables you to develop & run your code easily in the cloud. Azure DevOps supports you to automate the deployment of your data application.",
-                    "logo": "/static/media/sponsors/microsoft.png"
-                }
             ]
         },
         {
             "name": "Platinum sponsors",
             "sponsors": [
-                {
-                    "name": "Deloitte",
-                    "description": "Deloitte provides audit, risk advisory, tax, financial advisory and consulting services to public and private clients spanning multiple industries; legal advisory services in Germany are provided by Deloitte Legal. With a globally connected network of member firms in more than 150 countries, Deloitte brings world-class capabilities and high-quality service to clients, delivering the insights they need to address their most complex business challenges.",
-                    "logo": "/static/media/sponsors/deloitte-logo.png"
-                },
-                {
-                    "name": "JetBrains",
-                    "description": "JetBrains delivers intelligent software solutions that make developers more productive by simplifying their challenging tasks, automating the routine, and helping them adopt the best development practices. PyCharm is the Python IDE for Professional Developers by JetBrains providing a complete set of tools for productive Python, Web and scientific development, available in three editions. The free and open-source PyCharm Community Edition is perfect for pure Python coding.",
-                    "logo": "/static/media/sponsors/jetbrains.svg"
-                },
-                {
-                    "name": "OLX Group",
-                    "description": "OLX Group, a Naspers company, is the world’s fastest-growing marketplaces network, serving more than 350 million people every month. We build leading destinations for buying, selling, and exchanging products and services, our technology is designed to help people trade almost anything in safe, smart and convenient ways. We facilitate approximately 17 million exchanges every month, from cars and furniture to electronics and clothing.",
-                    "logo": "/static/media/sponsors/olx.png"
-                }
-            ]
-        },
-        {
-            "name": "Gold sponsors",
-            "sponsors": [
-                {
-                    "name": "Yelp",
-                    "description": "Yelp is a website and mobile app that makes it easy for users to connect with awesome local businesses. Founded in 2004, Yelp has taken root in countries across the globe as the leading local guide for real word-of-mouth on everything from boutiques and mechanics to restaurants and dentists.",
-                    "logo": "/static/media/sponsors/yelp.jpg"
-                },
-                {
-                    "name": "Idealo",
-                    "description": "Idealo is a Berlin success story: in 2000 we started out with the mission of helping consumers make the best purchasing decisions. Today, with 1.5 million visits per day, 50,000 shops and more than 330 million product offers, we are one of the most popular German e-commerce websites and one of the leading European shopping and comparison platforms.",
-                    "logo": "/static/media/sponsors/idealo.png"
-                },
-                {
-                    "name": "Rosen",
-                    "description": "ROSEN is a leading privately owned company that was established in 1981. Over the last 37 years, ROSEN has grown rapidly and is today a worldwide technology group that operates in more than 120 countries with over 3100 employees.",
-                    "logo": "/static/media/sponsors/rosen.png"
-                },
-                {
-                    "name": "Shopify",
-                    "description": "We’re not just an ecommerce software, Shopify isthe best ecommerce platform that has everything you need to sell online, on social media, or in person. Shopify is the leading multi-channel commerce platform. Merchants use Shopify to design, set up, and manage their stores across multiple sales channels, including mobile, web, social media, marketplaces, brick-and-mortar locations, and pop-up shops.",
-                    "logo": "/static/media/sponsors/shopify.png"
-                },
-                {
-                    "name": "Zalando",
-                    "description": "Zalando is Europe’s leading online platform for fashion, connecting customers, brands and partners across 17 markets. We drive digital solutions for fashion, logistics, advertising and research, bringing head-to-toe fashion to more than 23 million active customers through diverse skill-sets, interests and languages our teams choose to use.",
-                    "logo": "/static/media/sponsors/zalando.png"
-                },
-                {
-                    "name": "FREE NOW",
-                    "description": "FREE NOW was founded in June 2009 and was the world’s first taxi app that established a direct connection between a passenger and a taxi driver. We have three tech hubs: Barcelona, Hamburg, and Berlin. Our daily business is solving large-scale, highly complex technical problems – and we love it.",
-                    "logo": "/static/media/sponsors/free_now.png"
-                },
-                {
-                    "name": "Königsweg",
-                    "description": "Königsweg supports corporate and public clients in achieving better transformation results. Leveraging a broad network of subject matter experts, Königsweg consultants connect different business divisions and turn them into an integrated unit through future-proof technology.",
-                    "logo": "/static/media/sponsors/konigsweg.png"
-                },
-                {
-                    "name": "infarm",
-                    "description": "Our groundbreaking farming technology is what happens when passionate agriculture, food and tech experts collaborate. We farm everywhere — in supermarkets, restaurants, bars and warehouses — cutting out the millions of miles often between food and fork. This localised approach means that our crops are fresher, rich with nutrients and bursting with unique flavour.",
-                    "logo": "/static/media/sponsors/infarm.png"
-                },
-                {
-                    "name": "Python Academy",
-                    "description": "Python Academy is a specialized Python training company. We offer open courses for individuals as well as customized on-site courses for companies and institutes. We cover a wide range of Python topics from introductory to advanced, Python for scientists and engineers, big data, machine learning, web development, code optimization, and many more.\nIn addition to training, we consult companies that migrate to Python and develop high-quality Python software often in combination with training. Our special expertise is scientific and technical software development with Python.",
-                    "logo": "/static/media/sponsors/pya_logo_rgb_sq.svg"
-                },
-                {
-                    "name": "StackFuel",
-                    "description": "StackFuel is Germany's first provider of interactive online courses in data science and analytics for professionals. We offer a hands-on programming experierence combined with real world business cases and industry data sets. Enhance your career and become a data professional.",
-                    "logo": "/static/media/sponsors/stackfuel.png"
-                },
-                {
-                    "name": "BlueYonder a jda. company",
-                    "description": "Blue Yonder, a JDA company, is a leading provider of artificial intelligence (AI) and machine learning (ML) solutions that enable retailers, consumer products and other companies to intelligently transform their operations and make more profitable, automated business decisions that deliver higher profits and optimized customer experiences.",
-                    "logo": "/static/media/sponsors/blueyonder.png"
-                },
-                {
-                    "name": "eBay Tech Berlin",
-                    "description": "eBay Tech includes software developers, testers, data engineers & scientists as well as site operations teams from eBay Germany, eBay Kleinanzeigen, mobile.de and MOTOR-TALK. We build leading online platforms using the latest technologies and methods. We have three offices in the greater Berlin metropolitan area.",
-                    "logo": "/static/media/sponsors/logo_ebay_final-hoch.png"
-                },
-                {
-                    "name": "Flying Circus",
-                    "description": "For more than 20 years we have been involved with digitalization projects and are responsible for hosting and operating business critical applications. Constant change and growing complexity are the biggest challenges: no project is the same and nobody can predict all possible requirements. Thus we do not rely on ready-made plans but on our experience, practical solutions and close cooperation.",
-                    "logo": "/static/media/sponsors/flying-circus.png"
-                },
-                {
-                    "name": "Pivigo",
-                    "description": "Pivigo is a data science marketplace, democratising access to data innovation to all organisations, by connecting them with our global community of freelance data scientists. The Pivigo networking platform allows for profile sharing, networking, and learning data skills. Pivigo also run Europe’s largest data science training programme S2DS (Science to Data Science).",
-                    "logo": "/static/media/sponsors/pivigo.png"
-                },
-                {
-                    "name": "IBM",
-                    "description": "Share in IBM’s vision of AI for social good, our commitment to open source, and our mission of AI education for all. The IBM Data Science Community is the place for data scientists and developers to learn, share, and engage with their peers and industry leaders.Join the IBM Data Science Community and participate in shaping our digital future.",
-                    "logo": "/static/media/sponsors/ibmpos_blurgb.jpg"
-                }
-            ]
-        },
-        {
-            "name": "Silver sponsors",
-            "sponsors": [
-                {
-                    "name": "Solute",
-                    "description": "Smart online shopping is the mission of solute GmbH with its core brands billiger.de and shopping.de. Online shopping has been the passion of its 180 employees for 15 years. The innovative company also puts its know-how into its four own brands.",
-                    "logo": "/static/media/sponsors/solute.jpg"
-                },
-                {
-                    "name": "The Qt Company",
-                    "description": "Qt is used by major global companies and developers worldwide, and the technology enables its customers to deliver exceptional user experiences and advance their digital transformation initiatives.",
-                    "logo": "/static/media/sponsors/qt_logo.png"
-                },
-                {
-                    "name": "Novatec Consulting",
-                    "description": "As an independent IT specialist, we have been leading our customers into the digital future for more than 20 years – with more than 220 employees at nine locations in Europe.",
-                    "logo": "/static/media/sponsors/novatec.jpg"
-                },
-                {
-                    "name": "Pluralsight",
-                    "description": "Pluralsight is the technology learning platform for organizations that need to enhance the expertise of their technologists to keep up with the pace of technological change and deliver key innovations on time, on budget and securely.",
-                    "logo": "/static/media/sponsors/pluralsight.png"
-                },
-                {
-                    "name": "AXA Germany",
-                    "description": "With written premiums of EUR 10.7 billion (2018) and 9,038 employees, AXA Konzern is one of the leading insurance companies and financial services providers in Germany. The mindset and actions of the company are based on the customer and his needs.",
-                    "logo": "/static/media/sponsors/axa_logo_solid_rgb.svg"
-                },
-                {
-                    "name": "Ada",
-                    "description": "Ada is a global health company founded by doctors, scientists, and industry pioneers to create new possibilities for personal health. Ada’s core system connects medical knowledge with intelligent technology to help all people actively manage their health and medical professionals to deliver effective care. Ada is proud to collaborate with leading health systems and global non-profit organizations to carry out this vision.",
-                    "logo": "/static/media/sponsors/ada.png"
-                },
-                {
-                    "name": "Comtravo",
-                    "description": "Recent advancements in NLP and Machine Learning as well as top notch software engineering and devops\nenable Comtravo to simplify the business travel booking process: You can book an entire business trip quickly via\nour self-booking tool or with a single email. The rest is taken care of by our powerful human-machine hybrid.",
-                    "logo": "/static/media/sponsors/comtravo_logo.svg"
-                },
                 {
                     "name": "Delivery Hero",
                     "description": "Delivery Hero is building the next generation global on-demand delivery platform, handling millions of orders daily. To make this possible, we use Python extensively across our infrastructure, processing thousands of events per second. The Python data ecosystem drives some of our data pipelines and machine learning models as well, in order to produce a personalised experience for our millions of customers.",
@@ -161,23 +16,33 @@
             ]
         },
         {
-            "name": "Community & Financial Aid Sponsors",
+            "name": "Gold sponsors",
             "sponsors": [
                 {
-                    "name": "EuroPython Society",
-                    "description": "The EuroPython Society (EPS) is a Swedish non-profit organization which organizes EuroPython conferences, supports the Python community in Europe and holds the rights to the EuroPython conference series and trademarks.",
-                    "logo": "/static/media/sponsors/eps.png"
+                    "name": "Rosen",
+                    "description": "ROSEN is a leading privately owned company that was established in 1981. Over the last 37 years, ROSEN has grown rapidly and is today a worldwide technology group that operates in more than 120 countries with over 3100 employees.",
+                    "logo": "/static/media/sponsors/rosen.png"
                 },
                 {
-                    "name": "PyLadies Berlin",
-                    "description": "We are PyLadies Berlin, a group of girls and women coding in this lovely city. We are eager to develop and advance our knowlegde in the world of programming and you are invited to learn with us! PyLadies aims to provide a friendly support network for women and a bridge to the larger Python world.",
-                    "logo": "/static/media/sponsors/pyladies_berlin.svg"
+                    "name": "Königsweg",
+                    "description": "Königsweg supports corporate and public clients in achieving better transformation results. Leveraging a broad network of subject matter experts, Königsweg consultants connect different business divisions and turn them into an integrated unit through future-proof technology.",
+                    "logo": "/static/media/sponsors/konigsweg.png"
                 },
                 {
-                    "name": "Python Software Foundation",
-                    "description": "The mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers.",
-                    "logo": "/static/media/sponsors/psf.png"
+                    "name": "New Yorker",
+                    "description": "",
+                    "logo": ""
                 }
+            ]
+        },
+        {
+            "name": "Silver sponsors",
+            "sponsors": [
+            ]
+        },
+        {
+            "name": "Community & Financial Aid Sponsors",
+            "sponsors": [
             ]
         }
     ]

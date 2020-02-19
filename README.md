@@ -1,4 +1,4 @@
-PyCon.DE & PyData Berlin 2019 Website
+PyCon.DE & PyData Berlin 2020 Website
 ================================
 
 

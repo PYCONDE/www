@@ -511,7 +511,7 @@ class ScheduleFromGSheet:
             session_details['track'] = "pycon-pydata"
             session_details['add_to_class'] = "color--primary"
             session_details['short_description'] = "Join the community for a joyful evening with dinner and drinks. An opportunity to interact, discuss, network and spread ideas - or just to relax."
-            session_details['url'] = f"/blog/ibm-party-pycon-de-and-pydata-berlin-2019"  # convention
+            session_details['url'] = f"/blog/party-pycon-de-and-pydata-berlin-2020"  # convention
             session_details['clipcard_icon'] = "fa-users"
         elif contents and 'closing session' in contents_str.lower():
             session_details['title'] = "Closing Session"

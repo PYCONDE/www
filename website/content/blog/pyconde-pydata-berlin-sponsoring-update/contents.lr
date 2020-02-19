@@ -1,12 +1,16 @@
 title: Sponsoring Update
 ---
-pub_date: 2019-06-10
+pub_date: 2020-06-10
 ---
 author: Organisers
 ---
 description: Call for Sponsors: discover how your sponsorship helps keep PyCon.DE & PyData Berlin affordable and accessible to a wide and diverse audience.
 ---
 twitter_image: /static/media/twitter/PyConDEPyDataSquare.jpg
+---
+_discoverable: no
+---
+_hidden: yes
 ---
 body:
 

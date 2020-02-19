@@ -2,16 +2,15 @@ title: What, when, where, again?
 ---
 author: ORGANISERS
 ---
-description:
-
-Events and info for conference attendees 
+description: Events and info for conference attendees
 ---
-pub_date: 2019-10-08
+pub_date: 2020-10-08
 ---
-twitter_handle:
-
-pyconde
-
+twitter_handle: pyconde
+---
+_discoverable: no
+---
+_hidden: yes
 ---
 body:
 
@@ -33,7 +32,7 @@ where: entrance hall
 *Buy your ticket online first.*
 
 Party 19:00 - 01:00
-where: Haus Ungarn <a href="/blog/ibm-party-pycon-de-and-pydata-berlin-2019/">link with details</a>
+where: Haus Ungarn <a href="/blog/ibm-party-pycon-de-and-pydata-berlin-2020/">link with details</a>
 *please pick up your ribbon at the venue!*
 
 #### Hashtags

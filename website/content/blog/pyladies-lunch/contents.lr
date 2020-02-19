@@ -4,7 +4,7 @@ author: ORGANISERS
 ---
 body:
 
-This year, we hope to make Pycon DE & PyData Berlin 2019 conference very diverse and inclusive.
+This year, we hope to make Pycon DE & PyData Berlin 2020 conference very diverse and inclusive.
 
 We will have a PyLadies lunch the **first day** of the conference, within the venue area.
 
@@ -19,17 +19,18 @@ Please do so as soon as possible, that helps us make this experience better for 
 * Location: Kosmos lounge
 * When: October 9th, 13:00 - 14:00
 * Who: Anyone who identifies as a woman or non binary who is attending the conference
-* RSVP: [Eventbrite registration](https://www.eventbrite.com/e/pyladies-lunch-pycon-de-pydata-2019-registration-69950093613)
+* RSVP: [Eventbrite registration](https://www.eventbrite.com/e/pyladies-lunch-pycon-de-pydata-2020-registration-69950093613)
 
 ---
-description: PyLadies lunch @ PyCon DE & PyData Berlin 2019
+description: PyLadies lunch @ PyCon DE & PyData Berlin 2020
 ---
-pub_date: 2019-08-26
+pub_date: 2020-08-26
 ---
 twitter_handle: PyConDE
 ---
 twitter_image: /static/media/twitter/PyConDEPyData.jpg
 ---
-_hidden: no
+_discoverable: no
 ---
-_discoverable: yes
+_hidden: yes
+

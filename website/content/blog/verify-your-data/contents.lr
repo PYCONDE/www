@@ -2,6 +2,10 @@ title: Verify your Data
 ---
 author: ORGANISERS
 ---
+_discoverable: no
+---
+_hidden: yes
+---
 body:
 
 Three weeks until the conference, time for us to order T-Shirts, badges and catering.   
@@ -42,6 +46,6 @@ Thank you in advance.
 ---
 description: Validate attendee information for the conference.
 ---
-pub_date: 2019-09-17
+pub_date: 2020-09-17
 ---
 twitter_handle: PyConDE
