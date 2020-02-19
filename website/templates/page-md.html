@@ -1,22 +1,23 @@
 {% extends "layout.html" %}
 {% from "macros/blog.html" import render_blog_post %}
 {% block title %}{{ this.title }}{% endblock %}
-{% block body %}
-<main class="site-main" id="main">
-  <section class="section section--singular">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-xl-10 offset-xl-1">
-          <header class="page-header text-center">
-            <h1 class="page-title">{{ this.title }}</h1>
-          </header>
-          <div class="single-content">
-            {{ this.body }}
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-</main>
+{% block body %}
+    <main class="site-main" id="main">
+        <section class="section section--singular">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-xl-10 offset-xl-1">
+                        <header class="page-header text-center">
+                            <h1 class="page-title">{{ this.title }}</h1>
+                        </header>
+                        <div class="single-content">
+                            {{ this.body }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
 {% endblock %}

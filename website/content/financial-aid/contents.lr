@@ -1,10 +1,14 @@
-title: Financial Aid Programme
+title:
+
+Financial Aid Programme
 ---
-_template: page-md.html
+description:
+
+We are happy to announce our Financial Aid Programme!
 ---
-description: We are happy to announce our Financial Aid Programme!
----
-twitter_image: /static/media/twitter/Berlin-2020-Finaid.jpg
+twitter_image:
+
+/static/media/twitter/Berlin-2020-Finaid.jpg
 ---
 body:
 
@@ -54,3 +58,6 @@ Check the [sponsor brochure](/static/files/PyConDE-PyData-BerlinSponsoringsheet-
 
 Thank you.
 See you at PyConDE & PyData Berlin 2020.
+
+---
+_template: page-md.html
