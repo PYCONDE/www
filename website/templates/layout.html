@@ -53,7 +53,7 @@
         {% set turl = this.twitter_image %}
         <meta name="twitter:image" content="{{ site.config.PROJECT.url }}{{ turl|asseturl }}">
     {% else %}
-        <meta name="twitter:image" content="{{ site.config.PROJECT.url }}{{ site.config.PROJECT.twitter_card|asseturl }}">
+        <meta name="twitter:image" content="{{ site.config.PROJECT.url }}{{ site.config.PROJECT.twitter_card|url }}">
     {% endif %}
 
 </head>
