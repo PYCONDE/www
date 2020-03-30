@@ -30,8 +30,8 @@
                 },
                 {
                     "name": "New Yorker",
-                    "description": "",
-                    "logo": ""
+                    "description": "NEW YORKER is one of the leading German fashion retailers with over 1100 stores in 45 countries. Agility in a fast-moving market has helped to make NEW YORKER a thriving business for more than 40 years running. The Data Science department uses state-of-the-art machine learning and optimization techniques to continuously improve business processes at NEW YORKER. We are a very ambitious and international team and are proud of our high standards.",
+                    "logo": "/static/media/sponsors/NewYorker.png"
                 }
             ]
         },
