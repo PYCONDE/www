@@ -2,7 +2,7 @@ title: Call for Proposals
 ---
 _template: page-md.html
 ---
-description: We are looking forward to submissions all around the Python language and PyData topics. Open until TBA.
+description: We are looking forward to submissions all around the Python language and PyData topics.
 ---
 twitter_image: /static/media/twitter/PyConDEPyDataSquare.jpg
 ---
@@ -17,11 +17,7 @@ body:
 This conference is a joint effort and a collaboration between PyConDE and PyData Berlin,
 hence there will be dedicated tracks for each area.
 
-#### Important Dates
-- TBA call for speakers opens
-- TBA End of Call for Proposals
-- TBA talk acceptance send out
-- TBA schedule is published
+
 
 Please go to our [Pretalx website](https://pretalx.com/pyconde-pydata-berlin-2020/cfp) to submit your proposals.
 You will need to set up an account there (it can be deleted by you anytime), you can edit your proposals until the CfP closes.
@@ -34,9 +30,6 @@ PyConDE brings together developers, programmers, DevOps, scientists and others f
 
 PyData brings together analysts, scientists, developers, engineers, enthusiasts and others from the data science community to discuss applications of new tools and techniques within data science. Our talks often include data management, analytics, visualization as well as new machine learning approaches including statistical and neural network approaches.
 
-
-##### Please [submit your proposal](https://pretalx.com/pyconde-pydata-berlin-2020/cfp) until
-> Sunday TBA 23:59:59 UTC
 
 #### Layout
 As of now, the conference will feature five tracks (5 talks) having more than 100 sessions, there will be tutorials as well - we’ll add more information about tutorials soon.
@@ -161,7 +154,7 @@ As a reminder, PyConDE and PyData presentations are intended to share knowledge 
 The mission of the US 501(c)3 public charity is to promote sustainable high-level programming languages, open code development, and reproducible scientific research.
 
 ##### [Python Software Verband](https://python-verband.org/)
-Is a public charity supporting and furthering the Python language in Germany.
+Is a public charity supporting and furthering the Python language in Germany, Austria, and Switzerland.
 
 Meet and engage with Python developers and enthusiasts at the conference. This conference is an excellent opportunity to present your company, organization and products or services to a friendly and interested audience.
 
