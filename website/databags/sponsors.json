@@ -8,31 +8,13 @@
         {
             "name": "Platinum sponsors",
             "sponsors": [
-                {
-                    "name": "Delivery Hero",
-                    "description": "Delivery Hero is building the next generation global on-demand delivery platform, handling millions of orders daily. To make this possible, we use Python extensively across our infrastructure, processing thousands of events per second. The Python data ecosystem drives some of our data pipelines and machine learning models as well, in order to produce a personalised experience for our millions of customers.",
-                    "logo": "/static/media/sponsors/deliveryhero.png"
-                }
+
             ]
         },
         {
             "name": "Gold sponsors",
             "sponsors": [
-                {
-                    "name": "Rosen",
-                    "description": "ROSEN is a leading privately owned company that was established in 1981. Over the last 37 years, ROSEN has grown rapidly and is today a worldwide technology group that operates in more than 120 countries with over 3100 employees.",
-                    "logo": "/static/media/sponsors/rosen.png"
-                },
-                {
-                    "name": "Königsweg",
-                    "description": "Königsweg supports corporate and public clients in achieving better transformation results. Leveraging a broad network of subject matter experts, Königsweg consultants connect different business divisions and turn them into an integrated unit through future-proof technology.",
-                    "logo": "/static/media/sponsors/konigsweg.png"
-                },
-                {
-                    "name": "New Yorker",
-                    "description": "NEW YORKER is one of the leading German fashion retailers with over 1100 stores in 45 countries. Agility in a fast-moving market has helped to make NEW YORKER a thriving business for more than 40 years running. The Data Science department uses state-of-the-art machine learning and optimization techniques to continuously improve business processes at NEW YORKER. We are a very ambitious and international team and are proud of our high standards.",
-                    "logo": "/static/media/sponsors/NewYorker.png"
-                }
+
             ]
         },
         {

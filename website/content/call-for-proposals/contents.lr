@@ -6,18 +6,18 @@ description: We are looking forward to submissions all around the Python languag
 ---
 twitter_image: /static/media/twitter/PyConDEPyDataSquare.jpg
 ---
+_discoverable: no
+---
+_hidden: yes
+---
 body:
 
- ![PyConDE & PyData Berlin 2020](/static/media/PyConDEPyDataBER-1800-transparent.png)
+ ![PyConDE & PyData Berlin 2021](/static/media/PyConDEPyDataBER-1800-transparent.png)
 
 This conference is a joint effort and a collaboration between PyConDE and PyData Berlin,
 hence there will be dedicated tracks for each area.
 
-#### Important Dates
-- Feb 19 call for speakers opens
-- June 2 End of Call for Proposals (extended from May 5)
-- July 1 talk acceptance send out
-- August 1 schedule is published
+
 
 Please go to our [Pretalx website](https://pretalx.com/pyconde-pydata-berlin-2020/cfp) to submit your proposals.
 You will need to set up an account there (it can be deleted by you anytime), you can edit your proposals until the CfP closes.
@@ -30,9 +30,6 @@ PyConDE brings together developers, programmers, DevOps, scientists and others f
 
 PyData brings together analysts, scientists, developers, engineers, enthusiasts and others from the data science community to discuss applications of new tools and techniques within data science. Our talks often include data management, analytics, visualization as well as new machine learning approaches including statistical and neural network approaches.
 
-
-##### Please [submit your proposal](https://pretalx.com/pyconde-pydata-berlin-2020/cfp) until
-> Sunday June 2 23:59:59 UTC
 
 #### Layout
 As of now, the conference will feature five tracks (5 talks) having more than 100 sessions, there will be tutorials as well - we’ll add more information about tutorials soon.

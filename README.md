@@ -27,7 +27,7 @@ Build content pages (talks, tutorials, :
     python process_sessions.py
  
 
-Do **not remove** google5309bb60aa53ebd2.html, it'S used for site verification for YouTube.
+Do **not remove** google5309bb60aa53ebd2.html, it's used for site verification for YouTube.
 
 ## Twitter
 

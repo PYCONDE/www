@@ -5,20 +5,8 @@
       "path": "/blog"
     },
     {
-      "name": "Sponsors",
-      "path": "/sponsors"
-    },
-    {
-      "name": "Financial Aid",
-      "path": "/financial-aid"
-    },
-    {
       "name": "FAQ",
       "path": "/frequently-asked-questions/"
-    },
-    {
-      "name": "Call for Proposals",
-      "path": "/call-for-proposals"
     },
     {
       "name": "Code of Conduct",
