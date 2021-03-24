@@ -76,7 +76,7 @@ PyYAML==4.2b1
 pyzmq==18.1.0
 requests==2.21.0
 requests-oauthlib==1.2.0
-rsa==4.0
+rsa==4.1
 s3transfer==0.2.1
 Send2Trash==1.5.0
 six==1.12.0
