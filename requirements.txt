@@ -66,7 +66,7 @@ ptyprocess==0.6.0
 pyasn1==0.4.6
 pyasn1-modules==0.2.6
 pycparser==2.19
-Pygments==2.4.2
+Pygments==2.7.4
 pyOpenSSL==19.0.0
 pyrsistent==0.15.4
 PySocks==1.7.1
