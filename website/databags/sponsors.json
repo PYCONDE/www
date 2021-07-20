@@ -23,8 +23,19 @@
             ]
         },
         {
-            "name": "Community & Financial Aid Sponsors",
+            "name": "Community sponsors",
             "sponsors": [
+                {
+                    "name": "Königsweg",
+                    "description": "Königsweg supports corporate and public clients in achieving better transformation results. Leveraging a broad network of subject matter experts, Königsweg consultants connect different business divisions and turn them into an integrated unit through future-proof technology.",
+                    "logo": "/static/media/sponsors/konigsweg.png"
+                }
+            ]
+        },
+        {
+            "name": "Financial Aid Sponsors",
+            "sponsors": [
+
             ]
         }
     ]
