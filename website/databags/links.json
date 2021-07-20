@@ -3,6 +3,9 @@
     {
       "name": "Blog",
       "path": "/blog"
+    },{
+      "name": "Sponsoring",
+      "path": "/blog/pyconde-pydata-berlin-call-for-sponsors"
     },
     {
       "name": "FAQ",
